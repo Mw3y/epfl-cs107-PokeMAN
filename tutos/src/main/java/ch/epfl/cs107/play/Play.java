@@ -8,6 +8,7 @@ import ch.epfl.cs107.play.io.ResourceFileSystem;
 import ch.epfl.cs107.play.recorder.RecordReplayer;
 import ch.epfl.cs107.play.recorder.Recorder;
 import ch.epfl.cs107.play.tuto1.Tuto1;
+import ch.epfl.cs107.play.tuto2.Tuto2;
 import ch.epfl.cs107.play.window.Window;
 import ch.epfl.cs107.play.window.swing.SwingWindow;
 
@@ -18,8 +19,8 @@ public class Play {
 
 	/** One second in nanosecond */
     private static final float ONE_SEC = 1E9f;
-	public static final int WINDOW_HEIGHT = 550;
-	public static final int WINDOW_WIDTH = 550;
+	public static final int WINDOW_HEIGHT = 720;
+	public static final int WINDOW_WIDTH = 1278;
 
 	/**
 	 * Main entry point.
@@ -31,7 +32,7 @@ public class Play {
 		final FileSystem fileSystem = new ResourceFileSystem(DefaultFileSystem.INSTANCE);
 
         // Create a demo game and initialize corresponding texts
-        final Game game = new Tuto1();
+        final Game game = new Tuto2();
 
 
         // Use Swing display
