@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>ch.epfl.cs107</groupId>
+        <artifactId>mp2</artifactId>
+        <version>2023</version>
+    </parent>
+
+    <artifactId>icmon</artifactId>
+    <version>1.0.0-provided</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>gitlab-epfl</id>
+            <url>https://ic-gitlab.epfl.ch/api/v4/projects/16734/packages/maven</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+            <!--
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>ch.epfl.cs107.play.Play</mainClass>
+                </configuration>
+            </plugin>
+            -->
+            <plugin>
+                <groupId>ch.epfl.cs107</groupId>
+                <artifactId>submission-maven-plugin</artifactId>
+                <version>1.0.0-RC1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>package-submission</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>ch.epfl.cs107</groupId>
+            <artifactId>game-engine</artifactId>
+            <version>2023</version>
+        </dependency>
+    </dependencies>
+
+</project>
