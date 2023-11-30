@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Distrod" type="wsl" uuid="689141e5-88df-4842-aca1-50e2817ddf42">
+        <config>
+          <option name="distributionMsId" value="Distrod" />
+          <option name="projectRootOnTarget" value="{exitCode=0, timeout=false, cancelled=false, stdout=/mnt/c/Users/Maxence/AppData/Local/Programs/IntelliJ IDEA Ultimate/jbr/bin&#10;, stderr=}/MP2-2023" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="javaVersionString" value="21" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

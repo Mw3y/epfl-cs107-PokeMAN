@@ -1,5 +1,6 @@
 package ch.epfl.cs107;
 
+import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.play.engine.Game;
 import ch.epfl.cs107.play.io.DefaultFileSystem;
 import ch.epfl.cs107.play.io.FileSystem;
@@ -30,7 +31,7 @@ public class Play {
 		final FileSystem fileSystem = new ResourceFileSystem(DefaultFileSystem.INSTANCE);
 
         // Create a demo game and initialize corresponding texts
-        //final Game game = new ICMon();
+		final Game game = new ICMon();
 
 
         // Use Swing display

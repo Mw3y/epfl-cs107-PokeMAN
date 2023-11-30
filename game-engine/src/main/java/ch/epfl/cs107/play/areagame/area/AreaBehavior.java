@@ -35,7 +35,7 @@ public abstract class AreaBehavior implements Interactable.Listener, Interactor.
      */
     public AreaBehavior(Window window, String name){
         // Load the image
-        //System.out.println(ResourcePath.getBehavior(name));
+        // System.out.println(ResourcePath.getBehavior(name));
         behaviorMap = window.getImage(ResourcePath.getBehavior(name), null, false);
         // Get the corresponding dimension and init the array
         height = behaviorMap.getHeight();

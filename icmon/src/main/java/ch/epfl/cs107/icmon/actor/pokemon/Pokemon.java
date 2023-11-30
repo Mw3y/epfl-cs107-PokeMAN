@@ -12,19 +12,19 @@ public abstract class Pokemon {
      */
     public final class PokemonProperties {
 
-        public String name(){
+        public String name() {
             return null;
         }
 
-        public float hp(){
+        public float hp() {
             return 0f;
         }
 
-        public float maxHp(){
+        public float maxHp() {
             return 0f;
         }
 
-        public int damage(){
+        public int damage() {
             return 0;
         }
 

@@ -1,9 +1,9 @@
-package ch.epfl.cs107.play.tuto2.actor;
+package ch.epfl.cs107.icmon.actor;
 
 import ch.epfl.cs107.play.areagame.actor.MovableAreaEntity;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
-import ch.epfl.cs107.play.engine.actor.Sprite;
+import ch.epfl.cs107.play.engine.actor.OrientedAnimation;
 import ch.epfl.cs107.play.engine.actor.TextGraphics;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
@@ -19,65 +19,67 @@ import java.util.List;
 /**
  * ???
  */
-public final class GhostPlayer extends MovableAreaEntity {
-
-    /** ??? */
-    private final static int MOVE_DURATION = 2;
-    /** ??? */
-    private final TextGraphics message;
-    /** ??? */
-    private final Sprite sprite;
-    /** ??? */
-    private float hp;
+public final class ICMonPlayer extends MovableAreaEntity {
 
     /**
      * ???
-     * @param owner ???
+     */
+    private final static int MOVE_DURATION = 2;
+    private final static int ANIMATION_DURATION = 4;
+
+    /**
+     * ???
+     */
+    private final OrientedAnimation sprite;
+
+    /**
+     * ???
+     *
+     * @param owner       ???
      * @param orientation ???
      * @param coordinates ???
-     * @param spriteName ???
+     * @param spriteName  ???
      */
-    public GhostPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, String spriteName) {
+    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, String spriteName) {
         super(owner, orientation, coordinates);
-        this.hp = 10;
-        message = new TextGraphics(Integer.toString((int) hp), 0.4f, Color.BLUE);
-        message.setParent(this);
-        message.setAnchor(new Vector(-0.3f, 0.1f));
-        sprite = new Sprite(spriteName, 1.f, 1.f, this);
+        sprite = new OrientedAnimation(spriteName, ANIMATION_DURATION / 2, orientation, this);
         resetMotion();
     }
 
     /**
      * ???
+     *
      * @param deltaTime elapsed time since last update, in seconds, non-negative
      */
     @Override
     public void update(float deltaTime) {
-        if (hp > 0) {
-            hp -= deltaTime;
-            message.setText(Integer.toString((int) hp));
-        }
-        if (hp < 0) hp = 0.f;
         Keyboard keyboard = getOwnerArea().getKeyboard();
+
         moveIfPressed(Orientation.LEFT, keyboard.get(Keyboard.LEFT));
         moveIfPressed(Orientation.UP, keyboard.get(Keyboard.UP));
         moveIfPressed(Orientation.RIGHT, keyboard.get(Keyboard.RIGHT));
         moveIfPressed(Orientation.DOWN, keyboard.get(Keyboard.DOWN));
+
+        // Animate the player sprite on movement
+        if (!isDisplacementOccurs()) sprite.reset();
+        else sprite.update(deltaTime);
+
         super.update(deltaTime);
     }
 
     /**
      * ???
+     *
      * @param canvas target, not null
      */
     @Override
     public void draw(Canvas canvas) {
         sprite.draw(canvas);
-        message.draw(canvas);
     }
 
     /**
      * ???
+     *
      * @return ???
      */
     @Override
@@ -87,6 +89,7 @@ public final class GhostPlayer extends MovableAreaEntity {
 
     /**
      * ???
+     *
      * @return ???
      */
     @Override
@@ -96,6 +99,7 @@ public final class GhostPlayer extends MovableAreaEntity {
 
     /**
      * ???
+     *
      * @return ???
      */
     @Override
@@ -113,7 +117,8 @@ public final class GhostPlayer extends MovableAreaEntity {
 
     /**
      * ???
-     * @param v (AreaInteractionVisitor) : the visitor
+     *
+     * @param v                 (AreaInteractionVisitor) : the visitor
      * @param isCellInteraction ???
      */
     @Override
@@ -131,6 +136,7 @@ public final class GhostPlayer extends MovableAreaEntity {
         if (b.isDown()) {
             if (!isDisplacementOccurs()) {
                 orientate(orientation);
+                sprite.orientate(orientation);
                 move(MOVE_DURATION);
             }
         }
@@ -145,6 +151,7 @@ public final class GhostPlayer extends MovableAreaEntity {
 
     /**
      * ???
+     *
      * @param area     (Area): initial area, not null
      * @param position (DiscreteCoordinates): initial position, not null
      */
@@ -157,25 +164,9 @@ public final class GhostPlayer extends MovableAreaEntity {
     }
 
     /**
-     * ???
-     * @return ???
-     */
-    public boolean isWeak() {
-        return (hp <= 0.f);
-    }
-
-    /**
      * Center the camera on the player
      */
     public void centerCamera() {
         getOwnerArea().setViewCandidate(this);
     }
-
-    /**
-     * ???
-     */
-    public void strengthen() {
-        hp = 10;
-    }
-
 }
