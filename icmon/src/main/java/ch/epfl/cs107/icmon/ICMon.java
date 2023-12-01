@@ -41,7 +41,7 @@ public class ICMon extends AreaGame {
     public void update(float deltaTime) {
         // "Reset" development feature
         Keyboard keyboard = getWindow().getKeyboard();
-        if (keyboard.get(Keyboard.R).isDown()) {
+        if (keyboard.get(Keyboard.R).isPressed()) {
             // There's no need to unregister anything since the areas map
             // will automatically be overridden by the begin() method
             begin(getWindow(), getFileSystem());
@@ -54,7 +54,7 @@ public class ICMon extends AreaGame {
         ICMonArea area = (ICMonArea) setCurrentArea(areaKey, true);
         DiscreteCoordinates coords = area.getPlayerSpawnPosition();
         // Initialize player
-        player = new ICMonPlayer(area, Orientation.DOWN, coords, "actors/player");
+        player = new ICMonPlayer(area, Orientation.DOWN, coords);
         player.enterArea(area, coords);
         player.centerCamera();
     }

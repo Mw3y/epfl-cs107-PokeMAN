@@ -1,5 +1,10 @@
 package ch.epfl.cs107.icmon.actor;
 
+import ch.epfl.cs107.icmon.actor.items.ICBall;
+import ch.epfl.cs107.icmon.area.ICMonBehavior;
+import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
+import ch.epfl.cs107.play.areagame.actor.Interactable;
+import ch.epfl.cs107.play.areagame.actor.Interactor;
 import ch.epfl.cs107.play.areagame.actor.MovableAreaEntity;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
@@ -15,11 +20,16 @@ import ch.epfl.cs107.play.window.Keyboard;
 import java.awt.*;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 /**
  * ???
  */
-public final class ICMonPlayer extends MovableAreaEntity {
+public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
+
+    enum PlayerSprite {
+        GROUND
+    }
 
     /**
      * ???
@@ -30,7 +40,12 @@ public final class ICMonPlayer extends MovableAreaEntity {
     /**
      * ???
      */
-    private final OrientedAnimation sprite;
+    private OrientedAnimation currentSprite;
+    private OrientedAnimation walkSprite;
+    private OrientedAnimation surfSprite;
+
+
+    private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
 
     /**
      * ???
@@ -38,12 +53,17 @@ public final class ICMonPlayer extends MovableAreaEntity {
      * @param owner       ???
      * @param orientation ???
      * @param coordinates ???
-     * @param spriteName  ???
      */
-    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, String spriteName) {
+    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates) {
         super(owner, orientation, coordinates);
-        sprite = new OrientedAnimation(spriteName, ANIMATION_DURATION / 2, orientation, this);
+        walkSprite = new OrientedAnimation("actors/player", ANIMATION_DURATION / 2, getOrientation(), this);
+        surfSprite = new OrientedAnimation("actors/player_water", ANIMATION_DURATION / 2, getOrientation(), this);
+        currentSprite = walkSprite;
         resetMotion();
+    }
+
+    private OrientedAnimation createSprite(String spriteName) {
+        return new OrientedAnimation(spriteName, ANIMATION_DURATION / 2, getOrientation(), this);
     }
 
     /**
@@ -61,8 +81,8 @@ public final class ICMonPlayer extends MovableAreaEntity {
         moveIfPressed(Orientation.DOWN, keyboard.get(Keyboard.DOWN));
 
         // Animate the player sprite on movement
-        if (!isDisplacementOccurs()) sprite.reset();
-        else sprite.update(deltaTime);
+        if (!isDisplacementOccurs()) currentSprite.reset();
+        else currentSprite.update(deltaTime);
 
         super.update(deltaTime);
     }
@@ -74,7 +94,7 @@ public final class ICMonPlayer extends MovableAreaEntity {
      */
     @Override
     public void draw(Canvas canvas) {
-        sprite.draw(canvas);
+        currentSprite.draw(canvas);
     }
 
     /**
@@ -115,6 +135,26 @@ public final class ICMonPlayer extends MovableAreaEntity {
         return Collections.singletonList(getCurrentMainCellCoordinates());
     }
 
+    @Override
+    public List<DiscreteCoordinates> getFieldOfViewCells() {
+        return Collections.singletonList(getCurrentMainCellCoordinates().jump(getOrientation().toVector()));
+    }
+
+    @Override
+    public boolean wantsCellInteraction() {
+        return true;
+    }
+
+    @Override
+    public boolean wantsViewInteraction() {
+        return getOwnerArea().getKeyboard().get(Keyboard.L).isDown();
+    }
+
+    @Override
+    public void interactWith(Interactable other, boolean isCellInteraction) {
+        other.acceptInteraction(handler, isCellInteraction);
+    }
+
     /**
      * ???
      *
@@ -123,7 +163,7 @@ public final class ICMonPlayer extends MovableAreaEntity {
      */
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
-
+        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
 
     /**
@@ -136,7 +176,7 @@ public final class ICMonPlayer extends MovableAreaEntity {
         if (b.isDown()) {
             if (!isDisplacementOccurs()) {
                 orientate(orientation);
-                sprite.orientate(orientation);
+                currentSprite.orientate(orientation);
                 move(MOVE_DURATION);
             }
         }
@@ -168,5 +208,24 @@ public final class ICMonPlayer extends MovableAreaEntity {
      */
     public void centerCamera() {
         getOwnerArea().setViewCandidate(this);
+    }
+
+    private class ICMonPlayerInteractionHandler implements  ICMonInteractionVisitor {
+        @Override
+        public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
+            // Close range interaction
+            if (isCellInteraction) {
+               switch (cell.getWalkingType()) {
+                   case SURF -> currentSprite = surfSprite;
+                   case FEET -> currentSprite = walkSprite;
+                   // default : Keep current sprite
+               }
+            }
+        }
+
+        @Override
+        public void interactWith(ICBall ball, boolean isCellInteraction) {
+            ball.collect();
+        }
     }
 }

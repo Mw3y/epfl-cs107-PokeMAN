@@ -1,5 +1,6 @@
 package ch.epfl.cs107.icmon.area;
 
+import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
 import ch.epfl.cs107.play.areagame.area.AreaBehavior;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
@@ -40,6 +41,7 @@ public class ICMonBehavior extends AreaBehavior {
         GRASS(-16743680, AllowedWalkingType.FEET);
 
         final int type;
+
         final AllowedWalkingType allowedWalkingType;
 
         ICMonCellType(int type, AllowedWalkingType allowedWalkingType) {
@@ -48,15 +50,6 @@ public class ICMonBehavior extends AreaBehavior {
         }
 
         public static ICMonCellType toType(int type) {
-            /*
-            for (ICMonCellType ict : ICMonCellType.values()) {
-                if (ict.type == type)
-                    return ict;
-            }
-            // When you add a new color, you can print the int value here before assign it to a type
-            System.out.println(type);
-            return NULL;
-            */
             return Arrays.stream(ICMonCellType.values())
                     .filter(ict -> ict.type == type).findFirst().orElse(NULL);
         }
@@ -80,6 +73,14 @@ public class ICMonBehavior extends AreaBehavior {
         public ICMonCell(int x, int y, ICMonCellType type) {
             super(x, y);
             this.type = type;
+        }
+
+        public ICMonCellType getType() {
+            return type;
+        }
+
+        public AllowedWalkingType getWalkingType() {
+            return type.allowedWalkingType;
         }
 
         @Override
@@ -109,7 +110,7 @@ public class ICMonBehavior extends AreaBehavior {
 
         @Override
         public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+            ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
         }
-
     }
 }
