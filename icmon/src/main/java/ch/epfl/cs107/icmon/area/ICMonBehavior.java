@@ -90,6 +90,7 @@ public class ICMonBehavior extends AreaBehavior {
 
         @Override
         protected boolean canEnter(Interactable entity) {
+            // TODO: Allow entities that does not take space to enter
             return type.isWalkable(entity) && !takeCellSpace();
         }
 

@@ -25,11 +25,7 @@ import java.util.Map;
 /**
  * ???
  */
-public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
-
-    enum PlayerSprite {
-        GROUND
-    }
+public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     /**
      * ???
@@ -41,8 +37,8 @@ public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
      * ???
      */
     private OrientedAnimation currentSprite;
-    private OrientedAnimation walkSprite;
-    private OrientedAnimation surfSprite;
+    private final OrientedAnimation walkSprite;
+    private final OrientedAnimation surfSprite;
 
 
     private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
@@ -60,10 +56,6 @@ public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
         surfSprite = new OrientedAnimation("actors/player_water", ANIMATION_DURATION / 2, getOrientation(), this);
         currentSprite = walkSprite;
         resetMotion();
-    }
-
-    private OrientedAnimation createSprite(String spriteName) {
-        return new OrientedAnimation(spriteName, ANIMATION_DURATION / 2, getOrientation(), this);
     }
 
     /**
@@ -97,44 +89,6 @@ public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
         currentSprite.draw(canvas);
     }
 
-    /**
-     * ???
-     *
-     * @return ???
-     */
-    @Override
-    public boolean takeCellSpace() {
-        return true;
-    }
-
-    /**
-     * ???
-     *
-     * @return ???
-     */
-    @Override
-    public boolean isCellInteractable() {
-        return true;
-    }
-
-    /**
-     * ???
-     *
-     * @return ???
-     */
-    @Override
-    public boolean isViewInteractable() {
-        return true;
-    }
-
-    /**
-     * ???
-     */
-    @Override
-    public List<DiscreteCoordinates> getCurrentCells() {
-        return Collections.singletonList(getCurrentMainCellCoordinates());
-    }
-
     @Override
     public List<DiscreteCoordinates> getFieldOfViewCells() {
         return Collections.singletonList(getCurrentMainCellCoordinates().jump(getOrientation().toVector()));
@@ -156,17 +110,6 @@ public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
     }
 
     /**
-     * ???
-     *
-     * @param v                 (AreaInteractionVisitor) : the visitor
-     * @param isCellInteraction ???
-     */
-    @Override
-    public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
-        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
-    }
-
-    /**
      * Orientate and Move this player in the given orientation if the given button is down
      *
      * @param orientation (Orientation): given orientation, not null
@@ -176,41 +119,12 @@ public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
         if (b.isDown()) {
             if (!isDisplacementOccurs()) {
                 orientate(orientation);
-                currentSprite.orientate(orientation);
                 move(MOVE_DURATION);
             }
         }
     }
 
-    /**
-     * Leave an area by unregister this player
-     */
-    public void leaveArea() {
-        getOwnerArea().unregisterActor(this);
-    }
-
-    /**
-     * ???
-     *
-     * @param area     (Area): initial area, not null
-     * @param position (DiscreteCoordinates): initial position, not null
-     */
-    public void enterArea(Area area, DiscreteCoordinates position) {
-        area.registerActor(this);
-        area.setViewCandidate(this);
-        setOwnerArea(area);
-        setCurrentPosition(position.toVector());
-        resetMotion();
-    }
-
-    /**
-     * Center the camera on the player
-     */
-    public void centerCamera() {
-        getOwnerArea().setViewCandidate(this);
-    }
-
-    private class ICMonPlayerInteractionHandler implements  ICMonInteractionVisitor {
+    private class ICMonPlayerInteractionHandler implements ICMonInteractionVisitor {
         @Override
         public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
             // Close range interaction
@@ -220,6 +134,7 @@ public final class ICMonPlayer extends MovableAreaEntity implements Interactor {
                    case FEET -> currentSprite = walkSprite;
                    // default : Keep current sprite
                }
+               currentSprite.orientate(getOrientation());
             }
         }
 

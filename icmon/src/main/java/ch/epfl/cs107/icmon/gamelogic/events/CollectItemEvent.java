@@ -1,0 +1,22 @@
+package ch.epfl.cs107.icmon.gamelogic.events;
+
+import ch.epfl.cs107.icmon.actor.items.ICMonItem;
+import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
+
+public class CollectItemEvent extends ICMonEvent {
+
+    private final ICMonItem item;
+
+    public CollectItemEvent(ICMonItem itemToCollect) {
+        item = itemToCollect;
+        onStart(new LogAction("CollectItemEvent started!"));
+        onComplete(new LogAction("CollectItemEvent completed!"));
+    }
+
+    @Override
+    public void update(float deltaTime) {
+        if (item.isCollected()) {
+            complete();
+        }
+    }
+}
