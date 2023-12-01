@@ -2,11 +2,13 @@ package ch.epfl.cs107.icmon.actor;
 
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
+import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
 import ch.epfl.cs107.play.areagame.actor.Interactor;
 import ch.epfl.cs107.play.areagame.area.Area;
+import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.engine.actor.OrientedAnimation;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
@@ -27,9 +29,11 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      */
     private final static int MOVE_DURATION = 2;
     private final static int ANIMATION_DURATION = 4;
+
     private final OrientedAnimation walkSprite;
     private final OrientedAnimation surfSprite;
     private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
+    private final ICMon.ICMonGameState gameState;
     /**
      * ???
      */
@@ -48,6 +52,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         surfSprite = new OrientedAnimation("actors/player_water", ANIMATION_DURATION / 2, getOrientation(), this);
         currentSprite = walkSprite;
         resetMotion();
+
+        this.gameState = gameState;
     }
 
     /**
@@ -79,6 +85,17 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     @Override
     public void draw(Canvas canvas) {
         currentSprite.draw(canvas);
+    }
+
+    /**
+     * ???
+     *
+     * @param v                 (AreaInteractionVisitor) : the visitor
+     * @param isCellInteraction ???
+     */
+    @Override
+    public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
 
     @Override
@@ -117,6 +134,9 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     }
 
     private class ICMonPlayerInteractionHandler implements ICMonInteractionVisitor {
+
+        private ICMonPlayerInteractionHandler() {}
+
         @Override
         public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
             // Close range interaction
@@ -131,7 +151,13 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         }
 
         @Override
+        public void interactWith(ICShopAssistant npc, boolean isCellInteraction) {
+            gameState.acceptInteraction(npc, isCellInteraction);
+        }
+
+        @Override
         public void interactWith(ICBall ball, boolean isCellInteraction) {
+            gameState.acceptInteraction(ball, isCellInteraction);
             ball.collect();
         }
     }

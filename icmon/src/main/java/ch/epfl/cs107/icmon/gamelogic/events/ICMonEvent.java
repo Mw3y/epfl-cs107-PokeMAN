@@ -11,15 +11,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
+
     private boolean isStarted = false;
     private boolean isCompleted = false;
     private boolean isSuspended = false;
     protected ICMonPlayer player;
 
-    private List<Action> startActions = new ArrayList<Action>();
-    private List<Action> suspendActions = new ArrayList<Action>();
-    private List<Action> resumeActions = new ArrayList<Action>();
-    private List<Action> completeActions = new ArrayList<Action>();
+    private List<Action> startActions = new ArrayList<>();
+    private List<Action> suspendActions = new ArrayList<>();
+    private List<Action> resumeActions = new ArrayList<>();
+    private List<Action> completeActions = new ArrayList<>();
+
+    public ICMonEvent() {}
 
     private void performActions(List<Action> actions) {
         for (Action action : actions) {

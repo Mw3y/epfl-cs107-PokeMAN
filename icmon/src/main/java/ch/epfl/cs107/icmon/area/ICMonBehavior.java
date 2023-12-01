@@ -70,7 +70,7 @@ public class ICMonBehavior extends AreaBehavior {
          * @param y    (int): y coordinate of the cell
          * @param type (EnigmeCellType), not null
          */
-        public ICMonCell(int x, int y, ICMonCellType type) {
+        private ICMonCell(int x, int y, ICMonCellType type) {
             super(x, y);
             this.type = type;
         }

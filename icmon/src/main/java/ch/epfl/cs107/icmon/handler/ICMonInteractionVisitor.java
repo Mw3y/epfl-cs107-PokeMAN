@@ -24,5 +24,5 @@ public interface ICMonInteractionVisitor extends AreaInteractionVisitor {
 
     default void interactWith(ICBall ball, boolean isCellInteraction) {}
 
-    default void interactWith(ICShopAssistant ball, boolean isCellInteraction) {}
+    default void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {}
 }

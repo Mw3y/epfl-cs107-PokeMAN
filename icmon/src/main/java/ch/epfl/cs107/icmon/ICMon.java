@@ -26,7 +26,7 @@ public class ICMon extends AreaGame {
     private ICMonPlayer player;
     private final List<ICMonEvent> events = new ArrayList<>();
     private ICMonArea currentArea;
-    private ICMonGameState gameState;
+    private ICMonGameState gameState = new ICMonGameState();
 
     private void createAreas() {
         addArea(new Town());
@@ -45,13 +45,16 @@ public class ICMon extends AreaGame {
         if (super.begin(window, fileSystem)) {
             createAreas();
             initArea("Town");
-            ball = new ICBall(currentArea, new DiscreteCoordinates(6, 6), "items/icball");
+
+            final ICBall ball = new ICBall(currentArea, new DiscreteCoordinates(6, 6), "items/icball");
             events.add(new CollectItemEvent(ball));
-            RegisterinAreaAction actionRegister = new RegisterinAreaAction(currentArea, ball);
-            actionRegister.perform();
+
+            RegisterInAreaAction actionRegister = new RegisterInAreaAction(currentArea, ball);
             for (ICMonEvent event : events) {
                 event.start();
             }
+            actionRegister.perform();
+
             return true;
         }
         return false;
@@ -67,10 +70,11 @@ public class ICMon extends AreaGame {
             begin(getWindow(), getFileSystem());
         }
 
-        super.update(deltaTime);
         for (ICMonEvent event : events) {
             event.update(deltaTime);
         }
+
+        super.update(deltaTime);
     }
 
     private void initArea(String areaKey) {
@@ -84,9 +88,8 @@ public class ICMon extends AreaGame {
     }
 
     public class ICMonGameState {
-        private ICMonGameState() {
 
-        }
+        private ICMonGameState() {}
 
         public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
             for (var event : ICMon.this.events) {

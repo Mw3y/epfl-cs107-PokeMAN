@@ -8,7 +8,7 @@ import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.math.RegionOfInterest;
 import ch.epfl.cs107.play.window.Canvas;
 
-public class NPCActor extends ICMonActor {
+public abstract class NPCActor extends ICMonActor {
 
     private final RPGSprite sprite;
 

@@ -71,15 +71,4 @@ public abstract class ICMonActor extends MovableAreaEntity implements Interactab
     public void centerCamera() {
         getOwnerArea().setViewCandidate(this);
     }
-
-    /**
-     * ???
-     *
-     * @param v                 (AreaInteractionVisitor) : the visitor
-     * @param isCellInteraction ???
-     */
-    @Override
-    public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
-        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
-    }
 }

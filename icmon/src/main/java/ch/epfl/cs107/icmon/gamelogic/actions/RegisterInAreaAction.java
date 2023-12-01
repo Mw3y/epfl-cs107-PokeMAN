@@ -3,11 +3,11 @@ package ch.epfl.cs107.icmon.gamelogic.actions;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 
-public class RegisterinAreaAction implements Action {
+public class RegisterInAreaAction implements Action {
     private ICMonArea area;
     private ICBall ball;
 
-    public RegisterinAreaAction(ICMonArea area, ICBall actorToRegister) {
+    public RegisterInAreaAction(ICMonArea area, ICBall actorToRegister) {
         this.area = area;
         this.ball = actorToRegister;
     }
