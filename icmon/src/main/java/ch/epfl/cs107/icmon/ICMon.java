@@ -5,7 +5,7 @@ import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.Town;
-import ch.epfl.cs107.icmon.gamelogic.actions.RegisterinAreaAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 import ch.epfl.cs107.play.areagame.AreaGame;
@@ -24,8 +24,7 @@ public class ICMon extends AreaGame {
 
     public final static float CAMERA_SCALE_FACTOR = 12.5f;
     private ICMonPlayer player;
-    private List<ICMonEvent> events = new ArrayList<>();
-    private ICBall ball;
+    private final List<ICMonEvent> events = new ArrayList<>();
     private ICMonArea currentArea;
     private ICMonGameState gameState;
 
