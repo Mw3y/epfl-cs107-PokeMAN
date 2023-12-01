@@ -16,48 +16,51 @@ import ch.epfl.cs107.play.window.swing.SwingWindow;
  */
 public class Play {
 
-	/** One second in nano second */
+    public static final int WINDOW_HEIGHT = 550;
+    public static final int WINDOW_WIDTH = 550;
+    /**
+     * One second in nano second
+     */
     private static final float ONE_SEC = 1E9f;
-	public static final int WINDOW_HEIGHT = 550;
-	public static final int WINDOW_WIDTH = 550;
 
-	/**
-	 * Main entry point.
-	 * @param args (Array of String): ignored
-	 */
-	public static void main(String[] args) {
+    /**
+     * Main entry point.
+     *
+     * @param args (Array of String): ignored
+     */
+    public static void main(String[] args) {
 
-		// Define cascading file system
-		final FileSystem fileSystem = new ResourceFileSystem(DefaultFileSystem.INSTANCE);
+        // Define cascading file system
+        final FileSystem fileSystem = new ResourceFileSystem(DefaultFileSystem.INSTANCE);
 
         // Create a demo game and initialize corresponding texts
-		final Game game = new ICMon();
+        final Game game = new ICMon();
 
 
         // Use Swing display
-		final Window window = new SwingWindow(game.getTitle(), fileSystem, WINDOW_WIDTH, WINDOW_HEIGHT);
-		window.registerFonts(ResourcePath.FONTS);
-		
-		Recorder recorder = new Recorder(window);
-		RecordReplayer replayer = new RecordReplayer(window);
-		try {
+        final Window window = new SwingWindow(game.getTitle(), fileSystem, WINDOW_WIDTH, WINDOW_HEIGHT);
+        window.registerFonts(ResourcePath.FONTS);
 
-			if (game.begin(window, fileSystem)) {
-				//recorder.start();
-				//replayer.start("zelda.xml");
+        Recorder recorder = new Recorder(window);
+        RecordReplayer replayer = new RecordReplayer(window);
+        try {
 
-				// Use system clock to keep track of time progression
+            if (game.begin(window, fileSystem)) {
+                //recorder.start();
+                //replayer.start("zelda.xml");
+
+                // Use system clock to keep track of time progression
                 long currentTime = System.nanoTime();
-				long lastTime;
-				final float frameDuration = ONE_SEC / game.getFrameRate();
+                long lastTime;
+                final float frameDuration = ONE_SEC / game.getFrameRate();
 
-				// Run until the user try to close the window
-				while (!window.isCloseRequested()) {
+                // Run until the user try to close the window
+                while (!window.isCloseRequested()) {
 
-					// Compute time interval
+                    // Compute time interval
                     lastTime = currentTime;
                     currentTime = System.nanoTime();
-					float deltaTime = (currentTime - lastTime);
+                    float deltaTime = (currentTime - lastTime);
 
                     try {
                         int timeDiff = Math.max(0, (int) (frameDuration - deltaTime));
@@ -76,15 +79,15 @@ public class Play {
                     window.update();
                     //recorder.update();
                     //replayer.update();
-				}
-			}
-			//recorder.stop("zelda.xml");
-			game.end();
+                }
+            }
+            //recorder.stop("zelda.xml");
+            game.end();
 
-		} finally {
-			// Release resources
-			window.dispose();
-		}
-	}
+        } finally {
+            // Release resources
+            window.dispose();
+        }
+    }
 
 }

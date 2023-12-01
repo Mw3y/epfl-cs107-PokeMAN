@@ -1,7 +1,7 @@
 package ch.epfl.cs107.icmon.handler;
 
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
-import ch.epfl.cs107.icmon.actor.ICShopAssistant;
+import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.play.areagame.actor.Interactable;

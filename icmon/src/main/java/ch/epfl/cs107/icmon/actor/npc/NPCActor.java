@@ -1,5 +1,6 @@
-package ch.epfl.cs107.icmon.actor;
+package ch.epfl.cs107.icmon.actor.npc;
 
+import ch.epfl.cs107.icmon.actor.ICMonActor;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.actor.RPGSprite;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;

@@ -1,26 +1,21 @@
 package ch.epfl.cs107.icmon.actor;
 
+import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
 import ch.epfl.cs107.play.areagame.actor.Interactor;
-import ch.epfl.cs107.play.areagame.actor.MovableAreaEntity;
 import ch.epfl.cs107.play.areagame.area.Area;
-import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.engine.actor.OrientedAnimation;
-import ch.epfl.cs107.play.engine.actor.TextGraphics;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
-import ch.epfl.cs107.play.math.Vector;
 import ch.epfl.cs107.play.window.Button;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
 
-import java.awt.*;
 import java.util.Collections;
 import java.util.List;
-import java.util.Map;
 
 /**
  * ???
@@ -32,16 +27,13 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      */
     private final static int MOVE_DURATION = 2;
     private final static int ANIMATION_DURATION = 4;
-
+    private final OrientedAnimation walkSprite;
+    private final OrientedAnimation surfSprite;
+    private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
     /**
      * ???
      */
     private OrientedAnimation currentSprite;
-    private final OrientedAnimation walkSprite;
-    private final OrientedAnimation surfSprite;
-
-
-    private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
 
     /**
      * ???
@@ -50,7 +42,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      * @param orientation ???
      * @param coordinates ???
      */
-    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates) {
+    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, ICMon.ICMonGameState gameState) {
         super(owner, orientation, coordinates);
         walkSprite = new OrientedAnimation("actors/player", ANIMATION_DURATION / 2, getOrientation(), this);
         surfSprite = new OrientedAnimation("actors/player_water", ANIMATION_DURATION / 2, getOrientation(), this);
@@ -106,7 +98,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     @Override
     public void interactWith(Interactable other, boolean isCellInteraction) {
-        other.acceptInteraction(handler, isCellInteraction);
+        other.acceptInteraction(handler, true);
     }
 
     /**
@@ -129,12 +121,12 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
             // Close range interaction
             if (isCellInteraction) {
-               switch (cell.getWalkingType()) {
-                   case SURF -> currentSprite = surfSprite;
-                   case FEET -> currentSprite = walkSprite;
-                   // default : Keep current sprite
-               }
-               currentSprite.orientate(getOrientation());
+                switch (cell.getWalkingType()) {
+                    case SURF -> currentSprite = surfSprite;
+                    case FEET -> currentSprite = walkSprite;
+                    // default : Keep current sprite
+                }
+                currentSprite.orientate(getOrientation());
             }
         }
 
