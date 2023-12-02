@@ -62,6 +62,7 @@ public class Door extends AreaEntity {
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
 
+
     @Override
     public void draw(Canvas canvas) {}
 }
