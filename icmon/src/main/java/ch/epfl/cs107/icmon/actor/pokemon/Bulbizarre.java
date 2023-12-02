@@ -1,13 +1,12 @@
 package ch.epfl.cs107.icmon.actor.pokemon;
 
-import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
 public class Bulbizarre extends Pokemon {
-    public static final String NAME = "Bulbizarre";
+    public static final String NAME = "bulbizarre";
     public static final int DAMAGES = 1;
     public static final int HP_MAX = 10;
 
@@ -22,9 +21,13 @@ public class Bulbizarre extends Pokemon {
         super(area, orientation, position, NAME, DAMAGES, HP_MAX);
     }
 
-
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
-        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
+
     }
+
+
+    /**@Override public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+    ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
+    }*/
 }

@@ -3,6 +3,7 @@ package ch.epfl.cs107.icmon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
+import ch.epfl.cs107.icmon.area.maps.Arena;
 import ch.epfl.cs107.icmon.area.maps.Lab;
 import ch.epfl.cs107.icmon.area.maps.Town;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
@@ -45,7 +46,7 @@ public class ICMon extends AreaGame {
     public boolean begin(Window window, FileSystem fileSystem) {
         if (super.begin(window, fileSystem)) {
             gameState.createAreas();
-            gameState.initArea("Town");
+            gameState.initArea(Town.TITLE);
 
             final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
             final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, player, ball);
@@ -117,6 +118,7 @@ public class ICMon extends AreaGame {
         private void createAreas() {
             addArea(new Town());
             addArea(new Lab());
+            addArea(new Arena());
         }
 
         private void initArea(String areaTitle) {

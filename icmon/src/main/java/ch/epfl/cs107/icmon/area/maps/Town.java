@@ -9,10 +9,11 @@ import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
 public final class Town extends ICMonArea {
+    public static final String TITLE = "town";
 
     @Override
     public DiscreteCoordinates getPlayerSpawnPosition() {
-        return new DiscreteCoordinates(5, 5);
+        return new DiscreteCoordinates(15, 15);
     }
 
     /**
@@ -23,7 +24,8 @@ public final class Town extends ICMonArea {
         registerActor(new Background(this));
         registerActor(new Foreground(this));
         registerActor(new ICShopAssistant(this, Orientation.DOWN, new DiscreteCoordinates(8, 8)));
-        registerActor(new Door("Lab", new DiscreteCoordinates(6, 2), this, new DiscreteCoordinates(15, 24)));
+        registerActor(new Door(Lab.TITLE, new DiscreteCoordinates(6, 2), this, new DiscreteCoordinates(15, 24)));
+        registerActor(new Door(Arena.TITLE, new DiscreteCoordinates(4, 2), this, new DiscreteCoordinates(20, 16)));
     }
 
     @Override
@@ -38,7 +40,7 @@ public final class Town extends ICMonArea {
      */
     @Override
     public String getTitle() {
-        return "Town";
+        return Town.TITLE;
     }
 
 
