@@ -9,8 +9,10 @@ import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.EndOfTheGameEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
+import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
+import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.io.FileSystem;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
@@ -42,8 +44,8 @@ public class ICMon extends AreaGame {
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
         if (super.begin(window, fileSystem)) {
-            createAreas();
-            initArea("Town");
+            gameState.createAreas();
+            gameState.initArea("Town");
 
             final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
             final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, ball);
@@ -86,21 +88,8 @@ public class ICMon extends AreaGame {
             event.update(deltaTime);
         }
 
+        gameState.update(deltaTime);
         super.update(deltaTime);
-    }
-
-    /**
-     * ???
-     */
-    private void changeArea(String areaName) {
-        player.leaveArea();
-        ICMonArea currentArea = (ICMonArea) setCurrentArea(areaName, false);
-        player.enterArea(currentArea, currentArea.getPlayerSpawnPosition());
-    }
-
-    private void createAreas() {
-        addArea(new Town());
-        addArea(new Lab());
     }
 
     private void addEvent(ICMonEvent event) {
@@ -111,23 +100,54 @@ public class ICMon extends AreaGame {
         events.remove(event);
     }
 
-    private void initArea(String areaKey) {
-        ICMonArea area = (ICMonArea) setCurrentArea(areaKey, true);
-        DiscreteCoordinates coords = area.getPlayerSpawnPosition();
-        // Initialize player
-        player = new ICMonPlayer(area, Orientation.DOWN, coords, gameState);
-        player.enterArea(area, coords);
-        player.centerCamera();
-    }
+    public class ICMonGameState implements Updatable {
 
-    public class ICMonGameState {
+        private GamePlayMessage playerMessage;
 
         private ICMonGameState() {}
+
+        public void send(GamePlayMessage message) {
+            playerMessage = message;
+        }
+
+        public void clear() {
+            playerMessage = null;
+        }
+
+        private void createAreas() {
+            addArea(new Town());
+            addArea(new Lab());
+        }
+
+        private void initArea(String areaTitle) {
+            ICMonArea area = (ICMonArea) setCurrentArea(areaTitle, true);
+            DiscreteCoordinates coords = area.getPlayerSpawnPosition();
+            // Initialize player
+            player = new ICMonPlayer(area, Orientation.DOWN, coords, gameState);
+            player.enterArea(area, coords);
+            player.centerCamera();
+        }
+
+        /**
+         * ???
+         */
+        public void changeArea(String areaTitle, DiscreteCoordinates spawnPosition) {
+            player.leaveArea();
+            ICMonArea currentArea = (ICMonArea) setCurrentArea(areaTitle, false);
+            player.enterArea(currentArea, spawnPosition);
+        }
 
         public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
             for (var event : ICMon.this.events) {
                 interactable.acceptInteraction(event, isCellInteraction);
             }
+        }
+
+        @Override
+        public void update(float deltaTime) {
+            if (playerMessage != null)
+                playerMessage.process(this, player);
+                clear();
         }
     }
 

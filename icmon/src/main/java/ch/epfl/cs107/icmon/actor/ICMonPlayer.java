@@ -5,6 +5,8 @@ import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
+import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
+import ch.epfl.cs107.icmon.gamelogic.messages.PassDoorMessage;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
 import ch.epfl.cs107.play.areagame.actor.Interactor;
@@ -35,7 +37,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     private final OrientedAnimation walkSprite;
     private final OrientedAnimation surfSprite;
     private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
-    private final ICMon.ICMonGameState gameState;
+    private final ICMon.ICMonGameState game;
 
     private Dialog dialog;
 
@@ -51,14 +53,14 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      * @param orientation ???
      * @param coordinates ???
      */
-    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, ICMon.ICMonGameState gameState) {
+    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, ICMon.ICMonGameState game) {
         super(owner, orientation, coordinates);
         walkSprite = new OrientedAnimation("actors/player", ANIMATION_DURATION / 2, getOrientation(), this);
         surfSprite = new OrientedAnimation("actors/player_water", ANIMATION_DURATION / 2, getOrientation(), this);
         currentSprite = walkSprite;
         resetMotion();
 
-        this.gameState = gameState;
+        this.game = game;
     }
 
     /**
@@ -180,17 +182,21 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ICShopAssistant npc, boolean isCellInteraction) {
-            gameState.acceptInteraction(npc, isCellInteraction);
+            game.acceptInteraction(npc, isCellInteraction);
         }
 
         @Override
         public void interactWith(Door door, boolean isCellInteraction) {
-            gameState.acceptInteraction(door, isCellInteraction);
+            if (isCellInteraction) {
+                GamePlayMessage message = new PassDoorMessage(door);
+                game.send(message);
+            }
+            game.acceptInteraction(door, isCellInteraction);
         }
 
         @Override
         public void interactWith(ICBall ball, boolean isCellInteraction) {
-            gameState.acceptInteraction(ball, isCellInteraction);
+            game.acceptInteraction(ball, isCellInteraction);
             ball.collect();
         }
     }
