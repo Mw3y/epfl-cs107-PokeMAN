@@ -35,7 +35,7 @@ public class ICMon extends AreaGame {
 
     @Override
     public String getTitle() {
-        return "Pokebyte";
+        return "PokéMAN: Majorez les tous !";
     }
 
     public void end() {
@@ -48,10 +48,10 @@ public class ICMon extends AreaGame {
             gameState.initArea("Town");
 
             final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
-            final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, ball);
+            final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, player, ball);
             getCurrentArea().registerActor(ball);
 
-            final EndOfTheGameEvent endOfTheGameEvent = new EndOfTheGameEvent(eventManager);
+            final EndOfTheGameEvent endOfTheGameEvent = new EndOfTheGameEvent(eventManager, player);
             ballCollectEvent.onComplete(new StartEventAction(endOfTheGameEvent));
 
             ballCollectEvent.start();
@@ -145,9 +145,10 @@ public class ICMon extends AreaGame {
 
         @Override
         public void update(float deltaTime) {
-            if (playerMessage != null)
+            if (playerMessage != null) {
                 playerMessage.process(this, player);
                 clear();
+            }
         }
     }
 
@@ -161,14 +162,6 @@ public class ICMon extends AreaGame {
 
         public final boolean unregisterEvent(ICMonEvent event) {
             return unregisteredEvents.add(event);
-        }
-
-        public final ICMonPlayer getPlayer() {
-            return player;
-        }
-
-        public ICMon getGame() {
-            return ICMon.this;
         }
     }
 

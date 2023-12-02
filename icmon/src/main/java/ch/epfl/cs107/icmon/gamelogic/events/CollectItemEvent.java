@@ -1,6 +1,7 @@
 package ch.epfl.cs107.icmon.gamelogic.events;
 
 import ch.epfl.cs107.icmon.ICMon;
+import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.items.ICMonItem;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
@@ -12,8 +13,8 @@ public class CollectItemEvent extends ICMonEvent {
 
     private final ICMonItem item;
 
-    public CollectItemEvent(ICMon.ICMonEventManager eventManager, ICMonItem itemToCollect) {
-        super(eventManager);
+    public CollectItemEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player, ICMonItem itemToCollect) {
+        super(eventManager, player);
         item = itemToCollect;
 
         onStart(new LogAction("CollectItemEvent started!"));
@@ -32,7 +33,7 @@ public class CollectItemEvent extends ICMonEvent {
 
     public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
         System.out.println("interaction.with.icshopAssistant.from.collectItemEvent");
-        getEventManager().getPlayer().openDialog("collect_item_event_interaction_with_icshopassistant");
+        player.openDialog("collect_item_event_interaction_with_icshopassistant");
     }
 
     public void interactWith(ICBall ball, boolean isCellInteraction) {
