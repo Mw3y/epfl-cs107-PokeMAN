@@ -1,8 +1,11 @@
 package ch.epfl.cs107.icmon.gamelogic.events;
 
+import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonActor;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.gamelogic.actions.Action;
+import ch.epfl.cs107.icmon.gamelogic.actions.RegisterEventAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.math.Orientation;
@@ -17,12 +20,14 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
     private boolean isSuspended = false;
     protected ICMonPlayer player;
 
-    private List<Action> startActions = new ArrayList<>();
-    private List<Action> suspendActions = new ArrayList<>();
-    private List<Action> resumeActions = new ArrayList<>();
-    private List<Action> completeActions = new ArrayList<>();
+    private final List<Action> startActions = new ArrayList<>();
+    private final List<Action> suspendActions = new ArrayList<>();
+    private final List<Action> resumeActions = new ArrayList<>();
+    private final List<Action> completeActions = new ArrayList<>();
 
-    public ICMonEvent() {}
+    public ICMonEvent() {
+
+    }
 
     private void performActions(List<Action> actions) {
         for (Action action : actions) {

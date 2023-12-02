@@ -4,8 +4,8 @@ import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 
 public class RegisterInAreaAction implements Action {
-    private ICMonArea area;
-    private ICBall ball;
+    private final ICMonArea area;
+    private final ICBall ball;
 
     public RegisterInAreaAction(ICMonArea area, ICBall actorToRegister) {
         this.area = area;

@@ -1,16 +1,17 @@
 package ch.epfl.cs107.icmon;
 
-import ch.epfl.cs107.icmon.actor.ICMonActor;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.Town;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
+import ch.epfl.cs107.icmon.gamelogic.events.EndOfTheGameEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
-import ch.epfl.cs107.play.engine.actor.RPGSprite;
+import ch.epfl.cs107.play.engine.actor.Actor;
 import ch.epfl.cs107.play.io.FileSystem;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
@@ -18,15 +19,20 @@ import ch.epfl.cs107.play.window.Keyboard;
 import ch.epfl.cs107.play.window.Window;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class ICMon extends AreaGame {
 
     public final static float CAMERA_SCALE_FACTOR = 12.5f;
     private ICMonPlayer player;
-    private final List<ICMonEvent> events = new ArrayList<>();
+    private final List<ICMonEvent> registeredEvents = new LinkedList<>();
+    private final List<ICMonEvent> unregisteredEvents = new LinkedList<>();
+
+    private final List<ICMonEvent> events = new LinkedList<>();
     private ICMonArea currentArea;
-    private ICMonGameState gameState = new ICMonGameState();
+    private final ICMonGameState gameState = new ICMonGameState();
+    private final ICMonEventManager eventManager = new ICMonEventManager();
 
     private void createAreas() {
         addArea(new Town());
@@ -47,13 +53,13 @@ public class ICMon extends AreaGame {
             initArea("Town");
 
             final ICBall ball = new ICBall(currentArea, new DiscreteCoordinates(6, 6), "items/icball");
-            events.add(new CollectItemEvent(ball));
+            final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, ball);
+            getCurrentArea().registerActor(ball);
 
-            RegisterInAreaAction actionRegister = new RegisterInAreaAction(currentArea, ball);
-            for (ICMonEvent event : events) {
-                event.start();
-            }
-            actionRegister.perform();
+            final EndOfTheGameEvent endOfTheGameEvent = new EndOfTheGameEvent(eventManager);
+            ballCollectEvent.onComplete(new StartEventAction(endOfTheGameEvent));
+
+            ballCollectEvent.start();
 
             return true;
         }
@@ -67,14 +73,35 @@ public class ICMon extends AreaGame {
         if (keyboard.get(Keyboard.R).isPressed()) {
             // There's no need to unregister anything since the areas map
             // will automatically be overridden by the begin() method
+            registeredEvents.clear();
+            unregisteredEvents.clear();
+            events.clear();
             begin(getWindow(), getFileSystem());
         }
+
+        for (ICMonEvent event : registeredEvents) {
+            addEvent(event);
+        }
+        registeredEvents.clear();
+
+        for (ICMonEvent event : unregisteredEvents) {
+            removeEvent(event);
+        }
+        unregisteredEvents.clear();
 
         for (ICMonEvent event : events) {
             event.update(deltaTime);
         }
 
         super.update(deltaTime);
+    }
+
+    private void addEvent(ICMonEvent event) {
+        events.add(event);
+    }
+
+    private void removeEvent(ICMonEvent event) {
+        events.remove(event);
     }
 
     private void initArea(String areaKey) {
@@ -95,6 +122,19 @@ public class ICMon extends AreaGame {
             for (var event : ICMon.this.events) {
                 interactable.acceptInteraction(event, isCellInteraction);
             }
+        }
+    }
+
+    public class ICMonEventManager {
+
+        private ICMonEventManager() {}
+
+        public final boolean registerEvent(ICMonEvent event) {
+            return registeredEvents.add(event);
+        }
+
+        public final boolean unregisterEvent(ICMonEvent event) {
+            return unregisteredEvents.add(event);
         }
     }
 
