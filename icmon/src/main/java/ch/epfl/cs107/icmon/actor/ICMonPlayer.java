@@ -9,6 +9,7 @@ import ch.epfl.cs107.play.areagame.actor.Interactable;
 import ch.epfl.cs107.play.areagame.actor.Interactor;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
+import ch.epfl.cs107.play.engine.actor.Dialog;
 import ch.epfl.cs107.play.engine.actor.OrientedAnimation;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
@@ -34,6 +35,9 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     private final OrientedAnimation surfSprite;
     private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
     private final ICMon.ICMonGameState gameState;
+
+    private Dialog dialog;
+
     /**
      * ???
      */
@@ -65,6 +69,14 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     public void update(float deltaTime) {
         Keyboard keyboard = getOwnerArea().getKeyboard();
 
+        if (isDialogInProgress()) {
+            if (dialog.isCompleted())
+                closeDialog();
+            else if (keyboard.get(Keyboard.SPACE).isPressed())
+                dialog.update(deltaTime);
+            return;
+        }
+
         moveIfPressed(Orientation.LEFT, keyboard.get(Keyboard.LEFT));
         moveIfPressed(Orientation.UP, keyboard.get(Keyboard.UP));
         moveIfPressed(Orientation.RIGHT, keyboard.get(Keyboard.RIGHT));
@@ -84,6 +96,9 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      */
     @Override
     public void draw(Canvas canvas) {
+        if (isDialogInProgress()) {
+            dialog.draw(canvas);
+        }
         currentSprite.draw(canvas);
     }
 
@@ -110,7 +125,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     @Override
     public boolean wantsViewInteraction() {
-        return getOwnerArea().getKeyboard().get(Keyboard.L).isPressed();
+        return !isDialogInProgress() && getOwnerArea().getKeyboard().get(Keyboard.L).isPressed();
     }
 
     @Override
@@ -131,6 +146,18 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
                 move(MOVE_DURATION);
             }
         }
+    }
+
+    public void openDialog(String path) {
+        dialog = new Dialog(path);
+    }
+
+    public void closeDialog() {
+        dialog = null;
+    }
+
+    public boolean isDialogInProgress() {
+        return dialog != null;
     }
 
     private class ICMonPlayerInteractionHandler implements ICMonInteractionVisitor {

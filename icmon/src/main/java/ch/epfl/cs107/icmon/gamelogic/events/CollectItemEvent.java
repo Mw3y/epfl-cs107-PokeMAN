@@ -13,7 +13,10 @@ public class CollectItemEvent extends ICMonEvent {
     private final ICMonItem item;
 
     public CollectItemEvent(ICMon.ICMonEventManager eventManager, ICMonItem itemToCollect) {
+        super(eventManager);
+
         item = itemToCollect;
+
         onStart(new LogAction("CollectItemEvent started!"));
         onComplete(new LogAction("CollectItemEvent completed!"));
         // TODO: Don't repeat this
@@ -29,10 +32,11 @@ public class CollectItemEvent extends ICMonEvent {
     }
 
     public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
-        System.out.println("This is an interaction between the player and ICShopAssistant based on events !");
+        System.out.println("interaction.with.icshopAssistant.from.collectItemEvent");
+        getEventManager().getPlayer().openDialog("collect_item_event_interaction_with_icshopassistant");
     }
 
     public void interactWith(ICBall ball, boolean isCellInteraction) {
-        System.out.println("This is an interaction between the player and ICBall based on events !");
+        System.out.println("interaction.with.icball.from.collectItemEvent");
     }
 }

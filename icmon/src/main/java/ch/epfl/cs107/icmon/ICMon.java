@@ -136,6 +136,11 @@ public class ICMon extends AreaGame {
         public final boolean unregisterEvent(ICMonEvent event) {
             return unregisteredEvents.add(event);
         }
+
+        public final ICMonPlayer getPlayer() {
+            return player;
+        }
+
     }
 
 }

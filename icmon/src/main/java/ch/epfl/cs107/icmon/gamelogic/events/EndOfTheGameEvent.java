@@ -7,7 +7,10 @@ import ch.epfl.cs107.icmon.gamelogic.actions.RegisterEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 
 public class EndOfTheGameEvent extends ICMonEvent {
+
     public EndOfTheGameEvent(ICMon.ICMonEventManager eventManager) {
+        super(eventManager);
+
         onStart(new LogAction("EndOfTheGameEvent started!"));
         onComplete(new LogAction("EndOfTheGameEvent completed!"));
         // TODO: Don't repeat this
@@ -22,6 +25,7 @@ public class EndOfTheGameEvent extends ICMonEvent {
 
     @Override
     public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
-        System.out.println("I heard that you were able to implement this step successfully. Congrats!");
+        System.out.println("interaction.with.icshopAssistant.from.endOfTheGameEvent");
+        getEventManager().getPlayer().openDialog("end_of_game_event_interaction_with_icshopassistant");
     }
 }
