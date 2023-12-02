@@ -30,15 +30,15 @@ public class Door extends AreaEntity {
     }
 
     @Override
-    public List<DiscreteCoordinates> getCurrentCells() {
+    public final List<DiscreteCoordinates> getCurrentCells() {
         return cellPositions;
     }
 
-    public String getDestinationAreaTitle() {
+    public final String getDestinationAreaTitle() {
         return destinationAreaTitle;
     }
 
-    public DiscreteCoordinates getDestinationAreaSpawnPosition() {
+    public final DiscreteCoordinates getDestinationAreaSpawnPosition() {
         return destinationAreaSpawnPosition;
     }
 
