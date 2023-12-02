@@ -2,6 +2,7 @@ package ch.epfl.cs107.icmon.actor;
 
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
+import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
@@ -180,6 +181,11 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         @Override
         public void interactWith(ICShopAssistant npc, boolean isCellInteraction) {
             gameState.acceptInteraction(npc, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(Door door, boolean isCellInteraction) {
+            gameState.acceptInteraction(door, isCellInteraction);
         }
 
         @Override

@@ -14,7 +14,6 @@ public class CollectItemEvent extends ICMonEvent {
 
     public CollectItemEvent(ICMon.ICMonEventManager eventManager, ICMonItem itemToCollect) {
         super(eventManager);
-
         item = itemToCollect;
 
         onStart(new LogAction("CollectItemEvent started!"));

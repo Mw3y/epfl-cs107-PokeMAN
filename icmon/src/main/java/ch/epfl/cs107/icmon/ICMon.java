@@ -3,22 +3,20 @@ package ch.epfl.cs107.icmon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
+import ch.epfl.cs107.icmon.area.maps.Lab;
 import ch.epfl.cs107.icmon.area.maps.Town;
-import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.EndOfTheGameEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
-import ch.epfl.cs107.play.engine.actor.Actor;
 import ch.epfl.cs107.play.io.FileSystem;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Keyboard;
 import ch.epfl.cs107.play.window.Window;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -30,13 +28,8 @@ public class ICMon extends AreaGame {
     private final List<ICMonEvent> unregisteredEvents = new LinkedList<>();
 
     private final List<ICMonEvent> events = new LinkedList<>();
-    private ICMonArea currentArea;
     private final ICMonGameState gameState = new ICMonGameState();
     private final ICMonEventManager eventManager = new ICMonEventManager();
-
-    private void createAreas() {
-        addArea(new Town());
-    }
 
     @Override
     public String getTitle() {
@@ -52,7 +45,7 @@ public class ICMon extends AreaGame {
             createAreas();
             initArea("Town");
 
-            final ICBall ball = new ICBall(currentArea, new DiscreteCoordinates(6, 6), "items/icball");
+            final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
             final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, ball);
             getCurrentArea().registerActor(ball);
 
@@ -96,6 +89,20 @@ public class ICMon extends AreaGame {
         super.update(deltaTime);
     }
 
+    /**
+     * ???
+     */
+    private void changeArea(String areaName) {
+        player.leaveArea();
+        ICMonArea currentArea = (ICMonArea) setCurrentArea(areaName, false);
+        player.enterArea(currentArea, currentArea.getPlayerSpawnPosition());
+    }
+
+    private void createAreas() {
+        addArea(new Town());
+        addArea(new Lab());
+    }
+
     private void addEvent(ICMonEvent event) {
         events.add(event);
     }
@@ -106,7 +113,6 @@ public class ICMon extends AreaGame {
 
     private void initArea(String areaKey) {
         ICMonArea area = (ICMonArea) setCurrentArea(areaKey, true);
-        currentArea = area;
         DiscreteCoordinates coords = area.getPlayerSpawnPosition();
         // Initialize player
         player = new ICMonPlayer(area, Orientation.DOWN, coords, gameState);
@@ -141,6 +147,9 @@ public class ICMon extends AreaGame {
             return player;
         }
 
+        public ICMon getGame() {
+            return ICMon.this;
+        }
     }
 
 }
