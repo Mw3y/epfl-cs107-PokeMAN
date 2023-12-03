@@ -22,6 +22,7 @@ import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Keyboard;
 import ch.epfl.cs107.play.window.Window;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -119,17 +120,17 @@ public class ICMon extends AreaGame {
 
     public class ICMonGameState implements Updatable {
 
-        private GamePlayMessage playerMessage;
+        private ArrayList<GamePlayMessage> messagesQueue = new ArrayList<>();
 
         private ICMonGameState() {
         }
 
         public void send(GamePlayMessage message) {
-            playerMessage = message;
+            messagesQueue.add(message);
         }
 
-        public void clear() {
-            playerMessage = null;
+        public void clear(GamePlayMessage message) {
+            messagesQueue.remove(message);
         }
 
         public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
@@ -158,9 +159,11 @@ public class ICMon extends AreaGame {
 
         @Override
         public void update(float deltaTime) {
-            if (playerMessage != null) {
-                playerMessage.process(player, this, eventManager);
-                clear();
+            // TODO: Enhance
+            while (messagesQueue.iterator().hasNext()) {
+                GamePlayMessage message = messagesQueue.iterator().next();
+                message.process(player, this, eventManager);
+                clear(message);
             }
         }
     }

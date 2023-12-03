@@ -14,7 +14,7 @@ import ch.epfl.cs107.play.engine.PauseMenu;
 
 public class PokemonFightEvent extends ICMonEvent {
 
-    private final PauseMenu pauseMenu = new ICMonFight();
+    private final ICMonFight pauseMenu = new ICMonFight();
 
     public PokemonFightEvent(ICMon.ICMonGameState game, ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon pokemon) {
         super(eventManager, player);
@@ -30,7 +30,9 @@ public class PokemonFightEvent extends ICMonEvent {
 
     @Override
     public void update(float deltaTime) {
-
+        if (!pauseMenu.isRunning()) {
+            complete();
+        }
     }
 
     @Override
