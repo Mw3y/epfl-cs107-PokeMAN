@@ -13,11 +13,11 @@ public class ICMonFight extends PauseMenu {
 
     public void update(float deltaTime) {
         super.update(deltaTime);
-        deltaTime -= compteur;
+        if (isRunning())
+            compteur -= deltaTime;
     }
 
     public boolean isRunning() {
-        if (compteur > 0) return true;
-        else return false;
+        return compteur > 0;
     }
 }
