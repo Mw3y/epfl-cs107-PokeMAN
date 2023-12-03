@@ -22,9 +22,9 @@ import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Keyboard;
 import ch.epfl.cs107.play.window.Window;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class ICMon extends AreaGame {
 
@@ -120,7 +120,7 @@ public class ICMon extends AreaGame {
 
     public class ICMonGameState implements Updatable {
 
-        private ArrayList<GamePlayMessage> messagesQueue = new ArrayList<>();
+        private Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
 
         private ICMonGameState() {
         }
