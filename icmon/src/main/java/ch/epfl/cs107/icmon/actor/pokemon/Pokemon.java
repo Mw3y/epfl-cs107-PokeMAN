@@ -51,19 +51,19 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
     public final class PokemonProperties {
 
         public String name() {
-            return null;
+            return name;
         }
 
         public float hp() {
-            return 0f;
+            return hp;
         }
 
         public float maxHp() {
-            return 0f;
+            return hpMax;
         }
 
         public int damage() {
-            return 0;
+            return damages;
         }
 
     }
