@@ -25,6 +25,7 @@ import ch.epfl.cs107.play.window.Window;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.concurrent.PriorityBlockingQueue;
 
 public class ICMon extends AreaGame {
 
@@ -159,11 +160,9 @@ public class ICMon extends AreaGame {
 
         @Override
         public void update(float deltaTime) {
-            // TODO: Enhance
-            while (messagesQueue.iterator().hasNext()) {
-                GamePlayMessage message = messagesQueue.iterator().next();
-                message.process(player, this, eventManager);
-                clear(message);
+            while (!messagesQueue.isEmpty()) {
+                // .poll() returns the first value in the queue and removes it
+                messagesQueue.poll().process(player, this, eventManager);
             }
         }
     }
