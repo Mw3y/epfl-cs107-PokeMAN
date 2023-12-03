@@ -27,8 +27,13 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         this.player = player;
     }
 
-    public ICMon.ICMonEventManager getEventManager() {
-        return eventManager;
+    // TODO: Better approach
+    public PauseMenu getPauseMenu() {
+        return null;
+    }
+
+    public boolean hasPauseMenu() {
+        return false;
     }
 
     private void performActions(List<Action> actions) {

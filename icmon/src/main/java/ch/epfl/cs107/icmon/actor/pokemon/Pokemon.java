@@ -12,6 +12,8 @@ import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Canvas;
 
+import java.util.List;
+
 /**
  * ???
  *
@@ -31,6 +33,11 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         this.hp = hp;
         this.damages = damages;
         this.sprite = new RPGSprite("pokemon/" + name, 1, 1, this);
+    }
+
+    @Override
+    public void fight(ICMon.ICMonGameState game) {
+        game.send(new StartPokemonFightMessage(this));
     }
 
     @Override
@@ -60,5 +67,4 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         }
 
     }
-
 }

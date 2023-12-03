@@ -30,7 +30,6 @@ public class ICMon extends AreaGame {
     public final static float CAMERA_SCALE_FACTOR = 12.5f;
     private final List<ICMonEvent> registeredEvents = new LinkedList<>();
     private final List<ICMonEvent> unregisteredEvents = new LinkedList<>();
-
     private final List<ICMonEvent> events = new LinkedList<>();
     private final ICMonGameState gameState = new ICMonGameState();
     private final ICMonEventManager eventManager = new ICMonEventManager();
@@ -149,8 +148,12 @@ public class ICMon extends AreaGame {
         }
 
         public void pause(PauseMenu menu) {
-            requestPause();
             setPauseMenu(menu);
+            requestPause();
+        }
+
+        public void resume() {
+            requestResume();
         }
 
         @Override
@@ -184,7 +187,7 @@ public class ICMon extends AreaGame {
             return registeredEvents.add(event);
         }
 
-        public final boolean unregisterEvent(ICMonEvent event) {
+        public boolean unregisterEvent(ICMonEvent event) {
             return unregisteredEvents.add(event);
         }
     }
