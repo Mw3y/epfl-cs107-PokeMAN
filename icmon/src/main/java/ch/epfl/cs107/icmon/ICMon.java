@@ -13,6 +13,7 @@ import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
+import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.io.FileSystem;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
@@ -45,8 +46,8 @@ public class ICMon extends AreaGame {
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
         if (super.begin(window, fileSystem)) {
-            gameState.createAreas();
-            gameState.initArea(Town.TITLE);
+            createAreas();
+            initArea(Town.TITLE);
 
             final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
             final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, player, ball);
@@ -101,6 +102,21 @@ public class ICMon extends AreaGame {
         events.remove(event);
     }
 
+    private void createAreas() {
+        addArea(new Town());
+        addArea(new Lab());
+        addArea(new Arena());
+    }
+
+    private void initArea(String areaTitle) {
+        ICMonArea area = (ICMonArea) setCurrentArea(areaTitle, true);
+        DiscreteCoordinates coords = area.getPlayerSpawnPosition();
+        // Initialize player
+        player = new ICMonPlayer(area, Orientation.DOWN, coords, gameState);
+        player.enterArea(area, coords);
+        player.centerCamera();
+    }
+
     public class ICMonGameState implements Updatable {
 
         private GamePlayMessage playerMessage;
@@ -115,19 +131,10 @@ public class ICMon extends AreaGame {
             playerMessage = null;
         }
 
-        private void createAreas() {
-            addArea(new Town());
-            addArea(new Lab());
-            addArea(new Arena());
-        }
-
-        private void initArea(String areaTitle) {
-            ICMonArea area = (ICMonArea) setCurrentArea(areaTitle, true);
-            DiscreteCoordinates coords = area.getPlayerSpawnPosition();
-            // Initialize player
-            player = new ICMonPlayer(area, Orientation.DOWN, coords, gameState);
-            player.enterArea(area, coords);
-            player.centerCamera();
+        public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
+            for (var event : ICMon.this.events) {
+                interactable.acceptInteraction(event, isCellInteraction);
+            }
         }
 
         /**
@@ -139,16 +146,15 @@ public class ICMon extends AreaGame {
             player.enterArea(currentArea, spawnPosition);
         }
 
-        public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
-            for (var event : ICMon.this.events) {
-                interactable.acceptInteraction(event, isCellInteraction);
-            }
+        public void pause(PauseMenu menu) {
+            requestPause();
+            setPauseMenu(menu);
         }
 
         @Override
         public void update(float deltaTime) {
             if (playerMessage != null) {
-                playerMessage.process(this, player);
+                playerMessage.process(player, this, eventManager);
                 clear();
             }
         }

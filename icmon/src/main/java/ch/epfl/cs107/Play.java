@@ -16,8 +16,9 @@ import ch.epfl.cs107.play.window.swing.SwingWindow;
  */
 public class Play {
 
-    public static final int WINDOW_HEIGHT = 900;
-    public static final int WINDOW_WIDTH = 900;
+    public static final int WINDOW_HEIGHT = 660;
+    public static final int WINDOW_WIDTH = 660;
+
     /**
      * One second in nano second
      */
