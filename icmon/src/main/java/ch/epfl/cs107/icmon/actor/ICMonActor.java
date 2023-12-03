@@ -25,7 +25,7 @@ public abstract class ICMonActor extends MovableAreaEntity implements Interactab
     }
 
     /**
-     * Leave an area by unregister this player
+     * Leave an area by unregistering this actor
      */
     public void leaveArea() {
         getOwnerArea().unregisterActor(this);

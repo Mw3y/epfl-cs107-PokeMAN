@@ -4,6 +4,7 @@ import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
+import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.icmon.gamelogic.messages.PassDoorMessage;
@@ -196,8 +197,14 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ICBall ball, boolean isCellInteraction) {
-            game.acceptInteraction(ball, isCellInteraction);
             ball.collect();
+            game.acceptInteraction(ball, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
+            pokemon.fight(game);
+            game.acceptInteraction(pokemon, isCellInteraction);
         }
     }
 }
