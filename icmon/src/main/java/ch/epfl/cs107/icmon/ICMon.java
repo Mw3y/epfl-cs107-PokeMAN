@@ -7,6 +7,7 @@ import ch.epfl.cs107.icmon.area.maps.Arena;
 import ch.epfl.cs107.icmon.area.maps.Lab;
 import ch.epfl.cs107.icmon.area.maps.Town;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.EndOfTheGameEvent;
 import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
@@ -27,13 +28,13 @@ import java.util.List;
 public class ICMon extends AreaGame {
 
     public final static float CAMERA_SCALE_FACTOR = 12.5f;
-    private ICMonPlayer player;
     private final List<ICMonEvent> registeredEvents = new LinkedList<>();
     private final List<ICMonEvent> unregisteredEvents = new LinkedList<>();
 
     private final List<ICMonEvent> events = new LinkedList<>();
     private final ICMonGameState gameState = new ICMonGameState();
     private final ICMonEventManager eventManager = new ICMonEventManager();
+    private ICMonPlayer player;
 
     @Override
     public String getTitle() {
@@ -121,7 +122,8 @@ public class ICMon extends AreaGame {
 
         private GamePlayMessage playerMessage;
 
-        private ICMonGameState() {}
+        private ICMonGameState() {
+        }
 
         public void send(GamePlayMessage message) {
             playerMessage = message;
@@ -162,9 +164,23 @@ public class ICMon extends AreaGame {
 
     public class ICMonEventManager {
 
-        private ICMonEventManager() {}
+        private ICMonEventManager() {
+        }
 
-        public final boolean registerEvent(ICMonEvent event) {
+        public void registerSuspendEventActions(ICMonEvent event) {
+            // LinkedList<ICMonEvent> suspendedEvents = new LinkedList<>(events);
+            for(ICMonEvent eventToSuspend : events) {
+                event.onStart(new SuspendEventAction(eventToSuspend));
+            }
+        }
+        public void registerResumeEventActions(ICMonEvent event) {
+            // LinkedList<ICMonEvent> resumedEvents = new LinkedList<>(events);
+            for(ICMonEvent eventToResume : events) {
+                event.onComplete(new SuspendEventAction(eventToResume));
+            }
+        }
+
+        public boolean registerEvent(ICMonEvent event) {
             return registeredEvents.add(event);
         }
 

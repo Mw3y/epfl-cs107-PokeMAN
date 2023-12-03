@@ -6,6 +6,10 @@ import ch.epfl.cs107.play.window.Canvas;
 public class ICMonFight extends PauseMenu {
     private float compteur = 5f;
 
+    public ICMonFight(){
+
+    }
+
     @Override
     protected void drawMenu(Canvas c) {
 

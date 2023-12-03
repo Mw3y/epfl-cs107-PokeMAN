@@ -1,7 +1,11 @@
 package ch.epfl.cs107.icmon.actor.pokemon;
 
+import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonActor;
 import ch.epfl.cs107.icmon.actor.ICMonFightableActor;
+import ch.epfl.cs107.icmon.actor.ICMonPlayer;
+import ch.epfl.cs107.icmon.gamelogic.events.PokemonFightEvent;
+import ch.epfl.cs107.icmon.gamelogic.messages.StartPokemonFightMessage;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.actor.RPGSprite;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
@@ -32,9 +36,6 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
     @Override
     public void draw(Canvas canvas) {
         sprite.draw(canvas);
-    }
-    public void fight(){
-
     }
 
     /**
