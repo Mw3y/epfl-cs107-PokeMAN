@@ -14,10 +14,12 @@ import ch.epfl.cs107.play.engine.PauseMenu;
 
 public class PokemonFightEvent extends ICMonEvent {
 
-    private final ICMonFight pauseMenu = new ICMonFight();
+    private final ICMonFight pauseMenu;
 
-    public PokemonFightEvent(ICMon.ICMonGameState game, ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon pokemon) {
+    public PokemonFightEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon pokemon) {
         super(eventManager, player);
+
+        this.pauseMenu = new ICMonFight(player.getPokemons().get(0), pokemon);
 
         onStart(new RegisterEventAction(eventManager, this));
         onComplete(new UnregisterEventAction(eventManager, this));

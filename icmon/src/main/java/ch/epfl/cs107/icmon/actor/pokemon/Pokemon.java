@@ -40,6 +40,10 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         game.send(new StartPokemonFightMessage(this));
     }
 
+    public final PokemonProperties properties(){
+        return new PokemonProperties();
+    }
+
     @Override
     public void draw(Canvas canvas) {
         sprite.draw(canvas);

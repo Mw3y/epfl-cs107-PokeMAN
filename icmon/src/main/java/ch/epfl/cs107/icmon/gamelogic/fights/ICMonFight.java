@@ -8,6 +8,7 @@ import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.window.Canvas;
 
 public class ICMonFight extends PauseMenu {
+
     private float compteur = 5f;
     private ICMonFightArenaGraphics area;
 
@@ -23,7 +24,7 @@ public class ICMonFight extends PauseMenu {
 
     @Override
     protected void drawMenu(Canvas c) {
-
+        area.draw(c);
     }
 
     public void update(float deltaTime) {
