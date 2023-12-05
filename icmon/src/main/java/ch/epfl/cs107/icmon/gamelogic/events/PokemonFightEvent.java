@@ -14,12 +14,12 @@ import ch.epfl.cs107.play.engine.PauseMenu;
 
 public class PokemonFightEvent extends ICMonEvent {
 
-    private final ICMonFight pauseMenu;
+    private final ICMonFight fight;
 
     public PokemonFightEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon pokemon) {
         super(eventManager, player);
 
-        this.pauseMenu = new ICMonFight(player.getPokemons().get(0), pokemon);
+        this.fight = new ICMonFight(player.getPokemons().get(0), pokemon);
 
         onStart(new RegisterEventAction(eventManager, this));
         onComplete(new UnregisterEventAction(eventManager, this));
@@ -32,7 +32,7 @@ public class PokemonFightEvent extends ICMonEvent {
 
     @Override
     public void update(float deltaTime) {
-        if (!pauseMenu.isRunning()) {
+        if (!fight.isRunning()) {
             complete();
         }
     }
@@ -44,7 +44,7 @@ public class PokemonFightEvent extends ICMonEvent {
 
     @Override
     public final PauseMenu getPauseMenu(){
-        return pauseMenu;
+        return fight;
     }
 
 }

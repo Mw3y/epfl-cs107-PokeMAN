@@ -5,6 +5,7 @@ import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.actor.pokemon.Bulbizarre;
+import ch.epfl.cs107.icmon.actor.pokemon.Latios;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
@@ -67,6 +68,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         this.game = game;
         pokemons.add(new Bulbizarre(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(100, 100)));
+        pokemons.add((new Latios(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(105,105))));
     }
 
     public ArrayList<Pokemon> getPokemons() {

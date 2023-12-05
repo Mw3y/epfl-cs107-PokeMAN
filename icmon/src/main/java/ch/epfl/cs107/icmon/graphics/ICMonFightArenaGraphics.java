@@ -39,11 +39,11 @@ public final class ICMonFightArenaGraphics implements Graphics {
         background = new ImageGraphics(getBackground("fight"), scaleFactor, scaleFactor * 2 / 3);
         background.setRelativeTransform(Transform.I.translated(0, scaleFactor / 3));
         // HR : Add the pokemon's fight sprite
-        this.player = new GraphicsEntity(new Vector(scaleFactor * 2 / 3 -.5f, scaleFactor * 2 / 3 - .5f), new ImageGraphics(getSprite("fight/" + player.name()), 5, 5, new RegionOfInterest(0, 0, 64, 64), true));
-        this.opponent = new GraphicsEntity(new Vector(0f, scaleFactor / 3), new ImageGraphics(getSprite("fight/" + opponent.name()), 5, 5, new RegionOfInterest(128, 0, 64, 64), true));
+        this.opponent = new GraphicsEntity(new Vector(scaleFactor * 2 / 3 -.5f, scaleFactor * 2 / 3 - .5f), new ImageGraphics(getSprite("fight/" + opponent.name()), 5, 5, new RegionOfInterest(0, 0, 64, 64), true));
+        this.player = new GraphicsEntity(new Vector(0f, scaleFactor / 3), new ImageGraphics(getSprite("fight/" + player.name()), 5, 5, new RegionOfInterest(128, 0, 64, 64), true));
         // HR : Prepare the info's graphics
-        this.playerInfo = new ICMonFightInfoGraphics(new Vector(0.5f, scaleFactor - 2.5f), player);
-        this.opponentInfo = new ICMonFightInfoGraphics(new Vector(scaleFactor - 6.5f, scaleFactor / 3 + .5f), opponent);
+        this.opponentInfo = new ICMonFightInfoGraphics(new Vector(0.5f, scaleFactor - 2.5f), opponent);
+        this.playerInfo = new ICMonFightInfoGraphics(new Vector(scaleFactor - 6.5f, scaleFactor / 3 + .5f), player);
     }
 
     public void setInteractionGraphics(ICMonFightInteractionGraphics graphics){
