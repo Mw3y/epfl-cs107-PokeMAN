@@ -42,7 +42,9 @@ public class ICMonFight extends PauseMenu {
                 break;
             }
             case SELECT_ACTION: {
-                if (playerActionsMenu == null) {
+                // TODO: Better code
+                if (playerActionsMenu == null || nextPlayerAction != null) {
+                    this.nextPlayerAction = null;
                     this.playerActionsMenu = new ICMonFightActionSelectionGraphics(CAMERA_SCALE_FACTOR, getKeyboard(), playerPokemon.properties().actions());
                     arena.setInteractionGraphics(playerActionsMenu);
                 }
