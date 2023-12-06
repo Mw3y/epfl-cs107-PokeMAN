@@ -132,10 +132,6 @@ public class ICMon extends AreaGame {
             messagesQueue.add(message);
         }
 
-        public void clear(GamePlayMessage message) {
-            messagesQueue.remove(message);
-        }
-
         public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
             for (var event : ICMon.this.events) {
                 interactable.acceptInteraction(event, isCellInteraction);
