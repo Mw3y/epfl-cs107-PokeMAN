@@ -1,19 +1,19 @@
 package ch.epfl.cs107.icmon.gamelogic.actions;
 
-import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
+import ch.epfl.cs107.play.areagame.actor.AreaEntity;
 
 public class RegisterInAreaAction implements Action {
     private final ICMonArea area;
-    private final ICBall ball;
+    private final AreaEntity entity;
 
-    public RegisterInAreaAction(ICMonArea area, ICBall actorToRegister) {
+    public RegisterInAreaAction(ICMonArea area, AreaEntity entity) {
         this.area = area;
-        this.ball = actorToRegister;
+        this.entity = entity;
     }
 
     @Override
     public void perform() {
-        area.registerActor(ball);
+        area.registerActor(entity);
     }
 }

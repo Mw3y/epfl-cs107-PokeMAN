@@ -4,5 +4,5 @@ import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 
 public interface GamePlayMessage {
-    void process(ICMon.ICMonGameState game, ICMonPlayer player);
+    void process(ICMonPlayer player, ICMon.ICMonGameState game, ICMon.ICMonEventManager eventManager);
 }

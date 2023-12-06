@@ -4,6 +4,9 @@ import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
+import ch.epfl.cs107.icmon.actor.pokemon.Bulbizarre;
+import ch.epfl.cs107.icmon.actor.pokemon.Latios;
+import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.icmon.gamelogic.messages.PassDoorMessage;
@@ -20,6 +23,7 @@ import ch.epfl.cs107.play.window.Button;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
 
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -41,6 +45,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     private Dialog dialog;
 
+    private final ArrayList<Pokemon> pokemons = new ArrayList<>();
+
     /**
      * ???
      */
@@ -61,6 +67,12 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         resetMotion();
 
         this.game = game;
+        pokemons.add(new Bulbizarre(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(100, 100)));
+        pokemons.add((new Latios(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(105,105))));
+    }
+
+    public ArrayList<Pokemon> getPokemons() {
+        return pokemons;
     }
 
     /**
@@ -196,8 +208,14 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ICBall ball, boolean isCellInteraction) {
-            game.acceptInteraction(ball, isCellInteraction);
             ball.collect();
+            game.acceptInteraction(ball, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
+            pokemon.fight(game);
+            game.acceptInteraction(pokemon, isCellInteraction);
         }
     }
 }
