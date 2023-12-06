@@ -15,7 +15,7 @@ public class StartPokemonFightMessage implements GamePlayMessage {
 
     @Override
     public void process(ICMonPlayer player, ICMon.ICMonGameState game, ICMon.ICMonEventManager eventManager) {
-        final PokemonFightEvent event = new PokemonFightEvent(game, eventManager, player, pokemon);
+        final PokemonFightEvent event = new PokemonFightEvent(eventManager, player, pokemon);
         game.send(new SuspendWithEventMessage(event));
     }
 

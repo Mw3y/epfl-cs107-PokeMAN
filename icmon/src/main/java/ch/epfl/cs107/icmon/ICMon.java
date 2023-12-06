@@ -6,6 +6,8 @@ import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.Arena;
 import ch.epfl.cs107.icmon.area.maps.Lab;
 import ch.epfl.cs107.icmon.area.maps.Town;
+import ch.epfl.cs107.icmon.gamelogic.actions.RegisterEventAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
@@ -53,7 +55,7 @@ public class ICMon extends AreaGame {
 
             final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
             final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, player, ball);
-            getCurrentArea().registerActor(ball);
+            new RegisterInAreaAction((ICMonArea) getCurrentArea(), ball).perform();
 
             final EndOfTheGameEvent endOfTheGameEvent = new EndOfTheGameEvent(eventManager, player);
             ballCollectEvent.onComplete(new StartEventAction(endOfTheGameEvent));
