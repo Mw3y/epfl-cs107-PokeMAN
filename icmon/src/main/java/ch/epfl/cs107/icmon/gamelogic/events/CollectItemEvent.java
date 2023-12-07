@@ -18,11 +18,8 @@ public class CollectItemEvent extends ICMonEvent {
         super(gameState, eventManager, player);
         item = itemToCollect;
 
-        onStart(new LogAction("CollectItemEvent started!"));
-        onComplete(new LogAction("CollectItemEvent completed!"));
-        // TODO: Don't repeat this
-        // onStart(new RegisterEventAction(eventManager, this));
-        // onComplete(new UnregisterEventAction(eventManager, this));
+        onStart(new LogAction("event.collectItem.start." + itemToCollect.toString()));
+        onComplete(new LogAction("event.collectItem.complete." + itemToCollect.toString()));
     }
 
     @Override

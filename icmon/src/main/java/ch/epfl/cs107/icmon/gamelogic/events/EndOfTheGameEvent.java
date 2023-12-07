@@ -12,17 +12,12 @@ public class EndOfTheGameEvent extends ICMonEvent {
     public EndOfTheGameEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
         super(gameState, eventManager, player);
 
-        onStart(new LogAction("EndOfTheGameEvent started!"));
-        onComplete(new LogAction("EndOfTheGameEvent completed!"));
-        // TODO: Don't repeat this
-        // onStart(new RegisterEventAction(eventManager, this));
-        // onComplete(new UnregisterEventAction(eventManager, this));
+        onStart(new LogAction("event.endOfTheGame.start"));
+        onComplete(new LogAction("event.endOfTheGame.complete"));
     }
 
     @Override
-    public void update(float deltaTime) {
-
-    }
+    public void update(float deltaTime) {}
 
     @Override
     public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {

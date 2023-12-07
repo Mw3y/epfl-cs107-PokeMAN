@@ -12,6 +12,7 @@ public class LeaveAreaAction implements Action {
 
     @Override
     public void perform() {
+        System.out.println("action.player.leaveArea");
         actor.leaveArea();
     }
 }

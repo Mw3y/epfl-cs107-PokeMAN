@@ -15,6 +15,7 @@ public class GivePokemonToPlayerAction implements Action{
 
     @Override
     public void perform() {
+        System.out.println("action.give." + pokemon.toString() + ".to.player");
         player.getPokemons().add(pokemon);
     }
 }

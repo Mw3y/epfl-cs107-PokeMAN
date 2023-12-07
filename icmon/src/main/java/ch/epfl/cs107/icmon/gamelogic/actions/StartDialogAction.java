@@ -14,6 +14,7 @@ public class StartDialogAction implements Action {
 
     @Override
     public void perform() {
+        System.out.println("action.player.start.dialog." + path);
         player.openDialog(path);
     }
 }
