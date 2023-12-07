@@ -60,6 +60,11 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         sprite.draw(canvas);
     }
 
+    @Override
+    public String toString() {
+        return name;
+    }
+
     /**
      * @author Hamza REMMAL (hamza.remmal@epfl.ch)
      */
