@@ -18,7 +18,6 @@ public class House extends ICMonArea {
     public void createArea() {
         registerActor(new Background(this));
         registerActor(new Foreground(this));
-        registerActor()
     }
 
     @Override
