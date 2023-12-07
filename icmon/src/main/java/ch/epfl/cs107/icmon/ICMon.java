@@ -3,19 +3,15 @@ package ch.epfl.cs107.icmon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.area.ICMonArea;
-import ch.epfl.cs107.icmon.area.maps.Arena;
-import ch.epfl.cs107.icmon.area.maps.Lab;
-import ch.epfl.cs107.icmon.area.maps.Town;
-import ch.epfl.cs107.icmon.gamelogic.actions.RegisterEventAction;
+import ch.epfl.cs107.icmon.area.maps.*;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
-import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
-import ch.epfl.cs107.icmon.gamelogic.events.EndOfTheGameEvent;
-import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
+import ch.epfl.cs107.icmon.gamelogic.events.*;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
+import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.io.FileSystem;
@@ -27,7 +23,6 @@ import ch.epfl.cs107.play.window.Window;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-import java.util.concurrent.PriorityBlockingQueue;
 
 public class ICMon extends AreaGame {
 
@@ -51,16 +46,9 @@ public class ICMon extends AreaGame {
     public boolean begin(Window window, FileSystem fileSystem) {
         if (super.begin(window, fileSystem)) {
             createAreas();
-            initArea(Town.TITLE);
+            initArea(House.TITLE);
 
-            final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
-            final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, player, ball);
-            new RegisterInAreaAction((ICMonArea) getCurrentArea(), ball).perform();
-
-            final EndOfTheGameEvent endOfTheGameEvent = new EndOfTheGameEvent(eventManager, player);
-            ballCollectEvent.onComplete(new StartEventAction(endOfTheGameEvent));
-
-            ballCollectEvent.start();
+            events();
 
             return true;
         }
@@ -98,6 +86,22 @@ public class ICMon extends AreaGame {
         super.update(deltaTime);
     }
 
+    private void events() {
+            ICMonEvent introduction = new IntroductionEvent(gameState, eventManager, player);
+            ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(gameState, eventManager, player);
+
+            final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
+            ICMonEvent collectBall = new CollectItemEvent(gameState, eventManager, player, ball);
+            collectBall.onStart(new RegisterInAreaAction((ICMonArea) getCurrentArea(), ball));
+
+            ICMonEvent endOfTheGame = new EndOfTheGameEvent(gameState, eventManager, player);
+
+            ICMonChainedEvent mainScenario = new ICMonChainedEvent(gameState, eventManager, player, introduction, firstInteractionWithProfOak, collectBall, endOfTheGame);
+            eventManager.registerEvent(mainScenario);
+            mainScenario.start();
+    }
+    
+
     private void addEvent(ICMonEvent event) {
         events.add(event);
     }
@@ -110,6 +114,8 @@ public class ICMon extends AreaGame {
         addArea(new Town());
         addArea(new Lab());
         addArea(new Arena());
+        addArea(new House());
+        addArea(new Shop());
     }
 
     private void initArea(String areaTitle) {
@@ -136,6 +142,10 @@ public class ICMon extends AreaGame {
             for (var event : ICMon.this.events) {
                 interactable.acceptInteraction(event, isCellInteraction);
             }
+        }
+
+        public Area getCurrentArea() {
+            return ICMon.this.getCurrentArea();
         }
 
         /**

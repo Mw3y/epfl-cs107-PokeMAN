@@ -7,21 +7,22 @@ import ch.epfl.cs107.icmon.actor.items.ICMonItem;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterEventAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 
 public class CollectItemEvent extends ICMonEvent {
 
     private final ICMonItem item;
 
-    public CollectItemEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player, ICMonItem itemToCollect) {
-        super(eventManager, player);
+    public CollectItemEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player, ICMonItem itemToCollect) {
+        super(gameState, eventManager, player);
         item = itemToCollect;
 
         onStart(new LogAction("CollectItemEvent started!"));
         onComplete(new LogAction("CollectItemEvent completed!"));
         // TODO: Don't repeat this
-        onStart(new RegisterEventAction(eventManager, this));
-        onComplete(new UnregisterEventAction(eventManager, this));
+        // onStart(new RegisterEventAction(eventManager, this));
+        // onComplete(new UnregisterEventAction(eventManager, this));
     }
 
     @Override

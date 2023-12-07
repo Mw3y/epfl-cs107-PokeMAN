@@ -4,6 +4,7 @@ import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
+import ch.epfl.cs107.icmon.actor.npc.ProfOak;
 import ch.epfl.cs107.icmon.actor.pokemon.Bulbizarre;
 import ch.epfl.cs107.icmon.actor.pokemon.Latios;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
@@ -67,8 +68,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         resetMotion();
 
         this.game = game;
-        pokemons.add(new Bulbizarre(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(100, 100)));
-        pokemons.add((new Latios(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(105,105))));
+        //pokemons.add(new Bulbizarre(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(100, 100)));
+        //pokemons.add((new Latios(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(105,105))));
     }
 
     public ArrayList<Pokemon> getPokemons() {
@@ -216,6 +217,11 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
             pokemon.fight(game);
             game.acceptInteraction(pokemon, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(ProfOak profOak, boolean isCellInteraction) {
+            game.acceptInteraction(profOak, isCellInteraction);
         }
     }
 }

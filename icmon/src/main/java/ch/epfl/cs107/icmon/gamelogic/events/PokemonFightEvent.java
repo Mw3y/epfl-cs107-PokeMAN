@@ -16,13 +16,13 @@ public class PokemonFightEvent extends ICMonEvent {
 
     private final ICMonFight fight;
 
-    public PokemonFightEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon pokemon) {
-        super(eventManager, player);
+    public PokemonFightEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon pokemon) {
+        super(gameState, eventManager, player);
 
         this.fight = new ICMonFight(player.getPokemons().get(0), pokemon);
 
-        onStart(new RegisterEventAction(eventManager, this));
-        onComplete(new UnregisterEventAction(eventManager, this));
+        // onStart(new RegisterEventAction(eventManager, this));
+        // onComplete(new UnregisterEventAction(eventManager, this));
 
         onComplete(new LeaveAreaAction(pokemon));
 

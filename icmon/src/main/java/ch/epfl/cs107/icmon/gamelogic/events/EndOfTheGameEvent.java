@@ -9,14 +9,14 @@ import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 
 public class EndOfTheGameEvent extends ICMonEvent {
 
-    public EndOfTheGameEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
-        super(eventManager, player);
+    public EndOfTheGameEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
+        super(gameState, eventManager, player);
 
         onStart(new LogAction("EndOfTheGameEvent started!"));
         onComplete(new LogAction("EndOfTheGameEvent completed!"));
         // TODO: Don't repeat this
-        onStart(new RegisterEventAction(eventManager, this));
-        onComplete(new UnregisterEventAction(eventManager, this));
+        // onStart(new RegisterEventAction(eventManager, this));
+        // onComplete(new UnregisterEventAction(eventManager, this));
     }
 
     @Override

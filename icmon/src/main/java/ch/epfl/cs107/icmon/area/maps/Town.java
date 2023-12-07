@@ -26,6 +26,8 @@ public final class Town extends ICMonArea {
         registerActor(new ICShopAssistant(this, Orientation.DOWN, new DiscreteCoordinates(8, 8)));
         registerActor(new Door(Lab.TITLE, new DiscreteCoordinates(6, 2), this, new DiscreteCoordinates(15, 24)));
         registerActor(new Door(Arena.TITLE, new DiscreteCoordinates(4, 2), this, new DiscreteCoordinates(20, 16)));
+        registerActor(new Door(House.TITLE, new DiscreteCoordinates(3, 2), this, new DiscreteCoordinates(7,27)));
+        registerActor(new Door(Shop.TITLE, new DiscreteCoordinates(3,2), this, new DiscreteCoordinates(25, 20)));
     }
 
     @Override
