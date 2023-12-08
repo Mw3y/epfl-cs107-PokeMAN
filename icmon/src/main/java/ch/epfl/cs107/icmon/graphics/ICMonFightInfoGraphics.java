@@ -32,32 +32,38 @@ public final class ICMonFightInfoGraphics implements Graphics, Positionable {
     private final ImageGraphics background;
     private final TextGraphics name;
     private final ImageGraphics hpBackground;
-    private final ShapeGraphics hpBar;
-    private final Vector hpBarStart;
+    private ShapeGraphics hpBar;
+    private Vector hpBarStart;
 
-    public ICMonFightInfoGraphics(Vector position, Pokemon.PokemonProperties properties){
+    public ICMonFightInfoGraphics(Vector position, Pokemon.PokemonProperties properties, boolean isPlayerInfos){
         // HR : set the position
         this.position = position;
         this.properties = properties;
 
+        float xOffset = isPlayerInfos ? 0.3f : 0f;
+        String spriteName = isPlayerInfos
+                ? "fight_player_pokemon_infos"
+                : "fight_opponent_pokemon_infos";
+
         // HR : Add the background
-        background = new ImageGraphics(getSprite("dialog"), 6f, 2f);
+        background = new ImageGraphics(getSprite(spriteName), 6f, 2f);
         background.setParent(this);
 
         // HR : Add the Pokémon's name
-        name = new TextGraphics(properties.name(), FONT_SIZE, Color.BLACK,
+        name = new TextGraphics(properties.name().toUpperCase(), FONT_SIZE, Color.BLACK,
                 null, 0.0f, false, false,
-                new Vector(0.3f,2f), TextAlign.Horizontal.LEFT,
+                new Vector((float) (xOffset * 1.5 + .35f),1.9f), TextAlign.Horizontal.LEFT,
                 TextAlign.Vertical.TOP, 1.0f, 1001);
         name.setParent(this);
 
         // HR : Add the HP Bar
         // HR : It's background
-        var hpAnchor = new Vector(0.3f,0.3f);
-        hpBackground = new ImageGraphics(getSprite("hp_bar"), 5.4f, 0.5f, null, hpAnchor);
+        var hpAnchor = new Vector(xOffset + 1.55f,0.5f);
+        hpBackground = new ImageGraphics(getSprite("hp_bar"), 3.75f, 0.45f, null, hpAnchor);
         hpBackground.setParent(this);
-        hpBarStart = hpAnchor.add(1.3f, 0.25f);
-        hpBar = new ShapeGraphics(new Polyline(hpBarStart, computeHpBarEnd(properties.hp(), properties.maxHp())), Color.green, Color.green, 0.4f);
+        hpBarStart = hpAnchor.add(1.05f, 0.25f);
+        hpBar = new ShapeGraphics(new Polyline(hpBarStart, computeHpBarEnd(properties.hp(), properties.maxHp())),
+                Color.green, Color.green, 0.2f);
         hpBar.setParent(this);
     }
 
@@ -71,12 +77,12 @@ public final class ICMonFightInfoGraphics implements Graphics, Positionable {
         // HR : Draw the HP Bar
         hpBackground.draw(canvas);
         // HR : Update the hp bar
-        hpBar.setShape(new Polyline(hpBarStart, computeHpBarEnd(properties.hp(), properties.maxHp())));
-        hpBar.draw(canvas);
+         hpBar.setShape(new Polyline(hpBarStart, computeHpBarEnd(properties.hp(), properties.maxHp())));
+         hpBar.draw(canvas);
     }
 
     private Vector computeHpBarEnd(float hp, float maxhp){
-        return hpBarStart.add(HP_BAR_SIZE * hp / maxhp, 0);
+        return hpBarStart.add((float) (HP_BAR_SIZE * hp / maxhp / 1.5), 0);
     }
 
     @Override
