@@ -6,6 +6,7 @@ import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.actor.npc.ProfOak;
+import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
@@ -70,6 +71,10 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     public boolean givePokemon(Pokemon pokemon) {
         return pokemons.add(pokemon);
+    }
+
+    public boolean hasHealthyPokemon() {
+        return !pokemons.isEmpty() && pokemons.stream().noneMatch(Pokemon::isKO);
     }
 
     /**
@@ -212,7 +217,9 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
-            pokemon.fight(game, pokemons.get(0));
+            if (hasHealthyPokemon()) {
+                pokemon.fight(game, pokemons.get(0));
+            }
             game.acceptInteraction(pokemon, isCellInteraction);
         }
 
@@ -222,11 +229,11 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         }
 
         @Override
-        public void interactWith(Garry garry, boolean isCellInteraction) {
-            if (garry.acceptsFights()) {
-                garry.fight(game, pokemons.get(0));
+        public void interactWith(Trainer trainer, boolean isCellInteraction) {
+            if (hasHealthyPokemon() && trainer.acceptsFights()) {
+                trainer.fight(game, pokemons.get(0));
             }
-            game.acceptInteraction(garry, isCellInteraction);
+            game.acceptInteraction(trainer, isCellInteraction);
         }
     }
 }

@@ -32,7 +32,7 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
     }
 
     public boolean hasHealthyPokemon() {
-        return pokemons.stream().noneMatch(Pokemon::isKO);
+        return !pokemons.isEmpty() && pokemons.stream().noneMatch(Pokemon::isKO);
     }
 
     public boolean acceptsFights() {
