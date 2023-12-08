@@ -2,6 +2,7 @@ package ch.epfl.cs107.icmon.gamelogic.events;
 
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
+import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.actor.npc.ProfOak;
 import ch.epfl.cs107.icmon.actor.pokemon.Latios;
 import ch.epfl.cs107.icmon.gamelogic.actions.GivePokemonToPlayerAction;
@@ -33,5 +34,10 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
             player.openDialog("first_interaction_with_prof_oak");
             hasDialogStarted = true;
         }
+    }
+
+    @Override
+    public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
+        player.openDialog("first_interaction_with_oak_event_icshopassistant");
     }
 }

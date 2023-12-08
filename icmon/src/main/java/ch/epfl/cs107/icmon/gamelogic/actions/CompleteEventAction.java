@@ -4,7 +4,7 @@ import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 
 public class CompleteEventAction implements Action {
 
-    private ICMonEvent event;
+    private final ICMonEvent event;
 
     public CompleteEventAction(ICMonEvent eventToComplete) {
         this.event = eventToComplete;

@@ -5,8 +5,8 @@ import ch.epfl.cs107.icmon.actor.pokemon.Latios;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 
 public class GivePokemonToPlayerAction implements Action{
-    private Pokemon pokemon;
-    private ICMonPlayer player;
+    private final Pokemon pokemon;
+    private final ICMonPlayer player;
 
     public GivePokemonToPlayerAction(Pokemon pokemon, ICMonPlayer player){
         this.pokemon = pokemon;
@@ -16,6 +16,6 @@ public class GivePokemonToPlayerAction implements Action{
     @Override
     public void perform() {
         System.out.println("action.give." + pokemon.toString() + ".to.player");
-        player.getPokemons().add(pokemon);
+        player.givePokemon(pokemon);
     }
 }

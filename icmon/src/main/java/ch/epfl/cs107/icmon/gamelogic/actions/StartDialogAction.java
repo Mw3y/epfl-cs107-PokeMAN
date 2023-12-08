@@ -5,7 +5,7 @@ import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 public class StartDialogAction implements Action {
 
     private final String path;
-    private ICMonPlayer player;
+    private final ICMonPlayer player;
 
     public StartDialogAction(String path, ICMonPlayer player) {
         this.path = path;

@@ -23,11 +23,11 @@ import java.util.List;
  */
 public abstract class Pokemon extends ICMonActor implements ICMonFightableActor {
 
-    private String name;
-    private int hpMax;
+    private final String name;
+    private final int hpMax;
     private int hp;
-    private int damages;
-    private RPGSprite sprite;
+    private final int damages;
+    private final RPGSprite sprite;
 
     private final List<ICMonFightAction> actionsList;
 
@@ -42,9 +42,13 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         this.actionsList = actionsList;
     }
 
+    public boolean isKO() {
+        return hp <= 0;
+    }
+
     @Override
-    public void fight(ICMon.ICMonGameState game) {
-        game.send(new StartPokemonFightMessage(this));
+    public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
+        game.send(new StartPokemonFightMessage(this, playerPokemon));
     }
 
     public PokemonProperties properties(){

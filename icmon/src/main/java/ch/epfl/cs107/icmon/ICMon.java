@@ -2,6 +2,7 @@ package ch.epfl.cs107.icmon;
 
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
+import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.*;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
@@ -20,9 +21,7 @@ import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Keyboard;
 import ch.epfl.cs107.play.window.Window;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class ICMon extends AreaGame {
 
@@ -30,26 +29,26 @@ public class ICMon extends AreaGame {
     private final List<ICMonEvent> registeredEvents = new LinkedList<>();
     private final List<ICMonEvent> unregisteredEvents = new LinkedList<>();
     private final List<ICMonEvent> events = new LinkedList<>();
+    private ICMonPlayer player;
+
     private final ICMonGameState gameState = new ICMonGameState();
     private final ICMonEventManager eventManager = new ICMonEventManager();
-    private ICMonPlayer player;
+
+    private final Map<String, ICMonArea> areas = new HashMap<>();
 
     @Override
     public String getTitle() {
         return "PokéMAN: Majorez les tous !";
     }
 
-    public void end() {
-    }
+    public void end() {}
 
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
         if (super.begin(window, fileSystem)) {
             createAreas();
             initArea(House.TITLE);
-
             events();
-
             return true;
         }
         return false;
@@ -90,13 +89,17 @@ public class ICMon extends AreaGame {
             ICMonEvent introduction = new IntroductionEvent(gameState, eventManager, player);
             ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(gameState, eventManager, player);
 
-            final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
+            Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
+            getCurrentArea().registerActor(garry);
+            ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(gameState, eventManager, player, garry);
+
+            ICBall ball = new ICBall(areas.get(Town.TITLE), new DiscreteCoordinates(6, 6), "items/icball");
             ICMonEvent collectBall = new CollectItemEvent(gameState, eventManager, player, ball);
-            collectBall.onStart(new RegisterInAreaAction((ICMonArea) getCurrentArea(), ball));
+            collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
 
             ICMonEvent endOfTheGame = new EndOfTheGameEvent(gameState, eventManager, player);
 
-            ICMonChainedEvent mainScenario = new ICMonChainedEvent(gameState, eventManager, player, introduction, firstInteractionWithProfOak, collectBall, endOfTheGame);
+            ICMonChainedEvent mainScenario = new ICMonChainedEvent(gameState, eventManager, player, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, endOfTheGame);
             eventManager.registerEvent(mainScenario);
             mainScenario.start();
     }
@@ -111,11 +114,15 @@ public class ICMon extends AreaGame {
     }
 
     private void createAreas() {
-        addArea(new Town());
-        addArea(new Lab());
-        addArea(new Arena());
-        addArea(new House());
-        addArea(new Shop());
+        areas.put(Town.TITLE, new Town());
+        areas.put(Lab.TITLE, new Lab());
+        areas.put(Arena.TITLE, new Arena());
+        areas.put(House.TITLE, new House());
+        areas.put(Shop.TITLE, new Shop());
+
+        for (ICMonArea area : areas.values()) {
+            addArea(area);
+        }
     }
 
     private void initArea(String areaTitle) {
@@ -129,7 +136,7 @@ public class ICMon extends AreaGame {
 
     public class ICMonGameState implements Updatable {
 
-        private Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
+        private final Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
 
         private ICMonGameState() {
         }

@@ -2,6 +2,7 @@ package ch.epfl.cs107.icmon.handler;
 
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.misc.Door;
+import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.npc.ProfOak;
@@ -34,5 +35,7 @@ public interface ICMonInteractionVisitor extends AreaInteractionVisitor {
     default void interactWith(Pokemon pokemon, boolean isCellInteraction) {}
 
     default void interactWith(ProfOak profOak, boolean isCellInteraction) {}
+
+    default void interactWith(Garry garry, boolean isCellInteraction) {}
 
 }
