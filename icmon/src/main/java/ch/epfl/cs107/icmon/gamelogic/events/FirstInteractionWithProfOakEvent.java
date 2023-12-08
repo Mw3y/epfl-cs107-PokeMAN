@@ -5,6 +5,7 @@ import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.actor.npc.ProfOak;
 import ch.epfl.cs107.icmon.actor.pokemon.Latios;
+import ch.epfl.cs107.icmon.area.maps.Pokeball;
 import ch.epfl.cs107.icmon.gamelogic.actions.GivePokemonToPlayerAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
@@ -18,7 +19,7 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
         super(gameState, eventManager, player);
         onStart(new LogAction("event.firstInteractionWithProfOak.start"));
         onComplete(new LogAction("event.firstInteractionWithProfOak.complete"));
-        onComplete(new GivePokemonToPlayerAction(new Latios(gameState.getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(0, 0)), player));
+        onComplete(new GivePokemonToPlayerAction(new Latios(new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0)), player));
     }
 
     @Override

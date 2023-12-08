@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public abstract class Trainer extends NPCActor implements ICMonFightableActor {
 
     protected final ArrayList<Pokemon> pokemons = new ArrayList<>();
+    private boolean acceptsFights = false;
 
     /**
      * Default MovableAreaEntity constructor
@@ -31,6 +32,14 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
     }
 
     public boolean hasHealthyPokemon() {
-        return pokemons.stream().anyMatch(Pokemon::isKO);
+        return pokemons.stream().noneMatch(Pokemon::isKO);
+    }
+
+    public boolean acceptsFights() {
+        return this.acceptsFights;
+    }
+
+    public void setFightsAcceptance(boolean acceptance) {
+        acceptsFights = acceptance;
     }
 }

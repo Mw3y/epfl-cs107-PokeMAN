@@ -223,7 +223,9 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(Garry garry, boolean isCellInteraction) {
-            // garry.fight(game);
+            if (garry.acceptsFights()) {
+                garry.fight(game, pokemons.get(0));
+            }
             game.acceptInteraction(garry, isCellInteraction);
         }
     }

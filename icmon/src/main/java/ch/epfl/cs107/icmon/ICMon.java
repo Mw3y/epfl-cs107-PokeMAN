@@ -151,10 +151,6 @@ public class ICMon extends AreaGame {
             }
         }
 
-        public Area getCurrentArea() {
-            return ICMon.this.getCurrentArea();
-        }
-
         /**
          * ???
          */

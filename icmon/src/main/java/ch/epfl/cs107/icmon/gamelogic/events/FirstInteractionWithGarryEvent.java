@@ -4,7 +4,9 @@ import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
+import ch.epfl.cs107.icmon.gamelogic.actions.Action;
 import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.SetTrainerFightsAcceptance;
 import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFight;
 import ch.epfl.cs107.play.engine.PauseMenu;
 
@@ -18,6 +20,9 @@ public class FirstInteractionWithGarryEvent extends ICMonEvent {
 
         onStart(new LogAction("event.firstInteractionWithGarry.start"));
         onComplete(new LogAction("event.firstInteractionWithGarry.complete"));
+        // Allow fighting garry only during the event
+        onStart(new SetTrainerFightsAcceptance(garry, true));
+        onComplete(new SetTrainerFightsAcceptance(garry, false));
     }
 
     public void update(float deltaTime) {
@@ -25,11 +30,5 @@ public class FirstInteractionWithGarryEvent extends ICMonEvent {
         if (!garry.hasHealthyPokemon()) {
             complete();
         }
-    }
-
-    @Override
-    public void interactWith(Garry garry, boolean isCellInteraction) {
-        // TODO: Launch fight
-        // garry.fight(gameState, );
     }
 }
