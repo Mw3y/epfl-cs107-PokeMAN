@@ -29,6 +29,5 @@ public class House extends ICMonArea {
         registerActor(new Foreground(this));
         registerActor(new Door(Town.TITLE, new DiscreteCoordinates(7, 26), this,
                 new DiscreteCoordinates(3, 1), new DiscreteCoordinates(4, 1)));
-        // registerActor(new Garry(this, Orientation.DOWN, new DiscreteCoordinates(1, 3)));
     }
 }
