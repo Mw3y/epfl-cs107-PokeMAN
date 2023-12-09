@@ -36,10 +36,12 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     /**
      * ???
      */
-    private final static int MOVE_DURATION = 2;
+    private final static int WALK_MOVE_DURATION = 3;
+    private final static int SPRINT_MOVE_DURATION = 2;
     private final static int ANIMATION_DURATION = 4;
 
     private final OrientedAnimation walkSprite;
+    private final OrientedAnimation sprintSprite;
     private final OrientedAnimation surfSprite;
     private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
     private final ICMon.ICMonGameState game;
@@ -49,6 +51,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      * ???
      */
     private OrientedAnimation currentSprite;
+    private boolean isSprinting = false;
 
     /**
      * ???
@@ -60,13 +63,16 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, ICMon.ICMonGameState game) {
         super(owner, orientation, coordinates);
         walkSprite = new OrientedAnimation("actors/player", ANIMATION_DURATION / 2, getOrientation(), this);
+        sprintSprite = new OrientedAnimation("actors/player_sprint", ANIMATION_DURATION / 2, getOrientation(), this);
         surfSprite = new OrientedAnimation("actors/player_water", ANIMATION_DURATION / 2, getOrientation(), this);
         currentSprite = walkSprite;
         resetMotion();
 
         this.game = game;
-        //pokemons.add(new Bulbizarre(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(100, 100)));
-        //pokemons.add((new Latios(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(105,105))));
+    }
+
+    private void setSprite(OrientedAnimation sprite) {
+        currentSprite = sprite;
     }
 
     public boolean givePokemon(Pokemon pokemon) {
@@ -94,6 +100,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
             return;
         }
 
+        isSprinting = keyboard.get(Keyboard.S).isDown();
         moveIfPressed(Orientation.LEFT, keyboard.get(Keyboard.LEFT));
         moveIfPressed(Orientation.UP, keyboard.get(Keyboard.UP));
         moveIfPressed(Orientation.RIGHT, keyboard.get(Keyboard.RIGHT));
@@ -160,7 +167,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         if (b.isDown()) {
             if (!isDisplacementOccurs()) {
                 orientate(orientation);
-                move(MOVE_DURATION);
+                move(isSprinting ? SPRINT_MOVE_DURATION : WALK_MOVE_DURATION);
             }
         }
     }
@@ -187,8 +194,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
             // Close range interaction
             if (isCellInteraction) {
                 switch (cell.getWalkingType()) {
-                    case SURF -> currentSprite = surfSprite;
-                    case FEET -> currentSprite = walkSprite;
+                    case SURF -> setSprite(surfSprite);
+                    case FEET -> setSprite(isSprinting ? sprintSprite : walkSprite);
                     // default : Keep current sprite
                 }
                 currentSprite.orientate(getOrientation());

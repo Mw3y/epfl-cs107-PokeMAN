@@ -61,7 +61,7 @@ public class ICMonFight extends PauseMenu {
                 // TODO: Execute action
                 final boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon);
                 // The player has won
-                if (opponentPokemon.properties().hp() <= 0) {
+                if (opponentPokemon.isKO()) {
                     state = FightState.ENDING;
                     drawText("The player has won the fight!");
                     break;
@@ -90,7 +90,7 @@ public class ICMonFight extends PauseMenu {
                     }
 
                     // The pokemon of the player is KO
-                    if (opponentPokemon.properties().hp() <= 0) {
+                    if (playerPokemon.isKO()) {
                         state = FightState.ENDING;
                         drawText("The opponent has won the fight!");
                         break;

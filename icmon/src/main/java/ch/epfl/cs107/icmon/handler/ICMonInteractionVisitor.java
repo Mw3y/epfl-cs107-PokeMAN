@@ -37,8 +37,6 @@ public interface ICMonInteractionVisitor extends AreaInteractionVisitor {
 
     default void interactWith(ProfOak profOak, boolean isCellInteraction) {}
 
-    default void interactWith(Garry garry, boolean isCellInteraction) {}
-
     default void interactWith(Trainer trainer, boolean isCellInteraction) {}
 
 

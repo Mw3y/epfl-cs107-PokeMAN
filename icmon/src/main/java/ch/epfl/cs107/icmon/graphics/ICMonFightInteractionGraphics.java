@@ -16,7 +16,8 @@ public abstract class ICMonFightInteractionGraphics implements Graphics {
     private final ImageGraphics background;
 
     protected ICMonFightInteractionGraphics(float scaleFactor){
-        background = new ImageGraphics(getBackground("fight_interaction_background"), scaleFactor, scaleFactor / 3);
+        background = new ImageGraphics(getBackground("fight_interaction_background"), scaleFactor,
+                scaleFactor / 3);
     }
 
     @Override
