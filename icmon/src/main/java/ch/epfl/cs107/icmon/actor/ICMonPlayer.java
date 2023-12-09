@@ -227,6 +227,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
             if (hasHealthyPokemon()) {
                 pokemon.fight(game, pokemons.get(0));
             }
+            else openDialog("no_healthy_pokemons");
             game.acceptInteraction(pokemon, isCellInteraction);
         }
 
@@ -240,6 +241,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
             if (hasHealthyPokemon() && trainer.acceptsFights()) {
                 trainer.fight(game, pokemons.get(0));
             }
+            else openDialog("no_healthy_pokemons");
             game.acceptInteraction(trainer, isCellInteraction);
         }
     }
