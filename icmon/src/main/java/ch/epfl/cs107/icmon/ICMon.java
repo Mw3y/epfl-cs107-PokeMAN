@@ -2,20 +2,17 @@ package ch.epfl.cs107.icmon;
 
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
+import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.area.ICMonArea;
-import ch.epfl.cs107.icmon.area.maps.Arena;
-import ch.epfl.cs107.icmon.area.maps.Lab;
-import ch.epfl.cs107.icmon.area.maps.Town;
-import ch.epfl.cs107.icmon.gamelogic.actions.RegisterEventAction;
+import ch.epfl.cs107.icmon.area.maps.*;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
-import ch.epfl.cs107.icmon.gamelogic.events.CollectItemEvent;
-import ch.epfl.cs107.icmon.gamelogic.events.EndOfTheGameEvent;
-import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
+import ch.epfl.cs107.icmon.gamelogic.events.*;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
+import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.io.FileSystem;
@@ -24,10 +21,7 @@ import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Keyboard;
 import ch.epfl.cs107.play.window.Window;
 
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
-import java.util.concurrent.PriorityBlockingQueue;
+import java.util.*;
 
 public class ICMon extends AreaGame {
 
@@ -35,33 +29,26 @@ public class ICMon extends AreaGame {
     private final List<ICMonEvent> registeredEvents = new LinkedList<>();
     private final List<ICMonEvent> unregisteredEvents = new LinkedList<>();
     private final List<ICMonEvent> events = new LinkedList<>();
+    private ICMonPlayer player;
+
     private final ICMonGameState gameState = new ICMonGameState();
     private final ICMonEventManager eventManager = new ICMonEventManager();
-    private ICMonPlayer player;
+
+    private final Map<String, ICMonArea> areas = new HashMap<>();
 
     @Override
     public String getTitle() {
         return "PokéMAN: Majorez les tous !";
     }
 
-    public void end() {
-    }
+    public void end() {}
 
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
         if (super.begin(window, fileSystem)) {
             createAreas();
-            initArea(Town.TITLE);
-
-            final ICBall ball = new ICBall(getCurrentArea(), new DiscreteCoordinates(6, 6), "items/icball");
-            final CollectItemEvent ballCollectEvent = new CollectItemEvent(eventManager, player, ball);
-            new RegisterInAreaAction((ICMonArea) getCurrentArea(), ball).perform();
-
-            final EndOfTheGameEvent endOfTheGameEvent = new EndOfTheGameEvent(eventManager, player);
-            ballCollectEvent.onComplete(new StartEventAction(endOfTheGameEvent));
-
-            ballCollectEvent.start();
-
+            initArea(House.TITLE);
+            events();
             return true;
         }
         return false;
@@ -98,6 +85,26 @@ public class ICMon extends AreaGame {
         super.update(deltaTime);
     }
 
+    private void events() {
+            ICMonEvent introduction = new IntroductionEvent(gameState, eventManager, player);
+            ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(gameState, eventManager, player);
+
+            Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
+            getCurrentArea().registerActor(garry);
+            ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(gameState, eventManager, player, garry);
+
+            ICBall ball = new ICBall(areas.get(Town.TITLE), new DiscreteCoordinates(6, 6), "items/icball");
+            ICMonEvent collectBall = new CollectItemEvent(gameState, eventManager, player, ball);
+            collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
+
+            ICMonEvent endOfTheGame = new EndOfTheGameEvent(gameState, eventManager, player);
+
+            ICMonChainedEvent mainScenario = new ICMonChainedEvent(gameState, eventManager, player, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, endOfTheGame);
+            eventManager.registerEvent(mainScenario);
+            mainScenario.start();
+    }
+    
+
     private void addEvent(ICMonEvent event) {
         events.add(event);
     }
@@ -107,9 +114,15 @@ public class ICMon extends AreaGame {
     }
 
     private void createAreas() {
-        addArea(new Town());
-        addArea(new Lab());
-        addArea(new Arena());
+        areas.put(Town.TITLE, new Town());
+        areas.put(Lab.TITLE, new Lab());
+        areas.put(Arena.TITLE, new Arena());
+        areas.put(House.TITLE, new House());
+        areas.put(Shop.TITLE, new Shop());
+
+        for (ICMonArea area : areas.values()) {
+            addArea(area);
+        }
     }
 
     private void initArea(String areaTitle) {
@@ -123,17 +136,13 @@ public class ICMon extends AreaGame {
 
     public class ICMonGameState implements Updatable {
 
-        private Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
+        private final Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
 
         private ICMonGameState() {
         }
 
         public void send(GamePlayMessage message) {
             messagesQueue.add(message);
-        }
-
-        public void clear(GamePlayMessage message) {
-            messagesQueue.remove(message);
         }
 
         public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {

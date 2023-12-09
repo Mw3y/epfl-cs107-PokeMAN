@@ -7,6 +7,7 @@ import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.window.Window;
 
 public abstract class ICMonArea extends Area {
+
     protected abstract void createArea();
 
     public abstract DiscreteCoordinates getPlayerSpawnPosition();

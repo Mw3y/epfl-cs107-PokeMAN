@@ -27,7 +27,7 @@ public final class ICMonFighterInfoGraphics implements Graphics, Positionable {
         this.position = position;
 
         // HR : Add the background
-        background = new ImageGraphics(getSprite("dialog"), 6f, 2f);
+        background = new ImageGraphics(getSprite("fight_player_pokemon_infos"), 6f, 2f);
         background.setParent(this);
     }
 

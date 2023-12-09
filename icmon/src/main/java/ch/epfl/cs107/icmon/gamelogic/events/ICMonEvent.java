@@ -16,13 +16,17 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
     private final List<Action> suspendActions = new ArrayList<>();
     private final List<Action> resumeActions = new ArrayList<>();
     private final List<Action> completeActions = new ArrayList<>();
-    protected ICMon.ICMonEventManager eventManager;
-    protected ICMonPlayer player;
+
     private boolean isStarted = false;
     private boolean isCompleted = false;
     private boolean isSuspended = false;
 
-    public ICMonEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
+    protected ICMon.ICMonGameState gameState;
+    protected ICMon.ICMonEventManager eventManager;
+    protected ICMonPlayer player;
+
+    public ICMonEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
+        this.gameState = gameState;
         this.eventManager = eventManager;
         this.player = player;
     }
@@ -70,9 +74,7 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         }
     }
 
-    final public void onStart(Action action) {
-        startActions.add(action);
-    }
+    final public void onStart(Action action) {startActions.add(action);}
 
     final public void onComplete(Action action) {
         completeActions.add(action);

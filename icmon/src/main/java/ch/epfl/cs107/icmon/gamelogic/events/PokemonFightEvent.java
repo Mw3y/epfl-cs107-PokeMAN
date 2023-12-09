@@ -2,6 +2,7 @@ package ch.epfl.cs107.icmon.gamelogic.events;
 
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
+import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.gamelogic.actions.LeaveAreaAction;
@@ -16,18 +17,13 @@ public class PokemonFightEvent extends ICMonEvent {
 
     private final ICMonFight fight;
 
-    public PokemonFightEvent(ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon pokemon) {
-        super(eventManager, player);
+    public PokemonFightEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player, Pokemon playerPokemon, Pokemon pokemon) {
+        super(gameState, eventManager, player);
+        this.fight = new ICMonFight(playerPokemon, pokemon);
 
-        this.fight = new ICMonFight(player.getPokemons().get(0), pokemon);
-
-        onStart(new RegisterEventAction(eventManager, this));
-        onComplete(new UnregisterEventAction(eventManager, this));
-
+        onStart(new LogAction("event.pokemonFight.start.with." + pokemon));
+        onComplete(new LogAction("event.pokemonFight.complete.with." + pokemon));
         onComplete(new LeaveAreaAction(pokemon));
-
-        onStart(new LogAction("PokemonFightEvent started!"));
-        onComplete(new LogAction("PokemonFightEvent completed!"));
     }
 
     @Override

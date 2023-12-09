@@ -14,6 +14,7 @@ public class PassDoorMessage implements GamePlayMessage {
 
     @Override
     public void process(ICMonPlayer player, ICMon.ICMonGameState game, ICMon.ICMonEventManager eventManager) {
+        System.out.println("message.player.passDoor");
         game.changeArea(door.getDestinationAreaTitle(), door.getDestinationAreaSpawnPosition());
     }
 }

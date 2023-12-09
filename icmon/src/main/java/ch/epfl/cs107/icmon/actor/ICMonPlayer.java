@@ -3,9 +3,10 @@ package ch.epfl.cs107.icmon.actor;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
+import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
-import ch.epfl.cs107.icmon.actor.pokemon.Bulbizarre;
-import ch.epfl.cs107.icmon.actor.pokemon.Latios;
+import ch.epfl.cs107.icmon.actor.npc.ProfOak;
+import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
@@ -42,11 +43,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     private final OrientedAnimation surfSprite;
     private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
     private final ICMon.ICMonGameState game;
-
-    private Dialog dialog;
-
     private final ArrayList<Pokemon> pokemons = new ArrayList<>();
-
+    private Dialog dialog;
     /**
      * ???
      */
@@ -67,12 +65,16 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         resetMotion();
 
         this.game = game;
-        pokemons.add(new Bulbizarre(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(100, 100)));
-        pokemons.add((new Latios(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(105,105))));
+        //pokemons.add(new Bulbizarre(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(100, 100)));
+        //pokemons.add((new Latios(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(105,105))));
     }
 
-    public ArrayList<Pokemon> getPokemons() {
-        return pokemons;
+    public boolean givePokemon(Pokemon pokemon) {
+        return pokemons.add(pokemon);
+    }
+
+    public boolean hasHealthyPokemon() {
+        return !pokemons.isEmpty() && pokemons.stream().noneMatch(Pokemon::isKO);
     }
 
     /**
@@ -177,7 +179,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     private class ICMonPlayerInteractionHandler implements ICMonInteractionVisitor {
 
-        private ICMonPlayerInteractionHandler() {}
+        private ICMonPlayerInteractionHandler() {
+        }
 
         @Override
         public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
@@ -214,8 +217,23 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
-            pokemon.fight(game);
+            if (hasHealthyPokemon()) {
+                pokemon.fight(game, pokemons.get(0));
+            }
             game.acceptInteraction(pokemon, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(ProfOak profOak, boolean isCellInteraction) {
+            game.acceptInteraction(profOak, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(Trainer trainer, boolean isCellInteraction) {
+            if (hasHealthyPokemon() && trainer.acceptsFights()) {
+                trainer.fight(game, pokemons.get(0));
+            }
+            game.acceptInteraction(trainer, isCellInteraction);
         }
     }
 }

@@ -15,6 +15,7 @@ public class PauseGameAction implements Action {
 
     @Override
     public void perform() {
+        System.out.println("action.game.pause");
         game.pause(pauseMenu);
     }
 }

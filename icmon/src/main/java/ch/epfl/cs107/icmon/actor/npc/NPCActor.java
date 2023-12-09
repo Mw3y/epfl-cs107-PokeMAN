@@ -11,7 +11,7 @@ import ch.epfl.cs107.play.window.Canvas;
 
 public abstract class NPCActor extends ICMonActor {
 
-    private RPGSprite sprite;
+    private final RPGSprite sprite;
 
     /**
      * Default MovableAreaEntity constructor

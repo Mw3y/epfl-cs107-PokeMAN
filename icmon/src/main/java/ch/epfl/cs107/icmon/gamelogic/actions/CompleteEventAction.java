@@ -2,16 +2,16 @@ package ch.epfl.cs107.icmon.gamelogic.actions;
 
 import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 
-public class StartEventAction implements Action {
+public class CompleteEventAction implements Action {
 
     private final ICMonEvent event;
 
-    public StartEventAction(ICMonEvent eventToStart) {
-        this.event = eventToStart;
+    public CompleteEventAction(ICMonEvent eventToComplete) {
+        this.event = eventToComplete;
     }
 
     @Override
     public void perform() {
-        event.start();
+        event.complete();
     }
 }

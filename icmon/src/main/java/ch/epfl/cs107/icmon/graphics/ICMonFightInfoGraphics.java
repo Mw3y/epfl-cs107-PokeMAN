@@ -32,32 +32,56 @@ public final class ICMonFightInfoGraphics implements Graphics, Positionable {
     private final ImageGraphics background;
     private final TextGraphics name;
     private final ImageGraphics hpBackground;
-    private final ShapeGraphics hpBar;
-    private final Vector hpBarStart;
+    private ShapeGraphics hpBar;
+    private Vector hpBarStart;
 
-    public ICMonFightInfoGraphics(Vector position, Pokemon.PokemonProperties properties){
+    private enum HpBarColor {
+        HEALTHY(new Color(112, 248, 168)),
+        LOW(new Color(248, 224, 56)),
+        CRITICAL(new Color(248, 88, 56));
+
+        private final Color color;
+
+        HpBarColor(Color color) {
+            this.color = color;
+        }
+
+        public Color getColor() {
+            return color;
+        }
+    }
+
+    private Color hpBarColor = HpBarColor.HEALTHY.getColor();
+
+    public ICMonFightInfoGraphics(Vector position, Pokemon.PokemonProperties properties, boolean isPlayerInfos){
         // HR : set the position
         this.position = position;
         this.properties = properties;
 
+        float xOffset = isPlayerInfos ? 0.3f : 0f;
+        String spriteName = isPlayerInfos
+                ? "fight_player_pokemon_infos"
+                : "fight_opponent_pokemon_infos";
+
         // HR : Add the background
-        background = new ImageGraphics(getSprite("dialog"), 6f, 2f);
+        background = new ImageGraphics(getSprite(spriteName), 6f, 2f);
         background.setParent(this);
 
         // HR : Add the Pokémon's name
-        name = new TextGraphics(properties.name(), FONT_SIZE, Color.BLACK,
+        name = new TextGraphics(properties.name().toUpperCase(), FONT_SIZE, Color.BLACK,
                 null, 0.0f, false, false,
-                new Vector(0.3f,2f), TextAlign.Horizontal.LEFT,
+                new Vector((float) (xOffset * 1.55 + .35f),1.9f), TextAlign.Horizontal.LEFT,
                 TextAlign.Vertical.TOP, 1.0f, 1001);
         name.setParent(this);
 
         // HR : Add the HP Bar
         // HR : It's background
-        var hpAnchor = new Vector(0.3f,0.3f);
-        hpBackground = new ImageGraphics(getSprite("hp_bar"), 5.4f, 0.5f, null, hpAnchor);
+        var hpAnchor = new Vector(xOffset + 1.55f,0.5f);
+        hpBackground = new ImageGraphics(getSprite("hp_bar"), 3.75f, 0.45f, null, hpAnchor);
         hpBackground.setParent(this);
-        hpBarStart = hpAnchor.add(1.3f, 0.25f);
-        hpBar = new ShapeGraphics(new Polyline(hpBarStart, computeHpBarEnd(properties.hp(), properties.maxHp())), Color.green, Color.green, 0.4f);
+        hpBarStart = hpAnchor.add(1.05f, 0.24f);
+        hpBar = new ShapeGraphics(new Polyline(hpBarStart, computeHpBarEnd(properties.hp(), properties.maxHp())),
+                HpBarColor.HEALTHY.getColor(), HpBarColor.HEALTHY.getColor(), 0.2f);
         hpBar.setParent(this);
     }
 
@@ -68,15 +92,25 @@ public final class ICMonFightInfoGraphics implements Graphics, Positionable {
         background.draw(canvas);
         // HR : Draw the name
         name.draw(canvas);
-        // HR : Draw the HP Bar
+        // HR : Draw the pokemon in-battle menu
         hpBackground.draw(canvas);
         // HR : Update the hp bar
         hpBar.setShape(new Polyline(hpBarStart, computeHpBarEnd(properties.hp(), properties.maxHp())));
+        // Change hp bar color based on pokemon health
+        if (properties.hasLowHp()) {
+            hpBarColor = HpBarColor.LOW.getColor();
+        }
+        if (properties.hasCriticalHp()) {
+            hpBarColor = HpBarColor.CRITICAL.getColor();
+        }
+        hpBar.setFillColor(hpBarColor);
+        hpBar.setOutlineColor(hpBarColor);
+        // HR : Draw the hp bar
         hpBar.draw(canvas);
     }
 
     private Vector computeHpBarEnd(float hp, float maxhp){
-        return hpBarStart.add(HP_BAR_SIZE * hp / maxhp, 0);
+        return hpBarStart.add((float) (HP_BAR_SIZE * hp / maxhp / 1.5), 0);
     }
 
     @Override

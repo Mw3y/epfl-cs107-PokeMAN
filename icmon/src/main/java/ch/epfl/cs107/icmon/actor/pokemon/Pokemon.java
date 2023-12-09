@@ -3,6 +3,9 @@ package ch.epfl.cs107.icmon.actor.pokemon;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonActor;
 import ch.epfl.cs107.icmon.actor.ICMonFightableActor;
+import ch.epfl.cs107.icmon.actor.ICMonPlayer;
+import ch.epfl.cs107.icmon.gamelogic.events.PokemonFightEvent;
+import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFight;
 import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 import ch.epfl.cs107.icmon.gamelogic.messages.StartPokemonFightMessage;
 import ch.epfl.cs107.play.areagame.area.Area;
@@ -20,11 +23,11 @@ import java.util.List;
  */
 public abstract class Pokemon extends ICMonActor implements ICMonFightableActor {
 
-    private String name;
-    private int hpMax;
+    private final String name;
+    private final int hpMax;
     private int hp;
-    private int damages;
-    private RPGSprite sprite;
+    private final int damages;
+    private final RPGSprite sprite;
 
     private final List<ICMonFightAction> actionsList;
 
@@ -39,9 +42,13 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         this.actionsList = actionsList;
     }
 
+    public boolean isKO() {
+        return hp <= 0;
+    }
+
     @Override
-    public void fight(ICMon.ICMonGameState game) {
-        game.send(new StartPokemonFightMessage(this));
+    public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
+        game.send(new StartPokemonFightMessage(this, playerPokemon));
     }
 
     public PokemonProperties properties(){
@@ -55,6 +62,11 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
     @Override
     public void draw(Canvas canvas) {
         sprite.draw(canvas);
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 
     /**
@@ -79,6 +91,14 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         }
 
         public List<ICMonFightAction> actions() { return actionsList; }
+
+        public boolean hasLowHp() {
+            return hp <= .35 * hpMax;
+        }
+
+        public boolean hasCriticalHp() {
+            return hp <= .15 * hpMax;
+        }
 
     }
 }

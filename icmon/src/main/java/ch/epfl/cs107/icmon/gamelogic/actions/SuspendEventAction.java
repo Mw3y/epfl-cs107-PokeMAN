@@ -4,7 +4,7 @@ import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 
 public class SuspendEventAction implements Action {
 
-    private ICMonEvent event;
+    private final ICMonEvent event;
 
     public SuspendEventAction(ICMonEvent event){
         this.event = event;
