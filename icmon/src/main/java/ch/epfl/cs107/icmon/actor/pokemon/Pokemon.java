@@ -92,5 +92,13 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
 
         public List<ICMonFightAction> actions() { return actionsList; }
 
+        public boolean hasLowHp() {
+            return hp <= .35 * hpMax;
+        }
+
+        public boolean hasCriticalHp() {
+            return hp <= .15 * hpMax;
+        }
+
     }
 }
