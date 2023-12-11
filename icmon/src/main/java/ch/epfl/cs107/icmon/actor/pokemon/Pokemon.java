@@ -24,8 +24,12 @@ import java.util.List;
 public abstract class Pokemon extends ICMonActor implements ICMonFightableActor {
 
     private final String name;
-    private final int hpMax;
-    private int hp;
+
+    // TODO: Readme justify usage of float
+    private final float hpMax;
+
+    // TODO: Readme justify usage of float
+    private float hp;
     private final int damages;
     private final RPGSprite sprite;
 
@@ -57,6 +61,11 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
 
     public void dealDamages(int damages) {
         hp -= damages;
+    }
+
+    public void heal(float hp) {
+        // Prevent from adding too much hp
+        this.hp = Math.min(hp, hpMax);
     }
 
     @Override

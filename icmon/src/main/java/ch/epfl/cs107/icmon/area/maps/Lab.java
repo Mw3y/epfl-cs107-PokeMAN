@@ -1,6 +1,7 @@
 package ch.epfl.cs107.icmon.area.maps;
 
 import ch.epfl.cs107.icmon.actor.misc.Door;
+import ch.epfl.cs107.icmon.actor.npc.Nurse;
 import ch.epfl.cs107.icmon.actor.npc.ProfOak;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.play.engine.actor.Background;
@@ -22,6 +23,7 @@ public class Lab extends ICMonArea {
         registerActor(new ProfOak(this, Orientation.DOWN, new DiscreteCoordinates(11, 7)));
         registerActor(new Door(Town.TITLE, new DiscreteCoordinates(15, 23), this,
                 new DiscreteCoordinates(6, 1), new DiscreteCoordinates(7, 1)));
+        registerActor(new Nurse(this, Orientation.DOWN, new DiscreteCoordinates(7, 7)));
     }
 
     @Override

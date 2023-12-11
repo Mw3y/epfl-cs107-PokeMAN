@@ -3,10 +3,7 @@ package ch.epfl.cs107.icmon.actor;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
-import ch.epfl.cs107.icmon.actor.npc.Garry;
-import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
-import ch.epfl.cs107.icmon.actor.npc.ProfOak;
-import ch.epfl.cs107.icmon.actor.npc.Trainer;
+import ch.epfl.cs107.icmon.actor.npc.*;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
@@ -126,6 +123,10 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         currentSprite.draw(canvas);
     }
 
+    public boolean requestHealFromNurse(Nurse nurse) {
+        return nurse.healPokemons(pokemons);
+    }
+
     /**
      * ???
      *
@@ -243,6 +244,15 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
             }
             else openDialog("fight_impossible");
             game.acceptInteraction(trainer, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(Nurse nurse, boolean isCellInteraction) {
+            if (hasHealthyPokemon()) {
+                openDialog("nurse_heal_pokemon");
+                requestHealFromNurse(nurse);
+            } else openDialog("nurse_no_pokemon_to_heal");
+            game.acceptInteraction(nurse, isCellInteraction);
         }
     }
 }

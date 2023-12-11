@@ -6,7 +6,7 @@ import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
-public class ProfOak extends NPCActor{
+public class ProfOak extends NPCActor {
     /**
      * Default MovableAreaEntity constructor
      *
