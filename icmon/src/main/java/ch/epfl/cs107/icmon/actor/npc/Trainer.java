@@ -9,10 +9,11 @@ import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Trainer extends NPCActor implements ICMonFightableActor {
 
-    protected final ArrayList<Pokemon> pokemons = new ArrayList<>();
+    private final List<Pokemon> pokemons = new ArrayList<>();
     private boolean acceptsFights = false;
 
     /**
@@ -41,5 +42,13 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
 
     public void setFightsAcceptance(boolean acceptance) {
         acceptsFights = acceptance;
+    }
+
+    /**
+     * Gives access to its Pokemon list to all Trainer subclasses.
+     * @return the trainer Pokemon list.
+     */
+    protected List<Pokemon> getPokemons() {
+        return pokemons;
     }
 }

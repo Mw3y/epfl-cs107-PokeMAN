@@ -3,7 +3,7 @@ package ch.epfl.cs107.icmon.actor.npc;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.pokemon.Nidoqueen;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
-import ch.epfl.cs107.icmon.gamelogic.messages.StartTrainerFightMessage;
+import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
@@ -31,6 +31,6 @@ public class Garry extends Trainer  {
 
     @Override
     public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
-        game.send(new StartTrainerFightMessage(this, playerPokemon, pokemons.get(0)));
+        game.send(new StartFightMessage(this, getPokemons().get(0), playerPokemon));
     }
 }
