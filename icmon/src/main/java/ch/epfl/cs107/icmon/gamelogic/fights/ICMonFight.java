@@ -31,83 +31,83 @@ public class ICMonFight extends PauseMenu {
         arena.draw(c);
     }
 
-    public void update(float deltaTime) {
-        Keyboard keyboard = getKeyboard();
+    private void intro(Keyboard keyboard) {
+        drawText("Welcome to the fight");
+        if (keyboard.get(Keyboard.SPACE).isPressed())
+            state = FightState.SELECT_ACTION;
+    }
 
-        switch (state) {
-            case INTRO: {
-                drawText("Welcome to the fight");
-                if (keyboard.get(Keyboard.SPACE).isPressed())
-                    state = FightState.SELECT_ACTION;
-                break;
-            }
-            case SELECT_ACTION: {
-                // TODO: Better code
-                if (playerActionsMenu == null || nextPlayerAction != null) {
-                    this.nextPlayerAction = null;
-                    this.playerActionsMenu = new ICMonFightActionSelectionGraphics(CAMERA_SCALE_FACTOR, getKeyboard(), playerPokemon.properties().actions());
-                    arena.setInteractionGraphics(playerActionsMenu);
-                }
-                playerActionsMenu.update(deltaTime);
-
-                final ICMonFightAction attack = playerActionsMenu.choice();
-                if (attack != null) {
-                    nextPlayerAction = attack;
-                    state = FightState.EXEC_ACTION;
-                }
-                break;
-            }
-            case EXEC_ACTION: {
-                // TODO: Execute action
-                final boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon);
-                // The player has won
-                if (opponentPokemon.isKO()) {
-                    state = FightState.ENDING;
-                    drawText("The player has won the fight!");
-                    break;
-                }
-                // The attack didn't finish
-                if (!hasSucceeded) {
-                    state = FightState.ENDING;
-                    drawText("The player decided not to continue the fight!");
-                    break;
-                }
-                
-                state = FightState.OPPONENT_ACTION;
-                break;
-            }
-            case OPPONENT_ACTION: {
-                // Check if the pokemon can attack
-                final ICMonFightAction attack = opponentPokemon.properties().actions().stream()
-                        .filter(action -> action.name().equals("Attack")).findFirst().orElse(null);
-
-                if (attack != null) {
-                    // The attack didn't finish
-                    if (!attack.doAction(playerPokemon)) {
-                        state = FightState.ENDING;
-                        drawText("The opponent decided not to continue the fight!");
-                        break;
-                    }
-
-                    // The pokemon of the player is KO
-                    if (playerPokemon.isKO()) {
-                        state = FightState.ENDING;
-                        drawText("The opponent has won the fight!");
-                        break;
-                    }
-                }
-
-                state = FightState.SELECT_ACTION;
-
-                break;
-            }
-            case ENDING: {
-                if (keyboard.get(Keyboard.SPACE).isPressed())
-                    end();
-                break;
-            }
+    private void selectPlayerAction(Keyboard keyboard, float deltaTime) {
+        // TODO: Better code
+        if (playerActionsMenu == null || nextPlayerAction != null) {
+            this.nextPlayerAction = null;
+            this.playerActionsMenu = new ICMonFightActionSelectionGraphics(CAMERA_SCALE_FACTOR, keyboard, playerPokemon.properties().actions());
+            arena.setInteractionGraphics(playerActionsMenu);
         }
 
+        playerActionsMenu.update(deltaTime);
+
+        ICMonFightAction attack = playerActionsMenu.choice();
+        if (attack != null) {
+            nextPlayerAction = attack;
+            state = FightState.EXEC_ACTION;
+        }
+    }
+
+    private void executePlayerAction() {
+        final boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon);
+        // The player has won
+        if (opponentPokemon.isKO()) {
+            state = FightState.ENDING;
+            drawText("The player has won the fight!");
+            return;
+        }
+        // The attack didn't finish
+        if (!hasSucceeded) {
+            state = FightState.ENDING;
+            drawText("The player decided not to continue the fight!");
+            return;
+        }
+        state = FightState.OPPONENT_ACTION;
+    }
+
+    private void executeOpponentAction() {
+        // Check if the Pokémon can attack
+        ICMonFightAction attack = opponentPokemon.properties().actions().stream()
+                .filter(action -> action.name().equals("Attack")).findFirst().orElse(null);
+
+        if (attack != null) {
+            // The attack didn't finish
+            if (!attack.doAction(playerPokemon)) {
+                state = FightState.ENDING;
+                drawText("The opponent decided not to continue the fight!");
+                return;
+            }
+            // The Pokémon of the player is KO
+            if (playerPokemon.isKO()) {
+                state = FightState.ENDING;
+                drawText("The opponent has won the fight!");
+                return;
+            }
+        }
+        state = FightState.SELECT_ACTION;
+    }
+
+    private void ending(Keyboard keyboard) {
+        if (keyboard.get(Keyboard.SPACE).isPressed())
+            end();
+    }
+
+    public void update(float deltaTime) {
+        Keyboard keyboard = getKeyboard();
+        // Fight sequence
+        switch (state) {
+            case INTRO -> intro(keyboard);
+            case SELECT_ACTION -> selectPlayerAction(keyboard, deltaTime);
+            case EXEC_ACTION -> executePlayerAction();
+            case OPPONENT_ACTION -> executeOpponentAction();
+            case ENDING -> ending(keyboard);
+        }
         super.update(deltaTime);
     }
 
