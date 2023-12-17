@@ -6,6 +6,7 @@ import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.*;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.ResumeEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.*;
@@ -33,15 +34,12 @@ public class ICMon extends AreaGame {
 
     private final ICMonGameState gameState = new ICMonGameState();
     private final ICMonEventManager eventManager = new ICMonEventManager();
-
     private final Map<String, ICMonArea> areas = new HashMap<>();
 
     @Override
     public String getTitle() {
         return "PokéMAN: Majorez les tous !";
     }
-
-    public void end() {}
 
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
@@ -85,46 +83,66 @@ public class ICMon extends AreaGame {
         super.update(deltaTime);
     }
 
+    /**
+     * Creates the main scenario chained event.
+     */
     private void events() {
-            ICMonEvent introduction = new IntroductionEvent(gameState, eventManager, player);
-            ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(gameState, eventManager, player);
+        ICMonEvent introduction = new IntroductionEvent(gameState, eventManager, player);
+        ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(gameState, eventManager, player);
 
-            Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
-            getCurrentArea().registerActor(garry);
-            ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(gameState, eventManager, player, garry);
+        Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
+        getCurrentArea().registerActor(garry);
+        ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(gameState, eventManager, player, garry);
 
-            ICBall ball = new ICBall(areas.get(Town.TITLE), new DiscreteCoordinates(6, 6), "items/icball");
-            ICMonEvent collectBall = new CollectItemEvent(gameState, eventManager, player, ball);
-            collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
+        ICBall ball = new ICBall(areas.get(Town.TITLE), new DiscreteCoordinates(6, 6), "items/icball");
+        ICMonEvent collectBall = new CollectItemEvent(gameState, eventManager, player, ball);
+        collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
 
-            ICMonEvent endOfTheGame = new EndOfTheGameEvent(gameState, eventManager, player);
+        ICMonEvent endOfTheGame = new EndOfTheGameEvent(gameState, eventManager, player);
 
-            ICMonChainedEvent mainScenario = new ICMonChainedEvent(gameState, eventManager, player, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, endOfTheGame);
-            eventManager.registerEvent(mainScenario);
-            mainScenario.start();
+        ICMonChainedEvent mainScenario = new ICMonChainedEvent(gameState, eventManager, player, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, endOfTheGame);
+        eventManager.registerEvent(mainScenario);
+        mainScenario.start();
     }
-    
 
+    /**
+     * Adds an event to the events list.
+     *
+     * @param event - The event to add
+     */
     private void addEvent(ICMonEvent event) {
         events.add(event);
     }
 
+    /**
+     * Removes an event to the events list.
+     *
+     * @param event - The event to remove
+     */
     private void removeEvent(ICMonEvent event) {
         events.remove(event);
     }
 
+    /**
+     * Creates all game areas and registers them.
+     */
     private void createAreas() {
         areas.put(Town.TITLE, new Town());
         areas.put(Lab.TITLE, new Lab());
         areas.put(Arena.TITLE, new Arena());
         areas.put(House.TITLE, new House());
         areas.put(Shop.TITLE, new Shop());
-
+        // Register areas
         for (ICMonArea area : areas.values()) {
             addArea(area);
         }
     }
 
+    /**
+     * Initializes the first area of the game.
+     *
+     * @param areaTitle - The name of the area the player will spawn in
+     */
     private void initArea(String areaTitle) {
         ICMonArea area = (ICMonArea) setCurrentArea(areaTitle, true);
         DiscreteCoordinates coords = area.getPlayerSpawnPosition();
@@ -134,6 +152,10 @@ public class ICMon extends AreaGame {
         player.centerCamera();
     }
 
+    /**
+     * State manager of the game
+     * Provides access to the current state of the game.
+     */
     public class ICMonGameState implements Updatable {
 
         private final Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
@@ -141,10 +163,19 @@ public class ICMon extends AreaGame {
         private ICMonGameState() {
         }
 
+        /**
+         * Adds a new action to perform to the game state.
+         * @param message - The action to perform using the game state data
+         */
         public void send(GamePlayMessage message) {
             messagesQueue.add(message);
         }
 
+        /**
+         * Forces an entity to accept the player interaction and dispatches the information to all running events.
+         * @param interactable - The entity the player interacted with
+         * @param isCellInteraction - Whether it was a contact interaction or not
+         */
         public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
             for (var event : ICMon.this.events) {
                 interactable.acceptInteraction(event, isCellInteraction);
@@ -152,7 +183,9 @@ public class ICMon extends AreaGame {
         }
 
         /**
-         * ???
+         * Changes the area in which the player currently evolves.
+         * @param areaTitle - The name of the new area to load
+         * @param spawnPosition - Where will the player appear in the new area
          */
         public void changeArea(String areaTitle, DiscreteCoordinates spawnPosition) {
             player.leaveArea();
@@ -160,17 +193,28 @@ public class ICMon extends AreaGame {
             player.enterArea(currentArea, spawnPosition);
         }
 
+        /**
+         * Asks to pause the game while displaying a pause menu.
+         * @param menu - The pause menu to display
+         */
         public void pause(PauseMenu menu) {
-            setPauseMenu(menu);
-            requestPause();
+            if (!isPaused()) {
+                setPauseMenu(menu);
+                requestPause();
+            }
         }
 
+        /**
+         * Asks the game to resume.
+         */
         public void resume() {
-            requestResume();
+            if (isPaused())
+                requestResume();
         }
 
         @Override
         public void update(float deltaTime) {
+            // Perform every request of the messagesQueue
             while (!messagesQueue.isEmpty()) {
                 // .poll() returns the first value in the queue and removes it
                 messagesQueue.poll().process(player, this, eventManager);
@@ -178,28 +222,53 @@ public class ICMon extends AreaGame {
         }
     }
 
+    /**
+     * Event manager of the game.
+     * Provides access to event specific game utilities.
+     */
     public class ICMonEventManager {
 
         private ICMonEventManager() {
         }
 
+        /**
+         * Creates a suspend event action for each game event currently active.
+         *
+         * @param event - The event that requires all events to pause
+         */
         public void registerSuspendEventActions(ICMonEvent event) {
-            // LinkedList<ICMonEvent> suspendedEvents = new LinkedList<>(events);
-            for(ICMonEvent eventToSuspend : events) {
-                event.onStart(new SuspendEventAction(eventToSuspend));
-            }
-        }
-        public void registerResumeEventActions(ICMonEvent event) {
-            // LinkedList<ICMonEvent> resumedEvents = new LinkedList<>(events);
-            for(ICMonEvent eventToResume : events) {
-                event.onComplete(new SuspendEventAction(eventToResume));
+            for (ICMonEvent eventToSuspend : events) {
+                if (!event.isSuspended())
+                    event.onStart(new SuspendEventAction(eventToSuspend));
             }
         }
 
+        /**
+         * Creates a resume event action for each game event currently active.
+         *
+         * @param event - The event that requires all events to pause
+         */
+        public void registerResumeEventActions(ICMonEvent event) {
+            for (ICMonEvent eventToResume : events) {
+                if (!event.isSuspended())
+                    event.onComplete(new ResumeEventAction(eventToResume));
+            }
+        }
+
+        /**
+         * Registers a new event in the game event loop.
+         * @param event - The event to register
+         * @return whether the operation was successful or not.
+         */
         public boolean registerEvent(ICMonEvent event) {
             return registeredEvents.add(event);
         }
 
+        /**
+         * Unregisters a new event in the game event loop.
+         * @param event - The event to unregister
+         * @return whether the operation was successful or not.
+         */
         public boolean unregisterEvent(ICMonEvent event) {
             return unregisteredEvents.add(event);
         }
