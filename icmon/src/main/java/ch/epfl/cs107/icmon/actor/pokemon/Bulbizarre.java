@@ -25,7 +25,7 @@ public class Bulbizarre extends Pokemon {
      * @param position    (Coordinate): Initial position of the entity. Not null
      */
     public Bulbizarre(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, NAME, DAMAGES, HP_MAX, List.of(new RunAway(), new Attack()));
+        super(area, orientation, position, NAME, DAMAGES, HP_MAX, List.of(new Attack(), new RunAway()));
     }
 
     @Override

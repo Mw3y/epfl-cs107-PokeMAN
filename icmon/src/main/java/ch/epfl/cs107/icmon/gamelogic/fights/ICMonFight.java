@@ -12,13 +12,17 @@ public class ICMonFight extends PauseMenu {
 
     private final Pokemon playerPokemon;
     private final Pokemon opponentPokemon;
-
-    private ICMonFightActionSelectionGraphics playerActionsMenu;
-
-    private final ICMonFightArenaGraphics arena;
     private ICMonFightAction nextPlayerAction;
     private FightState state;
 
+    private ICMonFightActionSelectionGraphics playerActionsMenu;
+    private final ICMonFightArenaGraphics arena;
+
+    /**
+     * Simulates a Pokémon fight.
+     * @param playerPokemon - The Pokémon of the player
+     * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
+     */
     public ICMonFight(Pokemon playerPokemon, Pokemon opponentPokemon) {
         this.playerPokemon = playerPokemon;
         this.opponentPokemon = opponentPokemon;
@@ -31,31 +35,44 @@ public class ICMonFight extends PauseMenu {
         arena.draw(c);
     }
 
+    /**
+     * Executes the intro phase of the fight.
+     * @param keyboard - The keyboard that the user uses
+     */
     private void intro(Keyboard keyboard) {
         drawText("Welcome to the fight");
         if (keyboard.get(Keyboard.SPACE).isPressed())
             state = FightState.SELECT_ACTION;
     }
 
+    /**
+     * Allows the player to select a fight action.
+     * @param keyboard - The keyboard that the user uses
+     */
     private void selectPlayerAction(Keyboard keyboard, float deltaTime) {
-        // TODO: Better code
-        if (playerActionsMenu == null || nextPlayerAction != null) {
-            this.nextPlayerAction = null;
-            this.playerActionsMenu = new ICMonFightActionSelectionGraphics(CAMERA_SCALE_FACTOR, keyboard, playerPokemon.properties().actions());
+        // Instantiate a new menu only when needed
+        if (playerActionsMenu == null) {
+            playerActionsMenu = new ICMonFightActionSelectionGraphics(CAMERA_SCALE_FACTOR, keyboard, playerPokemon.properties().actions());
             arena.setInteractionGraphics(playerActionsMenu);
         }
-
+        // Update the selection fight action menu
         playerActionsMenu.update(deltaTime);
 
+        // Fetch the player choice from the menu
         ICMonFightAction attack = playerActionsMenu.choice();
         if (attack != null) {
             nextPlayerAction = attack;
+            // Reset the menu for next turn
+            playerActionsMenu = null;
             state = FightState.EXEC_ACTION;
         }
     }
 
+    /**
+     * Executes the fight action that the player has selected in the previous phase.
+     */
     private void executePlayerAction() {
-        final boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon);
+        boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon);
         // The player has won
         if (opponentPokemon.isKO()) {
             state = FightState.ENDING;
@@ -68,9 +85,14 @@ public class ICMonFight extends PauseMenu {
             drawText("The player decided not to continue the fight!");
             return;
         }
+        // Reset the player action
+        nextPlayerAction = null;
         state = FightState.OPPONENT_ACTION;
     }
 
+    /**
+     * Makes the opponent of the player attack if possible.
+     */
     private void executeOpponentAction() {
         // Check if the Pokémon can attack
         ICMonFightAction attack = opponentPokemon.properties().actions().stream()
@@ -93,11 +115,16 @@ public class ICMonFight extends PauseMenu {
         state = FightState.SELECT_ACTION;
     }
 
+    /**
+     * Executes the ending phase of the fight.
+     * @param keyboard - The keyboard that the user uses
+     */
     private void ending(Keyboard keyboard) {
         if (keyboard.get(Keyboard.SPACE).isPressed())
             end();
     }
 
+    @Override
     public void update(float deltaTime) {
         Keyboard keyboard = getKeyboard();
         // Fight sequence
@@ -108,9 +135,14 @@ public class ICMonFight extends PauseMenu {
             case OPPONENT_ACTION -> executeOpponentAction();
             case ENDING -> ending(keyboard);
         }
+        // Update the pause menu
         super.update(deltaTime);
     }
 
+    /**
+     * Utility method to display text on the bottom of the fight screen.
+     * @param message - The message to display
+     */
     private void drawText(String message) {
         arena.setInteractionGraphics(new ICMonFightTextGraphics(CAMERA_SCALE_FACTOR, message));
     }
@@ -120,10 +152,17 @@ public class ICMonFight extends PauseMenu {
         state = FightState.FINISHED;
     }
 
+    /**
+     * Whether there's an ongoing fight or not.
+     * @return true if the fight isn't finished.
+     */
     public boolean isRunning() {
         return state != FightState.FINISHED;
     }
 
+    /**
+     * Represents the state of the fight at a given time.
+     */
     public enum FightState {
         INTRO,
         SELECT_ACTION,
