@@ -7,18 +7,18 @@ Le joueur spawn dans l'aire de sa maison (Home) et doit interagir avec une séri
 Le joueur pourra accéder aux aires suivantes :
 
     - Town  : L'aire principale du village
-    - Lab   : Le laboratoire du professeur Oak qui se trouve au nord du village
+    - Lab   : Le laboratoire du professeur Oak qui se trouve au Nord du village
     - Arena : L'arène Pokémon ou le joueur peut combattre des Pokémons en interagissant
-              avec eux se trouvant au centre du village. 
+              avec eux. Elle se trouve au centre du village. 
     - Shop  : Le magasin dans lequel se trouve l'assistante Pokémon se trouvant à l'Est 
               du village.
 
 *Controles*
-- Flèches directionelles : déplacements et selection des actions en combat
+- Flèches directionelles : déplacements et selection des actions en combat.
 - L : Interaction avec des objets, personnages, pokémons, portes...
 - S : Sprint, maintenir appuyé.
-- ESPACE : Passer les dialogues et les messages lors des combats Pokémon.
-- ENTREE : Valider une action lors d'un combat Pokémon.
+- SPACE : Passer les dialogues et les messages lors des combats Pokémon.
+- ENTER : Valider une action lors d'un combat Pokémon.
 
 # Solution du jeu :
 
@@ -38,7 +38,7 @@ Garry se trouve dans votre maison, il vous faut interagir avec lui pour le comba
 
 ## Fin du jeu 
 
-Parlez à l'assistante Pokémon du magasin  après avoir battu Garry pour terminer le jeu
+Parlez à l'assistante Pokémon du magasin  après avoir battu Garry pour terminer le jeu.
 
 ## Faire un combat Pokémon
 
@@ -62,4 +62,4 @@ Point modifié par rapport à l'ennoncé : il ne suffit pas d'une interaction de
 pour lancer un combat avec celui-ci, il faut interagir avec le bouton L.
 Ce choix a été fait dans le but de se rapprocher du fonctionnement du jeu Pokémon original.
 De plus l'affichage des Pokémons étant inversé dans le fonctionnement initial de la maquette, 
-nous avons pris la liberté de mofidfier cette dernière afin que le Pokémon du joueur soit affiché de son côté.
+nous avons pris la liberté de mofifier cette dernière afin que le Pokémon du joueur soit affiché de son côté.
