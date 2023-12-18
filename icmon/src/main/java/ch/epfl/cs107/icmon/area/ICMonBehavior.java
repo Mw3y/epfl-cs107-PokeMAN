@@ -6,6 +6,7 @@ import ch.epfl.cs107.play.areagame.area.AreaBehavior;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.window.Window;
 
+import java.awt.Color;
 import java.util.Arrays;
 
 public class ICMonBehavior extends AreaBehavior {
@@ -38,7 +39,8 @@ public class ICMonBehavior extends AreaBehavior {
         INDOOR_WALKABLE(-1, AllowedWalkingType.FEET),
         OUTDOOR_WALKABLE(-14112955, AllowedWalkingType.FEET),
         WATER(-16776961, AllowedWalkingType.SURF),
-        GRASS(-16743680, AllowedWalkingType.FEET);
+        GRASS(-16743680, AllowedWalkingType.FEET),
+        TALL_GRASS(new Color(8, 69, 0).getRGB(), AllowedWalkingType.FEET);
 
         final int type;
 
