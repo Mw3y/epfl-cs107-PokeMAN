@@ -21,6 +21,7 @@ public class Garry extends Trainer  {
      */
     public Garry(Area area, Orientation orientation, DiscreteCoordinates position) {
         super(area, orientation, position, "actors/garry");
+        // Give
         givePokemon(new Nidoqueen(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(110, 110)));
     }
 
