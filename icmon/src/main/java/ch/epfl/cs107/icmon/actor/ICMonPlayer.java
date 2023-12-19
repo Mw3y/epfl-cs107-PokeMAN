@@ -9,7 +9,7 @@ import ch.epfl.cs107.icmon.actor.npc.ProfOak;
 import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
-import ch.epfl.cs107.icmon.area.cellBehaviors.TallGrass;
+import ch.epfl.cs107.icmon.area.cells.behaviors.TallGrass;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.icmon.gamelogic.messages.PassDoorMessage;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
@@ -200,12 +200,14 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
             if (isCellInteraction) {
                 switch (cell.getWalkingType()) {
                     case SURF -> setSprite(surfSprite);
-                    case FEET -> setSprite(isSprinting ? sprintSprite : walkSprite);
+                    case FEET ->
+                            setSprite(isSprinting ? sprintSprite : walkSprite);
                     // default : Keep current sprite
                 }
 
-                if (isDisplacementOccurs() && cell.getType() == ICMonBehavior.ICMonCellType.TALL_GRASS && hasHealthyPokemon() && TallGrass.hasHiddenPokemon()) {
-                    TallGrass.hiJackPlayer(ICMonPlayer.this, ICMonPlayer.this.getOwnerArea());
+                if (isDisplacementOccurs() && hasHealthyPokemon()) {
+                    if (cell.getType() == ICMonBehavior.ICMonCellType.TALL_GRASS && TallGrass.hasHiddenPokemon())
+                        TallGrass.hiJackPlayer(ICMonPlayer.this, ICMonPlayer.this.getOwnerArea());
                 }
 
                 currentSprite.orientate(getOrientation());
