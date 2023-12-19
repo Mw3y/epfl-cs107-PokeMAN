@@ -87,20 +87,20 @@ public class ICMon extends AreaGame {
      * Creates the main scenario chained event.
      */
     private void events() {
-        ICMonEvent introduction = new IntroductionEvent(gameState, eventManager, player);
-        ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(gameState, eventManager, player);
+        ICMonEvent introduction = new IntroductionEvent(player);
+        ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(player);
 
         Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
         getCurrentArea().registerActor(garry);
-        ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(gameState, eventManager, player, garry);
+        ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(garry);
 
         ICBall ball = new ICBall(areas.get(Town.TITLE), new DiscreteCoordinates(6, 6), "items/icball");
-        ICMonEvent collectBall = new CollectItemEvent(gameState, eventManager, player, ball);
+        ICMonEvent collectBall = new CollectItemEvent(player, ball);
         collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
 
-        ICMonEvent endOfTheGame = new EndOfTheGameEvent(gameState, eventManager, player);
+        ICMonEvent endOfTheGame = new EndOfTheGameEvent(player);
 
-        ICMonChainedEvent mainScenario = new ICMonChainedEvent(gameState, eventManager, player, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, endOfTheGame);
+        ICMonChainedEvent mainScenario = new ICMonChainedEvent(eventManager, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, endOfTheGame);
         eventManager.registerEvent(mainScenario);
         mainScenario.start();
     }

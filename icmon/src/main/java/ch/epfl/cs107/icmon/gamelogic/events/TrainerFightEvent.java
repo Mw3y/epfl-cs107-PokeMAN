@@ -10,8 +10,8 @@ public class TrainerFightEvent extends PokemonFightEvent {
     private final Trainer trainer;
     private final Pokemon trainerPokemon;
 
-    public TrainerFightEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player, Trainer trainer, Pokemon playerPokemon, Pokemon trainerPokemon) {
-        super(gameState, eventManager, player, playerPokemon, trainerPokemon);
+    public TrainerFightEvent(Trainer trainer, Pokemon playerPokemon, Pokemon trainerPokemon) {
+        super(playerPokemon, trainerPokemon);
         this.trainer = trainer;
         this.trainerPokemon = trainerPokemon;
     }

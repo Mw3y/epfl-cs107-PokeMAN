@@ -14,9 +14,10 @@ import ch.epfl.cs107.play.math.Orientation;
 public class FirstInteractionWithProfOakEvent extends ICMonEvent {
 
     private boolean hasDialogStarted = false;
+    private ICMonPlayer player;
 
-    public FirstInteractionWithProfOakEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
-        super(gameState, eventManager, player);
+    public FirstInteractionWithProfOakEvent(ICMonPlayer player) {
+        this.player = player;
         onStart(new LogAction("event.firstInteractionWithProfOak.start"));
         onComplete(new LogAction("event.firstInteractionWithProfOak.complete"));
         onComplete(new GivePokemonToPlayerAction(new Latios(new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0)), player));

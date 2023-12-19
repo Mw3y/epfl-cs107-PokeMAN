@@ -13,11 +13,12 @@ import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 
 public class CollectItemEvent extends ICMonEvent {
 
+    private ICMonPlayer player;
     private final ICMonItem item;
 
-    public CollectItemEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player, ICMonItem itemToCollect) {
-        super(gameState, eventManager, player);
-        item = itemToCollect;
+    public CollectItemEvent(ICMonPlayer player, ICMonItem itemToCollect) {
+        this.player = player;
+        this.item = itemToCollect;
 
         onStart(new LogAction("event.collectItem.start." + itemToCollect.toString()));
         onComplete(new LogAction("event.collectItem.complete." + itemToCollect));
