@@ -19,7 +19,7 @@ public class TrainerFightEvent extends PokemonFightEvent {
     @Override
     public void update(float deltaTime) {
         super.update(deltaTime);
-        if (isCompleted() && trainerPokemon.isKO()) {
+        if (isCompleted() && trainerPokemon.properties().isKO()) {
             trainer.leaveArea();
         }
     }

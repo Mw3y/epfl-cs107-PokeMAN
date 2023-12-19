@@ -29,6 +29,7 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
         }
     }
 
+    @Override
     public void interactWith(ProfOak profOak, boolean isCellInteraction) {
         System.out.println("interaction.with.profOak.from.firstInteractionWithProfOakEvent");
         if (!hasDialogStarted) {

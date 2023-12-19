@@ -77,7 +77,11 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     }
 
     public boolean hasHealthyPokemon() {
-        return !pokemons.isEmpty() && pokemons.stream().noneMatch(Pokemon::isKO);
+        for (Pokemon pokemon : pokemons) {
+            if (!pokemon.properties().isKO())
+                return true;
+        }
+        return false;
     }
 
     /**

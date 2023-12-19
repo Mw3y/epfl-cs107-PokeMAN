@@ -43,10 +43,6 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         this.actionsList = actionsList;
     }
 
-    public boolean isKO() {
-        return hp <= 0;
-    }
-
     @Override
     public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
         game.send(new StartFightMessage(this, playerPokemon));
@@ -104,6 +100,10 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
 
         public boolean hasCriticalHp() {
             return hp <= .15 * hpMax;
+        }
+
+        public boolean isKO() {
+            return hp <= 0;
         }
 
     }
