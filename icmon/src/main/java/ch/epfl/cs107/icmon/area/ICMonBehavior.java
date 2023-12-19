@@ -97,6 +97,11 @@ public class ICMonBehavior extends AreaBehavior {
         }
 
         @Override
+        protected void enter(Interactable entity) {
+            super.enter(entity);
+        }
+
+        @Override
         public boolean takeCellSpace() {
             return entities.stream().anyMatch(Interactable::takeCellSpace);
         }

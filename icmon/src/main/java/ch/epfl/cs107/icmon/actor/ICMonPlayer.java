@@ -3,16 +3,15 @@ package ch.epfl.cs107.icmon.actor;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
-import ch.epfl.cs107.icmon.actor.npc.*;
-import ch.epfl.cs107.icmon.actor.pokemon.Nidoqueen;
+import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
+import ch.epfl.cs107.icmon.actor.npc.Nurse;
+import ch.epfl.cs107.icmon.actor.npc.ProfOak;
+import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.area.cellBehaviors.TallGrass;
-import ch.epfl.cs107.icmon.area.maps.Town;
-import ch.epfl.cs107.icmon.gamelogic.events.ICMonEvent;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.icmon.gamelogic.messages.PassDoorMessage;
-import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
 import ch.epfl.cs107.play.areagame.actor.Interactor;
@@ -54,7 +53,6 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      */
     private OrientedAnimation currentSprite;
     private boolean isSprinting = false;
-    private boolean canBeHiJacked = true;
 
     /**
      * ???
@@ -198,7 +196,6 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
-
             // Close range interaction
             if (isCellInteraction) {
                 switch (cell.getWalkingType()) {
@@ -206,9 +203,9 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
                     case FEET -> setSprite(isSprinting ? sprintSprite : walkSprite);
                     // default : Keep current sprite
                 }
-                if(cell.getType() == ICMonBehavior.ICMonCellType.TALL_GRASS && hasHealthyPokemon() && TallGrass.hasHiddenPokemon() && canBeHiJacked){
+
+                if (isDisplacementOccurs() && cell.getType() == ICMonBehavior.ICMonCellType.TALL_GRASS && hasHealthyPokemon() && TallGrass.hasHiddenPokemon()) {
                     TallGrass.hiJackPlayer(ICMonPlayer.this, ICMonPlayer.this.getOwnerArea());
-                    canBeHiJacked = false;
                 }
 
                 currentSprite.orientate(getOrientation());
@@ -239,8 +236,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
             if (hasHealthyPokemon()) {
                 pokemon.fight(game, pokemons.get(0));
-            }
-            else openDialog("fight_impossible");
+            } else openDialog("fight_impossible");
             game.acceptInteraction(pokemon, isCellInteraction);
         }
 
@@ -253,8 +249,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         public void interactWith(Trainer trainer, boolean isCellInteraction) {
             if (hasHealthyPokemon() && trainer.acceptsFights()) {
                 trainer.fight(game, pokemons.get(0));
-            }
-            else openDialog("fight_impossible");
+            } else openDialog("fight_impossible");
             game.acceptInteraction(trainer, isCellInteraction);
         }
 

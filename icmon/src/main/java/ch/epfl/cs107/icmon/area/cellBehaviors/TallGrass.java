@@ -21,7 +21,7 @@ import java.util.List;
 public class TallGrass {
 
     public static boolean hasHiddenPokemon() {
-        return RandomGenerator.getInstance().nextInt(100) <= 2;
+        return RandomGenerator.getInstance().nextInt(100) <= 7.5;
     }
 
     public static void hiJackPlayer(ICMonPlayer player, Area area){
