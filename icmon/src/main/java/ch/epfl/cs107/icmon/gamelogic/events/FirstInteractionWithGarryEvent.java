@@ -14,8 +14,7 @@ public class FirstInteractionWithGarryEvent extends ICMonEvent {
 
     private final Garry garry;
 
-    public FirstInteractionWithGarryEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player, Garry garry) {
-        super(gameState, eventManager, player);
+    public FirstInteractionWithGarryEvent(Garry garry) {
         this.garry = garry;
 
         onStart(new LogAction("event.firstInteractionWithGarry.start"));

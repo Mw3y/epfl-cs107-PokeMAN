@@ -29,14 +29,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * ???
- */
 public final class ICMonPlayer extends ICMonActor implements Interactor {
 
-    /**
-     * ???
-     */
     private final static int WALK_MOVE_DURATION = 3;
     private final static int SPRINT_MOVE_DURATION = 2;
     private final static int ANIMATION_DURATION = 4;
@@ -45,23 +39,20 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     private final OrientedAnimation sprintSprite;
     private final OrientedAnimation surfSprite;
     private final ICMonPlayerInteractionHandler handler = new ICMonPlayerInteractionHandler();
-    private final ICMon.ICMonGameState game;
-    private final ArrayList<Pokemon> pokemons = new ArrayList<>();
+    private final ICMon.ICMonGameState gameState;
+    private final List<Pokemon> pokemons = new ArrayList<>();
     private Dialog dialog;
-    /**
-     * ???
-     */
     private OrientedAnimation currentSprite;
     private boolean isSprinting = false;
 
     /**
-     * ???
+     * The main character of the ICMon game.
      *
-     * @param owner       ???
-     * @param orientation ???
-     * @param coordinates ???
+     * @param owner       - The area in which the player currently evolves
+     * @param orientation - The default orientation of the player sprite
+     * @param coordinates - The default coordinates of the player in its owner area.
      */
-    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, ICMon.ICMonGameState game) {
+    public ICMonPlayer(Area owner, Orientation orientation, DiscreteCoordinates coordinates, ICMon.ICMonGameState gameState) {
         super(owner, orientation, coordinates);
         walkSprite = new OrientedAnimation("actors/player", ANIMATION_DURATION / 2, getOrientation(), this);
         sprintSprite = new OrientedAnimation("actors/player_sprint", ANIMATION_DURATION / 2, getOrientation(), this);
@@ -69,35 +60,44 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         currentSprite = walkSprite;
         resetMotion();
 
-        this.game = game;
+        this.gameState = gameState;
     }
 
     private void setSprite(OrientedAnimation sprite) {
         currentSprite = sprite;
     }
 
+    /**
+     * Gives a Pokémon to the player.
+     * @param pokemon - The Pokémon to add to the player inventory.
+     * @return true if the operation was successful.
+     */
     public boolean givePokemon(Pokemon pokemon) {
         return pokemons.add(pokemon);
     }
 
+    /**
+     * Whether the player has at least one Pokémon capable of fighting.
+     * @return true if a Pokémon has more than 0 hp.
+     */
     public boolean hasHealthyPokemon() {
-        return !pokemons.isEmpty() && pokemons.stream().noneMatch(Pokemon::isKO);
+        for (Pokemon pokemon : pokemons) {
+            if (!pokemon.properties().isKO())
+                return true;
+        }
+        return false;
     }
 
-    /**
-     * ???
-     *
-     * @param deltaTime elapsed time since last update, in seconds, non-negative
-     */
     @Override
     public void update(float deltaTime) {
         Keyboard keyboard = getOwnerArea().getKeyboard();
 
+        // Handle the dialog state
         if (isDialogInProgress()) {
+            if (keyboard.get(Keyboard.SPACE).isPressed())
+                dialog.update(deltaTime);
             if (dialog.isCompleted())
                 closeDialog();
-            else if (keyboard.get(Keyboard.SPACE).isPressed())
-                dialog.update(deltaTime);
             return;
         }
 
@@ -114,11 +114,6 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         super.update(deltaTime);
     }
 
-    /**
-     * ???
-     *
-     * @param canvas target, not null
-     */
     @Override
     public void draw(Canvas canvas) {
         if (isDialogInProgress()) {
@@ -127,16 +122,15 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         currentSprite.draw(canvas);
     }
 
+    /**
+     * Requests heal from a PokeCenter nurse.
+     * @param nurse - The nurse NPC
+     * @return true if the nurse accepted to heal the player Pokémon
+     */
     public boolean requestHealFromNurse(Nurse nurse) {
         return nurse.healPokemons(pokemons);
     }
 
-    /**
-     * ???
-     *
-     * @param v                 (AreaInteractionVisitor) : the visitor
-     * @param isCellInteraction ???
-     */
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
@@ -177,22 +171,36 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         }
     }
 
-    public void openDialog(String path) {
-        dialog = new Dialog(path);
+    /**
+     * Starts a new dialog with the player.
+     * @param name - The name of the dialog file (without extension).
+     */
+    public void openDialog(String name) {
+        dialog = new Dialog(name);
     }
 
+    /**
+     * Forcefully closes an ongoing dialog.
+     */
     public void closeDialog() {
         dialog = null;
     }
 
+    /**
+     * Gets the dialog state of the player.
+     * @return true if the player is currently engaged in a dialog.
+     */
     public boolean isDialogInProgress() {
         return dialog != null;
     }
 
     private class ICMonPlayerInteractionHandler implements ICMonInteractionVisitor {
 
-        private ICMonPlayerInteractionHandler() {
-        }
+        /**
+         * The interation handler of the player.
+         * Defines the behavior for interacting with a certain entity.
+         */
+        private ICMonPlayerInteractionHandler() {}
 
         @Override
         public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
@@ -216,43 +224,45 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ICShopAssistant npc, boolean isCellInteraction) {
-            game.acceptInteraction(npc, isCellInteraction);
+            gameState.acceptInteraction(npc, isCellInteraction);
         }
 
         @Override
         public void interactWith(Door door, boolean isCellInteraction) {
             if (isCellInteraction) {
                 GamePlayMessage message = new PassDoorMessage(door);
-                game.send(message);
+                gameState.send(message);
             }
-            game.acceptInteraction(door, isCellInteraction);
+            gameState.acceptInteraction(door, isCellInteraction);
         }
 
         @Override
         public void interactWith(ICBall ball, boolean isCellInteraction) {
             ball.collect();
-            game.acceptInteraction(ball, isCellInteraction);
+            gameState.acceptInteraction(ball, isCellInteraction);
         }
 
         @Override
         public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
             if (hasHealthyPokemon()) {
-                pokemon.fight(game, pokemons.get(0));
-            } else openDialog("fight_impossible");
-            game.acceptInteraction(pokemon, isCellInteraction);
+                pokemon.fight(gameState, pokemons.get(0));
+            }
+            else openDialog("fight_impossible");
+            gameState.acceptInteraction(pokemon, isCellInteraction);
         }
 
         @Override
         public void interactWith(ProfOak profOak, boolean isCellInteraction) {
-            game.acceptInteraction(profOak, isCellInteraction);
+            gameState.acceptInteraction(profOak, isCellInteraction);
         }
 
         @Override
         public void interactWith(Trainer trainer, boolean isCellInteraction) {
             if (hasHealthyPokemon() && trainer.acceptsFights()) {
-                trainer.fight(game, pokemons.get(0));
-            } else openDialog("fight_impossible");
-            game.acceptInteraction(trainer, isCellInteraction);
+                trainer.fight(gameState, pokemons.get(0));
+            }
+            else openDialog("fight_impossible");
+            gameState.acceptInteraction(trainer, isCellInteraction);
         }
 
         @Override
@@ -260,8 +270,9 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
             if (hasHealthyPokemon()) {
                 openDialog("nurse_heal_pokemon");
                 requestHealFromNurse(nurse);
-            } else openDialog("nurse_no_pokemon_to_heal");
-            game.acceptInteraction(nurse, isCellInteraction);
+            } 
+            else openDialog("nurse_no_pokemon_to_heal");
+            gameState.acceptInteraction(nurse, isCellInteraction);
         }
     }
 }

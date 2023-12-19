@@ -16,9 +16,6 @@ public final class Town extends ICMonArea {
         return new DiscreteCoordinates(15, 15);
     }
 
-    /**
-     * ???
-     */
     @Override
     protected void createArea() {
         registerActor(new Background(this));
@@ -34,15 +31,9 @@ public final class Town extends ICMonArea {
         super.update(deltaTime);
     }
 
-    /**
-     * ???
-     *
-     * @return ???
-     */
     @Override
     public String getTitle() {
         return Town.TITLE;
     }
-
 
 }

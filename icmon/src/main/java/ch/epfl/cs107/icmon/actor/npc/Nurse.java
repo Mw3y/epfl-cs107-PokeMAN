@@ -12,7 +12,7 @@ import java.util.*;
 public class Nurse extends NPCActor {
 
     /**
-     * Default MovableAreaEntity constructor
+     * Represents a PokéCenter nurse.
      *
      * @param area        (Area): Owner area. Not null
      * @param orientation (Orientation): Initial orientation of the entity. Not null
@@ -38,7 +38,7 @@ public class Nurse extends NPCActor {
         return false;
     }
 
-    public boolean healPokemons(ArrayList<Pokemon> pokemons) {
+    public boolean healPokemons(List<Pokemon> pokemons) {
         for (Pokemon pokemon : pokemons) {
             pokemon.heal(pokemon.properties().maxHp());
         }

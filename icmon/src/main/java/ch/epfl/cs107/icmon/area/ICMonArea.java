@@ -8,8 +8,15 @@ import ch.epfl.cs107.play.window.Window;
 
 public abstract class ICMonArea extends Area {
 
+    /**
+     * Creates all content of the area on load.
+     */
     protected abstract void createArea();
 
+    /**
+     * Gets the player spawn position in this area.
+     * @return
+     */
     public abstract DiscreteCoordinates getPlayerSpawnPosition();
 
     @Override

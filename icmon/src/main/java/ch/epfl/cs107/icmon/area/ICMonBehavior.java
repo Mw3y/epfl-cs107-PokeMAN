@@ -11,10 +11,16 @@ import java.util.Arrays;
 
 public class ICMonBehavior extends AreaBehavior {
 
+    /**
+     * The behavior of an ICMon area.
+     * @param window (Window): graphic context, not null
+     * @param name (String): name of the behavior image, not null
+     */
     public ICMonBehavior(Window window, String name) {
         super(window, name);
         int height = getHeight();
         int width = getWidth();
+        // Create the cell matrix
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 ICMonCellType color = ICMonCellType.toType(getRGB(height - 1 - y, x));
@@ -23,6 +29,9 @@ public class ICMonBehavior extends AreaBehavior {
         }
     }
 
+    /**
+     * Represents the conditions to walk on a cell.
+     */
     public enum AllowedWalkingType {
         NONE,
         SURF,
@@ -30,6 +39,9 @@ public class ICMonBehavior extends AreaBehavior {
         ALL
     }
 
+    /**
+     * Represents a cell type based on its color on the behavior map and its walking type.
+     */
     public enum ICMonCellType {
         NULL(0, AllowedWalkingType.NONE),
         WALL(-16777216, AllowedWalkingType.NONE),
@@ -43,7 +55,6 @@ public class ICMonBehavior extends AreaBehavior {
         TALL_GRASS(new Color(8, 69, 0).getRGB(), AllowedWalkingType.FEET);
 
         final int type;
-
         final AllowedWalkingType allowedWalkingType;
 
         ICMonCellType(int type, AllowedWalkingType allowedWalkingType) {
@@ -51,12 +62,25 @@ public class ICMonBehavior extends AreaBehavior {
             this.allowedWalkingType = allowedWalkingType;
         }
 
+        /**
+         * Returns the cell type based on the rgb int color of the cell.
+         * 
+         * @param type - The rgb int color of the cell
+         * @return the cell type.
+         */
         public static ICMonCellType toType(int type) {
             return Arrays.stream(ICMonCellType.values())
                     .filter(ict -> ict.type == type).findFirst().orElse(NULL);
         }
 
+        /**
+         * Checks whether a cell is walkable or not by an entity.
+         *
+         * @param entity - The entity that wants to walk on this cell
+         * @return true if the entity can walk on that cell.
+         */
         public boolean isWalkable(Interactable entity) {
+            // TODO: More complex behavior
             return !allowedWalkingType.equals(AllowedWalkingType.NONE);
         }
     }
@@ -66,21 +90,29 @@ public class ICMonBehavior extends AreaBehavior {
         private final ICMonCellType type;
 
         /**
-         * Default Tuto2Cell Constructor
+         * A cell of the ICMon area game.
          *
          * @param x    (int): x coordinate of the cell
          * @param y    (int): y coordinate of the cell
-         * @param type (EnigmeCellType), not null
+         * @param type (ICMonCellType), not null
          */
         private ICMonCell(int x, int y, ICMonCellType type) {
             super(x, y);
             this.type = type;
         }
 
+        /**
+         * Gets the type of the cell.
+         * @return the type object of the cell.
+         */
         public ICMonCellType getType() {
             return type;
         }
 
+        /**
+         * Gets the allowed walking mode of the cell.
+         * @return the allowed walking type object of the cell.
+         */
         public AllowedWalkingType getWalkingType() {
             return type.allowedWalkingType;
         }
