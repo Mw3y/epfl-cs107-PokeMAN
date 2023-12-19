@@ -12,6 +12,7 @@ import ch.epfl.cs107.play.math.Orientation;
 import java.util.List;
 
 public class Nidoqueen extends Pokemon {
+
     public static final String NAME = "nidoqueen";
     public static final int DAMAGES = 1;
     public static final int HP_MAX = 10;

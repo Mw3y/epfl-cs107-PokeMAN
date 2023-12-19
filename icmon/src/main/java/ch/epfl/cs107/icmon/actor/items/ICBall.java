@@ -13,6 +13,7 @@ public class ICBall extends ICMonItem {
 
     /**
      * ICBall constructor
+     *
      * @param area (Area) : owner area. Not null
      * @param position (DiscreteCoordinate): Initial position of the ball in the Area. Not null
      * @param spriteName (String) : sprite of the ball. Not null

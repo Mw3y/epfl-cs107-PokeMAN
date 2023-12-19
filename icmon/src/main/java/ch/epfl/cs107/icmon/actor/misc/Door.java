@@ -22,7 +22,7 @@ public class Door extends AreaEntity {
     private final DiscreteCoordinates destinationAreaSpawnPosition;
 
     /**
-     * Door constructor
+     * Represents a door that allows to change the player area.
      *
      * @param destinationAreaTitle         (String) : title of the destination area. Not null.
      * @param destinationAreaSpawnPosition (DiscreteCoordinates) : spawn position coordinates in the destination area. Not null.

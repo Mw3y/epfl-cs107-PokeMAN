@@ -5,7 +5,7 @@ import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 
 public class RunAway implements ICMonFightAction {
 
-    public void RunAway(){
+    public void RunAway() {
     }
 
     @Override

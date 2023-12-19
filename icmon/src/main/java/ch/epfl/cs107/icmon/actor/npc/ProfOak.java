@@ -8,7 +8,7 @@ import ch.epfl.cs107.play.math.Orientation;
 
 public class ProfOak extends NPCActor {
     /**
-     * ProfOak constructor
+     * Represents the professor Oak NPC.
      *
      * @param area        (Area): Owner area. Not null
      * @param orientation (Orientation): Initial orientation of the entity. Not null

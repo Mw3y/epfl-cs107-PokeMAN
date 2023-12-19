@@ -7,7 +7,7 @@ import ch.epfl.cs107.icmon.gamelogic.actions.StartDialogAction;
 
 public class IntroductionEvent extends ICMonEvent {
 
-    private ICMonPlayer player;
+    private final ICMonPlayer player;
 
     public IntroductionEvent(ICMonPlayer player) {
         this.player = player;

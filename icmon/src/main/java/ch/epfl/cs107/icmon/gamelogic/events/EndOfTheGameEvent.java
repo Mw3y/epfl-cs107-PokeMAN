@@ -9,7 +9,7 @@ import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 
 public class EndOfTheGameEvent extends ICMonEvent {
 
-    private ICMonPlayer player;
+    private final ICMonPlayer player;
 
     public EndOfTheGameEvent(ICMonPlayer player) {
         this.player = player;

@@ -6,7 +6,7 @@ import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 public interface ICMonFightableActor {
 
     /**
-     * default fight method
+     * Default fight method
      * @param game (ICMon.ICMonGameState)
      * @param playerPokemon (Pokemon)
      */

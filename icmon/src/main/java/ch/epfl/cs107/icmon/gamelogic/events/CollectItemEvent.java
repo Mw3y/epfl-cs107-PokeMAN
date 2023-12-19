@@ -13,7 +13,7 @@ import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 
 public class CollectItemEvent extends ICMonEvent {
 
-    private ICMonPlayer player;
+    private final ICMonPlayer player;
     private final ICMonItem item;
 
     public CollectItemEvent(ICMonPlayer player, ICMonItem itemToCollect) {

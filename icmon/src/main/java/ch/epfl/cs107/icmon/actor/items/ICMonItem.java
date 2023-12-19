@@ -13,7 +13,8 @@ public abstract class ICMonItem extends CollectableAreaEntity {
     private final RPGSprite sprite;
 
     /**
-     * ICMonItem constructor
+     * Represents an item of the ICMon game.
+     *
      * @param area (Area) : owner area. Not null
      * @param orientation (Orientation) : Initial orientation of the item in the Area. Not null
      * @param position (DiscreteCoordinate): Initial position of the item in the Area. Not null

@@ -14,7 +14,7 @@ public abstract class NPCActor extends ICMonActor {
     private final RPGSprite sprite;
 
     /**
-     * Default MovableAreaEntity constructor
+     * Represents an NPC actor of the game.
      *
      * @param area        (Area): Owner area. Not null
      * @param orientation (Orientation): Initial orientation of the entity. Not null

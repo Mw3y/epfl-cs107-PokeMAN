@@ -14,7 +14,7 @@ import ch.epfl.cs107.play.math.Orientation;
 public class FirstInteractionWithProfOakEvent extends ICMonEvent {
 
     private boolean hasDialogStarted = false;
-    private ICMonPlayer player;
+    private final ICMonPlayer player;
 
     public FirstInteractionWithProfOakEvent(ICMonPlayer player) {
         this.player = player;

@@ -32,8 +32,8 @@ public final class ICMonFightInfoGraphics implements Graphics, Positionable {
     private final ImageGraphics background;
     private final TextGraphics name;
     private final ImageGraphics hpBackground;
-    private ShapeGraphics hpBar;
-    private Vector hpBarStart;
+    private final ShapeGraphics hpBar;
+    private final Vector hpBarStart;
     private Color hpBarColor = HpBarColor.HEALTHY.getColor();
 
     public ICMonFightInfoGraphics(Vector position, Pokemon.PokemonProperties properties, boolean isPlayerInfos) {

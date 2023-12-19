@@ -9,7 +9,7 @@ import ch.epfl.cs107.play.math.Orientation;
 public class ICShopAssistant extends NPCActor {
 
     /**
-     * ICShopAssistant constructor
+     * Represents a shop assistant npc.
      *
      * @param area        (Area): Owner area. Not null
      * @param orientation (Orientation): Initial orientation of the entity. Not null
