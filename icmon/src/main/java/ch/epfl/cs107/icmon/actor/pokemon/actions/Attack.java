@@ -5,7 +5,12 @@ import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 
 public class Attack implements ICMonFightAction {
 
-    public void Attack () {}
+    /**
+     * Default Attack method.
+     */
+    public void Attack () {
+
+    }
 
     @Override
     public String name() {
