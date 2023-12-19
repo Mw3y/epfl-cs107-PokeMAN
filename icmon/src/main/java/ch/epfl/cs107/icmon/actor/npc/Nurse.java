@@ -38,7 +38,7 @@ public class Nurse extends NPCActor {
         return false;
     }
 
-    public boolean healPokemons(ArrayList<Pokemon> pokemons) {
+    public boolean healPokemons(List<Pokemon> pokemons) {
         for (Pokemon pokemon : pokemons) {
             pokemon.heal(pokemon.properties().maxHp());
         }
