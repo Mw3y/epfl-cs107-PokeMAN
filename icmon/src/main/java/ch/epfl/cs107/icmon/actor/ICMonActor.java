@@ -1,13 +1,10 @@
 package ch.epfl.cs107.icmon.actor;
 
-import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
 import ch.epfl.cs107.play.areagame.actor.MovableAreaEntity;
 import ch.epfl.cs107.play.areagame.area.Area;
-import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
-import ch.epfl.cs107.play.window.Canvas;
 
 import java.util.Collections;
 import java.util.List;
@@ -25,17 +22,17 @@ public abstract class ICMonActor extends MovableAreaEntity implements Interactab
     }
 
     /**
-     * Leave an area by unregistering this actor
+     * Leaves an area by unregistering this actor.
      */
     public void leaveArea() {
         getOwnerArea().unregisterActor(this);
     }
 
     /**
-     * ???
+     * Enters an area by registering this actor, setting the camera view on it.
      *
-     * @param area     (Area): initial area, not null
-     * @param position (DiscreteCoordinates): initial position, not null
+     * @param area     (Area): initial area, not null.
+     * @param position (DiscreteCoordinates): initial position, not null.
      */
     public void enterArea(Area area, DiscreteCoordinates position) {
         area.registerActor(this);
@@ -66,7 +63,7 @@ public abstract class ICMonActor extends MovableAreaEntity implements Interactab
     }
 
     /**
-     * Center the camera on the actor
+     * Centers the camera on the actor.
      */
     public void centerCamera() {
         getOwnerArea().setViewCandidate(this);

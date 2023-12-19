@@ -5,6 +5,9 @@ import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 
 public class RunAway implements ICMonFightAction {
 
+    /**
+     * Default RunAway method.
+     */
     public void RunAway(){
     }
 

@@ -21,15 +21,7 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
     private boolean isCompleted = false;
     private boolean isSuspended = false;
 
-    protected ICMon.ICMonGameState gameState;
-    protected ICMon.ICMonEventManager eventManager;
-    protected ICMonPlayer player;
-
-    public ICMonEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
-        this.gameState = gameState;
-        this.eventManager = eventManager;
-        this.player = player;
-    }
+    public ICMonEvent() {}
 
     // TODO: Better approach
     public PauseMenu getPauseMenu() {

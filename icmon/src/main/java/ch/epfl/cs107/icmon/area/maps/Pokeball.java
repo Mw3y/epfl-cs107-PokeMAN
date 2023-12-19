@@ -15,9 +15,6 @@ public final class Pokeball extends ICMonArea {
         return new DiscreteCoordinates(0, 0);
     }
 
-    /**
-     * ???
-     */
     @Override
     protected void createArea() {}
 
@@ -26,11 +23,6 @@ public final class Pokeball extends ICMonArea {
         super.update(deltaTime);
     }
 
-    /**
-     * ???
-     *
-     * @return ???
-     */
     @Override
     public String getTitle() {
         return Pokeball.TITLE;

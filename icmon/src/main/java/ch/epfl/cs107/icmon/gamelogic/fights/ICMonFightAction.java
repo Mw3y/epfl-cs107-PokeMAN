@@ -9,6 +9,7 @@ import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
  */
 public interface ICMonFightAction {
     /**
+     * Gets the name of the fight action.
      * @return the name of the action.
      */
     String name();

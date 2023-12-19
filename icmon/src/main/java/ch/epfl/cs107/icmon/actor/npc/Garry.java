@@ -13,7 +13,7 @@ import ch.epfl.cs107.play.math.Orientation;
 public class Garry extends Trainer  {
 
     /**
-     * Default MovableAreaEntity constructor
+     * Represents the main rival of the player.
      *
      * @param area        (Area): Owner area. Not null
      * @param orientation (Orientation): Initial orientation of the entity. Not null
@@ -21,6 +21,7 @@ public class Garry extends Trainer  {
      */
     public Garry(Area area, Orientation orientation, DiscreteCoordinates position) {
         super(area, orientation, position, "actors/garry");
+        // Give
         givePokemon(new Nidoqueen(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(110, 110)));
     }
 

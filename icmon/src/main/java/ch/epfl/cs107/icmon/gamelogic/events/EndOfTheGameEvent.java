@@ -9,9 +9,10 @@ import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 
 public class EndOfTheGameEvent extends ICMonEvent {
 
-    public EndOfTheGameEvent(ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager, ICMonPlayer player) {
-        super(gameState, eventManager, player);
+    private final ICMonPlayer player;
 
+    public EndOfTheGameEvent(ICMonPlayer player) {
+        this.player = player;
         onStart(new LogAction("event.endOfTheGame.start"));
         onComplete(new LogAction("event.endOfTheGame.complete"));
     }
