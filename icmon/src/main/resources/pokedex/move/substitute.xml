@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">164</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Reserve</dk>
+		<fr type="str">Clonage</fr>
+		<de type="str">Delegator</de>
+		<gr type="str">Υποκατάσταση</gr>
+		<it type="str">Sostituto</it>
+		<pl type="str">Zastępca</pl>
+		<en type="str">Substitute</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Makes a decoy with 1/4 user's max HP.</en>
+			<de type="str">Macht DELEGATOR mit Viertel KP.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Makes a decoy with 1/4 user's max HP.</en>
+			<de type="str">Macht DELEGATOR mit Viertel KP.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Makes a decoy with 1/4 user's max HP.</en>
+			<de type="str">Macht DELEGATOR mit Viertel KP.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Creates a decoy using 1/4 of the user’s maximum HP.</en>
+			<de type="str">Lockvogel, der 1/4 der max. KP des Anwenders besitzt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Creates a decoy using 1/4 of the user’s maximum HP.</en>
+			<de type="str">Lockvogel, der 1/4 der max. KP des Anwenders besitzt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Creates a decoy using 1/4 of the user’s maximum HP.</en>
+			<de type="str">Lockvogel, der 1/4 der max. KP des Anwenders besitzt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user creates a decoy using one-quarter of its full HP.</en>
+			<de type="str">Lockvogel, der 1/4 der max. KP des Anwenders besitzt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user creates a decoy using one-quarter of its full HP.</en>
+			<de type="str">Lockvogel, der 1/4 der max. KP des Anwenders besitzt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Lockvogel, der eine gewisse Anzahl der max. KP des Anwenders besitzt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Lockvogel, der eine gewisse Anzahl der max. KP des Anwenders besitzt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Lockvogel, der eine gewisse Anzahl der max. KP des Anwenders besitzt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Lockvogel, der eine gewisse Anzahl der max. KP des Anwenders besitzt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Lockvogel, der eine gewisse Anzahl der max. KP des Anwenders besitzt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user makes a copy of itself using some of its HP. The copy serves as the user’s decoy.</en>
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender setzt eine kleine Menge an KP ein, um einen Doppelgänger zu erzeugen, der für ihn Schläge einsteckt.* (Attacken-Beschreibung)Der Angreifer erschafft aus ein paar eigenen KP einen Klon, der als Ablenkung dient.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

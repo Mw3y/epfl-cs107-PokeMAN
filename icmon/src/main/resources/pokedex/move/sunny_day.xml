@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">241</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Solskinsdag</dk>
+		<fr type="str">Zénith</fr>
+		<de type="str">Sonnentag</de>
+		<gr type="str">Ηλιόλουστη Ημέρα</gr>
+		<it type="str">Giornodisole</it>
+		<pl type="str">Słoneczny Dzień</pl>
+		<tr type="str">Güneşli Gün</tr>
+		<en type="str">Sunny Day</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Boosts fire-type moves for 5 turns.</en>
+			<de type="str">Verstärkt Feuer-Attacken 5 Runden.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Boosts fire-type moves for 5 turns.</en>
+			<de type="str">Verstärkt Feuer-Attacken 5 Runden.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Boosts fire-type moves for 5 turns.</en>
+			<de type="str">Verstärkt Feuer-Attacken 5 Runden.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Boosts the power of FIRE-type moves for 5 turns.</en>
+			<de type="str">Erhöht Stärke von FEUER-Attacken 5 Runden lang.* (Attacken-Beschreibung)Verstärkt FEUER-Attacken über 5 Runden.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Boosts the power of FIRE-type moves for 5 turns.</en>
+			<de type="str">Erhöht Stärke von FEUER-Attacken 5 Runden lang.* (Attacken-Beschreibung)Verstärkt FEUER-Attacken über 5 Runden.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Boosts the power of FIRE-type moves for 5 turns.</en>
+			<de type="str">Erhöht Stärke von FEUER-Attacken 5 Runden lang.* (Attacken-Beschreibung)Verstärkt FEUER-Attacken über 5 Runden.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The sun blazes for five turns, powering up FIRE-type moves.</en>
+			<de type="str">Erhöht Stärke von FEUER-Attacken 5 Runden lang.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden FEUER-Attacken verstärkt.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The sun blazes for five turns, powering up FIRE-type moves.</en>
+			<de type="str">Erhöht Stärke von FEUER-Attacken 5 Runden lang.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden FEUER-Attacken verstärkt.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Anwender intensiviert Kraft der Sonne. Die Stärke von Feuer-Attacken erhöht sich fünf Runden lang.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Anwender intensiviert Kraft der Sonne. Die Stärke von Feuer-Attacken erhöht sich fünf Runden lang.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Anwender intensiviert Kraft der Sonne. Die Stärke von Feuer-Attacken erhöht sich fünf Runden lang.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Anwender intensiviert Kraft der Sonne. Die Stärke von Feuer-Attacken erhöht sich fünf Runden lang.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Anwender intensiviert Kraft der Sonne. Die Stärke von Feuer-Attacken erhöht sich fünf Runden lang.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt und Attacken vom Typ Wasser geschwächt.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt und Attacken vom Typ Wasser geschwächt.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt und Attacken vom Typ Wasser geschwächt.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user intensifies the sun for five turns, powering up Fire-type moves. It lowers the power of Water-type moves.</en>
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt und Attacken vom Typ Wasser geschwächt.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Die Sonne brennt unbarmherzig fünf Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (Attacken-Beschreibung)Die Sonne brennt unbarmherzig 5 Runden lang. Dadurch werden Attacken vom Typ Feuer verstärkt.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

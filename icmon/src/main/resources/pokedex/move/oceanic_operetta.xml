@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Oceanic Operetta</en>
+		<fr type="str">Symphonie des Ondines</fr>
+		<de type="str">Grandiose Meeressymphonie</de>
+		<it type="str">Sinfonia del Mare</it>
+		<es type="str">Sinfonía de la Diva Marina</es>
+	</names>
+	<index_number type="int">697</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Water</type>
+	<category type="str">special</category>
+	<pp type="int">0</pp>
+	<max_pp type="int">0</max_pp>
+	<power type="int">195</power>
+	<accuracy type="int">0</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force.</en>
+			<de type="str">Primarene ruft mit Z-Kraft große Mengen an Wasser herbei und greift damit das Ziel an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force.</en>
+			<de type="str">Primarene ruft mit Z-Kraft große Mengen an Wasser herbei und greift damit das Ziel an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force.</en>
+			<de type="str">Primarene ruft mit Z-Kraft große Mengen an Wasser herbei und greift damit das Ziel an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user, Primarina, summons a massive amount of water using its Z-Power and attacks the target with full force.</en>
+			<de type="str">Primarene ruft mit Z-Kraft große Mengen an Wasser herbei und greift damit das Ziel an.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

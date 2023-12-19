@@ -1,0 +1,515 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Shiinotic</en>
+		<jp>マシェード Mashēdo</jp>
+		<fr>Lampignon</fr>
+		<es>Shiinotic</es>
+		<de>Lamellux</de>
+		<it>Shiinotic</it>
+	</names>
+	<national_id>756</national_id>
+	<alola_id>146</alola_id>
+	<types>
+		<item>Grass</item>
+		<item>Fairy</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Illuminate</name>
+		</item>
+		<item>
+			<name>Rain Dish</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>75</catch_rate>
+	<egg_groups>
+		<item>Grass</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>3'03&quot;</height_us>
+	<height_eu>1.0 m</height_eu>
+	<weight_us>25.4 lbs.</weight_us>
+	<weight_eu>11.5 kg</weight_eu>
+	<base_exp_yield>142</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Purple</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>2</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>60</hp>
+		<atk>45</atk>
+		<def>80</def>
+		<sp_atk>90</sp_atk>
+		<sp_def>100</sp_def>
+		<speed>30</speed>
+	</base_stats>
+	<evolution_from>Morelull</evolution_from>
+	<categories>
+		<en>Illuminating Pokémon</en>
+		<de>Lumineszenz</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Forests where Shiinotic live are treacherous to enter at night. People confused by its strange lights can never find their way home again.</en>
+			<de>Nachts sollte man Wälder meiden, in denen Lamellux leben. Ihr unheimliches Licht raubt jedem die Orientierung.</de>
+		</Sun>
+		<Moon>
+			<en>It emits flickering spores that cause drowsiness. When its prey succumb to sleep, this Pokémon feeds on them by sucking in their energy.</en>
+			<de>Speit blinkende Sporen, die eine einschläfernde Wirkung haben. Schläft die Beute ein, wird ihr die Lebenskraft ausgesaugt.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It puts its prey to sleep and siphons off their vitality through the tip of its arms. If one of its kind is weakened, it helps by sending it vitality.</en>
+			<de>Es lullt seine Gegner in den Schlaf und raubt ihnen über seine Fingerspitzen die Lebenskraft. Diese schickt es schwächelnden Kameraden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>When it starts fighting for territory with Parasect, the entire area gets completely coated in spores!</en>
+			<de>Kommt es zwischen ihm und Parasek zu Revierkämpfen, ist hinterher die gesamte Umgebung mit Sporen bedeckt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>71</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Flash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Flash</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Strength Sap</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Spore</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Spotlight</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Growth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Poison Powder</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stun Spore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Flash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Flash</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Strength Sap</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Spore</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Spotlight</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Growth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Poison Powder</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stun Spore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

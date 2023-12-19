@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">313</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Croco Larme</fr>
+		<de type="str">Trugträne</de>
+		<gr type="str">Ψεύτικα Δάκρυα</gr>
+		<it type="str">Falselacrime</it>
+		<pl type="str">Fałszywe Łzy</pl>
+		<en type="str">Fake Tears</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">sp_def</stat>
+			<change_by type="int">-2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Feigns crying to sharply lower the foe’s SP. DEF.</en>
+			<de type="str">Täuscht Weinen vor, um gegn. SPEZ. VERT. zu senken.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Feigns crying to sharply lower the foe’s SP. DEF.</en>
+			<de type="str">Täuscht Weinen vor, um gegn. SPEZ. VERT. zu senken.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Feigns crying to sharply lower the foe’s SP. DEF.</en>
+			<de type="str">Täuscht Weinen vor, um gegn. SPEZ. VERT. zu senken.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user feigns crying to sharply lower the foe’s SP. DEF stat.</en>
+			<de type="str">Täuscht Weinen vor, um den gegnerischen SP. VER.-Wert zu senken.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user feigns crying to sharply lower the foe’s SP. DEF stat.</en>
+			<de type="str">Täuscht Weinen vor, um den gegnerischen SP. VER.-Wert zu senken.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user feigns crying to make the foe feel flustered, sharply lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die gegnerische Spezial-Verteidigung zu senken.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user feigns crying to make the foe feel flustered, sharply lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die gegnerische Spezial-Verteidigung zu senken.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user feigns crying to make the foe feel flustered, sharply lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die gegnerische Spezial-Verteidigung zu senken.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user feigns crying to make the foe feel flustered, sharply lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die gegnerische Spezial-Verteidigung deutlich zu senken.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user feigns crying to make the foe feel flustered, sharply lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die gegnerische Spezial-Verteidigung deutlich zu senken.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user feigns crying to fluster the target, harshly lowering its Sp. Def stat.</en>
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Täuscht Weinen vor, um die Spezial-Verteidigung des Zieles stark zu senken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

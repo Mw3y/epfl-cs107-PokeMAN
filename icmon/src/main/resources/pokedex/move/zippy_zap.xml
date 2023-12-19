@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Zippy Zap</en>
+		<fr type="str">Pika-Sprint</fr>
+		<de type="str">Britzelturbo</de>
+		<it type="str">Sprintaboom</it>
+		<es type="str">Pikaturbo</es>
+	</names>
+	<index_number type="int">729</index_number>
+	<target type="str">all_adjacent</target>
+	<priority type="int">2</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Electric</type>
+	<category type="str">physical</category>
+	<power type="int">50</power>
+	<accuracy type="int">100</accuracy>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<pokedex_entries type="dict">
+		<key name="Let's Go Pikachu" type="dict">
+			<en type="str">The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit.</en>
+			<de type="str">Ein stürmischer Blitz-Angriff mit hoher Erstschlag- und Volltrefferquote.</de>
+		</key>
+		<key name="Let's Go Eevee" type="dict">
+			<en type="str">The user attacks the target with bursts of electricity at high speed. This move always goes first and results in a critical hit.</en>
+			<de type="str">Ein stürmischer Blitz-Angriff mit hoher Erstschlag- und Volltrefferquote.</de>
+		</key>
+	</pokedex_entries>
+</all>

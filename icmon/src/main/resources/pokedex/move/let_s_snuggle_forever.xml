@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Let's Snuggle Forever</en>
+		<fr type="str">Patati-Patattrape</fr>
+		<de type="str">Herzliche Knuddelkloppe</de>
+		<it type="str">Dolcesacco di Botte</it>
+		<es type="str">Somanta Amistosa</es>
+	</names>
+	<index_number type="int">726</index_number>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Fairy</type>
+	<category type="str">physical</category>
+	<power type="int">190</power>
+	<accuracy type="int">0</accuracy>
+	<pp type="int">1</pp>
+	<max_pp type="int">1</max_pp>
+	<target type="str">target_adjacent_single</target>
+	<pokedex_entries type="dict">
+		<Ultra_Sun type="dict">
+			<en type="str">After obtaining Z-Power, the user, Mimikyu, punches the target with full force.</en>
+			<de type="str">Mimigma greift das Ziel mithilfe von Z-Kraft mit voller Wucht und viel Liebe an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">After obtaining Z-Power, the user, Mimikyu, punches the target with full force.</en>
+			<de type="str">Mimigma greift das Ziel mithilfe von Z-Kraft mit voller Wucht und viel Liebe an.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

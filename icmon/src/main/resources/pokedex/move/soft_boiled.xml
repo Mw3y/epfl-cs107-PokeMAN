@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">135</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">E-Coque</fr>
+		<de type="str">Weichei</de>
+		<gr type="str">Μελάτη Θεραπεία</gr>
+		<it type="str">Covauova</it>
+		<pl type="str">Terapia Ciepłem</pl>
+		<en type="str">Soft-Boiled</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Restores HP by 1/2 the user's max HP.</en>
+			<de type="str">Füllt die KP zur Hälfte auf.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Restores HP by 1/2 the user's max HP.</en>
+			<de type="str">Füllt die KP zur Hälfte auf.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Restores HP by 1/2 the user's max HP.</en>
+			<de type="str">Füllt KP zur Hälfte auf.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Recovers up to half the user’s maximum HP.</en>
+			<de type="str">Max. KP des Anwenders w. bis zur Hälfte aufgefüllt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Recovers up to half the user’s maximum HP.</en>
+			<de type="str">Max. KP des Anwenders w. bis zur Hälfte aufgefüllt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Recovers up to half the user’s maximum HP.</en>
+			<de type="str">Max. KP des Anwenders w. bis zur Hälfte aufgefüllt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Heals the user by up to half its full HP. It can be used to heal an ally.</en>
+			<de type="str">Max. KP d. Anwenders werden halb aufgefüllt. Teamheilung möglich.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Heals the user by up to half its full HP. It can be used to heal an ally.</en>
+			<de type="str">Max. KP d. Anwenders werden halb aufgefüllt. Teamheilung möglich.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP. May be used in the field to heal HP.</en>
+			<de type="str">Max. KP des Anwenders werden halb aufgefüllt. Heilung vom Team außerhalb von Kämpfen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP. May be used in the field to heal HP.</en>
+			<de type="str">Max. KP des Anwenders werden halb aufgefüllt. Heilung vom Team außerhalb von Kämpfen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP.</en>
+			<de type="str">Max. KP des Anwenders werden halb aufgefüllt. Heilung vom Team außerhalb von Kämpfen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP.</en>
+			<de type="str">KP des Anwenders werden mit 50 % d. max. KP aufgefüllt. Heilung des Teams außerhalb v. Kämpfen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user restores its own HP by up to half of its maximum HP. It may also be used to heal an ally’s HP.</en>
+			<de type="str">KP des Anwenders werden mit 50 % d. max. KP aufgefüllt. Heilung des Teams außerhalb v. Kämpfen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung des Teams außerhalb von Kämpfen.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung des Teams außerhalb von Kämpfen.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung des Teams außerhalb von Kämpfen.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user restores its own HP by up to half of its maximum HP. May also be used in the field to heal HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung des Teams außerhalb von Kämpfen.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung eines Verbündeten außerhalb von Kämpfen möglich.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung eines Verbündeten außerhalb von Kämpfen möglich.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP. May also be used in the field to heal HP.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user restores its own HP by up to half of its max HP.</en>
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung eines Verbündeten außerhalb von Kämpfen möglich.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">KP des Anwenders werden um 50 % der maximalen KP aufgefüllt. Heilung eines Verbündeten außerhalb von Kämpfen möglich.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

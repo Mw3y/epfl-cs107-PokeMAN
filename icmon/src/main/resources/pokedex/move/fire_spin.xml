@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">83</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">35</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Flammespin</dk>
+		<fr type="str">Danse Flamme</fr>
+		<de type="str">Feuerwirbel</de>
+		<gr type="str">Σπείρα Φλόγας</gr>
+		<it type="str">Turbofuoco</it>
+		<pl type="str">Ognisty Wir</pl>
+		<en type="str">Fire Spin</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Traps foe in fire for 2-5 turns.</en>
+			<de type="str">Trifft Gegner bis zu 5 mal.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Traps foe in fire for 2-5 turns.</en>
+			<de type="str">Trifft Gegner bis zu 5 mal.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Traps foe in fire for 2-5 turns.</en>
+			<de type="str">Trifft Gegner bis zu 5mal.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Traps the foe in a ring of fire for 2 to 5 turns.</en>
+			<de type="str">Schließt Gegner für 2-5 Runden in Feuerkreis ein.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Traps the foe in a ring of fire for 2 to 5 turns.</en>
+			<de type="str">Schließt Gegner für 2-5 Runden in Feuerkreis ein.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Traps the foe in a ring of fire for 2 to 5 turns.</en>
+			<de type="str">Schließt Gegner für 2-5 Runden in Feuerkreis ein.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is trapped in an intense spiral of fire that rages two to five turns.</en>
+			<de type="str">Der Gegner wird für 2 - 5 Runden in einem Feuerkreis gefangen.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is trapped in an intense spiral of fire that rages two to five turns.</en>
+			<de type="str">Der Gegner wird für 2 - 5 Runden in einem Feuerkreis gefangen.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.</en>
+			<de type="str">Der Gegner wird für 2 - 5 Runden in einem Feuerkreis gefangen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.</en>
+			<de type="str">Der Gegner wird für 2 - 5 Runden in einem Feuerkreis gefangen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.</en>
+			<de type="str">Der Gegner wird für 2 - 5 Runden in einem Feuerkreis gefangen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.</en>
+			<de type="str">Der Gegner wird für 2 - 5 Runden in einem Feuerkreis gefangen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe becomes trapped within a fierce vortex of fire that rages for two to five turns.</en>
+			<de type="str">Der Gegner wird für 2 - 5 Runden in einem Feuerkreis gefangen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einem Feuerkreis gefangen.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einem Feuerkreis gefangen.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einem Feuerkreis gefangen.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einem Feuerkreis gefangen.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target becomes trapped within a fierce vortex of fire that rages for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einem Feuerkreis gefangen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

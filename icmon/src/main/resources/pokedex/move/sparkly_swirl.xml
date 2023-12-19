@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Sparkly Swirl</en>
+		<fr type="str">Évo-Fabulo</fr>
+		<de type="str">Glitzersturm</de>
+		<it type="str">Sbrilluccibufera</it>
+		<es type="str">Sylveotornado</es>
+	</names>
+	<index_number type="int">740</index_number>
+	<target type="str">all_adjacent</target>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Fairy</type>
+	<category type="str">special</category>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<pokedex_entries type="dict">
+		<key name="Let's Go Pikachu" type="dict">
+			<en type="str">The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user's party.</en>
+			<de type="str">Evoli greift an, indem es das Ziel in einen nahezu erstickend wohlriechenden Wirbelwind hüllt. Das Team des Anwenders wird von Statusproblemen geheilt.</de>
+		</key>
+		<key name="Let's Go Eevee" type="dict">
+			<en type="str">The user attacks the target by wrapping it with a whirlwind of an overpowering scent. This also heals all status conditions of the user's party.</en>
+			<de type="str">Evoli greift an, indem es das Ziel in einen nahezu erstickend wohlriechenden Wirbelwind hüllt. Das Team des Anwenders wird von Statusproblemen geheilt.</de>
+		</key>
+	</pokedex_entries>
+</all>

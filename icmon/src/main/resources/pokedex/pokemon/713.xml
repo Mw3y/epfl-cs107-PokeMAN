@@ -1,0 +1,1092 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Séracrawl</fr>
+		<de>Arktilas</de>
+		<it>Avalugg</it>
+		<en>Avalugg</en>
+	</names>
+	<national_id>713</national_id>
+	<types>
+		<item>Ice</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Own Tempo</name>
+		</item>
+		<item>
+			<name>Sturdy</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>55</catch_rate>
+	<egg_groups>
+		<item>Monster</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>6'07&quot;</height_us>
+	<height_eu>2.0 m</height_eu>
+	<weight_us>1113.3 lbs.</weight_us>
+	<weight_eu>505.0 kg</weight_eu>
+	<base_exp_yield>180</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>2</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Blue</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>95</hp>
+		<atk>117</atk>
+		<def>184</def>
+		<sp_atk>44</sp_atk>
+		<sp_def>46</sp_def>
+		<speed>28</speed>
+	</base_stats>
+	<evolution_from>Bergmite</evolution_from>
+	<categories>
+		<en>Iceberg Pokémon</en>
+		<de>Eisberg</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>80</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<X>
+			<en>Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.</en>
+			<de>Sein eisbedeckter Körper ist so hart wie Stahl. Es nutzt diese stahlharte Hülle, um Hindernisse zu zerschmettern und sich so seinen Weg zu bahnen.</de>
+		</X>
+		<Y>
+			<en>The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice.</en>
+			<de>Mit den zahlreichen Arktip auf seinem Rücken sieht es aus wie ein Flugzeugträger aus Eis.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.</en>
+			<de>Mit den zahlreichen Arktip auf seinem Rücken sieht es aus wie ein Flugzeugträger aus Eis.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>The way several Bergmite huddle on its back make it look like an aircraft carrier made of ice.</en>
+			<de>Mit den zahlreichen Arktip auf seinem Rücken sieht es aus wie ein Flugzeugträger aus Eis.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sharpen</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ice Fang</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Recover</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sharpen</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ice Fang</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Recover</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sharpen</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ice Fang</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Recover</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sharpen</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ice Fang</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Recover</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

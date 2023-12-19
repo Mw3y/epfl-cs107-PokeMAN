@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">217</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Cadeau</fr>
+		<de type="str">Geschenk</de>
+		<gr type="str">Δώρο</gr>
+		<it type="str">Regalino</it>
+		<en type="str">Present</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A bomb that may restore HP.</en>
+			<de type="str">Bombe, die evtl. gegn. KP auffüllt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A bomb that may restore HP.</en>
+			<de type="str">Bombe, die evtl. gegn. KP auffüllt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A bomb that may restore HP.</en>
+			<de type="str">Bombe, die evtl. KP auffüllt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A gift in the form of a bomb. May restore HP.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann KP wiederherstellen.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A gift in the form of a bomb. May restore HP.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann KP wiederherstellen.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A gift in the form of a bomb. May restore HP.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann KP wiederherstellen.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is given a booby-trapped gift. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann auch KP wieder herstellen.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is given a booby-trapped gift. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann auch KP wieder herstellen.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann auch KP wiederherstellen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann auch KP wiederherstellen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann auch KP wiederherstellen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann auch KP wiederherstellen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks by giving the foe a booby-trapped gift. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Es kann auch KP wiederherstellen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by giving the target a gift with a hidden trap. It restores HP sometimes, however.</en>
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Eine Bombe als Geschenk. Kann auch KP des Zieles wiederherstellen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

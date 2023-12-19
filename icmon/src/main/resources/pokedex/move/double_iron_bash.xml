@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">742</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_adjacent</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<es type="str">Ferropuño Doble</es>
+		<fr type="str">Écrous d'Poing</fr>
+		<de type="str">Panzerfäuste</de>
+		<it type="str">Pugni Corazzati</it>
+		<en type="str">Double Iron Bash</en>
+	</names>
+	<type type="str">Steel</type>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<key name="Let's Go Pikachu" type="dict">
+			<en type="str">The user rotates, centering the hex nut in its chest, and then strikes with its arms twice in a row. This may also make the target flinch.</en>
+			<de type="str">Der Anwender rotiert um die Schraubenmutter in seinem Brustkorb und schlägt zweimal hintereinander mit den Armen zu. Das Ziel schreckt eventuell zurück.</de>
+		</key>
+		<key name="Let's Go Eevee" type="dict">
+			<en type="str">The user rotates, centering the hex nut in its chest, and then strikes with its arms twice in a row. This may also make the target flinch.</en>
+			<de type="str">Der Anwender rotiert um die Schraubenmutter in seinem Brustkorb und schlägt zweimal hintereinander mit den Armen zu. Das Ziel schreckt eventuell zurück.</de>
+		</key>
+	</pokedex_entries>
+</all>

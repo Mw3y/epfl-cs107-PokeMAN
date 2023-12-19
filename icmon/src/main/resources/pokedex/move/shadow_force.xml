@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">467</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">120</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Revenant</fr>
+		<de type="str">Schemenkraft</de>
+		<gr type="str">Σκοτεινή Ισχύς</gr>
+		<it type="str">Oscurotuffo</it>
+		<en type="str">Shadow Force</en>
+	</names>
+	<type type="str">Ghost</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user disappears, then strikes the foe on the second turn. It hits even if the foe used Protect.</en>
+			<de type="str">Anw. verschwindet und attackiert in Runde 2. Trifft auch, wenn Schutzschild des Gegn. aktiv ist.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user disappears, then strikes the foe on the second turn. It hits even if the foe used Protect.</en>
+			<de type="str">Anw. verschwindet und attackiert in Runde 2. Trifft auch, wenn Schutzschild des Gegn. aktiv ist.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user disappears, then strikes the foe on the second turn. It hits even if the foe used Protect.</en>
+			<de type="str">Anw. verschwindet und attackiert in Runde 2. Trifft auch, wenn Schutzschild des Gegn. aktiv ist.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself.</en>
+			<de type="str">Anw. verschwindet und attackiert in Runde 2. Trifft auch, wenn sich der Gegn. selbst schützt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user disappears, then strikes the foe on the second turn. It hits even if the foe protects itself.</en>
+			<de type="str">Anw. verschwindet und attackiert in Runde 2. Trifft auch, wenn sich der Gegn. selbst schützt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user disappears, then strikes the target on the second turn. It hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user disappears, then strikes the target on the second turn. It hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user disappears, then strikes the target on the second turn. It hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user disappears, then strikes the target on the second turn. It hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user disappears, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender verschwindet in Runde 1 und attackiert in Runde 2. Trifft auch, wenn sich das Ziel selbst schützt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

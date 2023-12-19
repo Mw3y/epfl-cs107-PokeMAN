@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">191</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all_foes</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Picots</fr>
+		<de type="str">Stachler</de>
+		<gr type="str">Καρφιά</gr>
+		<it type="str">Punte</it>
+		<pl type="str">Kolce</pl>
+		<en type="str">Spikes</en>
+	</names>
+	<type type="str">Ground</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Hurts foes when they switch out.</en>
+			<de type="str">Trifft Gegner beim Wechsel.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Hurts foes when they switch out.</en>
+			<de type="str">Trifft Gegner beim Wechsel.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Hurts foes when they switch out.</en>
+			<de type="str">Trifft Gegner beim Wechsel.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Sets spikes that hurt a foe switching out.</en>
+			<de type="str">Richtet bei Tausch Schaden mit Stacheln an.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Sets spikes that hurt a foe switching out.</en>
+			<de type="str">Richtet bei Tausch Schaden mit Stacheln an.</de>
+		</Sapphire>
+		<FireRed type="dict">
+			<en type="str">A trap of spikes is laid around the foe’s party to hurt foes switching in.</en>
+			<de type="str">Richtet bei Tausch Schaden mit Stacheln an.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A trap of spikes is laid around the foe’s party to hurt foes switching in.</en>
+			<de type="str">Richtet bei Tausch Schaden mit Stacheln an.</de>
+		</LeafGreen>
+		<Emerald type="dict">
+			<en type="str">Sets spikes that hurt a foe switching in.</en>
+			<de type="str">Richtet bei Tausch Schaden mit Stacheln an.</de>
+		</Emerald>
+		<Diamond type="dict">
+			<en type="str">The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die ein geg. PKMN verletzten, sobald es in den Kampf gerufen wird.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die ein geg. PKMN verletzten, sobald es in den Kampf gerufen wird.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die ein geg. PKMN verletzen, sobald es in den Kampf gerufen wird.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die ein geg. PKMN verletzen, sobald es in den Kampf gerufen wird.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user lays a trap of spikes at the foe’s feet. The trap hurts foes that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die ein geg. PKMN verletzen, sobald es in den Kampf gerufen wird.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die ein gegnerisches Pokémon verletzen, sobald es in den Kampf gerufen wird.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die ein gegnerisches Pokémon verletzen, sobald es in den Kampf gerufen wird.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user lays a trap of spikes at the opposing team’s feet. The trap hurts Pokémon that switch into battle.</en>
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender verteilt Stacheln, die gegnerische Pokémon verletzen, die in den Kampf gerufen werden.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

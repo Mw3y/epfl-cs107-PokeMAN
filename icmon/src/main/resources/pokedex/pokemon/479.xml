@@ -1,0 +1,1992 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Motisma</fr>
+		<de>Rotom</de>
+		<it>Rotom</it>
+		<en>Rotom</en>
+	</names>
+	<national_id>479</national_id>
+	<types>
+		<item>Electric</item>
+		<item>Ghost</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Levitate</name>
+		</item>
+	</abilities>
+	<gender_ratios/>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Amorphous</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>1'00&quot;</height_us>
+	<height_eu>0.3 m</height_eu>
+	<weight_us>0.7 lbs.</weight_us>
+	<weight_eu>0.3 kg</weight_eu>
+	<base_exp_yield>154</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>1</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<color>Red</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>50</hp>
+		<atk>50</atk>
+		<def>77</def>
+		<sp_atk>95</sp_atk>
+		<sp_def>77</sp_def>
+		<speed>91</speed>
+	</base_stats>
+	<categories>
+		<en>Plasma Pokémon</en>
+		<de>Plasma</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id>152</sinnoh_id>
+	<unova_id/>
+	<kalos_id>68</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variation_names>
+		<en>Normal Rotom</en>
+		<de>Normal</de>
+	</variation_names>
+	<variations>
+		<item>
+			<condition>possesses microwave oven</condition>
+			<image_suffix>heat</image_suffix>
+			<names>
+				<en>Heat Rotom</en>
+				<de>Hitze-Rotom</de>
+			</names>
+			<types>
+				<item>Electric</item>
+				<item>Fire</item>
+			</types>
+			<base_stats>
+				<hp>50</hp>
+				<atk>65</atk>
+				<def>107</def>
+				<sp_atk>105</sp_atk>
+				<sp_def>107</sp_def>
+				<speed>86</speed>
+			</base_stats>
+			<pokeathlon_stats>
+				<speed>
+					<item>3</item>
+					<item>4</item>
+				</speed>
+				<power>
+					<item>4</item>
+					<item>4</item>
+				</power>
+				<stamina>
+					<item>3</item>
+					<item>4</item>
+				</stamina>
+				<skill>
+					<item>3</item>
+					<item>4</item>
+				</skill>
+				<jump>
+					<item>4</item>
+					<item>4</item>
+				</jump>
+			</pokeathlon_stats>
+		</item>
+		<item>
+			<condition>possesses washing machine</condition>
+			<image_suffix>wash</image_suffix>
+			<names>
+				<en>Wash Rotom</en>
+				<de>Wasch-Rotom</de>
+			</names>
+			<types>
+				<item>Electric</item>
+				<item>Water</item>
+			</types>
+			<base_stats>
+				<hp>50</hp>
+				<atk>65</atk>
+				<def>107</def>
+				<sp_atk>105</sp_atk>
+				<sp_def>107</sp_def>
+				<speed>86</speed>
+			</base_stats>
+			<pokeathlon_stats>
+				<speed>
+					<item>3</item>
+					<item>3</item>
+				</speed>
+				<power>
+					<item>3</item>
+					<item>3</item>
+				</power>
+				<stamina>
+					<item>4</item>
+					<item>4</item>
+				</stamina>
+				<skill>
+					<item>3</item>
+					<item>4</item>
+				</skill>
+				<jump>
+					<item>2</item>
+					<item>4</item>
+				</jump>
+			</pokeathlon_stats>
+		</item>
+		<item>
+			<condition>possesses refrigerator</condition>
+			<image_suffix>frost</image_suffix>
+			<names>
+				<en>Frost Rotom</en>
+				<de>Frost-Rotom</de>
+			</names>
+			<types>
+				<item>Electric</item>
+				<item>Ice</item>
+			</types>
+			<base_stats>
+				<hp>50</hp>
+				<atk>65</atk>
+				<def>107</def>
+				<sp_atk>105</sp_atk>
+				<sp_def>107</sp_def>
+				<speed>86</speed>
+			</base_stats>
+			<pokeathlon_stats>
+				<speed>
+					<item>3</item>
+					<item>4</item>
+				</speed>
+				<power>
+					<item>2</item>
+					<item>3</item>
+				</power>
+				<stamina>
+					<item>3</item>
+					<item>3</item>
+				</stamina>
+				<skill>
+					<item>4</item>
+					<item>5</item>
+				</skill>
+				<jump>
+					<item>3</item>
+					<item>4</item>
+				</jump>
+			</pokeathlon_stats>
+		</item>
+		<item>
+			<condition>possesses electric fan</condition>
+			<image_suffix>fan</image_suffix>
+			<names>
+				<en>Fan Rotom</en>
+				<de> Wirbel-Rotom</de>
+			</names>
+			<types>
+				<item>Electric</item>
+				<item>Flying</item>
+			</types>
+			<base_stats>
+				<hp>50</hp>
+				<atk>65</atk>
+				<def>107</def>
+				<sp_atk>105</sp_atk>
+				<sp_def>107</sp_def>
+				<speed>86</speed>
+			</base_stats>
+			<pokeathlon_stats>
+				<speed>
+					<item>3</item>
+					<item>5</item>
+				</speed>
+				<power>
+					<item>3</item>
+					<item>5</item>
+				</power>
+				<stamina>
+					<item>2</item>
+					<item>3</item>
+				</stamina>
+				<skill>
+					<item>3</item>
+					<item>3</item>
+				</skill>
+				<jump>
+					<item>5</item>
+					<item>5</item>
+				</jump>
+			</pokeathlon_stats>
+		</item>
+		<item>
+			<condition>possesses lawnmower</condition>
+			<image_suffix>mow</image_suffix>
+			<names>
+				<en>Mow Rotom</en>
+				<de> Schneid-Rotom</de>
+			</names>
+			<types>
+				<item>Electric</item>
+				<item>Grass</item>
+			</types>
+			<base_stats>
+				<hp>50</hp>
+				<atk>65</atk>
+				<def>107</def>
+				<sp_atk>105</sp_atk>
+				<sp_def>107</sp_def>
+				<speed>86</speed>
+			</base_stats>
+			<pokeathlon_stats>
+				<speed>
+					<item>3</item>
+					<item>3</item>
+				</speed>
+				<power>
+					<item>3</item>
+					<item>3</item>
+				</power>
+				<stamina>
+					<item>3</item>
+					<item>4</item>
+				</stamina>
+				<skill>
+					<item>5</item>
+					<item>5</item>
+				</skill>
+				<jump>
+					<item>2</item>
+					<item>4</item>
+				</jump>
+			</pokeathlon_stats>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Diamond>
+			<en>Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.</en>
+			<de>Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.</de>
+		</Diamond>
+		<Pearl>
+			<en>Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.</en>
+			<de>Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.</de>
+		</Pearl>
+		<Platinum>
+			<en>Its electric-like body can enter some kinds of machines and take control in order to make mischief.</en>
+			<de>Es kann mit seinem Körper in elektrische Geräte eindringen und dann für Chaos sorgen.</de>
+		</Platinum>
+		<HeartGold>
+			<en>Research continues on this Pokémon, which could be the power source of a unique motor.</en>
+			<de>Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Research continues on this Pokémon, which could be the power source of a unique motor.</en>
+			<de>Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.</de>
+		</SoulSilver>
+		<Black>
+			<en>Its electric-like body can enter some kinds of machines and take control in order to make mischief.</en>
+			<de>Es kann mit seinem Körper in elektrische Geräte eindringen und dann für Chaos sorgen.</de>
+		</Black>
+		<White>
+			<en>Its electric-like body can enter some kinds of machines and take control in order to make mischief.</en>
+			<de>Es kann mit seinem Körper in elektrische Geräte eindringen und dann für Chaos sorgen.</de>
+		</White>
+		<Black_2>
+			<en>Its electric-like body can enter some kinds of machines and take control in order to make mischief.</en>
+			<de>Es kann mit seinem Körper in elektrische Geräte eindringen und dann für Chaos sorgen.</de>
+		</Black_2>
+		<White_2>
+			<en>Its electric-like body can enter some kinds of machines and take control in order to make mischief.</en>
+			<de>Es kann mit seinem Körper in elektrische Geräte eindringen und dann für Chaos sorgen.</de>
+		</White_2>
+		<X>
+			<en>Research continues on this Pokémon, which could be the power source of a unique motor.</en>
+			<de>Dieses Pokémon wurde lange Zeit erforscht, um als Energiequelle für einen besonderen Motor zu dienen.</de>
+		</X>
+		<Y>
+			<en>Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.</en>
+			<de>Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Research continues on this Pokémon, which could be the power source of a unique motor.</en>
+			<de>Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.</en>
+			<de>Sein Körper besteht aus Plasma. Mit ihm kann es in elektrische Geräte eindringen und für Chaos sorgen.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>5</item>
+		</speed>
+		<power>
+			<item>2</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>3</item>
+			<item>4</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>4</item>
+			<item>5</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hex</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hex</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hex</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hex</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hex</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hex</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

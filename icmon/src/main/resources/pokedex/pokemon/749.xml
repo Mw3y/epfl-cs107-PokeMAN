@@ -1,0 +1,467 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Mudbray</en>
+		<jp>ドロバンコ Dorobanko</jp>
+		<fr>Tiboudet</fr>
+		<es>Mudbray</es>
+		<de>Pampuli</de>
+		<it>Mudbray</it>
+	</names>
+	<national_id>749</national_id>
+	<alola_id>132</alola_id>
+	<types>
+		<item>Ground</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Own Tempo</name>
+		</item>
+		<item>
+			<name>Inner Focus</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>190</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>3'03&quot;</height_us>
+	<height_eu>1.0 m</height_eu>
+	<weight_us>242.5 lbs.</weight_us>
+	<weight_eu>110.0 kg</weight_eu>
+	<base_exp_yield>77</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Brown</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>1</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>70</hp>
+		<atk>100</atk>
+		<def>70</def>
+		<sp_atk>45</sp_atk>
+		<sp_def>55</sp_def>
+		<speed>45</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Mudsdale</to>
+			<level>30</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Donkey Pokémon</en>
+		<de>Packesel</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>The mud stuck to Mudbray's hooves enhances its grip and its powerful running gait.</en>
+			<de>Der ganze Schlamm an seinen Füßen sorgt für die nötige Bodenhaftung, die es für seinen kraftvollen Lauf braucht.</de>
+		</Sun>
+		<Moon>
+			<en>It has a stubborn, individualistic disposition. Eating dirt, making mud, and playing in the mire all form part of its daily routine.</en>
+			<de>Ein stures und eigensinniges Pokémon. Verbringt die Tage damit, Erde zu fressen und Schlamm daraus zu machen, mit dem es dann spielt.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It loves playing in the mud. If it isn’t showered with mud on a daily basis, it gets stressed out and stops listening to its Trainer.</en>
+			<de>Es spielt liebend gern im Schlamm. Kann es sich nicht täglich darin suhlen, hört es vor lauter Stress nicht mehr auf Befehle seines Trainers.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Possessing mighty power, Mudbray can be loaded with 50 times its own body weight and will be totally fine.</en>
+			<de>Es ist ziemlich stark. Selbst wenn es mit dem 50-fachen seines Gewichts beladen wird, scheint ihm das nichts auszumachen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>71</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud Sport</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Rototiller</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>High Horsepower</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Heavy Slam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud Sport</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Rototiller</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>High Horsepower</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Heavy Slam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

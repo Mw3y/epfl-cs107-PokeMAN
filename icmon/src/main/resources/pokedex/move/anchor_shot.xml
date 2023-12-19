@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Anchor Shot</en>
+		<fr type="str">Ancrage</fr>
+		<de type="str">Ankerschuss</de>
+		<it type="str">Colpo d'Ancora</it>
+		<es type="str">Anclaje</es>
+	</names>
+	<index_number type="int">677</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Steel</type>
+	<category type="str">physical</category>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.</en>
+			<de type="str">Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.</en>
+			<de type="str">Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.</en>
+			<de type="str">Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.</en>
+			<de type="str">Der Anwender greift das Ziel an, indem er es mit einer Ankerkette umwickelt. Dadurch wird das Ziel an der Flucht gehindert.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,300 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Naganadel</en>
+		<fr>Mandrillon</fr>
+		<es>Naganadel</es>
+		<de>Agoyon</de>
+		<it>Naganadel</it>
+	</names>
+	<categories>
+		<en>Poison Pin Pokémon</en>
+		<de>Giftdorn</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<unova_id/>
+	<kalos_id/>
+	<sinnoh_id/>
+	<alola_id/>
+	<ultra_alola_id>262</ultra_alola_id>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>3</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>73</hp>
+		<atk>73</atk>
+		<def>73</def>
+		<sp_atk>127</sp_atk>
+		<sp_def>73</sp_def>
+		<speed>121</speed>
+	</base_stats>
+	<pokedex_entries>
+		<Ultra_Sun>
+			<en>It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.</en>
+			<de>Eines der Lebewesen, die Ultrabestien genannt werden. In seinem Körper bewahrt es Hunderte Liter giftiger Flüssigkeit auf.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>One kind of Ultra Beast, it fires a glowing, venomous liquid from its needles. This liquid is also immensely adhesive.</en>
+			<de>Diese Ultrabestie verschießt aus ihren Giftstacheln ein leuchtendes, dickflüssiges Gift.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<variations/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from>Poipole</evolution_from>
+	<national_id>804</national_id>
+	<types>
+		<item>Poison</item>
+		<item>Dragon</item>
+	</types>
+	<height_us>11'10&quot;</height_us>
+	<height_eu>3.6 m</height_eu>
+	<weight_us>330.7 lbs.</weight_us>
+	<weight_eu>150.0 kg</weight_eu>
+	<abilities>
+		<item>
+			<name>Beast Boost</name>
+		</item>
+	</abilities>
+	<catch_rate>0</catch_rate>
+	<base_friendship>0</base_friendship>
+	<base_exp_yield>0</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<gender_ratios/>
+	<hatch_time>
+		<item>1800</item>
+		<item>1800</item>
+	</hatch_time>
+	<color>Purple</color>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset/>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Acid</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Air Cutter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Fell Stinger</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Sky Drop</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Snarl</move>
+					<tm>TM95</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

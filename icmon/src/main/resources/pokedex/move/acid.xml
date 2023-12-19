@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">51</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Syre</dk>
+		<fr type="str">Acide</fr>
+		<de type="str">Säure</de>
+		<gr type="str">Οξύ</gr>
+		<it type="str">Acido</it>
+		<pl type="str">Kwas</pl>
+		<en type="str">Acid</en>
+	</names>
+	<type type="str">Poison</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may lower DEFENSE.</en>
+			<de type="str">Senkt evtl. VERT-Wert des Gegners.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may lower DEFENSE.</en>
+			<de type="str">Senkt evtl. VERT-Wert des Gegners.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may lower DEFENSE.</en>
+			<de type="str">Senkt evtl. VERT-Wert des Gegners.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Sprays a hide-melting acid. May lower DEFENSE.</en>
+			<de type="str">Versprüht ätzende Flüßigkeit, senkt evtl. VERT.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Sprays a hide-melting acid. May lower DEFENSE.</en>
+			<de type="str">Versprüht ätzende Flüßigkeit, senkt evtl. VERT.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Sprays a hide-melting acid. May lower DEFENSE.</en>
+			<de type="str">Versprüht ätzende Flüßigkeit, senkt evtl. VERT.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is sprayed with a harsh, hide-melting acid that may lower DEFENSE.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die evtl. die VERT. senkt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is sprayed with a harsh, hide-melting acid that may lower DEFENSE.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die evtl. die VERT. senkt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spez.-Verteidigung des Gegners senkt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spez.-Verteidigung des Gegners senkt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spez.-Verteidigung des Gegners senkt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spez.-Verteidigung des Gegners senkt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is attacked with a spray of harsh acid. It may also lower the target’s Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spez.-Verteidigung des Gegners senkt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The opposing team is attacked with a spray of harsh acid. The acid may also lower the targets’ Sp. Def stats.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung des Zieles senkt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The opposing team is attacked with a spray of harsh acid. The acid may also lower the targets’ Sp. Def stats.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung des Zieles senkt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The opposing team is attacked with a spray of harsh acid. The acid may also lower the targets’ Sp. Def stats.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung des Zieles senkt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The opposing team is attacked with a spray of harsh acid. The acid may also lower the targets’ Sp. Def stats.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung des Zieles senkt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stats.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The opposing Pokémon are attacked with a spray of harsh acid. This may also lower their Sp. Def stat.</en>
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Versprüht ätzende Flüssigkeit, die eventuell die Spezial-Verteidigung der Gegner in der Nähe des Anwenders senkt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

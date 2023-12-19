@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">298</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all_adjacent</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Danse-Folle</fr>
+		<de type="str">Taumeltanz</de>
+		<gr type="str">Χορός Ζάλης</gr>
+		<it type="str">Strampadanza</it>
+		<pl type="str">Taniec Chaosu</pl>
+		<en type="str">Teeter Dance</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Confuses all POKéMON on the scene.</en>
+			<de type="str">Verwirrt alle POKéMON im Kampf.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Confuses all POKéMON on the scene.</en>
+			<de type="str">Verwirrt alle POKéMON im Kampf.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Confuses all POKéMON on the scene.</en>
+			<de type="str">Verwirrt alle POKéMON im Kampf.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A wobbly dance that confuses all the POKéMON in battle.</en>
+			<de type="str">Ein Wackeltanz, der alle POKéMON im Kampf verwirrt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A wobbly dance that confuses all the POKéMON in battle.</en>
+			<de type="str">Ein Wackeltanz, der alle POKéMON im Kampf verwirrt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user performs a wobbly dance that confuses all the Pokémon in battle.</en>
+			<de type="str">Ein Wackeltanz, der Pokémon im Kampf verwirrt, mit Ausnahme des Anwenders.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user performs a wobbly dance that confuses all the Pokémon in battle.</en>
+			<de type="str">Ein Wackeltanz, der Pokémon im Kampf verwirrt, mit Ausnahme des Anwenders.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user performs a wobbly dance that confuses all the Pokémon in battle.</en>
+			<de type="str">Ein Wackeltanz, der Pokémon im Kampf verwirrt, mit Ausnahme des Anwenders.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user performs a wobbly dance that confuses all the Pokémon in battle.</en>
+			<de type="str">Ein Wackeltanz, der Pokémon im Kampf verwirrt, mit Ausnahme des Anwenders.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user performs a wobbly dance that confuses all the Pokémon in battle.</en>
+			<de type="str">Ein Wackeltanz, der Pokémon im Kampf verwirrt, mit Ausnahme des Anwenders.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user performs a wobbly dance that confuses the Pokémon around it.</en>
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ein Wackeltanz, der andere Pokémon in der Umgebung des Anwenders verwirrt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

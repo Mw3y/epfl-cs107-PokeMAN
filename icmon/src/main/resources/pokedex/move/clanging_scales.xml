@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Clanging Scales</en>
+		<fr type="str">Vibrécaille</fr>
+		<de type="str">Schuppenrasseln</de>
+		<it type="str">Clamorsquame</it>
+		<es type="str">Fragor Escamas</es>
+	</names>
+	<index_number type="int">691</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Dragon</type>
+	<category type="str">special</category>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">110</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.</en>
+			<de type="str">Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.</en>
+			<de type="str">Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.</en>
+			<de type="str">Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user rubs the scales on its entire body and makes a huge noise to attack the opposing Pokémon. The user’s Defense stat goes down after the attack.</en>
+			<de type="str">Der Anwender erzeugt durch das Rasseln mit seinen Schuppen ein lautes Geräusch und greift an. Anschließend sinkt seine Verteidigung.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

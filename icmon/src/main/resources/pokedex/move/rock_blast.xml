@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">350</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">25</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Boule Roc</fr>
+		<de type="str">Felswurf</de>
+		<gr type="str">Λιθοβόλο</gr>
+		<it type="str">Cadutamassi</it>
+		<pl type="str">Kamienny Wybuch</pl>
+		<en type="str">Rock Blast</en>
+	</names>
+	<type type="str">Rock</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Hurls boulders at the foe 2 to 5 times in a row.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Hurls boulders at the foe 2 to 5 times in a row.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Hurls boulders at the foe 2 to 5 times in a row.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user hurls two to five hard rocks at the foe to attack.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user hurls two to five hard rocks at the foe to attack.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user hurls hard rocks at the foe. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2 - 5-mal in Folge Felsblöcke auf den Gegner.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2- bis 5-mal in Folge Felsblöcke auf das Ziel.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2- bis 5-mal in Folge Felsblöcke auf das Ziel.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2- bis 5-mal in Folge Felsblöcke auf das Ziel.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in quick succession.</en>
+			<de type="str">Wirft 2- bis 5-mal in Folge Felsblöcke auf das Ziel.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user hurls hard rocks at the target. Two to five rocks are launched in a row.</en>
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Wirft zwei- bis fünfmal in Folge Felsblöcke auf das Ziel.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

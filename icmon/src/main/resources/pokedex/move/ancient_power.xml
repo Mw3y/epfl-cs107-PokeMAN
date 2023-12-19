@@ -1,0 +1,179 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">246</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Pouvoir Antique</fr>
+		<de type="str">Antik-Kraft</de>
+		<gr type="str">Αρχαία Δύναμη</gr>
+		<it type="str">Forzantica</it>
+		<pl type="str">Starożytna Moc</pl>
+		<en type="str">Ancient Power</en>
+	</names>
+	<type type="str">Rock</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_atk</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may raise all stats.</en>
+			<de type="str">Hebt evtl. alle Statuswerte an.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may raise all stats.</en>
+			<de type="str">Hebt evtl. alle Statuswerte an.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may raise all stats.</en>
+			<de type="str">Hebt evtl. alle Statuswerte an.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">An attack that may raise all stats.</en>
+			<de type="str">Ein Angriff, der alle Status-Werte erhöhen kann.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">An attack that may raise all stats.</en>
+			<de type="str">Ein Angriff, der alle Status-Werte erhöhen kann.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">An attack that may raise all stats.</en>
+			<de type="str">Ein Angriff, der alle Status-Werte erhöhen kann.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An ancient power is used to attack. It may also raise all the user’s stats.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Status-Werte erhöhen kann.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An ancient power is used to attack. It may also raise all the user’s stats.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Status-Werte erhöhen kann.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks with a prehistoric power. It may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks with a prehistoric power. This may also raise all the user’s stats at once.</en>
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit antiker Kraft, der alle Statuswerte erhöhen kann.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,554 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Magearna</en>
+		<jp>マギアナ Magearna</jp>
+		<fr>Magearna</fr>
+		<es>Magearna</es>
+		<de>Magearna</de>
+		<it>Magearna</it>
+	</names>
+	<national_id>801</national_id>
+	<alola_id>301</alola_id>
+	<types>
+		<item>Steel</item>
+		<item>Fairy</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Soul-Heart</name>
+		</item>
+	</abilities>
+	<catch_rate>3</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>3'03&quot;</height_us>
+	<height_eu>1.0 m</height_eu>
+	<weight_us>177.5 lbs.</weight_us>
+	<weight_eu>80.5 kg</weight_eu>
+	<base_exp_yield>120</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Gray</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>3</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>80</hp>
+		<atk>95</atk>
+		<def>115</def>
+		<sp_atk>130</sp_atk>
+		<sp_def>115</sp_def>
+		<speed>65</speed>
+	</base_stats>
+	<gender_ratios/>
+	<categories>
+		<en>Artificial Pokémon</en>
+		<de>Fabrikat</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak.</en>
+			<de>Dieses Pokémon wurde vor über 500 Jahren künstlich erschaffen. Es versteht die Sprache der Menschen, ohne sie selbst zu sprechen.</de>
+		</Sun>
+		<Moon>
+			<en>Its mechanized body is merely a vessel. Its true self is its Soul-Heart, an artificial soul.</en>
+			<de>Sein mechanischer Körper ist nur ein Gefäß. Das eigentliche Pokémon ist eine künstlich erschaffene Seele namens „Seelenherz“.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It synchronizes its consciousness with others to understand their feelings. This faculty makes it useful for taking care of people.</en>
+			<de>Standard-Form: Es synchronisiert sein Bewusstsein mit dem anderer, um ihre Gefühle zu verstehen. Dadurch fällt es ihm leicht, Menschen zu helfen.
+Originalfarbe: So sah Magearna vor etwa 500 Jahren aus. Sein Körper ist lediglich ein Gefäß, das eigentliche Pokémon ist eine künstlich erschaffene Seele.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Built roughly 500 years ago by a scientist, the part called the Soul-Heart is the actual life-form.</en>
+			<de>Standard-Form: Es wurde vor ungefähr 500 Jahren von einem Wissenschaftler erschaffen. Sein eigentlicher Körper ist der als „Seelenherz“ bezeichnete Teil.
+Originalfarbe: Es wird durch seine künstlich erschaffene Seele angetrieben. Das überreiche Dekor weist es als Geschenk an eine Königsfamilie aus.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>401</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Crafty Shield</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Gear Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Shift Gear</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sonic Boom</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Fleur Cannon</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Synchronoise</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Aura Sphere</move>
+					<level>81</level>
+				</item>
+				<item>
+					<move>Heart Swap</move>
+					<level>89</level>
+				</item>
+				<item>
+					<move>Trump Card</move>
+					<level>97</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Crafty Shield</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Gear Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Shift Gear</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sonic Boom</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Fleur Cannon</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Synchronoise</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Aura Sphere</move>
+					<level>81</level>
+				</item>
+				<item>
+					<move>Heart Swap</move>
+					<level>89</level>
+				</item>
+				<item>
+					<move>Trump Card</move>
+					<level>97</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

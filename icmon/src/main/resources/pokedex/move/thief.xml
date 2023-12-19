@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">168</index_number>
+	<pp type="int">25</pp>
+	<max_pp type="int">40</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Larcin</fr>
+		<de type="str">Raub</de>
+		<gr type="str">Ληστεία</gr>
+		<it type="str">Furto</it>
+		<en type="str">Thief</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may steal a held item.</en>
+			<de type="str">Stiehlt evtl. ein getragenes Item.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may steal a held item.</en>
+			<de type="str">Stiehlt evtl. ein getragenes Item.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may steal a held item.</en>
+			<de type="str">Stiehlt evtl. ein getragenes Item.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">While attacking, it may steal the foe’s held item.</en>
+			<de type="str">Kann das vom Gegner gehaltene Item stehlen.* (Attacken-Beschreibung)Beim Angriff wird Item des Gegners evtl. gestohlen.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">While attacking, it may steal the foe’s held item.</en>
+			<de type="str">Kann das vom Gegner gehaltene Item stehlen.* (Attacken-Beschreibung)Beim Angriff wird Item des Gegners evtl. gestohlen.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">While attacking, it may steal the foe’s held item.</en>
+			<de type="str">Kann das vom Gegner gehaltene Item stehlen.* (Attacken-Beschreibung)Beim Angriff wird Item des Gegners evtl. gestohlen.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An attack that may take the foe’s held item if the user isn’t holding one.</en>
+			<de type="str">Das vom Gegner gehaltene Item kann gestohlen werden.* (Attacken-Beschreibung)Beim Angriff wird das Item des Gegners evtl. gestohlen.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An attack that may take the foe’s held item if the user isn’t holding one.</en>
+			<de type="str">Das vom Gegner gehaltene Item kann gestohlen werden.* (Attacken-Beschreibung)Beim Angriff wird das Item des Gegners evtl. gestohlen.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Gegnerisches Item kann gestohlen werden, wenn Anwender kein Item hält.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Gegner gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Gegnerisches Item kann gestohlen werden, wenn Anwender kein Item hält.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Gegner gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Gegnerisches Item kann gestohlen werden, wenn Anwender kein Item hält.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Gegner gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Gegnerisches Item kann gestohlen werden, wenn Anwender kein Item hält.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Gegner gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks and steals the foe’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Gegnerisches Item kann gestohlen werden, wenn Anwender kein Item hält.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Gegner gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. It can’t steal if the user holds an item.</en>
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks and steals the target’s held item simultaneously. The user can’t steal anything if it already holds an item.</en>
+			<de type="str">Ermöglicht es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Erlaubt es, das Item des Zieles zu stehlen, solang der Anwender selbst keins bei sich trägt.* (Attacken-Beschreibung)Der Anwender greift an und stiehlt dem Ziel gleichzeitig ein Item, sofern er selbst gerade kein Item trägt.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

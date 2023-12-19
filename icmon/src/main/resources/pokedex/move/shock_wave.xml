@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">351</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Onde de Choc</fr>
+		<de type="str">Schockwelle</de>
+		<gr type="str">Κύμα Καταπληξίας</gr>
+		<it type="str">Ondashock</it>
+		<pl type="str">Fala Szoku</pl>
+		<en type="str">Shock Wave</en>
+	</names>
+	<type type="str">Electric</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">A fast and unavoidable electric attack.</en>
+			<de type="str">Schnelle Elektro-Attacke mit Treffergarantie.* (Attacken-Beschreibung)Fügt Gegner einen Stromschlag zu, der nie verfehlt.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A fast and unavoidable electric attack.</en>
+			<de type="str">Schnelle Elektro-Attacke mit Treffergarantie.* (Attacken-Beschreibung)Fügt Gegner einen Stromschlag zu, der nie verfehlt.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A fast and unavoidable electric attack.</en>
+			<de type="str">Schnelle Elektro-Attacke mit Treffergarantie.* (Attacken-Beschreibung)Fügt Gegner einen Stromschlag zu, der nie verfehlt.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A rapid jolt of electricity strikes the foe. It can’t be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.* (Attacken-Beschreibung)Ein blitzschneller Elektroschock trifft den Gegner. Ausweichen ist unmöglich!* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A rapid jolt of electricity strikes the foe. It can’t be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.* (Attacken-Beschreibung)Ein blitzschneller Elektroschock trifft den Gegner. Ausweichen ist unmöglich!* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.* (Attacken-Beschreibung)Ein blitzschneller Elektroschock trifft den Gegner. Ausweichen ist unmöglich!* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.* (Attacken-Beschreibung)Ein blitzschneller Elektroschock trifft den Gegner. Ausweichen ist unmöglich!* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.* (Attacken-Beschreibung)Ein blitzschneller Elektroschock trifft den Gegner. Ausweichen ist unmöglich!* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.* (Attacken-Beschreibung)Ein blitzschneller Elektroschock trifft den Gegner. Ausweichen ist unmöglich!* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user strikes the foe with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.* (Attacken-Beschreibung)Ein blitzschneller Elektroschock trifft den Gegner. Ausweichen ist unmöglich!* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack cannot be evaded.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user strikes the target with a quick jolt of electricity. This attack never misses.</en>
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit schnellem Elektro-Schlag. Ausweichen nicht möglich.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

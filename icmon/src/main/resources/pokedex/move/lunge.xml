@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Lunge</en>
+		<fr type="str">Furie-Bond</fr>
+		<de type="str">Anfallen</de>
+		<it type="str">Assalto</it>
+		<es type="str">Plancha</es>
+	</names>
+	<index_number type="int">679</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Bug</type>
+	<category type="str">physical</category>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user makes a lunge at the target, attacking with full force. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift das Ziel mit ganzer Kraft an, wodurch auch der Angriffs-Wert des Zieles sinkt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user makes a lunge at the target, attacking with full force. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift das Ziel mit ganzer Kraft an, wodurch auch der Angriffs-Wert des Zieles sinkt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user makes a lunge at the target, attacking with full force. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift das Ziel mit ganzer Kraft an, wodurch auch der Angriffs-Wert des Zieles sinkt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user makes a lunge at the target, attacking with full force. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift das Ziel mit ganzer Kraft an, wodurch auch der Angriffs-Wert des Zieles sinkt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

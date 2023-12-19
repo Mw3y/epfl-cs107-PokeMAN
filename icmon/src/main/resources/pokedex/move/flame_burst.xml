@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">481</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">70</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Rebondifeu</fr>
+		<de type="str">Funkenflug</de>
+		<it type="str">Pirolancio</it>
+		<pl type="str">Salwa Ognia</pl>
+		<en type="str">Flame Burst</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg Angriff mit berstenden Feuerblasen. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg Angriff mit berstenden Feuerblasen. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg Angriff mit berstenden Feuerblasen. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg Angriff mit berstenden Feuerblasen. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the target with a bursting flame. The bursting flame damages Pokémon next to the target as well.</en>
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Bei Erfolg greift der Anwender mit berstenden Feuerblasen an. Die Funken der geplatzten Blasen treffen auch benachbarte Ziele.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

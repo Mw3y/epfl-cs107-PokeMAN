@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">388</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Soucigraine</fr>
+		<de type="str">Sorgensamen</de>
+		<gr type="str">Σπόρος Άγχους</gr>
+		<it type="str">Affannoseme</it>
+		<en type="str">Worry Seed</en>
+	</names>
+	<type type="str">Grass</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia.</en>
+			<de type="str">Gegner wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia.</en>
+			<de type="str">Gegner wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia.</en>
+			<de type="str">Gegner wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia.</en>
+			<de type="str">Gegner wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A seed that causes worry is planted on the foe. It prevents sleep by making its ability Insomnia.</en>
+			<de type="str">Gegner wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making its Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making its Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making its Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making its Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Seine Fähigkeit wandelt sich zu Insomnia und hindert es daran, einzuschlafen.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Seine Fähigkeit wandelt sich zu Insomnia und hindert es daran, einzuschlafen.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Seine Fähigkeit wandelt sich zu Insomnia und hindert es daran, einzuschlafen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A seed that causes worry is planted on the target. It prevents sleep by making the target’s Ability Insomnia.</en>
+			<de type="str">Ziel wird bepflanzt. Seine Fähigkeit wandelt sich zu Insomnia und hindert es daran, einzuschlafen.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ziel wird bepflanzt. Wandelt Fähigkeit in Insomnia um. Verhindert so Schlaf.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">343</index_number>
+	<pp type="int">25</pp>
+	<max_pp type="int">40</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Implore</fr>
+		<de type="str">Bezirzer</de>
+		<gr type="str">Πλεονεξία</gr>
+		<it type="str">Supplica</it>
+		<en type="str">Covet</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Cutely begs to obtain an item held by the foe.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Cutely begs to obtain an item held by the foe.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Cutely begs to obtain an item held by the foe.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A cutely executed attack that also steals the foe’s hold item.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A cutely executed attack that also steals the foe’s hold item.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user endearingly approaches the foe, then steals the item the foe is holding.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners und stiehlt es dann.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user endearingly approaches the foe, then steals the item the foe is holding.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners und stiehlt es dann.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user endearingly approaches the foe, then steals the item the foe is holding.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners und stiehlt es dann.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user endearingly approaches the foe, then steals the item the foe is holding.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners und stiehlt es dann.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user endearingly approaches the foe, then steals the item the foe is holding.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Gegners und stiehlt es dann.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Zieles und stiehlt es dann.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Zieles und stiehlt es dann.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Zieles und stiehlt es dann.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Bittet charmant um das gehaltene Item des Zieles und stiehlt es dann.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Bittet charmant um das getragene Item des Zieles und stiehlt es dann.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Bittet charmant um das getragene Item des Zieles und stiehlt es dann.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user endearingly approaches the target, then steals the target’s held item.</en>
+			<de type="str">Der Anwender schmeichelt sich beim Ziel ein und stiehlt dann das von ihm getragene Item.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Bittet charmant um das getragene Item des Zieles und stiehlt es dann.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Bittet charmant um das getragene Item des Zieles und stiehlt es dann.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

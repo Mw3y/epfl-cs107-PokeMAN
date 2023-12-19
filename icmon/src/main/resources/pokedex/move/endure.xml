@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">203</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">3</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Ténacité</fr>
+		<de type="str">Ausdauer</de>
+		<gr type="str">Αντοχή</gr>
+		<it type="str">Resistenza</it>
+		<en type="str">Endure</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Always leaves at least 1HP.</en>
+			<de type="str">Mindestens 1 KP bleibt übrig.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Always leaves at least 1HP.</en>
+			<de type="str">Mindestens 1 KP bleibt übrig.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Always leaves at least 1HP.</en>
+			<de type="str">Mindestens 1 KP bleibt übrig.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Endures any attack for 1 turn, leaving at least 1HP.</en>
+			<de type="str">Hält jeder Attacke 1 Runde stand. 1KP bleibt stets.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Endures any attack for 1 turn, leaving at least 1HP.</en>
+			<de type="str">Hält jeder Attacke 1 Runde stand. 1KP bleibt stets.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Endures any attack for 1 turn, leaving at least 1HP.</en>
+			<de type="str">Hält jeder Attacke 1 Runde stand. 1KP bleibt stets.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user endures any hit with 1 HP left. It may fail if used in succession.</en>
+			<de type="str">1 KP bleibt stets übrig. Misserfolg bei Wiederholung möglich.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user endures any hit with 1 HP left. It may fail if used in succession.</en>
+			<de type="str">1 KP bleibt stets übrig. Misserfolg bei Wiederholung möglich.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">1 KP bleibt nach gegn. Attacken stets übrig. Misserfolg bei Wiederholung möglich.* (Attacken-Beschreibung)Der Anwender übersteht auch starke Attacken mit mindestens 1 KP. Kann bei häufigem Einsatz versagen.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">1 KP bleibt nach gegn. Attacken stets übrig. Misserfolg bei Wiederholung möglich.* (Attacken-Beschreibung)Der Anwender übersteht auch starke Attacken mit mindestens 1 KP. Kann bei häufigem Einsatz versagen.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user endures any attack, leaving 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">1 KP bleibt nach gegn. Attacken stets übrig. Misserfolg bei Wiederholung möglich.* (Attacken-Beschreibung)Der Anwender übersteht auch starke Attacken mit mindestens 1 KP. Kann bei häufigem Einsatz versagen.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">1 KP bleibt nach gegn. Attacken stets übrig. Misserfolg bei Wiederholung möglich.* (Attacken-Beschreibung)Der Anwender übersteht auch starke Attacken mit mindestens 1 KP. Kann bei häufigem Einsatz versagen.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">1 KP bleibt nach gegn. Attacken stets übrig. Misserfolg bei Wiederholung möglich.* (Attacken-Beschreibung)Der Anwender übersteht auch starke Attacken mit mindestens 1 KP. Kann bei häufigem Einsatz versagen.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user endures any attack with at least 1 HP. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Nach fatalen Attacken bleibt stets 1 KP übrig. Misserfolg bei Wiederholung möglich.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

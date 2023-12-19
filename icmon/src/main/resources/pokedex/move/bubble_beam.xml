@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">61</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">65</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Boblestråle</dk>
+		<de type="str">Blubbstrahl</de>
+		<gr type="str">Ακτίνα φυσαλίδων</gr>
+		<it type="str">Bollaraggio</it>
+		<pl type="str">Bąbelkowy Promień</pl>
+		<en type="str">Bubble Beam</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may lower SPEED.</en>
+			<de type="str">Senkt evtl. INIT-Wert des Gegners.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may lower SPEED.</en>
+			<de type="str">Senkt evtl. INIT-Wert des Gegners.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may lower SPEED.</en>
+			<de type="str">Senkt evtl. INIT-Wert des Gegners.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Forcefully sprays bubbles that may lower SPEED.</en>
+			<de type="str">Versprüht Blasen, die den INIT.-Wert evtl. senken.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Forcefully sprays bubbles that may lower SPEED.</en>
+			<de type="str">Versprüht Blasen, die den INIT.-Wert evtl. senken.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Forcefully sprays bubbles that may lower SPEED.</en>
+			<de type="str">Versprüht Blasen, die den INIT.-Wert evtl. senken.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A spray of bubbles strikes the foe. It may lower the foe’s SPEED stat.</en>
+			<de type="str">Versprüht Blasen, die evtl. den INIT.-Wert des Gegners senken.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A spray of bubbles strikes the foe. It may lower the foe’s SPEED stat.</en>
+			<de type="str">Versprüht Blasen, die evtl. den INIT.-Wert des Gegners senken.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Gegners senken.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Gegners senken.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Gegners senken.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Gegners senken.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the foe. It may also lower the target’s Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Gegners senken.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the opposing team. It may also lower their Speed stats.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A spray of bubbles is forcefully ejected at the target. This may also lower its Speed stat.</en>
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Versprüht Blasen, die eventuell den Initiative-Wert des Zieles senken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

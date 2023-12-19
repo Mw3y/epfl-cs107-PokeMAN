@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">195</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Requiem</fr>
+		<de type="str">Abgesang</de>
+		<gr type="str">Κύκνειο Άσμα</gr>
+		<it type="str">Ultimocanto</it>
+		<pl type="str">Requiem</pl>
+		<en type="str">Perish Song</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Both user and foe faint in 3 turns.</en>
+			<de type="str">Beide werden in 3 Runden besiegt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Both user and foe faint in 3 turns.</en>
+			<de type="str">Beide werden in 3 Runden besiegt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Both user and foe faint in 3 turns.</en>
+			<de type="str">Beide werden in 3 Runden besiegt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Any POKéMON hearing this song faints in 3 turns.</en>
+			<de type="str">Wer dieses Lied hört, wird nach 3 Runden besiegt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Any POKéMON hearing this song faints in 3 turns.</en>
+			<de type="str">Wer dieses Lied hört, wird nach 3 Runden besiegt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Any POKéMON hearing this song faints in 3 turns.</en>
+			<de type="str">Wer dieses Lied hört, wird nach 3 Runden besiegt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Any battler that hears this faints in three turns unless it switches.</en>
+			<de type="str">Wer ihn hört, wird nach 3 Runden besiegt. Rettung durch Tausch.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Any battler that hears this faints in three turns unless it switches.</en>
+			<de type="str">Wer ihn hört, wird nach 3 Runden besiegt. Rettung durch Tausch.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung durch Tausch.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung durch Tausch.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung durch Tausch.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung durch Tausch.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung durch Tausch.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch Eintausch eines neuen Pokémon möglich.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch Eintausch eines neuen Pokémon möglich.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch Eintausch eines neuen Pokémon möglich.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch Eintausch eines neuen Pokémon möglich.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Any Pokémon that hears this song faints in three turns, unless it switches out of battle.</en>
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Wer diese Musik hört, wird nach drei Runden besiegt. Rettung ist durch den Eintausch eines neuen Pokémon möglich.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

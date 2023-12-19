@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">306</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">75</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Éclate Griffe</fr>
+		<de type="str">Zermalmklaue</de>
+		<gr type="str">Νύχια Συντριβής</gr>
+		<it type="str">Tritartigli</it>
+		<pl type="str">Niszczący Pazur</pl>
+		<en type="str">Crush Claw</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Tears at the foe with sharp claws. May lower DEFENSE.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt evtl. VERT.-Wert.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Tears at the foe with sharp claws. May lower DEFENSE.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt evtl. VERT.-Wert.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Tears at the foe with sharp claws. May lower DEFENSE.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt evtl. VERT.-Wert.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is attacked with sharp claws. It may also lower the foe’s DEFENSE.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt evtl. den VERT.-Wert.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is attacked with sharp claws. It may also lower the foe’s DEFENSE.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt evtl. den VERT.-Wert.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user slashes the foe with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. It may also lower the target’s Defense.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user slashes the target with hard and sharp claws. This may also lower the target’s Defense stat.</en>
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit scharfen Klauen. Senkt eventuell den Verteidigungs-Wert.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

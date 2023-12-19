@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">45</index_number>
+	<pp type="int">40</pp>
+	<max_pp type="int">64</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Knurre</dk>
+		<fr type="str">Rugissement</fr>
+		<de type="str">Heuler</de>
+		<gr type="str">Μουγγρητό</gr>
+		<it type="str">Ruggito</it>
+		<pl type="str">Warczenie</pl>
+		<en type="str">Growl</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Reduces the foe's ATTACK.</en>
+			<de type="str">Senkt den ANGR-Wert des Gegners.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Reduces the foe's ATTACK.</en>
+			<de type="str">Senkt den ANGR-Wert des Gegners.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Reduces the foe's ATTACK.</en>
+			<de type="str">Senkt den ANGR-Wert des Gegners.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Growls cutely to reduce the foe’s ATTACK.</en>
+			<de type="str">Knurren, das den ANGR.-Wert des Gegners senkt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Growls cutely to reduce the foe’s ATTACK.</en>
+			<de type="str">Knurren, das den ANGR.-Wert des Gegners senkt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Growls cutely to reduce the foe’s ATTACK.</en>
+			<de type="str">Knurren, das den ANGR.-Wert des Gegners senkt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user growls in a cute way, making the foe lower its ATTACK stat.</en>
+			<de type="str">Knurren, das den ANGR.-Wert des Gegners senkt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user growls in a cute way, making the foe lower its ATTACK stat.</en>
+			<de type="str">Knurren, das den ANGR.-Wert des Gegners senkt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user growls in an endearing way, making the foe less wary. The target’s Attack stat is lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user growls in an endearing way, making the opposing team less wary. The foes’ Attack stats are lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user growls in an endearing way, making the opposing team less wary. The foes’ Attack stats are lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user growls in an endearing way, making the opposing team less wary. The foes’ Attack stats are lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user growls in an endearing way, making the opposing team less wary. The foes’ Attack stats are lowered.</en>
+			<de type="str">Der Anwender nimmt den Gegner für sich ein und senkt dessen Angriffs-Wert.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.</en>
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.</en>
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stats.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.</en>
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.</en>
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.</en>
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user growls in an endearing way, making opposing Pokémon less wary. This lowers their Attack stat.</en>
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender nimmt das Ziel für sich ein und senkt dessen Angriffs-Wert.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

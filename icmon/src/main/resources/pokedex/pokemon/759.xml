@@ -1,0 +1,540 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Stufful</en>
+		<jp>ヌイコグマ Nuikoguma</jp>
+		<fr>Nounourson</fr>
+		<es>Stufful</es>
+		<de>Velursi</de>
+		<it>Stufful</it>
+	</names>
+	<national_id>759</national_id>
+	<alola_id>169</alola_id>
+	<types>
+		<item>Normal</item>
+		<item>Fighting</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Fluffy</name>
+		</item>
+		<item>
+			<name>Cute Charm</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>140</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>1'08&quot;</height_us>
+	<height_eu>0.5 m</height_eu>
+	<weight_us>15.0 lbs.</weight_us>
+	<weight_eu>6.8 kg</weight_eu>
+	<base_exp_yield>68</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Pink</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>1</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>70</hp>
+		<atk>75</atk>
+		<def>50</def>
+		<sp_atk>45</sp_atk>
+		<sp_def>50</sp_def>
+		<speed>50</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Bewear</to>
+			<level>27</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Flailing Pokémon</en>
+		<de>Wildfang</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Despite its adorable appearance, when it gets angry and flails about, its arms and legs could knock a pro wrestler sprawling.</en>
+			<de>Es sieht sehr süß aus, aber wehe, es wird wütend. Mit seinen Armen wirbelnd haut es selbst den stärksten Wrestler um.</de>
+		</Sun>
+		<Moon>
+			<en>A touch from anyone except a known friend sends it into a surging frenzy. It's an incredibly dangerous Pokémon.</en>
+			<de>Wird es von irgendjemand anderem als seinen Kameraden angefasst, flippt es aus und schlägt mit unglaublicher Kraft wild um sich.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It boasts power enough to split large trees in half. The organ on its rear releases an odor that it uses to communicate with others of its kind.</en>
+			<de>Es ist stark genug, um große Baumstämme zu zerbrechen. Über Düfte aus dem Organ am Hinterteil kommuniziert es mit Artgenossen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Stufful hates to be hugged or touched in any way. It will squirm, thrash, and resist with amazing power.</en>
+			<de>Es hasst es, angefasst oder gar gedrückt zu werden und wehrt sich dagegen, indem es mit unglaublicher Kraft wild um sich schlägt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>76</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Baby-Doll Eyes</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Payback</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Force Palm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomping Tantrum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Baby-Doll Eyes</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Payback</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Force Palm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomping Tantrum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

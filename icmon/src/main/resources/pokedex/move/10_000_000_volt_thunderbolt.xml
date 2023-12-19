@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">10,000,000 Volt Thunderbolt</en>
+		<fr type="str">Giga-Tonnerre</fr>
+		<de type="str">Tausendfacher Donnerblitz</de>
+		<it type="str">Iperfulmine</it>
+		<es type="str">Gigarrayo Fulminante</es>
+	</names>
+	<index_number type="int">719</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Electric</type>
+	<category type="str">special</category>
+	<pp type="int">0</pp>
+	<max_pp type="int">0</max_pp>
+	<power type="int">195</power>
+	<accuracy type="int">0</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">1</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">critital_hit</stat>
+			<change_by type="int">2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Scratches with sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Scratches with sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Scratches with sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Scratches the foe with sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Scratches the foe with sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Scratches the foe with sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe.</en>
+			<de type="str">Unbekannt</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe.</en>
+			<de type="str">Unbekannt</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das eine Kappe tragende Pikachu greift das Ziel mit einem durch Z-Kraft verstärkten Elektroschock an. Hohe Volltrefferquote.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das eine Kappe tragende Pikachu greift das Ziel mit einem durch Z-Kraft verstärkten Elektroschock an. Hohe Volltrefferquote.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das eine Kappe tragende Pikachu greift das Ziel mit einem durch Z-Kraft verstärkten Elektroschock an. Hohe Volltrefferquote.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das eine Kappe tragende Pikachu greift das Ziel mit einem durch Z-Kraft verstärkten Elektroschock an. Hohe Volltrefferquote.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

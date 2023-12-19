@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Trop Kick</en>
+		<fr type="str">Botte Sucrette</fr>
+		<de type="str">Tropenkick</de>
+		<it type="str">Tropicalcio</it>
+		<es type="str">Patada Tropica</es>
+	</names>
+	<index_number type="int">688</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Grass</type>
+	<category type="str">physical</category>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">70</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user lands an intense kick of tropical origins on the target. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift den Gegner mit einem heftigen Tritt tropischer Herkunft an. Dabei sinkt auch der Angriffs-Wert des Gegners.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user lands an intense kick of tropical origins on the target. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift den Gegner mit einem heftigen Tritt tropischer Herkunft an. Dabei sinkt auch der Angriffs-Wert des Gegners.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user lands an intense kick of tropical origins on the target. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift den Gegner mit einem heftigen Tritt tropischer Herkunft an. Dabei sinkt auch der Angriffs-Wert des Gegners.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user lands an intense kick of tropical origins on the target. This also lowers the target’s Attack stat.</en>
+			<de type="str">Der Anwender greift den Gegner mit einem heftigen Tritt tropischer Herkunft an. Dabei sinkt auch der Angriffs-Wert des Gegners.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

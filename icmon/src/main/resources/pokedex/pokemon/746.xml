@@ -1,0 +1,500 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Wishiwashi</en>
+		<jp>ヨワシ Yowashi</jp>
+		<fr>Froussardine</fr>
+		<es>Wishiwashi</es>
+		<de>Lusardin</de>
+		<it>Wishiwashi</it>
+	</names>
+	<national_id>746</national_id>
+	<alola_id>110</alola_id>
+	<types>
+		<item>Water</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Schooling</name>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>60</catch_rate>
+	<egg_groups>
+		<item>Water 2</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>0'08&quot;</height_us>
+	<height_eu>0.2 m</height_eu>
+	<weight_us>0.7 lbs.</weight_us>
+	<weight_eu>0.3 kg</weight_eu>
+	<base_exp_yield>61</base_exp_yield>
+	<leveling_rate>Fast</leveling_rate>
+	<color>Blue</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>1</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>45</hp>
+		<atk>20</atk>
+		<def>20</def>
+		<sp_atk>25</sp_atk>
+		<sp_def>25</sp_def>
+		<speed>40</speed>
+	</base_stats>
+	<categories>
+		<en>Small Fry Pokémon</en>
+		<de>Kleinfisch</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variation_names>
+		<en>Solo Form</en>
+		<de>Einzelform</de>
+	</variation_names>
+	<variations>
+		<item>
+			<condition>Level 20 and using Schooling</condition>
+			<image_suffix>school</image_suffix>
+			<names>
+				<en>School Form</en>
+				<de>Schwarmform</de>
+			</names>
+			<types>
+				<item>Water</item>
+			</types>
+			<height_us>26'11&quot;</height_us>
+			<height_eu>8.2 m</height_eu>
+			<weight_us>173.3 lbs.</weight_us>
+			<weight_eu>78.6 kg</weight_eu>
+			<base_stats>
+				<hp>45</hp>
+				<atk>140</atk>
+				<def>130</def>
+				<sp_atk>140</sp_atk>
+				<sp_def>135</sp_def>
+				<speed>30</speed>
+			</base_stats>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Sun>
+			<en>When it's in trouble, its eyes moisten and begin to shine. The shining light attracts its comrades, and they stand together against their enemies.</en>
+			<de>Gerät es in Not, tränen seine Augen. Ihr Glänzen lockt Artgenossen an, mit denen es dann im Verbund den Feind angreift.</de>
+		</Sun>
+		<Moon>
+			<en>It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.</en>
+			<de>Ein sehr schwaches und leckeres Pokémon, auf das es stehts irgendjemand abgesehen hat. Doch Vorsicht: Wer es ärgert, wird dies bereuen!</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>They’re weak, so they move in schools. However, they can also often be seen all alone, having strayed from the school.</en>
+			<de>Einzelform: Es bewegt sich nur im Schwarm fort, da es sehr schwach ist. Oft sieht man aber auch einzelne Exemplare, die vom Schwarm getrennt wurden.
+Schwarmform: Diese Form nehmen Lusardin an, um ihrem Gegner zu trotzen. Aufgrund der enormen Stärke nennt man sie auch „Ungeheuer der Meere“.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>When it’s in a jam, its shining eyes attract others of its kind. The light from its eyes is visible almost 25 miles away.</en>
+			<de>Einzelform: Bei Gefahr ruft es seine Artgenossen herbei, indem es seine Augen aufglänzen lässt. Dieses Licht ist 40 km weit zu sehen.
+Schwarmform: Auch „Ungeheuer der Meere“ genannt. Wird es im Kampf verletzt, sinkt die Zahl der Lusardin und sie bilden einen gewöhnlichen Schwarm.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>60</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Tearful Look</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Dive</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Beat Up</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Aqua Tail</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Tearful Look</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Dive</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Beat Up</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Aqua Tail</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

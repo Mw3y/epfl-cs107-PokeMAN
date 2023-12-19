@@ -1,0 +1,500 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Mareanie</en>
+		<jp>ヒドイデ Hidoide</jp>
+		<fr>Vorastérie</fr>
+		<es>Mareanie</es>
+		<de>Garstella</de>
+		<it>Mareanie</it>
+	</names>
+	<national_id>747</national_id>
+	<alola_id>113</alola_id>
+	<types>
+		<item>Poison</item>
+		<item>Water</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Merciless</name>
+		</item>
+		<item>
+			<name>Regenerator</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>190</catch_rate>
+	<egg_groups>
+		<item>Water 1</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>1'04&quot;</height_us>
+	<height_eu>0.4 m</height_eu>
+	<weight_us>17.6 lbs.</weight_us>
+	<weight_eu>8.0 kg</weight_eu>
+	<base_exp_yield>61</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Blue</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>1</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>50</hp>
+		<atk>53</atk>
+		<def>62</def>
+		<sp_atk>43</sp_atk>
+		<sp_def>52</sp_def>
+		<speed>45</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Toxapex</to>
+			<level>38</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Brutal Star Pokémon</en>
+		<de>Quäl-Stern</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>It plunges the poison spike on its head into its prey. When the prey has weakened, Mareanie deals the finishing blow with its 10 tentacles.</en>
+			<de>Mit seinem Giftstachel am Kopf attackiert es Beute. Ist diese geschwächt, umschlingt es sie mit seinen zehn Tentakeln und gibt ihr den Rest.</de>
+		</Sun>
+		<Moon>
+			<en>It's found crawling on beaches and seafloors. The coral that grows on Corsola's head is as good as a five-star banquet to this Pokémon.</en>
+			<de>Kriecht auf dem Meeresgrund oder am Strand herum. Die Korallen, die auf den Köpfen von Corasonn wachsen, sind seine Leibspeise.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>They eat Corsola branches, so Mareanie are hated by craftsmen who work with Corsola branches that have naturally fallen off.</en>
+			<de>Die Arme von Corasonn sind seine Leibspeise. Handwerker, die natürlich abgefallene Arme von Corasonn verarbeiten, mögen sie deshalb nicht.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Aside from its head, its body parts regenerate quickly if they’re cut off. After a good night’s sleep, Mareanie is back to normal.</en>
+			<de>Bis auf den Kopf wachsen all seine Körperteile schnell nach, wenn sie abgetrennt werden. Dafür muss es nur eine Nacht durchschlafen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>45</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Spike Cannon</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Liquidation</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Spike Cannon</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Liquidation</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

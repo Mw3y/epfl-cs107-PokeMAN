@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">494</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Ten-danse</fr>
+		<de type="str">Zwango</de>
+		<it type="str">Saltamicizia</it>
+		<en type="str">Entrainment</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu seltsamem Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu seltsamem Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu seltsamem Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu seltsamem Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu einem seltsamem [sic!] Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu einem seltsamem [sic!] Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu einem seltsamen Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu einem seltsamen Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu einem seltsamen Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user dances with an odd rhythm that compels the target to mimic it, making the target’s Ability the same as the user’s.</en>
+			<de type="str">Anwender tanzt zu einem seltsamen Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender tanzt zu einem seltsamem [sic!] Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender tanzt zu einem seltsamem [sic!] Rhythmus und zwingt das Ziel mitzumachen. Dieses nimmt dabei die Fähigkeit des Anwenders an.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

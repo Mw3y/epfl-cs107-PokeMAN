@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">59</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">110</power>
+	<accuracy type="int">70</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Snestorm</dk>
+		<de type="str">Blizzard</de>
+		<gr type="str">Χιονοθύελλα</gr>
+		<it type="str">Bora</it>
+		<pl type="str">Zamieć</pl>
+		<en type="str">Blizzard</en>
+	</names>
+	<type type="str">Ice</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may freeze the foe.</en>
+			<de type="str">Gegner wird evtl. eingefroren.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may freeze the foe.</en>
+			<de type="str">Gegner wird evtl. eingefroren.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may freeze the foe.</en>
+			<de type="str">Gegner wird evtl. eingefroren.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Hits the foe with an icy storm that may freeze it.</en>
+			<de type="str">Ein Schneesturm, der den Gegner einfrieren kann.* (Attacken-Beschreibung)Eis- und Schnee-Attacke, die Gegner einfrieren kann.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Hits the foe with an icy storm that may freeze it.</en>
+			<de type="str">Ein Schneesturm, der den Gegner einfrieren kann.* (Attacken-Beschreibung)Eis- und Schnee-Attacke, die Gegner einfrieren kann.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Hits the foe with an icy storm that may freeze it.</en>
+			<de type="str">Ein Schneesturm, der den Gegner einfrieren kann.* (Attacken-Beschreibung)EIS- und Schnee-Attacke, die Gegner einfrieren kann.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is blasted with a blizzard. It may freeze the foe solid.</en>
+			<de type="str">Ein Schneesturm, der den Gegner einfrieren kann, wütet.* (Attacken-Beschreibung)Eine gnadenlose Eis- und Schnee-Attacke, die alle Gegner trifft und sie evtl. einfrieren kann.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is blasted with a blizzard. It may freeze the foe solid.</en>
+			<de type="str">Ein Schneesturm, der den Gegner einfrieren kann, wütet.* (Attacken-Beschreibung)Eine gnadenlose Eis- und Schnee-Attacke, die alle Gegner trifft und sie evtl. einfrieren kann.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A howling blizzard is summoned to strike the foe. It may also freeze the target solid.</en>
+			<de type="str">Ein Schneesturm wütet, der den Gegner einfrieren kann.* (Attacken-Beschreibung)Eine gnadenlose Eis- und Schnee-Attacke, die alle Gegner trifft und sie eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A howling blizzard is summoned to strike the foe. It may also freeze the target solid.</en>
+			<de type="str">Ein Schneesturm wütet, der den Gegner einfrieren kann.* (Attacken-Beschreibung)Eine gnadenlose Eis- und Schnee-Attacke, die alle Gegner trifft und sie eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A howling blizzard is summoned to strike the foe. It may also freeze the target solid.</en>
+			<de type="str">Ein Schneesturm wütet, der den Gegner einfrieren kann.* (Attacken-Beschreibung)Eine gnadenlose Eis- und Schnee-Attacke, die alle Gegner trifft und sie eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A howling blizzard is summoned to strike the foe. It may also freeze the target solid.</en>
+			<de type="str">Ein Schneesturm wütet, der den Gegner einfrieren kann.* (Attacken-Beschreibung)Eine gnadenlose Eis- und Schnee-Attacke, die alle Gegner trifft und sie eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A howling blizzard is summoned to strike the foe. It may also freeze the target solid.</en>
+			<de type="str">Ein Schneesturm wütet, der den Gegner einfrieren kann.* (Attacken-Beschreibung)Eine gnadenlose Eis- und Schnee-Attacke, die alle Gegner trifft und sie eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A howling blizzard is summoned to strike the opposing team. It may also freeze them solid.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis-und-Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis-und-Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A howling blizzard is summoned to strike opposing Pokémon. This may also leave the opposing Pokémon frozen.</en>
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis- und Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis-und-Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ein Schneesturm wütet, der das Ziel einfrieren kann.* (Attacken-Beschreibung)Eine ungnädige Eis-und-Schnee-Attacke, die Pokémon in der Nähe des Anwenders trifft und eventuell einfrieren kann.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">freeze</condition>
+				<probability type="int">10</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

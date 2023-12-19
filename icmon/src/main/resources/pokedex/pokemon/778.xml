@@ -1,0 +1,637 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Mimikyu</en>
+		<jp>ミミッキュ Mimikkyu</jp>
+		<fr>Mimiqui</fr>
+		<es>Mimikyu</es>
+		<de>Mimigma</de>
+		<it>Mimikyu</it>
+	</names>
+	<national_id>778</national_id>
+	<alola_id>242</alola_id>
+	<types>
+		<item>Ghost</item>
+		<item>Fairy</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Disguise</name>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Amorphous</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>0'08&quot;</height_us>
+	<height_eu>0.2 m</height_eu>
+	<weight_us>1.5 lbs.</weight_us>
+	<weight_eu>0.7 kg</weight_eu>
+	<base_exp_yield>167</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>2</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>55</hp>
+		<atk>90</atk>
+		<def>80</def>
+		<sp_atk>50</sp_atk>
+		<sp_def>105</sp_def>
+		<speed>96</speed>
+	</base_stats>
+	<categories>
+		<en>Disguise Pokémon</en>
+		<de>Kostümspuk</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variation_names>
+		<en>Disguised Form</en>
+		<de>Verkleidete Form</de>
+	</variation_names>
+	<variations>
+		<item>
+			<condition>when receiving damage</condition>
+			<names>
+				<en>Busted Form</en>
+				<de>Entlarvte Form</de>
+			</names>
+			<types>
+				<item>Ghost</item>
+				<item>Fairy</item>
+			</types>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Sun>
+			<en>Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock.</en>
+			<de>Niemand weiß, wie es wirklich aussieht. Ein Forscher, der unter seinen Lumpen blickte, soll sich buchstäblich zu Tode erschreckt haben.</de>
+		</Sun>
+		<Moon>
+			<en>A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.</en>
+			<de>Es versteckt seine schreckliche Gestalt unter einem Lumpen, um sich Menschen und anderen Pokémon zu nähern. Oft fühlt es sich einsam.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Although it’s a quiet, lonely Pokémon, if you try to look at what’s under its rag, it will become agitated and resist violently.</en>
+			<de>Verkleidete Form: Eigentlich ist es friedlich und sehnt sich nur nach Gesellschaft, doch versucht man, unter seinen Lumpen zu linsen, wehrt es sich heftig.
+Entlarvte Form: Vor dem Spiegel versucht es verzweifelt, den geknickten Hals seines Kostüms aufzurichten. Da es nicht klappen will, weint es bittere Tränen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>A gust of wind revealed what hides under this Pokémon’s rag to a passing Trainer, who went home and died painfully that very night.</en>
+			<de>Verkleidete Form: Ein Trainer, der durch einen Windstoß Mimigmas wahre Gestalt unter seinem Lumpen erblickte, starb am selben Abend einen qualvollen Tod.
+Entlarvte Form: Es wird traurig, wenn seine wahre Gestalt zum Vorschein zu kommen droht. Wer sein Kostüm beschädigt, zieht seine Rachsucht auf sich.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>136</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Splash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Baby-Doll Eyes</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Destiny Bond</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grudge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Astonish</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Splash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Baby-Doll Eyes</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Destiny Bond</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grudge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

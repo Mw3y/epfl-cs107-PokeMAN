@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">378</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Essorage</fr>
+		<de type="str">Auswringen</de>
+		<gr type="str">Στυπτηρία</gr>
+		<it type="str">Strizzata</it>
+		<en type="str">Wring Out</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user powerfully wrings the foe. The more HP the foe has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst seinen Gegner aus. Je höher die KP des Gegners, desto kraftvoller d. Att.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user powerfully wrings the foe. The more HP the foe has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst seinen Gegner aus. Je höher die KP des Gegners, desto kraftvoller d. Att.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user powerfully wrings the foe. The more HP the foe has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst seinen Gegner aus. Je höher die KP des Gegners, desto kraftvoller d. Att.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user powerfully wrings the foe. The more HP the foe has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst seinen Gegner aus. Je höher die KP des Gegners, desto kraftvoller d. Att.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user powerfully wrings the foe. The more HP the foe has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst seinen Gegner aus. Je höher die KP des Gegners, desto kraftvoller d. Att.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater this attack’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles sind, desto höher fällt die Stärke der Attacke aus.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles sind, desto höher fällt die Stärke der Attacke aus.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles sind, desto höher fällt die Stärke der Attacke aus.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user powerfully wrings the target. The more HP the target has, the greater the move’s power.</en>
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles sind, desto höher fällt die Stärke der Attacke aus.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender presst sein Ziel aus. Je höher die KP des Zieles, desto kraftvoller die Attacke.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">387</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">140</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Dernier Recours</fr>
+		<de type="str">Zuflucht</de>
+		<gr type="str">Τελικό Καταφύγιο</gr>
+		<it type="str">Ultimascelta</it>
+		<en type="str">Last Resort</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur ausgeführt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur ausgeführt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur ausgeführt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur ausgeführt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur ausgeführt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt wurden.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This move can be used only after the user has used all the other moves it knows in the battle.</en>
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Diese Attacke kann nur eingesetzt werden, nachdem alle verfügbaren Attacken ausgeführt worden sind.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">307</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">150</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Rafale Feu</fr>
+		<de type="str">Lohekanonade</de>
+		<gr type="str">Πυρκαγιά</gr>
+		<it type="str">Incendio</it>
+		<en type="str">Blast Burn</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Powerful, but leaves the user immobile the next turn.</en>
+			<de type="str">Starker Angriff. Angreifer muss eine Runde aussetzen.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Powerful, but leaves the user immobile the next turn.</en>
+			<de type="str">Starker Angriff. Angreifer muss eine Runde aussetzen.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Powerful, but leaves the user immobile the next turn.</en>
+			<de type="str">Starker Angriff. Angreifer muss eine Runde aussetzen.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is hit with a huge explosion. The user can’t move on the next turn.</en>
+			<de type="str">Gegner wird von starker Explosion getroffen. Angreifer setzt 1 Runde aus.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is hit with a huge explosion. The user can’t move on the next turn.</en>
+			<de type="str">Gegner wird von starker Explosion getroffen. Angreifer setzt 1 Runde aus.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Gegner wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Gegner wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Gegner wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Gegner wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Gegner wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user must rest on the next turn, however.</en>
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Das Ziel wird von einer starken Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Das Ziel wird von einer starken Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Das Ziel wird von einer starken Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is razed by a fiery explosion. The user can’t move on the next turn.</en>
+			<de type="str">Das Ziel wird von einer starken Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird von starker Explosion getroffen. Angreifer setzt eine Runde aus.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

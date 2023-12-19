@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">187</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Cognobidon</fr>
+		<de type="str">Bauchtrommel</de>
+		<gr type="str">Στομαχόκρουση</gr>
+		<it type="str">Panciamburo</it>
+		<en type="str">Belly Drum</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">12</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Reduces own HP to maximize ATTACK.</en>
+			<de type="str">Senkt KP + maximiert ANGR-Wert.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Reduces own HP to maximize ATTACK.</en>
+			<de type="str">Senkt KP + maximiert ANGR-Wert.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Reduces own HP to maximize ATTACK.</en>
+			<de type="str">Senkt KP + maximiert ANGR-Wert.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Maximizes ATTACK while sacrificing HP.</en>
+			<de type="str">Erhöht ANGR.-Wert, opfert jedoch KP.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Maximizes ATTACK while sacrificing HP.</en>
+			<de type="str">Erhöht ANGR.-Wert, opfert jedoch KP.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Maximizes ATTACK while sacrificing HP.</en>
+			<de type="str">Erhöht ANGR.-Wert, opfert jedoch KP.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user maximizes its ATTACK stat at the cost of half its full HP.</en>
+			<de type="str">Maximiert den ANGR.-Wert, opfert jedoch die Hälfte seiner KP.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user maximizes its ATTACK stat at the cost of half its full HP.</en>
+			<de type="str">Maximiert den ANGR.-Wert, opfert jedoch die Hälfte seiner KP.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Maximiert den Angriffs-Wert, opfert jedoch die Hälfte seiner KP.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Maximiert den Angriffs-Wert, opfert jedoch die Hälfte seiner KP.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Maximiert den Angriffs-Wert, opfert jedoch die Hälfte seiner KP.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Maximiert den Angriffs-Wert, opfert jedoch die Hälfte seiner KP.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Maximiert den Angriffs-Wert, opfert jedoch die Hälfte seiner KP.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user maximizes its Attack stat in exchange for HP equal to half its max HP.</en>
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender maximiert den Angriffs-Wert auf Kosten der Hälfte seiner maximalen KP.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

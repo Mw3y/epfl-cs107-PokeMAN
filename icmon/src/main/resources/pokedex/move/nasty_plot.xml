@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">417</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Machination</fr>
+		<de type="str">Ränkeschmied</de>
+		<gr type="str">Μηχανορραφία</gr>
+		<it type="str">Congiura</it>
+		<en type="str">Nasty Plot</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">sp_atk</stat>
+			<change_by type="int">2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spez.-Angriff enorm.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spez.-Angriff enorm.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spez.-Angriff enorm.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spez.-Angriff enorm.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spez.-Angriff enorm.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. It sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user stimulates its brain by thinking bad thoughts. This sharply raises the user’s Sp. Atk stat.</en>
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Erhöht Spezial-Angriff stark.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender stimuliert sein Gehirn und hat finstere Gedanken. Steigert Spezial-Angriff stark.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

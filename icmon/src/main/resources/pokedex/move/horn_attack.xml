@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">30</index_number>
+	<pp type="int">25</pp>
+	<max_pp type="int">40</max_pp>
+	<power type="int">65</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Hornangreb</dk>
+		<fr type="str">Koud'Korne</fr>
+		<de type="str">Hornattacke</de>
+		<gr type="str">Κερασφόρα επίθεση</gr>
+		<it type="str">Incornata</it>
+		<pl type="str">Atak Rogu</pl>
+		<en type="str">Horn Attack</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack using a horn to jab.</en>
+			<de type="str">Stoß mit dem Horn.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack using a horn to jab.</en>
+			<de type="str">Stoß mit dem Horn.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack using a horn to jab.</en>
+			<de type="str">Stoß mit dem Horn.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Jabs the foe with sharp horns.</en>
+			<de type="str">Spießt Gegner mit spitzen Hörnern auf.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Jabs the foe with sharp horns.</en>
+			<de type="str">Spießt Gegner mit spitzen Hörnern auf.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Jabs the foe with sharp horns.</en>
+			<de type="str">Spießt Gegner mit spitzen Hörnern auf.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt den Gegner mit dem spitzen Horn auf.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt den Gegner mit dem spitzen Horn auf.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt den Gegner mit dem spitzen Horn auf.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt den Gegner mit dem spitzen Horn auf.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt den Gegner mit spitzem Horn auf.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt den Gegner mit spitzem Horn auf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt den Gegner mit spitzem Horn auf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzem [sic!] Horn auf.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzem [sic!] Horn auf.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is jabbed with a sharply pointed horn to inflict damage.</en>
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Spießt das Ziel mit einem spitzen Horn auf.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

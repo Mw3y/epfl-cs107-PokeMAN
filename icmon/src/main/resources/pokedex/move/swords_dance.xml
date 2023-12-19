@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">14</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Sværddans</dk>
+		<fr type="str">Danse-Lames</fr>
+		<de type="str">Schwerttanz</de>
+		<gr type="str">Χορός Σπαθιών</gr>
+		<it type="str">Danzaspada</it>
+		<pl type="str">Taniec Szabli</pl>
+		<tr type="str">Kılıç Dansı</tr>
+		<en type="str">Swords Dance</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A dance that increases ATTACK.</en>
+			<de type="str">Tanz erhöht ANGR-Wert.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A dance that increases ATTACK.</en>
+			<de type="str">Tanz erhöht ANGR-Wert.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A dance that increases ATTACK.</en>
+			<de type="str">Tanz, erhöht ANGR-Wert.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A fighting dance that sharply raises ATTACK.</en>
+			<de type="str">Erhöht den Angriffs-Wert drastisch.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A fighting dance that sharply raises ATTACK.</en>
+			<de type="str">Erhöht den Angriffs-Wert drastisch.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A fighting dance that sharply raises ATTACK.</en>
+			<de type="str">Erhöht den Angriffs-Wert drastisch.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A frenetic dance of fighting. It sharply raises the ATTACK stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den ANGRIFFs-Wert drastisch erhöht.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A frenetic dance of fighting. It sharply raises the ATTACK stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den ANGRIFFs-Wert drastisch erhöht.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den Angriffs-Wert drastisch erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den Angriffs-Wert drastisch erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den Angriffs-Wert drastisch erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den Angriffs-Wert drastisch erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den Angriffs-Wert drastisch erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. It sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist wecken soll. Der Angriffs-Wert des Anwenders wird stark erhöht.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist wecken soll. Der Angriffs-Wert des Anwenders wird stark erhöht.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist wecken soll. Der Angriffs-Wert des Anwenders wird stark erhöht.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A frenetic dance to uplift the fighting spirit. This sharply raises the user’s Attack stat.</en>
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist wecken soll. Der Angriffs-Wert des Anwenders wird stark erhöht.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ein wilder Kampftanz, der den eigenen Angriffs-Wert stark erhöht.* (Attacken-Beschreibung)Ein wilder Tanz, der den Kampfgeist erhöhen soll. Der Angriffs-Wert des Anwenders steigt deutlich.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Floaty Fall</en>
+		<fr type="str">Pika-Piqué</fr>
+		<de type="str">Schwebesturz</de>
+		<it type="str">Piombaflap</it>
+		<es type="str">Pikapicado</es>
+	</names>
+	<index_number type="int">731</index_number>
+	<target type="str">all_adjacent</target>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Flying</type>
+	<category type="str">physical</category>
+	<power type="int">90</power>
+	<accuracy type="int">95</accuracy>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<pokedex_entries type="dict">
+		<key name="Let's Go Pikachu" type="dict">
+			<en type="str">The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch.</en>
+			<de type="str">Pikachu schwebt nach oben und stürzt dann unvermittelt auf das Ziel herab. Das Ziel schreckt eventuell zurück.</de>
+		</key>
+		<key name="Let's Go Eevee" type="dict">
+			<en type="str">The user floats in the air, and then dives at a steep angle to attack the target. This may also make the target flinch.</en>
+			<de type="str">Pikachu schwebt nach oben und stürzt dann unvermittelt auf das Ziel herab. Das Ziel schreckt eventuell zurück.</de>
+		</key>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">341</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">55</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Tir de Boue</fr>
+		<de type="str">Lehmschuss</de>
+		<gr type="str">Λασποβόλο</gr>
+		<it type="str">Colpodifango</it>
+		<pl type="str">Błotny Strzał</pl>
+		<tr type="str">Çamur Atışı</tr>
+		<en type="str">Mud Shot</en>
+	</names>
+	<type type="str">Ground</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Hurls mud at the foe and reduces SPEED.</en>
+			<de type="str">Bewirft den Gegner mit Lehm und senkt INIT.-Wert.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Hurls mud at the foe and reduces SPEED.</en>
+			<de type="str">Bewirft den Gegner mit Lehm und senkt INIT.-Wert.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Hurls mud at the foe and reduces SPEED.</en>
+			<de type="str">Bewirft den Gegner mit Lehm und senkt INIT.-Wert.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user attacks by hurling mud. It also reduces the foe’s SPEED.</en>
+			<de type="str">Angriff mit Lehm, der den INIT.-Wert des Gegners senkt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user attacks by hurling mud. It also reduces the foe’s SPEED.</en>
+			<de type="str">Angriff mit Lehm, der den INIT.-Wert des Gegners senkt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Gegners senkt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Gegners senkt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Gegners senkt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Gegners senkt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the foe. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Gegners senkt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. It also reduces the target’s Speed.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by hurling a blob of mud at the target. This also lowers the target’s Speed stat.</en>
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit Lehm, der den Initiative-Wert des Zieles senkt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

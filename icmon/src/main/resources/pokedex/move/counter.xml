@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">68</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">-5</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Protiútok</cz>
+		<dk type="str">Parade</dk>
+		<fr type="str">Riposte</fr>
+		<de type="str">Konter</de>
+		<gr type="str">Αντίκρουση</gr>
+		<it type="str">Contrattacco</it>
+		<pl type="str">Liczydło</pl>
+		<en type="str">Counter</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Returns a physical blow double.</en>
+			<de type="str">Erwidert Körperattacken doppelt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Returns a physical blow double.</en>
+			<de type="str">Erwidert Körperattacken doppelt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Returns a physical blow double.</en>
+			<de type="str">Erwidert Körperattacken doppelt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Retaliates any physical hit with double the power.</en>
+			<de type="str">Kontert physische Treffer mit doppelter Kraft.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Retaliates any physical hit with double the power.</en>
+			<de type="str">Kontert physische Treffer mit doppelter Kraft.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Retaliates any physical hit with double the power.</en>
+			<de type="str">Kontert physische Treffer mit doppelter Kraft.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A retaliation move that counters any physical hit with double the damage.</en>
+			<de type="str">Kontert physischen Treffer mit doppelter Kraft.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A retaliation move that counters any physical hit with double the damage.</en>
+			<de type="str">Kontert physischen Treffer mit doppelter Kraft.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer mit doppelter Kraft, fügt doppelten Schaden zu.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer mit doppelter Kraft, fügt doppelten Schaden zu.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer mit doppelter Kraft, fügt doppelten Schaden zu.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer mit doppelter Kraft, fügt doppelten Schaden zu.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer mit doppelter Kraft, fügt doppelten Schaden zu.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer und fügt dem Gegner das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer und fügt dem Gegner das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer und fügt dem Gegner das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physischen Treffer und fügt dem Gegner das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A retaliation move that counters any physical attack, inflicting double the damage taken.</en>
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Kontert physische Treffer und fügt dem Ziel das Doppelte des Schadens zu, den der Anwender erlitten hat.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

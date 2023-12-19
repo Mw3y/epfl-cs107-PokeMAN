@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">276</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">120</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Surpuissance</fr>
+		<de type="str">Kraftkoloss</de>
+		<gr type="str">Υπερδύναμη</gr>
+		<it type="str">Troppoforte</it>
+		<pl type="str">Super Moc</pl>
+		<en type="str">Superpower</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">-1</change_by>
+			<affects_user type="bool">true</affects_user>
+		</item>
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-1</change_by>
+			<affects_user type="bool">true</affects_user>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Boosts strength sharply, but lowers abilities.</en>
+			<de type="str">Steigert Stärke deutlich, senkt aber Statuswerte.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Boosts strength sharply, but lowers abilities.</en>
+			<de type="str">Steigert Stärke deutlich, senkt aber Statuswerte.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Boosts strength sharply, but lowers abilities.</en>
+			<de type="str">Steigert Stärke deutlich, senkt aber Statuswerte.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A powerful attack, but it also lowers the user’s ATTACK and DEFENSE stats.</en>
+			<de type="str">Starker Angriff, der sowohl ANGR. als auch VERT. des Anwenders senkt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A powerful attack, but it also lowers the user’s ATTACK and DEFENSE stats.</en>
+			<de type="str">Starker Angriff, der sowohl ANGR. als auch VERT. des Anwenders senkt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starker Angriff, der sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starker Angriff, der sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starker Angriff, der sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starker Angriff, der sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks the foe with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starker Angriff, der sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks the target with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starke Attacke, die sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks the target with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starke Attacke, die sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks the target with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starke Attacke, die sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks the target with great power. However, it also lowers the user’s Attack and Defense.</en>
+			<de type="str">Starke Attacke, die sowohl Angriff als auch Verteidigung des Anwenders senkt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the target with great power. However, this also lowers the user’s Attack and Defense stats.</en>
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Starke Attacke, die jedoch auch den Angriff und die Verteidigung des Anwenders senkt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">113</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all_users</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Lysskærm</dk>
+		<fr type="str">Mur Lumière</fr>
+		<de type="str">Lichtschild</de>
+		<gr type="str">Τοίχος Φωτός</gr>
+		<it type="str">Schermoluce</it>
+		<pl type="str">Świetlisty Ekran</pl>
+		<en type="str">Light Screen</en>
+	</names>
+	<type type="str">Psychic</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Ups SPCL.DEF with a wall of light.</en>
+			<de type="str">Hebt SPEZ-VER. durch Lichtwand.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Ups SPCL.DEF with a wall of light.</en>
+			<de type="str">Hebt SPEZ-VER. durch Lichtwand.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Ups SPCL.DEF with a wall of light.</en>
+			<de type="str">Hebt SPEZ. VER durch Lichtwand.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Creates a wall of light that lowers SP. ATK damage.</en>
+			<de type="str">Erzeugt Lichtwand u.senkt Schaden durch SPEZ.-ANGR. Schaden.* (Attacken-Beschreibung)Wand aus Licht, die Senkung des SP.ANGR. verringert.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Creates a wall of light that lowers SP. ATK damage.</en>
+			<de type="str">Erzeugt Lichtwand u.senkt Schaden durch SPEZ.-ANGR. Schaden.* (Attacken-Beschreibung)Wand aus Licht, die Senkung des SP.ANGR. verringert.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Creates a wall of light that lowers SP. ATK damage.</en>
+			<de type="str">Erzeugt Lichtwand u.senkt Schaden durch SPEZ.-ANGR. Schaden.* (Attacken-Beschreibung)Wand aus Licht, die Schaden des SP.ANGR. verringert.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A wall of light cuts damage from SP. ATK attacks for five turns.</en>
+			<de type="str">Erzeugt Lichtwand und senkt Schaden durch SP. ANG. für 5 Runden.* (Attacken-Beschreibung)Eine Wand aus Licht, welche den Schaden durch SP. ANG. verringert, wird für 5 Runden errichtet.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A wall of light cuts damage from SP. ATK attacks for five turns.</en>
+			<de type="str">Erzeugt Lichtwand und senkt Schaden durch SP. ANG. für 5 Runden.* (Attacken-Beschreibung)Eine Wand aus Licht, welche den Schaden durch SP. ANG. verringert, wird für 5 Runden errichtet.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt eine Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt eine Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt eine Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A wondrous wall of light is put up to suppress damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt eine Lichtwand und senkt Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den Schaden durch Attacken des Spezial-Angriffs.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.* (Attacken-Beschreibung)Eine Wand aus Licht wird für 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.* (Attacken-Beschreibung)Eine Wand aus Licht wird für 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.* (Attacken-Beschreibung)Eine Wand aus Licht wird für 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A wondrous wall of light is put up to reduce damage from special attacks for five turns.</en>
+			<de type="str">Eine mysteriöse Wand, die fünf Runden den Schaden von physischen gegnerischen Treffern reduziert.* (Attacken-Beschreibung)Eine Wand aus Licht wird für 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Erzeugt eine Lichtwand und senkt den Schaden durch Spezial-Angriffe für fünf Runden.* (Attacken-Beschreibung)Eine Wand aus Licht wird über 5 Runden errichtet. Sie senkt den durch Spezial-Angriffe herbeigeführten Schaden.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

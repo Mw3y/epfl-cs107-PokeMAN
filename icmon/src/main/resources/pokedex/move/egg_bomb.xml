@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">121</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">100</power>
+	<accuracy type="int">75</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Bomb'œuf</fr>
+		<de type="str">Eierbombe</de>
+		<gr type="str">Ωοβόμβα</gr>
+		<it type="str">Uovobomba</it>
+		<pl type="str">Jajo Bomba</pl>
+		<en type="str">Egg Bomb</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Eggs are hurled at the foe.</en>
+			<de type="str">Der Gegner erlebt einen Eierhagel.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Eggs are hurled at the foe.</en>
+			<de type="str">Der Gegner erlebt einen Eierhagel.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Eggs are hurled at the foe.</en>
+			<de type="str">Der Gegner erlebt einen Eierhagel.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">An egg is forcibly hurled at the foe.</en>
+			<de type="str">Ein Ei wird auf den Gegner abgefeuert.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">An egg is forcibly hurled at the foe.</en>
+			<de type="str">Ein Ei wird auf den Gegner abgefeuert.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">An egg is forcibly hurled at the foe.</en>
+			<de type="str">Ein Ei wird auf den Gegner abgefeuert.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A large egg is hurled with great force at the foe to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf den Gegner abgefeuert, um ihm zu schaden.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A large egg is hurled with great force at the foe to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf den Gegner abgefeuert, um ihm zu schaden.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A large egg is hurled with maximum force at the foe to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf den Gegner abgefeuert, um ihm zu schaden.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A large egg is hurled with maximum force at the foe to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf den Gegner abgefeuert, um ihm zu schaden.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A large egg is hurled with maximum force at the foe to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf den Gegner abgefeuert, um ihm zu schaden.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A large egg is hurled with maximum force at the foe to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf den Gegner abgefeuert, um ihm zu schaden.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A large egg is hurled with maximum force at the foe to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf den Gegner abgefeuert, um ihm zu schaden.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A large egg is hurled at the target with maximum force to inflict damage.</en>
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ein großes Ei wird auf das Ziel abgefeuert, um ihm zu schaden.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

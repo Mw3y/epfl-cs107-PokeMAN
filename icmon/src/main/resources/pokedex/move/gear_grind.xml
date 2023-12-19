@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">544</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">50</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Lancécrou</fr>
+		<de type="str">Klikkdiskus</de>
+		<it type="str">Ingracolpo</it>
+		<en type="str">Gear Grind</en>
+	</names>
+	<type type="str">Steel</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user attacks by throwing two steel gears at its target.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks by throwing two steel gears at its target.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks by throwing two steel gears at its target.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks by throwing two steel gears at its target.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by throwing steel gears at its target twice.</en>
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender greift an, indem er stählerne Zahnräder auf das Ziel schleudert. Angriff erfolgt zweimal hintereinander.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

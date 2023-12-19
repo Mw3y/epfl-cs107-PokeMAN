@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Photon Geyser</en>
+		<fr type="str">Photo-Geyser</fr>
+		<de type="str">Photonen-Geysir</de>
+		<it type="str">Geyser Fotonico</it>
+		<es type="str">Géiser Fotónico</es>
+	</names>
+	<index_number type="int">722</index_number>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Psychic</type>
+	<category type="str">special</category>
+	<power type="int">100</power>
+	<accuracy type="int">100</accuracy>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<target type="str">target_adjacent_single</target>
+	<pokedex_entries type="dict">
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks a target with a pillar of light. This move inflicts Attack or Sp. Atk damage—whichever stat is higher for the user.</en>
+			<de type="str">Ein Angriff mit einer Lichtsäule. Ist der Angriff höher als der Spezial-Angriff, wird die Höhe des Schadens durch den Angriff bestimmt und umgekehrt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks a target with a pillar of light. This move inflicts Attack or Sp. Atk damage—whichever stat is higher for the user.</en>
+			<de type="str">Ein Angriff mit einer Lichtsäule. Ist der Angriff höher als der Spezial-Angriff, wird die Höhe des Schadens durch den Angriff bestimmt und umgekehrt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

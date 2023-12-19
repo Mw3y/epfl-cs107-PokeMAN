@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">130</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">130</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Skalle</dk>
+		<fr type="str">Coud'krâne</fr>
+		<de type="str">Schädelwumme</de>
+		<gr type="str">Κρανιοκόπημα</gr>
+		<it type="str">Capocciata</it>
+		<pl type="str">Cios czaszką (Original series)  Cios głową (Series XY)</pl>
+		<en type="str">Skull Bash</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">1st turn: Prepare 2nd turn: Attack</en>
+			<de type="str">1. Vorbereitung 2. Angriff</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">1st turn: Prepare 2nd turn: Attack</en>
+			<de type="str">1. Vorbereitung 2. Angriff</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">1st turn: Prepare 2nd turn: Attack</en>
+			<de type="str">1. Vorbereitung 2. Angriff</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Tucks in the head, then attacks on the next turn.</en>
+			<de type="str">Zieht Kopf ein und greift in der nächsten Runde an.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Tucks in the head, then attacks on the next turn.</en>
+			<de type="str">Zieht Kopf ein und greift in der nächsten Runde an.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Tucks in the head, then attacks on the next turn.</en>
+			<de type="str">Zieht Kopf ein und greift in der nächsten Runde an.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user raises its DEFENSE in the 1st turn, then attacks in the 2nd turn.</en>
+			<de type="str">In Runde 1 wird die VERT. erhöht und in Runde 2 angegriffen.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user raises its DEFENSE in the 1st turn, then attacks in the 2nd turn.</en>
+			<de type="str">In Runde 1 wird die VERT. erhöht und in Runde 2 angegriffen.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.</en>
+			<de type="str">In Runde 1 wird die Verteidigung erhöht und in Runde 2 angegriffen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.</en>
+			<de type="str">In Runde 1 wird die Verteidigung erhöht und in Runde 2 angegriffen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.</en>
+			<de type="str">In Runde 1 wird die Verteidigung erhöht und in Runde 2 angegriffen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.</en>
+			<de type="str">In Runde 1 wird die Verteidigung erhöht und in Runde 2 angegriffen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the foe on the next turn.</en>
+			<de type="str">In Runde 1 wird die Verteidigung erhöht und in Runde 2 angegriffen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user tucks in its head to raise its Defense in the first turn, then rams the target on the next turn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user tucks in its head to raise its Defense stat on the first turn, then rams the target on the next turn.</en>
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender erhöht in Runde 1 seine Verteidigung und greift in Runde 2 an.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

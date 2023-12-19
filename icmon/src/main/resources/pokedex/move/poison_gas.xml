@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">139</index_number>
+	<pp type="int">40</pp>
+	<max_pp type="int">64</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Giftgas</dk>
+		<fr type="str">Gaz Toxik</fr>
+		<de type="str">Giftwolke</de>
+		<gr type="str">Δηλητηριώδες Αέριο</gr>
+		<it type="str">Velenogas</it>
+		<pl type="str">Trujący Gaz</pl>
+		<en type="str">Poison Gas</en>
+	</names>
+	<type type="str">Poison</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A move that may poison the foe.</en>
+			<de type="str">Gegner wird evtl. vergiftet.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A move that may poison the foe.</en>
+			<de type="str">Gegner wird evtl. vergiftet.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A move that may poison the foe.</en>
+			<de type="str">Gegner wird evtl. vergiftet.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Envelops the foe in a toxic gas that may poison.</en>
+			<de type="str">Hüllt Gegner in giftiges Gas ein, kann vergiften.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Envelops the foe in a toxic gas that may poison.</en>
+			<de type="str">Hüllt Gegner in giftiges Gas ein, kann vergiften.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Envelops the foe in a toxic gas that may poison.</en>
+			<de type="str">Hüllt Gegner in giftiges Gas ein, kann vergiften.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is sprayed with a cloud of toxic gas that may poison the foe.</en>
+			<de type="str">Hüllt Gegner in giftiges Gas ein, das ihn evtl. vergiftet.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is sprayed with a cloud of toxic gas that may poison the foe.</en>
+			<de type="str">Hüllt Gegner in giftiges Gas ein, das ihn evtl. vergiftet.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the foe’s face. It may poison the target.</en>
+			<de type="str">Hüllt Gegner in Gas ein, das ihn eventuell vergiftet.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the foe’s face. It may poison the target.</en>
+			<de type="str">Hüllt Gegner in Gas ein, das ihn eventuell vergiftet.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the foe’s face. It may poison the target.</en>
+			<de type="str">Hüllt Gegner in Gas ein, das ihn eventuell vergiftet.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the foe’s face. It may poison the target.</en>
+			<de type="str">Hüllt Gegner in Gas ein, das ihn vergiftet.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the foe’s face. It may poison the target.</en>
+			<de type="str">Hüllt Gegner in Gas ein, das ihn vergiftet.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. It may poison those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit.</en>
+			<de type="str">Hüllt Ziele in der Umgebung in Gas ein, das sie eventuell vergiftet.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit.</en>
+			<de type="str">Hüllt Ziele in der Umgebung in Gas ein, das sie eventuell vergiftet.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon. This may also poison those hit.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A cloud of poison gas is sprayed in the face of opposing Pokémon, poisoning those hit.</en>
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Hüllt Gegner in der Umgebung in Gas ein, das sie vergiftet.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">poison</condition>
+				<probability type="int">100</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>
