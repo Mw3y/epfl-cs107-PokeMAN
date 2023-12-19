@@ -13,7 +13,7 @@ import ch.epfl.cs107.play.math.Orientation;
 public class Garry extends Trainer  {
 
     /**
-     * Default MovableAreaEntity constructor
+     * Garry constructor
      *
      * @param area        (Area): Owner area. Not null
      * @param orientation (Orientation): Initial orientation of the entity. Not null

@@ -14,12 +14,24 @@ import java.util.List;
 
 public class Door extends AreaEntity {
 
+    /// Coordinates of the doors
     private final List<DiscreteCoordinates> cellPositions;
-
+    /// Title of the destination area
     private final String destinationAreaTitle;
+    /// Spawn position coordinates in the destination area
     private final DiscreteCoordinates destinationAreaSpawnPosition;
 
-    public Door(String destinationAreaTitle, DiscreteCoordinates destinationAreaSpawnPosition, Area ownerArea, DiscreteCoordinates mainCellPosition, DiscreteCoordinates... cellPositions) {
+    /**
+     * Door constructor
+     *
+     * @param destinationAreaTitle         (String) : title of the destination area. Not null.
+     * @param destinationAreaSpawnPosition (DiscreteCoordinates) : spawn position coordinates in the destination area. Not null.
+     * @param ownerArea                    (Area) : area of the door. Nor null.
+     * @param mainCellPosition             (DiscreteCoordinates) : coordinates of the main cell linked to the door. Not null.
+     * @param cellPositions                (DiscreteCoordinates) : coordinates of the extra cells needed
+     */
+    public Door(String destinationAreaTitle, DiscreteCoordinates destinationAreaSpawnPosition, Area ownerArea,
+                DiscreteCoordinates mainCellPosition, DiscreteCoordinates... cellPositions) {
         super(ownerArea, Orientation.UP, mainCellPosition);
 
         this.cellPositions = new ArrayList<>(Arrays.asList(cellPositions));
@@ -34,10 +46,20 @@ public class Door extends AreaEntity {
         return cellPositions;
     }
 
+    /**
+     * Getter for DestinationAreaTitle
+     *
+     * @return (String) the title of the destination area
+     */
     public final String getDestinationAreaTitle() {
         return destinationAreaTitle;
     }
 
+    /**
+     * Getter for DestinationAreaSpawnPosition
+     *
+     * @return (DiscreteCoordinates) the spawn position in the destination area
+     */
     public final DiscreteCoordinates getDestinationAreaSpawnPosition() {
         return destinationAreaSpawnPosition;
     }
@@ -64,5 +86,6 @@ public class Door extends AreaEntity {
 
 
     @Override
-    public void draw(Canvas canvas) {}
+    public void draw(Canvas canvas) {
+    }
 }

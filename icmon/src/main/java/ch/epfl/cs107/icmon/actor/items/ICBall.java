@@ -12,10 +12,10 @@ import java.util.List;
 public class ICBall extends ICMonItem {
 
     /**
-     * Creates an ICMonBall
-     * @param area
-     * @param position
-     * @param spriteName
+     * ICBall constructor
+     * @param area (Area) : owner area. Not null
+     * @param position (DiscreteCoordinate): Initial position of the ball in the Area. Not null
+     * @param spriteName (String) : sprite of the ball. Not null
      */
     public ICBall(Area area, DiscreteCoordinates position, String spriteName) {
         super(area, Orientation.DOWN, position, spriteName);
