@@ -12,6 +12,13 @@ import ch.epfl.cs107.play.window.Canvas;
 public abstract class ICMonItem extends CollectableAreaEntity {
     private final RPGSprite sprite;
 
+    /**
+     * ICMonItem constructor
+     * @param area (Area) : owner area. Not null
+     * @param orientation (Orientation) : initial orientation. Not null
+     * @param position (DiscreteCoordinates) : position. Not null
+     * @param spriteName (String) : sprite
+     */
     public ICMonItem(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
         super(area, orientation, position);
         sprite = new RPGSprite(spriteName, 1f, 1f, this);
