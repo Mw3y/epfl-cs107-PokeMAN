@@ -10,11 +10,16 @@ import java.util.Arrays;
 
 public class ICMonBehavior extends AreaBehavior {
 
+    /**
+     * The behavior of an ICMon area.
+     * @param window (Window): graphic context, not null
+     * @param name (String): name of the behavior image, not null
+     */
     public ICMonBehavior(Window window, String name) {
         super(window, name);
         int height = getHeight();
         int width = getWidth();
-        // Create the cell map
+        // Create the cell matrix
         for (int y = 0; y < height; y++) {
             for (int x = 0; x < width; x++) {
                 ICMonCellType color = ICMonCellType.toType(getRGB(height - 1 - y, x));
@@ -83,21 +88,29 @@ public class ICMonBehavior extends AreaBehavior {
         private final ICMonCellType type;
 
         /**
-         * Default Tuto2Cell Constructor
+         * A cell of the ICMon area game.
          *
          * @param x    (int): x coordinate of the cell
          * @param y    (int): y coordinate of the cell
-         * @param type (EnigmeCellType), not null
+         * @param type (ICMonCellType), not null
          */
         private ICMonCell(int x, int y, ICMonCellType type) {
             super(x, y);
             this.type = type;
         }
 
+        /**
+         * Gets the type of the cell.
+         * @return the type object of the cell.
+         */
         public ICMonCellType getType() {
             return type;
         }
 
+        /**
+         * Gets the allowed walking mode of the cell.
+         * @return the allowed walking type object of the cell.
+         */
         public AllowedWalkingType getWalkingType() {
             return type.allowedWalkingType;
         }
