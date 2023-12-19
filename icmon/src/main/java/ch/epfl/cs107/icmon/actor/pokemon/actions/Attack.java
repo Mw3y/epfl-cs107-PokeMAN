@@ -5,6 +5,9 @@ import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 
 public class Attack implements ICMonFightAction {
 
+    /**
+     * Default Attack method.
+     */
     public void Attack () {
 
     }
