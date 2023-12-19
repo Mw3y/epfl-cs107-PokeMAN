@@ -3,14 +3,27 @@ package ch.epfl.cs107.icmon.actor.pokemon;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonActor;
 import ch.epfl.cs107.icmon.actor.ICMonFightableActor;
+import ch.epfl.cs107.icmon.data.PokemonDataLoader;
 import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.actor.RPGSprite;
+import ch.epfl.cs107.play.io.ResourcePath;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Canvas;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.*;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -51,6 +64,22 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         this.damages = damages;
         this.sprite = new RPGSprite("pokemon/" + name, 1, 1, this);
         this.actionsList = actionsList;
+
+        try {
+            generateRandomStatistics();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (SAXException e) {
+            throw new RuntimeException(e);
+        } catch (ParserConfigurationException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void generateRandomStatistics() throws IOException, SAXException, ParserConfigurationException {
+        PokemonDataLoader loader = new PokemonDataLoader("pikachu");
+        System.out.println(loader.parseAbilities());
+        loader.parseBaseStats();
     }
 
     @Override
