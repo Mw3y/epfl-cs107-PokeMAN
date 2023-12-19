@@ -3,6 +3,7 @@ package ch.epfl.cs107.icmon.area.cells.behaviors;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.pokemon.Bulbizarre;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
+import ch.epfl.cs107.icmon.data.PokemonDataLoader;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
@@ -27,7 +28,7 @@ public class TallGrass {
      * @param area - The area in which the Pokémon should spawn
      */
     public static void hiJackPlayer(ICMonPlayer player, Area area){
-        Pokemon wildPokemon = new Bulbizarre(area, Orientation.DOWN, new DiscreteCoordinates(0,0));
+        Pokemon wildPokemon = new PokemonDataLoader().loadRandom(area, Orientation.DOWN, new DiscreteCoordinates(0, 0));
         player.interactWith(wildPokemon, true);
     }
 }

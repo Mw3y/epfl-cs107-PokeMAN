@@ -20,5 +20,5 @@ public interface ICMonFightAction {
      * @return whether the action was successful or not.
      */
     // TODO: Pass other pokemon
-    boolean doAction(Pokemon target);
+    boolean doAction(Pokemon target, Pokemon pokemon);
 }

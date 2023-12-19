@@ -18,12 +18,6 @@ public class Latios extends Pokemon {
     public static final int HP_MAX = 10;
 
     public Latios(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, NAME, DAMAGES, HP_MAX, List.of(new Attack(), new RunAway()));
+        super(area, orientation, position, NAME, 381, DAMAGES, 30, HP_MAX, List.of(new Attack(), new RunAway()));
     }
-
-    @Override
-    public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
-        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
-    }
-
 }

@@ -5,21 +5,33 @@ import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 
 public class Attack implements ICMonFightAction {
 
+    private String name;
+    private int power;
+
     /**
      * Default Attack method.
      */
-    public void Attack () {
+    public Attack() {
+        this("Attack", 10);
+    }
 
+    public Attack(String name, int power) {
+        this.name = name;
+        this.power = power;
     }
 
     @Override
     public String name() {
-        return "Attack";
+        return name;
     }
 
     @Override
-    public boolean doAction(Pokemon target) {
-        target.dealDamages(1);
+    public boolean doAction(Pokemon target, Pokemon pokemon) {
+        Pokemon.PokemonProperties atkProps = pokemon.properties();
+        Pokemon.PokemonProperties defProps = target.properties();
+
+        float damages = (float) (2 * (atkProps.attack() / defProps.defense())) / 50 + 2;
+        target.dealDamages(damages);
         return true;
     }
 }

@@ -1,0 +1,3454 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Magmar</fr>
+		<de>Magmar</de>
+		<it>Magmar</it>
+		<en>Magmar</en>
+	</names>
+	<national_id>126</national_id>
+	<types>
+		<item>Fire</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Flame Body</name>
+		</item>
+		<item>
+			<name>Vital Spirit</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>75.0</male>
+		<female>25.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Human-Like</item>
+	</egg_groups>
+	<hatch_time>
+		<item>6630</item>
+		<item>6884</item>
+	</hatch_time>
+	<height_us>4'03&quot;</height_us>
+	<height_eu>1.3 m</height_eu>
+	<weight_us>98.1 lbs.</weight_us>
+	<weight_eu>44.5 kg</weight_eu>
+	<base_exp_yield>173</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>2</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Red</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>65</hp>
+		<atk>95</atk>
+		<def>57</def>
+		<sp_atk>100</sp_atk>
+		<sp_def>85</sp_def>
+		<speed>93</speed>
+	</base_stats>
+	<evolution_from>Magby</evolution_from>
+	<evolutions>
+		<item>
+			<to>Magmortar</to>
+			<trade>true</trade>
+			<hold_item>Magmarizer</hold_item>
+		</item>
+	</evolutions>
+	<alola_id>167</alola_id>
+	<categories>
+		<en>Spitfire Pokémon</en>
+		<de>Brenner</de>
+	</categories>
+	<kanto_id>126</kanto_id>
+	<johto_id>153</johto_id>
+	<hoenn_id/>
+	<sinnoh_id>201</sinnoh_id>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Red>
+			<en>Its body always burns with an orange glow that enables it to hide perfectly among flames.</en>
+			<de>Dieses Pokémon kann sich dank seines orangefarbenen Körpers perfekt im Feuer verstecken.</de>
+		</Red>
+		<Blue>
+			<en>Its body always burns with an orange glow that enables it to hide perfectly among flames.</en>
+			<de>Dieses Pokémon kann sich dank seines orangefarbenen Körpers perfekt im Feuer verstecken.</de>
+		</Blue>
+		<Yellow>
+			<en>Born in an active volcano. Its body is always cloaked in flames, so it looks like a big ball of fire.</en>
+			<de>Dieses Pokémon entstammt einem aktiven Vulkan. Ganz in Flammen gehüllt gleicht es einem Feuerball.</de>
+		</Yellow>
+		<Gold>
+			<en>It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.</en>
+			<de>Es hasst kalte Orte. Um es für sich angenehmer zu gestalten, erwärmt es seine Umgebung mit seinem Atem.</de>
+		</Gold>
+		<Silver>
+			<en>The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun.</en>
+			<de>Die feurige Haut seines Körpers besitzt einen flackernden Glanz, der an die Sonne erinnert.</de>
+		</Silver>
+		<Crystal>
+			<en>It moves more frequently in hot areas. It can heal itself by dipping its wound into lava.</en>
+			<de>Man trifft es häufiger in warmen Gebieten. Es heilt seine Wunden, indem es sie in Lava taucht.</de>
+		</Crystal>
+		<Ruby>
+			<en>In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.</en>
+			<de>Im Kampf stößt Magmar glühend heiße Flammen aus, um seinen Gegner einzuschüchtern. Diese Feuersalven erzeugen Hitzewellen, die das Gras und die Bäume der Umgebung in Brand setzen.</de>
+		</Ruby>
+		<Sapphire>
+			<en>In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.</en>
+			<de>Im Kampf stößt Magmar glühend heiße Flammen aus, um seinen Gegner einzuschüchtern. Diese Feuersalven erzeugen Hitzewellen, die das Gras und die Bäume der Umgebung in Brand setzen.</de>
+		</Sapphire>
+		<Emerald>
+			<en>In battle, it blows out intense flames from all over its body to intimidate its foe. These fiery bursts create heat waves that ignite grass and trees in the area.</en>
+			<de>Im Kampf stößt es glühend heiße Flammen aus, um seinen Gegner einzuschüchtern. Das erzeugt Hitzewellen, die das Gras und die Bäume der Umgebung in Brand setzen.</de>
+		</Emerald>
+		<FireRed>
+			<en>Found near the mouth of a volcano. This fire-breather's body temperature is nearly 2,200 degrees Fahrenheit.</en>
+			<de>Es wurde in der Nähe eines Vulkans gefunden. Die Körpertemperatur dieses Feuerspuckers liegt bei fast 1200 Grad Celsius.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Its body always burns with an orange glow that enables it to hide perfectly amidst flames.</en>
+			<de>Dieses Pokémon kann sich dank seines orangefarbenen Körpers perfekt im Feuer verstecken.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.</en>
+			<de>Es wurde bei einem Vulkanausbruch geboren. Sein Körper ist von hellen Flammen umgeben.</de>
+		</Diamond>
+		<Pearl>
+			<en>Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.</en>
+			<de>Es wurde bei einem Vulkanausbruch geboren. Sein Körper ist von hellen Flammen umgeben.</de>
+		</Pearl>
+		<Platinum>
+			<en>When it breathes deeply, heat waves form around its body, making it hard to see clearly.</en>
+			<de>Atmet es tief ein, bilden sich Hitzewellen um seinen Körper, was wiederum die Sicht beeinträchtigt.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.</en>
+			<de>Es wurde bei einem Vulkanausbruch geboren. Sein Körper ist von hellen Flammen umgeben.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>The fiery surface of its body gives off a wavering, rippling glare that is similar to the sun.</en>
+			<de>Es wurde bei einem Vulkanausbruch geboren. Sein Körper ist von hellen Flammen umgeben.</de>
+		</SoulSilver>
+		<Black>
+			<en>When it breathes deeply, heat waves form around its body, making it hard to see clearly.</en>
+			<de>Atmet es tief ein, bilden sich Hitzewellen um seinen Körper, was wiederum die Sicht beeinträchtigt.</de>
+		</Black>
+		<White>
+			<en>When it breathes deeply, heat waves form around its body, making it hard to see clearly.</en>
+			<de>Atmet es tief ein, bilden sich Hitzewellen um seinen Körper, was wiederum die Sicht beeinträchtigt.</de>
+		</White>
+		<Black_2>
+			<en>The scorching fire exhaled by Magmar forms heat waves around its body, making it hard to see the Pokémon clearly.</en>
+			<de>Es stößt glühend heiße Flammen aus, die Luftspiegelungen erzeugen, in denen die Konturen seines Körpers verschwimmen.</de>
+		</Black_2>
+		<White_2>
+			<en>The scorching fire exhaled by Magmar forms heat waves around its body, making it hard to see the Pokémon clearly.</en>
+			<de>Es stößt glühend heiße Flammen aus, die Luftspiegelungen erzeugen, in denen die Konturen seines Körpers verschwimmen.</de>
+		</White_2>
+		<X>
+			<en>Found near the mouth of a volcano. This fire-breather's body temperature is nearly 2,200 degrees Fahrenheit.</en>
+			<de>Es wurde in der Nähe eines Vulkans gefunden. Die Körpertemperatur dieses Feuerspuckers liegt bei fast 1 200 °C.</de>
+		</X>
+		<Y>
+			<en>Born in the spout of a volcano, its body is covered by flames that shimmer like the sun.</en>
+			<de>Es wurde bei einem Vulkanausbruch geboren. Sein Körper ist von hellen Flammen umgeben.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.</en>
+			<de>Im Kampf stößt Magmar glühend heiße Flammen aus, um seinen Gegner einzuschüchtern. Diese Feuersalven erzeugen Hitzewellen, die das Gras und die Bäume der Umgebung in Brand setzen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.</en>
+			<de>Im Kampf stößt Magmar glühend heiße Flammen aus, um seinen Gegner einzuschüchtern. Diese Feuersalven erzeugen Hitzewellen, die das Gras und die Bäume der Umgebung in Brand setzen.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>When it's tired, it leaps into the mouth of a volcano and soaks its body in magma to ease its weariness. Its body burns at 2,192 degrees F.</en>
+			<de>Wenn es erschöpft ist, springt es in einen Vulkankrater und entspannt sich in der Lava. Sein brennender Körper ist 1 200 °C heiß.</de>
+		</Sun>
+		<Moon>
+			<en>When angered, it spouts brilliant fire from all over its body. It doesn't calm down until its opponent has burned to ash.</en>
+			<de>Ist es wütend, stößt es glühend heiße Flammen aus. Es hört damit erst auf, wenn von seinem Gegner nur noch Asche übrig ist.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Its entire body is burning. When it breathes, the temperature rises. When it sneezes, flames shoot out!</en>
+			<de>Mit seinem brennenden Körper und glühenden Atem heizt es seine Umgebung auf. Beim Niesen stößt es Flammen aus.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>The hotter the place, the better they feel. Magmar in Alola are said to be hardier than those in other areas.</en>
+			<de>Je heißer die Umgebung, desto besser ist Magmar in Form. Im Vergleich zu anderen Regionen ist es in Alola besonders stark.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>2</item>
+			<item>2</item>
+		</speed>
+		<power>
+			<item>2</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>4</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>102</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Submission</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Counter</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Seismic Toss</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Metronome</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Submission</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Counter</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Seismic Toss</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Metronome</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<tm>TM48</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<tm>TM48</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Flame Burst</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>62</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Flame Burst</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Flame Burst</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Flame Burst</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Flame Burst</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Smokescreen</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Flame Burst</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Lava Plume</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mach Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

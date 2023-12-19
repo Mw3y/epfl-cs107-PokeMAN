@@ -18,11 +18,6 @@ public class Nidoqueen extends Pokemon {
     public static final int HP_MAX = 10;
 
     public Nidoqueen(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, NAME, DAMAGES, HP_MAX, List.of(new Attack(), new RunAway()));
-    }
-
-    @Override
-    public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
-        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
+        super(area, orientation, position, NAME, 31, DAMAGES, 30, HP_MAX, List.of(new Attack(), new RunAway()));
     }
 }

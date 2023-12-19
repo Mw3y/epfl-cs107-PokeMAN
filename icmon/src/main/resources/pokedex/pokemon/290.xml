@@ -1,0 +1,2167 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Ningale</fr>
+		<de>Nincada</de>
+		<it>Nincada</it>
+		<en>Nincada</en>
+	</names>
+	<national_id>290</national_id>
+	<types>
+		<item>Bug</item>
+		<item>Ground</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Compound Eyes</name>
+		</item>
+		<item>
+			<name>Run Away</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>255</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+	</egg_groups>
+	<hatch_time>
+		<item>4080</item>
+		<item>4334</item>
+	</hatch_time>
+	<height_us>1'08&quot;</height_us>
+	<height_eu>0.5 m</height_eu>
+	<weight_us>12.1 lbs.</weight_us>
+	<weight_eu>5.5 kg</weight_eu>
+	<base_exp_yield>53</base_exp_yield>
+	<leveling_rate>Erratic</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>1</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Gray</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>31</hp>
+		<atk>45</atk>
+		<def>90</def>
+		<sp_atk>30</sp_atk>
+		<sp_def>30</sp_def>
+		<speed>40</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Ninjask</to>
+			<level>20</level>
+		</item>
+		<item>
+			<to>Shedinja</to>
+			<level>20</level>
+			<conditions>
+				<item>With empty spot in party</item>
+			</conditions>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Trainee Pokémon</en>
+		<de>Vorbereiter</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id>43</hoenn_id>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>111</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Ruby>
+			<en>Nincada lives underground for many years in complete darkness. This Pokémon absorbs nutrients from the roots of trees. It stays motionless as it waits for evolution.</en>
+			<de>Nincada lebt viele Jahre in absoluter Dunkelheit unter der Erde. Dieses Pokémon nimmt Nährstoffe aus Baumwurzeln auf. Es rührt sich nicht, da es auf seine Entwicklung wartet.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Nincada lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This Pokémon can't withstand bright sunlight so avoids it.</en>
+			<de>Nincada lebt unter der Erde. Es benutzt seine scharfen Krallen, um die Wurzeln von Bäumen freizulegen und an Flüssigkeit und Nährstoffe zu kommen. Dieses Pokémon kann grelles Sonnen- licht nicht aushalten und meidet es.</de>
+		</Sapphire>
+		<Emerald>
+			<en>It makes its nest at the roots of a mighty tree. Using its whiskerlike antennae, it probes its surroundings in the pitch-black darkness of soil.</en>
+			<de>Am Fuße von mächtigen Bäumen baut es sein Nest. Mit seinen schnurrbartähnlichen Fühlern überprüft es die Umgebung aus der dunklen Erde.</de>
+		</Emerald>
+		<FireRed>
+			<en>Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead.</en>
+			<de>Da es fast sein gesamtes Leben unter der Erde verbracht hat, ist es nahezu blind. Es setzt daher als Augenersatz seine Fühler ein.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead.</en>
+			<de>Da es fast sein gesamtes Leben unter der Erde verbracht hat, ist es nahezu blind. Es setzt daher als Augenersatz seine Fühler ein.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</Diamond>
+		<Pearl>
+			<en>It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</Pearl>
+		<Platinum>
+			<en>It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It can sometimes live underground for more than 10 years. It absorbs nutrients from the roots of trees.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>It can sometimes live underground for more than 10 years. It absorbs nutrients from the roots of trees.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</SoulSilver>
+		<Black>
+			<en>It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</Black>
+		<White>
+			<en>It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</White>
+		<Black_2>
+			<en>It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</Black_2>
+		<White_2>
+			<en>It grows underground, sensing its surroundings using antennae instead of its virtually blind eyes.</en>
+			<de>Es wächst unterirdisch heran und nimmt seine Umgebung mit Antennen wahr, da es nahezu blind ist.</de>
+		</White_2>
+		<X>
+			<en>Because it lived almost entirely underground, it is nearly blind. It uses its antennae instead.</en>
+			<de>Da es fast sein gesamtes Leben unter der Erde verbracht hat, ist es nahezu blind. Es setzt daher als Augenersatz seine Fühler ein.</de>
+		</X>
+		<Y>
+			<en>It can sometimes live underground for more than 10 years. It absorbs nutrients from the roots of trees.</en>
+			<de>Manches Nincada lebt bis zu zehn Jahre unter der Erde und saugt Nährstoffe aus Baumwurzeln.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Nincada lives underground for many years in complete darkness. This Pokémon absorbs nutrients from the roots of trees. It stays motionless as it waits for evolution.</en>
+			<de>Nincada lebt viele Jahre in absoluter Dunkelheit unter der Erde. Dieses Pokémon nimmt Nährstoffe aus Baumwurzeln auf. Es rührt sich nicht, da es auf seine Entwicklung wartet.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Nincada lives underground. It uses its sharp claws to carve the roots of trees and absorb moisture and nutrients. This Pokémon can’t withstand bright sunlight so avoids it.</en>
+			<de>Nincada lebt unter der Erde. Es benutzt seine scharfen Krallen, um die Wurzeln von Bäumen freizulegen und an Flüssigkeit und Nährstoffe zu kommen. Dieses Pokémon kann grelles Sonnenlicht nicht aushalten und meidet es.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>2</item>
+			<item>3</item>
+		</speed>
+		<power>
+			<item>2</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>3</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>4</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Absorb</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Absorb</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Mind Reader</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

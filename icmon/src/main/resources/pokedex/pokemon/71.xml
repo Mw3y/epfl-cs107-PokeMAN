@@ -1,0 +1,2929 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Empiflor</fr>
+		<de>Sarzenia</de>
+		<it>Victreebel</it>
+		<en>Victreebel</en>
+	</names>
+	<national_id>71</national_id>
+	<types>
+		<item>Grass</item>
+		<item>Poison</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Chlorophyll</name>
+		</item>
+		<item>
+			<name>Gluttony</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Grass</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>5'07&quot;</height_us>
+	<height_eu>1.7 m</height_eu>
+	<weight_us>34.2 lbs.</weight_us>
+	<weight_eu>15.5 kg</weight_eu>
+	<base_exp_yield>216</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>3</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Green</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>80</hp>
+		<atk>105</atk>
+		<def>65</def>
+		<sp_atk>100</sp_atk>
+		<sp_def>60</sp_def>
+		<speed>70</speed>
+	</base_stats>
+	<evolution_from>Weepinbell</evolution_from>
+	<categories>
+		<en>Flycatcher Pokémon</en>
+		<de>Fliegentod (Fliegentot vor der 5. Gen.)</de>
+	</categories>
+	<kanto_id>71</kanto_id>
+	<johto_id>66</johto_id>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>28</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Red>
+			<en>Said to live in huge colonies deep in jungles, although no one has ever returned from there.</en>
+			<de>Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen.</de>
+		</Red>
+		<Blue>
+			<en>Said to live in huge colonies deep in jungles, although no one has ever returned from there.</en>
+			<de>Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen.</de>
+		</Blue>
+		<Yellow>
+			<en>Lures prey with the sweet aroma of honey. Swallowed whole, the prey is melted in a day, bones and all.</en>
+			<de>Sarzenia ist unersättlich. Es lockt seine Beute mit süßen Düften an und verschlingt sie mit einem Biss.</de>
+		</Yellow>
+		<Gold>
+			<en>Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.</en>
+			<de>Säure, in der bereits viele Insekten aufgelöst wurden, ist süßer und effektiver beim Beutefang.</de>
+		</Gold>
+		<Silver>
+			<en>This horrifying plant Pokémon attracts prey with aromatic honey, then melts them in its mouth.</en>
+			<de>Dieses grausame Pflanzen-Pokémon ködert Beute mit Honigaroma und zersetzt sie in seinem Maul.</de>
+		</Silver>
+		<Crystal>
+			<en>Once ingested into this Pokémon's body, even the hardest object will melt into nothing.</en>
+			<de>Selbst die härtesten Objekte schmelzen, wenn der Körper sie erst aufgenommen hat.</de>
+		</Crystal>
+		<Ruby>
+			<en>Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.</en>
+			<de>Aus Sarzenias Kopf ragt eine lange Ranke hervor. Diese schwingt hin und her, als ob sie etwas fangen möchte. Wenn sich ahnungslose Beute nähert, wird sie von diesem Pokémon im Ganzen verschlungen.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.</en>
+			<de>Aus Sarzenias Kopf ragt eine lange Ranke hervor. Diese schwingt hin und her, als ob sie etwas fangen möchte. Wenn sich ahnungslose Beute nähert, wird sie von diesem Pokémon im Ganzen verschlungen.</de>
+		</Sapphire>
+		<Emerald>
+			<en>The long vine extending from its head is waved about as if it were a living thing to attract prey. When an unsuspecting victim approaches, it is swallowed whole.</en>
+			<de>SARZENIA schwingt mit einer langen Ranke hin und her, als ob es etwas fangen möchte. Wenn sich ahnungslose Beute nähert, wird sie im Ganzen verschlungen.</de>
+		</Emerald>
+		<FireRed>
+			<en>Lures prey into its mouth with a honeylike aroma. The helpless prey is melted with a dissolving fluid.</en>
+			<de>Es lockt Beute mit honigartigem Aroma in seinen Mund. Die hilflose Beute wird in seiner Flüssigkeit rückstandslos aufgelöst.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Said to live in huge colonies deep in jungles, although no one has ever returned from there.</en>
+			<de>Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</Diamond>
+		<Pearl>
+			<en>It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</Pearl>
+		<Platinum>
+			<en>It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</Platinum>
+		<HeartGold>
+			<en>Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>This horrifying plant Pokémon attracts prey with aromatic honey, then melts them in its mouth.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</SoulSilver>
+		<Black>
+			<en>It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</Black>
+		<White>
+			<en>It pools in its mouth a fluid with a honeylike scent, which is really an acid that dissolves anything.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</White>
+		<Black_2>
+			<en>It pools in its mouth a fluid with a honey-like scent, which is really an acid that dissolves anything.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</Black_2>
+		<White_2>
+			<en>It pools in its mouth a fluid with a honey-like scent, which is really an acid that dissolves anything.</en>
+			<de>In seinem Maul sammelt sich eine Flüssigkeit, die nach Honig riecht, in Wahrheit aber ätzend ist.</de>
+		</White_2>
+		<X>
+			<en>Said to live in huge colonies deep in jungles, although no one has ever returned from there.</en>
+			<de>Dieses Pokémon soll in großen Kolonien tief im Dschungel leben, doch niemand kann dies bestätigen.</de>
+		</X>
+		<Y>
+			<en>Once ingested into this Pokémon's body, even the hardest object will melt into nothing.</en>
+			<de>Selbst die härtesten Objekte werden zersetzt, wenn der Körper sie erst aufgenommen hat.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.</en>
+			<de>Aus Sarzenias Kopf ragt eine lange Ranke hervor. Diese schwingt hin und her, als ob sie etwas fangen möchte. Wenn sich ahnungslose Beute nähert, wird sie von diesem Pokémon im Ganzen verschlungen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.</en>
+			<de>Aus Sarzenias Kopf ragt eine lange Ranke hervor. Diese schwingt hin und her, als ob sie etwas fangen möchte. Wenn sich ahnungslose Beute nähert, wird sie von diesem Pokémon im Ganzen verschlungen.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>1</item>
+			<item>1</item>
+		</speed>
+		<power>
+			<item>4</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>4</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>4</item>
+		</skill>
+		<jump>
+			<item>3</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Acid</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stun Spore</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Poison Powder</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Acid</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stun Spore</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Poison Powder</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Weather Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Tornado</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Weather Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Tornado</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Weather Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Tornado</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Weather Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Tornado</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Weather Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Leaf Tornado</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Weather Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Leaf Tornado</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sleep Powder</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vine Whip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength Sap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Weather Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

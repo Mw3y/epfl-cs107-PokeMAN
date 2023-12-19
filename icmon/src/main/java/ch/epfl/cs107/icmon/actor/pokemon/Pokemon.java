@@ -3,27 +3,17 @@ package ch.epfl.cs107.icmon.actor.pokemon;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonActor;
 import ch.epfl.cs107.icmon.actor.ICMonFightableActor;
-import ch.epfl.cs107.icmon.data.PokemonDataLoader;
 import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
+import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.area.Area;
+import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.engine.actor.RPGSprite;
-import ch.epfl.cs107.play.io.ResourcePath;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
+import ch.epfl.cs107.play.window.Audio;
 import ch.epfl.cs107.play.window.Canvas;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.*;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -31,7 +21,9 @@ import java.util.List;
  *
  * @author Hamza REMMAL (hamza.remmal@epfl.ch)
  */
-public abstract class Pokemon extends ICMonActor implements ICMonFightableActor {
+public class Pokemon extends ICMonActor implements ICMonFightableActor {
+
+    private int pokedexId;
 
     private final String name;
 
@@ -40,7 +32,9 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
 
     // TODO: Readme justify usage of float
     private float hp;
-    private final int damages;
+    private final int attack;
+
+    private final int defense;
     private final RPGSprite sprite;
 
     private final List<ICMonFightAction> actionsList;
@@ -51,35 +45,23 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
      * @param orientation - The default orientation of the Pokémon
      * @param position - The spawn position of the Pokémon in its area
      * @param name - The name of the Pokémon
-     * @param damages - The damages that the Pokémon deals
+     * @param pokedexId - The Pokédex id of the Pokémon
+     * @param attack - The damages that the Pokémon deals
+     * @param defense - The damages that the Pokémon deals
      * @param hpMax - The maximum health of the Pokémon
      * @param actionsList - The list of possible fight actions for this Pokémon
      */
     public Pokemon(Area area, Orientation orientation, DiscreteCoordinates position, String name,
-                   int damages, int hpMax, List<ICMonFightAction> actionsList) {
+                   int pokedexId, int attack, int defense, int hpMax, List<ICMonFightAction> actionsList) {
         super(area, orientation, position);
         this.name = name;
+        this.pokedexId = pokedexId;
         this.hpMax = hpMax;
         this.hp = hpMax;
-        this.damages = damages;
-        this.sprite = new RPGSprite("pokemon/" + name, 1, 1, this);
+        this.attack = attack;
+        this.defense = defense;
+        this.sprite = new RPGSprite("pokemons/" + pokedexId, 1, 1, this);
         this.actionsList = actionsList;
-
-        try {
-            generateRandomStatistics();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (SAXException e) {
-            throw new RuntimeException(e);
-        } catch (ParserConfigurationException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
-    private void generateRandomStatistics() throws IOException, SAXException, ParserConfigurationException {
-        PokemonDataLoader loader = new PokemonDataLoader("pikachu");
-        System.out.println(loader.parseAbilities());
-        loader.parseBaseStats();
     }
 
     @Override
@@ -99,7 +81,7 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
      * Deals damages to this Pokémon.
      * @param damages - The amount of health to remove from this Pokémon.
      */
-    public void dealDamages(int damages) {
+    public void dealDamages(float damages) {
         hp -= damages;
     }
 
@@ -122,10 +104,24 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
         return name;
     }
 
+    @Override
+    public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+        ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
+    }
+
+    @Override
+    public void bip(Audio audio) {
+        super.bip(audio);
+    }
+
     /**
      * @author Hamza REMMAL (hamza.remmal@epfl.ch)
      */
     public final class PokemonProperties {
+
+        public int pokedexId() {
+            return pokedexId;
+        }
 
         public String name() {
             return name;
@@ -139,8 +135,12 @@ public abstract class Pokemon extends ICMonActor implements ICMonFightableActor 
             return hpMax;
         }
 
-        public int damage() {
-            return damages;
+        public int attack() {
+            return attack;
+        }
+
+        public int defense() {
+            return defense;
         }
 
         public List<ICMonFightAction> actions() { return actionsList; }

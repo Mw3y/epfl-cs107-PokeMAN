@@ -17,7 +17,7 @@ public class RunAway implements ICMonFightAction {
     }
 
     @Override
-    public boolean doAction(Pokemon target) {
+    public boolean doAction(Pokemon target, Pokemon pokemon) {
         return false;
     }
 }

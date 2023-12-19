@@ -88,6 +88,18 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         return false;
     }
 
+    /**
+     * Whether the player has at least one Pokémon that does not have full hp.
+     * @return true if a Pokémon has lost some hp.
+     */
+    public boolean hasPokemonNeedingHeal() {
+        for (Pokemon pokemon : pokemons) {
+            if (pokemon.properties().hp() < pokemon.properties().maxHp())
+                return true;
+        }
+        return false;
+    }
+
     @Override
     public void update(float deltaTime) {
         Keyboard keyboard = getOwnerArea().getKeyboard();
@@ -267,7 +279,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(Nurse nurse, boolean isCellInteraction) {
-            if (hasHealthyPokemon()) {
+            if (hasPokemonNeedingHeal()) {
                 openDialog("nurse_heal_pokemon");
                 requestHealFromNurse(nurse);
             } 
