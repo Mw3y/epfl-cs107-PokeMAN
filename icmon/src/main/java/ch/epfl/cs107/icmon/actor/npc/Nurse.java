@@ -12,7 +12,7 @@ import java.util.*;
 public class Nurse extends NPCActor {
 
     /**
-     * Default MovableAreaEntity constructor
+     * Nurse constructor
      *
      * @param area        (Area): Owner area. Not null
      * @param orientation (Orientation): Initial orientation of the entity. Not null

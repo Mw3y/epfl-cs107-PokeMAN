@@ -1,10 +1,8 @@
 package ch.epfl.cs107.icmon.actor.npc;
 
-import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonFightableActor;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.play.areagame.area.Area;
-import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
@@ -17,21 +15,32 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
     private boolean acceptsFights = false;
 
     /**
-     * Default MovableAreaEntity constructor
+     * Trainer constructor
      *
-     * @param area        (Area): Owner area. Not null
-     * @param orientation (Orientation): Initial orientation of the entity. Not null
-     * @param position    (Coordinate): Initial position of the entity. Not null
+     * @param area        (Area): Owner area. Not null.
+     * @param orientation (Orientation): Initial orientation of the entity. Not null.
+     * @param position    (Coordinate): Initial position of the entity. Not null.
      * @param spriteName
      */
     public Trainer(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
         super(area, orientation, position, spriteName);
     }
 
+    /**
+     * Gives a Pokémon to the player.
+     *
+     * @param pokemon (Pokemon)
+     * @return
+     */
     protected boolean givePokemon(Pokemon pokemon) {
         return pokemons.add(pokemon);
     }
 
+    /**
+     * Checks if the player has got Pokémon able to fight.
+     *
+     * @return true if the list of Pokémon is not empty and if not all of them are KO.
+     */
     public boolean hasHealthyPokemon() {
         for (Pokemon pokemon : pokemons) {
             if (!pokemon.properties().isKO())
@@ -40,17 +49,26 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
         return false;
     }
 
+    /**
+     * @return true if the player is able to fight.
+     */
     public boolean acceptsFights() {
         return this.acceptsFights;
     }
 
+    /**
+     * Setter for acceptsFights.
+     *
+     * @param acceptance (boolean) : the capability of the player to accept a fight.
+     */
     public void setFightsAcceptance(boolean acceptance) {
         acceptsFights = acceptance;
     }
 
     /**
-     * Gives access to its Pokemon list to all Trainer subclasses.
-     * @return the trainer Pokemon list.
+     * Gives access to its Pokémon list to all Trainer subclasses.
+     *
+     * @return the trainer Pokémon list.
      */
     protected List<Pokemon> getPokemons() {
         return pokemons;

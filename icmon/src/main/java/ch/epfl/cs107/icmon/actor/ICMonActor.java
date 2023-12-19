@@ -25,17 +25,17 @@ public abstract class ICMonActor extends MovableAreaEntity implements Interactab
     }
 
     /**
-     * Leave an area by unregistering this actor
+     * Leaves an area by unregistering this actor.
      */
     public void leaveArea() {
         getOwnerArea().unregisterActor(this);
     }
 
     /**
-     * ???
+     * Enters an area by registering this actor, setting the camera view on it.
      *
-     * @param area     (Area): initial area, not null
-     * @param position (DiscreteCoordinates): initial position, not null
+     * @param area     (Area): initial area, not null.
+     * @param position (DiscreteCoordinates): initial position, not null.
      */
     public void enterArea(Area area, DiscreteCoordinates position) {
         area.registerActor(this);

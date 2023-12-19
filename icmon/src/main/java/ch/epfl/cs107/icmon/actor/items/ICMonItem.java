@@ -15,9 +15,9 @@ public abstract class ICMonItem extends CollectableAreaEntity {
     /**
      * ICMonItem constructor
      * @param area (Area) : owner area. Not null
-     * @param orientation (Orientation) : initial orientation. Not null
-     * @param position (DiscreteCoordinates) : position. Not null
-     * @param spriteName (String) : sprite
+     * @param orientation (Orientation) : Initial orientation of the item in the Area. Not null
+     * @param position (DiscreteCoordinate): Initial position of the item in the Area. Not null
+     * @param spriteName (String) : sprite of the item. Not null
      */
     public ICMonItem(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
         super(area, orientation, position);
