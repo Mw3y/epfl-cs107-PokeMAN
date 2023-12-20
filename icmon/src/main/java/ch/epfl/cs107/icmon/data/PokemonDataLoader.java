@@ -1,10 +1,8 @@
 package ch.epfl.cs107.icmon.data;
 
-import ch.epfl.cs107.icmon.actor.pokemon.Bulbizarre;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.actor.pokemon.actions.Attack;
 import ch.epfl.cs107.icmon.actor.pokemon.actions.RunAway;
-import ch.epfl.cs107.icmon.area.maps.Pokeball;
 import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
@@ -24,16 +22,14 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class PokemonDataLoader {
 
     public static final int POKEDEX_SIZE = 493;
 
-    public PokemonDataLoader() {}
+    public PokemonDataLoader() {
+    }
 
     private Document openDataFile(String path) {
         try {
@@ -57,7 +53,7 @@ public class PokemonDataLoader {
 
             return document;
         } catch (ParserConfigurationException | IOException | SAXException e) {
-            System.err.println(e);
+            e.printStackTrace();
             return null;
         }
     }
@@ -67,21 +63,24 @@ public class PokemonDataLoader {
     }
 
     public Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
-            Document document = openDataFile("pokemon/" + pokedexId);
-            // Pokémon data
-            BasePokemonStats stats = parsePokemonBaseStats(document);
-            String name = parsePokemonName(document).toLowerCase();
-            List<PokemonType> types = parsePokemonTypes(document);
-            List<ICMonFightAction> actions = new ArrayList<>();
-            List<PokemonMove> moves = parsePokemonMoves(document);
+        Document document = openDataFile("pokemon/" + pokedexId);
+        // Pokémon data
+        BasePokemonStats stats = parsePokemonBaseStats(document);
+        String name = parsePokemonName(document).toLowerCase();
+        List<PokemonType> types = parsePokemonTypes(document);
+        List<ICMonFightAction> actions = new ArrayList<>();
+        List<PokemonMove> moves = parsePokemonMoves(document);
 
-            for (PokemonMove move : moves) {
-                actions.add(new Attack(move.name(), move.power()));
-            }
-            // Each Pokémon has a run-away attack but only the player can use it.
-            actions.add(new RunAway());
-            // Create the new Pokémon
-            return new Pokemon(area, orientation, coordinates, name, pokedexId, types, stats.hp(), stats.attack(), stats.defense(), actions);
+        // Only add 4 moves for the Pokémon
+        for (int i = 0; i < 4; i++) {
+            PokemonMove move = moves.get(i);
+            actions.add(new Attack(move.name(), move.power()));
+        }
+        // Each Pokémon has a run-away attack but only the player can use it.
+        actions.add(new RunAway());
+
+        // Create the new Pokémon
+        return new Pokemon(area, orientation, coordinates, name, pokedexId, types, stats.hp(), stats.attack(), stats.defense(), actions);
     }
 
     private BasePokemonStats parsePokemonBaseStats(Document document) {
@@ -138,6 +137,7 @@ public class PokemonDataLoader {
 
     private List<PokemonMove> parsePokemonMoves(Document document) {
         NodeList list = document.getElementsByTagName("move");
+        Set<String> alreadyLoadedMoves = new HashSet<>();
         List<PokemonMove> moves = new ArrayList<>();
 
         for (int temp = 0; temp < list.getLength(); ++temp) {
@@ -152,8 +152,10 @@ public class PokemonDataLoader {
                 Document move = openDataFile("move/" + fileName);
                 if (move != null) {
                     int power = parseMovePower(move);
-                    if (power > 0)
+                    if (!alreadyLoadedMoves.contains(fileName) && power > 0) {
                         moves.add(new PokemonMove(name, power));
+                        alreadyLoadedMoves.add(fileName);
+                    }
                 }
             }
         }
