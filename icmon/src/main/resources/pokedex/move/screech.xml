@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">103</index_number>
+	<pp type="int">40</pp>
+	<max_pp type="int">64</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Hyle</dk>
+		<fr type="str">Grincement</fr>
+		<de type="str">Kreideschrei</de>
+		<gr type="str">Τσίριγμα</gr>
+		<it type="str">Stridio</it>
+		<pl type="str">Skrzek</pl>
+		<en type="str">Screech</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Sharply reduces the foe's DEFENSE.</en>
+			<de type="str">Senkt VERT-Wert des Gegers enorm.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Sharply reduces the foe's DEFENSE.</en>
+			<de type="str">Senkt VERT-Wert des Gegers enorm.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Sharply reduces the foe's DEFENSE.</en>
+			<de type="str">Senkt VERT-Wert des Gegers enorm.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Emits a screech to sharply reduce the foe’s DEFENSE.</en>
+			<de type="str">Stößt einen Schrei aus, um gegn. VERT. zu senken.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Emits a screech to sharply reduce the foe’s DEFENSE.</en>
+			<de type="str">Stößt einen Schrei aus, um gegn. VERT. zu senken.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Emits a screech to sharply reduce the foe’s DEFENSE.</en>
+			<de type="str">Stößt einen Schrei aus, um gegn. VERT. zu senken.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An ear-splitting screech is emitted to sharply reduce the foe’s DEFENSE.</en>
+			<de type="str">Stößt einen Schrei aus, um gegnerische VERT. zu senken.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An ear-splitting screech is emitted to sharply reduce the foe’s DEFENSE.</en>
+			<de type="str">Stößt einen Schrei aus, um gegnerische VERT. zu senken.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">An earsplitting screech is emitted to sharply reduce the foe’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um gegnerische Verteidigung zu senken.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">An earsplitting screech is emitted to sharply reduce the foe’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um gegnerische Verteidigung zu senken.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">An earsplitting screech is emitted to sharply reduce the foe’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um gegnerische Verteidigung zu senken.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">An earsplitting screech is emitted to sharply reduce the foe’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um gegnerische Verteidigung stark zu senken.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">An earsplitting screech is emitted to sharply reduce the foe’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um gegnerische Verteidigung stark zu senken.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">An earsplitting screech harshly reduces the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">An earsplitting screech harshly reduces the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">An earsplitting screech harshly reduces the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">An earsplitting screech harshly reduces the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">An earsplitting screech harshly lowers the target’s Defense stat.</en>
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Stößt einen Schrei aus, um die Verteidigung des Zieles stark zu senken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

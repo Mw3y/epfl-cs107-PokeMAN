@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">392</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Anneau Hydro</fr>
+		<de type="str">Wasserring</de>
+		<gr type="str">Υδάτινος Δακτύλιος</gr>
+		<it type="str">Acquanello</it>
+		<pl type="str">Pierścień Wodny</pl>
+		<en type="str">Aqua Ring</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier von Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier von Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier von Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier von Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier von Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP on every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user envelops itself in a veil made of water. It regains some HP every turn.</en>
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender umgibt sich mit einem Schleier aus Wasser. Dabei regeneriert er einige KP pro Runde.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">38</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">120</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Dvojité ostří</cz>
+		<dk type="str">Tvekant</dk>
+		<de type="str">Risikotackle</de>
+		<gr type="str">Διπλή Κόψη</gr>
+		<it type="str">Sdoppiatore</it>
+		<pl type="str">Podwójne Uderzenie Kantem</pl>
+		<en type="str">Double-Edge</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A tackle that also hurts the user.</en>
+			<de type="str">Tackle! Angreifer wird verletzt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A tackle that also hurts the user.</en>
+			<de type="str">Tackle! Angreifer wird verletzt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A tackle that also hurts the user.</en>
+			<de type="str">Tackle! Angreifer wird verletzt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A life-risking tackle that also hurts the user.</en>
+			<de type="str">Lebensgefährlicher Angriff mit Selbstschädigung.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A life-risking tackle that also hurts the user.</en>
+			<de type="str">Lebensgefährlicher Angriff mit Selbstschädigung.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A life-risking tackle that also hurts the user.</en>
+			<de type="str">Lebensgefährlicher Angriff mit Selbstschädigung.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A reckless, life-risking tackle that also hurts the user a little.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A reckless, life-risking tackle that also hurts the user a little.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A reckless, life-risking tackle. It also damages the user by a fairly large amount, however.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A reckless, life-risking tackle. This also damages the user quite a lot.</en>
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Lebensgefährlicher Angriff, bei dem sich der Angreifer selbst verletzt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

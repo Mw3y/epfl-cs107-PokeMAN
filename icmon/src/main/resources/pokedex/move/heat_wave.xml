@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">257</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">95</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Canicule</fr>
+		<de type="str">Hitzewelle</de>
+		<gr type="str">Καύσωνας</gr>
+		<it type="str">Ondacalda</it>
+		<en type="str">Heat Wave</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">2</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Exhales a hot breath on the foe. May inflict a burn.</en>
+			<de type="str">Gegner wird von heißem Atem getroffen. Verbrennt evtl.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Exhales a hot breath on the foe. May inflict a burn.</en>
+			<de type="str">Gegner wird von heißem Atem getroffen. Verbrennt evtl.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Exhales a hot breath on the foe. May inflict a burn.</en>
+			<de type="str">Gegner wird von heißem Atem getroffen. Verbrennt evtl.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user exhales a heated breath to attack. It may also inflict a burn.</en>
+			<de type="str">Gegner wird von heißem Atem getroffen und verbrennt sich evtl.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user exhales a heated breath to attack. It may also inflict a burn.</en>
+			<de type="str">Gegner wird von heißem Atem getroffen und verbrennt sich evtl.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user exhales a heated breath on the foe to attack. It may also leave the target with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing team. It may also leave targets with a burn.</en>
+			<de type="str">Gegner wird von Sturm aus heißer Luft getroffen und verbrennt sich eventuell.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by exhaling hot breath on the opposing Pokémon. This may also leave those Pokémon with a burn.</en>
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ziele werden von Sturm aus heißer Luft getroffen und verbrennen sich eventuell.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">burn</condition>
+				<probability type="int">10</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

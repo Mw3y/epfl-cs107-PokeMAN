@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">218</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Frustration</dk>
+		<fr type="str">Frustration</fr>
+		<de type="str">Frustration</de>
+		<gr type="str">Απογοήτευση</gr>
+		<it type="str">Frustrazione</it>
+		<pl type="str">Frustracja</pl>
+		<en type="str">Frustration</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack based on lack of loyalty.</en>
+			<de type="str">Angriffsgrund: Keine Loyalität.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack based on lack of loyalty.</en>
+			<de type="str">Angriffsgrund: Keine Loyalität.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack based on lack of loyalty.</en>
+			<de type="str">Angriffsgrund: Keine Loyalität.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">An attack that is stronger if the TRAINER is disliked.</en>
+			<de type="str">Die Attacke ist stärker bei verhassten TRAINERn.* (Attacken-Beschreibung)Je unbeliebter der Trainer desto größer die Wirkung.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">An attack that is stronger if the TRAINER is disliked.</en>
+			<de type="str">Die Attacke ist stärker bei verhassten TRAINERn.* (Attacken-Beschreibung)Je unbeliebter der Trainer desto größer die Wirkung.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">An attack that is stronger if the TRAINER is disliked.</en>
+			<de type="str">Die Attacke ist stärker bei verhassten TRAINERn.* (Attacken-Beschreibung)Je unbeliebter der Trainer desto größer die Wirkung.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">This attack move grows more powerful the less the user likes its TRAINER.</en>
+			<de type="str">Die Attacke ist stärker bei verhassten TRAINERn.* (Attacken-Beschreibung)Je unbeliebter der TRAINER bei seinem POKéMON ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">This attack move grows more powerful the less the user likes its TRAINER.</en>
+			<de type="str">Die Attacke ist stärker bei verhassten TRAINERn.* (Attacken-Beschreibung)Je unbeliebter der TRAINER bei seinem POKéMON ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je mehr der Anwender seinen Trainer hasst.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je mehr der Anwender seinen Trainer hasst.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je mehr der Anwender seinen Trainer hasst.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je mehr der Anwender seinen Trainer hasst.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je mehr der Anwender seinen Trainer hasst.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A full-power attack that grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This full-power attack grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This full-power attack grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This full-power attack grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This full-power attack grows more powerful the less the user likes its Trainer.</en>
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Die Attacke wird stärker, je weniger der Anwender seinen Trainer mag.* (Attacken-Beschreibung)Je unbeliebter der Trainer bei seinem Pokémon ist, desto größer ist die Wirkung.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

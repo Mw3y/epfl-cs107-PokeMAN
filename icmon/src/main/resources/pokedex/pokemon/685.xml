@@ -1,0 +1,980 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Cupcanaille</fr>
+		<de>Sabbaione</de>
+		<it>Slurpuff</it>
+		<en>Slurpuff</en>
+	</names>
+	<national_id>685</national_id>
+	<types>
+		<item>Fairy</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Sweet Veil</name>
+		</item>
+		<item>
+			<name>Unburden</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>140</catch_rate>
+	<egg_groups>
+		<item>Fairy</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>2'07&quot;</height_us>
+	<height_eu>0.8 m</height_eu>
+	<weight_us>11.0 lbs.</weight_us>
+	<weight_eu>5.0 kg</weight_eu>
+	<base_exp_yield>168</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>2</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>White</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>82</hp>
+		<atk>80</atk>
+		<def>86</def>
+		<sp_atk>85</sp_atk>
+		<sp_def>75</sp_def>
+		<speed>72</speed>
+	</base_stats>
+	<evolution_from>Swirlix</evolution_from>
+	<categories>
+		<en>Meringue Pokémon</en>
+		<de>Schlagsahne</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>132</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<X>
+			<en>It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.</en>
+			<de>Es verfügt über einen feinen Geruchssinn, mit dem es selbst die schwächsten Gerüche erkennen kann. Es hilft deshalb oft in Konditoreien aus.</de>
+		</X>
+		<Y>
+			<en>Its sense of smell is 100 million times better than a human's, so even the faintest scent tells it about everything in the area. It's like it can see with its nose!</en>
+			<de>Sein Geruchssinn ist mehrere Millionen Mal stärker als der des Menschen. Durch die schwächsten Gerüche in der Luft weiß es, was in seiner Umgebung vorgeht.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>It can distinguish the faintest of scents. It puts its sensitive sense of smell to use by helping pastry chefs in their work.</en>
+			<de>Sein Geruchssinn ist mehrere Millionen Mal stärker als der des Menschen. Durch die schwächsten Gerüche in der Luft weiß es, was in seiner Umgebung vorgeht.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Its sense of smell is 100 million times better than a human's, so even the faintest scent tells it about everything in the area. It's like it can see with its nose!</en>
+			<de>Sein Geruchssinn ist mehrere Millionen Mal stärker als der des Menschen. Durch die schwächsten Gerüche in der Luft weiß es, was in seiner Umgebung vorgeht.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fairy Wind</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Play Nice</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Fake Tears</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Draining Kiss</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Wish</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fairy Wind</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Play Nice</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Fake Tears</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Draining Kiss</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Wish</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Fairy Wind</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Play Nice</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fairy Wind</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Play Nice</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Fake Tears</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Draining Kiss</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Wish</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Fairy Wind</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Play Nice</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fairy Wind</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Play Nice</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Fake Tears</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Draining Kiss</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Wish</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Belly Drum</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sticky Web</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

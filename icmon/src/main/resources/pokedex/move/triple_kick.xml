@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">167</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">10</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Triple-Pied</fr>
+		<de type="str">Dreifachkick</de>
+		<gr type="str">Τριπλό Λάκτισμα</gr>
+		<it type="str">Triplocalcio</it>
+		<en type="str">Triple Kick</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Hits three times with rising power.</en>
+			<de type="str">Trifft 3 mal, Kraft nimmt zu.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Hits three times with rising power.</en>
+			<de type="str">Trifft 3 mal, Kraft nimmt zu.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Hits three times with rising power.</en>
+			<de type="str">Trifft 3mal, Kraft nimmt zu.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Kicks the foe 3 times in a row with rising intensity.</en>
+			<de type="str">Tritt Gegner 3-mal nacheinander. Härte nimmt zu.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Kicks the foe 3 times in a row with rising intensity.</en>
+			<de type="str">Tritt Gegner 3-mal nacheinander. Härte nimmt zu.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Kicks the foe 3 times in a row with rising intensity.</en>
+			<de type="str">Tritt Gegner 3-mal nacheinander. Härte nimmt zu.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A 3-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt Gegner 3-mal nacheinander. Die Härte der Tritte nimmt zu.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A 3-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt Gegner 3-mal nacheinander. Die Härte der Tritte nimmt zu.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt Gegner 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt Gegner 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt Gegner 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt Gegner 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt Gegner 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel 1- bis 3-mal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successive hit.</en>
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successful hit.</en>
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A consecutive three-kick attack that becomes more powerful with each successful hit.</en>
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Tritt das Ziel ein- bis dreimal nacheinander. Die Härte der Tritte nimmt von Treffer zu Treffer zu.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

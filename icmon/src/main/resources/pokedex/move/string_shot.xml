@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">81</index_number>
+	<pp type="int">40</pp>
+	<max_pp type="int">64</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Trådskud</dk>
+		<fr type="str">Sécrétion</fr>
+		<de type="str">Fadenschuss</de>
+		<gr type="str">Νηματική Έκκριση</gr>
+		<it type="str">Millebave</it>
+		<pl type="str">Strzał Siecią (DP070)Pajęcza Nić</pl>
+		<en type="str">String Shot</en>
+	</names>
+	<type type="str">Bug</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">-2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A move that lowers the foe's SPEED.</en>
+			<de type="str">Senkt INIT-Wert des Gegners.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A move that lowers the foe's SPEED.</en>
+			<de type="str">Senkt INIT-Wert des Gegners.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A move that lowers the foe's SPEED.</en>
+			<de type="str">Senkt INIT-Wert des Gegners.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Binds the foe with string to reduce its SPEED.</en>
+			<de type="str">Umwickelt Gegner mit Faden und senkt INIT.-Wert.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Binds the foe with string to reduce its SPEED.</en>
+			<de type="str">Umwickelt Gegner mit Faden und senkt INIT.-Wert.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Binds the foe with string to reduce its SPEED.</en>
+			<de type="str">Umwickelt Gegner mit Faden und senkt INIT.-Wert.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is bound with strings shot from the mouth to reduce its SPEED.</en>
+			<de type="str">Umwickelt Gegner mit Faden aus dem Mund und senkt INIT.-Wert.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is bound with strings shot from the mouth to reduce its SPEED.</en>
+			<de type="str">Umwickelt Gegner mit Faden aus dem Mund und senkt INIT.-Wert.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.</en>
+			<de type="str">Umwickelt Gegner mit Faden aus dem Mund und senkt Init.-Wert.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.</en>
+			<de type="str">Umwickelt Gegner mit Faden aus dem Mund und senkt Init.-Wert.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.</en>
+			<de type="str">Umwickelt Gegner mit Faden aus dem Mund und senkt Init.-Wert.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.</en>
+			<de type="str">Umwickelt Gegner mit Faden aus dem Mund und senkt Init.-Wert.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is bound with silk blown from the user’s mouth. It reduces the target’s Speed stat.</en>
+			<de type="str">Umwickelt Gegner mit Faden aus dem Mund und senkt Init.-Wert.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The targets are bound with silk blown from the user’s mouth. This silk reduces the targets’ Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The targets are bound with silk blown from the user’s mouth. This silk reduces the targets’ Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The targets are bound with silk blown from the user’s mouth. This silk reduces the targets’ Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The targets are bound with silk blown from the user’s mouth. This silk reduces the targets’ Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Umwickelt Ziele in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Umwickelt Ziele in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The opposing Pokémon are bound with silk blown from the user’s mouth that harshly lowers the Speed stat.</en>
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Umwickelt Gegner in der Nähe mit Fäden aus dem Mund und senkt den Initiative-Wert.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

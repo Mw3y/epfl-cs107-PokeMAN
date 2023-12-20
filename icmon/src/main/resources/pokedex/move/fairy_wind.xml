@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">584</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Vent Féérique</fr>
+		<de type="str">Feenbrise</de>
+		<it type="str">Vento di Fata</it>
+		<pl type="str">Baśniowy wiatr (XY013)Bajkowy Wiatr (XY034)</pl>
+		<en type="str">Fairy Wind</en>
+	</names>
+	<type type="str">Fairy</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user stirs up a fairy wind and strikes the target with it.</en>
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Lässt eine Feenbrise aufkommen, die das Ziel erfasst und ihm Schaden zufügt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

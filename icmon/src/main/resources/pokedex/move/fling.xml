@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">374</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Dégommage</fr>
+		<de type="str">Schleuder</de>
+		<gr type="str">Εκσφενδόνιση</gr>
+		<it type="str">Lancio</it>
+		<pl type="str">Rzut</pl>
+		<en type="str">Fling</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user flings its held item at the foe to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf den Gegner. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf den Gegner. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user flings its held item at the foe to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf den Gegner. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf den Gegner. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user flings its held item at the foe to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf den Gegner. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf den Gegner. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user flings its held item at the foe to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf den Gegner. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf den Gegner. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user flings its held item at the foe to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf den Gegner. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf den Gegner. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user flings its held item at the target to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user flings its held item at the target to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user flings its held item at the target to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user flings its held item at the target to attack. Its power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user flings its held item at the target to attack. This move’s power and effects depend on the item.</en>
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Stärke und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender schleudert sein Item auf das Ziel. Kraft und Effekt der Attacke hängen vom Item ab.* (Attacken-Beschreibung)Der Anwender wirft sein Item auf das Ziel. Die Kraft und die Wirkung hängen vom jeweiligen Item ab.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">burn</condition>
+				<probability type="int">100</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

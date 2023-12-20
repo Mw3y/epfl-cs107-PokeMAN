@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">326</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Extrasenseur</fr>
+		<de type="str">Sondersensor</de>
+		<gr type="str">Έκτη Αίσθηση</gr>
+		<it type="str">Extrasenso</it>
+		<pl type="str">Paranormalność</pl>
+		<en type="str">Extrasensory</en>
+	</names>
+	<type type="str">Psychic</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Attacks with a peculiar power. May cause flinching.</en>
+			<de type="str">Besonderer Angriff. Gegner schreckt evtl. zurück.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Attacks with a peculiar power. May cause flinching.</en>
+			<de type="str">Besonderer Angriff. Gegner schreckt evtl. zurück.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Attacks with a peculiar power. May cause flinching.</en>
+			<de type="str">Besonderer Angriff. Gegner schreckt evtl. zurück.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user attacks with an odd power that may make the foe flinch.</en>
+			<de type="str">Besonderer Angriff, der den Gegner evtl. zurückschrecken lässt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user attacks with an odd power that may make the foe flinch.</en>
+			<de type="str">Besonderer Angriff, der den Gegner evtl. zurückschrecken lässt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the foe flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die den Gegner eventuell zurückschrecken lässt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the foe flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die den Gegner eventuell zurückschrecken lässt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the foe flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die den Gegner eventuell zurückschrecken lässt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the foe flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die den Gegner eventuell zurückschrecken lässt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the foe flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die den Gegner eventuell zurückschrecken lässt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. It may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks with an odd, unseeable power. This may also make the target flinch.</en>
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Besonderer Angriff mit einer unsichtbaren Kraft, die das Ziel eventuell zurückschrecken lässt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

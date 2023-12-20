@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">63</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">150</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Hyperpaprsek</cz>
+		<dk type="str">Hyperstråle</dk>
+		<fr type="str">Ultralaser</fr>
+		<de type="str">Hyperstrahl</de>
+		<gr type="str">Υπερακτίνα</gr>
+		<it type="str">Iper Raggio</it>
+		<pl type="str">Hiper Promień</pl>
+		<en type="str">Hyper Beam</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">1st turn: Attack 2nd turn: Rest</en>
+			<de type="str">1. Angriff 2. Ausruhen.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">1st turn: Attack 2nd turn: Rest</en>
+			<de type="str">1. Angriff 2. Ausruhen.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">1st turn: Attack 2nd turn: Rest</en>
+			<de type="str">1. Angriff 2. Ausruhen.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Powerful, but leaves the user immobile the next turn.</en>
+			<de type="str">Starke Attacke. Angreifer setzt eine Runde aus.* (Attacken-Beschreibung)Stark, muss sich aber in der nächsten Runde aufladen.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Powerful, but leaves the user immobile the next turn.</en>
+			<de type="str">Starke Attacke. Angreifer setzt eine Runde aus.* (Attacken-Beschreibung)Stark, muss sich aber in der nächsten Runde aufladen.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Powerful, but leaves the user immobile the next turn.</en>
+			<de type="str">Starke Attacke. Angreifer setzt eine Runde aus.* (Attacken-Beschreibung)Stark, muss sich in der nächsten Runde aufladen.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A severely damaging attack that makes the user rest on the next turn.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Muss sich in der nächsten Runde aufladen.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A severely damaging attack that makes the user rest on the next turn.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Muss sich in der nächsten Runde aufladen.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in nächster Runde ausruhen.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in nächster Runde ausruhen.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in nächster Runde ausruhen.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in nächster Runde ausruhen.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in nächster Runde ausruhen.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user must rest on the next turn to regain its energy.</en>
+			<de type="str">Starke Attacke, die den Angreifer zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is attacked with a powerful beam. The user can’t move on the next turn.</en>
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Starke Attacke, die den Anwender zwingt, eine Runde auszusetzen.* (Attacken-Beschreibung)Eine äußerst starke Attacke, die viel Schaden anrichtet. Anwender muss sich in der nächsten Runde ausruhen.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

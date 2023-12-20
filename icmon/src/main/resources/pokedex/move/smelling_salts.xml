@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">265</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">70</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Stimulant</fr>
+		<de type="str">Riechsalz</de>
+		<gr type="str">Ανάνιψη</gr>
+		<it type="str">Maniereforti</it>
+		<en type="str">Smelling Salts</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Powerful against paralyzed foes, but also heals them.</en>
+			<de type="str">Effektiv geg. paralysierte Gegner. Heilt sie aber auch.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Powerful against paralyzed foes, but also heals them.</en>
+			<de type="str">Effektiv geg. paralysierte Gegner. Heilt sie aber auch.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Powerful against paralyzed foes, but also heals them.</en>
+			<de type="str">Effektiv geg. paralysierte Gegner. Heilt sie aber auch.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Doubly effective on a paralyzed foe, but it also cures the foe’s paralysis.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber auch.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Doubly effective on a paralyzed foe, but it also cures the foe’s paralysis.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber auch.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber davon auch.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber davon auch.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber davon auch.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber davon auch.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">This attack inflicts double damage on a paralyzed foe. It also cures the foe’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber davon auch.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. It also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber auch davon.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. It also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber auch davon.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. It also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber auch davon.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. It also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Gegner, heilt sie aber auch davon.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">This attack inflicts double damage on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack’s power is doubled when used on a target with paralysis. This also cures the target’s paralysis, however.</en>
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Doppelt wirksam gegen paralysierte Ziele, heilt sie aber auch von der Paralyse.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

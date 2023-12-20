@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Brutal Swing</en>
+		<fr type="str">Centrifugifle</fr>
+		<de type="str">Wirbler</de>
+		<it type="str">Vorticolpo</it>
+		<es type="str">Giro Vil</es>
+	</names>
+	<index_number type="int">693</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Dark</type>
+	<category type="str">physical</category>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">all_adjacent</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user swings its body around violently to inflict damage on everything in its vicinity.</en>
+			<de type="str">Der Anwender dreht schwungvoll seinen Körper und fügt den Pokémon in seiner Nähe dabei Schaden zu.* (Attacken-Beschreibung)Der Anwender dreht seinen Körper und fügt dem Ziel Schaden zu.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user swings its body around violently to inflict damage on everything in its vicinity.</en>
+			<de type="str">Der Anwender dreht schwungvoll seinen Körper und fügt den Pokémon in seiner Nähe dabei Schaden zu.* (Attacken-Beschreibung)Der Anwender dreht seinen Körper und fügt dem Ziel Schaden zu.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user swings its body around violently to inflict damage on everything in its vicinity.</en>
+			<de type="str">Der Anwender dreht schwungvoll seinen Körper und fügt den Pokémon in seiner Nähe dabei Schaden zu.* (Attacken-Beschreibung)Der Anwender dreht seinen Körper und fügt dem Ziel Schaden zu.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user swings its body around violently to inflict damage on everything in its vicinity.</en>
+			<de type="str">Der Anwender dreht schwungvoll seinen Körper und fügt den Pokémon in seiner Nähe dabei Schaden zu.* (Attacken-Beschreibung)Der Anwender dreht seinen Körper und fügt dem Ziel Schaden zu.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

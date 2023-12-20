@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">270</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">5</priority>
+	<target type="str">target_adjacent_user_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Coup d'Main</fr>
+		<de type="str">Rechte Hand</de>
+		<gr type="str">Χέρι Βοηθείας</gr>
+		<it type="str">Altruismo</it>
+		<pl type="str">Pomocna Dłoń</pl>
+		<en type="str">Helping Hand</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Boosts the power of the recipient’s moves.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Getroffenen.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Boosts the power of the recipient’s moves.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Getroffenen.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Boosts the power of the recipient’s moves.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Getroffenen.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A move that boosts the power of the ally’s attack in a battle.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Getroffenen im Kampf.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A move that boosts the power of the ally’s attack in a battle.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Getroffenen im Kampf.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A move that boosts the power of the ally’s attack in a Double Battle.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Freundes in einem Doppelkampf.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A move that boosts the power of the ally’s attack in a Double Battle.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Freundes in einem Doppelkampf.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A move that boosts the power of the ally’s attack in a Double Battle.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Freundes in einem Doppelkampf.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A move that boosts the power of the ally’s attack in a Double Battle.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Freundes in einem Doppelkampf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A move that boosts the power of the ally’s attack in a Double Battle.</en>
+			<de type="str">Steigert die Kraft der Angriffe des Freundes in einem Doppelkampf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user assists an ally by boosting the power of its attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user assists an ally by boosting the power of its attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user assists an ally by boosting the power of its attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user assists an ally by boosting the power of its attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Mitstreiters.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Mitstreiters.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Mitstreiters.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user assists an ally by boosting the power of that ally’s attack.</en>
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Mitstreiters.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender steigert die Kraft eines Angriffes eines Freundes.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

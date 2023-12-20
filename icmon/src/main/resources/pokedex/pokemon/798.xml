@@ -1,0 +1,440 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Kartana</en>
+		<jp>カミツルギ Kamitsurugi</jp>
+		<fr>Katagami</fr>
+		<es>Kartana</es>
+		<de>Katagami</de>
+		<it>Kartana</it>
+	</names>
+	<national_id>798</national_id>
+	<alola_id>298</alola_id>
+	<types>
+		<item>Grass</item>
+		<item>Steel</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Beast Boost</name>
+		</item>
+	</abilities>
+	<catch_rate>255</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>1'00&quot;</height_us>
+	<height_eu>0.3 m</height_eu>
+	<weight_us>0.2 lbs.</weight_us>
+	<weight_eu>0.1 kg</weight_eu>
+	<base_exp_yield>114</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>White</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>3</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>59</hp>
+		<atk>181</atk>
+		<def>131</def>
+		<sp_atk>59</sp_atk>
+		<sp_def>31</sp_def>
+		<speed>109</speed>
+	</base_stats>
+	<gender_ratios/>
+	<categories>
+		<en>Drawn Sword Pokémon</en>
+		<de>Schwertkunst</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.</en>
+			<de>Eine Ultrabestie, die zwar nicht von sich aus anzugreifen scheint, deren rasiermesserscharfer Körper aber eine gefährliche Waffe darstellt.</de>
+		</Sun>
+		<Moon>
+			<en>One of the Ultra Beast life-forms, it was observed cutting down a gigantic steel tower with one stroke of its blade.</en>
+			<de>Diese Ultrabestie wurde dabei beobachtet, wie sie einen riesigen stählernen Turm mit nur einem Hieb ihrer Klingen zerteilte.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>This Ultra Beast’s body, which is as thin as paper, is like a sharpened sword.</en>
+			<de>Der Körper dieser Ultrabestie ist dünn wie Papier und so scharfkantig wie eine geschliffene Klinge.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.</en>
+			<de>In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>398</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Air Cutter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vacuum Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Laser Focus</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Detect</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Air Cutter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defog</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vacuum Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Laser Focus</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Detect</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

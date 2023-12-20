@@ -1,0 +1,3766 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Lokhlass</fr>
+		<de>Lapras</de>
+		<it>Lapras</it>
+		<en>Lapras</en>
+	</names>
+	<national_id>131</national_id>
+	<types>
+		<item>Water</item>
+		<item>Ice</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Water Absorb</name>
+		</item>
+		<item>
+			<name>Hydration</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Monster</item>
+		<item>Water 1</item>
+	</egg_groups>
+	<hatch_time>
+		<item>10455</item>
+		<item>10709</item>
+	</hatch_time>
+	<height_us>8'02&quot;</height_us>
+	<height_eu>2.5 m</height_eu>
+	<weight_us>485.0 lbs.</weight_us>
+	<weight_eu>220.0 kg</weight_eu>
+	<base_exp_yield>187</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<ev_yield>
+		<hp>2</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Blue</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>130</hp>
+		<atk>85</atk>
+		<def>80</def>
+		<sp_atk>85</sp_atk>
+		<sp_def>95</sp_def>
+		<speed>60</speed>
+	</base_stats>
+	<alola_id>268</alola_id>
+	<categories>
+		<en>Transport Pokémon</en>
+		<de>Transport</de>
+	</categories>
+	<kanto_id>131</kanto_id>
+	<johto_id>224</johto_id>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>150</kalos_id>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Red>
+			<en>A Pokémon that has been overhunted almost to extinction. It can ferry people across the water.</en>
+			<de>Dieses Pokémon wurde von Jägern fast ausgerottet. Es kann Personen über das Wasser transportieren.</de>
+		</Red>
+		<Blue>
+			<en>A Pokémon that has been overhunted almost to extinction. It can ferry people across the water.</en>
+			<de>Dieses Pokémon wurde von Jägern fast ausgerottet. Es kann Personen über das Wasser transportieren.</de>
+		</Blue>
+		<Yellow>
+			<en>A gentle soul that can read the minds of people. It can ferry people across the sea on its back.</en>
+			<de>Dieses freundliche Pokémon kann Gedanken lesen. Auf seinem Rücken trägt es Menschen über das Wasser.</de>
+		</Yellow>
+		<Gold>
+			<en>They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled.</en>
+			<de>Sie sind gutmütig. Da sie selten kämpfen, wurden sie oft gefangen. Ihre Anzahl ist stark reduziert.</de>
+		</Gold>
+		<Silver>
+			<en>It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.</en>
+			<de>Die Menschen überqueren das Meer auf seinem Rücken. Ist es fröhlich, stimmt es ein entzückendes Lied an.</de>
+		</Silver>
+		<Crystal>
+			<en>This gentle Pokémon loves to give people rides and provides a very comfortable way to get around.</en>
+			<de>Dieses gutmütige Pokémon nimmt gerne Menschen mit und ist somit ein komfortables Fortbewegungsmittel.</de>
+		</Crystal>
+		<Ruby>
+			<en>People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.</en>
+			<de>Die Menschen sind dafür verantwortlich, dass Lapras fast ausgestorben wäre. Abends singt es traurige Klagelieder, da nur noch wenige seiner Artgenossen übrig sind.</de>
+		</Ruby>
+		<Sapphire>
+			<en>People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.</en>
+			<de>Die Menschen sind dafür verantwortlich, dass Lapras fast ausgestorben wäre. Abends singt es traurige Klagelieder, da nur noch wenige seiner Artgenossen übrig sind.</de>
+		</Sapphire>
+		<Emerald>
+			<en>People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.</en>
+			<de>Die Menschen sind dafür verantwortlich, dass LAPRAS fast ausgestorben wäre. Abends singt es Klagelieder, da nur noch wenige seiner Artgenossen übrig sind.</de>
+		</Emerald>
+		<FireRed>
+			<en>Its high intelligence enables it to understand human speech. It likes to ferry people on its back.</en>
+			<de>Aufgrund seiner hohen Intelligenz kann es die menschliche Sprache verstehen. Es mag es, Menschen auf seinem Rücken zu transportieren.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>A Pokémon that has been overhunted almost to extinction. It can ferry people across the water.</en>
+			<de>Dieses Pokémon wurde von Jägern fast ausgerottet. Es kann Personen über das Wasser transportieren.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It loves crossing the sea with people and Pokémon on its back. It understands human speech.</en>
+			<de>Es liebt es, das Meer mit PKMN und Menschen auf dem Rücken zu über- queren. Es versteht die Menschen.</de>
+		</Diamond>
+		<Pearl>
+			<en>It loves crossing the sea with people and Pokémon on its back. It understands human speech.</en>
+			<de>Es liebt es, das Meer mit PKMN und Menschen auf dem Rücken zu über- queren. Es versteht die Menschen.</de>
+		</Pearl>
+		<Platinum>
+			<en>It loves crossing the sea with people and Pokémon on its back. It understands human speech.</en>
+			<de>Es liebt es, das Meer mit PKMN und Menschen auf dem Rücken zu überqueren. Es versteht die Menschen.</de>
+		</Platinum>
+		<HeartGold>
+			<en>They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled.</en>
+			<de>Es liebt es, das Meer mit PKMN und Menschen auf dem Rücken zu über- queren. Es versteht die Menschen.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.</en>
+			<de>Es liebt es, das Meer mit PKMN und Menschen auf dem Rücken zu über- queren. Es versteht die Menschen.</de>
+		</SoulSilver>
+		<Black>
+			<en>It loves crossing the sea with people and Pokémon on its back. It understands human speech.</en>
+			<de>Es liebt es, das Meer mit Pokémon und Menschen auf dem Rücken zu überqueren. Es versteht die Menschen.</de>
+		</Black>
+		<White>
+			<en>It loves crossing the sea with people and Pokémon on its back. It understands human speech.</en>
+			<de>Es liebt es, das Meer mit Pokémon und Menschen auf dem Rücken zu überqueren. Es versteht die Menschen.</de>
+		</White>
+		<Black_2>
+			<en>Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.</en>
+			<de>Ein schlaues Pokémon, das die Sprache der Menschen versteht und ihnen liebend gern seine Fährdienste anbietet.</de>
+		</Black_2>
+		<White_2>
+			<en>Able to understand human speech and very intelligent, it loves to swim in the sea with people on its back.</en>
+			<de>Ein schlaues Pokémon, das die Sprache der Menschen versteht und ihnen liebend gern seine Fährdienste anbietet.</de>
+		</White_2>
+		<X>
+			<en>They have gentle hearts. Because they rarely fight, many have been caught. Their number has dwindled.</en>
+			<de>Sie sind gutmütig. Da sie selten kämpfen, wurden sie oft gefangen. Ihre Anzahl ist stark reduziert.</de>
+		</X>
+		<Y>
+			<en>Its high intelligence enables it to understand human speech. It likes to ferry people on its back.</en>
+			<de>Aufgrund seiner hohen Intelligenz kann es die menschliche Sprache verstehen. Es mag es, Menschen auf seinem Rücken zu transportieren.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.</en>
+			<de>Die Menschen sind dafür verantwortlich, dass Lapras fast ausgestorben wäre. Abends singt es traurige Klagelieder, da nur noch wenige seiner Artgenossen übrig sind.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.</en>
+			<de>Die Menschen sind dafür verantwortlich, dass Lapras fast ausgestorben wäre. Abends singt es traurige Klagelieder, da nur noch wenige seiner Artgenossen übrig sind.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>Its high intelligence enables it to comprehend human speech. When it's in a good mood, it sings in its beautiful voice.</en>
+			<de>Aufgrund seiner hohen Intelligenz kann es die menschliche Sprache verstehen. Ist es gut gelaunt, singt es mit wunderschöner Stimme.</de>
+		</Sun>
+		<Moon>
+			<en>These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.</en>
+			<de>Es wäre einst durch übermäßiges Fischen fast ausgestorben. Durch ein strenges Abkommen zum Artenschutz gibt es nun fast zu viele</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It likes swimming around with people on its back. In the Alola region, it’s an important means of transportation over water.</en>
+			<de>Da es liebend gerne beim Schwimmen Menschen auf seinem Rücken trägt, gilt es in Alola als bedeutendes Transportmittel.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>They’ve been so cherished that there’s now an overabundance. The fish Pokémon population has declined in waters with too many Lapras.</en>
+			<de>Aufgrund eines Artenschutzabkommens gibt es nun zu viele Lapras. In den betroffenen Meeren sinkt daher das Vorkommen von Fisch-Pokémon.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>2</item>
+			<item>3</item>
+		</speed>
+		<power>
+			<item>3</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>4</item>
+		</skill>
+		<jump>
+			<item>3</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>100</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Freeze-Dry</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Freeze-Dry</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Freeze-Dry</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Ice Shard</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Sheer Cold</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Freeze-Dry</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

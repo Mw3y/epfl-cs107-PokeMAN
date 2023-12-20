@@ -1,0 +1,2755 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Drackhaus</fr>
+		<de>Draschel</de>
+		<it>Shelgon</it>
+		<en>Shelgon</en>
+	</names>
+	<national_id>372</national_id>
+	<types>
+		<item>Dragon</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Rock Head</name>
+		</item>
+		<item>
+			<name>Overcoat</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Dragon</item>
+	</egg_groups>
+	<hatch_time>
+		<item>10455</item>
+		<item>10709</item>
+	</hatch_time>
+	<height_us>3'07&quot;</height_us>
+	<height_eu>1.1 m</height_eu>
+	<weight_us>243.6 lbs.</weight_us>
+	<weight_eu>110.5 kg</weight_eu>
+	<base_exp_yield>147</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>2</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>White</color>
+	<base_friendship>35</base_friendship>
+	<base_stats>
+		<hp>65</hp>
+		<atk>95</atk>
+		<def>100</def>
+		<sp_atk>60</sp_atk>
+		<sp_def>50</sp_def>
+		<speed>50</speed>
+	</base_stats>
+	<evolution_from>Bagon</evolution_from>
+	<evolutions>
+		<item>
+			<to>Salamence</to>
+			<level>50</level>
+		</item>
+	</evolutions>
+	<alola_id>118</alola_id>
+	<categories>
+		<en>Endurance Pokémon</en>
+		<de>Durchsteher</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id>197</hoenn_id>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>15</kalos_id>
+	<mega_evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Ruby>
+			<en>Inside Shelgon's armor-like shell, cells are in the midst of transformation to create an entirely new body. This Pokémon's shell is extremely heavy, making its movements sluggish.</en>
+			<de>In Draschels panzerartiger Schale vollziehen seine Zellen eine Transformation, um einen völlig neuen Körper zu bilden. Die Schale dieses Pokémon ist ausgesprochen schwer, so dass seine Bewegungen träge wirken.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Covering Shelgon's body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this Pokémon hides away in a cavern.</en>
+			<de>Auf Draschels Körper befinden sich knochenähnliche Auswüchse. Sein Panzer ist sehr hart und wehrt jeden Angriff eines Gegners ab. Während es auf seine Entwicklung wartet, versteckt es sich in einer Höhle.</de>
+		</Sapphire>
+		<Emerald>
+			<en>It hardly eats while it awaits evolution. It becomes hardier by enduring hunger. Its shell peels off the instant it begins to evolve.</en>
+			<de>Es isst kaum, wenn es sich auf seine Entwicklung vorbereitet. Dadurch wird es noch zäher. Bei der Entwicklung wird die Haut sofort abgestreift.</de>
+		</Emerald>
+		<FireRed>
+			<en>Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.</en>
+			<de>Von seinem gepanzerten Körper prallen alle Angriffe ab. Die Panzerung ist jedoch zu hart, so dass es schwer und zu träge ist.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.</en>
+			<de>Von seinem gepanzerten Körper prallen alle Angriffe ab. Die Panzerung ist jedoch zu hart, so dass es schwer und zu träge ist.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt.</de>
+		</Diamond>
+		<Pearl>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt.</de>
+		</Pearl>
+		<Platinum>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It surrounds its body in an iron-hard shell to accumulate enough power to evolve.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>It surrounds its body in an iron-hard shell to accumulate enough power to evolve.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das PKMN entwickelt.</de>
+		</SoulSilver>
+		<Black>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das Pokémon entwickelt.</de>
+		</Black>
+		<White>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das Pokémon entwickelt.</de>
+		</White>
+		<Black_2>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das Pokémon entwickelt.</de>
+		</Black_2>
+		<White_2>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das Pokémon entwickelt.</de>
+		</White_2>
+		<X>
+			<en>Within its rugged shell, its cells have begun changing. The shell peels off the instant it evolves.</en>
+			<de>Die Zellen seines Panzers fingen an, sich zu verändern. Er fällt ab, sobald sich das Pokémon entwickelt.</de>
+		</X>
+		<Y>
+			<en>Its armored body makes all attacks bounce off. The armor is too tough, however, making it heavy and somewhat sluggish.</en>
+			<de>Von seinem gepanzerten Körper prallen alle Angriffe ab. Die Panzerung ist jedoch zu hart, sodass es schwer und träge ist.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Inside Shelgon’s armor-like shell, cells are in the midst of transformation to create an entirely new body. This Pokémon’s shell is extremely heavy, making its movements sluggish.</en>
+			<de>In Draschels panzerartiger Schale vollziehen seine Zellen eine Transformation, um einen völlig neuen Körper zu bilden. Die Schale dieses Pokémon ist ausgesprochen schwer, sodass seine Bewegungen träge wirken.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Covering Shelgon’s body are outgrowths much like bones. The shell is very hard and bounces off enemy attacks. When awaiting evolution, this Pokémon hides away in a cavern.</en>
+			<de>Auf Draschels Körper befinden sich knochenähnliche Auswüchse. Sein Panzer ist sehr hart und wehrt jeden Angriff eines Gegners ab. Während es auf seine Entwicklung wartet, versteckt es sich in einer Höhle.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>The cells within its shell transform with explosive speed, preparing it for evolution.</en>
+			<de>In Draschels Schale vollziehen seine Zellen in Vorbereitung auf seine Entwicklung eine explosionsartige Transformation.</de>
+		</Sun>
+		<Moon>
+			<en>They lurk deep within caves—motionless, neither eating nor drinking. Why they don't die is not known.</en>
+			<de>Es hält sich in den Tiefen einer Höhle versteckt, wo es weder trinkt noch isst. Niemand weiß so recht, wie es eigentlich überleben kann.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>The cells within its body are changing at a bewildering pace. Its hard shell is made from the same substance as bone.</en>
+			<de>Die Zellen in seinem Körper sind in ständigem, rasantem Wandel begriffen. Seine Schale besteht aus derselben Substanz wie Knochen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly.</en>
+			<de>Es lebt tief im Inneren von Höhlen. Von seiner harten Schale umgeben träumt es von dem Tag, an dem es am Himmel fliegt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>2</item>
+			<item>2</item>
+		</speed>
+		<power>
+			<item>4</item>
+			<item>5</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>1</item>
+			<item>2</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>2</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>148</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>69</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>78</level>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>69</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>78</level>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>69</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>78</level>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Dragon Breath</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Rush</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dragon Claw</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

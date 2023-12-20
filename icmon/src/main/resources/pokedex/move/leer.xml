@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">43</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Skule</dk>
+		<fr type="str">Groz'Yeux</fr>
+		<de type="str">Silberblick</de>
+		<gr type="str">Λοξοκοίταγμα</gr>
+		<it type="str">Fulmisguardo</it>
+		<pl type="str">Spojrzenie</pl>
+		<en type="str">Leer</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Reduces the foe's DEFENSE.</en>
+			<de type="str">Senkt VERT-Wert des Gegners.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Reduces the foe's DEFENSE.</en>
+			<de type="str">Senkt VERT-Wert des Gegners.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Reduces the foe's DEFENSE.</en>
+			<de type="str">Senkt VERT-Wert des Gegners.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Frightens the foe with a leer to lower DEFENSE.</en>
+			<de type="str">Gegners VERT.-Wert wird durch Blick gesenkt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Frightens the foe with a leer to lower DEFENSE.</en>
+			<de type="str">Gegners VERT.-Wert wird durch Blick gesenkt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Frightens the foe with a leer to lower DEFENSE.</en>
+			<de type="str">Gegners VERT.-Wert wird durch Blick gesenkt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is given an intimidating look that lowers its DEFENSE stat.</en>
+			<de type="str">Gegnerischer VERT.-Wert wird durch Angst einflößenden Blick gesenkt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is given an intimidating look that lowers its DEFENSE stat.</en>
+			<de type="str">Gegnerischer VERT.-Wert wird durch Angst einflößenden Blick gesenkt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is given an intimidating leer with sharp eyes. The target’s Defense stat is reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch Angst einflößenden Blick gesenkt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is given an intimidating leer with sharp eyes. The target’s Defense stat is reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch Angst einflößenden Blick gesenkt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is given an intimidating leer with sharp eyes. The target’s Defense stat is reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch Angst einflößenden Blick gesenkt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is given an intimidating leer with sharp eyes. The target’s Defense stat is reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch Angst einflößenden Blick gesenkt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is given an intimidating leer with sharp eyes. The target’s Defense stat is reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch Angst einflößenden Blick gesenkt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The opposing team gains an intimidating leer with sharp eyes. The opposing team’s Defense stats are reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The opposing team gains an intimidating leer with sharp eyes. The opposing team’s Defense stats are reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user gains an intimidating leer with sharp eyes. The opposing team’s Defense stats are reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user gains an intimidating leer with sharp eyes. The opposing team’s Defense stats are reduced.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user gives opposing Pokémon an intimidating leer that lowers the Defense stat.</en>
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Gegnerischer Verteidigungs-Wert wird durch angsteinflößenden Blick gesenkt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

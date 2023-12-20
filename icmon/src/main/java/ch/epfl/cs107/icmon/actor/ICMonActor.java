@@ -35,6 +35,8 @@ public abstract class ICMonActor extends MovableAreaEntity implements Interactab
      * @param position (DiscreteCoordinates): initial position, not null.
      */
     public void enterArea(Area area, DiscreteCoordinates position) {
+        assert area != null;
+        assert position != null;
         area.registerActor(this);
         area.setViewCandidate(this);
         setOwnerArea(area);

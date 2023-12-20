@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Floral Healing</en>
+		<fr type="str">Soin Floral</fr>
+		<de type="str">Florakur</de>
+		<it type="str">Cura Floreale</it>
+		<es type="str">Cura Floral</es>
+	</names>
+	<index_number type="int">666</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Fairy</type>
+	<category type="str">status</category>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user restores the target’s HP by up to half of its max HP. It restores more HP when the terrain is grass.</en>
+			<de type="str">KP des Zieles werden um 50 % der maximalen KP aufgefüllt. Die Wirkung steigt, wenn der Untergrund in ein Grasfeld verwandelt wurde.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user restores the target’s HP by up to half of its max HP. It restores more HP when the terrain is grass.</en>
+			<de type="str">KP des Zieles werden um 50 % der maximalen KP aufgefüllt. Die Wirkung steigt, wenn der Untergrund in ein Grasfeld verwandelt wurde.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user restores the target’s HP by up to half of its max HP. It restores more HP when the terrain is grass.</en>
+			<de type="str">KP des Zieles werden um 50 % der maximalen KP aufgefüllt. Die Wirkung steigt, wenn der Untergrund in ein Grasfeld verwandelt wurde.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user restores the target’s HP by up to half of its max HP. It restores more HP when the terrain is grass.</en>
+			<de type="str">KP des Zieles werden um 50 % der maximalen KP aufgefüllt. Die Wirkung steigt, wenn der Untergrund in ein Grasfeld verwandelt wurde.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

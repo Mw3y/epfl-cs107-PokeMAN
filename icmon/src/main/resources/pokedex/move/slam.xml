@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">21</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">75</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Smæld</dk>
+		<fr type="str">Souplesse</fr>
+		<de type="str">Slam</de>
+		<gr type="str">Κρότος</gr>
+		<it type="str">Schianto</it>
+		<pl type="str">Klaps</pl>
+		<tr type="str">Çarpma</tr>
+		<en type="str">Slam</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Slams the foe with a tail, vine, etc.</en>
+			<de type="str">Trifft Gegner mit Schwanz, Ranke…</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Slams the foe with a tail, vine, etc.</en>
+			<de type="str">Trifft Gegner mit Schwanz, Ranke…</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Slams the foe with a tail, vine, etc.</en>
+			<de type="str">Trifft Gegner mit Schwanz, Ranke…</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Slams the foe with a long tail, vine, etc.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke o. ä.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Slams the foe with a long tail, vine, etc.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke o. ä.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Slams the foe with a long tail, vine, etc.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke o. ä.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is struck with a long tail, vines, etc.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke o. Ä.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is struck with a long tail, vines, etc.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke o. Ä.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is slammed with a long tail, vines, etc., to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is slammed with a long tail, vines, or the like to inflict damage.</en>
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Schlag mit einem langen Schweif, einer Ranke oder Ähnlichem.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

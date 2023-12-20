@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">108</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Kouřová clona</cz>
+		<dk type="str">Røgslør</dk>
+		<fr type="str">Brouillard</fr>
+		<de type="str">Rauchwolke</de>
+		<gr type="str">Καπνογόνο</gr>
+		<it type="str">Muro di Fumo</it>
+		<pl type="str">Zasłona dymna (Original series)  Ściana Dymu (Diamond and Pearl onwards)</pl>
+		<en type="str">Smokescreen</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">accuracy</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Lowers the foe's accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Lowers the foe's accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Lowers the foe's accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Lowers the foe’s accuracy using smoke, ink, etc.</en>
+			<de type="str">Senkt Genauigkeit d. Gegners mit Rauch, Tinte o. ä.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Lowers the foe’s accuracy using smoke, ink, etc.</en>
+			<de type="str">Senkt Genauigkeit d. Gegners mit Rauch, Tinte o. ä.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Lowers the foe’s accuracy using smoke, ink, etc.</en>
+			<de type="str">Senkt Genauigkeit d. Gegners mit Rauch, Tinte o. ä.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An obscuring cloud of smoke or ink reduces the foe’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners mit Rauch, Tinte oder Ähnlichem.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An obscuring cloud of smoke or ink reduces the foe’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners mit Rauch, Tinte oder Ähnlichem.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the foe’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners mit Rauch, Tinte oder Ähnlichem.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the foe’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners mit Rauch, Tinte oder Ähnlichem.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the foe’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners mit Rauch, Tinte oder Ähnlichem.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the foe’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners mit Rauch, Tinte oder Ähnlichem.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the foe’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Gegners mit Rauch, Tinte oder Ähnlichem.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. It reduces the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user releases an obscuring cloud of smoke or ink. This lowers the target’s accuracy.</en>
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Senkt Genauigkeit des Zieles mit Rauch, Tinte oder Ähnlichem.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">184</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Grimace</fr>
+		<de type="str">Grimasse</de>
+		<gr type="str">Τρομακτικός Μορφασμός</gr>
+		<it type="str">Visotruce</it>
+		<pl type="str">Maszkaron</pl>
+		<en type="str">Scary Face</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">-2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Sharply reduces the foe's SPEED.</en>
+			<de type="str">Senkt INIT-Wert des Gegners enorm.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Sharply reduces the foe's SPEED.</en>
+			<de type="str">Senkt INIT-Wert des Gegners enorm.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Sharply reduces the foe's SPEED.</en>
+			<de type="str">Senkt INIT-Wert des Gegners enorm.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Frightens with a scary face to sharply reduce SPEED.</en>
+			<de type="str">Erschreckt mit Grimasse. INIT.-Wert sinkt deutlich.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Frightens with a scary face to sharply reduce SPEED.</en>
+			<de type="str">Erschreckt mit Grimasse. INIT.-Wert sinkt deutlich.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Frightens with a scary face to sharply reduce SPEED.</en>
+			<de type="str">Erschreckt mit Grimasse. INIT.-Wert sinkt deutlich.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Frightens the foe with a scary face to sharply reduce its SPEED.</en>
+			<de type="str">Erschreckt Gegner mit einer Grimasse. Der INIT.-Wert sinkt deutlich.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Frightens the foe with a scary face to sharply reduce its SPEED.</en>
+			<de type="str">Erschreckt Gegner mit einer Grimasse. Der INIT.-Wert sinkt deutlich.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user frightens the foe with a scary face to sharply reduce its Speed stat.</en>
+			<de type="str">Erschreckt Gegner mit einer Grimasse. Der Initiative-Wert sinkt deutlich.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user frightens the foe with a scary face to sharply reduce its Speed stat.</en>
+			<de type="str">Erschreckt Gegner mit einer Grimasse. Der Initiative-Wert sinkt deutlich.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user frightens the foe with a scary face to sharply reduce its Speed stat.</en>
+			<de type="str">Erschreckt Gegner mit einer Grimasse. Der Initiative-Wert sinkt deutlich.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user frightens the foe with a scary face to sharply reduce its Speed stat.</en>
+			<de type="str">Erschreckt Gegner mit einer Grimasse. Der Initiative-Wert sinkt deutlich.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user frightens the foe with a scary face to sharply reduce its Speed stat.</en>
+			<de type="str">Erschreckt Gegner mit einer Grimasse. Der Initiative-Wert sinkt deutlich.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly reduce its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly reduce its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly reduce its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly reduce its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user frightens the target with a scary face to harshly lower its Speed stat.</en>
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Jagt dem Ziel mit einer Grimasse Angst ein. Dessen Initiative-Wert sinkt stark.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

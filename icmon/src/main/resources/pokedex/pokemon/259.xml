@@ -1,0 +1,3077 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Flobio</fr>
+		<de>Moorabbel</de>
+		<it>Marshtomp</it>
+		<en>Marshtomp</en>
+	</names>
+	<national_id>259</national_id>
+	<types>
+		<item>Water</item>
+		<item>Ground</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Torrent</name>
+		</item>
+		<item>
+			<name>Damp</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>87.5</male>
+		<female>12.5</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Monster</item>
+		<item>Water 1</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>2'04&quot;</height_us>
+	<height_eu>0.7 m</height_eu>
+	<weight_us>61.7 lbs.</weight_us>
+	<weight_eu>28.0 kg</weight_eu>
+	<base_exp_yield>142</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>2</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Blue</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>70</hp>
+		<atk>85</atk>
+		<def>70</def>
+		<sp_atk>60</sp_atk>
+		<sp_def>70</sp_def>
+		<speed>50</speed>
+	</base_stats>
+	<evolution_from>Mudkip</evolution_from>
+	<evolutions>
+		<item>
+			<to>Swampert</to>
+			<level>36</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Mud Fish Pokémon</en>
+		<de>Lehmhüpfer</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id>8</hoenn_id>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<alola_id/>
+	<mega_evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Ruby>
+			<en>The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches when the ocean tide is low.</en>
+			<de>Moorabbels Körper ist mit einem klebrigen Film überzogen, durch den es an Land überleben kann. Dieses Pokémon spielt bei Ebbe in den Schlammpfützen am Strand.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Marshtomp is much faster at traveling through mud than it is at swimming. This Pokémon's hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.</en>
+			<de>Moorabbel kommt im Schlamm besser voran als im Wasser. Das Hinterteil dieses Pokémon ist gut entwickelt, so dass es auf seinen Hinterbeinen laufen kann.</de>
+		</Sapphire>
+		<Emerald>
+			<en>Its toughened hind legs enable it to stand upright. Because it weakens if its skin dries out, it replenishes fluids by playing in mud.</en>
+			<de>Seine starken Hinterbeine ermöglichen es ihm, aufrecht zu stehen. Da das Aus trocknen seiner Haut eine Schwächung bedeutet, spielt es gerne im Schlamm.</de>
+		</Emerald>
+		<FireRed>
+			<en>It is at its best when on muddy ground with poor footing. It quickly overwhelms foes struggling in mud.</en>
+			<de>Auf instabilem Untergrund, wo Füße keinen Halt finden, fühlt es sich am wohlsten. Schnell überwältigt es Gegner, die im Schlamm stecken.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>It is at its best when on muddy ground with poor footing. It quickly overwhelms foes struggling in mud.</en>
+			<de>Auf instabilem Untergrund, wo Füße keinen Halt finden, fühlt es sich am wohlsten. Schnell überwältigt es Gegner, die im Schlamm stecken.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</Diamond>
+		<Pearl>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</Pearl>
+		<Platinum>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</Platinum>
+		<HeartGold>
+			<en>Living on muddy ground that provides poor footing has made its legs sturdy.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Living on muddy ground that provides poor footing has made its legs sturdy.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</SoulSilver>
+		<Black>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</Black>
+		<White>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</White>
+		<Black_2>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</Black_2>
+		<White_2>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</White_2>
+		<X>
+			<en>Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.</en>
+			<de>Seine kräftigen Beine geben ihm sicheren Halt. Es gräbt sich in Dreck ein, wenn es schlafen will.</de>
+		</X>
+		<Y>
+			<en>Living on muddy ground that provides poor footing has made its legs sturdy.</en>
+			<de>Der zähe Morast seiner Heimat hat seine Beine gestählt und ihnen gewaltige Kraft verliehen.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>The surface of Marshtomp’s body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches when the ocean tide is low.</en>
+			<de>Moorabbels Körper ist mit einem klebrigen Film überzogen, durch den es an Land überleben kann. Dieses Pokémon spielt bei Ebbe in den Schlammpfützen am Strand.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Marshtomp is much faster at traveling through mud than it is at swimming. This Pokémon’s hindquarters exhibit obvious development, giving it the ability to walk on just its hind legs.</en>
+			<de>Moorabbel kommt im Schlamm besser voran als im Wasser. Das Hinterteil dieses Pokémon ist gut entwickelt, sodass es auf seinen Hinterbeinen laufen kann.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>2</item>
+			<item>3</item>
+		</speed>
+		<power>
+			<item>4</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>4</item>
+		</skill>
+		<jump>
+			<item>3</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Sport</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Sport</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Sport</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Uproar</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Yawn</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

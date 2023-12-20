@@ -1,0 +1,4217 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Noadkoko</fr>
+		<de>Kokowei</de>
+		<it>Exeggutor</it>
+		<en>Exeggutor</en>
+	</names>
+	<national_id>103</national_id>
+	<types>
+		<item>Grass</item>
+		<item>Psychic</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Chlorophyll</name>
+		</item>
+		<item>
+			<name>Harvest</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Grass</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>6'07&quot;</height_us>
+	<height_eu>2.0 m</height_eu>
+	<weight_us>264.6 lbs.</weight_us>
+	<weight_eu>120.0 kg</weight_eu>
+	<base_exp_yield>182</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>2</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>95</hp>
+		<atk>95</atk>
+		<def>85</def>
+		<sp_atk>125</sp_atk>
+		<sp_def>65</sp_def>
+		<speed>55</speed>
+	</base_stats>
+	<evolution_from>Exeggcute</evolution_from>
+	<alola_id>270</alola_id>
+	<categories>
+		<en>Coconut Pokémon</en>
+		<de>Palmfrucht</de>
+	</categories>
+	<kanto_id>103</kanto_id>
+	<johto_id>106</johto_id>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>137</kalos_id>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations>
+		<item>
+			<condition>Alola</condition>
+			<image_suffix>alola</image_suffix>
+			<names>
+				<en>Alolan Exeggutor</en>
+				<de>Alola-Kokowei</de>
+			</names>
+			<types>
+				<item>Grass</item>
+				<item>Dragon</item>
+			</types>
+			<abilities>
+				<item>
+					<name>Frisk</name>
+				</item>
+				<item>
+					<name>Harvest</name>
+					<hidden>true</hidden>
+				</item>
+			</abilities>
+			<base_stats>
+				<hp>95</hp>
+				<atk>105</atk>
+				<def>85</def>
+				<sp_atk>125</sp_atk>
+				<sp_def>75</sp_def>
+				<speed>45</speed>
+			</base_stats>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Red>
+			<en>Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.</en>
+			<de>In seltenen Fällen spaltet sich ein Teil dieses Pokémon ab und lebt als Owei weiter.</de>
+		</Red>
+		<Blue>
+			<en>Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.</en>
+			<de>In seltenen Fällen spaltet sich ein Teil dieses Pokémon ab und lebt als Owei weiter.</de>
+		</Blue>
+		<Yellow>
+			<en>Its cries are very noisy. This is because each of the three heads thinks about whatever it likes.</en>
+			<de>Der Schrei dieses Pokémon ist ohrenbetäubend. Die drei Köpfe schreien wild durcheinander.</de>
+		</Yellow>
+		<Gold>
+			<en>Its three heads think independently. However, they are friendly and never appear to squabble.</en>
+			<de>Seine drei Köpfe denken unabhängig voneinander. Dennoch sind sie nett zueinander und streiten nie.</de>
+		</Gold>
+		<Silver>
+			<en>If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster.</en>
+			<de>Fällt einer de Köpfe ab, sendet er Telepathiewellen aus, um mit anderen Owei eine Gruppe zu bilden.</de>
+		</Silver>
+		<Crystal>
+			<en>Living in a good environment makes it grow lots of heads. A head that drops off becomes an Exeggcute.</en>
+			<de>Fühlt es sich wohl, wachsen ihm Köpfe. Fällt ein Kopf zu Boden, wird daraus ein Owei.</de>
+		</Crystal>
+		<Ruby>
+			<en>Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.</en>
+			<de>Kokowei stammt ursprünglich aus den Tropen. Seine Köpfe wachsen stetig, wenn es starkem Sonnenlicht ausgesetzt ist. Wenn seine Köpfe abfallen, bilden sie zusammen ein Owei.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.</en>
+			<de>Kokowei stammt ursprünglich aus den Tropen. Seine Köpfe wachsen stetig, wenn es starkem Sonnenlicht ausgesetzt ist. Wenn seine Köpfe abfallen, bilden sie zusammen ein Owei.</de>
+		</Sapphire>
+		<Emerald>
+			<en>Originally from the tropics, Exeggutor's heads grow larger from exposure to strong sunlight. It is said that when the heads fall, they group to form an Exeggcute.</en>
+			<de>KOKOWEI stammt ursprünglich aus den Tro pen. Seine Köpfe wachsen stetig, wenn es Sonnenlicht ausgesetzt ist. Fallen seine Köpfe ab, bilden sie zusammen ein OWEI.</de>
+		</Emerald>
+		<FireRed>
+			<en>It is called &quot;The Walking Tropical Rainforest.&quot; Each of the nuts has a face and will of its own.</en>
+			<de>Man nennt es &quot;Wandelnder Regenwald&quot;. Jede der Nüsse hat ein eigenes Gesicht und einen eigenen Willen.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.</en>
+			<de>In seltenen Fällen spaltet sich ein Teil dieses Pokémon ab und lebt als Owei weiter.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den “Laufenden Dschungel”. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI.</de>
+		</Diamond>
+		<Pearl>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den “Laufenden Dschungel”. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI.</de>
+		</Pearl>
+		<Platinum>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den Laufenden Dschungel. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI.</de>
+		</Platinum>
+		<HeartGold>
+			<en>Its three heads think independently. However, they are friendly and never appear to squabble.</en>
+			<de>Man nennt es den “Laufenden Dschungel”. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>If a head drops off, it emits a telepathic call in search of others to form an Exeggcute cluster.</en>
+			<de>Man nennt es den “Laufenden Dschungel”. Wird ein Kopf zu groß, fällt er ab und wird zu einem OWEI.</de>
+		</SoulSilver>
+		<Black>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem Owei.</de>
+		</Black>
+		<White>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem Owei.</de>
+		</White>
+		<Black_2>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem Owei.</de>
+		</Black_2>
+		<White_2>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem Owei.</de>
+		</White_2>
+		<X>
+			<en>Its three heads think independently. However, they are friendly and never appear to squabble.</en>
+			<de>Seine drei Köpfe denken unabhängig voneinander. Dennoch sind sie nett zueinander und streiten nie.</de>
+		</X>
+		<Y>
+			<en>It is called &quot;The Walking Jungle.&quot; If a head grows too big, it falls off and becomes an Exeggcute.</en>
+			<de>Man nennt es den „Laufenden Dschungel“. Wird ein Kopf zu groß, fällt er ab und wird zu einem Owei.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.</en>
+			<de>Kokowei stammt ursprünglich aus den Tropen. Seine Köpfe wachsen stetig, wenn es starkem Sonnenlicht ausgesetzt ist. Wenn seine Köpfe abfallen, bilden sie zusammen ein Owei.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.</en>
+			<de>Kokowei stammt ursprünglich aus den Tropen. Seine Köpfe wachsen stetig, wenn es starkem Sonnenlicht ausgesetzt ist. Wenn seine Köpfe abfallen, bilden sie zusammen ein Owei.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>Each of its heads has its own will. They use telepathy to discuss their plans before coming to a joint decision.</en>
+			<de>Jeder seiner Köpfe hat einen eigenen Willen. Sie kommunizieren telepathisch miteinander, um gemeinsam Entscheidungen zu treffen.</de>
+		</Sun>
+		<Moon>
+			<en>When the time comes, one of its three heads falls off. Before long, the fallen head grows into an Exeggcute.</en>
+			<de>Zu einer bestimmten Jahreszeit fällt einer seiner drei Köpfe ab. Dieser wird schließlich zu einem neuen Owei.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It engages its enemies using psychic powers. Each of its three heads fires off psychokinetic energy, tripling its power.</en>
+			<de>Alola-Form: Alola-Kokowei ist der ganze Stolz der Einwohner Alolas. Deshalb ziert sein Abbild auch sehr viele geschichtsträchtige Gemälde und Gebäude.
+Standard-Form: Gegen Feinde setzt es Psycho-Kräfte ein. Seine drei Köpfe greifen unabhängig voneinander an, wodurch sich der Gesamtangriff verdreifacht.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Each of its three heads has its own thoughts. When they want to go in different directions, Exeggutor becomes unable to move.</en>
+			<de>Alola-Form: Es greift mit seinen harten Köpfen an, indem es seinen langen Hals wie eine Peitsche schwingt. Dabei wird ihm jedoch leicht schwindlig.
+Standard-Form: Jeder seiner drei Köpfe hat einen eigenen Willen. Können sie sich nicht auf eine Richtung einigen, bleibt es wie angewurzelt auf der Stelle stehen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>2</item>
+			<item>3</item>
+		</speed>
+		<power>
+			<item>3</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>4</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>3</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>103</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Self-Destruct</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Self-Destruct</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dragon Hammer</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>1</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Barrage</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dragon Hammer</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Egg Bomb</move>
+					<level>27</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<level>37</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lucky Chant</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Exeggutor</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

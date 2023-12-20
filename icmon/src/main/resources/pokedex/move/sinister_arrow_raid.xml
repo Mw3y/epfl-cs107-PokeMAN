@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Sinister Arrow Raid</en>
+		<fr type="str">Fureur des Plumes Spectrales</fr>
+		<de type="str">Schatten-Pfeilregen</de>
+		<it type="str">Dardoassalto Spettrale</it>
+		<es type="str">Aluvión de Flechas Sombrías</es>
+	</names>
+	<index_number type="int">695</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Ghost</type>
+	<category type="str">physical</category>
+	<pp type="int">0</pp>
+	<max_pp type="int">0</max_pp>
+	<power type="int">180</power>
+	<accuracy type="int">0</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.</en>
+			<de type="str">Silvarro stellt mit Z-Kraft unzählige Pfeile her und lässt diese auf das Ziel niederprasseln.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.</en>
+			<de type="str">Silvarro stellt mit Z-Kraft unzählige Pfeile her und lässt diese auf das Ziel niederprasseln.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.</en>
+			<de type="str">Silvarro stellt mit Z-Kraft unzählige Pfeile her und lässt diese auf das Ziel niederprasseln.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user, Decidueye, creates countless arrows using its Z-Power and shoots the target with full force.</en>
+			<de type="str">Silvarro stellt mit Z-Kraft unzählige Pfeile her und lässt diese auf das Ziel niederprasseln.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

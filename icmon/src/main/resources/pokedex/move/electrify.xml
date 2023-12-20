@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">582</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Électrisation</fr>
+		<de type="str">Elektrifizierung</de>
+		<it type="str">Elettrocontagio</it>
+		<en type="str">Electrify</en>
+	</names>
+	<type type="str">Electric</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">If the target is electrified before it uses a move during that turn, the target’s move becomes Electric type.</en>
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Kommt die Attacke zum Einsatz, bevor das Ziel seine Attacke ausführt, nimmt diese für die Dauer dieser Runde den Typ Elektro an.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

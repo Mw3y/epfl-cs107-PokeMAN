@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">125</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">65</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Knoglekølle</dk>
+		<fr type="str">Massd'os</fr>
+		<de type="str">Knochenkeule</de>
+		<gr type="str">Οστέϊνο Ρόπαλο</gr>
+		<it type="str">Ossoclava</it>
+		<pl type="str">Atak Kości</pl>
+		<en type="str">Bone Club</en>
+	</names>
+	<type type="str">Ground</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may cause flinching.</en>
+			<de type="str">Gegner muss evtl. ausweichen.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may cause flinching.</en>
+			<de type="str">Gegner muss evtl. ausweichen.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may cause flinching.</en>
+			<de type="str">Gegner schreckt evtl. zurück.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Clubs the foe with a bone. May cause flinching.</en>
+			<de type="str">Schlägt Gegner mit Keule und verschreckt ihn evtl.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Clubs the foe with a bone. May cause flinching.</en>
+			<de type="str">Schlägt Gegner mit Keule und verschreckt ihn evtl.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Clubs the foe with a bone. May cause flinching.</en>
+			<de type="str">Schlägt Gegner mit Keule und verschreckt ihn evtl.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is clubbed with a bone held in hand. It may make the foe flinch.</en>
+			<de type="str">Schlägt Gegner mit einer Keule und verschreckt ihn evtl.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is clubbed with a bone held in hand. It may make the foe flinch.</en>
+			<de type="str">Schlägt Gegner mit einer Keule und verschreckt ihn evtl.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user clubs the foe with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt Gegner mit einer Keule und verschreckt ihn eventuell.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user clubs the foe with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt Gegner mit einer Keule und verschreckt ihn eventuell.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user clubs the foe with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt Gegner mit einer Keule und verschreckt ihn eventuell.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user clubs the foe with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt Gegner mit einer Keule und verschreckt ihn eventuell.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user clubs the foe with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt Gegner mit einer Keule und verschreckt ihn eventuell.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user clubs the target with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und verschreckt es eventuell.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user clubs the target with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und verschreckt es eventuell.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user clubs the target with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und verschreckt es eventuell.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user clubs the target with a bone. It may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und verschreckt es eventuell.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user clubs the target with a bone. This may also make the target flinch.</en>
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Schlägt das Ziel mit einer Keule und lässt es eventuell zurückschrecken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

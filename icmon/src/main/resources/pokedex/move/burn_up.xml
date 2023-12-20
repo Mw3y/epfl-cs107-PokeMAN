@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Burn Up</en>
+		<fr type="str">Flamme Ultime</fr>
+		<de type="str">Ausbrennen</de>
+		<it type="str">Ultima Fiamma</it>
+		<es type="str">Llama Final</es>
+	</names>
+	<index_number type="int">682</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Fire</type>
+	<category type="str">special</category>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">130</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.</en>
+			<de type="str">Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.</en>
+			<de type="str">Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.</en>
+			<de type="str">Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.</en>
+			<de type="str">Der Anwender nutzt das gesamte Feuer in seinem Körper, um großen Schaden auszuteilen. Die restliche Kampfdauer gehört er nicht mehr dem Typ Feuer an.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

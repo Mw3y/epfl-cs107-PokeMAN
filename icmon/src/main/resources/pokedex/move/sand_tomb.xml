@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">328</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">35</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Tourbi-Sable</fr>
+		<de type="str">Sandgrab</de>
+		<gr type="str">Αμμόλακος</gr>
+		<it type="str">Sabbiotomba</it>
+		<pl type="str">Piaskowy Grób</pl>
+		<en type="str">Sand Tomb</en>
+	</names>
+	<type type="str">Ground</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Traps and hurts the foe in quicksand for 2 to 5 turns.</en>
+			<de type="str">Gegner leidet für 2-5 Runden in Sandhose.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Traps and hurts the foe in quicksand for 2 to 5 turns.</en>
+			<de type="str">Gegner leidet für 2-5 Runden in Sandhose.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Traps and hurts the foe in quicksand for 2 to 5 turns.</en>
+			<de type="str">Gegner leidet für 2-5 Runden in Sandhose.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is trapped inside a painful sandstorm for two to five turns.</en>
+			<de type="str">Gegner leidet für 2 - 5 Runden in Sandhose.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is trapped inside a painful sandstorm for two to five turns.</en>
+			<de type="str">Gegner leidet für 2 - 5 Runden in Sandhose.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user traps the foe inside a harshly raging sandstorm for two to five turns.</en>
+			<de type="str">Gegner leidet für zwei bis fünf Runden in Sandhose.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user traps the foe inside a harshly raging sandstorm for two to five turns.</en>
+			<de type="str">Gegner leidet für zwei bis fünf Runden in Sandhose.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user traps the foe inside a harshly raging sandstorm for two to five turns.</en>
+			<de type="str">Gegner leidet für zwei bis fünf Runden in Sandhose.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user traps the foe inside a harshly raging sandstorm for two to five turns.</en>
+			<de type="str">Gegner leidet für zwei bis fünf Runden in Sandhose.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user traps the foe inside a harshly raging sandstorm for two to five turns.</en>
+			<de type="str">Gegner leidet für zwei bis fünf Runden in Sandhose.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für 4 bis 5 Runden in einer Sandhose.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für 4 bis 5 Runden in einer Sandhose.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für 4 bis 5 Runden in einer Sandhose.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für 4 bis 5 Runden in einer Sandhose.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user traps the target inside a harshly raging sandstorm for four to five turns.</en>
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel leidet für vier bis fünf Runden in einer Sandhose.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

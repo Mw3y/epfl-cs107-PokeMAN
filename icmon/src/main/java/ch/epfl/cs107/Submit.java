@@ -34,8 +34,6 @@ public final class Submit {
                     .resolve("main")
                     .resolve("resources");
 
-    private static final String ZIP_ENTRY_NAME_PREFIX = "/";
-
     /** ??? */
     private static final Set<Path> DIRECTORIES_TO_IGNORE = Set.of(
             OUT_FOLDER, // default output folder in Intellij
@@ -48,7 +46,7 @@ public final class Submit {
     // Les fichiers dont le nom se termine par l'un de ces suffixes sont inclus dans le rendu.
     private static final Set<String> SUFFIXES_TO_SUBMIT = Set.of(
             ".java", ".png", ".ttf",
-            ".wav", ".xml", ".txt", ".md", ".pdf"
+            ".wav", ".xml", ".txt", ".md", ".pdf", ".json"
     );
 
     // ============================================================================================
@@ -93,7 +91,7 @@ public final class Submit {
                 var entryPath = IntStream.range(0, relative.getNameCount())
                         .mapToObj(relative::getName)
                         .map(Path::toString)
-                        .collect(Collectors.joining("/", ZIP_ENTRY_NAME_PREFIX, ""));
+                        .collect(Collectors.joining(File.separator, "", ""));
                 zipStream.putNextEntry(new ZipEntry(entryPath));
                 try (var fileStream = new FileInputStream(path.toFile())) {
                     fileStream.transferTo(zipStream);

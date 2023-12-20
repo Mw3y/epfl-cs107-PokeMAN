@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">566</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Hantise</fr>
+		<de type="str">Phantomkraft</de>
+		<it type="str">Spettrotuffo</it>
+		<en type="str">Phantom Force</en>
+	</names>
+	<type type="str">Ghost</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.</en>
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender verschwindet, um eine Runde lang seine Kraft zu sammeln und in der nächsten Runde anzugreifen. Durchbricht die Defensive des Zieles.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

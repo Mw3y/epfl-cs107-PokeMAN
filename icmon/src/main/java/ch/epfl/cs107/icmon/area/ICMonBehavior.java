@@ -69,6 +69,7 @@ public class ICMonBehavior extends AreaBehavior {
          * @return the cell type.
          */
         public static ICMonCellType toType(int type) {
+            assert type >= 0;
             return Arrays.stream(ICMonCellType.values())
                     .filter(ict -> ict.type == type).findFirst().orElse(NULL);
         }
@@ -80,6 +81,7 @@ public class ICMonBehavior extends AreaBehavior {
          * @return true if the entity can walk on that cell.
          */
         public boolean isWalkable(Interactable entity) {
+            assert entity != null;
             // TODO: More complex behavior
             return !allowedWalkingType.equals(AllowedWalkingType.NONE);
         }
@@ -119,17 +121,20 @@ public class ICMonBehavior extends AreaBehavior {
 
         @Override
         protected boolean canLeave(Interactable entity) {
+            assert entity != null;
             return true;
         }
 
         @Override
         protected boolean canEnter(Interactable entity) {
+            assert entity != null;
             // Allow an entity that doesn't take space to be registered everywhere
             return (type.isWalkable(entity) && !takeCellSpace()) || !entity.takeCellSpace();
         }
 
         @Override
         protected void enter(Interactable entity) {
+            assert entity != null;
             super.enter(entity);
         }
 
@@ -150,6 +155,7 @@ public class ICMonBehavior extends AreaBehavior {
 
         @Override
         public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+            assert v != null;
             ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
         }
     }

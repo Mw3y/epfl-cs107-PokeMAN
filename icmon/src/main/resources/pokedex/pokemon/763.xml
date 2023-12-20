@@ -1,0 +1,565 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Tsareena</en>
+		<jp>アマージョ Amajo</jp>
+		<fr>Sucreine</fr>
+		<es>Tsareena</es>
+		<de>Fruyal</de>
+		<it>Tsareena</it>
+	</names>
+	<national_id>763</national_id>
+	<alola_id>173</alola_id>
+	<types>
+		<item>Grass</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Leaf Guard</name>
+		</item>
+		<item>
+			<name>Sweet Veil</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<female>100.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Grass</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>3'11&quot;</height_us>
+	<height_eu>1.2 m</height_eu>
+	<weight_us>47.2 lbs.</weight_us>
+	<weight_eu>21.4 kg</weight_eu>
+	<base_exp_yield>230</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<color>Purple</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>3</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>72</hp>
+		<atk>120</atk>
+		<def>98</def>
+		<sp_atk>50</sp_atk>
+		<sp_def>98</sp_def>
+		<speed>72</speed>
+	</base_stats>
+	<evolution_from>Steenee</evolution_from>
+	<categories>
+		<en>Fruit Pokémon</en>
+		<de>Obst</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Its long, striking legs aren't just for show but to be used to kick with skill. In victory, it shows off by kicking the defeated, laughing boisterously.</en>
+			<de>Dieses Pokémon ist für seine heftigen Tritte bekannt. Oft tritt es auch noch nach und lacht, um seinen Sieg an die große Glocke zu hängen.</de>
+		</Sun>
+		<Moon>
+			<en>A Pokémon known for the beauty of its well-shaped legs, it sometimes appears as a mascot in advertisements for beauty salons.</en>
+			<de>Dieses Pokémon ist für seine schönen Beine bekannt. Da verwundert es nicht, dass es für Anzeigen von Schönheitssalons gebucht wird.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>A master of grand and beautiful kicks, it can knock out even kickboxing champions with a single blow.</en>
+			<de>Seine Kicktechniken sind äußerst grazil. Selbst Kickbox-Champions kann es mit einem einzigen Tritt auf die Bretter befördern.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>A Pokémon with an aggressive personality and a mastery of kicking, it cackles every time it kicks an opponent.</en>
+			<de>Dieses angriffslustige Pokémon ist für seine virtuosen Tritte berühmt. Mit jedem Kick müssen seine Gegner zudem lautes Gelächter ertragen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>110</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Double Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Splash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trop Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Teeter Dance</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Aromatic Mist</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>High Jump Kick</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Double Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Splash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Trop Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Teeter Dance</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Aromatic Mist</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>High Jump Kick</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

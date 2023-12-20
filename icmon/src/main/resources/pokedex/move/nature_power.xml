@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">267</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Force-Nature</fr>
+		<de type="str">Natur-Kraft</de>
+		<gr type="str">Δύναμη Φύσης</gr>
+		<it type="str">Naturforza</it>
+		<en type="str">Nature Power</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">The type of attack varies depending on the location.</en>
+			<de type="str">Die Elementklasse des Angriffs hängt vom Ort ab.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">The type of attack varies depending on the location.</en>
+			<de type="str">Die Elementklasse des Angriffs hängt vom Ort ab.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">The type of attack varies depending on the location.</en>
+			<de type="str">Die Elementklasse des Angriffs hängt vom Ort ab.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An attack that changes type depending on the user’s location.</en>
+			<de type="str">Die Elementklasse des Angriffs hängt vom Ort ab.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An attack that changes type depending on the user’s location.</en>
+			<de type="str">Die Elementklasse des Angriffs hängt vom Ort ab.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Der Typ des Angriffs hängt vom Ort ab. Die Kraft der Natur wird genutzt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Der Typ des Angriffs hängt vom Ort ab. Die Kraft der Natur wird genutzt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Der Typ des Angriffs hängt vom Ort ab. Die Kraft der Natur wird genutzt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Der Typ des Angriffs hängt vom Ort ab. Die Kraft der Natur wird genutzt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Der Typ des Angriffs hängt vom Ort ab. Die Kraft der Natur wird genutzt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, wo er durchgeführt wird.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">An attack that makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This attack makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.* (Attacken-Beschreibung)Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This attack makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.* (Attacken-Beschreibung)Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This attack makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.* (Attacken-Beschreibung)Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack makes use of nature’s power. Its effects vary depending on the user’s environment.</en>
+			<de type="str">Angriff mit der Kraft der Natur. Die Wirkung dieser Attacke ist ortsabhängig.* (Attacken-Beschreibung)Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit der Kraft der Natur, dessen Typ vom Ort abhängt, an dem er durchgeführt wird.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

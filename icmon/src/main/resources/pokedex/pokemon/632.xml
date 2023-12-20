@@ -1,0 +1,1449 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Fermite</fr>
+		<de>Fermicula</de>
+		<it>Durant</it>
+		<en>Durant</en>
+	</names>
+	<national_id>632</national_id>
+	<types>
+		<item>Bug</item>
+		<item>Steel</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Swarm</name>
+		</item>
+		<item>
+			<name>Truant</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>90</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>1'00&quot;</height_us>
+	<height_eu>0.3 m</height_eu>
+	<weight_us>72.8 lbs.</weight_us>
+	<weight_eu>33.0 kg</weight_eu>
+	<base_exp_yield>169</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>2</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Gray</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>58</hp>
+		<atk>109</atk>
+		<def>112</def>
+		<sp_atk>48</sp_atk>
+		<sp_def>48</sp_def>
+		<speed>109</speed>
+	</base_stats>
+	<categories>
+		<en>Iron Ant Pokémon</en>
+		<de>Eisenameise</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id>138</unova_id>
+	<kalos_id>106</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Black>
+			<en>They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.</en>
+			<de>Ein eiserner Panzer umgibt seinen Leib. Angriffe von Furnifraß, seinem Feind, schlägt es in der Gruppe zurück.</de>
+		</Black>
+		<White>
+			<en>Durant dig nests in mountains. They build their complicated, interconnected tunnels in mazes.</en>
+			<de>Es hebt ein komplexes Tunnelsystem im Berginneren aus und nutzt dieses Labyrinth als seinen Bau.</de>
+		</White>
+		<Black_2>
+			<en>Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.</en>
+			<de>Eine ausgeklügelte Rollenverteilung hilft ihnen dabei, ihren natürlichen Feind Furnifraß aus dem Nest zu verjagen.</de>
+		</Black_2>
+		<White_2>
+			<en>Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.</en>
+			<de>Eine ausgeklügelte Rollenverteilung hilft ihnen dabei, ihren natürlichen Feind Furnifraß aus dem Nest zu verjagen.</de>
+		</White_2>
+		<X>
+			<en>Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.</en>
+			<de>Eine ausgeklügelte Rollenverteilung hilft ihnen dabei, ihren natürlichen Feind Furnifraß aus dem Nest zu verjagen.</de>
+		</X>
+		<Y>
+			<en>They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.</en>
+			<de>Ein eiserner Panzer umgibt seinen Leib. Angriffe von Furnifraß, seinem Feind, schlägt es in der Gruppe zurück.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.</en>
+			<de>Ein eiserner Panzer umgibt seinen Leib. Angriffe von Furnifraß, seinem Feind, schlägt es in der Gruppe zurück.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>They attack in groups, covering themselves in steel armor to protect themselves from Heatmor.</en>
+			<de>Ein eiserner Panzer umgibt seinen Leib. Angriffe von Furnifraß, seinem Feind, schlägt es in der Gruppe zurück.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>66</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>66</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Guillotine</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>66</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Guillotine</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>66</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Guillotine</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

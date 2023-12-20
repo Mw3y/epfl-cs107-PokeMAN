@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Revelation Dance</en>
+		<fr type="str">Danse Éveil</fr>
+		<de type="str">Wecktanz</de>
+		<it type="str">Mutadanza</it>
+		<es type="str">Danza Despertar</es>
+	</names>
+	<index_number type="int">686</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Normal</type>
+	<category type="str">special</category>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user attacks the target by dancing very hard. The user’s type determines the type of this move.</en>
+			<de type="str">Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the target by dancing very hard. The user’s type determines the type of this move.</en>
+			<de type="str">Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the target by dancing very hard. The user’s type determines the type of this move.</en>
+			<de type="str">Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the target by dancing very hard. The user’s type determines the type of this move.</en>
+			<de type="str">Der Anwender tanzt und greift dabei das Ziel mit voller Kraft an. Die Attacke hat denselben Typ wie das Pokémon, das sie einsetzt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

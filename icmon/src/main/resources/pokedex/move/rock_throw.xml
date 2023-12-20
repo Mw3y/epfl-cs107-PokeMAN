@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">88</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">50</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Stenkast</dk>
+		<fr type="str">Jet-Pierres</fr>
+		<de type="str">Steinwurf</de>
+		<gr type="str">Ρίψη Βράχων</gr>
+		<it type="str">Sassata</it>
+		<pl type="str">Rzut skałą</pl>
+		<en type="str">Rock Throw</en>
+	</names>
+	<type type="str">Rock</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Drops rocks on the enemy.</en>
+			<de type="str">Felshagel auf Gegner.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Drops rocks on the enemy.</en>
+			<de type="str">Felshagel auf Gegner.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Drops rocks on the enemy.</en>
+			<de type="str">Felshagel auf Gegner.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Throws small rocks to strike the foe.</en>
+			<de type="str">Wirft kleine Steine auf den Gegner.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Throws small rocks to strike the foe.</en>
+			<de type="str">Wirft kleine Steine auf den Gegner.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Throws small rocks to strike the foe.</en>
+			<de type="str">Wirft kleine Steine auf den Gegner.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is attacked with a shower of small, easily thrown rocks.</en>
+			<de type="str">Der Gegner wird mit vielen kleinen Steinen beworfen.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is attacked with a shower of small, easily thrown rocks.</en>
+			<de type="str">Der Gegner wird mit vielen kleinen Steinen beworfen.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user picks up and throws a small rock at the foe to attack.</en>
+			<de type="str">Der Gegner wird mit einem Stein beworfen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user picks up and throws a small rock at the foe to attack.</en>
+			<de type="str">Der Gegner wird mit einem Stein beworfen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user picks up and throws a small rock at the foe to attack.</en>
+			<de type="str">Der Gegner wird mit einem Stein beworfen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user picks up and throws a small rock at the foe to attack.</en>
+			<de type="str">Der Gegner wird mit einem Stein beworfen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user picks up and throws a small rock at the foe to attack.</en>
+			<de type="str">Der Gegner wird mit einem Stein beworfen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user picks up and throws a small rock at the target to attack.</en>
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird mit einem kleinen Stein beworfen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,4799 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Sabelette</fr>
+		<de>Sandan</de>
+		<it>Sandshrew</it>
+		<en>Sandshrew</en>
+	</names>
+	<national_id>27</national_id>
+	<types>
+		<item>Ground</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Sand Veil</name>
+		</item>
+		<item>
+			<name>Sand Rush</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>255</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>2'00&quot;</height_us>
+	<height_eu>0.6 m</height_eu>
+	<weight_us>26.5 lbs.</weight_us>
+	<weight_eu>12.0 kg</weight_eu>
+	<base_exp_yield>60</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>1</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>50</hp>
+		<atk>75</atk>
+		<def>85</def>
+		<sp_atk>20</sp_atk>
+		<sp_def>30</sp_def>
+		<speed>40</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Sandslash</to>
+			<level>22</level>
+		</item>
+	</evolutions>
+	<alola_id>251</alola_id>
+	<categories>
+		<en>Mouse Pokémon</en>
+		<de>Maus</de>
+	</categories>
+	<kanto_id>27</kanto_id>
+	<johto_id>48</johto_id>
+	<hoenn_id>117</hoenn_id>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>97</kalos_id>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations>
+		<item>
+			<condition>Alola</condition>
+			<image_suffix>alola</image_suffix>
+			<names>
+				<en>Alolan Sandshrew</en>
+				<de>Alola-Sandan</de>
+			</names>
+			<types>
+				<item>Ice</item>
+				<item>Steel</item>
+			</types>
+			<abilities>
+				<item>
+					<name>Snow Cloak</name>
+				</item>
+				<item>
+					<name>Slush Rush</name>
+					<hidden>true</hidden>
+				</item>
+			</abilities>
+			<base_stats>
+				<hp>50</hp>
+				<atk>75</atk>
+				<def>90</def>
+				<sp_atk>10</sp_atk>
+				<sp_def>35</sp_def>
+				<speed>40</speed>
+			</base_stats>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Red>
+			<en>Burrows deep underground in arid locations far from water. It only emerges to hunt for food.</en>
+			<de>Dieses Pokémon lebt in trockenen Gebieten unter der Erde. Es jagt jedoch an der Oberfläche.</de>
+		</Red>
+		<Blue>
+			<en>Burrows deep underground in arid locations far from water. It only emerges to hunt for food.</en>
+			<de>Dieses Pokémon lebt in trockenen Gebieten unter der Erde. Es jagt jedoch an der Oberfläche.</de>
+		</Blue>
+		<Yellow>
+			<en>Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew.</en>
+			<de>Der Körper dieses Pokémon ist sehr trocken. In kalten Nächten wird sein Körper von Tau überzogen.</de>
+		</Yellow>
+		<Gold>
+			<en>If it fell from a great height, this Pokémon could save itself by rolling into a ball and bouncing.</en>
+			<de>Fällt es aus großer Höhe, rollt sich dieses Pokémon zusammen, um so den Sturz abzufangen.</de>
+		</Gold>
+		<Silver>
+			<en>Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.</en>
+			<de>Da es Wasser verabscheut, gräbt es sich in trockenes Erdreich ein. Es kann sich rasch zu einem Ball rollen.</de>
+		</Silver>
+		<Crystal>
+			<en>It prefers dry, sandy places because it uses the sand to protect itself when threatened.</en>
+			<de>Es lebt bevorzugt in sandigen Gebieten, da es sich bei Gefahr im Sand eingräbt, um sich zu schützen.</de>
+		</Crystal>
+		<Ruby>
+			<en>Sandshrew's body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies.</en>
+			<de>Sandans Körper kann sehr viel Wasser aufnehmen, so dass es auch in der Wüste überleben kann. Dieses Pokémon rollt sich zusammen, um sich vor Feinden zu schützen.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Sandshrew has a very dry hide that is extremely tough. The Pokémon can roll into a ball that repels any attack. At night, it burrows into the desert sand to sleep.</en>
+			<de>Sandan hat eine sehr trockene und extrem robuste Haut. Dieses Pokémon kann sich zu einem Ball zusammenrollen, von dem jegliche Angriffe abprallen. Nachts gräbt es sich im Wüstensand ein und schläft dort.</de>
+		</Sapphire>
+		<Emerald>
+			<en>When it curls up in a ball, it can make any attack bounce off harmlessly. Its hide has turned tough and solid as a result of living in the desert.</en>
+			<de>Rollt es sich zu einer Kugel zusammen, prallt jeder Angriff von ihm ab. Seine Haut ist zäh und fest, da es in der Wüste lebt.</de>
+		</Emerald>
+		<FireRed>
+			<en>It burrows and lives underground. If threatened, it curls itself up into a ball for protection.</en>
+			<de>Es gräbt und lebt im Erdboden. Bei Gefahr rollt es sich zum Schutz zu einem Ball zusammen.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Burrows deep underground in arid locations far from water. It only emerges to hunt for food.</en>
+			<de>Dieses Pokémon lebt in trockenen Gebieten unter der Erde. Es jagt jedoch an der Erdoberfläche.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.</en>
+			<de>Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen.</de>
+		</Diamond>
+		<Pearl>
+			<en>To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.</en>
+			<de>Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen.</de>
+		</Pearl>
+		<Platinum>
+			<en>To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.</en>
+			<de>Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen.</de>
+		</Platinum>
+		<HeartGold>
+			<en>If it fell from a great height, this Pokémon could save itself by rolling into a ball and bouncing.</en>
+			<de>Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.</en>
+			<de>Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen.</de>
+		</SoulSilver>
+		<Black>
+			<en>To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.</en>
+			<de>Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen.</de>
+		</Black>
+		<White>
+			<en>To protect itself from attackers, it curls up into a ball. It lives in arid regions with minimal rainfall.</en>
+			<de>Es lebt in trockenen Regionen mit wenig Regen. Es rollt sich ein, um sich vor Gegnern zu schützen.</de>
+		</White>
+		<Black_2>
+			<en>It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.</en>
+			<de>Fristet sein Leben in selbst gegrabenen Löchern. Bei Gefahr rollt es sich zusammen und sitzt den Angriff aus.</de>
+		</Black_2>
+		<White_2>
+			<en>It digs deep burrows to live in. When in danger, it rolls up its body to withstand attacks.</en>
+			<de>Fristet sein Leben in selbst gegrabenen Löchern. Bei Gefahr rollt es sich zusammen und sitzt den Angriff aus.</de>
+		</White_2>
+		<X>
+			<en>It burrows and lives underground. If threatened, it curls itself up into a ball for protection.</en>
+			<de>Es gräbt und lebt im Erdboden. Bei Gefahr rollt es sich zum Schutz zu einem Ball zusammen.</de>
+		</X>
+		<Y>
+			<en>Disliking water, it lives in deep burrows in arid areas. It can roll itself instantly into a ball.</en>
+			<de>Da es Wasser verabscheut, gräbt es sich in trockenes Erdreich ein. Es kann sich rasch zu einem Ball rollen.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Sandshrew's body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies.</en>
+			<de>Sandans Körper kann sehr viel Wasser aufnehmen, sodass es auch in der Wüste überleben kann. Dieses Pokémon rollt sich zusammen, um sich vor Feinden zu schützen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Sandshrew has a very dry hide that is extremely tough. The Pokémon can roll into a ball that repels any attack. At night, it burrows into the desert to sleep.</en>
+			<de>Sandan hat eine sehr große trockene und extrem robuste Haut. Dieses Pokémon kann sich zu einem Ball zusammenrollen, von dem jegleiche Angriffe abprallen. Nachts gräbt es sich im Wüstensand ein und schläft dort.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>It can roll its body into a ball. It moves through the desert by rolling at high speeds.</en>
+			<de>Kein Eintrag vorhanden</de>
+		</Sun>
+		<Moon>
+			<en>It usually makes its home in deserts and arid zones, where rain does not fall. It digs holes to catch Bug-type Pokémon.</en>
+			<de>Kein Eintrag vorhanden</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It lives in areas of limited rainfall. When danger approaches, it curls up into a ball to protect its soft stomach.</en>
+			<de>Alola-Form: Um sich vor Vulkanausbrüchen zu schützen, floh es in verschneites Gebirge. Sein Eispanzer ist hart wie Stahl.
+Standard-Form: Es lebt in trockenen Gebieten mit wenig Regen. Bei Gefahr rollt es sich zu einem Ball zusammen und schützt so seine weiche Bauchgegend.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.</en>
+			<de>Alola-Form: Sein Rücken ist hart wie Stahl. Gegner haben es auf seine weiche Bauchgegend abgesehen, weshalb es sich hartnäckig am Boden festkrallt.
+Standard-Form: Bei zu viel Feuchtigkeit sucht es einen Vulkan auf, um auf dem warmen Erdboden seine aufgeweichte Haut wieder zu trocknen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>4</item>
+		</speed>
+		<power>
+			<item>3</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>2</item>
+			<item>3</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>149</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Submission</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Seismic Toss</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Submission</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Seismic Toss</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rototiller</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rototiller</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>3</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>7</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>11</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<level>14</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>17</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>20</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>23</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>26</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>30</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>34</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>38</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>42</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>3</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>5</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<level>7</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>11</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>14</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>20</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>23</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>26</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>30</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>34</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>38</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hail</move>
+					<level>42</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>46</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rototiller</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Icicle Crash</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Icicle Spear</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aurora Veil</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>3</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>7</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>11</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<level>14</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>17</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>20</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>23</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>26</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>30</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>34</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>38</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>42</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>46</level>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>3</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>5</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Ice Ball</move>
+					<level>7</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<level>9</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<level>11</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>14</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>20</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>23</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>26</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>30</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<level>34</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>38</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hail</move>
+					<level>42</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>46</level>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rapid Spin</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rototiller</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Chip Away</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Counter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Crush Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Icicle Crash</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Icicle Spear</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aurora Veil</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Sandshrew</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

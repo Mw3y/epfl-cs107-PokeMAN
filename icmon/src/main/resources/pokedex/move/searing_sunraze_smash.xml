@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Searing Sunraze Smash</en>
+		<fr type="str">Hélio-Choc Dévastateur</fr>
+		<de type="str">Schmetternde Sonnenwalze</de>
+		<it type="str">Supercollisione Solare</it>
+		<es type="str">Embestida Solar</es>
+	</names>
+	<index_number type="int">724</index_number>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Steel</type>
+	<category type="str">physical</category>
+	<power type="int">200</power>
+	<accuracy type="int">0</accuracy>
+	<pp type="int">1</pp>
+	<max_pp type="int">1</max_pp>
+	<target type="str">target_adjacent_single</target>
+	<pokedex_entries type="dict">
+		<Ultra_Sun type="dict">
+			<en type="str">After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target’s Ability.</en>
+			<de type="str">Solgaleo greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">After obtaining Z-Power, the user, Solgaleo, attacks the target with full force. This move can ignore the effect of the target’s Ability.</en>
+			<de type="str">Solgaleo greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

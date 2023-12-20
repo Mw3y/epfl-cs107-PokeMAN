@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">453</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">1</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Aqua-Jet</fr>
+		<de type="str">Wasserdüse</de>
+		<gr type="str">Πίδακας</gr>
+		<it type="str">Acquagetto</it>
+		<pl type="str">Strumień Wody</pl>
+		<en type="str">Aqua Jet</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Anwender greift mit hoher Geschwindigkeit an, die ihn fast unsichtbar macht. Erstschlaggarantie.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Anwender greift mit hoher Geschwindigkeit an, die ihn fast unsichtbar macht. Erstschlaggarantie.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Anwender greift mit hoher Geschwindigkeit an, die ihn fast unsichtbar macht. Erstschlaggarantie.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Anwender greift mit hoher Geschwindigkeit an, die ihn fast unsichtbar macht. Erstschlaggarantie.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user lunges at the foe at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Anwender greift mit hoher Geschwindigkeit an, die ihn fast unsichtbar macht. Erstschlaggarantie.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. It is sure to strike first.</en>
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Sehr schneller Angriff mit hoher Erstschlagquote.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Sehr schneller Angriff mit hoher Erstschlagquote.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Sehr schneller Angriff mit hoher Erstschlagquote.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user lunges at the target at a speed that makes it almost invisible. This move always goes first.</en>
+			<de type="str">Sehr schneller Angriff mit hoher Erstschlagquote.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Sehr schneller Angriff mit Erstschlaggarantie.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

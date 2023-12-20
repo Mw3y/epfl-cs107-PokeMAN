@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">200</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">120</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">user_and_random_adjacent_foe</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Colère</fr>
+		<de type="str">Wutanfall</de>
+		<gr type="str">Παροργισμός</gr>
+		<it type="str">Oltraggio</it>
+		<pl type="str">Oburzenie</pl>
+		<en type="str">Outrage</en>
+	</names>
+	<type type="str">Dragon</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Works 2-3 turns and confuses user.</en>
+			<de type="str">Hält 2-3 Runden. Verw. Angreifer</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Works 2-3 turns and confuses user.</en>
+			<de type="str">Hält 2-3 Runden. Verw. Angreifer</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Works 2-3 turns and confuses user.</en>
+			<de type="str">Wirkt 2-3 Runden. Verwir. Angreifer.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A rampage of 2 to 3 turns that confuses the user.</en>
+			<de type="str">Wiederholt Angriff 2-3 Runden lang. Verwirrt Anwender.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A rampage of 2 to 3 turns that confuses the user.</en>
+			<de type="str">Wiederholt Angriff 2-3 Runden lang. Verwirrt Anwender.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A rampage of 2 to 3 turns that confuses the user.</en>
+			<de type="str">Wiederholt Angriff 2-3 Runden lang. Verwirrt Anwender.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user thrashes about for two to three turns, then becomes confused.</en>
+			<de type="str">Wiederholt Angriff 2 - 3 Runden lang. Anschließend ist er verwirrt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user thrashes about for two to three turns, then becomes confused.</en>
+			<de type="str">Wiederholt Angriff 2 - 3 Runden lang. Anschließend ist er verwirrt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. However, it then becomes confused.</en>
+			<de type="str">Wiederholt Angriff zwei bis drei Runden lang. Anschließend ist er verwirrt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. However, it then becomes confused.</en>
+			<de type="str">Wiederholt Angriff zwei bis drei Runden lang. Anschließend ist er verwirrt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. However, it then becomes confused.</en>
+			<de type="str">Wiederholt Angriff zwei bis drei Runden lang. Anschließend ist er verwirrt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. However, it then becomes confused.</en>
+			<de type="str">Anwender wiederholt Angriff zwei bis drei Runden lang. Anschließend ist er verwirrt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. However, it then becomes confused.</en>
+			<de type="str">Anwender wiederholt Angriff zwei bis drei Runden lang. Anschließend ist er verwirrt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. It then becomes confused, however.</en>
+			<de type="str">Attacke über 2 bis 3 Runden, die den Angreifer verwirrt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. It then becomes confused, however.</en>
+			<de type="str">Attacke über 2 bis 3 Runden, die den Angreifer verwirrt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. It then becomes confused, however.</en>
+			<de type="str">Attacke über 2 bis 3 Runden, die den Angreifer verwirrt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. It then becomes confused, however.</en>
+			<de type="str">Attacke über 2 bis 3 Runden, die den Angreifer verwirrt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user rampages and attacks for two to three turns. The user then becomes confused.</en>
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Attacke über zwei bis drei Runden, die den Anwender verwirrt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

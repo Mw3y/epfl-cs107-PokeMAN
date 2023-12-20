@@ -8,6 +8,8 @@ public class RegisterInAreaAction implements Action {
     private final AreaEntity entity;
 
     public RegisterInAreaAction(ICMonArea area, AreaEntity entity) {
+        assert area != null;
+        assert entity != null;
         this.area = area;
         this.entity = entity;
     }

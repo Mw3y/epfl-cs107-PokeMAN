@@ -1,0 +1,525 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Cutiefly</en>
+		<jp>アブリー Abuly</jp>
+		<fr>Bombydou</fr>
+		<es>Cutiefly</es>
+		<de>Wommel</de>
+		<it>Cutiefly</it>
+	</names>
+	<national_id>742</national_id>
+	<alola_id>83</alola_id>
+	<types>
+		<item>Bug</item>
+		<item>Fairy</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Honey Gather</name>
+		</item>
+		<item>
+			<name>Sweet Veil</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>190</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+		<item>Fairy</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>0'04&quot;</height_us>
+	<height_eu>0.1 m</height_eu>
+	<weight_us>0.4 lbs.</weight_us>
+	<weight_eu>0.2 kg</weight_eu>
+	<base_exp_yield>61</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>40</hp>
+		<atk>45</atk>
+		<def>40</def>
+		<sp_atk>55</sp_atk>
+		<sp_def>40</sp_def>
+		<speed>84</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Ribombee</to>
+			<level>25</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Bee Fly Pokémon</en>
+		<de>Hummelfliege</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>It feeds on the nectar and pollen of flowers. Because it's able to sense auras, it can identify which flowers are about to bloom.</en>
+			<de>Es ernährt sich von Blütenstaub und Honig. Da es die Aura von Lebewesen wahrnehmen kann, spürt es, wenn eine Blume bald blühen wird.</de>
+		</Sun>
+		<Moon>
+			<en>Myriads of Cutiefly flutter above the heads of people who have auras resembling those of flowers.</en>
+			<de>Über den Köpfen von Menschen, deren Auren denen von Blumen gleichen, finden sich zahlreich Wommel ein.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Nectar and pollen are its favorite fare. In fields of flowers, it gets into skirmishes with Butterfree over food.</en>
+			<de>Es liebt Blütenstaub und Nektar. Schwirrt es auf der Suche nach Futter durch Blumenbeete, handelt es sich oft Reibereien mit Smettbo ein.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Cutiefly can pick up the auras of living things. It skillfully reads those auras to predict its foes’ movements and make fools of them.</en>
+			<de>Es kann die Aura von Lebewesen wahrnehmen. So erahnt es die Bewegungen seiner Feinde und kann sie geschickt an der Nase herumführen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>42</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fairy Wind</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Stun Spore</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Draining Kiss</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bestow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Speed Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fairy Wind</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Stun Spore</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Silver Wind</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Draining Kiss</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Aromatherapy</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bestow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Powder</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Speed Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Sticky Web</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

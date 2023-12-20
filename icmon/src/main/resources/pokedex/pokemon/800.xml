@@ -1,0 +1,625 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Necrozma</en>
+		<jp>ネクロズマ Necrozma</jp>
+		<fr>Necrozma</fr>
+		<es>Necrozma</es>
+		<de>Necrozma</de>
+		<it>Necrozma</it>
+	</names>
+	<national_id>800</national_id>
+	<alola_id>300</alola_id>
+	<types>
+		<item>Psychic</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Prism Armor</name>
+		</item>
+	</abilities>
+	<catch_rate>3</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>7'10&quot;</height_us>
+	<height_eu>2.4 m</height_eu>
+	<weight_us>507.1 lbs.</weight_us>
+	<weight_eu>230.0 kg</weight_eu>
+	<base_exp_yield>120</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Black</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>1</atk>
+		<def>0</def>
+		<sp_atk>2</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>97</hp>
+		<atk>107</atk>
+		<def>101</def>
+		<sp_atk>127</sp_atk>
+		<sp_def>89</sp_def>
+		<speed>79</speed>
+	</base_stats>
+	<gender_ratios/>
+	<categories>
+		<en>Prism Pokémon</en>
+		<de>Prisma</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Reminiscent of the Ultra Beasts, this life-form, apparently asleep underground, is thought to have come from another world in ancient times.</en>
+			<de>Diese einer Ultrabestie ähnelnde Kreatur ist wohl vor Urzeiten aus einer anderen Welt gekommen und ruhte lange Zeit unter der Erde.</de>
+		</Sun>
+		<Moon>
+			<en>Light is apparently the source of its energy. It has an extraordinarily vicious disposition and is constantly firing off laser beams.</en>
+			<de>Dieses extrem grausame Lebewesen wandelt Licht in Energie um und stößt unablässig Laserstrahlen aus.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It looks somehow pained as it rages around in search of light, which serves as its energy. It’s apparently from another world.</en>
+			<de>Standard-Form: Diese Kreatur stammt wohl aus einer anderen Welt. Sie wirkt gequält, wenn sie auf der Suche nach Licht, seiner Energiequelle, herumwütet.
+Abendmähne: Necrozma nimmt diese Form an, wenn es das Licht von Solgaleo verschlingt. Es schlitzt Gegner mit seinen vielen scharfen Krallen auf.
+Morgenschwingen: In dieser Form unterliegt Lunala gänzlich Necrozmas Kontrolle, es hat keinen eigenen Willen mehr. Seine Energie fließt ungehindert aus.
+Ultra-Necrozma: Der Verzehr gewaltiger Mengen an Lichtenergie bringt diese Form hervor. Es verschießt Laserstrahlen aus seinem ganzen Körper.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Light is the source of its energy. If it isn’t devouring light, impurities build up in it and on it, and Necrozma darkens and stops moving.</en>
+			<de>Standard-Form: Licht ist seine Energiequelle. Kann es dieses nicht verschlingen, sammeln sich Unreinheiten an und es wird schwarz und regungslos.
+Abendmähne: Diese Form nimmt es an, wenn es die Kraft von Solgaleo verschlingt. Es wurde von seiner Wut völlig übermannt und ist nicht zu bändigen.
+Morgenschwingen: Necrozma nimmt diese Form an, wenn es das Licht von Lunala verschlingt. Es packt und zerreißt Gegner mit seinen gewaltigen Krallen.
+Ultra-Necrozma: Das Licht, das von seinem Körper ausgeht, kann verschiedene Auswirkungen auf Natur und Lebewesen haben.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>400</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Charge Beam</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Stored Power</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Gravity</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Autotomize</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Prismatic Laser</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Charge Beam</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Moonlight</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Stored Power</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Gravity</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Autotomize</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Photon Geyser</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Prismatic Laser</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

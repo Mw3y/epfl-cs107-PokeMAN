@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">91</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Grave</dk>
+		<fr type="str">Tunnel</fr>
+		<de type="str">Schaufler</de>
+		<gr type="str">Σκάψιμο</gr>
+		<it type="str">Fossa</it>
+		<pl type="str">Tunel</pl>
+		<en type="str">Dig</en>
+	</names>
+	<type type="str">Ground</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">1st turn: Burrow 2nd turn: Attack</en>
+			<de type="str">1. Graben 2. Angriff</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">1st turn: Burrow 2nd turn: Attack</en>
+			<de type="str">1. Graben 2. Angriff</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">1st turn: Burrow 2nd turn: Attack</en>
+			<de type="str">1. Graben 2. Angriff</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Digs underground the first turn and strikes next turn.</en>
+			<de type="str">Gräbt sich in der 1. Runde ein und trifft in der 2.* (Attacken-Beschreibung)Erst gräbt sich Angreifer ein, dann erfolgt Angriff.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Digs underground the first turn and strikes next turn.</en>
+			<de type="str">Gräbt sich in der 1. Runde ein und trifft in der 2.* (Attacken-Beschreibung)Erst gräbt sich Angreifer ein, dann erfolgt Angriff.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Digs underground the first turn and strikes next turn.</en>
+			<de type="str">Gräbt sich in der 1. Runde ein und trifft in der 2.* (Attacken-Beschreibung)Erst gräbt sich Angreifer ein, dann erfolgt Angriff.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An attack that hits on the 2nd turn. Can also be used to exit dungeons.</en>
+			<de type="str">1. Runde eingraben und 2. angreifen. Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An attack that hits on the 2nd turn. Can also be used to exit dungeons.</en>
+			<de type="str">1. Runde eingraben und 2. angreifen. Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Macht Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Macht Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Macht Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user burrows, then attacks on the second turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 eingraben und in Runde 2 angreifen. Macht Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user burrows, then attacks on the next turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an. Macht Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user burrows, then attacks on the next turn. It can also be used to exit dungeons.</en>
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an. Macht Flucht aus Höhlen möglich.* (Attacken-Beschreibung)Eine Attacke über 2 Runden. Zunächst gräbt sich der Angreifer ein, anschließend erfolgt der Angriff.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user burrows, then attacks on the next turn. It can also be used to exit dungeons.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user burrows, then attacks on the next turn. It can also be used to exit dungeons.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user burrows, then attacks on the next turn.</en>
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user burrows, then attacks on the next turn.</en>
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user burrows, then attacks on the next turn.</en>
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user burrows, then attacks on the next turn.</en>
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an. Macht Flucht aus Höhlen möglich.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">In Runde 1 gräbt sich der Anwender ein und in Runde 2 greift er an. Macht Flucht aus Höhlen möglich.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

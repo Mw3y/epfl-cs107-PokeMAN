@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">64</index_number>
+	<pp type="int">35</pp>
+	<max_pp type="int">56</max_pp>
+	<power type="int">35</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Hakke</dk>
+		<fr type="str">Picpic</fr>
+		<de type="str">Schnabel</de>
+		<gr type="str">Ράμφισμα</gr>
+		<it type="str">Beccata</it>
+		<pl type="str">Dziobanie</pl>
+		<en type="str">Peck</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Jabs the foe with a beak, etc.</en>
+			<de type="str">Greift Gegner mit Schnabel an.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Jabs the foe with a beak, etc.</en>
+			<de type="str">Greift Gegner mit Schnabel an.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Jabs the foe with a beak, etc.</en>
+			<de type="str">Greift Gegner mit Schnabel an.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Attacks the foe with a jabbing beak, etc.</en>
+			<de type="str">Greift Gegner mit dem Schnabel an.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Attacks the foe with a jabbing beak, etc.</en>
+			<de type="str">Greift Gegner mit dem Schnabel an.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Attacks the foe with a jabbing beak, etc.</en>
+			<de type="str">Greift Gegner mit dem Schnabel an.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift Gegner mit dem Schnabel oder Horn an.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift Gegner mit dem Schnabel oder Horn an.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift Gegner mit dem Schnabel oder Horn an.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift Gegner mit dem Schnabel oder Horn an.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift Gegner mit dem Schnabel oder Horn an.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift Gegner mit dem Schnabel oder Horn an.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift Gegner mit dem Schnabel oder Horn an.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is jabbed with a sharply pointed beak or horn.</en>
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Greift das Ziel mit dem Schnabel oder Horn an.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

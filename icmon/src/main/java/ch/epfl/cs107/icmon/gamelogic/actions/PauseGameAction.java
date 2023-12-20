@@ -9,6 +9,8 @@ public class PauseGameAction implements Action {
     private final PauseMenu pauseMenu;
 
     public PauseGameAction(ICMon.ICMonGameState game, PauseMenu pauseMenu) {
+        assert game != null;
+        assert pauseMenu != null;
         this.game = game;
         this.pauseMenu = pauseMenu;
     }

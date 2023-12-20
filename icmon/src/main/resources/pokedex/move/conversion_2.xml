@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">176</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Conversion2</fr>
+		<de type="str">Umwandlung2</de>
+		<gr type="str">Μετατροπή 2</gr>
+		<it type="str">Conversione 2</it>
+		<en type="str">Conversion 2</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">The user's type is made resistant.</en>
+			<de type="str">Elementwechsel bei Angreifer.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">The user's type is made resistant.</en>
+			<de type="str">Elementwechsel bei Angreifer.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">The user's type is made resistant.</en>
+			<de type="str">Elementwechsel bei Angreifer.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Makes the user resistant to the last attack’s type.</en>
+			<de type="str">Anwender wird resistent gegen letzten Angr.-Typ.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Makes the user resistant to the last attack’s type.</en>
+			<de type="str">Anwender wird resistent gegen letzten Angr.-Typ.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Makes the user resistant to the last attack’s type.</en>
+			<de type="str">Anwender wird resistent gegen letzten Angr.-Typ.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user changes type to make itself resistant to the last attack it took.</en>
+			<de type="str">Anwender ändert Elementklasse, um resistenter zu sein.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user changes type to make itself resistant to the last attack it took.</en>
+			<de type="str">Anwender ändert Elementklasse, um resistenter zu sein.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack it last took.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack it last took.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack it last took.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack it last took.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack it last took.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user changes its type to make itself resistant to the type of the attack the opponent used last.</en>
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender ändert Typ und wird gegen letzten Angriffstyp resistent.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

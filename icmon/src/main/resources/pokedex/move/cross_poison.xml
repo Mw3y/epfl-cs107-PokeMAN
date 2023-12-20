@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">440</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">70</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">1</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Poison-Croix</fr>
+		<de type="str">Giftstreich</de>
+		<gr type="str">Διασταύρωση Δηλητηρίου</gr>
+		<it type="str">Velenocroce</it>
+		<pl type="str">Kontratrucizna</pl>
+		<tr type="str">Kesme Zehir</tr>
+		<en type="str">Cross Poison</en>
+	</names>
+	<type type="str">Poison</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">poison</condition>
+				<probability type="int">10</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.</en>
+			<de type="str">Ein scharfer Hieb, der den Gegner eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.</en>
+			<de type="str">Ein scharfer Hieb, der den Gegner eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.</en>
+			<de type="str">Ein scharfer Hieb, der den Gegner eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.</en>
+			<de type="str">Ein scharfer Hieb, der den Gegner eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A slashing attack that may also leave the target poisoned. It has a high critical-hit ratio.</en>
+			<de type="str">Ein scharfer Hieb, der den Gegner eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also leave the target poisoned. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A slashing attack with a poisonous blade that may also poison the target. Critical hits land more easily.</en>
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ein schneidender Hieb, der das Ziel eventuell vergiftet. Hat eine hohe Volltrefferquote.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Pollen Puff</en>
+		<fr type="str">Boule Pollen</fr>
+		<de type="str">Pollenknödel</de>
+		<it type="str">Sferapolline</it>
+		<es type="str">Bola de Polen</es>
+	</names>
+	<index_number type="int">676</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Bug</type>
+	<category type="str">special</category>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.</en>
+			<de type="str">Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.</en>
+			<de type="str">Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.</en>
+			<de type="str">Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the enemy with a pollen puff that explodes. If the target is an ally, it gives the ally a pollen puff that restores its HP instead.</en>
+			<de type="str">Der Anwender greift mit einem Ball aus Pollen an, der beim Ziel explodiert. Mitstreiter werden von einem Ball getroffen, der ihre KP auffüllt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

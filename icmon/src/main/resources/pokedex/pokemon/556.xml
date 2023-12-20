@@ -1,0 +1,1388 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Maracachi</fr>
+		<de>Maracamba</de>
+		<it>Maractus</it>
+		<en>Maractus</en>
+	</names>
+	<national_id>556</national_id>
+	<types>
+		<item>Grass</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Water Absorb</name>
+		</item>
+		<item>
+			<name>Storm Drain</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>255</catch_rate>
+	<egg_groups>
+		<item>Grass</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>3'03&quot;</height_us>
+	<height_eu>1.0 m</height_eu>
+	<weight_us>61.7 lbs.</weight_us>
+	<weight_eu>28.0 kg</weight_eu>
+	<base_exp_yield>161</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>2</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Green</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>75</hp>
+		<atk>86</atk>
+		<def>67</def>
+		<sp_atk>106</sp_atk>
+		<sp_def>67</sp_def>
+		<speed>60</speed>
+	</base_stats>
+	<categories>
+		<en>Cactus Pokémon</en>
+		<de>Kaktus</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id>62</unova_id>
+	<kalos_id/>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Black>
+			<en>It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.</en>
+			<de>Verjagt Vogel-Pokémon, die auf seine Blüten aus sind, mit einem flotten Tänzchen und lauter Untermalung.</de>
+		</Black>
+		<White>
+			<en>Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.</en>
+			<de>Erzeugt durch rhythmische Bewegungen Laute, die dem Klang von Maracas ähneln. Lebt an trockenen Orten.</de>
+		</White>
+		<Black_2>
+			<en>When it moves rhythmically, it makes a sound similar to maracas, making the surprised Pokémon flee.</en>
+			<de>Erzeugt durch rhythmische Bewegungen Töne, die dem Klang von Maracas ähneln und überraschte Pokémon verjagen.</de>
+		</Black_2>
+		<White_2>
+			<en>When it moves rhythmically, it makes a sound similar to maracas, making the surprised Pokémon flee.</en>
+			<de>Erzeugt durch rhythmische Bewegungen Töne, die dem Klang von Maracas ähneln und überraschte Pokémon verjagen.</de>
+		</White_2>
+		<X>
+			<en>It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.</en>
+			<de>Verjagt Vogel-Pokémon, die auf seine Blüten aus sind, mit einem flotten Tänzchen und lauter Untermalung.</de>
+		</X>
+		<Y>
+			<en>Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.</en>
+			<de>Erzeugt durch rhythmische Bewegungen Laute, die dem Klang von Maracas ähneln. Lebt an trockenen Orten.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.</en>
+			<de>Erzeugt durch rhythmische Bewegungen Laute, die dem Klang von Maracas ähneln. Lebt an trockenen Orten.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.</en>
+			<de>Erzeugt durch rhythmische Bewegungen Laute, die dem Klang von Maracas ähneln. Lebt an trockenen Orten.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Needle Arm</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Petal Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Needle Arm</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Petal Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Needle Arm</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Petal Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Petal Blizzard</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spiky Shield</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Needle Arm</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Petal Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Petal Blizzard</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spiky Shield</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Needle Arm</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Petal Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Petal Blizzard</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spiky Shield</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sweet Scent</move>
+					<level>3</level>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Cotton Spore</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Needle Arm</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acupressure</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Petal Dance</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Petal Blizzard</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Cotton Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grass Whistle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Grassy Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wood Hammer</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Worry Seed</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

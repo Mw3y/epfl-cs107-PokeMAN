@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">22</index_number>
+	<pp type="int">25</pp>
+	<max_pp type="int">40</max_pp>
+	<power type="int">45</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Šlehavý útok</cz>
+		<dk type="str">Slyngpisk</dk>
+		<fr type="str">Fouet Lianes</fr>
+		<de type="str">Rankenhieb</de>
+		<gr type="str">Κλιματσίδα</gr>
+		<it type="str">Frustata</it>
+		<pl type="str">Dzikie Pnącza</pl>
+		<tr type="str">Sarmaşık Kırbacı</tr>
+		<en type="str">Vine Whip</en>
+	</names>
+	<type type="str">Grass</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Whips the foe with slender vines.</en>
+			<de type="str">Trifft Gegner mit Ranken.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Whips the foe with slender vines.</en>
+			<de type="str">Trifft Gegner mit Ranken.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Whips the foe with slender vines.</en>
+			<de type="str">Trifft Gegner mit Ranken.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Strikes the foe with slender, whiplike vines.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Strikes the foe with slender, whiplike vines.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Strikes the foe with slender, whiplike vines.</en>
+			<de type="str">Peitschenartiger Schlag mit Ranken.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is struck with slender, whiplike vines.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is struck with slender, whiplike vines.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is struck with slender, whiplike vines to inflict damage.</en>
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Peitschenähnlicher Schlag mit Ranken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,3015 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Rémoraid</fr>
+		<de>Remoraid</de>
+		<it>Remoraid</it>
+		<en>Remoraid</en>
+	</names>
+	<national_id>223</national_id>
+	<types>
+		<item>Water</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Hustle</name>
+		</item>
+		<item>
+			<name>Moody</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>190</catch_rate>
+	<egg_groups>
+		<item>Water 1</item>
+		<item>Water 2</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>2'00&quot;</height_us>
+	<height_eu>0.6 m</height_eu>
+	<weight_us>26.5 lbs.</weight_us>
+	<weight_eu>12.0 kg</weight_eu>
+	<base_exp_yield>60</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>1</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Gray</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>35</hp>
+		<atk>65</atk>
+		<def>35</def>
+		<sp_atk>65</sp_atk>
+		<sp_def>35</sp_def>
+		<speed>65</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Octillery</to>
+			<level>25</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Jet Pokémon</en>
+		<de>Hochdruck</de>
+	</categories>
+	<kanto_id/>
+	<johto_id>174</johto_id>
+	<hoenn_id/>
+	<sinnoh_id>132</sinnoh_id>
+	<unova_id/>
+	<kalos_id>144</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Gold>
+			<en>It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.</en>
+			<de>Es ist äußerst präzise. Es kann mit seinem Wasserschuss Beute erlegen, die 100 Meter entfernt ist.</de>
+		</Gold>
+		<Silver>
+			<en>Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.</en>
+			<de>Mit seiner Rückenflosse saugt es sich an der Unterseite eines Mantax fest und lebt von Speiseresten.</de>
+		</Silver>
+		<Crystal>
+			<en>To escape from an attacker, it may shoot water out of its mouth, then use that force to swim backward.</en>
+			<de>Um zu entkommen, schießt es Wasser aus seinem Maul und nutzt den Rückstoß für seine Flucht.</de>
+		</Crystal>
+		<Ruby>
+			<en>Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pokémon travels downstream from rivers.</en>
+			<de>Remoraid saugt Wasser ein und spritzt es unter Einsatz seiner Bauchmuskeln mit Hochdruck wieder heraus. So schießt es fliegende Beute ab. Wenn seine Entwicklung näher rückt, wandert dieses Pokémon flussabwärts.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pokémon travels downstream from rivers.</en>
+			<de>Remoraid saugt Wasser ein und spritzt es unter Einsatz seiner Bauchmuskeln mit Hochdruck wieder heraus. So schießt es fliegende Beute ab. Wenn seine Entwicklung näher rückt, wandert dieses Pokémon flussabwärts.</de>
+		</Sapphire>
+		<Emerald>
+			<en>A Remoraid uses its abdominal muscles to forcefully expel swallowed water, then shoot down flying prey. When evolution approaches, it travels down rivers.</en>
+			<de>REMORAID spritzt eingesogenes Wasser mittels seiner Bauchmuskeln heraus, um fliegende Beute zu erlegen. Rückt seine Entwicklung näher, geht es flussabwärts.</de>
+		</Emerald>
+		<FireRed>
+			<en>Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.</en>
+			<de>Mit seiner Rückenflosse saugt es sich an der Unterseite eines Mantax fest und lebt von Speiseresten.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.</en>
+			<de>Es ist äußerst präzise. Es kann mit seinem Wasserschuss Beute erlegen, die 100 Meter entfernt ist.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It squirts water forcefully from its mouth to shoot down flying prey.</en>
+			<de>Es spritzt Wasser mit Hochdruck aus seinem Maul und schießt damit auf fliegende Beute.</de>
+		</Diamond>
+		<Pearl>
+			<en>It clings to Mantine to feed on the big Pokémon's scraps. This is an adaptation to avoid foes.</en>
+			<de>Es heftet sich an MANTAX, ernährt sich von dessen Essensresten und weicht so auch Gegnern aus.</de>
+		</Pearl>
+		<Platinum>
+			<en>It forcefully squirts water. The water jet never misses prey even if the Remoraid is deep in the sea.</en>
+			<de>Sein starker Wasserstrahl verfehlt seine Gegner auch dann nicht, wenn das REMORAID unter Wasser ist.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.</en>
+			<de>Es spritzt Wasser mit Hochdruck aus seinem Maul und schießt damit auf fliegende Beute.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.</en>
+			<de>Es spritzt Wasser mit Hochdruck aus seinem Maul und schießt damit auf fliegende Beute.</de>
+		</SoulSilver>
+		<Black>
+			<en>It forcefully squirts water. The water jet never misses prey even if the Remoraid is deep in the sea.</en>
+			<de>Sein starker Wasserstrahl verfehlt seine Gegner auch dann nicht, wenn das Remoraid unter Wasser ist.</de>
+		</Black>
+		<White>
+			<en>It forcefully squirts water. The water jet never misses prey even if the Remoraid is deep in the sea.</en>
+			<de>Sein starker Wasserstrahl verfehlt seine Gegner auch dann nicht, wenn das Remoraid unter Wasser ist.</de>
+		</White>
+		<Black_2>
+			<en>The water they shoot from their mouths can hit moving prey from more than 300 feet away.</en>
+			<de>Selbst aus 100 Metern Entfernung treffen die Wassersalven, die es mit seinem Maul abfeuert, ihr Ziel.</de>
+		</Black_2>
+		<White_2>
+			<en>The water they shoot from their mouths can hit moving prey from more than 300 feet away.</en>
+			<de>Selbst aus 100 Metern Entfernung treffen die Wassersalven, die es mit seinem Maul abfeuert, ihr Ziel.</de>
+		</White_2>
+		<X>
+			<en>It has superb accuracy. The water it shoots out can strike even moving prey from more than 300 feet.</en>
+			<de>Es ist äußerst präzise. Es kann mit seinem Wasserschuss Beute erlegen, die 100 m entfernt ist.</de>
+		</X>
+		<Y>
+			<en>Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.</en>
+			<de>Mit seiner Rückenflosse saugt es sich an der Unterseite eines Mantax fest und lebt von Speiseresten.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pokémon travels downstream from rivers.</en>
+			<de>Remoraid saugt Wasser ein und spritzt es unter Einsatz seiner Bauchmuskeln mit Hochdruck wieder heraus. So schießt es fliegende Beute ab. Wenn seine Entwicklung näher rückt, wandert dieses Pokémon flussabwärts.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Remoraid sucks in water, then expels it at high velocity using its abdominal muscles to shoot down flying prey. When evolution draws near, this Pokémon travels downstream from rivers.</en>
+			<de>Remoraid saugt Wasser ein und spritzt es unter Einsatz seiner Bauchmuskeln mit Hochdruck wieder heraus. So schießt es fliegende Beute ab. Wenn seine Entwicklung näher rückt, wandert dieses Pokémon flussabwärts.</de>
+		</Alpha_Sapphire>
+		<Ultra_Sun>
+			<en>This Pokémon clings to Mantine and shares in its prosperity. When its Mantine is attacked, Remoraid will fight alongside it!</en>
+			<de>Es heftet sich an Mantax und ernährt sich von dessen Essensresten. Wird Mantax angegriffen, kämpft es gemeinsam mit ihm.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Also known as the “sniper of the seas,” its water gun can hit prey without fail from over 300 feet away.</en>
+			<de>Es wird auch „Scharfschütze des Meeres“ genannt. Mit seinem Wasserstrahl kann es Beute aus 100 m Entfernung treffen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>3</item>
+		</speed>
+		<power>
+			<item>2</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>2</item>
+			<item>3</item>
+		</stamina>
+		<skill>
+			<item>4</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>3</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>47</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Spout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Spout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Spout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Spout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Spout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>HM3</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dive</move>
+					<tm>HM7</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Spout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Entrainment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Octazooka</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Screech</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Spout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

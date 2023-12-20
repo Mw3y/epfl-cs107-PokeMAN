@@ -1,0 +1,5457 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Grotadmorv</fr>
+		<de>Sleimok</de>
+		<it>Muk</it>
+		<en>Muk</en>
+	</names>
+	<national_id>89</national_id>
+	<types>
+		<item>Poison</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Stench</name>
+		</item>
+		<item>
+			<name>Poison Touch</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>75</catch_rate>
+	<egg_groups>
+		<item>Amorphous</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>3'11&quot;</height_us>
+	<height_eu>1.2 m</height_eu>
+	<weight_us>66.1 lbs.</weight_us>
+	<weight_eu>30.0 kg</weight_eu>
+	<base_exp_yield>175</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>1</hp>
+		<atk>1</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Purple</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>105</hp>
+		<atk>105</atk>
+		<def>75</def>
+		<sp_atk>65</sp_atk>
+		<sp_def>100</sp_def>
+		<speed>50</speed>
+	</base_stats>
+	<evolution_from>Grimer</evolution_from>
+	<alola_id>51</alola_id>
+	<categories>
+		<en>Sludge Pokémon</en>
+		<de>Schlamm</de>
+	</categories>
+	<kanto_id>89</kanto_id>
+	<johto_id>118</johto_id>
+	<hoenn_id>112</hoenn_id>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations>
+		<item>
+			<condition>Alola</condition>
+			<image_suffix>alola</image_suffix>
+			<names>
+				<en>Alolan Muk</en>
+				<de>Alola-Sleimok</de>
+			</names>
+			<types>
+				<item>Poison</item>
+				<item>Dark</item>
+			</types>
+			<abilities>
+				<item>
+					<name>Poison Touch</name>
+				</item>
+				<item>
+					<name>Gluttony</name>
+				</item>
+				<item>
+					<name>Power of Alchemy</name>
+					<hidden>true</hidden>
+				</item>
+			</abilities>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Red>
+			<en>Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.</en>
+			<de>Der Schleim dieses Pokémon ist so toxisch, dass selbst seine Fußspuren Gift enthalten.</de>
+		</Red>
+		<Blue>
+			<en>Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.</en>
+			<de>Der Schleim dieses Pokémon ist so toxisch, dass selbst seine Fußspuren Gift enthalten.</de>
+		</Blue>
+		<Yellow>
+			<en>Smells so awful, it can cause fainting. Through degeneration, it lost its sense of smell.</en>
+			<de>Dieses Pokémon verbreitet einen so erbärmlichen Gestank, dass es sich selbst nicht riechen kann.</de>
+		</Yellow>
+		<Gold>
+			<en>They love to gather in smelly areas where sludge accumulates, making the stench around them worse.</en>
+			<de>Sie treffen sich an stinkenden Orten, an denen der Schleim sich türmt. Dies merkt man am Gestank.</de>
+		</Gold>
+		<Silver>
+			<en>Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest.</en>
+			<de>Sein Körper besteht aus Gift. Eine zufällige Berührung reicht aus, um fiebrig im Bett zu liegen.</de>
+		</Silver>
+		<Crystal>
+			<en>As it moves, a very strong poison leaks from it, making the ground there barren for three years.</en>
+			<de>Bei jeder Bewegung tropft Gift aus ihm heraus auf den Boden, der dadurch für drei Jahre verseucht ist.</de>
+		</Crystal>
+		<Ruby>
+			<en>From Muk's body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon's body fluid can turn a pool stagnant and rancid.</en>
+			<de>Sleimok scheidet eine widerlich stinkende Substanz aus. Ein einziger Tropfen seiner Körpersubstanz reicht aus, um ein Gewässer zu verseuchen.</de>
+		</Ruby>
+		<Sapphire>
+			<en>This Pokémon's favorite food is anything that is repugnantly filthy. In dirty towns where people think nothing of throwing away litter on the streets, Muk are certain to gather.</en>
+			<de>Sleimoks Lieblingsspeise ist alles, was widerlich verschmutzt ist. In dreckigen Städten, in denen sich Menschen nichts dabei denken, wenn sie Müll auf die Straße werfen, lassen sich diese POKéMON mit Vorliebe in Scharen nieder.</de>
+		</Sapphire>
+		<Emerald>
+			<en>It prefers warm and humid habitats. In the summertime, the toxic substances in its body intensify, making Muk reek like putrid kitchen garbage.</en>
+			<de>Es liebt warme und feuchte Areale. Im Som mer verdichten sich die giftigen Sub stanzen in SLEIMOKs Körper und es entsteht ein ekliger Küchenabfallgestank.</de>
+		</Emerald>
+		<FireRed>
+			<en>It is usually undetectable because it blends in with the ground. Touching it can cause terrible poisoning.</en>
+			<de>Normalerweise kann man es nicht aufspüren, da es mit dem Untergrund verschmilzt. Berührt man es, kann das zu heftigen Vergiftungen führen.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.</en>
+			<de>Der Schleim dieses Pokémon ist so toxisch, dass selbst seine Schleimspuren Gift enthalten.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</Diamond>
+		<Pearl>
+			<en>A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</Pearl>
+		<Platinum>
+			<en>A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</Platinum>
+		<HeartGold>
+			<en>They love to gather in smelly areas where sludge accumulates, making the stench around them worse.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Its body is made of a powerful poison. Touching it accidentally will cause a fever that requires bed rest.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</SoulSilver>
+		<Black>
+			<en>A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</Black>
+		<White>
+			<en>A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</White>
+		<Black_2>
+			<en>It's so stinky! Muk's body contains toxic elements, and any plant will wilt when it passes by.</en>
+			<de>Ihr Gestank ist unerträglich. Das starke Gift, aus dem ihr Körper besteht, macht jeder Pflanze in ihrem Weg den Garaus.</de>
+		</Black_2>
+		<White_2>
+			<en>It's so stinky! Muk's body contains toxic elements, and any plant will wilt when it passes by.</en>
+			<de>Ihr Gestank ist unerträglich. Das starke Gift, aus dem ihr Körper besteht, macht jeder Pflanze in ihrem Weg den Garaus.</de>
+		</White_2>
+		<X>
+			<en>They love to gather in smelly areas where sludge accumulates, making the stench around them worse.</en>
+			<de>Sie treffen sich an stinkenden Orten, an denen der Schleim sich türmt. Dies merkt man am Gestank.</de>
+		</X>
+		<Y>
+			<en>A toxic fluid seeps from its body. The fluid instantly kills plants and trees on contact.</en>
+			<de>Sein Körper sondert eine giftige Substanz ab, die bei Kontakt Pflanzen und Bäume vernichtet.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>From Muk's body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon's body fluid can turn a pool stagnant and rancid.</en>
+			<de>Sleimok scheidet eine widerlich stinkende Substanz aus. Ein einziger Tropfen dieser Substanz reicht aus, um ein Gewässer zu verseuchen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>This Pokémon's favorite food is anything that is repugnantly filthy. In dirty towns where people think nothing of throwing away litter on the streets, Muk are certain to gather.</en>
+			<de>Sleimoks Lieblingsspeise ist alles, was widerlich verschmutzt ist. In dreckigen Städten, in denen sich Menschen nichts dabei denken, wenn sie Müll auf die Straße werfen, lassen sich diese Pokémon mit Vorliebe in Scharen nieder.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>The stench it gives off will make your nose scrunch up. Still, there are Muk fans who think that's a good thing.</en>
+			<de>Es sondert einen widerlichen Gestank ab. In Fankreisen wird jedoch ausgerechnet diese Eigenschaft besonders geschätzt.</de>
+		</Sun>
+		<Moon>
+			<en>After recent environmental improvements, this Pokémon is now hardly seen at all. People speculate that it may go extinct at some point.</en>
+			<de>Es wird immer seltener gesehen, da zunehmend mehr Wert auf Umweltschutz gelegt wird. Man vermutet, dass es irgendwann ganz ausstirbt.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Their food sources have decreased, and their numbers have declined sharply. Sludge ponds are being built to prevent their extinction.</en>
+			<de>Alola-Form: In seinem Inneren befinden sich mehr als 100 verschiedene Toxine. Seine Lebenskraft zieht es aus den chemischen Reaktionen zwischen ihnen.
+Standard-Form: Aufgrund von Futtermangel sieht man es immer seltener. Um es vom Aussterben zu bewahren, werden nun künstliche Schlammteiche angelegt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Because they scatter germs everywhere, they’ve long been targeted for extermination, leading to a steep decline in their population.</en>
+			<de>Alola-Form: Was nach Fangzähnen und Krallen aussieht, sind in Wirklichkeit kristalline Giftstoffe. Die bloße Berührung führt bereits zur Vergiftung.
+Standard-Form: Da es Krankheitskeime verbreitet, hat man lange versucht, es auszurotten. Heute sieht man es daher nur noch selten.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>1</item>
+			<item>5</item>
+		</speed>
+		<power>
+			<item>4</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>5</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>1</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>5</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>29</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Disable</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Self-Destruct</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Disable</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Self-Destruct</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<tm>TM48</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<tm>TM48</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>15</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>18</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>21</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>26</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>29</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<level>32</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>37</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>40</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>46</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>52</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>57</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>7</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<level>15</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>18</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>21</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>26</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<level>29</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>32</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>37</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>40</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>46</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>52</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>57</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snarl</move>
+					<tm>TM95</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>1</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge</move>
+					<level>15</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mud Bomb</move>
+					<level>18</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>21</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>26</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<level>29</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<level>32</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>37</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>40</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>46</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>52</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>57</level>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Gas</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>7</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>12</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<level>15</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>18</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Minimize</move>
+					<level>21</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<level>26</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<level>29</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>32</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>37</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gunk Shot</move>
+					<level>40</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Armor</move>
+					<level>46</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>52</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>57</level>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Acid Spray</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Lick</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Clear Smog</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Imprison</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snarl</move>
+					<tm>TM95</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Muk</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">434</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">130</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Draco Météor</fr>
+		<de type="str">Draco Meteor</de>
+		<gr type="str">Μετεωρίτης Δράκου</gr>
+		<it type="str">Dragobolide</it>
+		<pl type="str">Drako Meteor</pl>
+		<en type="str">Draco Meteor</en>
+	</names>
+	<type type="str">Dragon</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">sp_atk</stat>
+			<change_by type="int">-2</change_by>
+			<affects_user type="bool">true</affects_user>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert Spez. Ang. des Anwenders enorm.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert Spez. Ang. des Anwenders enorm.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert Spez.-Ang. des Anwenders enorm.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert Spez.-Ang. des Anwenders enorm.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">Comets are summoned down from the sky. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert Spez.-Ang. des Anwenders enorm.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Comets are summoned down from the sky onto the target. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Kometen werden heraufbeschworen. Der Rückstoß reduziert den Spezial-Angriff des Anwenders stark.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

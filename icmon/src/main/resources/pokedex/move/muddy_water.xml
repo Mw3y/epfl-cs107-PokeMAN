@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">330</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Ocroupi</fr>
+		<de type="str">Lehmbrühe</de>
+		<gr type="str">Λασπόνερο</gr>
+		<it type="str">Fanghiglia</it>
+		<pl type="str">Grzęzawisko</pl>
+		<en type="str">Muddy Water</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">2</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">accuracy</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Attacks with muddy water. May lower accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt evtl. Genauigkeit.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Attacks with muddy water. May lower accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt evtl. Genauigkeit.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Attacks with muddy water. May lower accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt evtl. Genauigkeit.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user attacks with muddy water. It may also lower the foe’s accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt evtl. die Genauigkeit des Gegners.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user attacks with muddy water. It may also lower the foe’s accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt evtl. die Genauigkeit des Gegners.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks by shooting out muddy water. It may also lower the foe’s accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing team. It may also lower the targets’ accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing team. It may also lower the targets’ accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing team. It may also lower the targets’ accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing team. It may also lower the targets’ accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Gegners.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by shooting muddy water at the opposing Pokémon. This may also lower their accuracy.</en>
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Greift mit Matsch an und senkt eventuell die Genauigkeit des Zieles.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

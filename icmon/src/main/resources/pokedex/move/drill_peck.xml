@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">65</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Borehak</dk>
+		<fr type="str">Bec Vrille</fr>
+		<de type="str">Bohrschnabel</de>
+		<gr type="str">Τρυπανοτσίμπημα</gr>
+		<it type="str">Perforbecco</it>
+		<pl type="str">Pneumatyczne Dziobanie</pl>
+		<en type="str">Drill Peck</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A strong, spinning-peck attack.</en>
+			<de type="str">Starke Schnabel-Dreh-Attacke.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A strong, spinning-peck attack.</en>
+			<de type="str">Starke Schnabel-Dreh-Attacke.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A strong, spinning-peck attack.</en>
+			<de type="str">Starke Schnabel-Dreh-Attacke.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A corkscrewing attack with the beak acting as a drill.</en>
+			<de type="str">Attacke, bei der der Schnabel als Bohrer dient.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A corkscrewing attack with the beak acting as a drill.</en>
+			<de type="str">Attacke, bei der der Schnabel als Bohrer dient.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A corkscrewing attack with the beak acting as a drill.</en>
+			<de type="str">Attacke, bei der der Schnabel als Bohrer dient.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A corkscrewing attack with the sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A corkscrewing attack with a sharp beak acting as a drill.</en>
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Korkenzieherangriff, bei dem der Schnabel als Bohrer dient.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

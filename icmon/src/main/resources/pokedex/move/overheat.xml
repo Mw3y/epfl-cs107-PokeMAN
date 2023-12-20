@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">315</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">130</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Surchauffe</fr>
+		<de type="str">Hitzekoller</de>
+		<gr type="str">Υπερθέρμανση</gr>
+		<it type="str">Vampata</it>
+		<pl type="str">Przegrzanie</pl>
+		<en type="str">Overheat</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">sp_atk</stat>
+			<change_by type="int">-2</change_by>
+			<affects_user type="bool">true</affects_user>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Allows a full-power attack, but sharply lowers SP. ATK.</en>
+			<de type="str">Angriff mit voller Kraft. SPEZ. ANGR. sinkt deutlich.Höchste Kraft, aber senkt SPEZ. ANGR. enorm.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Allows a full-power attack, but sharply lowers SP. ATK.</en>
+			<de type="str">Angriff mit voller Kraft. SPEZ. ANGR. sinkt deutlich.Höchste Kraft, aber senkt SPEZ. ANGR. enorm.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Allows a full-power attack, but sharply lowers SP. ATK.</en>
+			<de type="str">Angriff mit voller Kraft. SPEZ. ANGR. sinkt deutlich.Höchste Kraft, aber senkt SPEZ. ANGR. enorm.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An intense attack that also sharply reduces the user’s SP. ATK stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den SP. ANG. d. Anwenders deutlich senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und Rauheit, der gleichzeitig den SP. ANG.-Wert des Angreifers senkt.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An intense attack that also sharply reduces the user’s SP. ATK stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den SP. ANG. d. Anwenders deutlich senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und Rauheit, der gleichzeitig den SP. ANG.-Wert des Angreifers senkt.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spez.-Angriff d. Anwenders durch den Rückstoß deutlich senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spez.-Angriff d. Anwenders durch den Rückstoß deutlich senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spez.-Angriff d. Anwenders durch den Rückstoß deutlich senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spez.-Angriff d. Anwenders durch den Rückstoß deutlich senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks the foe at full power. The attack’s recoil sharply reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spez.-Angriff d. Anwenders durch den Rückstoß deutlich senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly reduces the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers senkt.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the target at full power. The attack’s recoil harshly lowers the user’s Sp. Atk stat.</en>
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit voller Kraft, der den Spezial-Angriff des Anwenders durch den Rückstoß stark senkt.* (Attacken-Beschreibung)Angriff mit maximaler Kraft und feuriger Energie, der gleichzeitig den Spezial-Angriff des Angreifers stark senkt.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

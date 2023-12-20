@@ -8,6 +8,8 @@ public class RegisterEventAction implements Action {
     private final ICMonEvent event;
 
     public RegisterEventAction(ICMon.ICMonEventManager eventManager, ICMonEvent eventToRegister) {
+        assert eventManager != null;
+        assert eventToRegister != null;
         this.eventManager = eventManager;
         this.event = eventToRegister;
     }

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">First Impression</en>
+		<fr type="str">Escarmouche</fr>
+		<de type="str">Überrumpler</de>
+		<it type="str">Schermaglia</it>
+		<es type="str">Escaramuza</es>
+	</names>
+	<index_number type="int">660</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Bug</type>
+	<category type="str">physical</category>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<priority type="int">2</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">Although this move has great power, it only works the first turn the user is in battle.</en>
+			<de type="str">Eine sehr starke Attacke, die jedoch nur erfolgreich ist, wenn sie sofort eingesetzt wird, nachdem der Anwender das Kampffeld betreten hat.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Although this move has great power, it only works the first turn the user is in battle.</en>
+			<de type="str">Eine sehr starke Attacke, die jedoch nur erfolgreich ist, wenn sie sofort eingesetzt wird, nachdem der Anwender das Kampffeld betreten hat.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Although this move has great power, it only works the first turn the user is in battle.</en>
+			<de type="str">Eine sehr starke Attacke, die jedoch nur erfolgreich ist, wenn sie sofort eingesetzt wird, nachdem der Anwender das Kampffeld betreten hat.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Although this move has great power, it only works the first turn the user is in battle.</en>
+			<de type="str">Eine sehr starke Attacke, die jedoch nur erfolgreich ist, wenn sie sofort eingesetzt wird, nachdem der Anwender das Kampffeld betreten hat.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

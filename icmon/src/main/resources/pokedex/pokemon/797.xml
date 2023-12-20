@@ -1,0 +1,544 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Celesteela</en>
+		<jp>テッカグヤ Tekkaguya</jp>
+		<fr>Bamboiselle</fr>
+		<es>Celesteela</es>
+		<de>Kaguron</de>
+		<it>Celesteela</it>
+	</names>
+	<national_id>797</national_id>
+	<alola_id>297</alola_id>
+	<types>
+		<item>Steel</item>
+		<item>Flying</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Beast Boost</name>
+		</item>
+	</abilities>
+	<catch_rate>25</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>30'02&quot;</height_us>
+	<height_eu>9.2 m</height_eu>
+	<weight_us>2204.4 lbs.</weight_us>
+	<weight_eu>999.9 kg</weight_eu>
+	<base_exp_yield>114</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Green</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>1</atk>
+		<def>1</def>
+		<sp_atk>1</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>97</hp>
+		<atk>101</atk>
+		<def>103</def>
+		<sp_atk>107</sp_atk>
+		<sp_def>101</sp_def>
+		<speed>61</speed>
+	</base_stats>
+	<gender_ratios/>
+	<categories>
+		<en>Launch Pokémon</en>
+		<de>Raketenstart</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>It appeared from the Ultra Wormhole. Witnesses observed it flying across the sky at high speed.</en>
+			<de>Eine Ultrabestie, die mit extremer Geschwindigkeit durch die Lüfte rast. Sie ist durch die Ultrapforte gekommen.</de>
+		</Sun>
+		<Moon>
+			<en>One kind of Ultra Beast. Witnesses have seen it burn down a forest by expelling gas from its two arms.</en>
+			<de>Diese Ultrabestie wurde dabei gesichtet, wie sie mithilfe des Gases, das aus ihren beiden Armen strömt, große Waldflächen niederbrannte.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>One of the dangerous UBs, high energy readings can be detected coming from both of its huge arms.</en>
+			<de>Eine der gefährlichen Ultrabestien. In ihren riesigen Armen wurden hohe Energiemengen nachgewiesen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.</en>
+			<de>In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>397</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Autotomize</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Heavy Slam</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Absorb</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Mega Drain</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Leech Seed</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Autotomize</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Seed Bomb</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Heavy Slam</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

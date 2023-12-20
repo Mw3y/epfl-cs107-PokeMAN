@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Light That Burns the Sky</en>
+		<fr type="str">Apocalypsis Luminis</fr>
+		<de type="str">Licht des Erlöschens</de>
+		<it type="str">Fotodistruzione Apocalittica</it>
+		<es type="str">Fotodestrucción Apocalíptica</es>
+	</names>
+	<index_number type="int">723</index_number>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Psychic</type>
+	<category type="str">special</category>
+	<power type="int">200</power>
+	<accuracy type="int">0</accuracy>
+	<pp type="int">1</pp>
+	<max_pp type="int">1</max_pp>
+	<target type="str">target_adjacent_single</target>
+	<pokedex_entries type="dict">
+		<Ultra_Sun type="dict">
+			<en type="str">This attack inflicts Attack or Sp. Atk damage— whichever stat is higher for the user, Necrozma. This move ignores the target’s Ability.</en>
+			<de type="str">Ist der Angriff höher als der Spezial-Angriff, wird die Höhe des Schadens durch den Angriff bestimmt und umgekehrt. Ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack inflicts Attack or Sp. Atk damage— whichever stat is higher for the user, Necrozma. This move ignores the target’s Ability.</en>
+			<de type="str">Ist der Angriff höher als der Spezial-Angriff, wird die Höhe des Schadens durch den Angriff bestimmt und umgekehrt. Ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

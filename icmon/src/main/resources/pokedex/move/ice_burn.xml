@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">554</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">140</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Feu Glacé</fr>
+		<de type="str">Frosthauch</de>
+		<it type="str">Vampagelida</it>
+		<en type="str">Ice Burn</en>
+	</names>
+	<type type="str">Ice</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">On the second turn, an ultracold, freezing wind surrounds the target. This may leave the target with a burn.</en>
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Umgibt das Ziel in der nächsten Runde mit heftigen, alles gefrierenden Eisböen. Fügt dem Ziel eventuell Verbrennungen zu.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">burn</condition>
+				<probability type="int">30</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

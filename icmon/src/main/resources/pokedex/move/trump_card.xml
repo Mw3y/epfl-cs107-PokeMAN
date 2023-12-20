@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">376</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Atout</fr>
+		<de type="str">Trumpfkarte</de>
+		<gr type="str">Κρυφό Χαρτί</gr>
+		<it type="str">Asso</it>
+		<pl type="str">Atut</pl>
+		<en type="str">Trump Card</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The fewer PP this move has, the more power it has for attack.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The fewer PP this move has, the more power it has for attack.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The fewer PP this move has, the more power it has for attack.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The fewer PP this move has, the more power it has for attack.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The fewer PP this move has, the more power it has for attack.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The fewer PP this move has, the greater its attack power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The fewer PP this move has, the greater its attack power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The fewer PP this move has, the greater its attack power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The fewer PP this move has, the greater its attack power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The fewer PP this move has, the greater its power.</en>
+			<de type="str">Je weniger AP diese Attacke hat, desto höher fällt ihre Stärke aus.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Je weniger AP diese Attacke hat, desto mehr Angriffskraft besitzt sie.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

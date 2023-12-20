@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">403</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">75</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Lame d'Air</fr>
+		<de type="str">Luftschnitt</de>
+		<gr type="str">Κόψη Ανέμου</gr>
+		<it type="str">Eterelama</it>
+		<pl type="str">Powietrzne Cięcie</pl>
+		<en type="str">Air Slash</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Gegner wird mit einer Luftklinge angegriffen. Gegner schreckt eventuell zurück.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Gegner wird mit einer Luftklinge angegriffen. Gegner schreckt eventuell zurück.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Gegner wird mit einer Luftklinge angegriffen. Gegner schreckt eventuell zurück.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Gegner wird mit einer Luftklinge angegriffen. Gegner schreckt eventuell zurück.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Gegner wird mit einer Luftklinge angegriffen. Gegner schreckt eventuell zurück.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. It may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks with a blade of air that slices even the sky. This may also make the target flinch.</en>
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird mit einer Luftklinge angegriffen. Ziel schreckt eventuell zurück.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

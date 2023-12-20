@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Cosmoem</en>
+		<jp>コスモウム Cosmovum</jp>
+		<fr>Cosmovum</fr>
+		<es>Cosmoem</es>
+		<de>Cosmovum</de>
+		<it>Cosmoem</it>
+	</names>
+	<national_id>790</national_id>
+	<alola_id>290</alola_id>
+	<types>
+		<item>Psychic</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Sturdy</name>
+		</item>
+	</abilities>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>0'04&quot;</height_us>
+	<height_eu>0.1 m</height_eu>
+	<weight_us>2204.4 lbs.</weight_us>
+	<weight_eu>999.9 kg</weight_eu>
+	<base_exp_yield>80</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Blue</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>1</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>1</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>43</hp>
+		<atk>29</atk>
+		<def>131</def>
+		<sp_atk>29</sp_atk>
+		<sp_def>131</sp_def>
+		<speed>37</speed>
+	</base_stats>
+	<gender_ratios/>
+	<evolution_from>Cosmog</evolution_from>
+	<evolutions>
+		<item>
+			<to>Solgaleo</to>
+			<level>53</level>
+			<conditions>
+				<item>Pokémon Sun</item>
+			</conditions>
+		</item>
+		<item>
+			<to>Lunala</to>
+			<level>53</level>
+			<conditions>
+				<item>Pokémon Moon</item>
+			</conditions>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Protostar Pokémon</en>
+		<de>Urgestirn</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Motionless as if dead, its body is faintly warm to the touch. In the distant past, it was called the cocoon of the stars.</en>
+			<de>Es ist völlig reglos, als wäre es tot. Berührt man es, fühlt es sich jedoch leicht warm an. Vor langer Zeit wurde es „Sternenkokon“ genannt.</de>
+		</Sun>
+		<Moon>
+			<en>There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.</en>
+			<de>Unter seiner harten Schale häuft sich unaufhörlich etwas in seinem schwarzen Kern an. Es soll aus einer anderen Welt stammen.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>The king who ruled Alola in times of antiquity called it the “cocoon of the stars” and built an altar to worship it.</en>
+			<de>Ein vor Urzeiten über Alola herrschender König nannte es „Sternenkokon“ und erbaute ihm zu Ehren ein Podium.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid.</en>
+			<de>Es nimmt Licht in sich auf und wächst so immer weiter. Seine goldene Schale ist überraschend hart.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>388</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Cosmic Power</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Cosmic Power</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -1,0 +1,623 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Oranguru</en>
+		<jp>ヤレユータン Yareyūtan</jp>
+		<fr>Gouroutan</fr>
+		<es>Oranguru</es>
+		<de>Kommandutan</de>
+		<it>Oranguru</it>
+	</names>
+	<national_id>765</national_id>
+	<alola_id>176</alola_id>
+	<types>
+		<item>Normal</item>
+		<item>Psychic</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Inner Focus</name>
+		</item>
+		<item>
+			<name>Symbiosis</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>4'11&quot;</height_us>
+	<height_eu>1.5 m</height_eu>
+	<weight_us>167.6 lbs.</weight_us>
+	<weight_eu>76.0 kg</weight_eu>
+	<base_exp_yield>172</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>White</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>2</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>90</hp>
+		<atk>60</atk>
+		<def>80</def>
+		<sp_atk>90</sp_atk>
+		<sp_def>110</sp_def>
+		<speed>60</speed>
+	</base_stats>
+	<categories>
+		<en>Sage Pokémon</en>
+		<de>Weisheit</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Known for its extreme intelligence, this Pokémon will look down on inexperienced Trainers, so it's best suited to veteran Trainers.</en>
+			<de>Es ist als extrem schlaues Pokémon bekannt. Nicht so beliebt bei unerfahrenen Trainern, doch Veteranen wissen es zu schätzen.</de>
+		</Sun>
+		<Moon>
+			<en>Deep in the jungle, high in the lofty canopy, this Pokémon abides. On rare occasions, it shows up at the beach to match wits with Slowking.</en>
+			<de>Lebt auf Baumwipfeln im tiefsten Dschungel. Ab und an erscheint es am Strand, um sich epische Quiz-Duelle mit Laschoking zu liefern.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It normally spends its time meditating in the treetops. It throws Poké Balls and gives other Pokémon orders as it pleases.</en>
+			<de>Es verbringt die meiste Zeit in Meditation auf Baumwipfeln. Manchmal wirft es Pokébälle auf Pokémon und erteilt ihnen Befehle.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Oranguru don’t get along with each other, so they’re always engaging in battles of wits to decide which one is superior.</en>
+			<de>Kommandutan kommen nicht gut miteinander aus. Ständig wetteifern sie, wer von ihnen wohl am klügsten sei.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>116</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Quash</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Stored Power</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Instruct</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Extrasensory</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psychic Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wonder Room</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>After You</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Quash</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Stored Power</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Zen Headbutt</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Instruct</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Extrasensory</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psychic Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wonder Room</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

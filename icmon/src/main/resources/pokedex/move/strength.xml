@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">70</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Force</fr>
+		<de type="str">Stärke</de>
+		<gr type="str">Δύναμη</gr>
+		<it type="str">Forza</it>
+		<pl type="str">Siła</pl>
+		<en type="str">Strength</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A powerful physical attack.</en>
+			<de type="str">Starke Körperattacke.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A powerful physical attack.</en>
+			<de type="str">Starke Körperattacke.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A powerful physical attack.</en>
+			<de type="str">Starke Körperattacke.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Builds enormous power, then slams the foe.</en>
+			<de type="str">Erzeugt enorme Kraft und rammt Gegner.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag.* (VM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Builds enormous power, then slams the foe.</en>
+			<de type="str">Erzeugt enorme Kraft und rammt Gegner.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag.* (VM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Builds enormous power, then slams the foe.</en>
+			<de type="str">Erzeugt enorme Kraft und rammt Gegner.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag.* (VM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is slugged at maximum power. Can also be used to move boulders.</en>
+			<de type="str">Gegner wird extrem stark getroffen. Verschieben von Felsen möglich.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag. Bewege damit große, runde Felsen.* (VM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is slugged at maximum power. Can also be used to move boulders.</en>
+			<de type="str">Gegner wird extrem stark getroffen. Verschieben von Felsen möglich.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag. Bewege damit große, runde Felsen.* (VM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.</en>
+			<de type="str">Gegner wird extrem stark getroffen. Verschieben von Felsen möglich.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.</en>
+			<de type="str">Gegner wird extrem stark getroffen. Verschieben von Felsen möglich.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.</en>
+			<de type="str">Gegner wird extrem stark getroffen. Verschieben von Felsen möglich.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.</en>
+			<de type="str">Gegner wird extrem stark getroffen. Verschieben von Felsen möglich.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is slugged with a punch thrown at maximum power. It can also be used to move boulders.</en>
+			<de type="str">Gegner wird extrem stark getroffen. Verschieben von Felsen möglich.* (Attacken-Beschreibung)Den Gegner trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Das Ziel trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Das Ziel trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Das Ziel trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. It can also be used to move heavy boulders.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Das Ziel trifft ein energiegeladener Kraftschlag. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power. This can also be used to move heavy boulders.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is slugged with a punch thrown at maximum power.</en>
+			<de type="str">Das Ziel wird extrem stark getroffen.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird extrem stark getroffen. Macht Verschieben von Felsen möglich.* (Attacken-Beschreibung)Ein energiegeladener Kraftschlag trifft das Ziel. Außerdem lassen sich mit der Attacke schwere Felsen bewegen.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

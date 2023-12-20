@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">578</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">3</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Vigilance</fr>
+		<de type="str">Trickschutz</de>
+		<it type="str">Truccodifesa</it>
+		<en type="str">Crafty Shield</en>
+	</names>
+	<type type="str">Fairy</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Schützt sich und Mitstreiter mit einer mysteriösen Macht vor Status-Attacken. Es werden jedoch weiterhin KP-Schäden erlitten.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Schützt sich und Mitstreiter mit einer mysteriösen Macht vor Status-Attacken. Es werden jedoch weiterhin KP-Schäden erlitten.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Schützt mit einer mysteriösen Macht seine Mitstreiter und sich vor Status-Attacken, nicht jedoch vor Attacken, die Schaden verursachen.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Schützt mit einer mysteriösen Macht seine Mitstreiter und sich vor Status-Attacken, nicht jedoch vor Attacken, die Schaden verursachen.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Schützt mit einer mysteriösen Macht seine Mitstreiter und sich vor Status-Attacken, nicht jedoch vor Attacken, die Schaden verursachen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user protects itself and its allies from status moves with a mysterious power. This does not stop moves that do damage.</en>
+			<de type="str">Schützt mit einer mysteriösen Macht seine Mitstreiter und sich vor Status-Attacken, nicht jedoch vor Attacken, die Schaden verursachen.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Schützt mit einer mysteriösen Macht seine Mitstreiter und sich vor Status-Attacken, nicht jedoch vor Attacken, die Schaden verursachen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Schützt mit einer mysteriösen Macht seine Mitstreiter und sich vor Status-Attacken, nicht jedoch vor Attacken, die Schaden verursachen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

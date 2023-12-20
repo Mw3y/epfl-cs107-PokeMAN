@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">539</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">85</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Explonuit</fr>
+		<de type="str">Nachtflut</de>
+		<it type="str">Urtoscuro</it>
+		<pl type="str">Błysk Nocy</pl>
+		<en type="str">Night Daze</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">accuracy</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. It may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. It may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. It may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. It may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user lets loose a pitch-black shock wave at its target. This may also lower the target’s accuracy.</en>
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender greift Ziel mit finsteren Schockwellen an. Senkt eventuell die Genauigkeit.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>
