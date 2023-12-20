@@ -20,11 +20,14 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class PokemonDataLoader {
 
@@ -32,23 +35,31 @@ public class PokemonDataLoader {
 
     public PokemonDataLoader() {}
 
-    private Document openDataFile(String path) throws ParserConfigurationException, IOException, SAXException {
-        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        InputStream file = classloader.getResourceAsStream(path + ".xml");
+    private Document openDataFile(String path) {
+        try {
+            ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+            InputStream file = classloader.getResourceAsStream("pokedex/" + path + ".xml");
 
-        // Set up the document builder
-        DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            if (file == null)
+                throw new FileNotFoundException("The pokemon data file was not found! " + path);
 
-        // Change the entity resolver
-        db.setEntityResolver((publicId, systemId) -> new InputSource(new StringReader("")));
+            // Set up the document builder
+            DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
 
-        // Parse the xml document
-        Document document = db.parse(file);
-        // optional, but recommended
-        // read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
-        document.getDocumentElement().normalize();
+            // Change the entity resolver
+            db.setEntityResolver((publicId, systemId) -> new InputSource(new StringReader("")));
 
-        return document;
+            // Parse the xml document
+            Document document = db.parse(file);
+            // optional, but recommended
+            // read this - http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
+            document.getDocumentElement().normalize();
+
+            return document;
+        } catch (ParserConfigurationException | IOException | SAXException e) {
+            System.err.println(e);
+            return null;
+        }
     }
 
     public Pokemon loadRandom(Area area, Orientation orientation, DiscreteCoordinates coordinates) {
@@ -56,23 +67,24 @@ public class PokemonDataLoader {
     }
 
     public Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
-        try {
-            Document document = openDataFile("pokedex/pokemon/" + pokedexId);
+            Document document = openDataFile("pokemon/" + pokedexId);
             // Pokémon data
-            BasePokemonStats stats = parseBaseStats(document);
-            String name = parseName(document).toLowerCase();
+            BasePokemonStats stats = parsePokemonBaseStats(document);
+            String name = parsePokemonName(document).toLowerCase();
+            List<PokemonType> types = parsePokemonTypes(document);
             List<ICMonFightAction> actions = new ArrayList<>();
-            actions.add(new Attack());
+            List<PokemonMove> moves = parsePokemonMoves(document);
+
+            for (PokemonMove move : moves) {
+                actions.add(new Attack(move.name(), move.power()));
+            }
+            // Each Pokémon has a run-away attack but only the player can use it.
             actions.add(new RunAway());
             // Create the new Pokémon
-            return new Pokemon(area, orientation, coordinates, name, pokedexId, stats.hp(), stats.attack(), stats.defense(), actions);
-        } catch (ParserConfigurationException | IOException | SAXException e) {
-            System.err.println(e.getMessage());
-            return null;
-        }
+            return new Pokemon(area, orientation, coordinates, name, pokedexId, types, stats.hp(), stats.attack(), stats.defense(), actions);
     }
 
-    private BasePokemonStats parseBaseStats(Document document) {
+    private BasePokemonStats parsePokemonBaseStats(Document document) {
         NodeList list = document.getElementsByTagName("base_stats");
         Element element = (Element) list.item(0);
 
@@ -83,33 +95,75 @@ public class PokemonDataLoader {
         return new BasePokemonStats(hpText, attackText, defenseText);
     }
 
-    private int parsePokedexNationalId(Document document) {
-        NodeList list = document.getElementsByTagName("national_id");
-        Element element = (Element) list.item(0);
-        return Integer.parseInt(element.getTextContent());
-    }
-
-    private String parseName(Document document) {
+    private String parsePokemonName(Document document) {
         NodeList list = document.getElementsByTagName("names");
         Element element = (Element) list.item(0);
         return element.getElementsByTagName("en").item(0).getTextContent();
     }
 
-    private List<String> parseAbilities(Document document) {
-        NodeList list = document.getElementsByTagName("abilities");
-        List<String> abilities = new ArrayList<>();
+    private List<PokemonType> parsePokemonTypes(Document document) {
+        Element typesTag = (Element) document.getElementsByTagName("types").item(0);
+        NodeList list = typesTag.getElementsByTagName("item");
+        List<PokemonType> types = new ArrayList<>();
+
+        for (int temp = 0; temp < list.getLength(); ++temp) {
+            Node node = list.item(temp);
+            if (node.getNodeType() == Node.ELEMENT_NODE) {
+                String typeName = node.getTextContent().toLowerCase();
+                Document type = openDataFile("type/" + typeName);
+
+                if (type != null)
+                    types.add(new PokemonType(typeName, parseEffectivenessAgainstOtherTypes(type)));
+            }
+        }
+        return types;
+    }
+
+    private Map<String, Float> parseEffectivenessAgainstOtherTypes(Document document) {
+        NodeList effectivenessTags = document.getElementsByTagName("effectivness").item(0).getChildNodes();
+        Map<String, Float> effectivenessMap = new HashMap<>();
+
+        for (int temp = 0; temp < effectivenessTags.getLength(); ++temp) {
+            Node node = effectivenessTags.item(temp);
+            if (node.getNodeType() == Node.ELEMENT_NODE) {
+                Element element = (Element) node;
+                String typeName = element.getTagName().toLowerCase();
+                Float effectiveness = Float.parseFloat(element.getTextContent());
+                effectivenessMap.put(typeName, effectiveness);
+            }
+        }
+
+        return effectivenessMap;
+    }
+
+    private List<PokemonMove> parsePokemonMoves(Document document) {
+        NodeList list = document.getElementsByTagName("move");
+        List<PokemonMove> moves = new ArrayList<>();
 
         for (int temp = 0; temp < list.getLength(); ++temp) {
             Node node = list.item(temp);
             if (node.getNodeType() == Node.ELEMENT_NODE) {
                 Element element = (Element) node;
-                String name = element.getElementsByTagName("name").item(0).getTextContent();
-                // Convert the ability name to snake case
-                abilities.add(name.replaceAll("([a-z])([A-Z])", "$1_$2").toLowerCase());
+                String name = element.getTextContent();
+                // Convert the move name to snake case to load the corresponding move
+                String fileName = name.replaceAll(" ", "_")
+                        .replaceAll("-", "_").toLowerCase();
+
+                Document move = openDataFile("move/" + fileName);
+                if (move != null) {
+                    int power = parseMovePower(move);
+                    if (power > 0)
+                        moves.add(new PokemonMove(name, power));
+                }
             }
         }
+        return moves;
+    }
 
-        return abilities;
+    private int parseMovePower(Document document) {
+        NodeList list = document.getElementsByTagName("power");
+        Element element = (Element) list.item(0);
+        return Integer.parseInt(element.getTextContent());
     }
 
     private record BasePokemonStats(int hp, int attack, int defense) {

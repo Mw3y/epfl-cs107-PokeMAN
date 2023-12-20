@@ -9,6 +9,7 @@ import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Latios extends Pokemon {
@@ -18,6 +19,6 @@ public class Latios extends Pokemon {
     public static final int HP_MAX = 10;
 
     public Latios(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, NAME, 381, DAMAGES, 30, HP_MAX, List.of(new Attack(), new RunAway()));
+        super(area, orientation, position, NAME, 381,  new ArrayList<>(), DAMAGES, 30, HP_MAX, List.of(new Attack(), new RunAway()));
     }
 }
