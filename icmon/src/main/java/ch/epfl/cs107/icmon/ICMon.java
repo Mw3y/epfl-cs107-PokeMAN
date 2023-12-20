@@ -45,7 +45,7 @@ public class ICMon extends AreaGame {
     public boolean begin(Window window, FileSystem fileSystem) {
         if (super.begin(window, fileSystem)) {
             createAreas();
-            initArea(House.TITLE);
+            initArea(UndergroundLab.TITLE);
             events();
             return true;
         }
@@ -132,6 +132,7 @@ public class ICMon extends AreaGame {
         areas.put(Arena.TITLE, new Arena());
         areas.put(House.TITLE, new House());
         areas.put(Shop.TITLE, new Shop());
+        areas.put(UndergroundLab.TITLE, new UndergroundLab());
         // Register areas
         for (ICMonArea area : areas.values()) {
             addArea(area);
