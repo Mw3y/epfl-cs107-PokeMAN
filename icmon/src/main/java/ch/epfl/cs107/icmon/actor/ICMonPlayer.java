@@ -31,7 +31,7 @@ import java.util.List;
 
 public final class ICMonPlayer extends ICMonActor implements Interactor {
 
-    private final static int WALK_MOVE_DURATION = 3;
+    private final static int WALK_MOVE_DURATION = 4;
     private final static int SPRINT_MOVE_DURATION = 2;
     private final static int ANIMATION_DURATION = 4;
 
