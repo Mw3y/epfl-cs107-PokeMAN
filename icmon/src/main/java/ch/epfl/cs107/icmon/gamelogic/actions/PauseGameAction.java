@@ -3,8 +3,6 @@ package ch.epfl.cs107.icmon.gamelogic.actions;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.play.engine.PauseMenu;
 
-import java.lang.invoke.DelegatingMethodHandle$Holder;
-
 public class PauseGameAction implements Action {
 
     private final ICMon.ICMonGameState game;

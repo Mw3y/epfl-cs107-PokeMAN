@@ -42,13 +42,18 @@ Talk to the Pokémon assistant in the store after defeating Garry to finish the 
 When you are in battle, you have two action choices:
 
     - Run away "RUN AWAY."
-    - Attack "ATTACK" to inflict damage on the opposing Pokémon. The opposing Pokémon also inflicts damage on you.
+    - Attack : You can choose between the attacks of your Pokémon. Note that the power of the attacks, the Attack and
+      Defense stats and the type of each Pokémons are considered in the damages calculation.
 
 ## Heal your Pokémon
 You can interact with the Pokémon assistant in the laboratory to have your Pokémon healed.
 
-## Battle Pokémon in the arena
+## Fight Pokémon in the arena
 Interact with a Pokémon to initiate a battle against it.
+
+## Fight Pokémon in tall grass
+When walking in the tall grass you have a chance to be attacked by a random Pokémon from a list of 493 of them.
+
 
 # WARNING #
 Point modified compared to the statement: it is not enough for the player to have a contact interaction with a Pokémon
