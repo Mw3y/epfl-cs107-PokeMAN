@@ -33,6 +33,7 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
      * @return
      */
     protected boolean givePokemon(Pokemon pokemon) {
+        assert pokemon != null;
         return pokemons.add(pokemon);
     }
 

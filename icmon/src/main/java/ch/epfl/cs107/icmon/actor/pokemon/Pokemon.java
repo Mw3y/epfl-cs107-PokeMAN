@@ -66,6 +66,8 @@ public class Pokemon extends ICMonActor implements ICMonFightableActor {
 
     @Override
     public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
+        assert game != null;
+        assert playerPokemon != null;
         game.send(new StartFightMessage(this, playerPokemon));
     }
 
@@ -99,6 +101,7 @@ public class Pokemon extends ICMonActor implements ICMonFightableActor {
 
     @Override
     public void draw(Canvas canvas) {
+        assert canvas != null;
         sprite.draw(canvas);
     }
 
@@ -109,6 +112,7 @@ public class Pokemon extends ICMonActor implements ICMonFightableActor {
 
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+        assert v != null;
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
 

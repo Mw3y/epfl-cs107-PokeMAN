@@ -17,6 +17,7 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
     private final ICMonPlayer player;
 
     public FirstInteractionWithProfOakEvent(ICMonPlayer player) {
+        assert player != null;
         this.player = player;
         onStart(new LogAction("event.firstInteractionWithProfOak.start"));
         onComplete(new LogAction("event.firstInteractionWithProfOak.complete"));
@@ -33,6 +34,7 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
 
     @Override
     public void interactWith(ProfOak profOak, boolean isCellInteraction) {
+        assert profOak != null;
         System.out.println("interaction.with.profOak.from.firstInteractionWithProfOakEvent");
         if (!hasDialogStarted) {
             player.openDialog("first_interaction_with_prof_oak");
@@ -42,6 +44,7 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
 
     @Override
     public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
+        assert assistant!= null;
         player.openDialog("first_interaction_with_oak_event_icshopassistant");
     }
 }

@@ -32,6 +32,7 @@ public abstract class NPCActor extends ICMonActor {
 
     @Override
     public void draw(Canvas canvas) {
+        assert canvas != null;
         sprite.draw(canvas);
     }
 }

@@ -11,11 +11,15 @@ public class SuspendWithEventMessage implements GamePlayMessage {
     private final ICMonEvent event;
 
     public SuspendWithEventMessage(ICMonEvent event) {
+        assert event != null;
         this.event = event;
     }
 
     @Override
     public void process(ICMonPlayer player, ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager) {
+        assert player != null;
+        assert gameState != null;
+        assert eventManager != null;
         System.out.println("message.game.suspendWithEvent");
         if (event.hasPauseMenu()) {
             event.onStart(new PauseGameAction(gameState, event.getPauseMenu()));

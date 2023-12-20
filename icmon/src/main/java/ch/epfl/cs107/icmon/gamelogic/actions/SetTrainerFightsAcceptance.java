@@ -8,6 +8,7 @@ public class SetTrainerFightsAcceptance implements Action {
     private final boolean fightsAcceptance;
 
     public  SetTrainerFightsAcceptance(Trainer trainer, boolean fightsAcceptance) {
+        assert trainer != null;
         this.trainer = trainer;
         this.fightsAcceptance = fightsAcceptance;
     }

@@ -10,6 +10,8 @@ import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 public class ICMonChainedEvent extends ICMonEvent {
 
     public ICMonChainedEvent(ICMon.ICMonEventManager eventManager, ICMonEvent... chain) {
+        assert eventManager != null;
+        assert chain != null;
         for (int i = 0; i < chain.length; ++i) {
             // Automatically register and unregister the event
             chain[i].onStart(new RegisterEventAction(eventManager, chain[i]));

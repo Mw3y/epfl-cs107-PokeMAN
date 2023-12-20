@@ -7,6 +7,7 @@ public class ResumeGameAction implements Action {
     private final ICMon.ICMonGameState game;
 
     public ResumeGameAction(ICMon.ICMonGameState game) {
+        assert game != null;
         this.game = game;
     }
 

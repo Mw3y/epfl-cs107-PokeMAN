@@ -10,6 +10,7 @@ public class IntroductionEvent extends ICMonEvent {
     private final ICMonPlayer player;
 
     public IntroductionEvent(ICMonPlayer player) {
+        assert player != null;
         this.player = player;
         onStart(new LogAction("event.introduction.start"));
         onComplete(new LogAction("event.introduction.complete"));
