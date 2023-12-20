@@ -5,8 +5,11 @@ import ch.epfl.cs107.icmon.graphics.ICMonFightActionSelectionGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightArenaGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightTextGraphics;
 import ch.epfl.cs107.play.engine.PauseMenu;
+import ch.epfl.cs107.play.math.random.RandomGenerator;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
+
+import java.util.List;
 
 public class ICMonFight extends PauseMenu {
 
@@ -95,10 +98,13 @@ public class ICMonFight extends PauseMenu {
      */
     private void executeOpponentAction() {
         // Check if the Pokémon can attack
-        ICMonFightAction attack = opponentPokemon.properties().actions().stream()
-                .filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).findFirst().orElse(null);
+        List<ICMonFightAction> attacks = opponentPokemon.properties().actions().stream()
+                .filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).toList();
 
-        if (attack != null) {
+        // Check if the opponent can attack
+        if (!attacks.isEmpty()) {
+            // Use a random attack
+            ICMonFightAction attack = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size()));
             // The attack didn't finish
             if (!attack.doAction(playerPokemon, opponentPokemon)) {
                 state = FightState.ENDING;

@@ -34,10 +34,11 @@ public class Attack implements ICMonFightAction {
 
     @Override
     public boolean doAction(Pokemon target, Pokemon pokemon) {
+        assert pokemon != null;
+        assert target != null;
+
         Pokemon.PokemonProperties atkProps = pokemon.properties();
         Pokemon.PokemonProperties defProps = target.properties();
-
-        System.out.println(power);
 
         // Calculate the damages of this attack based on Pokémon properties
         int random = RandomGenerator.getInstance().nextInt(85, 100) / 20;
