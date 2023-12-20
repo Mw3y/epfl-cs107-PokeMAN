@@ -47,7 +47,7 @@ public class ICMon extends AreaGame {
         assert fileSystem != null;
         if (super.begin(window, fileSystem)) {
             createAreas();
-            initArea(UndergroundLab.TITLE);
+            initArea(House.TITLE);
             events();
             return true;
         }
