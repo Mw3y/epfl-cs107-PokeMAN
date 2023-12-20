@@ -28,10 +28,12 @@ public class PokemonDataLoader {
 
     public static final int POKEDEX_SIZE = 493;
 
-    public PokemonDataLoader() {
-    }
-
-    private Document openDataFile(String path) {
+    /**
+     * Opens a data file of the Pokédex.
+     * @param path - The path of the file, relative to the Pokédex folder
+     * @return the document content.
+     */
+    private static Document openDataFile(String path) {
         try {
             ClassLoader classloader = Thread.currentThread().getContextClassLoader();
             InputStream file = classloader.getResourceAsStream("pokedex/" + path + ".xml");
@@ -58,11 +60,26 @@ public class PokemonDataLoader {
         }
     }
 
-    public Pokemon loadRandom(Area area, Orientation orientation, DiscreteCoordinates coordinates) {
+    /**
+     * Loads a random Pokémon from the Pokédex.
+     * @param area - The area the Pokémon will spawn in
+     * @param orientation - The orientation of the Pokémon
+     * @param coordinates - Where the Pokémon will spawn in the area
+     * @return a new Pokémon that was just created.
+     */
+    public static Pokemon loadRandom(Area area, Orientation orientation, DiscreteCoordinates coordinates) {
         return load(RandomGenerator.getInstance().nextInt(1, POKEDEX_SIZE), area, orientation, coordinates);
     }
 
-    public Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
+    /**
+     * Loads a random Pokémon from the Pokédex based on its national id.
+     * @param pokedexId - The national id of the Pokémon
+     * @param area - The area the Pokémon will spawn in
+     * @param orientation - The orientation of the Pokémon
+     * @param coordinates - Where the Pokémon will spawn in the area
+     * @return a new Pokémon that was just created.
+     */
+    public static Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
         Document document = openDataFile("pokemon/" + pokedexId);
         // Pokémon data
         BasePokemonStats stats = parsePokemonBaseStats(document);
@@ -83,7 +100,12 @@ public class PokemonDataLoader {
         return new Pokemon(area, orientation, coordinates, name, pokedexId, types, stats.hp(), stats.attack(), stats.defense(), actions);
     }
 
-    private BasePokemonStats parsePokemonBaseStats(Document document) {
+    /**
+     * Extracts the base stats of the Pokémon from the Pokédex file.
+     * @param document - The Pokémon data file
+     * @return the base stats of the Pokémon.
+     */
+    private static BasePokemonStats parsePokemonBaseStats(Document document) {
         NodeList list = document.getElementsByTagName("base_stats");
         Element element = (Element) list.item(0);
 
@@ -94,13 +116,23 @@ public class PokemonDataLoader {
         return new BasePokemonStats(hpText, attackText, defenseText);
     }
 
-    private String parsePokemonName(Document document) {
+    /**
+     * Extracts the name of the Pokémon from the Pokédex file.
+     * @param document - The Pokémon data file
+     * @return the Pokémon name.
+     */
+    private static String parsePokemonName(Document document) {
         NodeList list = document.getElementsByTagName("names");
         Element element = (Element) list.item(0);
         return element.getElementsByTagName("en").item(0).getTextContent();
     }
 
-    private List<PokemonType> parsePokemonTypes(Document document) {
+    /**
+     * Extracts the types of the Pokémon from the Pokédex.
+     * @param document - The Pokémon data file
+     * @return a list of Pokémon types with their effectiveness against other types.
+     */
+    private static List<PokemonType> parsePokemonTypes(Document document) {
         Element typesTag = (Element) document.getElementsByTagName("types").item(0);
         NodeList list = typesTag.getElementsByTagName("item");
         List<PokemonType> types = new ArrayList<>();
@@ -118,7 +150,12 @@ public class PokemonDataLoader {
         return types;
     }
 
-    private Map<String, Float> parseEffectivenessAgainstOtherTypes(Document document) {
+    /**
+     * Extracts the effectiveness of a type against another from the Pokédex.
+     * @param document - The type file from the Pokédex
+     * @return the effectiveness against all Pokémon types for this type.
+     */
+    private static Map<String, Float> parseEffectivenessAgainstOtherTypes(Document document) {
         NodeList effectivenessTags = document.getElementsByTagName("effectivness").item(0).getChildNodes();
         Map<String, Float> effectivenessMap = new HashMap<>();
 
@@ -135,7 +172,12 @@ public class PokemonDataLoader {
         return effectivenessMap;
     }
 
-    private List<PokemonMove> parsePokemonMoves(Document document) {
+    /**
+     * Extracts the possible moves for this Pokémon from the Pokédex.
+     * @param document - The Pokémon data file
+     * @return a list of moves for this Pokémon.
+     */
+    private static List<PokemonMove> parsePokemonMoves(Document document) {
         NodeList list = document.getElementsByTagName("move");
         Set<String> alreadyLoadedMoves = new HashSet<>();
         List<PokemonMove> moves = new ArrayList<>();
@@ -162,12 +204,23 @@ public class PokemonDataLoader {
         return moves;
     }
 
-    private int parseMovePower(Document document) {
+    /**
+     * Extracts the power of a move from the Pokédex.
+     * @param document - The Pokémon file for the move
+     * @return the power of the move.
+     */
+    private static int parseMovePower(Document document) {
         NodeList list = document.getElementsByTagName("power");
         Element element = (Element) list.item(0);
         return Integer.parseInt(element.getTextContent());
     }
 
+    /**
+     * Represents the base stats of a Pokémon.
+     * @param hp - The base hp
+     * @param attack - The base attack
+     * @param defense - The base defense
+     */
     private record BasePokemonStats(int hp, int attack, int defense) {
         private BasePokemonStats(String hp, String attack, String defense) {
             this(Integer.parseInt(hp), Integer.parseInt(attack), Integer.parseInt(defense));

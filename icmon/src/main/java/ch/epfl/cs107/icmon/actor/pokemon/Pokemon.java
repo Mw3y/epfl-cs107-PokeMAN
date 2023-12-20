@@ -122,50 +122,88 @@ public class Pokemon extends ICMonActor implements ICMonFightableActor {
      */
     public final class PokemonProperties {
 
+        /**
+         * @return the national identifier for this Pokémon.
+         */
         public int pokedexId() {
             return pokedexId;
         }
 
+        /**
+         * @return the list of the types of this Pokémon.
+         */
         public List<PokemonType> types() {
             return types;
         }
 
+        /**
+         * @return the name of this Pokémon.
+         */
         public String name() {
             return name;
         }
 
+        /**
+         * @return the current health of this Pokémon.
+         */
         public float hp() {
             return hp;
         }
 
+        /**
+         * @return the maximum health that this Pokémon can have.
+         */
         public float maxHp() {
             return hpMax;
         }
 
+        /**
+         * @return the attack stat of this Pokémon.
+         */
         public int attack() {
             return attack;
         }
 
+        /**
+         * @return the defense stat of the Pokémon.
+         */
         public int defense() {
             return defense;
         }
 
+        /**
+         * @return the list of possible actions in a fight for this Pokémon.
+         */
         public List<ICMonFightAction> actions() {
             return actionsList;
         }
 
+        /**
+         * @return whether the Pokémon has less than 35% of its original health.
+         */
         public boolean hasLowHp() {
             return hp <= .35 * hpMax;
         }
 
+        /**
+         * @return whether the Pokémon has less than 15% of its original health.
+         */
         public boolean hasCriticalHp() {
             return hp <= .15 * hpMax;
         }
 
+        /**
+         * @return whether the Pokémon has some health left or not.
+         */
         public boolean isKO() {
             return hp <= 0;
         }
 
+        /**
+         * Calculates the impact of the difference in type with the target.
+         * @param targetProps - The properties of the Pokémon to attack
+         * @return the coefficient for the damages to apply to the target.
+         */
         public float getAttackTypeCoeff(PokemonProperties targetProps) {
             float attackCoeff = types.get(0).effectiveness().get(targetProps.types().get(0).name());
             if (types.size() > 1 && targetProps.types().size() > 1)

@@ -1,10 +1,8 @@
 package ch.epfl.cs107.icmon.gamelogic.events;
 
-import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
 import ch.epfl.cs107.icmon.actor.npc.ProfOak;
-import ch.epfl.cs107.icmon.actor.pokemon.Latios;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.maps.Pokeball;
 import ch.epfl.cs107.icmon.data.PokemonDataLoader;
@@ -22,7 +20,7 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
         this.player = player;
         onStart(new LogAction("event.firstInteractionWithProfOak.start"));
         onComplete(new LogAction("event.firstInteractionWithProfOak.complete"));
-        Pokemon latios = new PokemonDataLoader().load(381, new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0));
+        Pokemon latios = PokemonDataLoader.load(381, new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0));
         onComplete(new GivePokemonToPlayerAction(latios, player));
     }
 
