@@ -8,6 +8,8 @@ public class UnregisterEventAction implements Action {
     private final ICMonEvent event;
 
     public UnregisterEventAction(ICMon.ICMonEventManager eventManager, ICMonEvent eventToRegister) {
+        assert eventManager != null;
+        assert eventToRegister != null;
         this.eventManager = eventManager;
         this.event = eventToRegister;
     }

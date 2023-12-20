@@ -9,6 +9,8 @@ public class GivePokemonToPlayerAction implements Action{
     private final ICMonPlayer player;
 
     public GivePokemonToPlayerAction(Pokemon pokemon, ICMonPlayer player){
+        assert pokemon != null;
+        assert player != null;
         this.pokemon = pokemon;
         this.player = player;
     }

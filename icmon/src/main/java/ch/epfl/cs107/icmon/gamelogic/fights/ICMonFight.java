@@ -24,6 +24,8 @@ public class ICMonFight extends PauseMenu {
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
      */
     public ICMonFight(Pokemon playerPokemon, Pokemon opponentPokemon) {
+        assert playerPokemon != null;
+        assert opponentPokemon != null;
         this.playerPokemon = playerPokemon;
         this.opponentPokemon = opponentPokemon;
         this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
@@ -31,8 +33,9 @@ public class ICMonFight extends PauseMenu {
     }
 
     @Override
-    protected void drawMenu(Canvas c) {
-        arena.draw(c);
+    protected void drawMenu(Canvas canvas) {
+        assert canvas != null;
+        arena.draw(canvas);
     }
 
     /**
@@ -40,6 +43,7 @@ public class ICMonFight extends PauseMenu {
      * @param keyboard - The keyboard that the user uses
      */
     private void intro(Keyboard keyboard) {
+        assert keyboard != null;
         drawText("Welcome to the fight");
         if (keyboard.get(Keyboard.SPACE).isPressed())
             state = FightState.SELECT_ACTION;
@@ -50,6 +54,7 @@ public class ICMonFight extends PauseMenu {
      * @param keyboard - The keyboard that the user uses
      */
     private void selectPlayerAction(Keyboard keyboard, float deltaTime) {
+        assert keyboard != null;
         // Instantiate a new menu only when needed
         if (playerActionsMenu == null) {
             playerActionsMenu = new ICMonFightActionSelectionGraphics(CAMERA_SCALE_FACTOR, keyboard, playerPokemon.properties().actions());
@@ -120,6 +125,7 @@ public class ICMonFight extends PauseMenu {
      * @param keyboard - The keyboard that the user uses
      */
     private void ending(Keyboard keyboard) {
+        assert keyboard != null;
         if (keyboard.get(Keyboard.SPACE).isPressed())
             end();
     }
@@ -144,6 +150,7 @@ public class ICMonFight extends PauseMenu {
      * @param message - The message to display
      */
     private void drawText(String message) {
+        assert message != null;
         arena.setInteractionGraphics(new ICMonFightTextGraphics(CAMERA_SCALE_FACTOR, message));
     }
 

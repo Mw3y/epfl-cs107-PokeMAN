@@ -1,65 +1,58 @@
-# MP2-2023
+MP2-2023
+========
+# Game Description "PokéMaN: Majorez les tous !"
+The player spawns in the area of his house (Home) and must interact with a series of characters scattered on the map 
+to collect Pokémon to fight his rival Garry.
 
-# Description du jeu "PokéMaN : Majorez les tous !"
+# The player can access the following areas :
 
-Le joueur spawn dans l'aire de sa maison (Home) et doit interagir avec une série de personnages dispersés sur la map dans le but de récupérer des Pokémons afin de combattre son rival Garry.
+    - Town: The main area of the village
+    - Lab: Professor Oak's laboratory located north of the town
+    - Arena: The Pokémon arena where the player can battle Pokémon by interacting with them. 
+      It is located in the center of the town.
+    - Shop: The store where the Pokémon assistant is located to the east of the village.
 
-Le joueur pourra accéder aux aires suivantes :
+## *Controls*
 
-    - Town  : L'aire principale du village
-    - Lab   : Le laboratoire du professeur Oak qui se trouve au Nord du village
-    - Arena : L'arène Pokémon ou le joueur peut combattre des Pokémons en interagissant
-              avec eux. Elle se trouve au centre du village. 
-    - Shop  : Le magasin dans lequel se trouve l'assistante Pokémon se trouvant à l'Est 
-              du village.
+- Arrow keys: Movement and selection of actions in combat.
+- L: Interaction with objects, characters, Pokémon, doors...
+- S: Sprint, hold down.
+- SPACE: Skip dialogues and messages during Pokémon battles.
+- ENTER: Confirm an action during a Pokémon battle.
+- R : Reset the game.
 
-*Controles*
-- Flèches directionelles : déplacements et selection des actions en combat.
-- L : Interaction avec des objets, personnages, pokémons, portes...
-- S : Sprint, maintenir appuyé.
-- SPACE : Passer les dialogues et les messages lors des combats Pokémon.
-- ENTER : Valider une action lors d'un combat Pokémon.
+# Game Solution :
+Your rival Garry has challenged you to a duel, and you must defeat him. On this purpose you will have to :
 
-# Solution du jeu :
+## Talk to Professor Oak
+He is located in the laboratory and will give you your first Pokémon; a Latias. He will also introduce you to the different zones of the game and what you can do there.
 
-Votre rival Garry vous a provoqué en duel et vous devez le battre.
+## Retrieve the Pokéball
+You will find it in the water south of the playing area, and it is necessary for battling your rival Garry.
 
-## Parler au professeur Oak 
+## Battle Garry
+Garry is in your house; you need to interact with him to start the battle.
 
-Celui se trouve dans le laboratoire et vous confiera votre premier Pokémon ; un Latias. Il vous présentera également les différentes zones du jeu et ce que vous pourrez y faire.
+## End of the game
+Talk to the Pokémon assistant in the store after defeating Garry to finish the game.
 
-## Récupérer la Pokéball 
+# Other activities :
 
-Vous la trouverez dans l'eau au sud de l'aire de jeu et elle vous est est nécessaire pour combattre votre rival Garry.
+## Pokémon Battle
+When you are in battle, you have two action choices:
 
-## Combattre Garry
+    - Run away "RUN AWAY."
+    - Attack "ATTACK" to inflict damage on the opposing Pokémon. The opposing Pokémon also inflicts damage on you.
 
-Garry se trouve dans votre maison, il vous faut interagir avec lui pour le combattre.
+## Heal your Pokémon
+You can interact with the Pokémon assistant in the laboratory to have your Pokémon healed.
 
-## Fin du jeu 
+## Battle Pokémon in the arena
+Interact with a Pokémon to initiate a battle against it.
 
-Parlez à l'assistante Pokémon du magasin  après avoir battu Garry pour terminer le jeu.
-
-## Faire un combat Pokémon
-
-Lorsque vous êtes en combat vous disposez des deux choix d'action :
-
-    - Prendre la fuite "RUN AWAY".
-    - Attaquer "ATTACK" pour infliger des dégâts au Pokémon adverse.
-Le Pokémon adverse vous inflige également des dégats.
-
-## Soigner ses Pokémons 
-
-Vous pouvez interagir avec l'assistante Pokémon du laboratoire pour qu'elle soigne vos Pokémons.
-
-## Combattre des Pokémons dans l'arène
-
-Interagissez avec un Pokémon pour lancer un combat contre celui-ci.
-
-# ATTENTION #
-
-Point modifié par rapport à l'ennoncé : il ne suffit pas d'une interaction de contact entre le joueur et un Pokémon
-pour lancer un combat avec celui-ci, il faut interagir avec le bouton L.
-Ce choix a été fait dans le but de se rapprocher du fonctionnement du jeu Pokémon original.
-De plus l'affichage des Pokémons étant inversé dans le fonctionnement initial de la maquette, 
-nous avons pris la liberté de mofifier cette dernière afin que le Pokémon du joueur soit affiché de son côté.
+# WARNING #
+Point modified compared to the statement: it is not enough for the player to have a contact interaction with a Pokémon
+to start a battle; they need to interact with the L button. This choice was made to align with the original Pokémon 
+game's functionality. 
+Additionally, since the display of Pokémon was initially reversed in the prototype, we took the liberty of modifying
+it so that the player's Pokémon is displayed on their side

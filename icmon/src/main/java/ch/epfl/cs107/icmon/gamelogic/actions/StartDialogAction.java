@@ -8,6 +8,8 @@ public class StartDialogAction implements Action {
     private final ICMonPlayer player;
 
     public StartDialogAction(String path, ICMonPlayer player) {
+        assert path != null;
+        assert player != null;
         this.path = path;
         this.player = player;
     }

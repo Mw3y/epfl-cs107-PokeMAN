@@ -64,6 +64,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
     }
 
     private void setSprite(OrientedAnimation sprite) {
+        assert sprite != null;
         currentSprite = sprite;
     }
 
@@ -73,6 +74,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      * @return true if the operation was successful.
      */
     public boolean givePokemon(Pokemon pokemon) {
+        assert pokemon != null;
         return pokemons.add(pokemon);
     }
 
@@ -128,6 +130,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     @Override
     public void draw(Canvas canvas) {
+        assert canvas != null;
         if (isDialogInProgress()) {
             dialog.draw(canvas);
         }
@@ -140,11 +143,13 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      * @return true if the nurse accepted to heal the player Pokémon
      */
     public boolean requestHealFromNurse(Nurse nurse) {
+        assert nurse != null;
         return nurse.healPokemons(pokemons);
     }
 
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+        assert v != null;
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
 
@@ -165,6 +170,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
     @Override
     public void interactWith(Interactable other, boolean isCellInteraction) {
+        assert other != null;
         other.acceptInteraction(handler, true);
     }
 
@@ -175,6 +181,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      * @param b           (Button): button corresponding to the given orientation, not null
      */
     private void moveIfPressed(Orientation orientation, Button b) {
+        assert orientation != null;
+        assert b != null;
         if (b.isDown()) {
             if (!isDisplacementOccurs()) {
                 orientate(orientation);
@@ -188,6 +196,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      * @param name - The name of the dialog file (without extension).
      */
     public void openDialog(String name) {
+        assert name != null;
         dialog = new Dialog(name);
     }
 
@@ -216,6 +225,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ICMonBehavior.ICMonCell cell, boolean isCellInteraction) {
+            assert cell != null;
             // Close range interaction
             if (isCellInteraction) {
                 switch (cell.getWalkingType()) {
@@ -235,12 +245,14 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         }
 
         @Override
-        public void interactWith(ICShopAssistant npc, boolean isCellInteraction) {
-            gameState.acceptInteraction(npc, isCellInteraction);
+        public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
+            assert assistant != null;
+            gameState.acceptInteraction(assistant, isCellInteraction);
         }
 
         @Override
         public void interactWith(Door door, boolean isCellInteraction) {
+            assert door != null;
             if (isCellInteraction) {
                 GamePlayMessage message = new PassDoorMessage(door);
                 gameState.send(message);
@@ -250,12 +262,14 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ICBall ball, boolean isCellInteraction) {
+            assert ball != null;
             ball.collect();
             gameState.acceptInteraction(ball, isCellInteraction);
         }
 
         @Override
         public void interactWith(Pokemon pokemon, boolean isCellInteraction) {
+            assert pokemon != null;
             if (hasHealthyPokemon()) {
                 pokemon.fight(gameState, pokemons.get(0));
             }
@@ -265,11 +279,13 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(ProfOak profOak, boolean isCellInteraction) {
+            assert profOak != null;
             gameState.acceptInteraction(profOak, isCellInteraction);
         }
 
         @Override
         public void interactWith(Trainer trainer, boolean isCellInteraction) {
+            assert trainer != null;
             if (hasHealthyPokemon() && trainer.acceptsFights()) {
                 trainer.fight(gameState, pokemons.get(0));
             }
@@ -279,6 +295,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         @Override
         public void interactWith(Nurse nurse, boolean isCellInteraction) {
+            assert nurse != null;
             if (hasPokemonNeedingHeal()) {
                 openDialog("nurse_heal_pokemon");
                 requestHealFromNurse(nurse);

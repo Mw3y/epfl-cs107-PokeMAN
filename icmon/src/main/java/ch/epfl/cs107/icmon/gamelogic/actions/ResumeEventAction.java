@@ -7,6 +7,7 @@ public class ResumeEventAction implements Action{
     private final ICMonEvent event;
 
     public ResumeEventAction(ICMonEvent event){
+        assert event != null;
         this.event = event;
     }
 

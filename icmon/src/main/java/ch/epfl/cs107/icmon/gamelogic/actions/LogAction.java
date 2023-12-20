@@ -5,6 +5,7 @@ public class LogAction implements Action {
     private final String message;
 
     public LogAction(String messageToLog) {
+        assert messageToLog != null;
         message = messageToLog;
     }
 

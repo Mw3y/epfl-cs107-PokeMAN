@@ -16,11 +16,16 @@ public class StartFightMessage implements GamePlayMessage {
     private final Pokemon playerPokemon;
 
     public StartFightMessage(Pokemon opponentPokemon, Pokemon playerPokemon) {
+        assert opponentPokemon != null;
+        assert playerPokemon != null;
         this.opponentPokemon = opponentPokemon;
         this.playerPokemon = playerPokemon;
     }
 
     public StartFightMessage(Trainer trainer, Pokemon trainerPokemon, Pokemon playerPokemon) {
+        assert trainer != null;
+        assert trainerPokemon != null;
+        assert playerPokemon != null;
         this.trainer = trainer;
         this.opponentPokemon = trainerPokemon;
         this.playerPokemon = playerPokemon;
@@ -28,6 +33,9 @@ public class StartFightMessage implements GamePlayMessage {
 
     @Override
     public void process(ICMonPlayer player, ICMon.ICMonGameState gameState, ICMon.ICMonEventManager eventManager) {
+        assert player != null;
+        assert gameState != null;
+        assert eventManager != null;
         System.out.println("message.player.startFight");
         // Create the fight event depending on the opponent to fight
         PokemonFightEvent event = trainer == null
