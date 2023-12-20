@@ -101,7 +101,7 @@ public class ICMonFight extends PauseMenu {
     private void executeOpponentAction() {
         // Check if the Pokémon can attack
         ICMonFightAction attack = opponentPokemon.properties().actions().stream()
-                .filter(action -> action.name().equals("Attack")).findFirst().orElse(null);
+                .filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).findFirst().orElse(null);
 
         if (attack != null) {
             // The attack didn't finish

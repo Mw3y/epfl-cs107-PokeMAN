@@ -8,6 +8,14 @@ import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
  * @author Hamza REMMAL (hamza.remmal@epfl.ch)
  */
 public interface ICMonFightAction {
+
+    /**
+     * Gets the type of the fight action.
+     * @return the type of the action.
+     */
+    // TODO: Document
+    PokemonMoveType type();
+
     /**
      * Gets the name of the fight action.
      * @return the name of the action.

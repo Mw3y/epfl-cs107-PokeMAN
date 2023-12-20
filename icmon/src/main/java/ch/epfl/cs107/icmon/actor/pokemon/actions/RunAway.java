@@ -2,6 +2,7 @@ package ch.epfl.cs107.icmon.actor.pokemon.actions;
 
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
+import ch.epfl.cs107.icmon.gamelogic.fights.PokemonMoveType;
 
 public class RunAway implements ICMonFightAction {
 
@@ -14,6 +15,11 @@ public class RunAway implements ICMonFightAction {
     @Override
     public String name() {
         return "Run away";
+    }
+
+    @Override
+    public PokemonMoveType type() {
+        return PokemonMoveType.SPECIAL;
     }
 
     @Override
