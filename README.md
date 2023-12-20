@@ -43,7 +43,7 @@ When you are in battle, you have two action choices:
 
     - Run away "RUN AWAY."
     - Attack : You can choose between the attacks of your Pokémon. Note that the power of the attacks, the Attack and
-      Defense stats and the type of each Pokémons are considered in the damages calculation.
+      Defense stats and the type of each Pokémon are considered in the damages calculation.
 
 ## Heal your Pokémon
 You can interact with the Pokémon assistant in the laboratory to have your Pokémon healed.
@@ -56,8 +56,8 @@ When walking in the tall grass you have a chance to be attacked by a random Pok�
 
 
 # WARNING #
-Point modified compared to the statement: it is not enough for the player to have a contact interaction with a Pokémon
-to start a battle; they need to interact with the L button. This choice was made to align with the original Pokémon 
+Point modified compared to the instructions : it is not enough for the player to have a contact interaction with a Pokémon
+to start a battle ; you need to interact with the L button. This choice was made to align with the original Pokémon 
 game's functionality. 
 Additionally, since the display of Pokémon was initially reversed in the prototype, we took the liberty of modifying
 it so that the player's Pokémon is displayed on their side
