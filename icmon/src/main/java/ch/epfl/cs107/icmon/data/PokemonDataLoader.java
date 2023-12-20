@@ -68,7 +68,7 @@ public class PokemonDataLoader {
      * @return a new Pokémon that was just created.
      */
     public static Pokemon loadRandom(Area area, Orientation orientation, DiscreteCoordinates coordinates) {
-        return load(RandomGenerator.getInstance().nextInt(1, POKEDEX_SIZE), area, orientation, coordinates);
+        return load(RandomGenerator.getInstance().nextInt(1, POKEDEX_SIZE + 1), area, orientation, coordinates);
     }
 
     /**
