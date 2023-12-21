@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">353</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">140</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Carnareket</fr>
+		<de type="str">Kismetwunsch</de>
+		<gr type="str">Εκτυφλωτική Καταδίκη</gr>
+		<it type="str">Obbliderio</it>
+		<en type="str">Doom Desire</en>
+	</names>
+	<type type="str">Steel</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Summons strong sunlight to attack 2 turns later.</en>
+			<de type="str">Speichert Sonnenenergie. Angriff zwei Runden später.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Summons strong sunlight to attack 2 turns later.</en>
+			<de type="str">Speichert Sonnenenergie. Angriff zwei Runden später.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Summons strong sunlight to attack 2 turns later.</en>
+			<de type="str">Speichert Sonnenenergie. Angriff zwei Runden später.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A move that attacks the foe with a blast of light two turns after use.</en>
+			<de type="str">Angriff mit Sonnenenergie erfolgt 2 Runden nach Attackeneinsatz.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A move that attacks the foe with a blast of light two turns after use.</en>
+			<de type="str">Angriff mit Sonnenenergie erfolgt 2 Runden nach Attackeneinsatz.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit Sonnenenergie erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit Sonnenenergie erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit Sonnenenergie erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit Sonnenenergie erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the foe with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit Sonnenenergie erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Two turns after this move is used, the user blasts the target with a concentrated bundle of light.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Two turns after this move is used, a concentrated bundle of light blasts the target.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Two turns after this move is used, a concentrated bundle of light blasts the target.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Two turns after this move is used, a concentrated bundle of light blasts the target.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Two turns after this move is used, a concentrated bundle of light blasts the target.</en>
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit gebündeltem Licht erfolgt zwei Runden nach Attackeneinsatz.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

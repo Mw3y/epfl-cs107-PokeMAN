@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">36</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Bourací útok</cz>
+		<dk type="str">Nedlægge</dk>
+		<fr type="str">Bélier</fr>
+		<de type="str">Bodycheck</de>
+		<gr type="str">Κατακρήμνιση</gr>
+		<it type="str">Riduttore</it>
+		<pl type="str">Usunięcie</pl>
+		<en type="str">Take Down</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A tackle that also hurts the user.</en>
+			<de type="str">Tackle! Angreifer wird verletzt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A tackle that also hurts the user.</en>
+			<de type="str">Tackle! Angreifer wird verletzt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A tackle that also hurts the user.</en>
+			<de type="str">Tackle! Angreifer wird verletzt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A reckless charge attack that also hurts the user.</en>
+			<de type="str">Rücksichtslose Attacke, mit Selbstschädigung.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A reckless charge attack that also hurts the user.</en>
+			<de type="str">Rücksichtslose Attacke, mit Selbstschädigung.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A reckless charge attack that also hurts the user.</en>
+			<de type="str">Rücksichtslose Attacke, mit Selbstschädigung.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A reckless, full-body charge attack that also hurts the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst verletzt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A reckless, full-body charge attack that also hurts the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst verletzt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst verletzt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst verletzt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst verletzt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst verletzt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the foe. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst verletzt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. It also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A reckless, full-body charge attack for slamming into the target. This also damages the user a little.</en>
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Rücksichtslose Attacke, bei der sich der Angreifer selbst leicht verletzt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

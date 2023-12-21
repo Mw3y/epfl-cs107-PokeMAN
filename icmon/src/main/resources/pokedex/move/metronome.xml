@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">118</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Metronom</cz>
+		<dk type="str">Metronom</dk>
+		<fr type="str">Métronome</fr>
+		<de type="str">Metronom</de>
+		<gr type="str">Μετρονόμος</gr>
+		<it type="str">Metronomo</it>
+		<pl type="str">Metronom</pl>
+		<en type="str">Metronome</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Randomly uses any POKéMON move.</en>
+			<de type="str">Wählt zufällige POKéMON-Attacke.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Randomly uses any POKéMON move.</en>
+			<de type="str">Wählt zufällige POKéMON-Attacke.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Randomly uses any POKéMON move.</en>
+			<de type="str">Wählt zufällige POKéMON-Attacke.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Waggles a finger to use any POKéMON move at random.</en>
+			<de type="str">Bewegt Finger und wählt PKMN-Attacke zufällig aus.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Waggles a finger to use any POKéMON move at random.</en>
+			<de type="str">Bewegt Finger und wählt PKMN-Attacke zufällig aus.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Waggles a finger to use any POKéMON move at random.</en>
+			<de type="str">Bewegt Finger und wählt PKMN-Attacke zufällig aus.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Waggles a finger and stimulates the brain into using any move at random.</en>
+			<de type="str">Bewegt Finger, um Gehirn zu stimulieren. Wählt zufällig Attacke aus.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Waggles a finger and stimulates the brain into using any move at random.</en>
+			<de type="str">Bewegt Finger, um Gehirn zu stimulieren. Wählt zufällig Attacke aus.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user waggles a finger and stimulates the brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um Gehirn zu stimulieren. Wählt zufällig Attacke aus.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user waggles a finger and stimulates the brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um Gehirn zu stimulieren. Wählt zufällig Attacke aus.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user waggles a finger and stimulates the brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um Gehirn zu stimulieren. Wählt zufällig Attacke aus.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user waggles a finger and stimulates the brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um Gehirn zu stimulieren. Wählt zufällig Attacke aus.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user waggles a finger and stimulates the brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um Gehirn zu stimulieren. Wählt zufällig Attacke aus.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user waggles a finger and stimulates its brain into randomly using nearly any move.</en>
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Bewegt Finger, um das Gehirn zu stimulieren. Wählt zufällig eine Attacke aus.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

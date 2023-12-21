@@ -1,0 +1,583 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Crabominable</en>
+		<jp>ケケンカニ Kekenkani</jp>
+		<fr>Crabominable</fr>
+		<es>Crabominable</es>
+		<de>Krawell</de>
+		<it>Crabominable</it>
+	</names>
+	<national_id>740</national_id>
+	<alola_id>60</alola_id>
+	<types>
+		<item>Fighting</item>
+		<item>Ice</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Hyper Cutter</name>
+		</item>
+		<item>
+			<name>Anger Point</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>60</catch_rate>
+	<egg_groups>
+		<item>Water 3</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>5'07&quot;</height_us>
+	<height_eu>1.7 m</height_eu>
+	<weight_us>396.8 lbs.</weight_us>
+	<weight_eu>180.0 kg</weight_eu>
+	<base_exp_yield>167</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>White</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>2</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>97</hp>
+		<atk>132</atk>
+		<def>77</def>
+		<sp_atk>62</sp_atk>
+		<sp_def>67</sp_def>
+		<speed>43</speed>
+	</base_stats>
+	<evolution_from>Crabrawler</evolution_from>
+	<categories>
+		<en>Woolly Crab Pokémon</en>
+		<de>Fellkrabbe</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>It aimed for the top but got lost and ended up on a snowy mountain. Being forced to endure the cold, this Pokémon evolved and grew fur.</en>
+			<de>Es wollte auf eine verschneite Bergspitze, hat sich aber verlaufen. In der Kälte wuchs ihm dann ein Fell und es entwickelte sich weiter.</de>
+		</Sun>
+		<Moon>
+			<en>It just throws punches indiscriminately. In times of desperation, it can lop off its own pincers and fire them like rockets.</en>
+			<de>Schlägt erst einmal wahllos zu. Kommt es hart auf hart, stößt es seine Scheren ab und verschießt sie wie Raketen.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It stores coldness in its pincers and pummels its foes. It can even smash thick walls of ice to bits!</en>
+			<de>Es speichert kalte Luft in seinen Scheren. Wenn es mit diesen um sich schlägt, kann es selbst dicke Eiswände zerbröckeln.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Before it stops to think, it just starts pummeling. There are records of its turning back avalanches with a flurry of punches.</en>
+			<de>Es denkt nicht lange nach und schlägt einfach zu. Laut manchen Berichten kann es mit seinen schnellen Schlägen selbst Lawinen stoppen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>25</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bubble</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Dizzy Punch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Reversal</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ice Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bubble</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Dizzy Punch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Reversal</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ice Hammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

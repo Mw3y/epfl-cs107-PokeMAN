@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Dragon Hammer</en>
+		<fr type="str">Draco-Marteau</fr>
+		<de type="str">Drachenhammer</de>
+		<it type="str">Marteldrago</it>
+		<es type="str">Martillo Dragón</es>
+	</names>
+	<index_number type="int">692</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Dragon</type>
+	<category type="str">physical</category>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user uses its body like a hammer to attack the target and inflict damage.</en>
+			<de type="str">Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user uses its body like a hammer to attack the target and inflict damage.</en>
+			<de type="str">Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user uses its body like a hammer to attack the target and inflict damage.</en>
+			<de type="str">Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user uses its body like a hammer to attack the target and inflict damage.</en>
+			<de type="str">Der Anwender nutzt seinen Körper wie einen Hammer und stürzt sich auf das Ziel, wodurch dieses Schaden erleidet.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

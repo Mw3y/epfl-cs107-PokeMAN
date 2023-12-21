@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">29</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">70</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Hlavový útok</cz>
+		<dk type="str">Hovedstød</dk>
+		<fr type="str">Coup d'Boule</fr>
+		<de type="str">Kopfnuss</de>
+		<gr type="str">Κεφαλιά</gr>
+		<it type="str">Bottintesta</it>
+		<pl type="str">Taran</pl>
+		<en type="str">Headbutt</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may make foe flinch.</en>
+			<de type="str">Gegner muss evtl. ausweichen.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may make foe flinch.</en>
+			<de type="str">Gegner muss evtl. ausweichen.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may make foe flinch.</en>
+			<de type="str">Gegner schreckt evtl. zurück.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A ramming attack that may cause flinching.</en>
+			<de type="str">Rammt den Gegner und lässt ihn evtl. zurückschrecken.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A ramming attack that may cause flinching.</en>
+			<de type="str">Rammt den Gegner und lässt ihn evtl. zurückschrecken.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A ramming attack that may cause flinching.</en>
+			<de type="str">Rammt den Gegner und lässt ihn evtl. zurückschrecken.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user sticks its head out and rams. It may make the foe flinch.</en>
+			<de type="str">Rammt den Gegner und lässt ihn evtl. zurückschrecken.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user sticks its head out and rams. It may make the foe flinch.</en>
+			<de type="str">Rammt den Gegner und lässt ihn evtl. zurückschrecken.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user sticks its head out and rams straight forward. It may make the foe flinch.</en>
+			<de type="str">Rammt den Gegner und lässt ihn eventuell zurückschrecken.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user sticks its head out and rams straight forward. It may make the foe flinch.</en>
+			<de type="str">Rammt den Gegner und lässt ihn eventuell zurückschrecken.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user sticks its head out and rams straight forward. It may make the foe flinch.</en>
+			<de type="str">Rammt den Gegner und lässt ihn eventuell zurückschrecken.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks with its head. It may make the foe flinch. To find Pokémon, hit trees.</en>
+			<de type="str">Rammt den Gegner und lässt ihn eventuell zurückschrecken. Schüttelt Bäume und scheucht Pokémon auf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks with its head. It may make the foe flinch. To find Pokémon, hit trees.</en>
+			<de type="str">Rammt den Gegner und lässt ihn eventuell zurückschrecken. Schüttelt Bäume und scheucht Pokémon auf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. It may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. It may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. It may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. It may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user sticks out its head and attacks by charging straight into the target. This may also make the target flinch.</en>
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Rammt das Ziel mit einer Kopfnuss. Ziel schreckt eventuell zurück.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

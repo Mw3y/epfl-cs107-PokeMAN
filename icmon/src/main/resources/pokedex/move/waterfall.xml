@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">127</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Vandfald</dk>
+		<fr type="str">Cascade</fr>
+		<de type="str">Kaskade</de>
+		<gr type="str">Καταρράκτης</gr>
+		<it type="str">Cascata</it>
+		<pl type="str">Wodospad</pl>
+		<en type="str">Waterfall</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An aquatic charge attack.</en>
+			<de type="str">Wasser-Attacke.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An aquatic charge attack.</en>
+			<de type="str">Wasser-Attacke.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An aquatic charge attack.</en>
+			<de type="str">Wasser-Attacke.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Charges the foe with speed to climb waterfalls.</en>
+			<de type="str">Attacke basiert auf Tempo. Erklimmt Wasserfälle.* (Attacken-Beschreibung)Mächtige Attacke, die Wasserfälle bezwingbar macht.* (VM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Charges the foe with speed to climb waterfalls.</en>
+			<de type="str">Attacke basiert auf Tempo. Erklimmt Wasserfälle.* (Attacken-Beschreibung)Mächtige Attacke, die Wasserfälle bezwingbar macht.* (VM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Charges the foe with speed to climb waterfalls.</en>
+			<de type="str">Attacke basiert auf Tempo. Erklimmt Wasserfälle.* (Attacken-Beschreibung)Mächtige Attacke, die Wasserfälle bezwingbar macht.* (VM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A powerful charge attack. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die Wasserfälle bezwingbar macht.* (VM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A powerful charge attack. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die Wasserfälle bezwingbar macht.* (VM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user charges the foe at an awesome speed. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die den Gegner mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user charges the foe at an awesome speed. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die den Gegner mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user charges the foe at an awesome speed. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die den Gegner mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user charges at the foe rapidly, and may make it flinch. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die den Gegner mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user charges at the foe rapidly, and may make it flinch. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die den Gegner mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user charges at the target and may make it flinch. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel evtl. zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user charges at the target and may make it flinch. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel evtl. zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user charges at the target and may make it flinch. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel evtl. zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user charges at the target and may make it flinch. It can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel evtl. zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel mit rasender Geschwindigkeit angreift. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user charges at the target and may make it flinch. This can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user charges at the target and may make it flinch. This can also be used to climb a waterfall.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user charges at the target and may make it flinch. This can also be used to climb a waterfall.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user charges at the target and may make it flinch. This can also be used to climb a waterfall.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user charges at the target and may make it flinch.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.* (Attacken- und TM-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung (unbenutzt))</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user charges at the target and may make it flinch.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.* (Attacken- und TM-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung (unbenutzt))</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user charges at the target and may make it flinch.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.* (Attacken- und TM-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user charges at the target and may make it flinch.</en>
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt.* (Attacken- und TM-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Eine mächtige Attacke, durch die das Ziel eventuell zurückschreckt. Wasserfälle können damit erklommen werden.* (Attacken-Beschreibung)Eine mächtige Attacke, die das Ziel eventuell zurückschrecken lässt. Sie macht Wasserfälle bezwingbar.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

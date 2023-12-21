@@ -7,6 +7,7 @@ public class CompleteEventAction implements Action {
     private final ICMonEvent event;
 
     public CompleteEventAction(ICMonEvent eventToComplete) {
+        assert eventToComplete != null;
         this.event = eventToComplete;
     }
 

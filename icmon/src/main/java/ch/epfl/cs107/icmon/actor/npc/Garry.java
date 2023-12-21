@@ -1,8 +1,9 @@
 package ch.epfl.cs107.icmon.actor.npc;
 
 import ch.epfl.cs107.icmon.ICMon;
-import ch.epfl.cs107.icmon.actor.pokemon.Nidoqueen;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
+import ch.epfl.cs107.icmon.area.maps.Pokeball;
+import ch.epfl.cs107.icmon.data.PokemonDataLoader;
 import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.area.Area;
@@ -20,8 +21,8 @@ public class Garry extends Trainer  {
      * @param position    (Coordinate): Initial position of the entity. Not null
      */
     public Garry(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, "garry");
-        givePokemon(new Nidoqueen(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(110, 110)));
+        super(area, orientation, position, "actors/garry");
+        givePokemon(PokemonDataLoader.load(31, new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(2, 6)));
     }
 
     @Override

@@ -1,0 +1,2845 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Ponyta</fr>
+		<de>Ponita</de>
+		<it>Ponyta</it>
+		<en>Ponyta</en>
+	</names>
+	<national_id>77</national_id>
+	<types>
+		<item>Fire</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Run Away</name>
+		</item>
+		<item>
+			<name>Flame Body</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>190</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>3'03&quot;</height_us>
+	<height_eu>1.0 m</height_eu>
+	<weight_us>66.1 lbs.</weight_us>
+	<weight_eu>30.0 kg</weight_eu>
+	<base_exp_yield>82</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>50</hp>
+		<atk>85</atk>
+		<def>55</def>
+		<sp_atk>65</sp_atk>
+		<sp_def>65</sp_def>
+		<speed>90</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Rapidash</to>
+			<level>40</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Fire Horse Pokémon</en>
+		<de>Feuerpferd</de>
+	</categories>
+	<kanto_id>77</kanto_id>
+	<johto_id>206</johto_id>
+	<hoenn_id/>
+	<sinnoh_id>90</sinnoh_id>
+	<unova_id/>
+	<kalos_id/>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Red>
+			<en>Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.</en>
+			<de>Die Hufe dieses Pokémon sind zehnmal härter als Diamanten. Sie trampeln alles nieder.</de>
+		</Red>
+		<Blue>
+			<en>Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time.</en>
+			<de>Die Hufe dieses Pokémon sind zehnmal härter als Diamanten. Sie trampeln alles nieder.</de>
+		</Blue>
+		<Yellow>
+			<en>Capable of jumping incredibly high. Its hooves and sturdy legs absorb the impact of a hard landing.</en>
+			<de>Dieses Pokémon kann unglaublich hoch springen. Es absorbiert die Wucht der Landung mit seinen Hufen.</de>
+		</Yellow>
+		<Gold>
+			<en>It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents.</en>
+			<de>Nach der Geburt ist es noch langsam, aber es wird bald schneller, da es seinen Eltern nachrennt.</de>
+		</Gold>
+		<Silver>
+			<en>Its hind legs, which have harder-than-diamond hooves, kick back at any presence it senses behind it.</en>
+			<de>Es schlägt mit seinen Hinterläufen, die härter als Diamant sind aus, wenn es etwas hinter sich spürt.</de>
+		</Silver>
+		<Crystal>
+			<en>Training by jumping over grass that grows longer every day has made it a world-class jumper.</en>
+			<de>Das Springen über Gras, das täglich wächst, hat es zu einem Springer von Weltklasse gemacht.</de>
+		</Crystal>
+		<Ruby>
+			<en>Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.</en>
+			<de>Nach seiner Geburt ist Ponita so schwach, dass es kaum von alleine aufstehen kann. Dieses Pokémon wird dadurch schnell stärker, dass es sich beim Versuch, mit seinen Eltern Schritt zu halten, immer wieder aufrappeln muss.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.</en>
+			<de>Nach seiner Geburt ist Ponita sehr schwach. Es braucht sehr lange, bis es auf allen Vieren steht. Dieses Pokémon wird stärker, da es bei dem Versuch, mit seinen Eltern Schritt zu halten, immer wieder stolpert und hinfällt.</de>
+		</Sapphire>
+		<Emerald>
+			<en>A Ponyta is very weak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.</en>
+			<de>Nach seiner Geburt kann PONITA kaum von allein aufstehen. Es wird stärker, da es sich beim Versuch, mit seinen Eltern Schritt zu halten, immer wieder aufrappelt.</de>
+		</Emerald>
+		<FireRed>
+			<en>Its body is light, and its legs are incredibly powerful. It can clear Ayers Rock in one leap.</en>
+			<de>Sein Körper ist leicht und seine Beine extrem kräftig. Es kommt mit einem Sprung über den Ayers Rock.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Its hooves are ten times harder than diamond. It can trample anything completely flat in little time.</en>
+			<de>Die Hufe dieses Pokémon sind zehnmal härter als Diamanten. Sie trampeln alles nieder.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.</en>
+			<de>Bereits eine Stunde nach seiner Geburt wachsen seine feurige Mähne und sein feuriger Schweif.</de>
+		</Diamond>
+		<Pearl>
+			<en>Its legs grow strong while it chases after its parent. It runs in fields and mountains all day.</en>
+			<de>Seine Beine werden kräftig, da es hinter seinen Eltern her rennt. Es rennt den ganzen Tag umher.</de>
+		</Pearl>
+		<Platinum>
+			<en>As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.</en>
+			<de>Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It is a weak runner immediately after birth. It gradually becomes faster by chasing after its parents.</en>
+			<de>Bereits eine Stunde nach seiner Geburt wachsen seine feurige Mähne und sein feuriger Schweif.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Its hind legs, which have hooves that are harder than diamond, kick back at any presence it senses behind it.</en>
+			<de>Bereits eine Stunde nach seiner Geburt wachsen seine feurige Mähne und sein feuriger Schweif.</de>
+		</SoulSilver>
+		<Black>
+			<en>As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.</en>
+			<de>Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.</de>
+		</Black>
+		<White>
+			<en>As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.</en>
+			<de>Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.</de>
+		</White>
+		<Black_2>
+			<en>As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.</en>
+			<de>Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.</de>
+		</Black_2>
+		<White_2>
+			<en>As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.</en>
+			<de>Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.</de>
+		</White_2>
+		<X>
+			<en>As a newborn, it can barely stand. However, through galloping, its legs are made tougher and faster.</en>
+			<de>Neugeboren kann es kaum stehen. Durch das Galoppieren werden seine Beine aber schneller und kräftiger.</de>
+		</X>
+		<Y>
+			<en>Its legs grow strong while it chases after its parent. It runs in fields and mountains all day.</en>
+			<de>Seine Beine werden kräftig, da es seinen Eltern hinterherläuft. Es rennt den ganzen Tag umher.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.</en>
+			<de>Nach seiner Geburt ist Ponita sehr schwach. Es braucht sehr lange, bis es auf allen Vieren steht. Dieses Pokémon wird stärker, da es bei dem Versuch, mit seinen Eltern Schritt zu halten, immer wieder stolpert und hinfällt.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.</en>
+			<de>Nach seiner Geburt ist Ponita sehr schwach. Es braucht sehr lange, bis es auf allen Vieren steht. Dieses Pokémon wird stärker, da es bei dem Versuch, mit seinen Eltern Schritt zu halten, immer wieder stolpert und hinfällt.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>5</item>
+		</speed>
+		<power>
+			<item>2</item>
+			<item>2</item>
+		</power>
+		<stamina>
+			<item>3</item>
+			<item>3</item>
+		</stamina>
+		<skill>
+			<item>2</item>
+			<item>2</item>
+		</skill>
+		<jump>
+			<item>4</item>
+			<item>4</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Inferno</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Inferno</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Inferno</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Inferno</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Inferno</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Stomp</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Fire Spin</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Inferno</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Bounce</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flame Wheel</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>High Horsepower</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Horn Drill</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Morning Sun</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thrash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

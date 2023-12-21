@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Moongeist Beam</en>
+		<fr type="str">Rayon Spectral</fr>
+		<de type="str">Schattenstrahl</de>
+		<it type="str">Raggio d'Ombra</it>
+		<es type="str">Rayo Umbrío</es>
+	</names>
+	<index_number type="int">714</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Ghost</type>
+	<category type="str">special</category>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">100</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Abilities.</en>
+			<de type="str">Der Anwender greift mit einem unheimlichen Lichtstrahl an. Diese Attacke ignoriert die Fähigkeit des Zieles.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Abilities.</en>
+			<de type="str">Der Anwender greift mit einem unheimlichen Lichtstrahl an. Diese Attacke ignoriert die Fähigkeit des Zieles.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Abilities.</en>
+			<de type="str">Der Anwender greift mit einem unheimlichen Lichtstrahl an. Diese Attacke ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user emits a sinister ray to attack the target. This move can be used on the target regardless of its Abilities.</en>
+			<de type="str">Der Anwender greift mit einem unheimlichen Lichtstrahl an. Diese Attacke ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

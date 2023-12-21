@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">339</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Gonflette</fr>
+		<de type="str">Protzer</de>
+		<gr type="str">Διόγκωση</gr>
+		<it type="str">Granfisico</it>
+		<pl type="str">Megamasa</pl>
+		<tr type="str">Kas Şişirme</tr>
+		<en type="str">Bulk Up</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Bulks up the body to boost both ATTACK and DEFENSE.</en>
+			<de type="str">Pumpt den Körper auf. ANGR. u. VERT. werden erhöht.* (Attacken-Beschreibung)Stärkt den Körper. So steigt ANGR.- und VERT.-Wert.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Bulks up the body to boost both ATTACK and DEFENSE.</en>
+			<de type="str">Pumpt den Körper auf. ANGR. u. VERT. werden erhöht.* (Attacken-Beschreibung)Stärkt den Körper. So steigt ANGR.- und VERT.-Wert.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Bulks up the body to boost both ATTACK and DEFENSE.</en>
+			<de type="str">Pumpt den Körper auf. ANGR. u. VERT. werden erhöht.* (Attacken-Beschreibung)Stärkt den Körper. So steigen ANGR.- und VERT.-Wert.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user bulks up its body to boost both its ATTACK and DEFENSE stats.</en>
+			<de type="str">Pumpt den Körper auf, um den ANGR. und die VERT. zu erhöhen.* (Attacken-Beschreibung)Stärkt die Muskeln und erhöht dadurch den ANGR.- und VERT.-Wert.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user bulks up its body to boost both its ATTACK and DEFENSE stats.</en>
+			<de type="str">Pumpt den Körper auf, um den ANGR. und die VERT. zu erhöhen.* (Attacken-Beschreibung)Stärkt die Muskeln und erhöht dadurch den ANGR.- und VERT.-Wert.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, boosting both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und erhöht damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und erhöht damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und erhöht damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user tenses its muscles to bulk up its body, raising both its Attack and Defense stats.</en>
+			<de type="str">Der Anwender spannt seine Muskeln an, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und erhöht damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Pumpt den Körper auf, um den Angriff und die Verteidigung zu erhöhen.* (Attacken-Beschreibung)Der Anwender spannt seine Muskeln an und steigert damit den Angriffs- und den Verteidigungs-Wert.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

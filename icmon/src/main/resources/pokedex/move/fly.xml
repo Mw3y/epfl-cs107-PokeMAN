@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">19</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Vol</fr>
+		<de type="str">Fliegen</de>
+		<gr type="str">Πέταγμα</gr>
+		<it type="str">Volo</it>
+		<tr type="str">Uçma</tr>
+		<en type="str">Fly</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">1st turn: Fly 2nd turn: Attack</en>
+			<de type="str">1. Emporfliegen 2. Angriff</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">1st turn: Fly 2nd turn: Attack</en>
+			<de type="str">1. Emporfliegen 2. Angriff</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">1st turn: Fly 2nd turn: Attack</en>
+			<de type="str">1. Emporfliegen 2. Angriff</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Flies up on the first turn, then strikes the next turn.</en>
+			<de type="str">Steigt empor in der 1. Runde und trifft Gegner in der 2.* (Attacken-Beschreibung)PKMN fliegt hoch, dann erfolgt rasanter Luftangriff.* (VM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Flies up on the first turn, then strikes the next turn.</en>
+			<de type="str">Steigt empor in der 1. Runde und trifft Gegner in der 2.* (Attacken-Beschreibung)PKMN fliegt hoch, dann erfolgt rasanter Luftangriff.* (VM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Flies up on the first turn, then strikes the next turn.</en>
+			<de type="str">Steigt empor in der 1. Runde und trifft Gegner in der 2.* (Attacken-Beschreibung)PKMN fliegt hoch, dann erfolgt Luftangriff.* (VM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A 2-turn move that hits on the 2nd turn. Use it to fly to any known town.</en>
+			<de type="str">Steigt in der 1. Runde empor und trifft den Gegner in Runde 2.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Fliege zu jeder bekannten Stadt.* (VM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A 2-turn move that hits on the 2nd turn. Use it to fly to any known town.</en>
+			<de type="str">Steigt in der 1. Runde empor und trifft den Gegner in Runde 2.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Fliege zu jeder bekannten Stadt.* (VM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in der 1. Runde empor und trifft den Gegner in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in der 1. Runde empor und trifft den Gegner in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in der 1. Runde empor und trifft den Gegner in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in der 1. Runde empor und trifft den Gegner in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user soars, then strikes on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in der 1. Runde empor und trifft den Gegner in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user soars, then strikes its target on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user soars, then strikes its target on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user soars, then strikes its target on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user soars, then strikes its target on the second turn. It can also be used for flying to any familiar town.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn. This can also be used to fly to any familiar town.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn. This can also be used to fly to any familiar town.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn. This can also be used to fly to any familiar town.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn. This can also be used to fly to any familiar town.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2.* (Attacken- und TM-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2.* (Attacken- und TM-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2.* (Attacken- und TM-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user soars and then strikes its target on the next turn.</en>
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2.* (Attacken- und TM-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Steigt in Runde 1 empor und trifft das Ziel in Runde 2. Ermöglicht Flug in jede bekannte Stadt.* (Attacken-Beschreibung)In Runde 1 fliegt der Angreifer empor und attackiert in Runde 2. Man kann damit zu jedem bekannten Ort fliegen.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

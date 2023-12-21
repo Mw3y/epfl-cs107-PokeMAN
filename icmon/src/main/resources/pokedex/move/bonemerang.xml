@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">155</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">50</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">BenmerangKnogleboomerang</dk>
+		<fr type="str">Osmerang</fr>
+		<de type="str">Knochmerang</de>
+		<gr type="str">Οστέϊνος Ανακλητής</gr>
+		<it type="str">Ossomerang</it>
+		<pl type="str">Kościorang</pl>
+		<en type="str">Bonemerang</en>
+	</names>
+	<type type="str">Ground</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that strikes twice.</en>
+			<de type="str">Trifft 2 mal.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that strikes twice.</en>
+			<de type="str">Trifft 2 mal.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that strikes twice.</en>
+			<de type="str">Trifft 2mal.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Throws a bone boomerang that strikes twice.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Throws a bone boomerang that strikes twice.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Throws a bone boomerang that strikes twice.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user throws a bone that hits the foe once, then once again on return.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user throws a bone that hits the foe once, then once again on return.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the foe twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops to hit the target twice, coming and going.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user throws the bone it holds. The bone loops around to hit the target twice—coming and going.</en>
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ein Bumerang aus Knochen, der zweimal trifft.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

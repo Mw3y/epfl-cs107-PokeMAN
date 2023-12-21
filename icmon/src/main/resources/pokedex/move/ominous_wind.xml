@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">466</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Vent Mauvais</fr>
+		<de type="str">Unheilböen</de>
+		<gr type="str">Δυσοίωνος Άνεμος</gr>
+		<it type="str">Funestovento</it>
+		<pl type="str">Złowieszczy Umysł (DP093)Złowieszczy Wiatr (DP102)</pl>
+		<en type="str">Ominous Wind</en>
+	</names>
+	<type type="str">Ghost</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_atk</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user creates a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Den Gegner treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user creates a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Den Gegner treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user creates a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Den Gegner treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user creates a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Den Gegner treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user creates a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Den Gegner treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. It may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Erhöht eventuell alle Statuswerte des Anwenders.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Erhöht eventuell alle Statuswerte des Anwenders.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Erhöht eventuell alle Statuswerte des Anwenders.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user blasts the target with a gust of repulsive wind. This may also raise all the user’s stats at once.</en>
+			<de type="str">Das Ziel treffen abscheuliche Winde. Erhöht eventuell alle Statuswerte des Anwenders.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel treffen abscheuliche Winde. Steigert eventuell alle Statuswerte des Anwenders.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

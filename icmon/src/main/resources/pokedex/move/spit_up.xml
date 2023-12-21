@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">255</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Relâche</fr>
+		<de type="str">Entfessler</de>
+		<gr type="str">Πτυσμός</gr>
+		<it type="str">Sfoghenergia</it>
+		<pl type="str">Wyplucie</pl>
+		<en type="str">Spit Up</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Releases stockpiled power (the more the better).</en>
+			<de type="str">Entlädt gehortete Kraft. Je mehr, desto besser.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Releases stockpiled power (the more the better).</en>
+			<de type="str">Entlädt gehortete Kraft. Je mehr, desto besser.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Releases stockpiled power (the more the better).</en>
+			<de type="str">Entlädt gehortete Kraft. Je mehr, desto besser.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The power built using STOCKPILE is released at once for attack.</en>
+			<de type="str">Entlädt die Kraft, die während Einsatz von HORTER gesammelt wurde.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The power built using STOCKPILE is released at once for attack.</en>
+			<de type="str">Entlädt die Kraft, die während Einsatz von HORTER gesammelt wurde.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the damage.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The power stored using the move Stockpile is released at once in an attack. The more power is stored, the greater the move’s power.</en>
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde. Je mehr Energie gehortet wurde, desto stärker der Angriff.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Entlädt die Kraft, die während des Einsatzes von Horter gesammelt wurde.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

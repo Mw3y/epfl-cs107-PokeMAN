@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Splishy Splash</en>
+		<fr type="str">Pika-Splash</fr>
+		<de type="str">Plätschersurfer</de>
+		<it type="str">Surfasplash</it>
+		<es type="str">Salpikasurf</es>
+	</names>
+	<index_number type="int">730</index_number>
+	<target type="str">adjacent_foes_all</target>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Water</type>
+	<category type="str">special</category>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<pokedex_entries type="dict">
+		<key name="Let's Go Pikachu" type="dict">
+			<en type="str">The user charges a huge wave with electricity and hits the opposing Pokémon with the wave. This may also leave the opposing Pokémon with paralysis.</en>
+			<de type="str">Pikachu greift das Ziel mit einer großen, elektrisch aufgeladenen Welle an. Das Ziel wird eventuell paralysiert.</de>
+		</key>
+		<key name="Let's Go Eevee" type="dict">
+			<en type="str">The user charges a huge wave with electricity and hits the opposing Pokémon with the wave. This may also leave the opposing Pokémon with paralysis.</en>
+			<de type="str">Pikachu greift das Ziel mit einer großen, elektrisch aufgeladenen Welle an. Das Ziel wird eventuell paralysiert.</de>
+		</key>
+	</pokedex_entries>
+</all>

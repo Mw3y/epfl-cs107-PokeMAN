@@ -1,0 +1,2839 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Séviper</fr>
+		<de>Vipitis</de>
+		<it>Seviper</it>
+		<en>Seviper</en>
+	</names>
+	<national_id>336</national_id>
+	<types>
+		<item>Poison</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Shed Skin</name>
+		</item>
+		<item>
+			<name>Infiltrator</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>90</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+		<item>Dragon</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>8'10&quot;</height_us>
+	<height_eu>2.7 m</height_eu>
+	<weight_us>115.7 lbs.</weight_us>
+	<weight_eu>52.5 kg</weight_eu>
+	<base_exp_yield>160</base_exp_yield>
+	<leveling_rate>Fluctuating</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>1</atk>
+		<def>0</def>
+		<sp_atk>1</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Black</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>73</hp>
+		<atk>100</atk>
+		<def>60</def>
+		<sp_atk>100</sp_atk>
+		<sp_def>60</sp_def>
+		<speed>65</speed>
+	</base_stats>
+	<categories>
+		<en>Fang Snake Pokémon</en>
+		<de>Reißzahn</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id>129</hoenn_id>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>6</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Ruby>
+			<en>Seviper shares a generations-long feud with Zangoose. The scars on its body are evidence of vicious battles. This Pokémon attacks using its sword-edged tail.</en>
+			<de>Vipitis lebt seit Generationen in Fehde mit Sengo. Die Narben auf seinem Körper sind Zeugen grausamer Kämpfe. Dieses Pokémon greift seine Gegner mit seinem scharfkantigen Schweif an.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Seviper's swordlike tail serves two purposes - it slashes foes and douses them with secreted poison. This Pokémon will not give up its long-running blood feud with Zangoose.</en>
+			<de>Vipitis kann mit seinem Schweif Feinden einen Hieb versetzen und sie mit einem abgesonderten Gift bespritzen. Dieses Pokémon wird in der langwährenden Blutsfehde mit Sengo nicht nachgeben.</de>
+		</Sapphire>
+		<Emerald>
+			<en>Seviper and Zangoose are eternal rivals. It counters a Zangoose's dazzling agility with its swordlike tail, which also oozes a horrible poison.</en>
+			<de>VIPITIS und SENGO sind Erzrivalen. VIPITIS kontert die atemberaubende Flinkheit von SENGO mit seinem schwert ähnlichen Schwanz, aus dem Gift austritt.</de>
+		</Emerald>
+		<FireRed>
+			<en>It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.</en>
+			<de>Es schärft seinen schwertartigen Schwanz an Steinen. Beim Beutefang wartet es im hohen Gras und erlegt die ahnungslose Beute mit seinen Giftzähnen.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>It sharpens its swordlike tail on hard rocks. It hides in tall grass and strikes unwary prey with venomous fangs.</en>
+			<de>Es schärft seinen schwertartigen Schwanz an Steinen. Beim Beutefang wartet es im hohen Gras und erlegt die ahnungslose Beute mit seinen Giftzähnen.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>For many generations, it has feuded with Zangoose. It whets its bladed tail on rocks for battle.</en>
+			<de>Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen.</de>
+		</Diamond>
+		<Pearl>
+			<en>For many generations, it has feuded with Zangoose. It whets its bladed tail on rocks for battle.</en>
+			<de>Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen.</de>
+		</Pearl>
+		<Platinum>
+			<en>For many generations, it has feuded with Zangoose. It whets its bladed tail on rocks for battle.</en>
+			<de>Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen.</de>
+		</Platinum>
+		<HeartGold>
+			<en>In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.</en>
+			<de>Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.</en>
+			<de>Seit Generationen ist es mit SENGO verfeindet. Es wetzt seinen scharfen Schweif an Felsen.</de>
+		</SoulSilver>
+		<Black>
+			<en>For many generations, it has feuded with Zangoose. It whets its bladed tail on rocks for battle.</en>
+			<de>Seit Generationen ist es mit Sengo verfeindet. Es wetzt seinen scharfen Schweif an Felsen.</de>
+		</Black>
+		<White>
+			<en>For many generations, it has feuded with Zangoose. It whets its bladed tail on rocks for battle.</en>
+			<de>Seit Generationen ist es mit Sengo verfeindet. Es wetzt seinen scharfen Schweif an Felsen.</de>
+		</White>
+		<Black_2>
+			<en>Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival.</en>
+			<de>Es hält die Klinge an seinem Schweif scharf, indem es sie ständig an Steinen wetzt. Es ist der Erzfeind von Sengo.</de>
+		</Black_2>
+		<White_2>
+			<en>Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival.</en>
+			<de>Es hält die Klinge an seinem Schweif scharf, indem es sie ständig an Steinen wetzt. Es ist der Erzfeind von Sengo.</de>
+		</White_2>
+		<X>
+			<en>In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.</en>
+			<de>Die flinken Angriffe von Sengo kontert es mit seinem messerscharfen Schweif, aus dem Gift austritt.</de>
+		</X>
+		<Y>
+			<en>Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival.</en>
+			<de>Es hält die Klinge an seinem Schweif scharf, indem es sie ständig an Steinen wetzt. Es ist der Erzfeind von Sengo.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Seviper shares a generations-long feud with Zangoose. The scars on its body are evidence of vicious battles. This Pokémon attacks using its sword-edged tail.</en>
+			<de>Vipitis lebt seit Generationen in Fehde mit Sengo. Die Narben auf seinem Körper sind Zeugen grausamer Kämpfe. Dieses Pokémon greift seine Gegner mit seinem scharfkantigen Schweif an.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Seviper's swordlike tail serves two purposes—it slashes foes and douses them with secreted poison. This Pokémon will not give up its long-running blood feud with Zangoose.</en>
+			<de>Vipitis kann mit seinem Schweif Feinden einen Hieb versetzen und sie mit einem abgesonderten Gift bespritzen. Dieses Pokémon wird in der langwährenden Blutfehde mit Sengo nicht nachgeben.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>4</item>
+		</speed>
+		<power>
+			<item>3</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>4</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>2</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Coil</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Lick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Gastro Acid</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Coil</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Swagger</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Gastro Acid</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Coil</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Swagger</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Gastro Acid</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Coil</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Swagger</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Gastro Acid</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Coil</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Swagger</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Lick</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Glare</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Gastro Acid</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Haze</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Belch</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Coil</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Final Gambit</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Scary Face</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spit Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stockpile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Swallow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wring Out</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

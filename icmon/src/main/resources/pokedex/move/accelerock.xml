@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Accelerock</en>
+		<fr type="str">Vif Roc</fr>
+		<de type="str">Turbofelsen</de>
+		<it type="str">Rocciarapida</it>
+		<es type="str">Roca Veloz</es>
+	</names>
+	<index_number type="int">709</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Rock</type>
+	<category type="str">physical</category>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<priority type="int">1</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user smashes into the target at high speed. This move always goes first.</en>
+			<de type="str">Der Anwender prallt mit großer Geschwindigkeit auf das Ziel. Hohe Erstschlagquote.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user smashes into the target at high speed. This move always goes first.</en>
+			<de type="str">Der Anwender prallt mit großer Geschwindigkeit auf das Ziel. Hohe Erstschlagquote.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user smashes into the target at high speed. This move always goes first.</en>
+			<de type="str">Der Anwender prallt mit großer Geschwindigkeit auf das Ziel. Hohe Erstschlagquote.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user smashes into the target at high speed. This move always goes first.</en>
+			<de type="str">Der Anwender prallt mit großer Geschwindigkeit auf das Ziel. Hohe Erstschlagquote.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

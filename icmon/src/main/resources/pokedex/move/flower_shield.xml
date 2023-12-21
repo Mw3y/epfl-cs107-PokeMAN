@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">579</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Garde Florale</fr>
+		<de type="str">Floraschutz</de>
+		<it type="str">Fiordifesa</it>
+		<en type="str">Flower Shield</en>
+	</names>
+	<type type="str">Fairy</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user raises the Defense stat of all Grass-type Pokémon in battle with a mysterious power.</en>
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Erhöht mit einer mysteriösen Macht die Verteidigung aller am Kampf beteiligten Pflanzen-Pokémon.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

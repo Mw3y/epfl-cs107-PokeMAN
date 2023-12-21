@@ -1,0 +1,442 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Pyukumuku</en>
+		<jp>ナマコブシ Namakobushi</jp>
+		<fr>Concombaffe</fr>
+		<es>Pyukumuku</es>
+		<de>Gufa</de>
+		<it>Pyukumuku</it>
+	</names>
+	<national_id>771</national_id>
+	<alola_id>200</alola_id>
+	<types>
+		<item>Water</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Innards Out</name>
+		</item>
+		<item>
+			<name>Unaware</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>60</catch_rate>
+	<egg_groups>
+		<item>Water 1</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>1'00&quot;</height_us>
+	<height_eu>0.3 m</height_eu>
+	<weight_us>2.6 lbs.</weight_us>
+	<weight_eu>1.2 kg</weight_eu>
+	<base_exp_yield>144</base_exp_yield>
+	<leveling_rate>Fast</leveling_rate>
+	<color>Black</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>2</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>55</hp>
+		<atk>60</atk>
+		<def>130</def>
+		<sp_atk>30</sp_atk>
+		<sp_def>130</sp_def>
+		<speed>5</speed>
+	</base_stats>
+	<categories>
+		<en>Sea Cucumber Pokémon</en>
+		<de>Seegurke</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>It lives in shallow seas, such as areas near a beach. It can eject its internal organs, which it uses to engulf its prey or battle enemies.</en>
+			<de>Es lebt an Stränden oder in flachen Gewässern. Im Kampf und zum Schnappen von Beute lässt es seine Organe hervorschnellen.</de>
+		</Sun>
+		<Moon>
+			<en>These Pokémon line the beaches. The sticky mucous that covers their bodies can be used to soothe sunburned skin. How convenient!</en>
+			<de>Es lebt häufig an Stränden. Seine Schleimschicht eignet sich nach jedem Sonnenbad optimal zur Hautpflege.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>The tradition known as Pyukumuku chucking started from the custom of throwing Pyukumuku back into the sea after they wash onshore.</en>
+			<de>Das heutzutage übliche Gufa-Schleudern ist aus dem Brauch entstanden, angespülte Gufa wieder ins Meer zurückzuwerfen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Its entire body is covered in its own slime. If you accidentally step on one, you’ll slip, and it will get mad and smack you!</en>
+			<de>Wer versehentlich auf seinen glitschigen Körper tritt, rutscht nicht nur aus, sondern handelt sich auch Gufas Ärger und Hiebe ein.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>157</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Baton Pass</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud Sport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Purify</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Gastro Acid</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Bestow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Baton Pass</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud Sport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Purify</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Curse</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Gastro Acid</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Pain Split</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Memento</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Bestow</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tickle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -11,5 +11,4 @@ public interface ICMonFightableActor {
      * @param playerPokemon (Pokemon)
      */
     void fight(ICMon.ICMonGameState game, Pokemon playerPokemon);
-
 }

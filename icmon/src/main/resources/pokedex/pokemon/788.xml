@@ -1,0 +1,548 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Tapu Fini</en>
+		<jp>カプ・レヒレ Kapu-Rehire</jp>
+		<fr>Tokopisco</fr>
+		<es>Tapu Fini</es>
+		<de>Kapu-Kime</de>
+		<it>Tapu Fini</it>
+	</names>
+	<national_id>788</national_id>
+	<alola_id>288</alola_id>
+	<types>
+		<item>Water</item>
+		<item>Fairy</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Misty Surge</name>
+		</item>
+		<item>
+			<name>Telepathy</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<catch_rate>3</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>4'03&quot;</height_us>
+	<height_eu>1.3 m</height_eu>
+	<weight_us>46.7 lbs.</weight_us>
+	<weight_eu>21.2 kg</weight_eu>
+	<base_exp_yield>114</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Purple</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>3</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>70</hp>
+		<atk>75</atk>
+		<def>115</def>
+		<sp_atk>95</sp_atk>
+		<sp_def>130</sp_def>
+		<speed>85</speed>
+	</base_stats>
+	<gender_ratios/>
+	<categories>
+		<en>Land Spirit Pokémon</en>
+		<de>Schutzpatron</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>The dense fog it creates brings the downfall and destruction of its confused enemies. Ocean currents are the source of its energy.</en>
+			<de>Es führt Gegner mit dichtem Nebel in die Irre und schickt sie so in ihren Untergang. Seine Energie gewinnt es aus der Meeresströmung.</de>
+		</Sun>
+		<Moon>
+			<en>The guardian deity of Poni, it can control water. People say it can create pure water that will wash away any uncleanness.</en>
+			<de>Der Schutzpatron von Poni. Dieses Pokémon kontrolliert das Wasser. Man sagt, es könne schmutziges in klares Wasser verwandeln.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.</en>
+			<de>Als Schutzpatron von Poni kontrolliert es das Wasser und lauert im dichten Nebel. Es wird gleichermaßen gefürchtet wie respektiert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Although it’s called a guardian deity, terrible calamities sometimes befall those who recklessly approach Tapu Fini.</en>
+			<de>Man bezeichnet es zwar als Schutzpatron, doch all jene, die sich ihm unbedacht nähern, werden von furchtbaren Katastrophen heimgesucht.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>130</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Haze</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Heal Pulse</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Misty Terrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Withdraw</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Defog</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Nature's Madness</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Haze</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Heal Pulse</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mean Look</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Misty Terrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Withdraw</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Whirlpool</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Soak</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Refresh</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Brine</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Defog</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Nature's Madness</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Muddy Water</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

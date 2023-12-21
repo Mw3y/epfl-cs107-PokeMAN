@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">507</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Chute Libre</fr>
+		<de type="str">Freier Fall</de>
+		<it type="str">Cadutalibera</it>
+		<en type="str">Sky Drop</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Opfer kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Opfer kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Opfer kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Opfer kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Der Anwender entführt das Ziel in Runde 1 in Richtung Himmel und lässt es in Runde 2 fallen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Der Anwender entführt das Ziel in Runde 1 in Richtung Himmel und lässt es in Runde 2 fallen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Der Anwender entführt das Ziel in Runde 1 in Richtung Himmel und lässt es in Runde 2 fallen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user takes the target into the sky, then drops it during the next turn. The target cannot attack while in the sky.</en>
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Der Anwender entführt das Ziel in Runde 1 in Richtung Himmel und lässt es in Runde 2 fallen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Steigt in Runde 1 mit dem Ziel in die Luft auf und lässt es in Runde 2 fallen. Das Ziel kann dabei nicht angreifen.* (Attacken-Beschreibung)Das entführte Ziel wird in Runde 2 vom Himmel fallen gelassen. In der Luft kann das Ziel nicht attackieren.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

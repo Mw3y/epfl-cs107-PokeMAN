@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">190</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">65</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Octazooka</fr>
+		<de type="str">Octazooka</de>
+		<gr type="str">Μελανοβόλο</gr>
+		<it type="str">Octazooka</it>
+		<en type="str">Octazooka</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">accuracy</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may reduce accuracy.</en>
+			<de type="str">Senkt evtl. die Genauigkeit.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may reduce accuracy.</en>
+			<de type="str">Senkt evtl. die Genauigkeit.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may reduce accuracy.</en>
+			<de type="str">Senkt evtl. die Genauigkeit.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Fires a lump of ink to damage and cut accuracy.</en>
+			<de type="str">Verschießt Tinte und senkt dadurch Genauigkeit.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Fires a lump of ink to damage and cut accuracy.</en>
+			<de type="str">Verschießt Tinte und senkt dadurch Genauigkeit.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Fires a lump of ink to damage and cut accuracy.</en>
+			<de type="str">Verschießt Tinte und senkt dadurch Genauigkeit.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Ink is blasted in the foe’s face or eyes to damage and lower accuracy.</en>
+			<de type="str">Schießt Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Ink is blasted in the foe’s face or eyes to damage and lower accuracy.</en>
+			<de type="str">Schießt Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks by spraying ink in the foe’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. It may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by spraying ink in the target’s face or eyes. This may also lower the target’s accuracy.</en>
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Schießt mit Tinte, um Schaden anzurichten und die Genauigkeit zu senken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

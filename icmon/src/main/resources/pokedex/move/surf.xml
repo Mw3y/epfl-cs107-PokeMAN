@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">57</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">all_adjacent</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Surf</fr>
+		<de type="str">Surfer</de>
+		<gr type="str">Πλεύση</gr>
+		<it type="str">Surf</it>
+		<pl type="str">Serfer (DP078-DP079)Fala (DP050, BW126)</pl>
+		<en type="str">Surf</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">2</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A strong water-type attack.</en>
+			<de type="str">Eine starke Wasser-Attacke.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A strong water-type attack.</en>
+			<de type="str">Eine starke Wasser-Attacke.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A strong water-type attack.</en>
+			<de type="str">Eine starke Wasser-Attacke.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Creates a huge wave, then crashes it down on the foe.</en>
+			<de type="str">Eine riesige Welle bricht über den Gegner hinein.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über dem [sic!] Gegner.* (VM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Creates a huge wave, then crashes it down on the foe.</en>
+			<de type="str">Eine riesige Welle bricht über den Gegner hinein.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über dem [sic!] Gegner.* (VM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Creates a huge wave, then crashes it down on the foe.</en>
+			<de type="str">Eine riesige Welle bricht über den Gegner hinein.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über den Gegner.* (VM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A big wave crashes down on the foe. Can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über den Gegner herein. Surfen damit möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über den Gegner. Damit kann man auf dem Wasser surfen.* (VM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A big wave crashes down on the foe. Can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über den Gegner herein. Surfen damit möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über den Gegner. Damit kann man auf dem Wasser surfen.* (VM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">It swamps the entire battlefield with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle PKMN außer dem Anwender herein. Macht das Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über alle, außer den Anwender. Damit kann man auch auf dem Wasser surfen.* (VM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">It swamps the entire battlefield with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle PKMN außer dem Anwender herein. Macht das Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über alle, außer den Anwender. Damit kann man auch auf dem Wasser surfen.* (VM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">It swamps the entire battlefield with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle PKMN außer dem Anwender herein. Macht das Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über alle, außer den Anwender. Damit kann man auch auf dem Wasser surfen.* (VM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">It swamps the entire battlefield with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle PKMN außer dem Anwender herein. Macht das Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über alle, außer den Anwender. Damit kann man auch auf dem Wasser surfen.* (VM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">It swamps the entire battlefield with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle PKMN außer dem Anwender herein. Macht das Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über alle, außer den Anwender. Damit kann man auch auf dem Wasser surfen.* (VM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">It swamps the area around the user with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">It swamps the area around the user with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">It swamps the area around the user with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">It swamps the area around the user with a giant wave. It can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave. This can also be used for crossing water.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein.* (Attacken-Beschreibung)Anwender greift mit einer gewaltigen Welle alle Pokémon in seiner Umgebung an.* (TM-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders.* (VM-Beschreibung (unbenutzt))</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein.* (Attacken-Beschreibung)Anwender greift mit einer gewaltigen Welle alle Pokémon in seiner Umgebung an.* (TM-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders.* (VM-Beschreibung (unbenutzt))</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein.* (Attacken-Beschreibung)Anwender greift mit einer gewaltigen Welle alle Pokémon in seiner Umgebung an.* (TM-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks everything around it by swamping its surroundings with a giant wave.</en>
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein.* (Attacken-Beschreibung)Anwender greift mit einer gewaltigen Welle alle Pokémon in seiner Umgebung an.* (TM-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Eine Welle bricht über alle Pokémon in der Nähe des Anwenders herein. Macht Surfen möglich.* (Attacken-Beschreibung)Eine riesige Flutwelle ergießt sich über das nähere Umfeld des Anwenders. Ermöglicht das Surfen auf dem Wasser.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,5376 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Persian</fr>
+		<de>Snobilikat</de>
+		<it>Persian</it>
+		<en>Persian</en>
+	</names>
+	<national_id>53</national_id>
+	<types>
+		<item>Normal</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Limber</name>
+		</item>
+		<item>
+			<name>Unnerve</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>90</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>3'03&quot;</height_us>
+	<height_eu>1.0 m</height_eu>
+	<weight_us>70.5 lbs.</weight_us>
+	<weight_eu>32.0 kg</weight_eu>
+	<base_exp_yield>154</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>2</speed>
+	</ev_yield>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>65</hp>
+		<atk>70</atk>
+		<def>60</def>
+		<sp_atk>65</sp_atk>
+		<sp_def>65</sp_def>
+		<speed>115</speed>
+	</base_stats>
+	<evolution_from>Meowth</evolution_from>
+	<alola_id>46</alola_id>
+	<categories>
+		<en>Classy Cat Pokémon</en>
+		<de>Rassekatze</de>
+	</categories>
+	<kanto_id>53</kanto_id>
+	<johto_id>139</johto_id>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations>
+		<item>
+			<condition>Alola</condition>
+			<image_suffix>alola</image_suffix>
+			<names>
+				<en>Alolan Persian</en>
+				<de>Alola-Snobilikat</de>
+			</names>
+			<types>
+				<item>Dark</item>
+			</types>
+			<abilities>
+				<item>
+					<name>Pickup</name>
+				</item>
+				<item>
+					<name>Technician</name>
+				</item>
+				<item>
+					<name>Rattled</name>
+					<hidden>true</hidden>
+				</item>
+			</abilities>
+			<base_stats>
+				<hp>65</hp>
+				<atk>60</atk>
+				<def>60</def>
+				<sp_atk>75</sp_atk>
+				<sp_def>65</sp_def>
+				<speed>115</speed>
+			</base_stats>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Red>
+			<en>Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.</en>
+			<de>Dieses Pokémon hat sehr schönes Fell. Es ist jedoch ein schwer erziehbares Haustier.</de>
+		</Red>
+		<Blue>
+			<en>Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.</en>
+			<de>Dieses Pokémon hat sehr schönes Fell. Es ist jedoch ein schwer erziehbares Haustier.</de>
+		</Blue>
+		<Yellow>
+			<en>The gem in its forehead glows on its own! It walks with all the grace and elegance of a proud queen.</en>
+			<de>Dieses prächtige Pokémon trägt an der Stirn ein leuchtendes Juwel. Es hat die Eleganz einer Königin.</de>
+		</Yellow>
+		<Gold>
+			<en>Many adore it for its sophisticated air. However, it will lash out and scratch for little reason.</en>
+			<de>Viele bewundern sein erhabenes Auftreten. Es attackiert und kratzt ohne wirklichen Grund.</de>
+		</Gold>
+		<Silver>
+			<en>Its lithe muscles allow it to walk without making a sound. It attacks in an instant.</en>
+			<de>Aufgrund seiner geschmeidigen Muskeln kann es sich lautlos bewegen. Es greift ohne Vorwarnung an.</de>
+		</Silver>
+		<Crystal>
+			<en>Behind its lithe, elegant appearance lies a barbaric side. It will tear apart its prey on a mere whim.</en>
+			<de>Hinter seiner eleganten Fassade liegt ein brutales Wesen. Es zerfetzt seine Beute einfach aus Spaß.</de>
+		</Crystal>
+		<Ruby>
+			<en>Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.</en>
+			<de>Snobilikat hat sechs dicke Schnurrhaare, wodurch es Furcht einflößend wirkt. Durch diese nimmt es wahr, wenn sich etwas in seiner Nähe bewegt. Es wird sehr zutraulich, wenn man es an den Schnurrhaaren berührt.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.</en>
+			<de>Snobilikat hat sechs dicke Schnurrhaare, wodurch es Furcht einflößend wirkt. Durch diese nimmt es wahr, wenn sich etwas in seiner Nähe bewegt. Es wird sehr zutraulich, wenn man es an den Schnurrhaaren berührt.</de>
+		</Sapphire>
+		<Emerald>
+			<en>A Persian's six bold whiskers sense air movements to determine what is in its vicinity. It becomes docile if grabbed by the whiskers.</en>
+			<de>SNOBILIKAT hat sechs dicke Schnurrhaare, womit es Bewegungen in seiner Nähe bemerkt. Es wird sehr zutraulich, wenn man es an den Schnurrhaaren berührt.</de>
+		</Emerald>
+		<FireRed>
+			<en>Has a vicious temperament. Beware if it raises its tail straight up. It is a signal that it is about to pounce and bite.</en>
+			<de>Es ist aufbrausend. Nimm dich in Acht, wenn es seinen Schweif aufrichtet. Das ist ein Anzeichen, dass es zuschlägt und beißt.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.</en>
+			<de>Dieses Pokémon hat sehr schönes Fell. Es ist jedoch ein schwer erziehbares Haustier.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</Diamond>
+		<Pearl>
+			<en>A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</Pearl>
+		<Platinum>
+			<en>A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</Platinum>
+		<HeartGold>
+			<en>Many adore it for its sophisticated air. However, it will lash out and scratch for little reason.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Its lithe muscles allow it to walk without making a sound. It attacks in an instant.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</SoulSilver>
+		<Black>
+			<en>A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</Black>
+		<White>
+			<en>A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</White>
+		<Black_2>
+			<en>A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</Black_2>
+		<White_2>
+			<en>A very haughty Pokémon. Among fans, the size of the jewel in its forehead is a topic of much talk.</en>
+			<de>Ein sehr stolzes Pokémon. Für Fans ist die Größe des Juwels auf seiner Stirn Anlass für Diskussionen.</de>
+		</White_2>
+		<X>
+			<en>Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness.</en>
+			<de>Dieses Pokémon hat sehr schönes Fell. Es ist jedoch ein schwer erziehbares Haustier.</de>
+		</X>
+		<Y>
+			<en>Its lithe muscles allow it to walk without making a sound. It attacks in an instant.</en>
+			<de>Aufgrund seiner geschmeidigen Muskeln kann es sich lautlos bewegen. Es greift ohne Vorwarnung an.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.</en>
+			<de>Snobilkat hat sechs dicke Schnurrhaare, wodurch es Furcht enflößend wirkt. Durch diese nimmt es wahr, wenn sich etwas in seiner Nähe bewegt. Es wird sehr zutraulich, wenn man es an den Schnurrhaaren berührt.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.</en>
+			<de>Snobilkat hat sechs dicke Schnurrhaare, wodurch es Furcht enflößend wirkt. Durch diese nimmt es wahr, wenn sich etwas in seiner Nähe bewegt. Es wird sehr zutraulich, wenn man es an den Schnurrhaaren berührt.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>It has a violent temperament. It will attack anything that looks it in the eye. Its sharp claws inflict deep wounds.</en>
+			<de>Sieht man diesem ungestümen Pokémon nur in die Augen, fällt es einen bereits an. Seine scharfen Klauen hinterlassen tiefe Wunden.</de>
+		</Sun>
+		<Moon>
+			<en>It has a high opinion of itself, although not to the same extent as the Alolan Persian. It's quite difficult to make friends with this Pokémon.</en>
+			<de>Es ist von Natur aus sehr stolz, wenn auch nicht im gleichen Maße wie Snobilikat aus Alola. Sie lassen sich nur sehr schwer zähmen.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Although the jewel on its forehead appears to be a different color than those of Alolan Persian, it’s mostly made of the same material.</en>
+			<de>Alola-Form: Sein liebliches Gesicht steht im Kontrast zu der grausamen Vorliebe dafür, seine geschwächte Beute ausgiebig zu quälen, bevor es sie erlegt.
+Standard-Form: Das Juwel auf seiner Stirn hat eine andere Farbe als jenes von Snobilikat aus Alola, doch die Zusammensetzung ist großteils gleich.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>This Pokémon is popular with rich people. It’s also targeted by hunters who are after the jewel in its forehead.</en>
+			<de>Alola-Form: Sein rundes Gesicht wird als Symbol für Wohlstand gedeutet. Alola-Snobilikat gelten als umso reizender, je praller und größer dieses ist.
+Standard-Form: Unter Wohlbetuchten ein besonders beliebtes Pokémon. Räuberbanden haben es stets auf das Juwel auf seiner Stirn abgesehen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>4</item>
+			<item>5</item>
+		</speed>
+		<power>
+			<item>2</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>1</item>
+			<item>1</item>
+		</stamina>
+		<skill>
+			<item>3</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>4</item>
+			<item>4</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>24</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>51</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>68</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>68</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>68</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>68</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>65</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>65</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<level>69</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Covet</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flatter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Parting Shot</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snarl</move>
+					<tm>TM95</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>65</level>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Play Rough</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Switcheroo</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>37</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>44</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>49</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>56</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>61</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>65</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<level>69</level>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Covet</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flatter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Parting Shot</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snarl</move>
+					<tm>TM95</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Persian</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

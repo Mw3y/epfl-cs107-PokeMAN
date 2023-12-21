@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">448</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">65</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Babil</fr>
+		<de type="str">Geschwätz</de>
+		<gr type="str">Τιτιβισμός</gr>
+		<it type="str">Schiamazzo</it>
+		<en type="str">Chatter</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the foe.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt den Gegner eventuell.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the foe.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt den Gegner eventuell.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the foe.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt den Gegner eventuell.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the foe.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt den Gegner eventuell.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the foe.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt den Gegner eventuell.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the target.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt das Ziel eventuell.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the target.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt das Ziel eventuell.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the target.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt das Ziel eventuell.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. It may also confuse the target.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt das Ziel eventuell.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. This confuses the target.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt das Ziel.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks using a sound wave based on words it has learned. This confuses the target.</en>
+			<de type="str">Attacke mit Schallwellen. Verwirrt das Ziel.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks the target with sound waves of deafening chatter. This confuses the target.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks the target with sound waves of deafening chatter. This confuses the target.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks the target with sound waves of deafening chatter. This confuses the target.</en>
+			<de type="str">Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the target with sound waves of deafening chatter. This confuses the target.</en>
+			<de type="str">Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the target with sound waves of deafening chatter. This confuses the target.</en>
+			<de type="str">Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the target with sound waves of deafening chatter. This confuses the target.</en>
+			<de type="str">Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender labert das Ziel zu und greift es mit den dadurch entstehenden Schallwellen an, wodurch das Ziel verwirrt wird.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

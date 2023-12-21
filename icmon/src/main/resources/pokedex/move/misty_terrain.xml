@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">581</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Champ Brumeux</fr>
+		<de type="str">Nebelfeld</de>
+		<it type="str">Campo Nebbioso</it>
+		<en type="str">Misty Terrain</en>
+	</names>
+	<type type="str">Fairy</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user covers the ground under everyone’s feet with mist for five turns. This protects Pokémon on the ground from status conditions.</en>
+			<de type="str">Verwandelt den Untergrund fünf Runden lang in ein Nebelfeld und schützt alle Pokémon, die den Boden berühren, vor Statusproblemen.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user covers the ground under everyone’s feet with mist for five turns. This protects Pokémon on the ground from status conditions.</en>
+			<de type="str">Verwandelt den Untergrund fünf Runden lang in ein Nebelfeld und schützt alle Pokémon, die den Boden berühren, vor Statusproblemen.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user covers the ground under everyone’s feet with mist for five turns. This protects Pokémon on the ground from status conditions.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user covers the ground under everyone’s feet with mist for five turns. This protects Pokémon on the ground from status conditions.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.</en>
+			<de type="str">Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.</en>
+			<de type="str">Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.</en>
+			<de type="str">Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This protects Pokémon on the ground from status conditions and halves damage from Dragon-type moves for five turns.</en>
+			<de type="str">Schützt fünf Runden lang alle Pokémon, die den Boden berühren, vor Statusproblemen. Der erlittene Schaden durch Drachen-Attacken wird halbiert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Verwandelt den Untergrund fünf Runden lang in ein Nebelfeld und schützt alle Pokémon, die den Boden berühren, vor Statusproblemen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Verwandelt den Untergrund fünf Runden lang in ein Nebelfeld und schützt alle Pokémon, die den Boden berühren, vor Statusproblemen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">156</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Hvile</dk>
+		<fr type="str">Repos</fr>
+		<de type="str">Erholung</de>
+		<gr type="str">Ανάπαυση</gr>
+		<it type="str">Riposo</it>
+		<pl type="str">Odpoczynek</pl>
+		<en type="str">Rest</en>
+	</names>
+	<type type="str">Psychic</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Sleep for 2 turns to fully recover.</en>
+			<de type="str">2 Runden pausieren für Erholung.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Sleep for 2 turns to fully recover.</en>
+			<de type="str">2 Runden pausieren für Erholung.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Sleep for 2 turns to fully recover.</en>
+			<de type="str">2 Runden pausieren für Erholung.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">The user sleeps for 2 turns, restoring HP and status.</en>
+			<de type="str">Anwender schläft 2 Runden, KP und Status erneuert.* (Attacken-Beschreibung)POKéMON schläft für 2 Runden. Füllt KP und heilt Status.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">The user sleeps for 2 turns, restoring HP and status.</en>
+			<de type="str">Anwender schläft 2 Runden, KP und Status erneuert.* (Attacken-Beschreibung)POKéMON schläft für 2 Runden. Füllt KP und heilt Status.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">The user sleeps for 2 turns, restoring HP and status.</en>
+			<de type="str">Anwender schläft 2 Runden, KP und Status erneuert.* (Attacken-Beschreibung)POKéMON schläft für 2 Runden. Füllt KP und heilt Status.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user sleeps for two turns to fully restore HP and heal any status problem.</en>
+			<de type="str">Anwender schläft 2 Runden, um KP und Status voll zu erneuern.* (Attacken-Beschreibung)Der Angreifer schläft 2 Runden. Dabei werden die KP aufgefüllt und die Statusprobleme behoben.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user sleeps for two turns to fully restore HP and heal any status problem.</en>
+			<de type="str">Anwender schläft 2 Runden, um KP und Status voll zu erneuern.* (Attacken-Beschreibung)Der Angreifer schläft 2 Runden. Dabei werden die KP aufgefüllt und die Statusprobleme behoben.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender schläft zwei Runden, um KP und Status voll zu erneuern.* (Attacken-Beschreibung)Der Angreifer schläft 2 Runden. Dabei werden die KP aufgefüllt und die Statusprobleme behoben.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender schläft zwei Runden, um KP und Status voll zu erneuern.* (Attacken-Beschreibung)Der Angreifer schläft 2 Runden. Dabei werden die KP aufgefüllt und die Statusprobleme behoben.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender schläft zwei Runden, um KP und Status voll zu erneuern.* (Attacken-Beschreibung)Der Angreifer schläft 2 Runden. Dabei werden die KP aufgefüllt und die Statusprobleme behoben.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender schläft zwei Runden, um KP und Status voll zu erneuern.* (Attacken-Beschreibung)Der Angreifer schläft 2 Runden. Dabei werden die KP aufgefüllt und die Statusprobleme behoben.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender schläft zwei Runden, um KP und Status voll zu erneuern.* (Attacken-Beschreibung)Der Angreifer schläft 2 Runden. Dabei werden die KP aufgefüllt und die Statusprobleme behoben.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user goes to sleep for two turns. It fully restores the user’s HP and heals any status problem.</en>
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user goes to sleep for two turns. This fully restores the user’s HP and heals any status conditions.</en>
+			<de type="str">Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt, von allen Statusproblemen befreit und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender wird vollkommen geheilt und schläft die folgenden zwei Runden.* (Attacken-Beschreibung)Anwender wird vollkommen geheilt und schläft die folgenden 2 Runden.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">sleep</condition>
+				<probability type="int">100</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

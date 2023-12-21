@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">562</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">120</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Éructation</fr>
+		<de type="str">Rülpser</de>
+		<it type="str">Rutto</it>
+		<en type="str">Belch</en>
+	</names>
+	<type type="str">Poison</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user lets out a damaging belch at the target. The user must eat a held Berry to use this move.</en>
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender fügt dem Ziel Schaden zu, indem er es anrülpst. Diese Attacke gelingt nur nach dem Konsum einer getragenen Beere.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

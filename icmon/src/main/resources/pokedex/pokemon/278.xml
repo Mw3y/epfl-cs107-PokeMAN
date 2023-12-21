@@ -1,0 +1,2465 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Goélise</fr>
+		<de>Wingull</de>
+		<it>Wingull</it>
+		<en>Wingull</en>
+	</names>
+	<national_id>278</national_id>
+	<types>
+		<item>Water</item>
+		<item>Flying</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Keen Eye</name>
+		</item>
+		<item>
+			<name>Rain Dish</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>190</catch_rate>
+	<egg_groups>
+		<item>Water 1</item>
+		<item>Flying</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>2'00&quot;</height_us>
+	<height_eu>0.6 m</height_eu>
+	<weight_us>20.9 lbs.</weight_us>
+	<weight_eu>9.5 kg</weight_eu>
+	<base_exp_yield>54</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<color>White</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>40</hp>
+		<atk>30</atk>
+		<def>30</def>
+		<sp_atk>55</sp_atk>
+		<sp_def>30</sp_def>
+		<speed>85</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Pelipper</to>
+			<level>25</level>
+		</item>
+	</evolutions>
+	<alola_id>40</alola_id>
+	<categories>
+		<en>Seagull Pokémon</en>
+		<de>Seemöwe</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id>27</hoenn_id>
+	<sinnoh_id>119</sinnoh_id>
+	<unova_id/>
+	<kalos_id>17</kalos_id>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Ruby>
+			<en>Wingull has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This Pokémon rides the winds and flies as if it were skating across the sky.</en>
+			<de>Man sieht Wingull oft mit seiner Beute oder seinen Besitztümern im Schnabel herumfliegen auf der Suche nach geeigneten Verstecken. Dieses Pokémon fliegt durch die Lüfte, als würde es gleiten.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Wingull rides updrafts rising from the sea by extending its long and narrow wings to glide. This Pokémon's long beak is useful for catching prey.</en>
+			<de>Wingull breitet seine langen, schmalen Flügel aus und segelt im Seewind. Der lange Schnabel dieses Pokémon ist ihm beim Jagen nach Beute sehr hilfreich.</de>
+		</Sapphire>
+		<Emerald>
+			<en>It makes its nest on a sheer cliff at the edge of the sea. It has trouble keeping its wings flapping in flight. Instead, it soars on updrafts.</en>
+			<de>WINGULL baut sein Nest an kahlen Klippen nahe des Meers. Es fällt ihm nicht leicht, beim Fliegen mit den Flügeln zu schlagen, daher nutzt es Aufwinde.</de>
+		</Emerald>
+		<FireRed>
+			<en>It rides upon ocean winds as if it were a glider. In the winter, it hides food around its nest.</en>
+			<de>Es reitet auf den Ozeanwinden, als ob es gleiten würde. Im Winter versteckt es Nahrung bei seinem Nest.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>It rides upon ocean winds as if it were a glider. In the winter, it hides food around its nest.</en>
+			<de>Es reitet auf den Ozeanwinden, als ob es gleiten würde. Im Winter versteckt es Nahrung bei seinem Nest.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.</en>
+			<de>Es baut sein Nest auf steilen Klippen. Es nutzt die Aufwinde, um in größerer Höhe fliegen zu können.</de>
+		</Diamond>
+		<Pearl>
+			<en>Catching sea winds with its long wings, it soars as if it were a glider. It folds its wings to rest.</en>
+			<de>Es lässt sich vom Wind der Meere treiben, als wäre es ein Segelflug- zeug.</de>
+		</Pearl>
+		<Platinum>
+			<en>It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.</en>
+			<de>Es nutzt Aufwinde, um hoch oben in den Lüften zu schweben. Es trägt Futter in seinem Schnabel umher.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge.</en>
+			<de>Es baut sein Nest auf steilen Klippen. Es nutzt die Aufwinde, um in größerer Höhe fliegen zu können.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>It soars on updrafts without flapping its wings. It makes a nest on sheer cliffs at the sea’s edge.</en>
+			<de>Es baut sein Nest auf steilen Klippen. Es nutzt die Aufwinde, um in größerer Höhe fliegen zu können.</de>
+		</SoulSilver>
+		<Black>
+			<en>It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.</en>
+			<de>Es nutzt Aufwinde, um hoch oben in den Lüften zu schweben. Es trägt Futter in seinem Schnabel umher.</de>
+		</Black>
+		<White>
+			<en>It soars high in the sky, riding on updrafts like a glider. It carries food tucked in its bill.</en>
+			<de>Es nutzt Aufwinde, um hoch oben in den Lüften zu schweben. Es trägt Futter in seinem Schnabel umher.</de>
+		</White>
+		<Black_2>
+			<en>It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies.</en>
+			<de>Es baut sein Nest an Steilhängen und nutzt die Seebrise, um beim Gleiten am weiten Himmel an Höhe zu gewinnen.</de>
+		</Black_2>
+		<White_2>
+			<en>It makes its nest on sheer cliffs. Riding the sea breeze, it glides up into the expansive skies.</en>
+			<de>Es baut sein Nest an Steilhängen und nutzt die Seebrise, um beim Gleiten am weiten Himmel an Höhe zu gewinnen.</de>
+		</White_2>
+		<X>
+			<en>Catching sea winds with its long wings, it soars as if it were a glider. It folds its wings to rest.</en>
+			<de>Es lässt sich vom Wind der Meere treiben, als wäre es ein Segelflugzeug.</de>
+		</X>
+		<Y>
+			<en>It makes its nest on steep sea cliffs. Riding updrafts, it soars to great heights.</en>
+			<de>Es baut sein Nest auf steilen Klippen. Es nutzt die Aufwinde, um in größerer Höhe fliegen zu können.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Wingull has the habit of carrying prey and valuables in its beak and hiding them in all sorts of locations. This Pokémon rides the winds and flies as if it were skating across the sky.</en>
+			<de>Man sieht Wingull oft mit seiner Beute oder seinen Besitztümern im Schnabel herumfliegen auf der Suche nach geeigneten Verstecken. Dieses Pokémon fliegt durch die Lüfte, als würde es gleiten.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Wingull rides updrafts rising from the sea by extending its long and narrow wings to glide. This Pokémon’s long beak is useful for catching prey.</en>
+			<de>Wingull breitet seine langen, schmalen Flügel aus und segelt im Seewind. Der lange Schnabel dieses Pokémon ist ihm beim Jagen nach Beute sehr hilfreich.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>Its hollow bones enhance its lightness. It spreads its wings to the wind and soars away into the sky.</en>
+			<de>Seine Knochen sind hohl und daher sehr leicht. Mit seinen ausgebreiteten großen Flügeln steigt es hoch in den Himmel empor.</de>
+		</Sun>
+		<Moon>
+			<en>Fishermen keep an eye out for Wingull in the sky, because wherever they're circling, the ocean is sure to be teeming with fish Pokémon.</en>
+			<de>Fischer halten gerne Ausschau nach Wingull, denn wo diese ihre Kreise ziehen, scharen sich unter Wasser Schwärme von Fisch-Pokémon.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>With its long, thin wings, it catches updrafts and flies like a glider high up into the sky.</en>
+			<de>Seine Flügel sind lang und schmal. Es nutzt die Aufwinde, um wie ein Segelflugzeug hoch in den Himmel emporzusteigen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>It builds nests in cliffs by the sea. It circles the skies above the ocean looking for its favorite food—Wishiwashi.</en>
+			<de>Es baut sein Nest auf steilen Klippen und kreist über dem Meer auf der Suche nach Lusardin, seiner Lieblingsspeise.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>4</item>
+		</speed>
+		<power>
+			<item>1</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>3</item>
+			<item>4</item>
+		</stamina>
+		<skill>
+			<item>2</item>
+			<item>3</item>
+		</skill>
+		<jump>
+			<item>5</item>
+			<item>5</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>18</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM47</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM47</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM47</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Defog</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Pluck</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Defog</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Pluck</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Brine</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Pluck</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Hurricane</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Brine</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roost</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Pluck</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Air Cutter</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Hurricane</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Brine</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roost</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Pluck</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Air Cutter</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Hurricane</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Brine</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roost</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Soak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Air Cutter</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hurricane</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Brine</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roost</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Soak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Air Cutter</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hurricane</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Brine</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roost</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Soak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Supersonic</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Wing Attack</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Air Cutter</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Air Slash</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hurricane</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Brine</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Roost</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Soak</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twister</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Sport</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">250</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">35</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Siphon</fr>
+		<de type="str">Whirlpool</de>
+		<gr type="str">Δίνη</gr>
+		<it type="str">Mulinello</it>
+		<pl type="str">Wir Wodny</pl>
+		<en type="str">Whirlpool</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Traps the foe for 2-5 turns.</en>
+			<de type="str">Trifft Gegner bis zu 5 mal.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Traps the foe for 2-5 turns.</en>
+			<de type="str">Trifft Gegner bis zu 5 mal.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Traps the foe for 2-5 turns.</en>
+			<de type="str">Trifft Gegner bis zu 5mal.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Traps and hurts the foe in a whirlpool for 2 to 5 turns.</en>
+			<de type="str">Hält Gegner 2-5 Züge in einem Strudel gefangen.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Traps and hurts the foe in a whirlpool for 2 to 5 turns.</en>
+			<de type="str">Hält Gegner 2-5 Züge in einem Strudel gefangen.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Traps and hurts the foe in a whirlpool for 2 to 5 turns.</en>
+			<de type="str">Hält Gegner 2-5 Züge in einem Strudel gefangen.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is trapped in a fast, vicious whirlpool for two to five turns.</en>
+			<de type="str">Hält Gegner 2 - 5 Runden in einem Strudel gefangen.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is trapped in a fast, vicious whirlpool for two to five turns.</en>
+			<de type="str">Hält Gegner 2 - 5 Runden in einem Strudel gefangen.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user traps the foe inside a fast, vicious whirlpool that lasts for two to five turns.</en>
+			<de type="str">Hält Gegner zwei bis fünf Runden in einem Strudel gefangen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user traps the foe inside a fast, vicious whirlpool that lasts for two to five turns.</en>
+			<de type="str">Hält Gegner zwei bis fünf Runden in einem Strudel gefangen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user traps the foe inside a fast, vicious whirlpool that lasts for two to five turns.</en>
+			<de type="str">Hält Gegner zwei bis fünf Runden in einem Strudel gefangen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">Traps the foe inside a whirlpool that lasts for two to five turns. The user can pass through whirlpools.</en>
+			<de type="str">Hält Gegner zwei bis fünf Runden in einem Strudel gefangen. Ermöglicht das Überqueren von Strudeln.* (Attacken-Beschreibung)Schließt den Gegner in einer wild wirbelnden Wassersäule ein. Ermöglicht auch die Überquerung von Strudeln.* (VM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">Traps the foe inside a whirlpool that lasts for two to five turns. The user can pass through whirlpools.</en>
+			<de type="str">Hält Gegner zwei bis fünf Runden in einem Strudel gefangen. Ermöglicht das Überqueren von Strudeln.* (Attacken-Beschreibung)Schließt den Gegner in einer wild wirbelnden Wassersäule ein. Ermöglicht auch die Überquerung von Strudeln.* (VM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Traps foes in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einer Wasserhose gefangen.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Traps foes in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einer Wasserhose gefangen.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Traps foes in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einer Wasserhose gefangen.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Traps foes in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für 4 bis 5 Runden in einer Wasserhose gefangen.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user traps the target in a violent swirling whirlpool for four to five turns.</en>
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird für vier bis fünf Runden in einer Wasserhose gefangen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

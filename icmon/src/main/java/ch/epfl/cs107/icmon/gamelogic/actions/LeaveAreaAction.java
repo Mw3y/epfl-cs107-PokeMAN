@@ -7,6 +7,7 @@ public class LeaveAreaAction implements Action {
     private final ICMonActor actor;
 
     public LeaveAreaAction(ICMonActor actor) {
+        assert actor != null;
         this.actor = actor;
     }
 

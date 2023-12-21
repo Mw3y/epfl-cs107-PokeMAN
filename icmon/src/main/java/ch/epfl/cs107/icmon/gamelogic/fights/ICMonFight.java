@@ -5,8 +5,11 @@ import ch.epfl.cs107.icmon.graphics.ICMonFightActionSelectionGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightArenaGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightTextGraphics;
 import ch.epfl.cs107.play.engine.PauseMenu;
+import ch.epfl.cs107.play.math.random.RandomGenerator;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
+
+import java.util.List;
 
 public class ICMonFight extends PauseMenu {
 
@@ -24,6 +27,8 @@ public class ICMonFight extends PauseMenu {
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
      */
     public ICMonFight(Pokemon playerPokemon, Pokemon opponentPokemon) {
+        assert playerPokemon != null;
+        assert opponentPokemon != null;
         this.playerPokemon = playerPokemon;
         this.opponentPokemon = opponentPokemon;
         this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
@@ -31,8 +36,9 @@ public class ICMonFight extends PauseMenu {
     }
 
     @Override
-    protected void drawMenu(Canvas c) {
-        arena.draw(c);
+    protected void drawMenu(Canvas canvas) {
+        assert canvas != null;
+        arena.draw(canvas);
     }
 
     /**
@@ -40,6 +46,7 @@ public class ICMonFight extends PauseMenu {
      * @param keyboard - The keyboard that the user uses
      */
     private void intro(Keyboard keyboard) {
+        assert keyboard != null;
         drawText("Welcome to the fight");
         if (keyboard.get(Keyboard.SPACE).isPressed())
             state = FightState.SELECT_ACTION;
@@ -50,6 +57,7 @@ public class ICMonFight extends PauseMenu {
      * @param keyboard - The keyboard that the user uses
      */
     private void selectPlayerAction(Keyboard keyboard, float deltaTime) {
+        assert keyboard != null;
         // Instantiate a new menu only when needed
         if (playerActionsMenu == null) {
             playerActionsMenu = new ICMonFightActionSelectionGraphics(CAMERA_SCALE_FACTOR, keyboard, playerPokemon.properties().actions());
@@ -72,7 +80,7 @@ public class ICMonFight extends PauseMenu {
      * Executes the fight action that the player has selected in the previous phase.
      */
     private void executePlayerAction() {
-        boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon);
+        boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon);
         // The player has won
         if (opponentPokemon.properties().isKO()) {
             state = FightState.ENDING;
@@ -95,12 +103,15 @@ public class ICMonFight extends PauseMenu {
      */
     private void executeOpponentAction() {
         // Check if the Pokémon can attack
-        ICMonFightAction attack = opponentPokemon.properties().actions().stream()
-                .filter(action -> action.name().equals("Attack")).findFirst().orElse(null);
+        List<ICMonFightAction> attacks = opponentPokemon.properties().actions().stream()
+                .filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).toList();
 
-        if (attack != null) {
+        // Check if the opponent can attack
+        if (!attacks.isEmpty()) {
+            // Use a random attack
+            ICMonFightAction attack = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size()));
             // The attack didn't finish
-            if (!attack.doAction(playerPokemon)) {
+            if (!attack.doAction(playerPokemon, opponentPokemon)) {
                 state = FightState.ENDING;
                 drawText("The opponent decided not to continue the fight!");
                 return;
@@ -120,6 +131,7 @@ public class ICMonFight extends PauseMenu {
      * @param keyboard - The keyboard that the user uses
      */
     private void ending(Keyboard keyboard) {
+        assert keyboard != null;
         if (keyboard.get(Keyboard.SPACE).isPressed())
             end();
     }
@@ -144,6 +156,7 @@ public class ICMonFight extends PauseMenu {
      * @param message - The message to display
      */
     private void drawText(String message) {
+        assert message != null;
         arena.setInteractionGraphics(new ICMonFightTextGraphics(CAMERA_SCALE_FACTOR, message));
     }
 

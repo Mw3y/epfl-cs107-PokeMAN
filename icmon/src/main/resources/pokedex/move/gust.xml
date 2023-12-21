@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">16</index_number>
+	<pp type="int">35</pp>
+	<max_pp type="int">56</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Storm</dk>
+		<fr type="str">Tornade</fr>
+		<de type="str">Windstoß</de>
+		<gr type="str">Ανεμοστρόβιλος</gr>
+		<it type="str">Raffica</it>
+		<pl type="str">Podmuch Wiatru</pl>
+		<tr type="str">Rüzgâr</tr>
+		<en type="str">Gust</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Whips up a strong gust of wind.</en>
+			<de type="str">Erzeugt starke Windböe.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Whips up a strong gust of wind.</en>
+			<de type="str">Erzeugt starke Windböe.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Whips up a strong gust of wind.</en>
+			<de type="str">Erzeugt starke Windböe.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Strikes the foe with a gust of wind whipped up by wings.</en>
+			<de type="str">Trifft den Gegner mit Windstoß durch Flügelschlag.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Strikes the foe with a gust of wind whipped up by wings.</en>
+			<de type="str">Trifft den Gegner mit Windstoß durch Flügelschlag.</de>
+		</Sapphire>
+		<FireRed type="dict">
+			<en type="str">Strikes the foe with a gust of wind whipped up by wings.</en>
+			<de type="str">Trifft den Gegner mit einem Windstoß durch Flügelschlag.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Strikes the foe with a gust of wind whipped up by wings.</en>
+			<de type="str">Trifft den Gegner mit einem Windstoß durch Flügelschlag.</de>
+		</LeafGreen>
+		<Emerald type="dict">
+			<en type="str">Strikes the foe with a gust of wind whipped up by wings.</en>
+			<de type="str">Trifft den Gegner mit Windstoß durch Flügelschlag.</de>
+		</Emerald>
+		<Diamond type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the foe to inflict damage.</en>
+			<de type="str">Trifft den Gegner mit einem Windstoß durch Flügelschlag.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the foe to inflict damage.</en>
+			<de type="str">Trifft den Gegner mit einem Windstoß durch Flügelschlag.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the foe to inflict damage.</en>
+			<de type="str">Trifft den Gegner mit einem Windstoß durch Flügelschlag.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the foe to inflict damage.</en>
+			<de type="str">Trifft den Gegner mit einem Windstoß durch Flügelschlag.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the foe to inflict damage.</en>
+			<de type="str">Trifft den Gegner mit einem Windstoß durch Flügelschlag.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A gust of wind is whipped up by wings and launched at the target to inflict damage.</en>
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Trifft das Ziel mit einem Windstoß durch einen Flügelschlag.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Power Trip</en>
+		<fr type="str">Arrogance</fr>
+		<de type="str">Überheblichkeit</de>
+		<it type="str">Tracotanza</it>
+		<es type="str">Chulería</es>
+	</names>
+	<index_number type="int">681</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Dark</type>
+	<category type="str">physical</category>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">20</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.</en>
+			<de type="str">Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.</en>
+			<de type="str">Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.</en>
+			<de type="str">Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user boasts its strength and attacks the target. The more the user’s stats are raised, the greater the move’s power.</en>
+			<de type="str">Der Anwender prahlt mit seiner Stärke und greift das Ziel an. Dieser Angriff ist umso stärker, je weiter die Statuswerte des Anwenders erhöht sind.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

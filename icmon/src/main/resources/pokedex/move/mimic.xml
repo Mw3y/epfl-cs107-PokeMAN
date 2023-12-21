@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">102</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Nápodoba</cz>
+		<fr type="str">Copie</fr>
+		<de type="str">Mimikry</de>
+		<gr type="str">Μίμιση</gr>
+		<it type="str">Mimica</it>
+		<pl type="str">Naśladowanie</pl>
+		<en type="str">Mimic</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Copies a move used by the foe.</en>
+			<de type="str">Ahmt Attacke des Angreifers nach.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Copies a move used by the foe.</en>
+			<de type="str">Ahmt Attacke des Angreifers nach.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Copies a move used by the foe.</en>
+			<de type="str">Ahmt Attacke des Angreifers nach.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Copies a move used by the foe during one battle.</en>
+			<de type="str">Kopiert eine zuvor ausgeführte Attacke des Gegners.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Copies a move used by the foe during one battle.</en>
+			<de type="str">Kopiert eine zuvor ausgeführte Attacke des Gegners.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Copies a move used by the foe during one battle.</en>
+			<de type="str">Kopiert eine zuvor ausgeführte Attacke des Gegners.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user copies the move last used by the foe for the rest of the battle.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Gegners.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user copies the move last used by the foe for the rest of the battle.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Gegners.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user copies the move last used by the foe. The move can be used for the rest of the battle.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Gegners. Kann bis zum Ende des Kampfes verwendet werden.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user copies the move last used by the foe. The move can be used for the rest of the battle.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Gegners. Kann bis zum Ende des Kampfes verwendet werden.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user copies the move last used by the foe. The move can be used for the rest of the battle.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Gegners. Kann bis zum Ende des Kampfes verwendet werden.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user copies the move last used by the foe. The move can be used for the rest of the battle.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Gegners. Kann bis zum Ende des Kampfes verwendet werden.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user copies the move last used by the foe. The move can be used for the rest of the battle.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Gegners. Kann bis zum Ende des Kampfes verwendet werden.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user copies the target’s last move. The move can be used during battle until the Pokémon is switched out.</en>
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Kopiert die zuvor ausgeführte Attacke des Zieles. Kann im Kampf bis zur Auswechslung verwendet werden.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">476</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">2</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Poudre Fureur</fr>
+		<de type="str">Wutpulver</de>
+		<it type="str">Polverabbia</it>
+		<en type="str">Rage Powder</en>
+	</names>
+	<type type="str">Bug</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegn. Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegn. Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegn. Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegn. Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user scatters a cloud of irritating powder to draw attention to itself. Opponents aim only at the user.</en>
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender zieht gegnerische Aufmerksamkeit und Angriffe auf sich, indem er ein Wut erzeugendes Pulver über sich streut.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

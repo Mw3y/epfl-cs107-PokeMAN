@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">297</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Danse-Plume</fr>
+		<de type="str">Daunenreigen</de>
+		<gr type="str">Χορός Φτερών</gr>
+		<it type="str">Danzadipiume</it>
+		<pl type="str">Taniec Piór</pl>
+		<en type="str">Feather Dance</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">-2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Envelops the foe with down to sharply reduce ATTACK.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt ANGR.-Wert deutlich.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Envelops the foe with down to sharply reduce ATTACK.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt ANGR.-Wert deutlich.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Envelops the foe with down to sharply reduce ATTACK.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt ANGR.-Wert deutlich.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is covered with a mass of down that sharply cuts the ATTACK stat.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt den ANGR. deutlich.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is covered with a mass of down that sharply cuts the ATTACK stat.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt den ANGR. deutlich.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user covers the foe with a mass of down that sharply lowers the Attack stat.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt den Angriffs- Wert deutlich.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user covers the foe with a mass of down that sharply lowers the Attack stat.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt den Angriffs- Wert deutlich.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user covers the foe with a mass of down that sharply lowers the Attack stat.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt den Angriffs- Wert deutlich.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user covers the foe with a mass of down that sharply lowers the Attack stat.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt den Angriffs- Wert deutlich.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user covers the foe with a mass of down that sharply lowers the Attack stat.</en>
+			<de type="str">Hüllt Gegner in Daunen und senkt den Angriffs- Wert deutlich.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user covers the target’s body with a mass of down that harshly lowers its Attack stat.</en>
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Hüllt das Ziel in Daunen und senkt dessen Angriffs-Wert stark.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

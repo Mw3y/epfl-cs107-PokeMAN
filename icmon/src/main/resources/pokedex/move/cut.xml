@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">15</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">50</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Coupe</fr>
+		<de type="str">Zerschneider</de>
+		<gr type="str">Κόψιμο</gr>
+		<it type="str">Taglio</it>
+		<pl type="str">Cięcie</pl>
+		<tr type="str">Kesme</tr>
+		<en type="str">Cut</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Cuts using claws, scythes, etc.</en>
+			<de type="str">Setzt Klauen, Sicheln etc. ein.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Cuts using claws, scythes, etc.</en>
+			<de type="str">Setzt Klauen, Sicheln etc. ein.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Cuts using claws, scythes, etc.</en>
+			<de type="str">Setzt Klauen, Sicheln etc. ein.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Cuts the foe with sharp scythes, claws, etc.</en>
+			<de type="str">Trifft den Gegner mit Klauen, Scheren o. ä.* (Attacken-Beschreibung)Gegner wird mit klingenscharfen Krallen attackiert.* (VM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Cuts the foe with sharp scythes, claws, etc.</en>
+			<de type="str">Trifft den Gegner mit Klauen, Scheren o. ä.* (Attacken-Beschreibung)Gegner wird mit klingenscharfen Krallen attackiert.* (VM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Cuts the foe with sharp scythes, claws, etc.</en>
+			<de type="str">Trifft den Gegner mit Klauen, Scheren o. ä.* (Attacken-Beschreibung)Gegner wird mit klingenscharfen Krallen attackiert.* (VM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A basic attack. It can be used to cut down thin trees and grass.</en>
+			<de type="str">Ein Basisangriff. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Der Gegner wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A basic attack. It can be used to cut down thin trees and grass.</en>
+			<de type="str">Ein Basisangriff. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Der Gegner wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Der Gegner wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Der Gegner wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Der Gegner wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Der Gegner wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Der Gegner wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is cut with a scythe or a claw. It can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is cut with a scythe or claw. This can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is cut with a scythe or claw. This can also be used to cut down thin trees.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is cut with a scythe or claw. This can also be used to cut down thin trees.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is cut with a scythe or claw. This can also be used to cut down thin trees.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is cut with a scythe or claw.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung (unbenutzt))</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is cut with a scythe or claw.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung (unbenutzt))</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is cut with a scythe or claw.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is cut with a scythe or claw.</en>
+			<de type="str">Ein Basisangriff mit Schere oder Klaue.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung (unbenutzt))</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ein Basisangriff mit Schere oder Klaue. Damit können kleine Bäume gefällt werden.* (Attacken-Beschreibung)Das Ziel wird mit scharfen Klingen attackiert. Außerhalb des Kampfes werden damit kleine Bäume gefällt.* (VM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Menacing Moonraze Maelstrom</en>
+		<fr type="str">Rayons Séléno-Explosifs</fr>
+		<de type="str">Geballter Mondlaser</de>
+		<it type="str">Deflagrazione Lunare</it>
+		<es type="str">Deflagración Lunar</es>
+	</names>
+	<index_number type="int">725</index_number>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Ghost</type>
+	<category type="str">special</category>
+	<power type="int">200</power>
+	<accuracy type="int">0</accuracy>
+	<pp type="int">1</pp>
+	<max_pp type="int">1</max_pp>
+	<target type="str">target_adjacent_single</target>
+	<pokedex_entries type="dict">
+		<Ultra_Sun type="dict">
+			<en type="str">After obtaining Z-Power, the user, Lunala, attacks the target with full force. This move can ignore the effect of the target’s Ability.</en>
+			<de type="str">Lunala greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">After obtaining Z-Power, the user, Lunala, attacks the target with full force. This move can ignore the effect of the target’s Ability.</en>
+			<de type="str">Lunala greift das Ziel mithilfe von Z-Kraft mit voller Wucht an. Ignoriert die Fähigkeit des Zieles.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

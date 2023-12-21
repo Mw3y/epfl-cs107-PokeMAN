@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">317</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Tomberoche</fr>
+		<de type="str">Felsgrab</de>
+		<gr type="str">Ταφόπλακα</gr>
+		<it type="str">Rocciotomba</it>
+		<pl type="str">Kamienny Grób</pl>
+		<en type="str">Rock Tomb</en>
+	</names>
+	<type type="str">Rock</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Stops the foe from moving with rocks and cuts SPEED.</en>
+			<de type="str">Hält den Feind mit Steinen auf u. senkt INIT.-Wert,* (Attacken-Beschreibung)Stoppt GESTEIN-Attacken. Kann INIT.-Wert senken.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Stops the foe from moving with rocks and cuts SPEED.</en>
+			<de type="str">Hält den Feind mit Steinen auf u. senkt INIT.-Wert,* (Attacken-Beschreibung)Stoppt GESTEIN-Attacken. Kann INIT.-Wert senken.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Stops the foe from moving with rocks and cuts SPEED.</en>
+			<de type="str">Hält den Feind mit Steinen auf u. senkt INIT.-Wert,* (Attacken-Beschreibung)Begräbt Gegner mit Steinen. Kann INIT.-Wert senken.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Boulders are hurled at the foe. It also lowers the foe’s SPEED if it hits.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der INIT.-Wert des Gegners gesenkt.* (Attacken-Beschreibung)Felsbrocken werden auf den Gegner geschleudert. Bei Erfolg sinkt der INIT.-Wert.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Boulders are hurled at the foe. It also lowers the foe’s SPEED if it hits.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der INIT.-Wert des Gegners gesenkt.* (Attacken-Beschreibung)Felsbrocken werden auf den Gegner geschleudert. Bei Erfolg sinkt der INIT.-Wert.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Gegners gesenkt.* (Attacken-Beschreibung)Der Gegner wird mit Felsen beworfen, die ihn blockieren und schnelle Angriffe verlangsamen.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Gegners gesenkt.* (Attacken-Beschreibung)Der Gegner wird mit Felsen beworfen, die ihn blockieren und schnelle Angriffe verlangsamen.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Gegners gesenkt.* (Attacken-Beschreibung)Der Gegner wird mit Felsen beworfen, die ihn blockieren und schnelle Angriffe verlangsamen.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Gegners gesenkt.* (Attacken-Beschreibung)Der Gegner wird mit Felsen beworfen, die ihn blockieren und schnelle Angriffe verlangsamen.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">Boulders are hurled at the foe. It also lowers the foe’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Gegners gesenkt.* (Attacken-Beschreibung)Der Gegner wird mit Felsen beworfen, die ihn blockieren und schnelle Angriffe verlangsamen.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Boulders are hurled at the target. It also lowers the target’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Kann Initiative-Wert senken.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Boulders are hurled at the target. It also lowers the target’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Kann Initiative-Wert senken.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Boulders are hurled at the target. It also lowers the target’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Kann Initiative-Wert senken.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Boulders are hurled at the target. It also lowers the target’s Speed by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Kann Initiative-Wert senken.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Boulders are hurled at the target. This also lowers the target’s Speed stat by preventing its movement.</en>
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit Felsen. Bei Erfolg wird der Initiative-Wert des Zieles gesenkt.* (Attacken-Beschreibung)Das Ziel wird mit Felsen beworfen. Senkt den Initiative-Wert des Zieles.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

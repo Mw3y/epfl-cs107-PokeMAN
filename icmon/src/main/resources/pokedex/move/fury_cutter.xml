@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">210</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Taillade</fr>
+		<de type="str">Zornklinge</de>
+		<gr type="str">Μανιασμένο Κοπίδι</gr>
+		<it type="str">Tagliofuria</it>
+		<pl type="str">Noże Furii</pl>
+		<en type="str">Fury Cutter</en>
+	</names>
+	<type type="str">Bug</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Successive hits raise power.</en>
+			<de type="str">Eine Trefferfolge erhöht die Kraft.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Successive hits raise power.</en>
+			<de type="str">Eine Trefferfolge erhöht die Kraft.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Successive hits raise power.</en>
+			<de type="str">Eine Treffer-Folge erhöht die Kraft.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">An attack that intensifies on each successive hit.</en>
+			<de type="str">Eine Attacke, deren Härte bei jedem Treffer zunimmt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">An attack that intensifies on each successive hit.</en>
+			<de type="str">Eine Attacke, deren Härte bei jedem Treffer zunimmt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">An attack that intensifies on each successive hit.</en>
+			<de type="str">Eine Attacke, deren Härte bei jedem Treffer zunimmt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An attack that grows stronger on each successive hit.</en>
+			<de type="str">Eine Attacke, deren Härte bei jedem Treffer zunimmt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An attack that grows stronger on each successive hit.</en>
+			<de type="str">Eine Attacke, deren Härte bei jedem Treffer zunimmt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei jedem Treffer zunimmt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei jedem Treffer zunimmt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei jedem Treffer zunimmt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei jedem Treffer zunimmt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei jedem Treffer zunimmt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is slashed with scythes or claws. Its power increases if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is slashed with scythes or claws. This attack becomes more powerful if it hits in succession.</en>
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Eine Attacke mit Scheren oder Klauen, deren Härte bei aufeinanderfolgenden Treffern zunimmt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

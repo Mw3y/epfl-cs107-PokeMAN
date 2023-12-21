@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">400</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">70</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">1</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Tranche-Nuit</fr>
+		<de type="str">Nachthieb</de>
+		<gr type="str">Νυκτερινός Τεμαχισμός</gr>
+		<it type="str">Nottesferza</it>
+		<pl type="str">Nocne Cięcie</pl>
+		<en type="str">Night Slash</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<in_battle_properties type="dict">
+		<increased_critical_hit_ratio type="bool">true</increased_critical_hit_ratio>
+	</in_battle_properties>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user slashes the foe the instant an opportunity arises. It has a high critical-hit ratio.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user slashes the target the instant an opportunity arises. Critical hits land more easily.</en>
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender greift bei der ersten Gelegenheit mit scharfen Klauen an. Hohe Volltrefferquote.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

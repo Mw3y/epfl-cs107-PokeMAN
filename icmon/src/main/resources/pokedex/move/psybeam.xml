@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">60</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">65</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Telebølge</dk>
+		<fr type="str">Rafale Psy</fr>
+		<de type="str">Psystrahl</de>
+		<gr type="str">Ψυχοριπή</gr>
+		<it type="str">Psicoraggio</it>
+		<pl type="str">Psychopromień</pl>
+		<en type="str">Psybeam</en>
+	</names>
+	<type type="str">Psychic</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">An attack that may confuse the foe.</en>
+			<de type="str">Gegner wird evtl. verwirrt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">An attack that may confuse the foe.</en>
+			<de type="str">Gegner wird evtl. verwirrt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">An attack that may confuse the foe.</en>
+			<de type="str">Gegner wird evtl. verwirrt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Fires a peculiar ray that may confuse the foe.</en>
+			<de type="str">Feuert einen Strahl ab, der Gegner verwirren kann.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Fires a peculiar ray that may confuse the foe.</en>
+			<de type="str">Feuert einen Strahl ab, der Gegner verwirren kann.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Fires a peculiar ray that may confuse the foe.</en>
+			<de type="str">Feuert einen Strahl ab, der Gegner verwirren kann.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A peculiar ray is shot at the foe. It may leave the foe confused.</en>
+			<de type="str">Feuert einen Strahl ab, der den Gegner verwirren kann.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A peculiar ray is shot at the foe. It may leave the foe confused.</en>
+			<de type="str">Feuert einen Strahl ab, der den Gegner verwirren kann.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is attacked with a peculiar ray. It may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der den Gegner verwirren kann.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is attacked with a peculiar ray. It may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der den Gegner verwirren kann.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is attacked with a peculiar ray. It may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der den Gegner verwirren kann.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is attacked with a peculiar ray. It may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der den Gegner verwirren kann.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is attacked with a peculiar ray. It may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der den Gegner verwirren kann.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is attacked with a peculiar ray. It may also cause confusion.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is attacked with a peculiar ray. It may also cause confusion.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is attacked with a peculiar ray. It may also cause confusion.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is attacked with a peculiar ray. It may also cause confusion.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is attacked with a peculiar ray. This may also leave the target confused.</en>
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Feuert einen Strahl ab, der das Ziel verwirren kann.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

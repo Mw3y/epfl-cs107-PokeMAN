@@ -1,0 +1,1426 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Viridium</fr>
+		<de>Viridium</de>
+		<it>Virizion</it>
+		<en>Virizion</en>
+	</names>
+	<national_id>640</national_id>
+	<types>
+		<item>Grass</item>
+		<item>Fighting</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Justified</name>
+		</item>
+	</abilities>
+	<gender_ratios/>
+	<catch_rate>3</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>20655</item>
+		<item>20909</item>
+	</hatch_time>
+	<height_us>6'07&quot;</height_us>
+	<height_eu>2.0 m</height_eu>
+	<weight_us>440.9 lbs.</weight_us>
+	<weight_eu>200.0 kg</weight_eu>
+	<base_exp_yield>261</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>3</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Green</color>
+	<base_friendship>35</base_friendship>
+	<base_stats>
+		<hp>91</hp>
+		<atk>90</atk>
+		<def>72</def>
+		<sp_atk>90</sp_atk>
+		<sp_def>129</sp_def>
+		<speed>108</speed>
+	</base_stats>
+	<categories>
+		<en>Grassland Pokémon</en>
+		<de>Wiese</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id>146</unova_id>
+	<kalos_id/>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Black>
+			<en>This Pokémon fought humans in order to protect its friends. Legends about it continue to be passed down.</en>
+			<de>Es kämpfte einst gegen die Menschen, um seine Freunde zu beschützen. Nun erzählt man sich Legenden von ihm.</de>
+		</Black>
+		<White>
+			<en>Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.</en>
+			<de>Das Horn an seinem Kopf ist eine scharfe Klinge. Neckt seine Gegner mit quirligen Bewegungen und greift blitzartig an.</de>
+		</White>
+		<Black_2>
+			<en>Legends say this Pokémon confounded opponents with its swift movements.</en>
+			<de>Legenden zufolge täuschte es seine Gegner mit flinken Bewegungen und beschützte so die Pokémon.</de>
+		</Black_2>
+		<White_2>
+			<en>Legends say this Pokémon confounded opponents with its swift movements.</en>
+			<de>Legenden zufolge täuschte es seine Gegner mit flinken Bewegungen und beschützte so die Pokémon.</de>
+		</White_2>
+		<X>
+			<en>Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.</en>
+			<de>Das Horn an seinem Kopf ist eine scharfe Klinge. Neckt seine Gegner mit quirligen Bewegungen und greift blitzartig an.</de>
+		</X>
+		<Y>
+			<en>Legends say this Pokémon confounded opponents with its swift movements.</en>
+			<de>Legenden zufolge täuschte es seine Gegner mit flinken Bewegungen und beschützte so die Pokémon.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Its head sprouts horns as sharp as blades. Using whirlwind-like movements, it confounds and swiftly cuts opponents.</en>
+			<de>Legenden zufolge täuschte es seine Gegner mit flinken Bewegungen und beschützte so die Pokémon.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Legends say this Pokémon confounded opponents with its swift movements.</en>
+			<de>Legenden zufolge täuschte es seine Gegner mit flinken Bewegungen und beschützte so die Pokémon.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Close Combat</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Close Combat</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Close Combat</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Close Combat</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Double Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Magical Leaf</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Sacred Sword</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

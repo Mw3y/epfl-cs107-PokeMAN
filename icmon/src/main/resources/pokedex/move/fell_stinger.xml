@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">565</index_number>
+	<pp type="int">25</pp>
+	<max_pp type="int">40</max_pp>
+	<power type="int">30</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Dard Mortel</fr>
+		<de type="str">Stachelfinale</de>
+		<it type="str">Pungiglione</it>
+		<en type="str">Fell Stinger</en>
+	</names>
+	<type type="str">Bug</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises sharply.</en>
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises sharply.</en>
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises sharply.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises sharply.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises drastically.</en>
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises drastically.</en>
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises drastically.</en>
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">When the user knocks out a target with this move, the user’s Attack stat rises drastically.</en>
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert drastisch.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Gelingt es dem Anwender, das Ziel mit dieser Attacke zu besiegen, steigt sein Angriffs-Wert stark.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

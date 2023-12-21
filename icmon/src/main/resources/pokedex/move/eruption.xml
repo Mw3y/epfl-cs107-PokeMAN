@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">284</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Éruption</fr>
+		<de type="str">Eruption</de>
+		<gr type="str">Έκρηξη</gr>
+		<it type="str">Eruzione</it>
+		<pl type="str">Erupcja</pl>
+		<en type="str">Eruption</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">The higher the user’s HP, the more damage caused.</en>
+			<de type="str">Je höher KP des Benutzers, desto mehr Schaden.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">The higher the user’s HP, the more damage caused.</en>
+			<de type="str">Je höher KP des Benutzers, desto mehr Schaden.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">The higher the user’s HP, the more damage caused.</en>
+			<de type="str">Je höher KP des Benutzers, desto mehr Schaden.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The higher the user’s HP, the more powerful this attack becomes.</en>
+			<de type="str">Je höher die KP des Benutzers sind, desto mehr Schaden wird angerichtet.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The higher the user’s HP, the more powerful this attack becomes.</en>
+			<de type="str">Je höher die KP des Benutzers sind, desto mehr Schaden wird angerichtet.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks in an explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks the opposing team with explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks the opposing team with explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks the opposing team with explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks the opposing team with explosive fury. The lower the user’s HP, the less powerful this attack becomes.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks opposing Pokémon with explosive fury. The lower the user’s HP, the lower the move’s power.</en>
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Explosiver Angriff. Je höher die KP des Anwenders sind, desto mehr Schaden wird angerichtet.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

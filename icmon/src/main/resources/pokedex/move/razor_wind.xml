@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">13</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">1</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Coupe-Vent</fr>
+		<de type="str">Klingensturm</de>
+		<gr type="str">Άνεμος Θεριστής</gr>
+		<it type="str">Ventagliente</it>
+		<pl type="str">Cios Wiatru</pl>
+		<tr type="str">Jilet Rüzgâr</tr>
+		<en type="str">Razor Wind</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<in_battle_properties type="dict">
+		<increased_critical_hit_ratio type="bool">true</increased_critical_hit_ratio>
+	</in_battle_properties>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">1st turn: Prepare 2nd turn: Attack</en>
+			<de type="str">1. Vorbereitung 2. Angriff</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">1st turn: Prepare 2nd turn: Attack</en>
+			<de type="str">1. Vorbereitung 2. Angriff</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">1st turn: Prepare 2nd turn: Attack</en>
+			<de type="str">1. Vorbereitung 2. Angriff</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A 2-turn move that strikes the foe on the 2nd turn.</en>
+			<de type="str">Eine Attacke, die auf 2 Runden basiert.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A 2-turn move that strikes the foe on the 2nd turn.</en>
+			<de type="str">Eine Attacke, die auf 2 Runden basiert.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A 2-turn move that strikes the foe on the 2nd turn.</en>
+			<de type="str">Eine Attacke, die auf 2 Runden basiert.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Blades of wind hit the foe on the 2nd turn. It has a high critical-hit ratio.</en>
+			<de type="str">Eine Attacke, die auf 2 Runden basiert. Hohe Volltrefferquote.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Blades of wind hit the foe on the 2nd turn. It has a high critical-hit ratio.</en>
+			<de type="str">Eine Attacke, die auf 2 Runden basiert. Hohe Volltrefferquote.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.</en>
+			<de type="str">Eine Attacke, die auf zwei Runden basiert. Hohe Volltrefferquote.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.</en>
+			<de type="str">Eine Attacke, die auf zwei Runden basiert. Hohe Volltrefferquote.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.</en>
+			<de type="str">Eine Attacke, die auf zwei Runden basiert. Hohe Volltrefferquote.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.</en>
+			<de type="str">Eine Attacke, die auf zwei Runden basiert. Hohe Volltrefferquote.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit the foe on the second turn. It has a high critical-hit ratio.</en>
+			<de type="str">Eine Attacke, die auf zwei Runden basiert. Hohe Volltrefferquote.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A two-turn attack. Blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">In this two-turn attack, blades of wind hit opposing Pokémon on the second turn. Critical hits land more easily.</en>
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Eine Attacke, die über zwei Runden geht. Hohe Volltrefferquote.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

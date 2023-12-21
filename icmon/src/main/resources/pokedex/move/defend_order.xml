@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">455</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Appel Défense</fr>
+		<de type="str">Blockbefehl</de>
+		<gr type="str">Προσταγή Άμυνας</gr>
+		<it type="str">Comandoscudo</it>
+		<en type="str">Defend Order</en>
+	</names>
+	<type type="str">Bug</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_def</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user calls out its underlings to make a living shield, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden ein lebendes Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidig.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user calls out its underlings to make a living shield, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden ein lebendes Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidig.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden ein lebendes Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidig.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden ein lebendes Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidig.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden ein lebendes Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidig.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user calls out its underlings to shield its body, raising its Defense and Sp. Def stats.</en>
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Erhöht Verteidigung und Spezial-Verteidigung.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Untergebene bilden einen lebenden Schild um den Anwender. Steigert Verteidigung und Spezial-Verteidigung.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

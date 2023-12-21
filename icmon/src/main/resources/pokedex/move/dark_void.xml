@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">464</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">80</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Trou Noir</fr>
+		<de type="str">Schlummerort</de>
+		<gr type="str">Σκοτεινό Κενό</gr>
+		<it type="str">Vuototetro</it>
+		<pl type="str">Ciemna Pustka</pl>
+		<en type="str">Dark Void</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The foe is dragged into a world of total darkness that puts it to sleep.</en>
+			<de type="str">Der Gegner wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is dragged into a world of total darkness that puts it to sleep.</en>
+			<de type="str">Der Gegner wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is dragged into a world of total darkness that puts it to sleep.</en>
+			<de type="str">Der Gegner wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is dragged into a world of total darkness that puts it to sleep.</en>
+			<de type="str">Der Gegner wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is dragged into a world of total darkness that puts it to sleep.</en>
+			<de type="str">Der Gegner wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Opposing Pokémon are dragged into a world of total darkness that makes them sleep.</en>
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird in eine Welt der Dunkelheit gezogen und in Schlaf versetzt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">sleep</condition>
+				<probability type="int">100</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">527</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">55</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Toile Élek</fr>
+		<de type="str">Elektronetz</de>
+		<it type="str">Elettrotela</it>
+		<en type="str">Electroweb</en>
+	</names>
+	<type type="str">Electric</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user captures and attacks opposing Pokémon by using an electric net. It reduces the targets’ Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user captures and attacks opposing Pokémon by using an electric net. It reduces the targets’ Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user captures and attacks opposing Pokémon by using an electric net. It reduces the targets’ Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user captures and attacks opposing Pokémon by using an electric net. It reduces the targets’ Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks and captures opposing Pokémon using an electric net. This lowers their Speed stat.</en>
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Fängt Ziele mit einem elektrischen Netz und senkt deren Initiative.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

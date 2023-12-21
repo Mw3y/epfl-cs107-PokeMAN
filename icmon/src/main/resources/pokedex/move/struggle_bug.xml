@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">522</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">50</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Survinsecte</fr>
+		<de type="str">Käfertrutz</de>
+		<it type="str">Entomoblocco</it>
+		<pl type="str">Waleczny Insekt</pl>
+		<en type="str">Struggle Bug</en>
+	</names>
+	<type type="str">Bug</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">sp_atk</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. The targets’ Sp. Atk stat is reduced.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.* (Attacken-Beschreibung)Anwender leistet Widerstand und greift an. Der Spezial-Angriff des Zieles sinkt.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. The targets’ Sp. Atk stat is reduced.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.* (Attacken-Beschreibung)Anwender leistet Widerstand und greift an. Der Spezial-Angriff des Zieles sinkt.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. The targets’ Sp. Atk stat is reduced.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.* (Attacken-Beschreibung)Anwender leistet Widerstand und greift an. Der Spezial-Angriff des Zieles sinkt.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. The targets’ Sp. Atk stat is reduced.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.* (Attacken-Beschreibung)Anwender leistet Widerstand und greift an. Der Spezial-Angriff des Zieles sinkt.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">While resisting, the user attacks the opposing Pokémon. This lowers the Sp. Atk stat of those hit.</en>
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender leistet Widerstand und greift an. Der Spezial-Angriff der Ziele sinkt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

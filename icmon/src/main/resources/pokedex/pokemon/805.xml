@@ -1,0 +1,256 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Stakataka</en>
+		<fr>Ama-Ama</fr>
+		<es>Stakataka</es>
+		<de>Muramura</de>
+		<it>Stakataka</it>
+	</names>
+	<categories>
+		<en>Rampart Pokémon</en>
+		<de>Steinmauer</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<unova_id/>
+	<kalos_id/>
+	<sinnoh_id/>
+	<alola_id/>
+	<ultra_alola_id>391</ultra_alola_id>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>3</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>61</hp>
+		<atk>131</atk>
+		<def>211</def>
+		<sp_atk>53</sp_atk>
+		<sp_def>101</sp_def>
+		<speed>13</speed>
+	</base_stats>
+	<pokedex_entries>
+		<Ultra_Sun>
+			<en>It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.</en>
+			<de>Diese Kreatur kam durch eine Ultrapforte. Sie besteht anscheinend aus mehreren aufeinandergestapelten Wesen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>When stone walls started moving and attacking, the brute’s true identity was this mysterious life-form, which brings to mind an Ultra Beast.</en>
+			<de>Diese rätselhafte Lebensform ist vermutlich eine Ultrabestie. Sie sieht aus wie eine Steinmauer, bis sie sich plötzlich bewegt und angreift.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<variations/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<national_id>805</national_id>
+	<types>
+		<item>Rock</item>
+		<item>Steel</item>
+	</types>
+	<height_us>18'1&quot;</height_us>
+	<height_eu>5.5 m</height_eu>
+	<weight_us>1807.8 lbs.</weight_us>
+	<weight_eu>820.0 kg</weight_eu>
+	<abilities>
+		<item>
+			<name>Beast Boost</name>
+		</item>
+	</abilities>
+	<catch_rate>0</catch_rate>
+	<base_friendship>0</base_friendship>
+	<base_exp_yield>0</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<gender_ratios/>
+	<hatch_time>
+		<item>1800</item>
+		<item>1800</item>
+	</hatch_time>
+	<color>Gray</color>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset/>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Autotomize</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

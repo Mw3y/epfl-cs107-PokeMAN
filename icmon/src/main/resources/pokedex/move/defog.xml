@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">432</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Anti-Brume</fr>
+		<de type="str">Auflockern</de>
+		<gr type="str">Απονέφωση</gr>
+		<it type="str">Scacciabruma</it>
+		<pl type="str">Odparowanie</pl>
+		<en type="str">Defog</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">evasion</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog, etc.</en>
+			<de type="str">Fluchtwert des Gegners wird durch Hindernisse gesenkt. Löst zudem Nebel auf.* (Attacken-Beschreibung)Versetzt Hindernisse, senkt den Fluchtwert des Gegners und vertreibt Nebel.* (VM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog, etc.</en>
+			<de type="str">Fluchtwert des Gegners wird durch Hindernisse gesenkt. Löst zudem Nebel auf.* (Attacken-Beschreibung)Versetzt Hindernisse, senkt den Fluchtwert des Gegners und vertreibt Nebel.* (VM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">Obstacles are moved, reducing the foe’s evasion stat. It can also be used to clear deep fog, etc.</en>
+			<de type="str">Fluchtwert des Gegners wird durch Hindernisse gesenkt. Löst zudem Nebel auf.* (Attacken-Beschreibung)Versetzt Hindernisse, senkt den Fluchtwert des Gegners und vertreibt Nebel.* (VM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">It reduces the foe’s evasion stat. It also removes spikes, light screens, etc.</en>
+			<de type="str">Fluchtwert des Gegners wird durch Hindernisse gesenkt. Hebt zudem Stachler und Lichtschild auf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">It reduces the foe’s evasion stat. It also removes spikes, light screens, etc.</en>
+			<de type="str">Fluchtwert des Gegners wird durch Hindernisse gesenkt. Hebt zudem Stachler und Lichtschild auf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A strong wind blows away the target’s obstacles such as Reflect or Light Screen. It also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Gegners auf. Senkt außerdem den Fluchtwert.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A strong wind blows away the target’s obstacles such as Reflect or Light Screen. It also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Gegners auf. Senkt außerdem den Fluchtwert.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A strong wind blows away the target’s obstacles such as Reflect or Light Screen. It also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Gegners auf. Senkt außerdem den Fluchtwert.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A strong wind blows away the target’s obstacles such as Reflect or Light Screen. It also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Gegners auf. Senkt außerdem den Fluchtwert.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A strong wind blows away the target’s barriers such as Reflect or Light Screen. This also lowers the target’s evasiveness.</en>
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Starker Wind hebt Attacken wie Reflektor und Lichtschild des Zieles auf. Senkt außerdem den Fluchtwert.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,1305 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Dragmara</fr>
+		<de>Amagarga</de>
+		<it>Aurorus</it>
+		<en>Aurorus</en>
+	</names>
+	<national_id>699</national_id>
+	<types>
+		<item>Rock</item>
+		<item>Ice</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Refrigerate</name>
+		</item>
+		<item>
+			<name>Snow Warning</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>87.5</male>
+		<female>12.5</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Monster</item>
+	</egg_groups>
+	<hatch_time>
+		<item>7905</item>
+		<item>8159</item>
+	</hatch_time>
+	<height_us>8'10&quot;</height_us>
+	<height_eu>2.7 m</height_eu>
+	<weight_us>496.0 lbs.</weight_us>
+	<weight_eu>225.0 kg</weight_eu>
+	<base_exp_yield>104</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>2</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Blue</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>123</hp>
+		<atk>77</atk>
+		<def>72</def>
+		<sp_atk>99</sp_atk>
+		<sp_def>92</sp_def>
+		<speed>58</speed>
+	</base_stats>
+	<evolution_from>Amaura</evolution_from>
+	<categories>
+		<en>Tundra Pokémon</en>
+		<de>Tundra</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>67</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<X>
+			<en>The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.</en>
+			<de>Mit der -150 °C kalten Luft, die den diamantförmigen Kristallen auf seinem Körper entströmt, friert es Gegner ein.</de>
+		</X>
+		<Y>
+			<en>Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.</en>
+			<de>Es nutzt seine diamantförmigen Kristalle, um im Nu eine Wand aus Eis zur Abwehr gegnerischer Angriffe zu erschaffen.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.</en>
+			<de>Es nutzt seine diamantförmigen Kristalle, um im Nu eine Wand aus Eis zur Abwehr gegnerischer Angriffe zu erschaffen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.</en>
+			<de>Es nutzt seine diamantförmigen Kristalle, um im Nu eine Wand aus Eis zur Abwehr gegnerischer Angriffe zu erschaffen.</de>
+		</Alpha_Sapphire>
+		<Ultra_Sun>
+			<en>An Aurorus was found frozen solid within a glacier, just as it appeared long ago, which became quite a big event in the news.</en>
+			<de>Kürzlich sorgte der Fund eines in einem Eisberg eingeschlossenen, perfekt konservierten Amagargas aus der Urzeit für Schlagzeilen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>This usually quiet and kindly Pokémon has a surface temperature of around –240 degrees Fahrenheit.</en>
+			<de>Die Oberfläche seines Körpers ist -150 °C kalt. Für gewöhnlich ist es ein sehr besonnenes und sanftmütiges Pokémon.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>147</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Freeze-Dry</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Hail</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>63</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>74</level>
+				</item>
+				<item>
+					<move>Freeze-Dry</move>
+					<level>77</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnet Rise</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Freeze-Dry</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Hail</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>63</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>74</level>
+				</item>
+				<item>
+					<move>Freeze-Dry</move>
+					<level>77</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnet Rise</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Freeze-Dry</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Hail</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>63</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>74</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnet Rise</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Freeze-Dry</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Powder Snow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Mist</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Aurora Beam</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Ancient Power</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Round</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Avalanche</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Hail</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>63</level>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<level>74</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnet Rise</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mirror Coat</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Roar</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Dragon Tail</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">165</index_number>
+	<pp type="int">1</pp>
+	<max_pp type="int">1</max_pp>
+	<power type="int">50</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<de type="str">Verzweifler</de>
+		<gr type="str">Αγώνας</gr>
+		<it type="str">Scontro</it>
+		<en type="str">Struggle</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Used only if all PP are exhausted.</en>
+			<de type="str">Nur benutzen, wenn AP leer sind.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Used only if all PP are exhausted.</en>
+			<de type="str">Nur benutzen, wenn AP leer sind.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Used only if all PP are exhausted.</en>
+			<de type="str">Nur benutzen, wenn AP leer sind.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Used only if all PP are gone. Also hurts the user a little.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Selbstschädigung!</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Used only if all PP are gone. Also hurts the user a little.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Selbstschädigung!</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Used only if all PP are gone. Also hurts the user a little.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Selbstschädigung!</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An attack that is used only if there is no PP. It also hurts the user.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Anwender verletzt sich selbst.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An attack that is used only if there is no PP. It also hurts the user.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Anwender verletzt sich selbst.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Anwender verletzt sich selbst.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Anwender verletzt sich selbst.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Anwender verletzt sich selbst.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Anwender verletzt sich selbst.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Einsatz nur bei verbrauchten AP. Anwender verletzt sich selbst.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. It also hurts the user slightly.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. This also damages the user a little.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. This also damages the user a little.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. This also damages the user a little.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">An attack that is used in desperation only if the user has no PP. This also damages the user a little.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This attack is used in desperation only if the user has no PP. It also damages the user a little.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This attack is used in desperation only if the user has no PP. It also damages the user a little.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This attack is used in desperation only if the user has no PP. It also damages the user a little.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack is used in desperation only if the user has no PP. It also damages the user a little.</en>
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff nur bei verbrauchten AP. Anwender verletzt sich selbst leicht.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

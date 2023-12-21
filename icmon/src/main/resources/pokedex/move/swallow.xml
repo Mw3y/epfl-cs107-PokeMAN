@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">256</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Avale</fr>
+		<de type="str">Verzehrer</de>
+		<gr type="str">Κατάποση</gr>
+		<it type="str">Introenergia</it>
+		<en type="str">Swallow</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_def</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Absorbs stockpiled power and restores HP.</en>
+			<de type="str">Absorbiert gehortete Kraft, stellt KP wieder her.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Absorbs stockpiled power and restores HP.</en>
+			<de type="str">Absorbiert gehortete Kraft, stellt KP wieder her.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Absorbs stockpiled power and restores HP.</en>
+			<de type="str">Absorbiert gehortete Kraft, stellt KP wieder her.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The energy it built using STOCKPILE is absorbed to restore HP.</en>
+			<de type="str">Absorbiert die geHORTETE Kraft, um KP aufzufüllen.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The energy it built using STOCKPILE is absorbed to restore HP.</en>
+			<de type="str">Absorbiert die geHORTETE Kraft, um KP aufzufüllen.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The power stored using the move Stockpile is absorbed by the user to heal its HP. Storing more power heals more HP.</en>
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen. Je mehr Energie gehortet wurde, desto mehr KP werden aufgefüllt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Absorbiert die gehortete Kraft, um KP aufzufüllen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

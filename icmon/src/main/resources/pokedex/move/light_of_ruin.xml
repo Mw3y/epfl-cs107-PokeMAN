@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">617</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">140</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Lumière du Néant</fr>
+		<de type="str">Lux Calamitatis</de>
+		<it type="str">Luce Nefasta</it>
+		<en type="str">Light of Ruin</en>
+	</names>
+	<type type="str">Fairy</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">6</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Drawing power from the Eternal Flower, the user fires a powerful beam of light. This also damages the user quite a lot.</en>
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Die Attacke basiert auf der Kraft des Ewigblütlers, die als mächtiger Lichtstrahl abgefeuert wird. Der Anwender nimmt dabei selbst großen Schaden.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

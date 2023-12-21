@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">593</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">TrouDimensionnel</fr>
+		<de type="str">Dimensionsloch</de>
+		<it type="str">Forodimensionale</it>
+		<en type="str">Hyperspace Hole</en>
+	</names>
+	<type type="str">Psychic</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.</en>
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild und Scanner.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.</en>
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild und Scanner.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using Protect or Detect.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.</en>
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.</en>
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.</en>
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Using a hyperspace hole, the user appears right next to the target and strikes. This also hits a target using a move such as Protect or Detect.</en>
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild, Scanner etc.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild und Scanner.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender positioniert sich mithilfe eines Dimensionslochs direkt neben dem Ziel und durchbricht selbst Schutzschild und Scanner.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

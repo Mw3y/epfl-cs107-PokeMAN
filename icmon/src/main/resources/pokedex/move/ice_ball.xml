@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">301</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">30</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Ball'Glace</fr>
+		<de type="str">Frostbeule</de>
+		<gr type="str">Σφαίρα Πάγου</gr>
+		<it type="str">Palla Gelo</it>
+		<en type="str">Ice Ball</en>
+	</names>
+	<type type="str">Ice</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">A 5-turn attack that gains power on successive hits.</en>
+			<de type="str">Angriff für 5 Runden. Stärker, wenn Treffer.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A 5-turn attack that gains power on successive hits.</en>
+			<de type="str">Angriff für 5 Runden. Stärker, wenn Treffer.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A 5-turn attack that gains power on successive hits.</en>
+			<de type="str">Angriff für 5 Runden. Stärker, wenn Treffer.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A 5-turn rolling attack that becomes stronger each time it rolls.</en>
+			<de type="str">Roll-Angriff für 5 Runden. Bei Erfolg nimmt die Stärke zu.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A 5-turn rolling attack that becomes stronger each time it rolls.</en>
+			<de type="str">Roll-Angriff für 5 Runden. Bei Erfolg nimmt die Stärke zu.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user continually rolls into the foe over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Roll-Angriff für fünf Runden. Bei Erfolg nimmt die Stärke zu.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user continually rolls into the foe over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Roll-Angriff für fünf Runden. Bei Erfolg nimmt die Stärke zu.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user continually rolls into the foe over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Roll-Angriff für fünf Runden. Bei Erfolg nimmt die Stärke zu.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user continually rolls into the foe over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Roll-Angriff für fünf Runden. Bei Erfolg nimmt die Stärke zu.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user continually rolls into the foe over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Roll-Angriff für fünf Runden. Bei Erfolg nimmt die Stärke zu.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user continually rolls into the target over five turns. It becomes stronger each time it hits.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks the target for five turns. The move’s power increases each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Mit jedem Treffer steigt der Schaden in der nächsten Runde.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the target for five turns. The move’s power increases each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Mit jedem Treffer steigt der Schaden in der nächsten Runde.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the target for five turns. The move’s power increases each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Mit jedem Treffer steigt der Schaden in der nächsten Runde.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the target for five turns. The move’s power increases each time it hits.</en>
+			<de type="str">Attacke, die fünf Runden dauert. Mit jedem Treffer steigt der Schaden in der nächsten Runde.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Attacke, die fünf Runden dauert. Die Härte nimmt von Mal zu Mal zu.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

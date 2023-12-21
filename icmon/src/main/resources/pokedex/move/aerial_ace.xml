@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">332</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_except_user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Flyveres</dk>
+		<fr type="str">Aéropique</fr>
+		<de type="str">Aero-Ass</de>
+		<gr type="str">Εναέριος Ελιγμός</gr>
+		<it type="str">Aeroassalto</it>
+		<pl type="str">Powietrzny As</pl>
+		<en type="str">Aerial Ace</en>
+	</names>
+	<type type="str">Flying</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">An extremely speedy and unavoidable attack.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Eine extrem schnelle Attacke, die unausweichlich ist.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">An extremely speedy and unavoidable attack.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Eine extrem schnelle Attacke, die unausweichlich ist.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">An extremely speedy and unavoidable attack.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Eine schnelle Attacke, die unausweichlich ist.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An extremely fast attack against one target. It can’t be evaded.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Eine extrem schnelle Attacke gegen ein Ziel. Ausweichen unmöglich.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An extremely fast attack against one target. It can’t be evaded.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Eine extrem schnelle Attacke gegen ein Ziel. Ausweichen unmöglich.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user confounds the foe with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Der Anwender irritiert den Gegner durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user confounds the foe with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Der Anwender irritiert den Gegner durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user confounds the foe with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Der Anwender irritiert den Gegner durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user confounds the foe with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Der Anwender irritiert den Gegner durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user confounds the foe with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle und unausweichbare Attacke.* (Attacken-Beschreibung)Der Anwender irritiert den Gegner durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. The attack lands without fail.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft immer ihr Ziel.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user confounds the target with speed, then slashes. This attack never misses.</en>
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Eine extrem schnelle Attacke, der das Ziel nicht ausweichen kann.* (Attacken-Beschreibung)Der Anwender irritiert das Ziel durch Schnelligkeit, bevor er angreift. Diese Attacke trifft ihr Ziel immer.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

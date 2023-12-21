@@ -1,0 +1,8749 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Cheniselle</fr>
+		<de>Burmadame</de>
+		<it>Wormadam</it>
+		<en>Wormadam</en>
+	</names>
+	<national_id>413</national_id>
+	<types>
+		<item>Bug</item>
+		<item>Grass</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Anticipation</name>
+		</item>
+		<item>
+			<name>Overcoat</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<female>100.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+	</egg_groups>
+	<hatch_time>
+		<item>4080</item>
+		<item>4334</item>
+	</hatch_time>
+	<height_us>1'08&quot;</height_us>
+	<height_eu>0.5 m</height_eu>
+	<weight_us>14.3 lbs.</weight_us>
+	<weight_eu>6.5 kg</weight_eu>
+	<base_exp_yield>148</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>2</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Gray</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>60</hp>
+		<atk>59</atk>
+		<def>85</def>
+		<sp_atk>79</sp_atk>
+		<sp_def>105</sp_def>
+		<speed>36</speed>
+	</base_stats>
+	<evolution_from>Burmy</evolution_from>
+	<categories>
+		<en>Bagworm Pokémon</en>
+		<de>Beutelwurm</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id>46</sinnoh_id>
+	<unova_id/>
+	<kalos_id>45</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variation_names>
+		<en>Plant Cloak</en>
+		<de>Pflanzenumhang</de>
+	</variation_names>
+	<variations>
+		<item>
+			<condition>Sandy Cloak of Burmy</condition>
+			<image_suffix>sandy</image_suffix>
+			<names>
+				<en>Sandy Cloak</en>
+				<de>Sandumhang</de>
+			</names>
+			<types>
+				<item>Bug</item>
+				<item>Ground</item>
+			</types>
+			<ev_yield>
+				<hp>0</hp>
+				<atk>0</atk>
+				<def>2</def>
+				<sp_atk>0</sp_atk>
+				<sp_def>0</sp_def>
+				<speed>0</speed>
+			</ev_yield>
+			<base_stats>
+				<hp>60</hp>
+				<atk>79</atk>
+				<def>105</def>
+				<sp_atk>59</sp_atk>
+				<sp_def>85</sp_def>
+				<speed>36</speed>
+			</base_stats>
+			<pokeathlon_stats>
+				<speed>
+					<item>2</item>
+					<item>3</item>
+				</speed>
+				<power>
+					<item>4</item>
+					<item>5</item>
+				</power>
+				<stamina>
+					<item>4</item>
+					<item>5</item>
+				</stamina>
+				<skill>
+					<item>2</item>
+					<item>2</item>
+				</skill>
+				<jump>
+					<item>2</item>
+					<item>3</item>
+				</jump>
+			</pokeathlon_stats>
+		</item>
+		<item>
+			<condition>Trash Cloak of Burmy</condition>
+			<image_suffix>trash</image_suffix>
+			<names>
+				<en>Trash Cloak</en>
+				<de>Lumpenumhang</de>
+			</names>
+			<types>
+				<item>Bug</item>
+				<item>Steel</item>
+			</types>
+			<ev_yield>
+				<hp>0</hp>
+				<atk>0</atk>
+				<def>1</def>
+				<sp_atk>0</sp_atk>
+				<sp_def>1</sp_def>
+				<speed>0</speed>
+			</ev_yield>
+			<base_stats>
+				<hp>60</hp>
+				<atk>69</atk>
+				<def>95</def>
+				<sp_atk>69</sp_atk>
+				<sp_def>95</sp_def>
+				<speed>36</speed>
+			</base_stats>
+			<pokeathlon_stats>
+				<speed>
+					<item>1</item>
+					<item>3</item>
+				</speed>
+				<power>
+					<item>3</item>
+					<item>5</item>
+				</power>
+				<stamina>
+					<item>5</item>
+					<item>5</item>
+				</stamina>
+				<skill>
+					<item>2</item>
+					<item>3</item>
+				</skill>
+				<jump>
+					<item>2</item>
+					<item>2</item>
+				</jump>
+			</pokeathlon_stats>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Diamond>
+			<en>When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.</en>
+			<de>Als sich BURMY entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab.</de>
+		</Diamond>
+		<Pearl>
+			<en>Its appearance changes depending on where it evolved. The materials on hand become a part of its body.</en>
+			<de>Die Umgebung, in der es sich ent- wickelt, bestimmt sein Aussehen. Dinge dort werden zu Körperteilen.</de>
+		</Pearl>
+		<Platinum>
+			<en>When evolving, its body takes in surrounding materials. As a result, there are many body variations.</en>
+			<de>Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It is said that a Wormadam that evolves on a cold day will have a thicker cloak.</en>
+			<de>Als sich BURMY entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>It is said that a Wormadam that evolves on a cold day will have a thicker cloak.</en>
+			<de>Als sich BURMY entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab.</de>
+		</SoulSilver>
+		<Black>
+			<en>When evolving, its body takes in surrounding materials. As a result, there are many body variations.</en>
+			<de>Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm.</de>
+		</Black>
+		<White>
+			<en>When evolving, its body takes in surrounding materials. As a result, there are many body variations.</en>
+			<de>Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm.</de>
+		</White>
+		<Black_2>
+			<en>When evolving, its body takes in surrounding materials. As a result, there are many body variations.</en>
+			<de>Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm.</de>
+		</Black_2>
+		<White_2>
+			<en>When evolving, its body takes in surrounding materials. As a result, there are many body variations.</en>
+			<de>Es nimmt während der Entwicklung Dinge aus der Umgebung auf, daher gibt es viele Variationen von ihm.</de>
+		</White_2>
+		<X>
+			<en>Its appearance changes depending on where it evolved. The materials on hand become a part of its body.</en>
+			<de>Die Umgebung, in der es sich entwickelt, bestimmt sein Aussehen. Es formt seinen Körper mithilfe der umliegenden Materialien.</de>
+		</X>
+		<Y>
+			<en>When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.</en>
+			<de>Als sich Burmy entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Its appearance changes depending on where it evolved. The materials on hand become a part of its body.</en>
+			<de>Als sich Burmy entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.</en>
+			<de>Als sich Burmy entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>4</item>
+		</speed>
+		<power>
+			<item>2</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>3</item>
+			<item>4</item>
+		</stamina>
+		<skill>
+			<item>4</item>
+			<item>4</item>
+		</skill>
+		<jump>
+			<item>3</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bullet Seed</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bug Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>50</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>50</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Burst</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>50</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bug Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>26</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growth</move>
+					<level>29</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>47</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>50</level>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>26</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>29</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>50</level>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Burst</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quiver Dance</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>10</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>15</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<level>20</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>23</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Mirror Shot</move>
+					<level>26</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Metal Sound</move>
+					<level>29</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>32</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>35</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>38</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<level>41</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>44</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Head</move>
+					<level>47</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bug Buzz</move>
+					<level>50</level>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Plant Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Sandy Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flash Cannon</move>
+					<tm>TM91</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Trash Cloak</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

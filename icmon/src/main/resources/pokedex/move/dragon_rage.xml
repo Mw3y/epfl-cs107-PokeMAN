@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">82</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Drageraseri</dk>
+		<fr type="str">Draco-Rage</fr>
+		<de type="str">Drachenwut</de>
+		<gr type="str">Οργή Δράκου</gr>
+		<it type="str">Ira di Drago</it>
+		<pl type="str">Wściekły smok (EP016 only)Gniew smoka (Diamond &amp; Pearl onwards)</pl>
+		<en type="str">Dragon Rage</en>
+	</names>
+	<type type="str">Dragon</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Always inflicts 40HP damage.</en>
+			<de type="str">Fügt Gegner 40 KP Schaden zu.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Always inflicts 40HP damage.</en>
+			<de type="str">Fügt Gegner 40 KP Schaden zu.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Always inflicts 40HP damage.</en>
+			<de type="str">Fügt Gegner 40 KP Schaden zu.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Launches shock waves that always inflict 40 HP damage.</en>
+			<de type="str">Stößt Schockwellen aus, die 40 KP Schaden anrichten.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Launches shock waves that always inflict 40 HP damage.</en>
+			<de type="str">Stößt Schockwellen aus, die 40 KP Schaden anrichten.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Launches shock waves that always inflict 40 HP damage.</en>
+			<de type="str">Stößt Schockwellen aus, die 40 KP Schaden anrichten.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is hit with a shock wave that always inflicts 40-HP damage.</en>
+			<de type="str">Stößt Schockwellen aus, die stets 40 KP Schaden anrichten.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is hit with a shock wave that always inflicts 40-HP damage.</en>
+			<de type="str">Stößt Schockwellen aus, die stets 40 KP Schaden anrichten.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is stricken by a shock wave. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt Schockwellen aus, die stets 40 KP Schaden anrichten.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is stricken by a shock wave. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt Schockwellen aus, die stets 40 KP Schaden anrichten.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is stricken by a shock wave. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is stricken by a shock wave. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is stricken by a shock wave. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.</en>
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Stößt eine wutgeladene Schockwelle aus, die stets 40 KP Schaden anrichtet.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">104</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Zdvojení</cz>
+		<dk type="str">Dobbelthold</dk>
+		<fr type="str">Reflet</fr>
+		<de type="str">Doppelteam</de>
+		<gr type="str">Διπλή Ομάδα</gr>
+		<it type="str">Doppioteam</it>
+		<pl type="str">Rozdwojenie (Original series)Podwójny Zespół (Diamond and Pearl onwards)</pl>
+		<en type="str">Double Team</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">evasion</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Heightens evasiveness.</en>
+			<de type="str">Fluchtwert nimmt zu.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Heightens evasiveness.</en>
+			<de type="str">Fluchtwert nimmt zu.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Heightens evasiveness.</en>
+			<de type="str">Fluchtwert nimmt zu.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Creates illusory copies to raise evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Virtueller Doppelgänger erhöht den Flucht-Wert.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Creates illusory copies to raise evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Virtueller Doppelgänger erhöht den Flucht-Wert.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Creates illusory copies to raise evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Virtueller Doppelgänger. Erhöht den Flucht-Wert.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user creates illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Flucht-Wert erhöhen.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user creates illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Flucht-Wert erhöhen.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt Ebenbilder, um Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">By moving rapidly, the user makes illusory copies of itself to raise its evasiveness.</en>
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Erzeugt durch schnelle Bewegungen Ebenbilder, um den Fluchtwert zu erhöhen.* (Attacken-Beschreibung)Der Angreifer ist so schnell, dass virtuelle Abbilder generiert werden, die den Fluchtwert erhöhen.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

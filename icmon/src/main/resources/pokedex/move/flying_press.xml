@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">560</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Flying Press</fr>
+		<de type="str">Flying Press</de>
+		<it type="str">Schiacciatuffo</it>
+		<pl type="str">Nalot</pl>
+		<en type="str">Flying Press</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user dives down onto the target from the sky. This move is Fighting and Flying type simultaneously.</en>
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender stürzt sich aus der Luft auf das Ziel. Die Attacke gehört sowohl dem Typ Kampf als auch dem Typ Flug an.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>
