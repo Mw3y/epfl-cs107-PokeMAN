@@ -5,6 +5,7 @@ import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.*;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.ResumeEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
@@ -18,9 +19,11 @@ import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.io.FileSystem;
+import ch.epfl.cs107.play.io.ResourcePath;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Keyboard;
+import ch.epfl.cs107.play.window.Sound;
 import ch.epfl.cs107.play.window.Window;
 
 import java.util.*;
@@ -169,6 +172,7 @@ public class ICMon extends AreaGame {
      */
     public class ICMonGameState implements Updatable {
 
+        // TODO: Document conception
         private final Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
 
         private ICMonGameState() {
@@ -223,6 +227,23 @@ public class ICMon extends AreaGame {
         public void resume() {
             if (isPaused())
                 requestResume();
+        }
+
+        /**
+         * Plays a sound in the game.
+         * @param name - The name of the sound file
+         * @param preset - The configuration of the sound player
+         */
+        public void playSound(String name, AudioPreset preset) {
+            Sound sound = getWindow().getSound(ResourcePath.getSound(name));
+            getWindow().playSound(sound, preset.hasRandomFirstStart(), preset.getVolume(), preset.fadesIn(), preset.loops(), preset.stopsOthersOnStart());
+        }
+
+        /**
+         * Stops all currently playing sounds.
+         */
+        public void stopAllSounds() {
+            getWindow().playSound(null, false, 0f, false, false, true);
         }
 
         @Override

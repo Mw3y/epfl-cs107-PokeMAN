@@ -1,6 +1,8 @@
 package ch.epfl.cs107.icmon.gamelogic.fights;
 
+import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.graphics.ICMonFightActionSelectionGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightArenaGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightTextGraphics;
@@ -13,6 +15,7 @@ import java.util.List;
 
 public class ICMonFight extends PauseMenu {
 
+    private final ICMon.ICMonGameState gameState;
     private final Pokemon playerPokemon;
     private final Pokemon opponentPokemon;
     private ICMonFightAction nextPlayerAction;
@@ -26,9 +29,12 @@ public class ICMonFight extends PauseMenu {
      * @param playerPokemon - The Pokémon of the player
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
      */
-    public ICMonFight(Pokemon playerPokemon, Pokemon opponentPokemon) {
+    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon) {
+        assert gameState != null;
         assert playerPokemon != null;
         assert opponentPokemon != null;
+
+        this.gameState = gameState;
         this.playerPokemon = playerPokemon;
         this.opponentPokemon = opponentPokemon;
         this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
@@ -80,6 +86,7 @@ public class ICMonFight extends PauseMenu {
      * Executes the fight action that the player has selected in the previous phase.
      */
     private void executePlayerAction() {
+        gameState.playSound(nextPlayerAction.sfx(), AudioPreset.SFX);
         boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon, true);
         // The player has won
         if (opponentPokemon.properties().isKO()) {

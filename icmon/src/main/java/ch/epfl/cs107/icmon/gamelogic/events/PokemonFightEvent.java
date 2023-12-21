@@ -17,10 +17,10 @@ public class PokemonFightEvent extends ICMonEvent {
 
     private final ICMonFight fight;
 
-    public PokemonFightEvent(Pokemon playerPokemon, Pokemon pokemon) {
+    public PokemonFightEvent(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon pokemon) {
         assert playerPokemon != null;
         assert pokemon != null;
-        this.fight = new ICMonFight(playerPokemon, pokemon);
+        this.fight = new ICMonFight(gameState, playerPokemon, pokemon);
 
         onStart(new LogAction("event.pokemonFight.start.with." + pokemon));
         onComplete(new LogAction("event.pokemonFight.complete.with." + pokemon));

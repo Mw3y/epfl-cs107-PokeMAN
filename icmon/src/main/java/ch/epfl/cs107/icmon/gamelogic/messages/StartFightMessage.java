@@ -39,8 +39,8 @@ public class StartFightMessage implements GamePlayMessage {
         System.out.println("message.player.startFight");
         // Create the fight event depending on the opponent to fight
         PokemonFightEvent event = trainer == null
-                ? new PokemonFightEvent(playerPokemon, opponentPokemon)
-                : new TrainerFightEvent(trainer, playerPokemon, opponentPokemon);
+                ? new PokemonFightEvent(gameState, playerPokemon, opponentPokemon)
+                : new TrainerFightEvent(gameState, trainer, playerPokemon, opponentPokemon);
 
         // Automatically register and unregister this event
         event.onStart(new RegisterEventAction(eventManager, event));
