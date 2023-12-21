@@ -111,7 +111,7 @@ public class ICMon extends AreaGame {
         collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
 
         ICMonEvent fightWithEliteFour = new FightWithEliteFourEvent(gameState, player);
-        ICMonEvent fightWithMasterJamilaSam = new FightWithMasterJamilaSamEvent(null);
+        ICMonEvent fightWithMasterJamilaSam = new FightWithMasterJamilaSamEvent(gameState, player);
 
         ICMonEvent endOfTheGame = new EndOfTheGameEvent(player);
 
