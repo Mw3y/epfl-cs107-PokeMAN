@@ -7,7 +7,7 @@ import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
 
-public class ICMonPauseMenu extends PauseMenu {
+public class ICMonStartMenu extends PauseMenu {
 
     private ICMon.ICMonGameState gameState;
 
@@ -17,7 +17,7 @@ public class ICMonPauseMenu extends PauseMenu {
      * The ICMon game main menu.
      * @param gameState - The state manager of the game
      */
-    public ICMonPauseMenu(ICMon.ICMonGameState gameState) {
+    public ICMonStartMenu(ICMon.ICMonGameState gameState) {
         this.gameState = gameState;
         gameState.stopAllSounds();
         gameState.playSound("main_theme", AudioPreset.FIGHT_MUSIC);
