@@ -72,18 +72,20 @@ public class PokemonDataLoader {
     }
 
     /**
-     * Loads a random Pokémon from the Pokédex based on its national id.
+     * Loads a random Pokémon from the Pokédex based on its national id with a custom name.
      * @param pokedexId - The national id of the Pokémon
+     * @param customName - A custom name for the Pokémon
      * @param area - The area the Pokémon will spawn in
      * @param orientation - The orientation of the Pokémon
      * @param coordinates - Where the Pokémon will spawn in the area
      * @return a new Pokémon that was just created.
      */
-    public static Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
+    public static Pokemon load(int pokedexId, String customName, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
         Document document = openDataFile("pokemon/" + pokedexId);
         // Pokémon data
         BasePokemonStats stats = parsePokemonBaseStats(document);
-        String name = parsePokemonName(document).toLowerCase();
+        String realName = parsePokemonName(document).toLowerCase();
+        String name = customName != null ? customName : realName;
         List<PokemonType> types = parsePokemonTypes(document);
         List<ICMonFightAction> actions = new ArrayList<>();
         List<PokemonMove> moves = parsePokemonMoves(document);
@@ -96,6 +98,18 @@ public class PokemonDataLoader {
 
         // Create the new Pokémon
         return new Pokemon(area, orientation, coordinates, name, pokedexId, types, stats.hp(), stats.attack(), stats.defense(), actions);
+    }
+
+    /**
+     * Loads a random Pokémon from the Pokédex based on its national id.
+     * @param pokedexId - The national id of the Pokémon
+     * @param area - The area the Pokémon will spawn in
+     * @param orientation - The orientation of the Pokémon
+     * @param coordinates - Where the Pokémon will spawn in the area
+     * @return a new Pokémon that was just created.
+     */
+    public static Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
+        return load(pokedexId, area, orientation, coordinates);
     }
 
     /**
