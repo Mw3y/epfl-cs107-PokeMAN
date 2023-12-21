@@ -40,9 +40,9 @@ public class PokemonFightEvent extends ICMonEvent {
     @Override
     public void update(float deltaTime) {
         if (!fight.isRunning()) {
-            if (trainer != null && !trainer.hasHealthyPokemon())
-                trainer.leaveArea();
             complete();
+            if (trainer != null && !trainer.hasHealthyPokemon() && trainer.disappearsOnDefeat())
+                trainer.leaveArea();
         }
     }
 

@@ -2,7 +2,7 @@ package ch.epfl.cs107.icmon.gamelogic.events;
 
 import ch.epfl.cs107.icmon.actor.npc.league.JamilaSam;
 import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
-import ch.epfl.cs107.icmon.gamelogic.actions.SetTrainerFightsAcceptance;
+import ch.epfl.cs107.icmon.gamelogic.actions.SetTrainerFightsAcceptanceAction;
 
 public class FightWithMasterJamilaSamEvent extends ICMonEvent {
     private JamilaSam jamilaSam;
@@ -11,13 +11,13 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
         this.jamilaSam = jamilaSam;
         onStart(new LogAction("event.fightWithMasterJamilaSamEvent.start"));
         onComplete(new LogAction("event.fightWithMasterJamilaSamEvent.complete"));
-        onStart(new SetTrainerFightsAcceptance(true, jamilaSam));
+        // onStart(new SetTrainerFightsAcceptanceAction(true, jamilaSam));
     }
 
     @Override
     public void update(float deltaTime) {
-        if (!jamilaSam.hasHealthyPokemon()) {
-            complete();
-        }
+        // if (!jamilaSam.hasHealthyPokemon()) {
+           //  complete();
+        // }
     }
 }

@@ -3,10 +3,8 @@ package ch.epfl.cs107.icmon.actor;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
-import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
-import ch.epfl.cs107.icmon.actor.npc.Nurse;
-import ch.epfl.cs107.icmon.actor.npc.ProfOak;
-import ch.epfl.cs107.icmon.actor.npc.Trainer;
+import ch.epfl.cs107.icmon.actor.npc.*;
+import ch.epfl.cs107.icmon.actor.npc.league.*;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.area.cells.behaviors.TallGrass;
@@ -291,11 +289,37 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         @Override
         public void interactWith(Trainer trainer, boolean isCellInteraction) {
             assert trainer != null;
-            if (hasHealthyPokemon() && trainer.acceptsFights()) {
-                trainer.fight(gameState, pokemons.get(0));
+            if (hasHealthyPokemon()) {
+                if (trainer.acceptsFights())
+                    trainer.fight(gameState, pokemons.get(0));
             }
             else openDialog("fight_impossible");
             gameState.acceptInteraction(trainer, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(AnnaLachowska annaLachowska, boolean isCellInteraction) {
+            interactWith((Trainer) annaLachowska, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(NicolasBoumal nicolasBoumal, boolean isCellInteraction) {
+            interactWith((Trainer) nicolasBoumal, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(FredericBlanc fredericBlanc, boolean isCellInteraction) {
+            interactWith((Trainer) fredericBlanc, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(JamilaSam jamilaSam, boolean isCellInteraction) {
+            interactWith((Trainer) jamilaSam, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(TanjaKaser tanjaKaser, boolean isCellInteraction) {
+            interactWith((Trainer) tanjaKaser, isCellInteraction);
         }
 
         @Override
