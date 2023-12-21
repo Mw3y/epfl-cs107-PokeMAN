@@ -6,13 +6,12 @@ to collect Pokémon to fight his rival Garry.
 
 # The player can access the following areas :
 
-    - Town: The main area of the village
-    - Lab: Professor Oak's laboratory located north of the town
+    - Town : The main area of the village
+    - Lab  : Professor Oak's laboratory located north of the town
     - Arena: The Pokémon arena where the player can battle Pokémon by interacting with them. 
-      It is located in the center of the town.
-    - Shop: The store where the Pokémon assistant is located to the east of the village.
-
-## *Controls*
+             It is located in the center of the town.
+    - Shop : The store where the Pokémon assistant is located to the east of the village.
+    - Rolex League : The unmissable building on the bottom of the map. 
 
 - Arrow keys: Movement and selection of actions in combat.
 - L: Interaction with objects, characters, Pokémon, doors...
@@ -22,7 +21,7 @@ to collect Pokémon to fight his rival Garry.
 - R : Reset the game.
 
 # Game Solution :
-Your rival Garry has challenged you to a duel, and you must defeat him. On this purpose you will have to :
+To win the game you need to beat the master of the league. But first : 
 
 ## Talk to Professor Oak
 He is located in the laboratory and will give you your first Pokémon; a Latias. He will also introduce you to the different zones of the game and what you can do there.
@@ -33,8 +32,12 @@ You will find it in the water south of the playing area, and it is necessary for
 ## Battle Garry
 Garry is in your house; you need to interact with him to start the battle.
 
-## End of the game
-Talk to the Pokémon assistant in the store after defeating Garry to finish the game.
+## Enter the Rolex League
+In the Rolex are located 4 four members of the Elite 4 which are represented by our teachers.
+You need to defeat them all to be able to challenge the master of the league : Mrs. Jamila Sam here self.
+
+## End of the game 
+After beating the league master the game is finished.
 
 # Other activities :
 
