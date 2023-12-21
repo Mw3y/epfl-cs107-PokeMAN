@@ -21,7 +21,7 @@ public class Garry extends Trainer  {
      * @param position    (Coordinate): Initial position of the entity. Not null
      */
     public Garry(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, "actors/garry");
+        super("Garry", area, orientation, position, "actors/garry");
         givePokemon(PokemonDataLoader.load(31, getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(2, 6)));
     }
 

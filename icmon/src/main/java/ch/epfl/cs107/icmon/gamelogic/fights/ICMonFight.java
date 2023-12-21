@@ -1,6 +1,7 @@
 package ch.epfl.cs107.icmon.gamelogic.fights;
 
 import ch.epfl.cs107.icmon.ICMon;
+import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.graphics.ICMonFightActionSelectionGraphics;
@@ -18,6 +19,7 @@ public class ICMonFight extends PauseMenu {
     private final ICMon.ICMonGameState gameState;
     private final Pokemon playerPokemon;
     private final Pokemon opponentPokemon;
+    private final Trainer trainer;
     private final ICMonFightArenaGraphics arena;
     private ICMonFightAction nextPlayerAction;
     private ICMonFightAction nextOpponentAction;
@@ -32,7 +34,18 @@ public class ICMonFight extends PauseMenu {
      * @param playerPokemon   - The Pokémon of the player
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
      */
-    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon) {
+    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon,  Pokemon opponentPokemon) {
+        this(gameState, playerPokemon, opponentPokemon, null);
+    }
+
+    /**
+     * Simulates a Pokémon fight.
+     *
+     * @param playerPokemon   - The Pokémon of the player
+     * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
+     * @param trainer - The trainer that the player challenged
+     */
+    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon, Trainer trainer) {
         assert gameState != null;
         assert playerPokemon != null;
         assert opponentPokemon != null;
@@ -42,6 +55,7 @@ public class ICMonFight extends PauseMenu {
         this.opponentPokemon = opponentPokemon;
         this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
         this.state = FightState.INTRO;
+        this.trainer = trainer;
 
         gameState.stopAllSounds();
         gameState.playSound("battle_wild_pokemon", AudioPreset.FIGHT_MUSIC);
@@ -96,7 +110,7 @@ public class ICMonFight extends PauseMenu {
     private void executePlayerAction(Keyboard keyboard) {
         // Display attack infos
         if (!keyboard.get(Keyboard.SPACE).isPressed() && !keyboard.get(Keyboard.ENTER).isPressed()) {
-            drawText(playerPokemon.properties().name() + " uses " + nextPlayerAction.name() + "!");
+            drawAttackAnnouncementText(playerPokemon.properties().name(), nextPlayerAction);
             return;
         }
         else gameState.playSound("button", AudioPreset.SFX);
@@ -139,7 +153,11 @@ public class ICMonFight extends PauseMenu {
 
             // Display attack infos
             if (!keyboard.get(Keyboard.SPACE).isPressed() && !keyboard.get(Keyboard.ENTER).isPressed()) {
-                drawText(opponentPokemon.properties().name() + " uses " + nextOpponentAction.name() + "!");
+                String name = trainer == null
+                        ? opponentPokemon.properties().name()
+                        : trainer.name();
+
+                drawAttackAnnouncementText(name, nextOpponentAction);
                 return;
             }
             else gameState.playSound("button", AudioPreset.SFX);
@@ -174,7 +192,7 @@ public class ICMonFight extends PauseMenu {
             isPlayingVictorySound = true;
             try {
                 // Wait for the other sound effects to finish
-                Thread.sleep((long) 1e3);
+                Thread.sleep((long) 5e2);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -198,6 +216,15 @@ public class ICMonFight extends PauseMenu {
         }
         // Update the pause menu
         super.update(deltaTime);
+    }
+
+    /**
+     * Draws the attack announcement dialog.
+     * @param name - The name of entity attacking
+     * @param nextAction - The action to execute for this round
+     */
+    private void drawAttackAnnouncementText(String name, ICMonFightAction nextAction) {
+        drawText(name.toUpperCase() + " uses " + nextAction.name() + "!");
     }
 
     /**

@@ -7,7 +7,6 @@ import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.UnregisterEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.PokemonFightEvent;
-import ch.epfl.cs107.icmon.gamelogic.events.TrainerFightEvent;
 
 public class StartFightMessage implements GamePlayMessage {
 
@@ -38,10 +37,7 @@ public class StartFightMessage implements GamePlayMessage {
         assert eventManager != null;
         System.out.println("message.player.startFight");
         // Create the fight event depending on the opponent to fight
-        PokemonFightEvent event = trainer == null
-                ? new PokemonFightEvent(gameState, playerPokemon, opponentPokemon)
-                : new TrainerFightEvent(gameState, trainer, playerPokemon, opponentPokemon);
-
+        PokemonFightEvent event = new PokemonFightEvent(gameState, playerPokemon, opponentPokemon, trainer);
         // Automatically register and unregister this event
         event.onStart(new RegisterEventAction(eventManager, event));
         event.onComplete(new UnregisterEventAction(eventManager, event));

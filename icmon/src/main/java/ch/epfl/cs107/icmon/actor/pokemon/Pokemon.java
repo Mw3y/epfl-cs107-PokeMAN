@@ -212,7 +212,7 @@ public final class Pokemon extends ICMonActor implements ICMonFightableActor {
             float attackCoeff = types.get(0).effectiveness().get(targetProps.types().get(0).name());
             if (types.size() > 1 && targetProps.types().size() > 1)
                 attackCoeff *= types.get(1).effectiveness().get(targetProps.types().get(1).name());
-            return attackCoeff;
+            return attackCoeff + 1;
         }
 
     }

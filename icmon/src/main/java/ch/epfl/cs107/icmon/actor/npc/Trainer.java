@@ -19,29 +19,43 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
     private final List<Pokemon> pokemons = new ArrayList<>();
     private boolean acceptsFights = false;
 
+    private final String name;
+
     /**
      * Represents a Pokémon trainer with a custom region of interest that the player can challenge.
      *
+     * @param name        (String): The name of the trainer. Not null.
      * @param area        (Area): Owner area. Not null.
      * @param orientation (Orientation): Initial orientation of the entity. Not null.
      * @param position    (Coordinate): Initial position of the entity. Not null.
      * @param spriteName  (String): Initial sprite of the trainer.
      * @param regionOfInterest (RegionOfInterest): The region of interest of the image
      */
-    public Trainer(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName, RegionOfInterest regionOfInterest) {
+    public Trainer(String name, Area area, Orientation orientation, DiscreteCoordinates position, String spriteName, RegionOfInterest regionOfInterest) {
         super(area, orientation, position, spriteName, regionOfInterest);
+        this.name = name;
     }
 
     /**
      * Represents a Pokémon trainer that the player can challenge.
      *
+     * @param name        (String): The name of the trainer. Not null.
      * @param area        (Area): Owner area. Not null.
      * @param orientation (Orientation): Initial orientation of the entity. Not null.
      * @param position    (Coordinate): Initial position of the entity. Not null.
      * @param spriteName  (String): Initial sprite of the trainer.
      */
-    public Trainer(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
+    public Trainer(String name, Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
         super(area, orientation, position, spriteName);
+        this.name = name;
+    }
+
+    /**
+     * Gets the name of the trainer.
+     * @return yhe name if this trainer.
+     */
+    public String name() {
+        return name;
     }
 
     /**
