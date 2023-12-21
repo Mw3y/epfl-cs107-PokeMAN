@@ -11,6 +11,10 @@ public class EndOfTheGameEvent extends ICMonEvent {
 
     private final ICMonPlayer player;
 
+    /**
+     * Constructor for EndOfGameEvent
+     * @param player (ICMonPlayer)
+     */
     public EndOfTheGameEvent(ICMonPlayer player) {
         assert player != null;
         this.player = player;

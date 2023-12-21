@@ -7,6 +7,11 @@ public class RegisterEventAction implements Action {
     private final ICMon.ICMonEventManager eventManager;
     private final ICMonEvent event;
 
+    /**
+     * Constructor for RegisterEventAction
+     * @param eventManager (ICMon.ICMonEventManager)
+     * @param eventToRegister (ICMonEvent)
+     */
     public RegisterEventAction(ICMon.ICMonEventManager eventManager, ICMonEvent eventToRegister) {
         assert eventManager != null;
         assert eventToRegister != null;
@@ -14,6 +19,9 @@ public class RegisterEventAction implements Action {
         this.event = eventToRegister;
     }
 
+    /**
+     * Registers a given event.
+     */
     @Override
     public void perform() {
         eventManager.registerEvent(event);

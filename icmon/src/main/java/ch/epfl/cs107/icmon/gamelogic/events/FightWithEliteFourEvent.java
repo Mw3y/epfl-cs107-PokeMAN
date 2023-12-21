@@ -23,6 +23,11 @@ public class FightWithEliteFourEvent extends ICMonEvent {
 
     private Trainer currentTrainer;
 
+    /**
+     * Constructor for FightWithEliteFourEvent;
+     * @param gameState (ICMon.ICMonGameState)
+     * @param player (ICMonPlayer)
+     */
 
     public FightWithEliteFourEvent(ICMon.ICMonGameState gameState, ICMonPlayer player) {
         this.gameState = gameState;
@@ -32,6 +37,11 @@ public class FightWithEliteFourEvent extends ICMonEvent {
         onComplete(new LogAction("event.fightWithEliteFour.complete"));
     }
 
+    /**
+     * Fills the trainers list with trainer.
+     * @param trainer
+     * @return
+     */
     private boolean registerTrainer(Trainer trainer) {
         currentTrainer = trainer;
         if (!trainers.contains(trainer)) {
