@@ -20,7 +20,7 @@ public class TanjaKaser extends Trainer {
      * @param position    (Coordinate): Initial position of the entity. Not null.
      */
     public TanjaKaser(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super("Tanja Kaser", area, orientation, position, "actors/tanja_kaser", null);
+        super("Tanja Kaser", area, orientation, position, "actors/tanja_kaser", null, false);
         givePokemon(PokemonDataLoader.load(282, getOwnerArea(), Orientation.DOWN, position));
     }
 

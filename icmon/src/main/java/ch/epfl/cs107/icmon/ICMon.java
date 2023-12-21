@@ -104,16 +104,16 @@ public class ICMon extends AreaGame {
         Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
         getCurrentArea().registerActor(garry);
 
-        AnnaLachowska annaLachowska = new AnnaLachowska(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 25));
-        NicolasBoumal nicolasBoumal = new NicolasBoumal(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 15));
-        TanjaKaser tanjaKaser = new TanjaKaser(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 15));
-        FredericBlanc fredericBlanc = new FredericBlanc(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(34, 16));
-        JamilaSam jamilaSam = new JamilaSam(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(31, 36));
-        getCurrentArea().registerActor(annaLachowska);
-        getCurrentArea().registerActor(nicolasBoumal);
-        getCurrentArea().registerActor(tanjaKaser);
-        getCurrentArea().registerActor(fredericBlanc);
-        getCurrentArea().registerActor(jamilaSam);
+//        AnnaLachowska annaLachowska = new AnnaLachowska(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 25));
+//        NicolasBoumal nicolasBoumal = new NicolasBoumal(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 15));
+//        TanjaKaser tanjaKaser = new TanjaKaser(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 15));
+//        FredericBlanc fredericBlanc = new FredericBlanc(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(34, 16));
+//        JamilaSam jamilaSam = new JamilaSam(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(31, 36));
+//        getCurrentArea().registerActor(annaLachowska);
+//        getCurrentArea().registerActor(nicolasBoumal);
+//        getCurrentArea().registerActor(tanjaKaser);
+//        getCurrentArea().registerActor(fredericBlanc);
+//        getCurrentArea().registerActor(jamilaSam);
 
         ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(garry);
 
@@ -121,8 +121,8 @@ public class ICMon extends AreaGame {
         ICMonEvent collectBall = new CollectItemEvent(player, ball);
         collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
 
-        ICMonEvent fightWithEliteFour = new FightWithEliteFourEvent(annaLachowska, nicolasBoumal, tanjaKaser, fredericBlanc);
-        ICMonEvent fightWithMasterJamilaSam = new FightWithMasterJamilaSamEvent(jamilaSam);
+        ICMonEvent fightWithEliteFour = new FightWithEliteFourEvent(gameState, player);
+        ICMonEvent fightWithMasterJamilaSam = new FightWithMasterJamilaSamEvent(null);
 
         ICMonEvent endOfTheGame = new EndOfTheGameEvent(player);
 

@@ -109,7 +109,7 @@ public class ICMonFight extends PauseMenu {
      */
     private void executePlayerAction(Keyboard keyboard) {
         // Display attack infos
-        if (!keyboard.get(Keyboard.SPACE).isPressed() && !keyboard.get(Keyboard.ENTER).isPressed()) {
+        if (!keyboard.get(Keyboard.SPACE).isPressed()) {
             drawAttackAnnouncementText(playerPokemon.properties().name(), nextPlayerAction);
             return;
         }
@@ -152,7 +152,7 @@ public class ICMonFight extends PauseMenu {
                 nextOpponentAction = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size() - 1));
 
             // Display attack infos
-            if (!keyboard.get(Keyboard.SPACE).isPressed() && !keyboard.get(Keyboard.ENTER).isPressed()) {
+            if (!keyboard.get(Keyboard.SPACE).isPressed()) {
                 String name = trainer == null
                         ? opponentPokemon.properties().name()
                         : trainer.name();

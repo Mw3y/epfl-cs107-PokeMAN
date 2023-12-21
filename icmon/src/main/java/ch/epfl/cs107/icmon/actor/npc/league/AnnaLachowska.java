@@ -20,7 +20,7 @@ public class AnnaLachowska extends Trainer {
      * @param position    (Coordinate): Initial position of the entity. Not null.
      */
     public AnnaLachowska(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super("Anna Lachowska", area, orientation, position, "actors/anna_lachowska", null);
+        super("Anna Lachowska", area, orientation, position, "actors/anna_lachowska", null, false);
         givePokemon(PokemonDataLoader.load(407, getOwnerArea(), Orientation.DOWN, position));
 
     }

@@ -1,12 +1,9 @@
 package ch.epfl.cs107.icmon.actor.npc;
 
-import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonFightableActor;
+import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
-import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
-import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.area.Area;
-import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.math.RegionOfInterest;
@@ -17,24 +14,26 @@ import java.util.List;
 public abstract class Trainer extends NPCActor implements ICMonFightableActor {
 
     private final List<Pokemon> pokemons = new ArrayList<>();
-    private boolean communicate = false;
-    private boolean acceptsFights = false;
-
     private final String name;
+    private boolean acceptsFights = false;
+    private boolean hadADialogWithPlayer;
+
+    private boolean disappearOnDefeat = true;
 
     /**
      * Represents a Pokémon trainer with a custom region of interest that the player can challenge.
      *
-     * @param name        (String): The name of the trainer. Not null.
-     * @param area        (Area): Owner area. Not null.
-     * @param orientation (Orientation): Initial orientation of the entity. Not null.
-     * @param position    (Coordinate): Initial position of the entity. Not null.
-     * @param spriteName  (String): Initial sprite of the trainer.
+     * @param name             (String): The name of the trainer. Not null.
+     * @param area             (Area): Owner area. Not null.
+     * @param orientation      (Orientation): Initial orientation of the entity. Not null.
+     * @param position         (Coordinate): Initial position of the entity. Not null.
+     * @param spriteName       (String): Initial sprite of the trainer.
      * @param regionOfInterest (RegionOfInterest): The region of interest of the image
      */
-    public Trainer(String name, Area area, Orientation orientation, DiscreteCoordinates position, String spriteName, RegionOfInterest regionOfInterest) {
+    public Trainer(String name, Area area, Orientation orientation, DiscreteCoordinates position, String spriteName, RegionOfInterest regionOfInterest, boolean disappearOnDefeat) {
         super(area, orientation, position, spriteName, regionOfInterest);
         this.name = name;
+        this.disappearOnDefeat = disappearOnDefeat;
     }
 
     /**
@@ -52,7 +51,32 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
     }
 
     /**
+     * Starts a dialog with the player.
+     * @param player - The player to chat with
+     * @param name - The name of the dialog file
+     */
+    public void openDialogWith(ICMonPlayer player, String name) {
+        player.openDialog(name);
+        hadADialogWithPlayer = true;
+    }
+
+    /**
+     * @return whether the player has already talked to this trainer or not.
+     */
+    public boolean hadADialogWithPlayer() {
+        return hadADialogWithPlayer;
+    }
+
+    /**
+     * @return whether the player should disappear on defeat.
+     */
+    public boolean disappearsOnDefeat() {
+        return disappearOnDefeat;
+    }
+
+    /**
      * Gets the name of the trainer.
+     *
      * @return yhe name if this trainer.
      */
     public String name() {
