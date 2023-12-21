@@ -23,7 +23,7 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
      * @param spriteName  (String): Initial sprite of the trainer.
      */
     public Trainer(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
-        super(area, orientation, position, spriteName);
+        super(area, orientation, position, "actor/" + spriteName);
     }
 
     /**

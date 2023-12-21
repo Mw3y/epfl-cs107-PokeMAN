@@ -20,7 +20,7 @@ public class Garry extends Trainer  {
      * @param position    (Coordinate): Initial position of the entity. Not null
      */
     public Garry(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, "actors/garry");
+        super(area, orientation, position, "garry");
         givePokemon(new Nidoqueen(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(110, 110)));
     }
 
