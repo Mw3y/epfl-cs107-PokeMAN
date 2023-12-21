@@ -3,20 +3,17 @@ package ch.epfl.cs107.icmon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.npc.Garry;
-import ch.epfl.cs107.icmon.actor.npc.league.*;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.*;
 import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.ResumeEventAction;
-import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.*;
-import ch.epfl.cs107.icmon.gamelogic.menu.ICMonPauseMenu;
+import ch.epfl.cs107.icmon.gamelogic.menu.ICMonStartMenu;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
-import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.io.FileSystem;
@@ -56,7 +53,7 @@ public class ICMon extends AreaGame {
             events();
 
             // Show the main menu
-            gameState.pause(new ICMonPauseMenu(gameState));
+            gameState.pause(new ICMonStartMenu(gameState));
 
             return true;
         }

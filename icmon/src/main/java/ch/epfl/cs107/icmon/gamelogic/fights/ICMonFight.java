@@ -61,9 +61,11 @@ public class ICMonFight extends PauseMenu {
         this.state = FightState.INTRO;
         this.trainer = trainer;
 
-        introMessages.add("Welcome to the fight!");
-        if (trainer != null)
+        if (trainer != null) {
+            introMessages.add(trainer.name().toUpperCase() + " wants to fight!");
             introMessages.add(trainer.name().toUpperCase() + " sent out " + opponentPokemon.properties().name().toUpperCase() + ".");
+        } else
+            introMessages.add("A wild " + opponentPokemon.properties().name().toUpperCase() + " has appeared.");
 
         gameState.stopAllSounds();
         gameState.playSound("battle_wild_pokemon", AudioPreset.FIGHT_MUSIC);
@@ -86,8 +88,7 @@ public class ICMonFight extends PauseMenu {
         drawText(introMessages.peek());
         if (keyboard.get(Keyboard.SPACE).isPressed()) {
             introMessages.poll();
-            if (introMessages.isEmpty())
-                state = FightState.SELECT_ACTION;
+            if (introMessages.isEmpty()) state = FightState.SELECT_ACTION;
         }
     }
 
@@ -109,6 +110,8 @@ public class ICMonFight extends PauseMenu {
         // Fetch the player choice from the menu
         ICMonFightAction attack = playerActionsMenu.choice();
         if (attack != null) {
+            gameState.playSound("button", AudioPreset.SFX);
+            // Store action for next fight state
             nextPlayerAction = attack;
             // Reset the menu for next turn
             playerActionsMenu = null;
@@ -124,8 +127,9 @@ public class ICMonFight extends PauseMenu {
         if (!keyboard.get(Keyboard.SPACE).isPressed()) {
             drawAttackAnnouncementText(playerPokemon.properties().name(), nextPlayerAction);
             return;
-        } else gameState.playSound("button", AudioPreset.SFX);
+        }
 
+        gameState.playSound("button", AudioPreset.SFX);
         gameState.playSound(nextPlayerAction.sfx(), AudioPreset.SFX);
         boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon, true);
         // The player has won
@@ -152,8 +156,7 @@ public class ICMonFight extends PauseMenu {
      */
     private void executeOpponentAction(Keyboard keyboard) {
         // Check if the Pokémon can attack
-        List<ICMonFightAction> attacks = opponentPokemon.properties().actions().stream()
-                .filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).toList();
+        List<ICMonFightAction> attacks = opponentPokemon.properties().actions().stream().filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).toList();
 
         // Check if the opponent can attack
         if (!attacks.isEmpty()) {
@@ -164,14 +167,13 @@ public class ICMonFight extends PauseMenu {
 
             // Display attack infos
             if (!keyboard.get(Keyboard.SPACE).isPressed()) {
-                String name = trainer == null
-                        ? opponentPokemon.properties().name()
-                        : trainer.name();
+                String name = trainer == null ? opponentPokemon.properties().name() : trainer.name();
 
                 drawAttackAnnouncementText(name, nextOpponentAction);
                 return;
-            } else gameState.playSound("button", AudioPreset.SFX);
+            }
 
+            gameState.playSound("button", AudioPreset.SFX);
             gameState.playSound(nextOpponentAction.sfx(), AudioPreset.SFX);
             // The attack didn't finish
             if (!nextOpponentAction.doAction(playerPokemon, opponentPokemon)) {
@@ -209,8 +211,7 @@ public class ICMonFight extends PauseMenu {
             gameState.stopAllSounds();
             gameState.playSound("victory_against_wild_pokemon", AudioPreset.SFX);
         }
-        if (keyboard.get(Keyboard.SPACE).isPressed())
-            end();
+        if (keyboard.get(Keyboard.SPACE).isPressed()) end();
     }
 
     @Override
@@ -267,11 +268,6 @@ public class ICMonFight extends PauseMenu {
      * Represents the state of the fight at a given time.
      */
     public enum FightState {
-        INTRO,
-        SELECT_ACTION,
-        EXEC_ACTION,
-        OPPONENT_ACTION,
-        ENDING,
-        FINISHED
+        INTRO, SELECT_ACTION, EXEC_ACTION, OPPONENT_ACTION, ENDING, FINISHED
     }
 }

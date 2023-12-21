@@ -34,7 +34,6 @@ public abstract class NPCActor extends ICMonActor {
      * @param spriteName  (String): The name of the sprite to display
      * @param regionOfInterest (RegionOfInterest): The region of interest of the image
      */
-    // TODO: Conception
     public NPCActor(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName, RegionOfInterest regionOfInterest) {
         super(area, orientation, position);
         sprite = new RPGSprite(spriteName, 1, 1.3125f, this, regionOfInterest);
