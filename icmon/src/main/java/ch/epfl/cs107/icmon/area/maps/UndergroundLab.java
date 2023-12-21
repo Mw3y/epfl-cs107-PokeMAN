@@ -1,8 +1,7 @@
 package ch.epfl.cs107.icmon.area.maps;
 
 import ch.epfl.cs107.icmon.actor.misc.Door;
-import ch.epfl.cs107.icmon.actor.npc.league.AnnaLachowska;
-import ch.epfl.cs107.icmon.actor.npc.league.TanjaKaser;
+import ch.epfl.cs107.icmon.actor.npc.league.*;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.play.engine.actor.Background;
 import ch.epfl.cs107.play.engine.actor.Foreground;
@@ -24,9 +23,10 @@ public class UndergroundLab extends ICMonArea {
         registerActor(new Foreground(this));
         registerActor(new Door(Town.TITLE, new DiscreteCoordinates(21,6), this, new DiscreteCoordinates(24, 11)));
         registerActor(new TanjaKaser(this, Orientation.DOWN, new DiscreteCoordinates(5, 25)));
-        registerActor(new AnnaLachowska(this, Orientation.DOWN, new DiscreteCoordinates(31, 36)));
+        registerActor(new AnnaLachowska(this, Orientation.DOWN, new DiscreteCoordinates(17, 24)));
         registerActor(new NicolasBoumal(this, Orientation.DOWN, new DiscreteCoordinates(5, 15)));
-        registerActor(new FredBlanc(this, Orientation.DOWN, new DiscreteCoordinates(34, 16)));
+        registerActor(new FredericBlanc(this, Orientation.DOWN, new DiscreteCoordinates(34, 16)));
+        registerActor(new JamilaSam(this, Orientation.DOWN, new DiscreteCoordinates(31, 36)));
     }
 
     @Override

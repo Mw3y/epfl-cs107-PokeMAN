@@ -28,4 +28,9 @@ public class RunAway implements ICMonFightAction {
         assert pokemon != null;
         return false;
     }
+
+    @Override
+    public boolean doAction(Pokemon target, Pokemon pokemon, boolean boost) {
+        return doAction(target, pokemon, false);
+    }
 }

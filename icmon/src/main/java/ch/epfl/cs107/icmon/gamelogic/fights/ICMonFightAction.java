@@ -29,4 +29,6 @@ public interface ICMonFightAction {
      */
     // TODO: Pass other pokemon
     boolean doAction(Pokemon target, Pokemon pokemon);
+
+    boolean doAction(Pokemon target, Pokemon pokemon, boolean boost);
 }

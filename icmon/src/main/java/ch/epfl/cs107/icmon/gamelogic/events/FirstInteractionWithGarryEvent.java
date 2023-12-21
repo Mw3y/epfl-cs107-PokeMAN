@@ -21,8 +21,8 @@ public class FirstInteractionWithGarryEvent extends ICMonEvent {
         onStart(new LogAction("event.firstInteractionWithGarry.start"));
         onComplete(new LogAction("event.firstInteractionWithGarry.complete"));
         // Allow fighting garry only during the event
-        onStart(new SetTrainerFightsAcceptance(garry, true));
-        onComplete(new SetTrainerFightsAcceptance(garry, false));
+        onStart(new SetTrainerFightsAcceptance(true, garry));
+        onComplete(new SetTrainerFightsAcceptance(false, garry));
     }
 
     public void update(float deltaTime) {

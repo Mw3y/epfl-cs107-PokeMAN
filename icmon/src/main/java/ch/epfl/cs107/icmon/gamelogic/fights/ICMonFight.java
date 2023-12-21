@@ -80,7 +80,7 @@ public class ICMonFight extends PauseMenu {
      * Executes the fight action that the player has selected in the previous phase.
      */
     private void executePlayerAction() {
-        boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon);
+        boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon, true);
         // The player has won
         if (opponentPokemon.properties().isKO()) {
             state = FightState.ENDING;
