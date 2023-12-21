@@ -21,7 +21,7 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
         this.player = player;
         onStart(new LogAction("event.firstInteractionWithProfOak.start"));
         onComplete(new LogAction("event.firstInteractionWithProfOak.complete"));
-        Pokemon latios = PokemonDataLoader.load(381, new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0));
+        Pokemon latios = PokemonDataLoader.load(384, new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0));
         onComplete(new GivePokemonToPlayerAction(latios, player));
     }
 

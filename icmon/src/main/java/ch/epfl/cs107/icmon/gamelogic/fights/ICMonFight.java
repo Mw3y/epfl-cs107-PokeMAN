@@ -24,6 +24,8 @@ public class ICMonFight extends PauseMenu {
     private ICMonFightActionSelectionGraphics playerActionsMenu;
     private final ICMonFightArenaGraphics arena;
 
+    private boolean isPlayingVictorySound;
+
     /**
      * Simulates a Pokémon fight.
      * @param playerPokemon - The Pokémon of the player
@@ -39,6 +41,9 @@ public class ICMonFight extends PauseMenu {
         this.opponentPokemon = opponentPokemon;
         this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
         this.state = FightState.INTRO;
+
+        gameState.stopAllSounds();
+        gameState.playSound("battle_wild_pokemon", AudioPreset.FIGHT_MUSIC);
     }
 
     @Override
@@ -140,6 +145,11 @@ public class ICMonFight extends PauseMenu {
      */
     private void ending(Keyboard keyboard) {
         assert keyboard != null;
+        if (!isPlayingVictorySound) {
+            gameState.stopAllSounds();
+            gameState.playSound("victory_against_wild_pokemon", AudioPreset.SFX);
+            isPlayingVictorySound = true;
+        }
         if (keyboard.get(Keyboard.SPACE).isPressed())
             end();
     }
@@ -171,6 +181,7 @@ public class ICMonFight extends PauseMenu {
     @Override
     public void end() {
         state = FightState.FINISHED;
+        gameState.stopAllSounds();
     }
 
     /**

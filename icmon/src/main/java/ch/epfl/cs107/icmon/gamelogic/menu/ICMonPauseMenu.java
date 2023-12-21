@@ -1,6 +1,7 @@
 package ch.epfl.cs107.icmon.gamelogic.menu;
 
 import ch.epfl.cs107.icmon.ICMon;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.graphics.ICMonPauseMenuGraphics;
 import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.window.Canvas;
@@ -18,14 +19,18 @@ public class ICMonPauseMenu extends PauseMenu {
      */
     public ICMonPauseMenu(ICMon.ICMonGameState gameState) {
         this.gameState = gameState;
+        gameState.stopAllSounds();
+        gameState.playSound("main_theme", AudioPreset.FIGHT_MUSIC);
         graphics = new ICMonPauseMenuGraphics(CAMERA_SCALE_FACTOR);
     }
 
     @Override
     public void update(float deltaTime) {
         Keyboard keyboard = getKeyboard();
-        if (keyboard.get(Keyboard.ENTER).isPressed() || keyboard.get(Keyboard.SPACE).isPressed())
+        if (keyboard.get(Keyboard.ENTER).isPressed() || keyboard.get(Keyboard.SPACE).isPressed()) {
+            gameState.stopAllSounds();
             gameState.resume();
+        }
         super.update(deltaTime);
     }
 
