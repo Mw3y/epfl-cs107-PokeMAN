@@ -299,7 +299,6 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         @Override
         public void interactWith(AnnaLachowska annaLachowska, boolean isCellInteraction) {
             interactWith((Trainer) annaLachowska, isCellInteraction);
-            openDialog("start-fight_anna_lachowska");
         }
 
         @Override

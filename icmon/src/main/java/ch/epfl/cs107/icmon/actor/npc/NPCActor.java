@@ -50,4 +50,5 @@ public abstract class NPCActor extends ICMonActor {
         assert canvas != null;
         sprite.draw(canvas);
     }
+
 }
