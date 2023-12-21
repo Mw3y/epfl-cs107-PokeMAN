@@ -29,9 +29,9 @@ public class Garry extends Trainer  {
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
-
     @Override
     public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
         game.send(new StartFightMessage(this, getPokemons().get(0), playerPokemon));
     }
+
 }

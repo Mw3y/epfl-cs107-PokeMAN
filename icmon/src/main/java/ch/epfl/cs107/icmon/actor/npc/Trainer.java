@@ -1,8 +1,12 @@
 package ch.epfl.cs107.icmon.actor.npc;
 
+import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonFightableActor;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
+import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
+import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
 import ch.epfl.cs107.play.areagame.area.Area;
+import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
@@ -74,4 +78,6 @@ public abstract class Trainer extends NPCActor implements ICMonFightableActor {
     protected List<Pokemon> getPokemons() {
         return pokemons;
     }
+
+
 }

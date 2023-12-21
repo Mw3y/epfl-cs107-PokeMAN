@@ -2,12 +2,15 @@ package ch.epfl.cs107.icmon.actor.npc;
 
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
+import ch.epfl.cs107.icmon.area.maps.Pokeball;
+import ch.epfl.cs107.icmon.data.PokemonDataLoader;
+import ch.epfl.cs107.icmon.gamelogic.messages.StartFightMessage;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
-public class AnnaLachowska extends Trainer{
+public class AnnaLachowska extends Trainer {
     /**
      * Represents a Pokémon trainer that the player can challenge.
      *
@@ -17,6 +20,7 @@ public class AnnaLachowska extends Trainer{
      */
     public AnnaLachowska(Area area, Orientation orientation, DiscreteCoordinates position) {
         super(area, orientation, position, "actors/anna_lachowska");
+        givePokemon(PokemonDataLoader.load(282, new Pokeball(), Orientation.DOWN, position));
     }
 
     @Override
@@ -26,6 +30,7 @@ public class AnnaLachowska extends Trainer{
 
     @Override
     public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
-
+        game.send(new StartFightMessage(this, getPokemons().get(0), playerPokemon));
     }
+
 }
