@@ -12,6 +12,7 @@ public class EndOfTheGameEvent extends ICMonEvent {
     private final ICMonPlayer player;
 
     public EndOfTheGameEvent(ICMonPlayer player) {
+        assert player != null;
         this.player = player;
         onStart(new LogAction("event.endOfTheGame.start"));
         onComplete(new LogAction("event.endOfTheGame.complete"));
@@ -22,6 +23,7 @@ public class EndOfTheGameEvent extends ICMonEvent {
 
     @Override
     public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
+        assert assistant != null;
         System.out.println("interaction.with.icshopAssistant.from.endOfTheGameEvent");
         player.openDialog("end_of_game_event_interaction_with_icshopassistant");
     }

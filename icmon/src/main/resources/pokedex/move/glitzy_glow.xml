@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Glitzy Glow</en>
+		<fr type="str">Évo-Psycho</fr>
+		<de type="str">Pulsieraura</de>
+		<it type="str">Auraswoosh</it>
+		<es type="str">Espeaura</es>
+	</names>
+	<index_number type="int">736</index_number>
+	<target type="str">all_adjacent</target>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Psychic</type>
+	<category type="str">special</category>
+	<power type="int">90</power>
+	<accuracy type="int">100</accuracy>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<pokedex_entries type="dict">
+		<key name="Let's Go Pikachu" type="dict">
+			<en type="str">The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's special moves.</en>
+			<de type="str">Evoli greift das Ziel gnadenlos mit telekinetischer Energie an. Dabei wird eine geheimnisvolle Wand erzeugt, die Spezial-Attacken des Ziels abschwächt.</de>
+		</key>
+		<key name="Let's Go Eevee" type="dict">
+			<en type="str">The user bombards the target with telekinetic force. A wondrous wall of light is put up to weaken the power of the opposing Pokémon's special moves.</en>
+			<de type="str">Evoli greift das Ziel gnadenlos mit telekinetischer Energie an. Dabei wird eine geheimnisvolle Wand erzeugt, die Spezial-Attacken des Ziels abschwächt.</de>
+		</key>
+	</pokedex_entries>
+</all>

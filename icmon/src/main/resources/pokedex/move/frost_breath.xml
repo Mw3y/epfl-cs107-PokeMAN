@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">524</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">2</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Souffle Glacé</fr>
+		<de type="str">Eisesodem</de>
+		<gr type="str">Παγοπνοή</gr>
+		<it type="str">Alitogelido</it>
+		<pl type="str">Oddech Mrozu</pl>
+		<en type="str">Frost Breath</en>
+	</names>
+	<type type="str">Ice</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user blows a cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user blows a cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user blows a cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user blows a cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user blows its cold breath on the target. This attack always results in a critical hit.</en>
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender greift an, indem er dem Ziel eisigen Atem entgegenhaucht. Volltreffergarantie.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

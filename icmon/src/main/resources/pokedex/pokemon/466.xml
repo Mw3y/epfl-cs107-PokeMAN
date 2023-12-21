@@ -1,0 +1,2735 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Élekable</fr>
+		<de>Elevoltek</de>
+		<it>Electivire</it>
+		<en>Electivire</en>
+	</names>
+	<national_id>466</national_id>
+	<types>
+		<item>Electric</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Motor Drive</name>
+		</item>
+		<item>
+			<name>Vital Spirit</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>75.0</male>
+		<female>25.0</female>
+	</gender_ratios>
+	<catch_rate>30</catch_rate>
+	<egg_groups>
+		<item>Human-Like</item>
+	</egg_groups>
+	<hatch_time>
+		<item>6630</item>
+		<item>6884</item>
+	</hatch_time>
+	<height_us>5'11&quot;</height_us>
+	<height_eu>1.8 m</height_eu>
+	<weight_us>305.6 lbs.</weight_us>
+	<weight_eu>138.6 kg</weight_eu>
+	<base_exp_yield>243</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>3</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>75</hp>
+		<atk>123</atk>
+		<def>67</def>
+		<sp_atk>95</sp_atk>
+		<sp_def>85</sp_def>
+		<speed>95</speed>
+	</base_stats>
+	<evolution_from>Electabuzz</evolution_from>
+	<alola_id>228</alola_id>
+	<categories>
+		<en>Thunderbolt Pokémon</en>
+		<de>Donnerkeil</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id>199</sinnoh_id>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Diamond>
+			<en>It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.</en>
+			<de>Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 Volt.</de>
+		</Diamond>
+		<Pearl>
+			<en>It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.</en>
+			<de>Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 Volt.</de>
+		</Pearl>
+		<Platinum>
+			<en>Heedless of enemy attacks, it closes in, shoves its tails onto the foe, then looses high voltage.</en>
+			<de>Berührt seinen Gegner mit beiden Schweifspitzen und entlädt dann starke Elektrizität.</de>
+		</Platinum>
+		<HeartGold>
+			<en>As its electric charge amplifies, blue sparks begin to crackle between its horns.</en>
+			<de>Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 Volt.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>As its electric charge amplifies, blue sparks begin to crackle between its horns.</en>
+			<de>Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 Volt.</de>
+		</SoulSilver>
+		<Black>
+			<en>Heedless of enemy attacks, it closes in, shoves its tails onto the foe, then looses high voltage.</en>
+			<de>Berührt seinen Gegner mit seinen beiden Schweifspitzen und entlädt dann starke Elektrizität.</de>
+		</Black>
+		<White>
+			<en>Heedless of enemy attacks, it closes in, shoves its tails onto the foe, then looses high voltage.</en>
+			<de>Berührt seinen Gegner mit seinen beiden Schweifspitzen und entlädt dann starke Elektrizität.</de>
+		</White>
+		<Black_2>
+			<en>The instant it presses the tips of its tails onto an opponent, it sends over 20,000 volts of electricity into the foe.</en>
+			<de>Es berührt Gegner mit seinen beiden Schweifspitzen und entlädt dabei geballte 20 000 Volt.</de>
+		</Black_2>
+		<White_2>
+			<en>The instant it presses the tips of its tails onto an opponent, it sends over 20,000 volts of electricity into the foe.</en>
+			<de>Es berührt Gegner mit seinen beiden Schweifspitzen und entlädt dabei geballte 20 000 Volt.</de>
+		</White_2>
+		<X>
+			<en>As its electric charge amplifies, blue sparks begin to crackle between its horns.</en>
+			<de>Bei voller Ladung zucken feurige, blassweiße Funken zwischen seinen zwei Hörnern hin und her.</de>
+		</X>
+		<Y>
+			<en>It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.</en>
+			<de>Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 V.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>As its electric charge amplifies, blue sparks begin to crackle between its horns.</en>
+			<de>Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 V.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>It pushes the tips of its two tails against the foe, then lets loose with over 20,000 volts of power.</en>
+			<de>Es berührt den Gegner mit seinen beiden Schweifspitzen und entlädt dann über 20 000 V.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>It pushes the tips of its tails against its foes and then lets loose a high-voltage current. Its foes are burned to a crisp in an instant.</en>
+			<de>Es berührt Gegner mit seinen Schweifspitzen und entlädt dann starke Elektrizität. So kann es sie im Nullkommanichts verkohlen.</de>
+		</Sun>
+		<Moon>
+			<en>When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.</en>
+			<de>Wenn es sich aufregt, schlägt es sich kräftig auf die Brust. Bei jedem Schlag sprühen Funken und es ertönt ein Donnern.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It grips its tail, which spews electricity, and then beats down opponents with the power of its electrified fist.</en>
+			<de>Es umfasst seine vor Elektrizität sprühenden Schweife, um seine Hände aufzuladen und dann mit aller Kraft zuzuschlagen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>A single Electivire can provide enough electricity for all the buildings in a big city for a year.</en>
+			<de>Ein einzelnes Elevoltek erzeugt genügend Elektrizität, um eine Großstadt ein ganzes Jahr lang mit Strom zu versorgen.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>5</item>
+		</speed>
+		<power>
+			<item>3</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>4</item>
+		</stamina>
+		<skill>
+			<item>4</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>2</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>118</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>58</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<tm>HM8</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>62</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>68</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>62</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Electric Terrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ion Deluge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>62</level>
+				</item>
+				<item>
+					<move>Electric Terrain</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Electric Terrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ion Deluge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>62</level>
+				</item>
+				<item>
+					<move>Electric Terrain</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Electric Terrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ion Deluge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>62</level>
+				</item>
+				<item>
+					<move>Electric Terrain</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Electric Terrain</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ion Deluge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Low Kick</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Swift</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Electro Ball</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<level>62</level>
+				</item>
+				<item>
+					<move>Electric Terrain</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cross Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Feint</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hammer Arm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Karate Chop</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Meditate</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

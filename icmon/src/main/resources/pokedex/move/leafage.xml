@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Leafage</en>
+		<fr type="str">Feuillage</fr>
+		<de type="str">Blattwerk</de>
+		<it type="str">Fogliame</it>
+		<es type="str">Follaje</es>
+	</names>
+	<index_number type="int">670</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Grass</type>
+	<category type="str">physical</category>
+	<pp type="int">40</pp>
+	<max_pp type="int">64</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user attacks by pelting the target with leaves.</en>
+			<de type="str">Der Anwender greift das Ziel mit Blättern an.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by pelting the target with leaves.</en>
+			<de type="str">Der Anwender greift das Ziel mit Blättern an.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by pelting the target with leaves.</en>
+			<de type="str">Der Anwender greift das Ziel mit Blättern an.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by pelting the target with leaves.</en>
+			<de type="str">Der Anwender greift das Ziel mit Blättern an.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

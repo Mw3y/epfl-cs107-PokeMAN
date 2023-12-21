@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">346</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Tourniquet</fr>
+		<de type="str">Nassmacher</de>
+		<gr type="str">Ύγρανση</gr>
+		<it type="str">Docciascudo</it>
+		<en type="str">Water Sport</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">The user becomes soaked to raise resistance to fire.</en>
+			<de type="str">Benutzer wird nass, so dass er Feuer besser standhält.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">The user becomes soaked to raise resistance to fire.</en>
+			<de type="str">Benutzer wird nass, so dass er Feuer besser standhält.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">The user becomes soaked to raise resistance to fire.</en>
+			<de type="str">Benutzer wird nass, so dass er Feuer besser standhält.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Weakens FIRE-type attacks while the user is in the battle.</en>
+			<de type="str">Schwächt FEUER-Attacken, solange der Anwender am Kampf teilnimmt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Weakens FIRE-type attacks while the user is in the battle.</en>
+			<de type="str">Schwächt FEUER-Attacken, solange der Anwender am Kampf teilnimmt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solange der Anwender am Kampf teilnimmt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solange der Anwender am Kampf teilnimmt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solange der Anwender am Kampf teilnimmt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solange der Anwender am Kampf teilnimmt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solange der Anwender am Kampf teilnimmt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solang der Anwender am Kampf teilnimmt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solang der Anwender am Kampf teilnimmt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solang der Anwender am Kampf teilnimmt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle.</en>
+			<de type="str">Schwächt Feuer-Attacken, solang der Anwender am Kampf teilnimmt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user soaks itself with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user soaks itself with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user soaks itself with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user soaks itself with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user soaks the battlefield with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user soaks the battlefield with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user soaks the battlefield with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user soaks the battlefield with water. This weakens Fire-type moves for five turns.</en>
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender lässt Wasser herabregnen und schwächt damit fünf Runden lang Feuer-Attacken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

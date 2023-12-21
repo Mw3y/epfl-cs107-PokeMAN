@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">56</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">110</power>
+	<accuracy type="int">80</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Vodní pumpa</cz>
+		<dk type="str">Vandpumpe</dk>
+		<fr type="str">Hydrocanon</fr>
+		<de type="str">Hydropumpe</de>
+		<gr type="str">Υδραντλία</gr>
+		<it type="str">Idropompa</it>
+		<pl type="str">Hydropompa (original series)Pompa Wodna (Diamond &amp; Pearl onwards)</pl>
+		<en type="str">Hydro Pump</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A powerful water-type attack.</en>
+			<de type="str">Eine mächtige Wasser-Attacke.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A powerful water-type attack.</en>
+			<de type="str">Eine mächtige Wasser-Attacke.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A powerful water-type attack.</en>
+			<de type="str">Eine mächtige Wasser-Attacke.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Blasts water at high power to strike the foe.</en>
+			<de type="str">Spritzt Wasser mit Hochdruck auf den Gegner.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Blasts water at high power to strike the foe.</en>
+			<de type="str">Spritzt Wasser mit Hochdruck auf den Gegner.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Blasts water at high power to strike the foe.</en>
+			<de type="str">Spritzt Wasser mit Hochdruck auf den Gegner.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A high volume of water is blasted at the foe under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf den Gegner.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A high volume of water is blasted at the foe under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf den Gegner.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf den Gegner.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf den Gegner.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf den Gegner.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf den Gegner.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf den Gegner.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is blasted by a huge volume of water launched under great pressure.</en>
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Spritzt eine Menge Wasser mit Hochdruck auf das Ziel.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

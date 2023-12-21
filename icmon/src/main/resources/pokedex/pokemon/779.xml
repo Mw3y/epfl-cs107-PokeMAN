@@ -1,0 +1,567 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Bruxish</en>
+		<jp>トハギギシリ Hagigishiri</jp>
+		<fr>Denticrisse</fr>
+		<es>Bruxish</es>
+		<de>Knirfish</de>
+		<it>Bruxish</it>
+	</names>
+	<national_id>779</national_id>
+	<alola_id>243</alola_id>
+	<types>
+		<item>Water</item>
+		<item>Psychic</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Dazzling</name>
+		</item>
+		<item>
+			<name>Wonder Skin</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>80</catch_rate>
+	<egg_groups>
+		<item>Water 2</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>2'11&quot;</height_us>
+	<height_eu>0.9 m</height_eu>
+	<weight_us>41.9 lbs.</weight_us>
+	<weight_eu>19.0 kg</weight_eu>
+	<base_exp_yield>166</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Pink</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>2</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>68</hp>
+		<atk>105</atk>
+		<def>70</def>
+		<sp_atk>70</sp_atk>
+		<sp_def>70</sp_def>
+		<speed>92</speed>
+	</base_stats>
+	<categories>
+		<en>Gnash Teeth Pokémon</en>
+		<de>Knirschzahn</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>When it unleashes its psychic power from the protuberance on its head, the grating sound of grinding teeth echoes through the area.</en>
+			<de>Wenn es über den Fortsatz an seinem Kopf Psycho-Kräfte freisetzt, ertönt in seiner Umgebung ein unangenehmes Zähneknirschen.</de>
+		</Sun>
+		<Moon>
+			<en>It stuns its prey with psychokinesis and then grinds them to mush with its strong teeth. Even Shellder's shell is no match for it.</en>
+			<de>Es lähmt seine Beute mit Psycho-Kräften und zerkaut sie mit seinen kräftigen Zähnen. Auch die Schale von Muschas knackt es problemlos.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It burrows beneath the sand, radiating psychic power from the protuberance on its head. It waits for prey as it surveys the area.</en>
+			<de>Es vergräbt sich im Sand und setzt über den Fortsatz an seinem Kopf Psycho-Kräfte frei. So scannt es die Gegend ab und wartet auf Beute.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Its skin is thick enough to fend off Mareanie’s spikes. With its robust teeth, Bruxish crunches up the spikes and eats them.</en>
+			<de>Seine Haut ist so hart, dass selbst die Nadeln eines Garstella sie nicht durchdringen. Mit seinen kräftigen Zähnen zerkaut es sie einfach.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>141</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Aqua Jet</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Aqua Tail</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic Fangs</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Synchronoise</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Ice Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Aqua Jet</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Aqua Tail</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic Fangs</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Synchronoise</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Ice Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Poison Fang</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rage</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

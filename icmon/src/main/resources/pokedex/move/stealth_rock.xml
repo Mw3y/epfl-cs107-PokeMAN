@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">446</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all_foes</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Piège de Roc</fr>
+		<de type="str">Tarnsteine</de>
+		<gr type="str">Ενέδρα Βράχων</gr>
+		<it type="str">Levitoroccia</it>
+		<pl type="str">Tajemnicza Skała (DP015)Podstępna Skała (DP018)</pl>
+		<en type="str">Stealth Rock</en>
+	</names>
+	<type type="str">Rock</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In Kampf eingreifende Gegner nehmen Schaden.* (Attacken-Beschreibung)Eine Falle aus schwebenden Steinen. Verletzt Gegner, die neu in den Kampf gerufen wurden.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In Kampf eingreifende Gegner nehmen Schaden.* (Attacken-Beschreibung)Eine Falle aus schwebenden Steinen. Verletzt Gegner, die neu in den Kampf gerufen wurden.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In Kampf eingreifende Gegner nehmen Schaden.* (Attacken-Beschreibung)Eine Falle aus schwebenden Steinen. Verletzt Gegner, die neu in den Kampf gerufen wurden.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In Kampf eingreifende Gegner nehmen Schaden.* (Attacken-Beschreibung)Eine Falle aus schwebenden Steinen. Verletzt Gegner, die neu in den Kampf gerufen wurden.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user lays a trap of levitating stones around the foe. The trap hurts foes that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In Kampf eingreifende Gegner nehmen Schaden.* (Attacken-Beschreibung)Eine Falle aus schwebenden Steinen. Verletzt Gegner, die neu in den Kampf gerufen wurden.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opponent’s team. The trap hurts opponents that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingreifende Gegner nehmen Schaden.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opponent’s team. The trap hurts opponents that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingreifende Gegner nehmen Schaden.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opponent’s team. The trap hurts opponents that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingreifende Gegner nehmen Schaden.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opponent’s team. The trap hurts opponents that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingreifende Gegner nehmen Schaden.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.</en>
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Falle mit schwebenden Steinen. In den Kampf eingewechselte Ziele nehmen Schaden.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

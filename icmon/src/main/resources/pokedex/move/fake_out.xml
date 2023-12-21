@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">252</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">3</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Bluff</fr>
+		<de type="str">Mogelhieb</de>
+		<gr type="str">Εξαπάτηση</gr>
+		<it type="str">Bruciapelo</it>
+		<pl type="str">Blef</pl>
+		<en type="str">Fake Out</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">A 1st-turn, 1st-strike move that causes flinching.</en>
+			<de type="str">Trifft schon mit dem ersten Schlag. Verjagt Gegner evtl.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A 1st-turn, 1st-strike move that causes flinching.</en>
+			<de type="str">Trifft schon mit dem ersten Schlag. Verjagt Gegner evtl.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A 1st-turn, 1st-strike move that causes flinching.</en>
+			<de type="str">Trifft nur mit dem 1. Schlag. Gegner schreckt evtl. zurück.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An attack that hits first and causes flinching. Usable only on 1st turn.</en>
+			<de type="str">Trifft schon beim ersten Schlag. Gegner schreckt evtl. zurück.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An attack that hits first and causes flinching. Usable only on 1st turn.</en>
+			<de type="str">Trifft schon beim ersten Schlag. Gegner schreckt evtl. zurück.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. This move works only on the first turn.</en>
+			<de type="str">Trifft schon beim ersten Schlag. Gegner schreckt zurück. Gelingt nur in der 1. Runde.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. This move works only on the first turn.</en>
+			<de type="str">Trifft schon beim ersten Schlag. Gegner schreckt zurück. Gelingt nur in der 1. Runde.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. This move works only on the first turn.</en>
+			<de type="str">Trifft schon beim ersten Schlag. Gegner schreckt zurück. Gelingt nur in der 1. Runde.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Attacke trifft zuerst. Gegner schreckt zurück. Gelingt nur in der 1. Runde.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Attacke trifft zuerst. Gegner schreckt zurück. Gelingt nur in der 1. Runde.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">An attack that hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This attack hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This attack hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This attack hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack hits first and makes the target flinch. It only works the first turn the user is in battle.</en>
+			<de type="str">Attacke mit hoher Erstschlagquote. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Diese Attacke trifft zuerst. Das Ziel schreckt zurück. Gelingt nur in der ersten Runde eines Kampfes.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

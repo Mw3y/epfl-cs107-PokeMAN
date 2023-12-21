@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Ice Hammer</en>
+		<fr type="str">Marteau de Glace</fr>
+		<de type="str">Eishammer</de>
+		<it type="str">Martelgelo</it>
+		<es type="str">Martillo Hielo</es>
+	</names>
+	<index_number type="int">665</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Ice</type>
+	<category type="str">physical</category>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">100</power>
+	<accuracy type="int">90</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">speed</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.</en>
+			<de type="str">Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.</en>
+			<de type="str">Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.</en>
+			<de type="str">Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user swings and hits with its strong, heavy fist. It lowers the user’s Speed, however.</en>
+			<de type="str">Anwender trifft mit einem starken Hieb. Senkt Initiative des Anwenders.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

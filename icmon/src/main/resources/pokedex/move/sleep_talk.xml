@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">214</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Blabla Dodo</fr>
+		<de type="str">Schlafrede</de>
+		<gr type="str">Παραμιλητό</gr>
+		<it type="str">Sonnolalia</it>
+		<pl type="str">Lunatykowanie</pl>
+		<en type="str">Sleep Talk</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Randomly attacks while asleep.</en>
+			<de type="str">Zufällige Angriffe im Schlaf.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Randomly attacks while asleep.</en>
+			<de type="str">Zufällige Angriffe im Schlaf.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Randomly attacks while asleep.</en>
+			<de type="str">Zufällige Angriffe im Schlaf.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Uses an own move randomly while asleep.</en>
+			<de type="str">Benutzt per Zufall eine Attacke im Schlaf.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Uses an own move randomly while asleep.</en>
+			<de type="str">Benutzt per Zufall eine Attacke im Schlaf.</de>
+		</Sapphire>
+		<FireRed type="dict">
+			<en type="str">While asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Benutzt per Zufall eine ihm bekannte Attacke im Schlaf.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">While asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Benutzt per Zufall eine ihm bekannte Attacke im Schlaf.</de>
+		</LeafGreen>
+		<Emerald type="dict">
+			<en type="str">Uses an available move randomly while asleep.</en>
+			<de type="str">Benutzt per Zufall eine Attacke im Schlaf.</de>
+		</Emerald>
+		<Diamond type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.* (Attacken-Beschreibung)Während der Angreifer schläft, verwendet er eine seiner zufällig ausgewählten Attacken.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.* (Attacken-Beschreibung)Während der Angreifer schläft, verwendet er eine seiner zufällig ausgewählten Attacken.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.* (Attacken-Beschreibung)Während der Angreifer schläft, verwendet er eine seiner zufällig ausgewählten Attacken.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.* (Attacken-Beschreibung)Während der Angreifer schläft, verwendet er eine seiner zufällig ausgewählten Attacken.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.* (Attacken-Beschreibung)Während der Angreifer schläft, verwendet er eine seiner zufällig ausgewählten Attacken.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (Attacken-Beschreibung)Der Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (Attacken-Beschreibung)Der Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (Attacken-Beschreibung)Der Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">While it is asleep, the user randomly uses one of the moves it knows.</en>
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (Attacken-Beschreibung)Der Anwender setzt per Zufall eine ihm bekannte Attacke ein. Klappt nur, wenn der Anwender gerade schläft.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender setzt per Zufall eine ihm bekannte Attacke im Schlaf ein.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

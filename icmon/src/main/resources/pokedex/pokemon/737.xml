@@ -1,0 +1,491 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Charjabug</en>
+		<jp>デンヂムシ Denjimushi</jp>
+		<fr>Chrysapile</fr>
+		<es>Charjabug</es>
+		<de>Akkup</de>
+		<it>Charjabug</it>
+	</names>
+	<national_id>737</national_id>
+	<alola_id>28</alola_id>
+	<types>
+		<item>Bug</item>
+		<item>Electric</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Battery</name>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>120</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>1'08&quot;</height_us>
+	<height_eu>0.5 m</height_eu>
+	<weight_us>23.1 lbs.</weight_us>
+	<weight_eu>10.5 kg</weight_eu>
+	<base_exp_yield>140</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Green</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>2</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>57</hp>
+		<atk>82</atk>
+		<def>95</def>
+		<sp_atk>55</sp_atk>
+		<sp_def>75</sp_def>
+		<speed>36</speed>
+	</base_stats>
+	<evolution_from>Grubbin</evolution_from>
+	<evolutions>
+		<item>
+			<to>Vikavolt</to>
+			<level_up>true</level_up>
+			<conditions>
+				<item>In Vast Poni Canyon</item>
+			</conditions>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Battery Pokémon</en>
+		<de>Batterie</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Its body is capable of storing electricity. On camping trips, people are grateful to have one around.</en>
+			<de>Speichert Elektrizität in seinem Körper. Bei einem Campingausflug kann man wohl kein praktischeres Pokémon dabeihaben!</de>
+		</Sun>
+		<Moon>
+			<en>From the food it digests, it generates electricity, and it stores this energy in its electric sac.</en>
+			<de>Beim Verdauen der Nahrung entsteht elektrische Energie, die es in seinem Strombeutel speichert.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It buries itself in fallen leaves and barely moves, munching away on humus. If you accidentally step on one, you’ll get a shock!</en>
+			<de>Es vergräbt sich unter Blättern, wo es nahezu regungslos verharrt und Humus frisst. Tritt man versehentlich auf es, verteilt es Stromschläge.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Its stout shell provides excellent defense from attacks. It uses electricity on persistent opponents.</en>
+			<de>Wird es angegriffen, gewährt ihm sein robuster Panzer hervorragenden Schutz. Hartnäckige Gegner greift es mit Elektro-Attacken an.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>13</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>String Shot</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>String Shot</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Electroweb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Harden</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>String Shot</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Vice Grip</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>String Shot</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Electroweb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Harden</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">230</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Doux Parfum</fr>
+		<de type="str">Lockduft</de>
+		<gr type="str">Γλυκιά Ευωδία</gr>
+		<it type="str">Profumino</it>
+		<pl type="str">Słodki Zapach</pl>
+		<en type="str">Sweet Scent</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">evasion</stat>
+			<change_by type="int">-2</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Reduces the foe's evasiveness.</en>
+			<de type="str">Fluchtwert des Gegners sinkt</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Reduces the foe's evasiveness.</en>
+			<de type="str">Fluchtwert des Gegners sinkt</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Reduces the foe's evasiveness.</en>
+			<de type="str">Fluchtwert des Gegners sinkt</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Allures the foe to reduce evasiveness.</en>
+			<de type="str">Lockt Gegner an und senkt seinen Fluchtwert.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Allures the foe to reduce evasiveness.</en>
+			<de type="str">Lockt Gegner an und senkt seinen Fluchtwert.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Allures the foe to reduce evasiveness.</en>
+			<de type="str">Lockt Gegner an und senkt seinen Fluchtwert.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Allures the foe to reduce evasiveness. It also attracts wild POKéMON.</en>
+			<de type="str">Lockt Gegner an und senkt den Fluchtwert. Lockt auch wilde PKMN an.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Allures the foe to reduce evasiveness. It also attracts wild POKéMON.</en>
+			<de type="str">Lockt Gegner an und senkt den Fluchtwert. Lockt auch wilde PKMN an.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">A sweet scent that lowers the foe’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde PKMN an.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">A sweet scent that lowers the foe’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde PKMN an.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">A sweet scent that lowers the foe’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde PKMN an.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">A sweet scent that lowers the foe’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde PKMN an.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">A sweet scent that lowers the foe’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde PKMN an.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">A sweet scent that lowers the opposing team’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde Pokémon an.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">A sweet scent that lowers the opposing team’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde Pokémon an.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">A sweet scent that lowers the opposing team’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde Pokémon an.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">A sweet scent that lowers the opposing team’s evasiveness. It also lures wild Pokémon if used in grass, etc.</en>
+			<de type="str">Lockt Gegner an und senkt deren Fluchtwert. Lockt im Gras auch wilde Pokémon an.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness. This also lures wild Pokémon if used in places such as tall grass.</en>
+			<de type="str">Lockt Ziele an und senkt deren Fluchtwert. Lockt im Gras auch wilde Pokémon an.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness. This also lures wild Pokémon if used in places such as tall grass.</en>
+			<de type="str">Lockt Ziele an und senkt deren Fluchtwert. Lockt im Gras auch wilde Pokémon an.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness. This also lures wild Pokémon if used in places such as tall grass.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness. This also lures wild Pokémon if used in places such as tall grass.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness.</en>
+			<de type="str">Senkt den Fluchtwert des Zieles stark.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness.</en>
+			<de type="str">Senkt den Fluchtwert des Zieles stark.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness.</en>
+			<de type="str">Senkt den Fluchtwert des Zieles stark.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">A sweet scent that harshly lowers opposing Pokémon’s evasiveness.</en>
+			<de type="str">Senkt den Fluchtwert des Zieles stark.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Senkt den Fluchtwert des Zieles stark. Lockt im hohen Gras auch wilde Pokémon an.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Senkt den Fluchtwert des Zieles stark. Lockt im hohen Gras auch wilde Pokémon an.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

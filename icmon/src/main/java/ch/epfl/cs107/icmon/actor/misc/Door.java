@@ -81,6 +81,7 @@ public class Door extends AreaEntity {
 
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+        assert v != null;
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
 

@@ -1,0 +1,2614 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Tarinor</fr>
+		<de>Nasgnet</de>
+		<it>Nosepass</it>
+		<en>Nosepass</en>
+	</names>
+	<national_id>299</national_id>
+	<types>
+		<item>Rock</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Sturdy</name>
+		</item>
+		<item>
+			<name>Sand Force</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>255</catch_rate>
+	<egg_groups>
+		<item>Mineral</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>3'03&quot;</height_us>
+	<height_eu>1.0 m</height_eu>
+	<weight_us>213.8 lbs.</weight_us>
+	<weight_eu>97.0 kg</weight_eu>
+	<base_exp_yield>75</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>1</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Gray</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>30</hp>
+		<atk>45</atk>
+		<def>135</def>
+		<sp_atk>45</sp_atk>
+		<sp_def>90</sp_def>
+		<speed>30</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Probopass</to>
+			<level_up>true</level_up>
+			<conditions>
+				<item>In a Magnetic Field area</item>
+			</conditions>
+		</item>
+	</evolutions>
+	<alola_id>198</alola_id>
+	<categories>
+		<en>Compass Pokémon</en>
+		<de>Kompass</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id>61</hoenn_id>
+	<sinnoh_id>155</sinnoh_id>
+	<unova_id/>
+	<kalos_id>93</kalos_id>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Ruby>
+			<en>Nosepass's magnetic nose is always pointed to the north. If two of these Pokémon meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.</en>
+			<de>Nasgnet besitzt eine magnetische Nase, die immer nach Norden zeigt. Wenn sich zwei Nasgnet treffen, können sie sich einander nicht zuwenden, da ihre magnetischen Nasen sich gegenseitig abstoßen.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Nosepass had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the Pokémon actually moves by a little over 3/8 of an inch every year.</en>
+			<de>Nasgnet wurde zunächst als völlig unbeweglich beschrieben, da seine magnetische Nase immer nach Norden zeigt. Genauere Beobachtungen haben jedoch ergeben, dass es sich pro Jahr tatsächlich etwa um 1 cm bewegt.</de>
+		</Sapphire>
+		<Emerald>
+			<en>Its body emits a powerful magnetism. It feeds on prey that is pulled in by the force. Its magnetism is stronger in cold seasons.</en>
+			<de>Sein Körper ist stark magnetisch. NASGNET ernährt sich von Beute, die es mit Gewalt heranzieht. Im Winter ist sein Magnetfeld stärker.</de>
+		</Emerald>
+		<FireRed>
+			<en>Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.</en>
+			<de>Seine magnetische Nase zeigt stets gen Norden. Reisende überprüfen Nasgnet, um sich zu orientieren.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.</en>
+			<de>Seine magnetische Nase zeigt stets gen Norden. Reisende überprüfen Nasgnet, um sich zu orientieren.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.</en>
+			<de>Seine Nase ist ein Magnet. Daher sieht das PKMN immer nach Norden.</de>
+		</Diamond>
+		<Pearl>
+			<en>Its nose is a magnet. As a result, this Pokémon always keeps its face pointing north.</en>
+			<de>Seine Nase ist ein Magnet. Daher sieht das PKMN immer nach Norden.</de>
+		</Pearl>
+		<Platinum>
+			<en>When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.</en>
+			<de>Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht.</de>
+		</Platinum>
+		<HeartGold>
+			<en>If two of these meet, they cannot get too close because their noses repel each other.</en>
+			<de>Seine Nase ist ein Magnet. Daher sieht das PKMN immer nach Norden.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>If two of these meet, they cannot get too close because their noses repel each other.</en>
+			<de>Seine Nase ist ein Magnet. Daher sieht das PKMN immer nach Norden.</de>
+		</SoulSilver>
+		<Black>
+			<en>When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.</en>
+			<de>Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht.</de>
+		</Black>
+		<White>
+			<en>When endangered, it may protect itself by raising its magnetism and drawing iron objects to its body.</en>
+			<de>Es schützt sich bei Gefahr durch Gegenstände aus Eisen, die es mit erhöhtem Magnetismus an sich zieht.</de>
+		</White>
+		<Black_2>
+			<en>Its magnetic nose always faces north and draws iron objects to its body to protect itself better.</en>
+			<de>Es schützt sich mit Objekten aus Eisen, die es mithilfe seiner immer nach Norden zeigenden magnetischen Nase anzieht.</de>
+		</Black_2>
+		<White_2>
+			<en>Its magnetic nose always faces north and draws iron objects to its body to protect itself better.</en>
+			<de>Es schützt sich mit Objekten aus Eisen, die es mithilfe seiner immer nach Norden zeigenden magnetischen Nase anzieht.</de>
+		</White_2>
+		<X>
+			<en>Its magnetic nose always faces north and draws iron objects to its body to protect itself better.</en>
+			<de>Es schützt sich mit Objekten aus Eisen, die es mithilfe seiner immer nach Norden zeigenden magnetischen Nase anzieht.</de>
+		</X>
+		<Y>
+			<en>Its magnetic nose consistently faces north. Travelers check Nosepass to get their bearings.</en>
+			<de>Seine magnetische Nase zeigt stets gen Norden. Reisende überprüfen Nasgnet, um sich zu orientieren.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Nosepass’s magnetic nose is always pointed to the north. If two of these Pokémon meet, they cannot turn their faces to each other when they are close because their magnetic noses repel one another.</en>
+			<de>Nasgnet besitzt eine magnetische Nase, die immer nach Norden zeigt. Wenn sich zwei Nasgnet treffen, können sie sich einander nicht zuwenden, da ihre magnetischen Nasen sich gegenseitig Abstoßen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Nosepass had been said to be completely unmoving, with its magnetic nose pointed due north. However, close observation has revealed that the Pokémon actually moves by a little over 3/8 of an inch every year.</en>
+			<de>Nasgnet wurde zunächst als völlig unbeweglich beschrieben, da seine magnetische Nase immer nach Norden zeigt. Genauere Beobachtungen haben jedoch ergeben, dass es sich pro Jahr tatsächlich etwa um 1 cm bewegt.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>The magnet in Nosepass's nose provides an unerring compass, making it an excellent partner for Trainers going on a journey.</en>
+			<de>Seine magnetische Nase ist unbeirrbar und erweist sich daher als ganz hervorragender Partner für Pokémon-Trainer auf Reisen.</de>
+		</Sun>
+		<Moon>
+			<en>It uses powerful magnetism to drag its prey toward it. It's also been known to pull in metal, which it collects and uses to protect itself.</en>
+			<de>Es nutzt sein starkes Magnetfeld, um Beute zu sich heranzuziehen. Ebenso zieht es Objekte aus Eisen an, um sich mit ihnen zu schützen.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It moves less than an inch a year, but when it’s in a jam, it will spin and drill down into the ground in a split second.</en>
+			<de>Es bewegt sich nur 1 cm pro Jahr, aber in Notlagen bohrt es sich mit seinem Körper blitzschnell in den Boden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>It hunts without twitching a muscle by pulling in its prey with powerful magnetism. But sometimes it pulls natural enemies in close.</en>
+			<de>Es jagt bewegungslos, indem es Beute mit seinem starken Magnetfeld zu sich heranzieht. Manchmal sind jedoch auch Fressfeinde dabei.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>1</item>
+			<item>2</item>
+		</speed>
+		<power>
+			<item>3</item>
+			<item>4</item>
+		</power>
+		<stamina>
+			<item>4</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>2</item>
+			<item>3</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>155</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>79</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>79</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Head Smash</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>79</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>32</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Harden</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Rock Throw</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Rest</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Power Gem</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Rock Blast</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Lock-On</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Block</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Magnitude</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Stealth Rock</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Explosion</move>
+					<tm>TM64</tm>
+				</item>
+				<item>
+					<move>Rock Polish</move>
+					<tm>TM69</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">10</index_number>
+	<pp type="int">35</pp>
+	<max_pp type="int">56</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Kradse</dk>
+		<fr type="str">Griffe</fr>
+		<de type="str">Kratzer</de>
+		<gr type="str">Γρατσουνιά</gr>
+		<it type="str">Graffio</it>
+		<pl type="str">RysaDrapanie (season 11)</pl>
+		<tr type="str">Tırmalama</tr>
+		<en type="str">Scratch</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Scratches with sharp claws.</en>
+			<de type="str">Angriff mit scharfen Klauen.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Scratches with sharp claws.</en>
+			<de type="str">Angriff mit scharfen Klauen.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Scratches with sharp claws.</en>
+			<de type="str">Angriff mit scharfen Klauen.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Scratches the foe with sharp claws.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Scratches the foe with sharp claws.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Scratches the foe with sharp claws.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the foe to inflict damage.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen zerkratzt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">Hard, pointed, and sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">Hard, pointed, sharp claws rake the target to inflict damage.</en>
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird mit scharfen Klauen zerkratzt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

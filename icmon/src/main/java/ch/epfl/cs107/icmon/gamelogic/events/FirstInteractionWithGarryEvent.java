@@ -15,6 +15,7 @@ public class FirstInteractionWithGarryEvent extends ICMonEvent {
     private final Garry garry;
 
     public FirstInteractionWithGarryEvent(Garry garry) {
+        assert garry != null;
         this.garry = garry;
 
         onStart(new LogAction("event.firstInteractionWithGarry.start"));

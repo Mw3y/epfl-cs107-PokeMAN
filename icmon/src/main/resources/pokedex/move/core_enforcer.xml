@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Core Enforcer</en>
+		<fr type="str">Sanction Suprême</fr>
+		<de type="str">Sanktionskern</de>
+		<it type="str">Nucleocastigo</it>
+		<es type="str">Núcleo Castigo</es>
+	</names>
+	<index_number type="int">687</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Dragon</type>
+	<category type="str">special</category>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">100</power>
+	<accuracy type="int">100</accuracy>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.</en>
+			<de type="str">Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.</en>
+			<de type="str">Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.</en>
+			<de type="str">Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">If the Pokémon the user has inflicted damage on have already used their moves, this move eliminates the effect of the target’s Ability.</en>
+			<de type="str">Hat das Pokémon, das durch diese Attacke Schaden genommen hat, in dieser Runde bereits gehandelt, verliert es seine Fähigkeit.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

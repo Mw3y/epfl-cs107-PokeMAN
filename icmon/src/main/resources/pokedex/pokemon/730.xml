@@ -1,0 +1,588 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Primarina</en>
+		<jp>アシレーヌ Ashirene</jp>
+		<fr>Oratoria</fr>
+		<es>Primarina</es>
+		<de>Primarene</de>
+		<it>Primarina</it>
+	</names>
+	<national_id>730</national_id>
+	<alola_id>9</alola_id>
+	<types>
+		<item>Water</item>
+		<item>Fairy</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Torrent</name>
+		</item>
+		<item>
+			<name>Liquid Voice</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>87.5</male>
+		<female>12.5</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Water 1</item>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>5'11&quot;</height_us>
+	<height_eu>1.8 m</height_eu>
+	<weight_us>97.0 lbs.</weight_us>
+	<weight_eu>44.0 kg</weight_eu>
+	<base_exp_yield>239</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<color>Blue</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>3</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>80</hp>
+		<atk>74</atk>
+		<def>74</def>
+		<sp_atk>126</sp_atk>
+		<sp_def>116</sp_def>
+		<speed>60</speed>
+	</base_stats>
+	<evolution_from>Brionne</evolution_from>
+	<categories>
+		<en>Soloist Pokémon</en>
+		<de>Solist</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>It controls its water balloons with song. The melody is learned from others of its kind and is passed down from one generation to the next.</en>
+			<de>Es kontrolliert mit seinem Gesang Wasserblasen. Die Melodie, die über Generationen im Rudel überliefert wird, lernt es von seinen Kameraden.</de>
+		</Sun>
+		<Moon>
+			<en>Its singing voice is its chief weapon in battle. This Pokémon's Trainer must prioritize the daily maintenance of its throat at all costs.</en>
+			<de>Es kämpft unter vollem Einsatz seiner Gesangsstimme. Zu den Aufgaben seines Trainers zählen somit Pflege und Schonung der Stimmbänder.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>To Primarina, every battle is a stage. It takes down its prey with beautiful singing and dancing.</en>
+			<de>Für Primarene ist jeder Kampf wie eine Aufführung. Es erlegt seine Beute mithilfe von anmutigem Gesang und Tanzschritten.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Also known as a songstress, it has a fantastical look on moonlit nights when it leads its colony in song.</en>
+			<de>Der Anblick, wenn es in vom Mond erhellten Nächten seine singende Kolonie dirigiert, ist magisch. Es wird auch Primadonna genannt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>9</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Disarming Voice</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sparkling Aria</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Disarming Voice</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Baby-Doll Eyes</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Aqua Jet</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Double Slap</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Hyper Voice</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Misty Terrain</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aromatic Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wonder Room</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Disarming Voice</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pound</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sparkling Aria</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Disarming Voice</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Baby-Doll Eyes</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Aqua Jet</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Encore</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Sing</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Double Slap</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Hyper Voice</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Moonblast</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hydro Pump</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Misty Terrain</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aqua Ring</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Aromatic Mist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Perish Song</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wonder Room</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Ice Beam</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Blizzard</move>
+					<tm>TM14</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -33,6 +33,7 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
     }
 
     private void performActions(List<Action> actions) {
+        assert actions != null;
         for (Action action : actions) {
             action.perform();
         }
@@ -66,17 +67,22 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         }
     }
 
-    final public void onStart(Action action) {startActions.add(action);}
+    final public void onStart(Action action) {
+        assert action != null;
+        startActions.add(action);}
 
     final public void onComplete(Action action) {
+        assert action != null;
         completeActions.add(action);
     }
 
     final public void onSuspension(Action action) {
+        assert action != null;
         suspendActions.add(action);
     }
 
     final public void onResume(Action action) {
+        assert action != null;
         resumeActions.add(action);
     }
 

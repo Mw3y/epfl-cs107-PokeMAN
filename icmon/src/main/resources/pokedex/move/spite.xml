@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">180</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Dépit</fr>
+		<de type="str">Groll</de>
+		<gr type="str">Φθόνος</gr>
+		<it type="str">Dispetto</it>
+		<en type="str">Spite</en>
+	</names>
+	<type type="str">Ghost</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Cuts the PP of the foe's last move.</en>
+			<de type="str">Senkt AP der letzten Gegnerattacke.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Cuts the PP of the foe's last move.</en>
+			<de type="str">Senkt AP der letzten Gegnerattacke.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Cuts the PP of the foe's last move.</en>
+			<de type="str">Senkt AP der letzten Gegnerattacke.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Spitefully cuts the PP of the foe’s last move.</en>
+			<de type="str">AP des letzten gegner. Angriff werden gesenkt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Spitefully cuts the PP of the foe’s last move.</en>
+			<de type="str">AP des letzten gegner. Angriff werden gesenkt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Spitefully cuts the PP of the foe’s last move.</en>
+			<de type="str">AP des letzten gegner. Angriff werden gesenkt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A move that cuts 2 to 5 PP from the move last used by the foe.</en>
+			<de type="str">AP des letzten gegnerischen Angriffs werden um 2 - 5 gesenkt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A move that cuts 2 to 5 PP from the move last used by the foe.</en>
+			<de type="str">AP des letzten gegnerischen Angriffs werden um 2 - 5 gesenkt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user looses its grudge on the move last used by the foe by cutting 4 PP from it.</en>
+			<de type="str">AP des letzten gegnerischen Angriffs werden um 4 gesenkt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user looses its grudge on the move last used by the foe by cutting 4 PP from it.</en>
+			<de type="str">AP des letzten gegnerischen Angriffs werden um 4 gesenkt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user looses its grudge on the move last used by the foe by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten gegnerischen Attacke werden um 4 gesenkt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user looses its grudge on the move last used by the foe by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten gegnerischen Attacke werden um 4 gesenkt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user looses its grudge on the move last used by the foe by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten gegnerischen Attacke werden um 4 gesenkt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user unleashes its grudge on the move last used by the target by cutting 4 PP from it.</en>
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">AP der letzten Attacke des Zieles werden um 4 gesenkt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

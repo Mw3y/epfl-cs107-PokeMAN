@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">337</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Dracogriffe</fr>
+		<de type="str">Drachenklaue</de>
+		<gr type="str">Νύχι Δράκου</gr>
+		<it type="str">Dragartigli</it>
+		<pl type="str">Pazur Smoka</pl>
+		<tr type="str">Ejderha Pençesi</tr>
+		<en type="str">Dragon Claw</en>
+	</names>
+	<type type="str">Dragon</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Slashes the foe with sharp claws.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen verletzt.* (Attacken-Beschreibung)Gegner wird mit langen, scharfen Krallen attackiert.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Slashes the foe with sharp claws.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen verletzt.* (Attacken-Beschreibung)Gegner wird mit langen, scharfen Krallen attackiert.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Slashes the foe with sharp claws.</en>
+			<de type="str">Der Gegner wird mit scharfen Klauen verletzt.* (Attacken-Beschreibung)Gegner wird mit langen, scharfen Krallen attackiert.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Sharp, huge claws hook and slash the foe quickly and with great power.</en>
+			<de type="str">Der Gegner wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Der Gegner wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Sharp, huge claws hook and slash the foe quickly and with great power.</en>
+			<de type="str">Der Gegner wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Der Gegner wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user slashes the foe with huge, sharp claws.</en>
+			<de type="str">Der Gegner wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Der Gegner wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user slashes the foe with huge, sharp claws.</en>
+			<de type="str">Der Gegner wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Der Gegner wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user slashes the foe with huge, sharp claws.</en>
+			<de type="str">Der Gegner wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Der Gegner wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user slashes the foe with huge, sharp claws.</en>
+			<de type="str">Der Gegner wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Der Gegner wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user slashes the foe with huge, sharp claws.</en>
+			<de type="str">Der Gegner wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Der Gegner wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user slashes the target with huge, sharp claws.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user slashes the target with huge sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user slashes the target with huge sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user slashes the target with huge sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user slashes the target with huge sharp claws.</en>
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird mit riesigen, scharfen Klauen stark verletzt.* (Attacken-Beschreibung)Das Ziel wird mit langen, scharfen Krallen brutal attackiert.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

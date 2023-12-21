@@ -1,0 +1,1585 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Brutapode</fr>
+		<de>Cerapendra</de>
+		<it>Scolipede</it>
+		<en>Scolipede</en>
+	</names>
+	<national_id>545</national_id>
+	<types>
+		<item>Bug</item>
+		<item>Poison</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Poison Point</name>
+		</item>
+		<item>
+			<name>Speed Boost</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+	</egg_groups>
+	<hatch_time>
+		<item>4080</item>
+		<item>4334</item>
+	</hatch_time>
+	<height_us>8'02&quot;</height_us>
+	<height_eu>2.5 m</height_eu>
+	<weight_us>442.0 lbs.</weight_us>
+	<weight_eu>200.5 kg</weight_eu>
+	<base_exp_yield>214</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>3</speed>
+	</ev_yield>
+	<color>Red</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>60</hp>
+		<atk>90</atk>
+		<def>89</def>
+		<sp_atk>55</sp_atk>
+		<sp_def>69</sp_def>
+		<speed>112</speed>
+	</base_stats>
+	<evolution_from>Whirlipede</evolution_from>
+	<categories>
+		<en>Megapede Pokémon</en>
+		<de>Riesenfüßer</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id>51</unova_id>
+	<kalos_id>122</kalos_id>
+	<alola_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Black>
+			<en>With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.</en>
+			<de>Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort.</de>
+		</Black>
+		<White>
+			<en>Highly aggressive, it uses the claws near its neck to dig into its opponents and poison them.</en>
+			<de>Rammt den Gegner mit den Zacken an seinem Hals und verpasst ihm eine Ladung Gift. Von Natur aus sehr angriffslustig.</de>
+		</White>
+		<Black_2>
+			<en>It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.</en>
+			<de>Lähmt seine Beute, indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest.</de>
+		</Black_2>
+		<White_2>
+			<en>It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.</en>
+			<de>Lähmt seine Beute, indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest.</de>
+		</White_2>
+		<X>
+			<en>It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.</en>
+			<de>Lähmt seine Beute, indem es sie mit den Zacken an seinem Hals aufspießt. Mit einer Ladung Gift gibt es ihr den Rest.</de>
+		</X>
+		<Y>
+			<en>With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.</en>
+			<de>Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>It clasps its prey with the claws on its neck until it stops moving. Then it finishes it off with deadly poison.</en>
+			<de>Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>With quick movements, it chases down its foes, attacking relentlessly with its horns until it prevails.</en>
+			<de>Holt Gegner flinken Fußes ein und greift sie mit den Hörnern an seinem Kopf an. Gnade ist ihm ein Fremdwort.</de>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id/>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Steamroller</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twineedle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Steamroller</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twineedle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Steamroller</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twineedle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Steamroller</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twineedle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Baton Pass</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Steamroller</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twineedle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Baton Pass</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rollout</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Poison Sting</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Protect</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Poison Tail</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Steamroller</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Megahorn</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Pin Missile</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Rock Climb</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Twineedle</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Smart Strike</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Gyro Ball</move>
+					<tm>TM74</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>X-Scissor</move>
+					<tm>TM81</tm>
+				</item>
+				<item>
+					<move>Infestation</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

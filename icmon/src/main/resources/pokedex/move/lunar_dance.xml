@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">461</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Danse-Lune</fr>
+		<de type="str">Lunartanz</de>
+		<gr type="str">Σεληνιακός Χορός</gr>
+		<it type="str">Lunardanza</it>
+		<en type="str">Lunar Dance</en>
+	</names>
+	<type type="str">Psychic</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">7</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Status-probl. werden geheilt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Status-probl. werden geheilt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat volle KP. Status-probl. werden geheilt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende PKMN hat volle KP/AP. Status-probl. werden geheilt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende PKMN hat volle KP/AP. Status-probl. werden geheilt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP/AP. Statusprobleme werden geheilt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP/AP. Statusprobleme werden geheilt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP/AP. Statusprobleme werden geheilt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP/AP. Statusprobleme werden geheilt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP und AP. Statusprobleme werden geheilt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP und AP. Statusprobleme werden geheilt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP sowie AP und wird von Statusproblemen geheilt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP sowie AP und wird von Statusproblemen geheilt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP sowie AP und wird von Statusproblemen geheilt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user faints. In return, the Pokémon taking its place will have its status and HP fully restored.</en>
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP sowie AP und wird von Statusproblemen geheilt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP und AP. Statusprobleme werden geheilt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender geht K.O. Das an seine Stelle tretende Pokémon hat dafür volle KP und AP. Statusprobleme werden geheilt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

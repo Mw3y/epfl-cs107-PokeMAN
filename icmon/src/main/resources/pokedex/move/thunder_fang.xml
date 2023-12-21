@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">422</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">65</power>
+	<accuracy type="int">95</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Crocs Éclair</fr>
+		<de type="str">Donnerzahn</de>
+		<gr type="str">Κεραυνόδοντες</gr>
+		<it type="str">Fulmindenti</it>
+		<pl type="str">Piorunowy KiełKieł Pioruna (season 11)</pl>
+		<tr type="str">Yıldırım Dişi</tr>
+		<en type="str">Thunder Fang</en>
+	</names>
+	<type type="str">Electric</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Gegner schreckt evtl. zurück oder wird paralysiert.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Gegner schreckt evtl. zurück oder wird paralysiert.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Gegner schreckt evtl. zurück oder wird paralysiert.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Gegner schreckt evtl. zurück oder wird paralysiert.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the foe flinch or become paralyzed.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Gegner schreckt evtl. zurück oder wird paralysiert.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user bites with electrified fangs. It may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user bites with electrified fangs. This may also make the target flinch or leave it with paralysis.</en>
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender beißt mit elektrifizierten Reißzähnen zu. Das Ziel schreckt eventuell zurück oder wird paralysiert.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">paralysis</condition>
+				<probability type="int">10</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

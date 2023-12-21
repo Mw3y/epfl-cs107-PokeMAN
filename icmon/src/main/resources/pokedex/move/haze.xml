@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">114</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Tåge</dk>
+		<fr type="str">Buée Noire</fr>
+		<de type="str">Dunkelnebel</de>
+		<gr type="str">Καταχνιά</gr>
+		<it type="str">Nube</it>
+		<pl type="str">Ciemna Mgła</pl>
+		<en type="str">Haze</en>
+	</names>
+	<type type="str">Ice</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Eliminates all stat changes.</en>
+			<de type="str">Verwirft alle Statusänderungen.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Eliminates all stat changes.</en>
+			<de type="str">Verwirft alle Statusänderungen.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Eliminates all stat changes.</en>
+			<de type="str">Verwirft alle Statusänderungen.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Creates a black haze that eliminates all stat changes.</en>
+			<de type="str">Erzeugt dunklen Dunst. Löscht alle Statusänder.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Creates a black haze that eliminates all stat changes.</en>
+			<de type="str">Erzeugt dunklen Dunst. Löscht alle Statusänder.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Creates a black haze that eliminates all stat changes.</en>
+			<de type="str">Erzeugt dunklen Dunst. Löscht alle Statusänder.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Eliminates all stat changes among all POKéMON engaged in battle.</en>
+			<de type="str">Alle Statusveränderungen der Kampfteilnehmer werden annulliert.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Eliminates all stat changes among all POKéMON engaged in battle.</en>
+			<de type="str">Alle Statusveränderungen der Kampfteilnehmer werden annulliert.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user creates a haze that eliminates every stat change among all the Pokémon engaged in battle.</en>
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Erzeugt einen dunklen Nebel. Alle Veränderungen der Statuswerte der Kampfteilnehmer werden annulliert.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

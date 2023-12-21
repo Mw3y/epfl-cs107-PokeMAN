@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">327</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">85</power>
+	<accuracy type="int">90</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Stratopercut</fr>
+		<de type="str">Himmelhieb</de>
+		<gr type="str">Ουράνιο Κόψιμο'</gr>
+		<it type="str">Stramontante</it>
+		<en type="str">Sky Uppercut</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">An uppercut thrown as if leaping into the sky.</en>
+			<de type="str">Kinnhaken, als würde man in die Luft springen.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">An uppercut thrown as if leaping into the sky.</en>
+			<de type="str">Kinnhaken, als würde man in die Luft springen.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">An uppercut thrown as if leaping into the sky.</en>
+			<de type="str">Kinnhaken, als würde man in die Luft springen.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user attacks with an uppercut thrown skywards with force.</en>
+			<de type="str">Kinnhaken, der den Gegner gen Himmel schickt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user attacks with an uppercut thrown skywards with force.</en>
+			<de type="str">Kinnhaken, der den Gegner gen Himmel schickt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks the foe with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der den Gegner gen Himmel schickt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks the foe with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der den Gegner gen Himmel schickt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks the foe with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der den Gegner gen Himmel schickt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks the foe with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der den Gegner gen Himmel schickt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks the foe with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der den Gegner gen Himmel schickt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks the target with an uppercut thrown skyward with force.</en>
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Kinnhaken, der das Ziel gen Himmel schickt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

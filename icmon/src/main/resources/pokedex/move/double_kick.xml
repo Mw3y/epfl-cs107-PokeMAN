@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">24</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">30</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Dobbeltspark</dk>
+		<fr type="str">Double Pied</fr>
+		<de type="str">Doppelkick</de>
+		<gr type="str">Διπλό Λάκτισμα</gr>
+		<it type="str">Doppiocalcio</it>
+		<pl type="str">Podwójne Kopnięcie</pl>
+		<en type="str">Double Kick</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">A double kicking attack.</en>
+			<de type="str">Angriff durch Doppel-Kick.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">A double kicking attack.</en>
+			<de type="str">Angriff durch Doppel-Kick.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">A double kicking attack.</en>
+			<de type="str">Angriff durch Doppel-Kick.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A double-kicking attack that strikes the foe twice.</en>
+			<de type="str">Doppeltritt. Der Gegner wird zweimal getroffen.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A double-kicking attack that strikes the foe twice.</en>
+			<de type="str">Doppeltritt. Der Gegner wird zweimal getroffen.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A double-kicking attack that strikes the foe twice.</en>
+			<de type="str">Doppeltritt. Der Gegner wird zweimal getroffen.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Two legs are used to quickly kick the foe twice in one turn.</en>
+			<de type="str">Beide Beine treten in einer Runde 2-mal schnell zu.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Two legs are used to quickly kick the foe twice in one turn.</en>
+			<de type="str">Beide Beine treten in einer Runde 2-mal schnell zu.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is quickly kicked twice in succession using both feet.</en>
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender tritt in einer Runde zweimal schnell zu.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

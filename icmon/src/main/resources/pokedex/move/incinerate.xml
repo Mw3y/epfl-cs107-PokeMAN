@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">510</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">adjacent_foes_all</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Calcination</fr>
+		<de type="str">Einäschern</de>
+		<it type="str">Bruciatutto</it>
+		<en type="str">Incinerate</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere bei sich, wird diese von den Flammen verzehrt und geht verloren.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere bei sich, wird diese von den Flammen verzehrt und geht verloren.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere bei sich, wird diese von den Flammen verzehrt und geht verloren.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks the target with fire. If the target is holding a Berry, the Berry becomes burnt up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere bei sich, wird diese von den Flammen verzehrt und geht verloren.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks opposing Pokémon with fire. If a Pokémon is holding a certain item, such as a Berry, the item becomes burned up and unusable.</en>
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Eine Feuer-Attacke. Trägt das Ziel eine Beere oder ein ähnliches Item bei sich, wird dieses von den Flammen verzehrt und geht verloren.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">116</index_number>
+	<pp type="int">30</pp>
+	<max_pp type="int">48</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Energifokus</dk>
+		<fr type="str">Puissance</fr>
+		<de type="str">Energiefokus</de>
+		<gr type="str">Εστίαση Δύναμης</gr>
+		<it type="str">Focalenergia</it>
+		<pl type="str">Skupienie Energii</pl>
+		<en type="str">Focus Energy</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">3</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Raises the critical hit ratio.</en>
+			<de type="str">Volltrefferquote wird erhöht.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Raises the critical hit ratio.</en>
+			<de type="str">Volltrefferquote wird erhöht.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Raises the critical hit ratio.</en>
+			<de type="str">Volltrefferquote wird erhöht.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Focuses power to raise the critical-hit ratio.</en>
+			<de type="str">Bündelt Kraft. Volltrefferchance wird erhöht.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Focuses power to raise the critical-hit ratio.</en>
+			<de type="str">Bündelt Kraft. Volltrefferchance wird erhöht.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Focuses power to raise the critical-hit ratio.</en>
+			<de type="str">Bündelt Kraft. Volltrefferchance wird erhöht.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user takes a deep breath and focuses to raise its critical-hit ratio.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Volltrefferchance steigt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user takes a deep breath and focuses to raise its critical-hit ratio.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Volltrefferchance steigt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user takes a deep breath and focuses to raise the critical-hit ratio of its attacks.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user takes a deep breath and focuses so that critical hits land more easily.</en>
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender atmet ein und bündelt Kraft. Die Volltrefferquote steigt dadurch.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

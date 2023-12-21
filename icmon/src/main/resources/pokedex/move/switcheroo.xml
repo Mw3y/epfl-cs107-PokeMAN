@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">415</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Passe-Passe</fr>
+		<de type="str">Wechseldich</de>
+		<gr type="str">Υποχθόνια Αλλαγή</gr>
+		<it type="str">Rapidscambio</it>
+		<en type="str">Switcheroo</en>
+	</names>
+	<type type="str">Dark</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">The user trades held items with the foe faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Gegner getauscht.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user trades held items with the foe faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Gegner getauscht.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user trades held items with the foe faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Gegner getauscht.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user trades held items with the foe faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Gegner getauscht.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user trades held items with the foe faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Gegner getauscht.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user trades held items with the target faster than the eye can follow.</en>
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Item wird in Windeseile mit dem Ziel getauscht.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,623 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Decidueye</en>
+		<jp>ジュナイパー Junaiper</jp>
+		<fr>Archéduc</fr>
+		<es>Decidueye</es>
+		<de>Silvarro</de>
+		<it>Decidueye</it>
+	</names>
+	<national_id>724</national_id>
+	<alola_id>3</alola_id>
+	<types>
+		<item>Grass</item>
+		<item>Ghost</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Overgrow</name>
+		</item>
+		<item>
+			<name>Long Reach</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>87.5</male>
+		<female>12.5</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Flying</item>
+	</egg_groups>
+	<hatch_time>
+		<item>3855</item>
+		<item>4111</item>
+	</hatch_time>
+	<height_us>5'03&quot;</height_us>
+	<height_eu>1.6 m</height_eu>
+	<weight_us>80.7 lbs.</weight_us>
+	<weight_eu>36.6 kg</weight_eu>
+	<base_exp_yield>239</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<color>Brown</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>3</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>78</hp>
+		<atk>107</atk>
+		<def>75</def>
+		<sp_atk>100</sp_atk>
+		<sp_def>100</sp_def>
+		<speed>70</speed>
+	</base_stats>
+	<evolution_from>Dartrix</evolution_from>
+	<categories>
+		<en>Arrow Quill Pokémon</en>
+		<de>Pfeilflügel</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards.</en>
+			<de>Dieses Pokémon kann die Federn seiner Flügel wie Pfeile verschießen. Dabei ist es so präzise, dass es einen Kiesel auf 100 m durchbohrt.</de>
+		</Sun>
+		<Moon>
+			<en>Although basically cool and cautious, when it's caught by surprise, it's seized by panic.</en>
+			<de>Im Grunde ein vorsichtiges und gelassenes Pokémon, das jedoch in wahnsinnige Panik verfällt, wenn es überrascht wird.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It nocks its arrow quills and shoots them at opponents. When it simply can’t afford to miss, it tugs the vine on its head to improve its focus.</en>
+			<de>Es legt seine Federpfeile an, um sie auf Gegner zu schießen. Muss ein Schuss sitzen, zieht es zur Konzentration an einer seiner Kopfranken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Decidueye can nock and fire an arrow at an enemy in a tenth of a second, so its battles are decided in the blink of an eye.</en>
+			<de>Es braucht bloß 0,1 Sekunden, um eine Feder anzulegen und auf den Gegner zu schießen. Oft besiegt es einen, bevor man blinzeln kann.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>3</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leafage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spirit Shackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Pluck</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Fury Attack</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Feather Dance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Brave Bird</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Defog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leaf Storm</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Leafage</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Phantom Force</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spirit Shackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Astonish</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Razor Leaf</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Foresight</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Pluck</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Synthesis</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Fury Attack</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Leaf Blade</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Feather Dance</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Brave Bird</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Baton Pass</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Confuse Ray</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Curse</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Defog</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Haze</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ominous Wind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

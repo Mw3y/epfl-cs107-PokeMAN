@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Poipole</en>
+		<fr>Vémini</fr>
+		<es>Poipole</es>
+		<de>Venicro</de>
+		<it>Poipole</it>
+	</names>
+	<categories>
+		<en>Poison Pin Pokémon</en>
+		<de>Giftdorn</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<unova_id/>
+	<kalos_id/>
+	<sinnoh_id/>
+	<alola_id/>
+	<ultra_alola_id>261</ultra_alola_id>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>67</hp>
+		<atk>73</atk>
+		<def>67</def>
+		<sp_atk>73</sp_atk>
+		<sp_def>67</sp_def>
+		<speed>73</speed>
+	</base_stats>
+	<pokedex_entries>
+		<Ultra_Sun>
+			<en>This Ultra Beast is well enough liked to be chosen as a first partner in its own world.</en>
+			<de>Diese Ultrabestie wird in der Welt, aus der sie kommt, so gemocht, dass sie oft als Partner für Reisen gewählt wird.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>An Ultra Beast that lives in a different world, it cackles wildly as it sprays its opponents with poison from the needles on its head.</en>
+			<de>Diese Ultrabestie aus einer anderen Welt besprüht Gegner laut lachend mit einer giftigen Flüssigkeit aus den Stacheln auf ihrem Kopf.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<variations/>
+	<mega_evolutions/>
+	<evolutions>
+		<item>
+			<to>Naganadel</to>
+			<move_learned>Dragon Pulse</move_learned>
+		</item>
+	</evolutions>
+	<evolution_from/>
+	<national_id>803</national_id>
+	<types>
+		<item>Poison</item>
+	</types>
+	<height_us>2'0&quot;</height_us>
+	<height_eu>0.6 m</height_eu>
+	<weight_us>4.0 lbs.</weight_us>
+	<weight_eu>1.8 kg</weight_eu>
+	<abilities>
+		<item>
+			<name>Beast Boost</name>
+		</item>
+	</abilities>
+	<catch_rate>0</catch_rate>
+	<base_friendship>0</base_friendship>
+	<base_exp_yield>0</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<gender_ratios/>
+	<hatch_time>
+		<item>1800</item>
+		<item>1800</item>
+	</hatch_time>
+	<color>Purple</color>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset/>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Acid</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Dragon Pulse</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Helping Hand</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fury Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Charm</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Venom Drench</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Fell Stinger</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Venoshock</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Sludge Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sludge Bomb</move>
+					<tm>TM36</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

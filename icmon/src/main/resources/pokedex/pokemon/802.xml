@@ -1,0 +1,584 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Marshadow</en>
+		<jp>マーシャドー Marshadow</jp>
+		<fr>Marshadow</fr>
+		<es>Marshadow</es>
+		<de>Marshadow</de>
+		<it>Marshadow</it>
+	</names>
+	<national_id>802</national_id>
+	<alola_id>302</alola_id>
+	<types>
+		<item>Fighting</item>
+		<item>Ghost</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Technician</name>
+		</item>
+	</abilities>
+	<catch_rate>3</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>2'04&quot;</height_us>
+	<height_eu>0.7 m</height_eu>
+	<weight_us>48.9 lbs.</weight_us>
+	<weight_eu>22.2 kg</weight_eu>
+	<base_exp_yield>120</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Gray</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>2</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>90</hp>
+		<atk>125</atk>
+		<def>80</def>
+		<sp_atk>90</sp_atk>
+		<sp_def>90</sp_def>
+		<speed>125</speed>
+	</base_stats>
+	<gender_ratios/>
+	<categories>
+		<en>Gloomdweller Pokémon</en>
+		<de>Dunkelheit</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Able to conceal itself in shadows, it never appears before humans, so its very existence was the stuff of myth.</en>
+			<de>Unbekannt</de>
+		</Sun>
+		<Moon>
+			<en>It lurks in the shadows of others, copying their movements and powers. This Pokémon is craven and cowering.</en>
+			<de>Unbekannt</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it’s imitating.</en>
+			<de>Schlüpft es in den Schatten seines Gegners, um dessen Bewegungen und Kräfte zu imitieren, kann es sogar stärker als das Original werden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>It sinks into the shadows of people and Pokémon, where it can understand their feelings and copy their capabilities.</en>
+			<de>Es verschmilzt mit den Schatten von Menschen und Pokémon, wodurch es ihre Gefühle verstehen und ihre Fähigkeiten kopieren kann.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>402</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Assurance</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Drain Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Laser Focus</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Force Palm</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Jump Kick</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Spectral Thief</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Assurance</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Counter</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Drain Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Laser Focus</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Shadow Sneak</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Force Palm</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Rolling Kick</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Copycat</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Shadow Punch</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Jump Kick</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Spectral Thief</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Sucker Punch</move>
+					<level>56</level>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Smack Down</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Low Sweep</move>
+					<tm>TM47</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>False Swipe</move>
+					<tm>TM54</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Poison Jab</move>
+					<tm>TM84</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

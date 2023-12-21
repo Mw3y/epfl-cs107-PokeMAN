@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Mind Blown</en>
+		<fr type="str">Caboche-Kaboum</fr>
+		<de type="str">Knallkopf</de>
+		<it type="str">Sbalorditesta</it>
+		<es type="str">Cabeza Sorpresa</es>
+	</names>
+	<index_number type="int">720</index_number>
+	<priority type="int">0</priority>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<contests type="list"/>
+	<type type="str">Fire</type>
+	<category type="str">special</category>
+	<power type="int">150</power>
+	<accuracy type="int">100</accuracy>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<target type="str">target_adjacent_single</target>
+	<pokedex_entries type="dict">
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks everything around it by causing its own head to explode. This also damages the user.</en>
+			<de type="str">Der Anwender greift alle Pokémon in der Umgebung an, indem er seinen Kopf explodieren lässt. Dabei verletzt er sich auch selbst.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks everything around it by causing its own head to explode. This also damages the user.</en>
+			<de type="str">Der Anwender greift alle Pokémon in der Umgebung an, indem er seinen Kopf explodieren lässt. Dabei verletzt er sich auch selbst.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

@@ -43,6 +43,8 @@ public class ICMon extends AreaGame {
 
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
+        assert window != null;
+        assert fileSystem != null;
         if (super.begin(window, fileSystem)) {
             createAreas();
             initArea(House.TITLE);
@@ -111,6 +113,7 @@ public class ICMon extends AreaGame {
      * @param event - The event to add
      */
     private void addEvent(ICMonEvent event) {
+        assert event != null;
         events.add(event);
     }
 
@@ -120,6 +123,7 @@ public class ICMon extends AreaGame {
      * @param event - The event to remove
      */
     private void removeEvent(ICMonEvent event) {
+        assert event != null;
         events.remove(event);
     }
 
@@ -132,6 +136,7 @@ public class ICMon extends AreaGame {
         areas.put(Arena.TITLE, new Arena());
         areas.put(House.TITLE, new House());
         areas.put(Shop.TITLE, new Shop());
+        areas.put(UndergroundLab.TITLE, new UndergroundLab());
         // Register areas
         for (ICMonArea area : areas.values()) {
             addArea(area);
@@ -144,6 +149,7 @@ public class ICMon extends AreaGame {
      * @param areaTitle - The name of the area the player will spawn in
      */
     private void initArea(String areaTitle) {
+        assert areaTitle != null;
         ICMonArea area = (ICMonArea) setCurrentArea(areaTitle, true);
         DiscreteCoordinates coords = area.getPlayerSpawnPosition();
         // Initialize player
@@ -168,6 +174,7 @@ public class ICMon extends AreaGame {
          * @param message - The action to perform using the game state data
          */
         public void send(GamePlayMessage message) {
+            assert message != null;
             messagesQueue.add(message);
         }
 
@@ -177,6 +184,7 @@ public class ICMon extends AreaGame {
          * @param isCellInteraction - Whether it was a contact interaction or not
          */
         public void acceptInteraction(Interactable interactable, boolean isCellInteraction) {
+            assert interactable != null;
             for (var event : ICMon.this.events) {
                 interactable.acceptInteraction(event, isCellInteraction);
             }

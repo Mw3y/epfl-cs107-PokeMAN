@@ -1,0 +1,3813 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Kadabra</fr>
+		<de>Kadabra</de>
+		<it>Kadabra</it>
+		<en>Kadabra</en>
+	</names>
+	<national_id>64</national_id>
+	<types>
+		<item>Psychic</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Synchronize</name>
+		</item>
+		<item>
+			<name>Magic Guard</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>75.0</male>
+		<female>25.0</female>
+	</gender_ratios>
+	<catch_rate>100</catch_rate>
+	<egg_groups>
+		<item>Human-Like</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>4'03&quot;</height_us>
+	<height_eu>1.3 m</height_eu>
+	<weight_us>124.6 lbs.</weight_us>
+	<weight_eu>56.5 kg</weight_eu>
+	<base_exp_yield>140</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>2</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Brown</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>40</hp>
+		<atk>35</atk>
+		<def>30</def>
+		<sp_atk>120</sp_atk>
+		<sp_def>70</sp_def>
+		<speed>105</speed>
+	</base_stats>
+	<evolution_from>Abra</evolution_from>
+	<evolutions>
+		<item>
+			<to>Alakazam</to>
+			<trade>true</trade>
+		</item>
+	</evolutions>
+	<alola_id>43</alola_id>
+	<categories>
+		<en>Psi Pokémon</en>
+		<de>Psi</de>
+	</categories>
+	<kanto_id>64</kanto_id>
+	<johto_id>90</johto_id>
+	<hoenn_id>41</hoenn_id>
+	<sinnoh_id>21</sinnoh_id>
+	<unova_id/>
+	<kalos_id>103</kalos_id>
+	<mega_evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<Red>
+			<en>It emits special alpha waves from its body that induce headaches just by being close by.</en>
+			<de>Dieses Pokémon sendet spezielle Alphawellen aus, die bei Gegnern Kopfschmerzen auslösen.</de>
+		</Red>
+		<Blue>
+			<en>It emits special alpha waves from its body that induce headaches just by being close by.</en>
+			<de>Dieses Pokémon sendet spezielle Alphawellen aus, die bei Gegnern Kopfschmerzen auslösen.</de>
+		</Blue>
+		<Yellow>
+			<en>Many odd things happen if this Pokémon is close by. For example, it makes clocks run backwards.</en>
+			<de>Viele seltsame Dinge passieren wenn Kadabra in der Nähe ist. Uhren z.B. laufen rückwärts.</de>
+		</Yellow>
+		<Gold>
+			<en>It possesses strong spiritual power. The more danger it faces, the stronger its psychic power.</en>
+			<de>Es verfügt über starke Psi-Kräfte. Je größer die Gefahr, desto stärker werden seine Psi-Kräfte.</de>
+		</Gold>
+		<Silver>
+			<en>If it uses its abilities, it emits special alpha waves that cause machines to malfunction.</en>
+			<de>Setzt es seine Kräfte ein, sendet es Alphawellen aus, die einen Defekt bei Maschinen auslösen können.</de>
+		</Silver>
+		<Crystal>
+			<en>When it closes its eyes, twice as many alpha particles come out of the surface of its body.</en>
+			<de>Schließt es seine Augen, entstehen auf der Oberfläche seines Körpers doppelt so viele Alpha-Teilchen.</de>
+		</Crystal>
+		<Ruby>
+			<en>Kadabra emits a peculiar alpha wave if it develops a headache. Only those people with a particularly strong psyche can hope to become a Trainer of this Pokémon.</en>
+			<de>Kadabra sendet Alphawellen aus, wenn es Kopfschmerzen hat. Nur wer eine besonders starke Psyche hat, kann dieses Pokémon unter seine Fittiche nehmen.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Kadabra holds a silver spoon in its hand. The spoon is used to amplify the alpha waves in its brain. Without the spoon, the Pokémon is said to be limited to half the usual amount of its telekinetic powers.</en>
+			<de>Kadabra hält einen silbernen Löffel in der Hand. Es verstärkt damit die Alphawellen in seinem Gehirn. Ohne den Löffel könnte dieses Pokémon nur die Hälfte seiner telekinetischen Kräfte nutzen.</de>
+		</Sapphire>
+		<Emerald>
+			<en>It is rumored that a boy with psychic abilities suddenly transformed into Kadabra while he was assisting research into extrasensory powers.</en>
+			<de>Man sagt, dass ein Junge mit Psykräften beim Assistieren von Untersuchungen im Bereich des Parasinnlichen plötzlich zu KADABRA wurde.</de>
+		</Emerald>
+		<FireRed>
+			<en>It happened one morning - a boy with extrasensory powers awoke in bed transformed into Kadabra.</en>
+			<de>Es geschah eines Morgens: Ein Junge mit zusätzlichen sensorischen Kräften erwachte in seinem Bett und wurde zu Kadabra.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>It emits special alpha waves from its body that induce headaches just by being close.</en>
+			<de>Dieses Pokémon sendet spezielle Alphawellen aus, die bei Gegnern Kopfschmerzen auslösen.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>If one is nearby, an eerie shadow appears on TV screens. Seeing the shadow is said to bring bad luck.</en>
+			<de>Wenn sich auf deinem Fernsehbild- schirm ein Schatten zeigt, ist es in der Nähe. Und das bringt Unglück.</de>
+		</Diamond>
+		<Pearl>
+			<en>When it uses its psychic power, it emits strong alpha waves that can ruin precision devices.</en>
+			<de>Setzt es seine Psycho-Kräfte ein, sondert es Alphawellen ab, die Präzisionsgeräten schaden können.</de>
+		</Pearl>
+		<Platinum>
+			<en>It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.</en>
+			<de>Es starrt auf seinen Silberlöffel, um sich zu konzentrieren. So kann es mehr Alphawellen ausstoßen.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It possesses strong spiritual power. The more danger it faces, the stronger its psychic power.</en>
+			<de>Wenn sich auf deinem Fernsehbild- schirm ein Schatten zeigt, ist es in der Nähe. Und das bringt Unglück.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>If it uses its abilities, it emits special alpha waves that cause machines to malfunction.</en>
+			<de>Wenn sich auf deinem Fernsehbild- schirm ein Schatten zeigt, ist es in der Nähe. Und das bringt Unglück.</de>
+		</SoulSilver>
+		<Black>
+			<en>It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.</en>
+			<de>Es starrt auf seinen Silberlöffel, um sich zu konzentrieren. So kann es mehr Alphawellen ausstoßen.</de>
+		</Black>
+		<White>
+			<en>It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.</en>
+			<de>Es starrt auf seinen Silberlöffel, um sich zu konzentrieren. So kann es mehr Alphawellen ausstoßen.</de>
+		</White>
+		<Black_2>
+			<en>It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.</en>
+			<de>Es starrt auf seinen Silberlöffel, um sich zu konzentrieren. So kann es mehr Alphawellen ausstoßen.</de>
+		</Black_2>
+		<White_2>
+			<en>It stares at its silver spoon to focus its mind. It emits more alpha waves while doing so.</en>
+			<de>Es starrt auf seinen Silberlöffel, um sich zu konzentrieren. So kann es mehr Alphawellen ausstoßen.</de>
+		</White_2>
+		<X>
+			<en>When it uses its psychic power, it emits strong alpha waves that can ruin precision devices.</en>
+			<de>Setzt es seine Psycho-Kräfte ein, sondert es Alphawellen ab, die Präzisionsgeräten schaden können.</de>
+		</X>
+		<Y>
+			<en>If it uses its abilities, it emits special alpha waves that cause machines to malfunction.</en>
+			<de>Setzt es seine Kräfte ein, sendet es Alphawellen aus, die einen Defekt bei Maschinen erzeugen können.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Kadabra emits a peculiar alpha wave if it develops a headache. Only those people with a particularly strong psyche can hope to become a trainer of this Pokémon.</en>
+			<de>Kadabra sendet Alphawellen aus, wenn es Kopfschmerzen hat. Nur wer eine besonders starke Psyche hat, kann dieses Pokémon unter seine Fittiche nehmen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Kadabra holds a silver spoon in its hand. The spoon is used to amplify the alpha waves in its brain. Without the spoon, the Pokémon is said to be limited to half the usual amount of its telekinetic powers.</en>
+			<de>Kadabra hält einen silbernen Löffel in der Hand. Es verstärkt damit die Alphawellen in seinem Gehirn. Ohne den Löffel könnte dieses Pokémon nur die Hälfte seiner telekinetischen Kräfte nutzen.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>A theory exists that this Pokémon was a young boy who couldn't control his psychic powers and ended up transformed into this Pokémon.</en>
+			<de>Es heißt, dass es früher ein Junge mit Psikräften war, der sich zu Kadabra verwandelte, weil er seine Fähigkeiten nicht kontrollieren konnte.</de>
+		</Sun>
+		<Moon>
+			<en>Kadabra's presence infests televisions and monitors with creepy shadows that bring bad luck.</en>
+			<de>Hält sich Kadabra in der Nähe von Geräten mit Bildschirmen wie Fernsehern auf, huscht ein Unglück bringender Schatten über den Screen.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It stares at a silver spoon to amplify its psychic powers before it lets loose. Apparently, gold spoons are no good.</en>
+			<de>Es verstärkt seine Psycho-Kräfte, indem es auf seinen Silberlöffel starrt. Mit einem goldenen Löffel funktioniert es anscheinend nicht.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>It possesses strong mental capabilities, but its psychic powers are halved when it’s not holding a silver spoon.</en>
+			<de>Es verfügt über starke Psycho-Kräfte, doch ohne seinen Silberlöffel reduzieren sich diese um die Hälfte.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>3</item>
+			<item>4</item>
+		</speed>
+		<power>
+			<item>1</item>
+			<item>3</item>
+		</power>
+		<stamina>
+			<item>2</item>
+			<item>3</item>
+		</stamina>
+		<skill>
+			<item>4</item>
+			<item>5</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>3</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>50</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Submission</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Counter</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Seismic Toss</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Metronome</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Tri Attack</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Mega Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Mega Kick</move>
+					<tm>TM5</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Submission</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Counter</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Seismic Toss</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Metronome</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Psywave</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Tri Attack</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Drain Punch</move>
+					<tm>TM60</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Recycle</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Drain Punch</move>
+					<tm>TM60</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Recycle</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Punch</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Drain Punch</move>
+					<tm>TM60</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Recycle</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Split</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>52</level>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Split</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>48</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Split</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psycho Shift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Split</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psycho Shift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Split</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psycho Shift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Confusion</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Kinesis</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Confusion</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Disable</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Psybeam</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Miracle Eye</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Psycho Cut</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Recover</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Telekinesis</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Role Play</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Future Sight</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Trick</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Ally Switch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Barrier</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Encore</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fire Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Split</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Guard Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Ice Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Knock Off</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Power Trick</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psychic Terrain</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psycho Shift</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Skill Swap</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psyshock</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Safeguard</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Psychic</move>
+					<tm>TM29</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Trick Room</move>
+					<tm>TM92</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

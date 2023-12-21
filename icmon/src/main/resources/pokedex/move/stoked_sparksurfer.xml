@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Stoked Sparksurfer</en>
+		<fr type="str">Électro-Surf Survolté</fr>
+		<de type="str">Blitz-Wellenritt</de>
+		<it type="str">Elettrosurf Folgorante</it>
+		<es type="str">Surfeo Galvánico</es>
+	</names>
+	<index_number type="int">700</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Electric</type>
+	<category type="str">special</category>
+	<pp type="int">0</pp>
+	<max_pp type="int">0</max_pp>
+	<power type="int">175</power>
+	<accuracy type="int">0</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.</en>
+			<de type="str">Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.</en>
+			<de type="str">Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.</en>
+			<de type="str">Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">After obtaining Z-Power, the user, Alolan Raichu, attacks the target with full force. This move leaves the target with paralysis.</en>
+			<de type="str">Das Alola-Raichu greift das Ziel mithilfe von Z-Kraft mit voller Wucht an und paralysiert es.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">paralysis</condition>
+				<probability type="int">100</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

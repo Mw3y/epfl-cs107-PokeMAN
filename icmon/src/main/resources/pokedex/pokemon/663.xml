@@ -1,0 +1,1073 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Flambusard</fr>
+		<de>Fiaro</de>
+		<it>Talonflame</it>
+		<en>Talonflame</en>
+	</names>
+	<national_id>663</national_id>
+	<types>
+		<item>Fire</item>
+		<item>Flying</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Flame Body</name>
+		</item>
+		<item>
+			<name>Gale Wings</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Flying</item>
+	</egg_groups>
+	<hatch_time>
+		<item>4080</item>
+		<item>4334</item>
+	</hatch_time>
+	<height_us>3'11&quot;</height_us>
+	<height_eu>1.2 m</height_eu>
+	<weight_us>54.0 lbs.</weight_us>
+	<weight_eu>24.5 kg</weight_eu>
+	<base_exp_yield>175</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>3</speed>
+	</ev_yield>
+	<color>Red</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>78</hp>
+		<atk>81</atk>
+		<def>71</def>
+		<sp_atk>74</sp_atk>
+		<sp_def>69</sp_def>
+		<speed>126</speed>
+	</base_stats>
+	<evolution_from>Fletchinder</evolution_from>
+	<alola_id>160</alola_id>
+	<categories>
+		<en>Scorching Pokémon</en>
+		<de>Stichflamme</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>16</kalos_id>
+	<mega_evolutions/>
+	<evolutions/>
+	<variations/>
+	<pokedex_entries>
+		<X>
+			<en>In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.</en>
+			<de>Die Aufregung eines harten Kampfes veranlasst es dazu, im Flug Funken aus den Zwischenräumen seines Gefieders zu sprühen.</de>
+		</X>
+		<Y>
+			<en>When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.</en>
+			<de>Bei der Jagd erreicht es Geschwindigkeiten von bis zu 500 km/h. Es erledigt seine Beute mit einem kräftigen Tritt.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>In the fever of an exciting battle, it showers embers from the gaps between its feathers and takes to the air.</en>
+			<de>Bei der Jagd erreicht es Geschwindigkeiten von bis zu 500 km/h. Es erledigt seine Beute mit einem kräftigen Tritt.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>When attacking prey, it can reach speeds of up to 310 mph. It finishes its prey off with a colossal kick.</en>
+			<de>Bei der Jagd erreicht es Geschwindigkeiten von bis zu 500 km/h. Es erledigt seine Beute mit einem kräftigen Tritt.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>Its favorite foods are Wingull and Pikipek. It attacks with a powerful kick and grasps them firmly in its talons.</en>
+			<de>Auf seinem Speiseplan stehen bevorzugt Wingull und Peppeck. Es schaltet seine Beute mit einem kräftigen Tritt aus, um sie sich dann zu krallen.</de>
+		</Sun>
+		<Moon>
+			<en>It zooms directly at its prey at flight speeds of close to 310 mph, while fiery embers scatter from gaps in its feathers.</en>
+			<de>Bei bis zu 500 km/h sprüht es im Flug Funken aus den Zwischenräumen seines Gefieders und stürzt sich schnurstracks auf seine Beute.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Its tough wings don’t allow fire to pass through them. A long time ago, firefighters’ outfits were made from Talonflame wings.</en>
+			<de>Sein Gefieder ist robust und feuerfest. Früher fertigte man Feuerwehranzüge deshalb aus Fiaro-Federn.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Bird Pokémon make up most of its diet. It approaches at high speeds and smacks them down to the ground with its powerful kick.</en>
+			<de>Fiaro ernährt sich vor allem von Vogel-Pokémon. Es nähert sich überfallartig seiner Beute und befördert sie mit einem kräftigen Tritt zu Boden.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>95</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Brave Bird</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Razor Wind</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Me First</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Brave Bird</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Brave Bird</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Razor Wind</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Me First</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Brave Bird</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>HM2</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Incinerate</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Brave Bird</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Razor Wind</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Me First</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Brave Bird</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Brave Bird</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Ember</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Flare Blitz</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tackle</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Peck</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Agility</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<level>16</level>
+				</item>
+				<item>
+					<move>Roost</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Razor Wind</move>
+					<level>27</level>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Me First</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<level>60</level>
+				</item>
+				<item>
+					<move>Brave Bird</move>
+					<level>64</level>
+				</item>
+				<item>
+					<move>Quick Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tailwind</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Roost</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Flamethrower</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Fire Blast</move>
+					<tm>TM38</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Flame Charge</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Overheat</move>
+					<tm>TM50</tm>
+				</item>
+				<item>
+					<move>Steel Wing</move>
+					<tm>TM51</tm>
+				</item>
+				<item>
+					<move>Will-O-Wisp</move>
+					<tm>TM61</tm>
+				</item>
+				<item>
+					<move>Acrobatics</move>
+					<tm>TM62</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Swords Dance</move>
+					<tm>TM75</tm>
+				</item>
+				<item>
+					<move>Fly</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

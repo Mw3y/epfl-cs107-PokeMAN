@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">227</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Encore</fr>
+		<de type="str">Zugabe</de>
+		<gr type="str">Επανάληψη</gr>
+		<it type="str">Ripeti</it>
+		<pl type="str">Bis</pl>
+		<en type="str">Encore</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Makes the foe repeat 2-6 times.</en>
+			<de type="str">Gegner greift max. 6 mal an.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Makes the foe repeat 2-6 times.</en>
+			<de type="str">Gegner greift max. 6 mal an.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Makes the foe repeat 2-6 times.</en>
+			<de type="str">Gegner greift max. 6mal an.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Makes the foe repeat its last move over 2 to 6 turns.</en>
+			<de type="str">Gegner wiederholt letzten Angriff 2 - 6-mal.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Makes the foe repeat its last move over 2 to 6 turns.</en>
+			<de type="str">Gegner wiederholt letzten Angriff 2 - 6-mal.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Makes the foe repeat its last move over 2 to 6 turns.</en>
+			<de type="str">Gegner wiederholt letzten Angriff 2 - 6-mal.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">Makes the foe use the move it last used repeatedly for two to six turns.</en>
+			<de type="str">Gegner wiederholt letzten Angriff 2 - 6 Runden lang.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">Makes the foe use the move it last used repeatedly for two to six turns.</en>
+			<de type="str">Gegner wiederholt letzten Angriff 2 - 6 Runden lang.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user compels the foe to keep using only the move it last used for two to six turns.</en>
+			<de type="str">Gegner wiederholt letzten Angriff zwei bis sechs Runden lang.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user compels the foe to keep using only the move it last used for two to six turns.</en>
+			<de type="str">Gegner wiederholt letzten Angriff zwei bis sechs Runden lang.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user compels the foe to keep using only the move it last used for three to seven turns.</en>
+			<de type="str">Gegner wiederholt letzte Attacke drei bis sieben Runden lang.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user compels the foe to keep using only the move it last used for three to seven turns.</en>
+			<de type="str">Gegner wiederholt letzte Attacke drei bis sieben Runden lang.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user compels the foe to keep using only the move it last used for three to seven turns.</en>
+			<de type="str">Gegner wiederholt letzte Attacke drei bis sieben Runden lang.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Das Ziel wiederholt letzte Attacke drei Runden lang.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Das Ziel wiederholt letzte Attacke drei Runden lang.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Das Ziel wiederholt letzte Attacke drei Runden lang.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Das Ziel wiederholt letzte Attacke drei Runden lang.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user compels the target to keep using only the move it last used for three turns.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user compels the target to keep using the move it encored for three turns.</en>
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user compels the target to keep using the move it encored for three turns.</en>
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user compels the target to keep using the move it encored for three turns.</en>
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user compels the target to keep using the move it encored for three turns.</en>
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wiederholt die letzte Attacke drei Runden lang.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -43,6 +43,7 @@ public abstract class ICMonItem extends CollectableAreaEntity {
 
     @Override
     public void draw(Canvas canvas) {
+        assert canvas != null;
         sprite.draw(canvas);
     }
 }

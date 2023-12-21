@@ -1,0 +1,526 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Crabrawler</en>
+		<jp>マケンカニ Makenkani</jp>
+		<fr>Crabagarre</fr>
+		<es>Crabrawler</es>
+		<de>Krabbox</de>
+		<it>Crabrawler</it>
+	</names>
+	<national_id>739</national_id>
+	<alola_id>59</alola_id>
+	<types>
+		<item>Fighting</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Hyper Cutter</name>
+		</item>
+		<item>
+			<name>Anger Point</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>225</catch_rate>
+	<egg_groups>
+		<item>Water 3</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>2'00&quot;</height_us>
+	<height_eu>0.6 m</height_eu>
+	<weight_us>15.4 lbs.</weight_us>
+	<weight_eu>7.0 kg</weight_eu>
+	<base_exp_yield>68</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Purple</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>1</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>47</hp>
+		<atk>82</atk>
+		<def>57</def>
+		<sp_atk>42</sp_atk>
+		<sp_def>47</sp_def>
+		<speed>63</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Crabominable</to>
+			<level_up>true</level_up>
+			<conditions>
+				<item>At Mount Lanakila</item>
+			</conditions>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Boxing Pokémon</en>
+		<de>Boxkampf</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>While guarding its weak points with its pincers, it looks for an opening and unleashes punches. When it loses, it foams at the mouth and faints.</en>
+			<de>Schützt mit den Scheren seine Schwachstellen und bereitet einen Gegenschlag vor. Verliert es, bläst es Trübsal.</de>
+		</Sun>
+		<Moon>
+			<en>It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.</en>
+			<de>Es verliert oft seine Scheren im Kampf, aber sie wachsen schnell nach. Obwohl diese nur wenig Fleisch enthalten, gelten sie als Delikatesse.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Its hard pincers are well suited to both offense and defense. Fights between two Crabrawler are like boxing matches.</en>
+			<de>Seine harten Scheren eignen sich sowohl für offensive als auch defensive Techniken. Kämpfe zwischen zwei Krabbox ähneln Boxkämpfen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Crabrawler has been known to mistake Exeggutor for a coconut tree and climb it. The enraged Exeggutor shakes it off and stomps it.</en>
+			<de>Manchmal hält es ein Kokowei für eine Palme und klettert es hinauf. Dieses schüttelt es dann wütend ab und verpasst ihm einen Tritt.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>24</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bubble</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Dizzy Punch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Payback</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Reversal</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Crabhammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bubble</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Leer</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Pursuit</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Power-Up Punch</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Dizzy Punch</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Payback</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Reversal</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Crabhammer</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Iron Defense</move>
+					<level>42</level>
+				</item>
+				<item>
+					<move>Dynamic Punch</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Close Combat</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endeavor</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Bulk Up</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Brick Break</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Focus Blast</move>
+					<tm>TM52</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Stone Edge</move>
+					<tm>TM71</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Frost Breath</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

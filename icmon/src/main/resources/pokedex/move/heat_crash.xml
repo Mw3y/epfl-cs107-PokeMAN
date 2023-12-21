@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">535</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Tacle Feu</fr>
+		<de type="str">Brandstempel</de>
+		<it type="str">Marchiafuoco</it>
+		<pl type="str">Pocisk Żaru</pl>
+		<en type="str">Heat Crash</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Black type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the damage.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the damage.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the damage.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the damage.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user slams its target with its flame- covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user slams its target with its flame- covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user slams its target with its flame-covered body. The more the user outweighs the target, the greater the move’s power.</en>
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Rempelattacke mit brennendem Körper. Je schwerer der Anwender im Vergleich zum Ziel ist, desto stärker die Attacke.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

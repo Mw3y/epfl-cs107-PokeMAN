@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">312</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all_users</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Aromathérapi</fr>
+		<de type="str">Aromakur</de>
+		<gr type="str">Αρωματοθεραπεία</gr>
+		<it type="str">Aromaterapia</it>
+		<pl type="str">Aromaterapia</pl>
+		<en type="str">Aromatherapy</en>
+	</names>
+	<type type="str">Grass</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Heals all status problems with a soothing scent.</en>
+			<de type="str">Heilt alle Status-Probleme mit beruhigendem Duft.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Heals all status problems with a soothing scent.</en>
+			<de type="str">Heilt alle Status-Probleme mit beruhigendem Duft.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Heals all status problems with a soothing scent.</en>
+			<de type="str">Heilt alle Status-Probleme mit beruhigendem Duft.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">A soothing scent is released to heal all status problems in the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">A soothing scent is released to heal all status problems in the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user releases a soothing scent that heals all status problems affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user releases a soothing scent that heals all status conditions affecting the user’s party.</en>
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Heilt alle Statusprobleme des Teams mit beruhigendem Duft.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

@@ -1,0 +1,535 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Xurkitree</en>
+		<jp>デンジュモク Denjumoku</jp>
+		<fr>Câblifère</fr>
+		<es>Xurkitree</es>
+		<de>Voltriant</de>
+		<it>Xurkitree</it>
+	</names>
+	<national_id>796</national_id>
+	<alola_id>296</alola_id>
+	<types>
+		<item>Electric</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Beast Boost</name>
+		</item>
+	</abilities>
+	<catch_rate>30</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>12'06&quot;</height_us>
+	<height_eu>3.8 m</height_eu>
+	<weight_us>220.5 lbs.</weight_us>
+	<weight_eu>100.0 kg</weight_eu>
+	<base_exp_yield>114</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Black</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>3</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>83</hp>
+		<atk>89</atk>
+		<def>71</def>
+		<sp_atk>173</sp_atk>
+		<sp_def>71</sp_def>
+		<speed>83</speed>
+	</base_stats>
+	<gender_ratios/>
+	<categories>
+		<en>Glowing Pokémon</en>
+		<de>Illumination</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.</en>
+			<de>Eine geheimnisvolle Ultrabestie, aus deren Körper furchterregende Mengen an elektrischer Energie strömen.</de>
+		</Sun>
+		<Moon>
+			<en>It appeared from the Ultra Wormhole. It raided a power plant, so people think it energizes itself with electricity.</en>
+			<de>Es ist durch die Ultrapforte erschienen. Seine Überfälle auf Kraftwerke lassen vermuten, dass es seine Lebensenergie aus Strom bezieht.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Although it’s alien to this world and a danger here, it’s apparently a common organism in the world where it normally lives.</en>
+			<de>In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>They’ve been dubbed Ultra Beasts. Some of them stand unmoving, like trees, with their arms and legs stuck into the ground.</en>
+			<de>Eine der sogenannten Ultrabestien. Es gibt auch Exemplare, die ihre Gliedmaßen in den Boden rammen und regungslos wie Bäume verharren.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>396</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Glow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Eerie Impulse</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Electric Terrain</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Ion Deluge</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Charge</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Spark</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Tail Glow</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Shock</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Wrap</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Ingrain</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Thunder Punch</move>
+					<level>23</level>
+				</item>
+				<item>
+					<move>Eerie Impulse</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<level>37</level>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Discharge</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Electric Terrain</move>
+					<level>53</level>
+				</item>
+				<item>
+					<move>Power Whip</move>
+					<level>59</level>
+				</item>
+				<item>
+					<move>Ion Deluge</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Calm Mind</move>
+					<tm>TM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Light Screen</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Reflect</move>
+					<tm>TM33</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Energy Ball</move>
+					<tm>TM53</tm>
+				</item>
+				<item>
+					<move>Fling</move>
+					<tm>TM56</tm>
+				</item>
+				<item>
+					<move>Charge Beam</move>
+					<tm>TM57</tm>
+				</item>
+				<item>
+					<move>Brutal Swing</move>
+					<tm>TM59</tm>
+				</item>
+				<item>
+					<move>Giga Impact</move>
+					<tm>TM68</tm>
+				</item>
+				<item>
+					<move>Volt Switch</move>
+					<tm>TM72</tm>
+				</item>
+				<item>
+					<move>Thunder Wave</move>
+					<tm>TM73</tm>
+				</item>
+				<item>
+					<move>Grass Knot</move>
+					<tm>TM86</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Wild Charge</move>
+					<tm>TM93</tm>
+				</item>
+				<item>
+					<move>Nature Power</move>
+					<tm>TM96</tm>
+				</item>
+				<item>
+					<move>Dazzling Gleam</move>
+					<tm>TM99</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

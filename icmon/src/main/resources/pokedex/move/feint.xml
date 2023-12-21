@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">364</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">30</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">2</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Ruse</fr>
+		<de type="str">Offenlegung</de>
+		<gr type="str">Προσποίηση</gr>
+		<it type="str">Fintoattacco</it>
+		<pl type="str">Symulacja</pl>
+		<en type="str">Feint</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Gegner, die Schutzschild und Scanner verwenden, werden getroffen. Entfernt Effekte dieser Att.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Gegner, die Schutzschild und Scanner verwenden, werden getroffen. Entfernt Effekte dieser Att.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Gegner, die Schutzschild und Scanner verwenden, werden getroffen. Entfernt Effekte dieser Att.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Gegner, die Schutzschild und Scanner verwenden, werden getroffen. Entfernt Effekte dieser Att.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">An attack that hits a foe using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Gegner, die Schutzschild und Scanner verwenden, werden getroffen. Entfernt Effekte dieser Att.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. It also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">An attack that hits a target using Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack hits a target using a move such as Protect or Detect. This also lifts the effects of those moves.</en>
+			<de type="str">Ziele, die Attacken wie Schutzschild oder Scanner eingesetzt haben, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Ziele, die Schutzschild oder Scanner verwenden, werden getroffen. Entfernt Effekte dieser Attacken.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

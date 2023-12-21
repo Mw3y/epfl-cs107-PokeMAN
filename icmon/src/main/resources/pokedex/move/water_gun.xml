@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">55</index_number>
+	<pp type="int">25</pp>
+	<max_pp type="int">40</max_pp>
+	<power type="int">40</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<cz type="str">Vodní dělo</cz>
+		<dk type="str">Vandkanon</dk>
+		<fr type="str">Pistolet à O</fr>
+		<de type="str">Aquaknarre</de>
+		<gr type="str">Νεροβόλο</gr>
+		<it type="str">Pistolacqua</it>
+		<pl type="str">Wodny Bicz</pl>
+		<en type="str">Water Gun</en>
+	</names>
+	<type type="str">Water</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Squirts water to attack.</en>
+			<de type="str">Greift mit Wasser an.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Squirts water to attack.</en>
+			<de type="str">Greift mit Wasser an.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Squirts water to attack.</en>
+			<de type="str">Greift mit Wasser an.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Squirts water to attack the foe.</en>
+			<de type="str">Der Gegner wird mit Wasser bespritzt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Squirts water to attack the foe.</en>
+			<de type="str">Der Gegner wird mit Wasser bespritzt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Squirts water to attack the foe.</en>
+			<de type="str">Der Gegner wird mit Wasser bespritzt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is struck with a lot of water expelled forcibly from the mouth.</en>
+			<de type="str">Der Gegner wird mit Wasser aus dem Mund bespritzt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is struck with a lot of water expelled forcibly from the mouth.</en>
+			<de type="str">Der Gegner wird mit Wasser aus dem Mund bespritzt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is blasted with a forceful shot of water.</en>
+			<de type="str">Der Gegner wird mit Wasser aus dem Mund bespritzt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is blasted with a forceful shot of water.</en>
+			<de type="str">Der Gegner wird mit Wasser aus dem Mund bespritzt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is blasted with a forceful shot of water.</en>
+			<de type="str">Der Gegner wird mit Wasser aus dem Mund bespritzt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is blasted with a forceful shot of water.</en>
+			<de type="str">Der Gegner wird mit Wasser aus dem Mund bespritzt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is blasted with a forceful shot of water.</en>
+			<de type="str">Der Gegner wird mit Wasser aus dem Mund bespritzt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is blasted with a forceful shot of water.</en>
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Das Ziel wird mit Wasser bespritzt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

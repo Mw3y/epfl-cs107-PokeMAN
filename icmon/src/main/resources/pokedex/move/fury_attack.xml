@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">31</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">15</power>
+	<accuracy type="int">85</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Bersærkergang</dk>
+		<fr type="str">Furie</fr>
+		<de type="str">Furienschlag</de>
+		<gr type="str">Μανιακό Χτύπημα</gr>
+		<it type="str">Furia</it>
+		<pl type="str">Atak Furii</pl>
+		<en type="str">Fury Attack</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cool</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Jabs the target 2-5 times.</en>
+			<de type="str">Trifft bis zu 5 mal.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Jabs the target 2-5 times.</en>
+			<de type="str">Trifft bis zu 5 mal.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Jabs the target 2-5 times.</en>
+			<de type="str">Trifft bis zu 5mal.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Jabs the foe 2 to 5 times with sharp horns, etc.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzen Hörnern auf.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Jabs the foe 2 to 5 times with sharp horns, etc.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzen Hörnern auf.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Jabs the foe 2 to 5 times with sharp horns, etc.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzen Hörnern auf.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is jabbed repeatedly with a horn or beak two to five times.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is jabbed repeatedly with a horn or beak two to five times.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt den Gegner 2 - 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel 2- bis 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel 2- bis 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel 2- bis 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel 2- bis 5-mal mit spitzem Horn oder Schnabel auf.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target is jabbed repeatedly with a horn or beak two to five times in a row.</en>
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Spießt das Ziel zwei- bis fünfmal mit spitzem Horn oder Schnabel auf.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

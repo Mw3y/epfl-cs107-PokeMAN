@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">220</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Balance</fr>
+		<de type="str">Leidteiler</de>
+		<gr type="str">Κατανομή Οδύνης</gr>
+		<it type="str">Malcomune</it>
+		<en type="str">Pain Split</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Adds user &amp; foe's HPs. Shares total.</en>
+			<de type="str">Addiert alle KP und halbiert sie.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Adds user &amp; foe's HPs. Shares total.</en>
+			<de type="str">Addiert alle KP und halbiert sie.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Adds user &amp; foe's HPs. Shares total.</en>
+			<de type="str">Addiert alle KP und halbiert sie.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Adds the user and foe’s HP, then shares them equally.</en>
+			<de type="str">Addiert KP v. Anwender u. Gegner, teilt gerecht auf.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Adds the user and foe’s HP, then shares them equally.</en>
+			<de type="str">Addiert KP v. Anwender u. Gegner, teilt gerecht auf.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Adds the user and foe’s HP, then shares them equally.</en>
+			<de type="str">Addiert KP v. Anwender u. Gegner, teilt gerecht auf.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user adds its HP to the foe’s HP, then equally shares the total HP.</en>
+			<de type="str">Addiert KP von Anwender und Gegner. Teilt gerecht auf.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user adds its HP to the foe’s HP, then equally shares the total HP.</en>
+			<de type="str">Addiert KP von Anwender und Gegner. Teilt gerecht auf.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.</en>
+			<de type="str">Addiert KP von Anwender und Gegner. Teilt gerecht auf.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.</en>
+			<de type="str">Addiert KP von Anwender und Gegner. Teilt gerecht auf.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.</en>
+			<de type="str">Addiert KP von Anwender und Gegner. Teilt gerecht auf.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user adds its HP to the foe’s HP, then equally shares the combined HP with the foe.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user adds its HP to the target’s HP, then equally shares the combined HP with the target.</en>
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Addiert KP von Anwender und Ziel. Teilt sie gerecht auf.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

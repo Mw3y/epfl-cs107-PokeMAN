@@ -1,0 +1,2411 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Kraknoix</fr>
+		<de>Knacklion</de>
+		<it>Trapinch</it>
+		<en>Trapinch</en>
+	</names>
+	<national_id>328</national_id>
+	<types>
+		<item>Ground</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Hyper Cutter</name>
+		</item>
+		<item>
+			<name>Sheer Force</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>255</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>2'04&quot;</height_us>
+	<height_eu>0.7 m</height_eu>
+	<weight_us>33.1 lbs.</weight_us>
+	<weight_eu>15.0 kg</weight_eu>
+	<base_exp_yield>58</base_exp_yield>
+	<leveling_rate>Medium Slow</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>1</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<color>Brown</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>45</hp>
+		<atk>100</atk>
+		<def>45</def>
+		<sp_atk>45</sp_atk>
+		<sp_def>45</sp_def>
+		<speed>10</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Vibrava</to>
+			<level>35</level>
+		</item>
+	</evolutions>
+	<alola_id>235</alola_id>
+	<categories>
+		<en>Ant Pit Pokémon</en>
+		<de>Ameisenlöwe</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id>121</hoenn_id>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id>3</kalos_id>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Ruby>
+			<en>Trapinch's nest is a sloped, bowl-like pit dug in sand. This Pokémon patiently waits for prey to tumble down the pit. Its giant jaws have enough strength to crush even boulders.</en>
+			<de>Knacklions Bau ist eine Art in den Sand gegrabener Kessel. Dieses Pokémon wartet geduldig auf Beute, um sie in seinen Bau zu werfen. Seine gigantischen Kiefer verfügen über genügend Kraft, um einen Felsen zu zerquetschen.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Trapinch is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This Pokémon can go a whole week without access to any water.</en>
+			<de>Knacklion ist ein geduldiger Jäger. Es gräbt in einer Wüste eine tiefe Grube und wartet auf Beute, die hineinfällt. Dieses Pokémon kommt eine ganze Woche ohne Wasser aus.</de>
+		</Sapphire>
+		<Emerald>
+			<en>Its big jaws crunch through boulders. Because its head is so big, it has a hard time getting back upright if it tips over onto its back.</en>
+			<de>Seine kräftigen Kiefer zermalmen selbst Felsen. Da sein Kopf so groß ist, fällt es ihm schwer sich aufzurichten, wenn es umgefallen ist.</de>
+		</Emerald>
+		<FireRed>
+			<en>It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.</en>
+			<de>Es lebt in trockenen Wüstengebieten, wo es eine Trichterfalle baut und seelenruhig darauf wartet, dass Beute hinabrutscht.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.</en>
+			<de>Es lebt in trockenen Wüstengebieten, wo es eine Trichterfalle baut und seelenruhig darauf wartet, dass Beute hinabrutscht.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute.</de>
+		</Diamond>
+		<Pearl>
+			<en>It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute.</de>
+		</Pearl>
+		<Platinum>
+			<en>It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute.</de>
+		</Platinum>
+		<HeartGold>
+			<en>Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.</en>
+			<de>Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.</en>
+			<de>Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute.</de>
+		</SoulSilver>
+		<Black>
+			<en>It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute.</de>
+		</Black>
+		<White>
+			<en>It makes a conical pit in desert sand and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut im Wüstensand eine Fallgrube, setzt sich in ihr auf den Boden und wartet auf Beute.</de>
+		</White>
+		<Black_2>
+			<en>It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut sich ein trichterförmiges Loch, aus dem es kein Entrinnen gibt, und wartet, bis Beute hineinfällt.</de>
+		</Black_2>
+		<White_2>
+			<en>It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut sich ein trichterförmiges Loch, aus dem es kein Entrinnen gibt, und wartet, bis Beute hineinfällt.</de>
+		</White_2>
+		<X>
+			<en>It lives in arid deserts. It makes a sloping pit trap in sand where it patiently awaits prey.</en>
+			<de>Es lebt in trockenen Wüstengebieten, wo es eine Trichterfalle baut und seelenruhig darauf wartet, dass Beute hinabrutscht.</de>
+		</X>
+		<Y>
+			<en>It makes an inescapable conical pit and lies in wait at the bottom for prey to come tumbling down.</en>
+			<de>Es baut sich ein trichterförmiges Loch, aus dem es kein Entrinnen gibt, und wartet, bis Beute hineinfällt.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Trapinch’s nest is a sloped, bowl-like pit dug in sand. This Pokémon patiently waits for prey to tumble down the pit. Its giant jaws have enough strength to crush even boulders.</en>
+			<de>Knacklions Bau ist eine Art in den Sand gegrabener Kessel. Dieses Pokémon wartet geduldig darauf, dass Beute in seinen Bau hineinfällt. Seine gigantischen Kiefer verfügen über genügend Kraft, um einen Felsen zu zerquetschen.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Trapinch is a patient hunter. It digs an inescapable pit in a desert and waits for its prey to come tumbling down. This Pokémon can go a whole week without access to any water.</en>
+			<de>Knacklion ist ein geduldiger Jäger. Es gräbt in einer Wüste eine tiefe Grube und wartet auf Beute, die hineinfällt. Dieses Pokémon kommt eine ganze Woche ohne Wasser aus.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>It can live for a week without eating a thing. It waits patiently at the bottom of its nest for prey to appear.</en>
+			<de>Knacklion kann eine Woche überleben, ohne zu essen. Es wartet geduldig in seinem Bau darauf, dass seine Beute zu ihm kommt.</de>
+		</Sun>
+		<Moon>
+			<en>As it digs through the sand, its giant jaws crush any rocks that obstruct its path. It builds a funnel-shaped nest.</en>
+			<de>Es gräbt im Sand und zerquetscht dabei mit seinem gigantischen Kiefer störende Felsen. Sein Bau hat die Form eines Trichters.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Its jaws are strong enough to crush rocks but so heavy that it can’t get up if it flips over. Sandile seize those moments as their chance.</en>
+			<de>Sein Kiefer kann sogar Felsen zermalmen, ist aber so schwer, dass es sich nicht aufrichten kann, wenn es hinfällt. Das nutzen Ganovil aus.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>It builds nests that double as traps, lying in wait for its prey to get caught. When night falls, it digs itself a spot beneath the sand to sleep.</en>
+			<de>Sein Bau dient gleichzeitig als Falle, in der es Beute auflauert. Nachts gräbt es sich zum Schlafen im Sand ein.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>1</item>
+			<item>2</item>
+		</speed>
+		<power>
+			<item>3</item>
+			<item>5</item>
+		</power>
+		<stamina>
+			<item>3</item>
+			<item>5</item>
+		</stamina>
+		<skill>
+			<item>2</item>
+			<item>3</item>
+		</skill>
+		<jump>
+			<item>2</item>
+			<item>2</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>125</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>81</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>89</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>81</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>89</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>81</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>89</level>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Giga Drain</move>
+					<tm>TM19</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>57</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>65</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>81</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>89</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>4</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>7</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>13</level>
+				</item>
+				<item>
+					<move>Bide</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<level>21</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>34</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>39</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>55</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>61</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>67</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>73</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bide</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Strength</move>
+					<tm>HM4</tm>
+				</item>
+				<item>
+					<move>Rock Smash</move>
+					<tm>HM6</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<tm>TM76</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bide</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Bide</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<level>5</level>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<level>8</level>
+				</item>
+				<item>
+					<move>Sand Tomb</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<level>15</level>
+				</item>
+				<item>
+					<move>Dig</move>
+					<level>19</level>
+				</item>
+				<item>
+					<move>Crunch</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<level>26</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>29</level>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Superpower</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Fissure</move>
+					<level>47</level>
+				</item>
+				<item>
+					<move>Bug Bite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Earth Power</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Endure</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Focus Energy</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Fury Cutter</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Gust</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Mud Shot</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Quick Attack</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Signal Beam</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Hyper Beam</move>
+					<tm>TM15</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Solar Beam</move>
+					<tm>TM22</tm>
+				</item>
+				<item>
+					<move>Earthquake</move>
+					<tm>TM26</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Sandstorm</move>
+					<tm>TM37</tm>
+				</item>
+				<item>
+					<move>Rock Tomb</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Bulldoze</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Rock Slide</move>
+					<tm>TM80</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

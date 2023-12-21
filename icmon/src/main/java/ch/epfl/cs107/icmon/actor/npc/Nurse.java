@@ -30,6 +30,7 @@ public class Nurse extends NPCActor {
 
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
+        assert v != null;
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
 
@@ -39,6 +40,7 @@ public class Nurse extends NPCActor {
     }
 
     public boolean healPokemons(List<Pokemon> pokemons) {
+        assert pokemons != null;
         for (Pokemon pokemon : pokemons) {
             pokemon.heal(pokemon.properties().maxHp());
         }

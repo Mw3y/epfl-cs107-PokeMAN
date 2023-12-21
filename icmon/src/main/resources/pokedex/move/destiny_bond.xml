@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">194</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Prélèvem. Destin</fr>
+		<de type="str">Abgangsbund</de>
+		<gr type="str">Κοινό Πεπρωμένο</gr>
+		<it type="str">Destinobbligato</it>
+		<en type="str">Destiny Bond</en>
+	</names>
+	<type type="str">Ghost</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">8</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">8</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">The foe faints if the user does.</en>
+			<de type="str">Beide werden besiegt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">The foe faints if the user does.</en>
+			<de type="str">Beide werden besiegt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">The foe faints if the user does.</en>
+			<de type="str">Beide werden besiegt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">If the user faints, the foe is also made to faint.</en>
+			<de type="str">Wird der Angreifer besiegt, gilt das auch für d. Gegner.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">If the user faints, the foe is also made to faint.</en>
+			<de type="str">Wird der Angreifer besiegt, gilt das auch für d. Gegner.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">If the user faints, the foe is also made to faint.</en>
+			<de type="str">Wird der Angreifer besiegt, gilt das auch für d. Gegner.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">If the user faints, the foe delivering the final hit also faints.</en>
+			<de type="str">Wird der Angreifer besiegt, gilt das auch für den Gegner.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">If the user faints, the foe delivering the final hit also faints.</en>
+			<de type="str">Wird der Angreifer besiegt, gilt das auch für den Gegner.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">When this move is used, if the user faints, the foe that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender besiegt, gilt das auch für den Gegner.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">When this move is used, if the user faints, the foe that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender besiegt, gilt das auch für den Gegner.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">When this move is used, if the user faints, the foe that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender besiegt, gilt das auch für den Gegner.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">When this move is used, if the user faints, the foe that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender besiegt, gilt das auch für den Gegner.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">When this move is used, if the user faints, the foe that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender besiegt, gilt das auch für den Gegner.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Gegner zum K.O.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Gegner zum K.O.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Gegner zum K.O.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Gegner zum K.O.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Ziel zum K.O.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke besiegt, führt dies auch beim Ziel zum K.O.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">When this move is used, if the user faints, the Pokémon that landed the knockout hit also faints.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">After using this move, if the user faints, the Pokémon that landed the knockout hit also faints. Its chance of failing rises if it is used in succession.</en>
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Pokémon, das ihn besiegt hat, zum K.O. Scheitert bei Wiederholung.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Gegner, der ihn besiegt hat, zum K.O.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Wird der Anwender nach Einsatz dieser Attacke kampfunfähig, führt dies auch beim Gegner, der ihn besiegt hat, zum K.O.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

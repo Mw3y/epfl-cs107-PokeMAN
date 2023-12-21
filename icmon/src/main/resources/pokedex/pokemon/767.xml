@@ -1,0 +1,361 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Wimpod</en>
+		<jp>コソクムシ Kosokumushi</jp>
+		<fr>Sovkipou</fr>
+		<es>Wimpod</es>
+		<de>Reißlaus</de>
+		<it>Wimpod</it>
+	</names>
+	<national_id>767</national_id>
+	<alola_id>182</alola_id>
+	<types>
+		<item>Bug</item>
+		<item>Water</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Wimp Out</name>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>90</catch_rate>
+	<egg_groups>
+		<item>Bug</item>
+		<item>Water 3</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5140</item>
+		<item>5396</item>
+	</hatch_time>
+	<height_us>1'08&quot;</height_us>
+	<height_eu>0.5 m</height_eu>
+	<weight_us>26.5 lbs.</weight_us>
+	<weight_eu>12.0 kg</weight_eu>
+	<base_exp_yield>46</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<color>Gray</color>
+	<base_friendship>70</base_friendship>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>25</hp>
+		<atk>35</atk>
+		<def>40</def>
+		<sp_atk>20</sp_atk>
+		<sp_def>30</sp_def>
+		<speed>80</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Golisopod</to>
+			<level>30</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Turn Tail Pokémon</en>
+		<de>Laufschritt</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.</en>
+			<de>Es ist so feige, dass es wild mit seinen vielen Füßen herumschlägt und verzweifelt davonläuft. Nach seiner Flucht glänzt der Boden herrlich.</de>
+		</Sun>
+		<Moon>
+			<en>Its habitat varies from beaches to seabeds. A natural scavenger, it will gleefully chow down on anything edible, no matter how rotten.</en>
+			<de>Es mag verschiedene Habitate, vom Strand bis hin zum Meeresgrund. Unterwegs frisst es gern Faules und ist eine natürliche Reinigungskraft.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>It will pick up anything it finds on the ground. Sometimes it finds coins, so Murkrow and Meowth will go after it.</en>
+			<de>Es hebt alles auf, was es finden kann. Manchmal befinden sich darunter auch Münzen, weshalb es oft von Kramurx und Mauzi gejagt wird.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>An astonishingly cowardly Pokémon, Wimpod will whir its legs at high speeds to run away if anything comes near it.</en>
+			<de>Dieses Pokémon ist ein wahrer Drückeberger. Sobald sich ihm etwas nähert, strampelt es flink mit seinen Beinchen und nimmt Reißaus.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>83</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Aqua Jet</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Harden</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Sand Attack</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Struggle Bug</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Aqua Jet</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Harden</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Metal Claw</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spikes</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Wide Guard</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hail</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Leech Life</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Scald</move>
+					<tm>TM55</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Surf</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Waterfall</move>
+					<tm>TM98</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

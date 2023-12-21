@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">302</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">60</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Poing Dard</fr>
+		<de type="str">Nietenranke</de>
+		<gr type="str">Βελονογροθιά</gr>
+		<it type="str">Pugnospine</it>
+		<pl type="str">Igłoramię</pl>
+		<en type="str">Needle Arm</en>
+	</names>
+	<type type="str">Grass</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">4</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">Attacks with thorny arms. May cause flinching.</en>
+			<de type="str">Angriff mit dornigen Armen. Geg. schreckt evtl. zurück.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Attacks with thorny arms. May cause flinching.</en>
+			<de type="str">Angriff mit dornigen Armen. Geg. schreckt evtl. zurück.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Attacks with thorny arms. May cause flinching.</en>
+			<de type="str">Angriff mit dornigen Armen. Geg. schreckt evtl. zurück.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">An attack using thorny arms. It may make the foe flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Gegner schreckt evtl. zurück.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">An attack using thorny arms. It may make the foe flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Gegner schreckt evtl. zurück.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Gegner schreckt eventuell zurück.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Gegner schreckt eventuell zurück.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Gegner schreckt eventuell zurück.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Gegner schreckt eventuell zurück.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Gegner schreckt eventuell zurück.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. It may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by wildly swinging its thorny arms. This may also make the target flinch.</en>
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit dornigen Armen. Das Ziel schreckt eventuell zurück.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

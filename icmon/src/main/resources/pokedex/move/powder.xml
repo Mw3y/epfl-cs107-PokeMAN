@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">600</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">status</category>
+	<priority type="int">1</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Nuée de Poudre</fr>
+		<de type="str">Pulverschleuder</de>
+		<it type="str">Pulviscoppio</it>
+		<en type="str">Powder</en>
+	</names>
+	<type type="str">Bug</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.</en>
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.</en>
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user covers the target in a powder that explodes and damages the target if it uses a Fire-type move.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.</en>
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.</en>
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.</en>
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user covers the target in a combustible powder. If the target uses a Fire-type move, the powder explodes and damages the target.</en>
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Setzt das Ziel nach Einsatz von Pulverschleuder in derselben Runde eine Feuer-Attacke ein, kommt es zu einer Explosion, die ihm schadet.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

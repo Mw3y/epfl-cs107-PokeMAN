@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">153</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">250</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">all_adjacent</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Eksplosion</dk>
+		<fr type="str">Explosion</fr>
+		<de type="str">Explosion</de>
+		<gr type="str">Έκρηξη</gr>
+		<it type="str">Esplosione</it>
+		<pl type="str">Eksplozja</pl>
+		<en type="str">Explosion</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">8</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">8</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Very powerful but makes user faint.</en>
+			<de type="str">Stark; Angreifer wird besiegt.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Very powerful but makes user faint.</en>
+			<de type="str">Stark; Angreifer wird besiegt.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Very powerful but makes user faint.</en>
+			<de type="str">Stark; Angreifer wird besiegt.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Inflicts severe damage but makes the user faint.</en>
+			<de type="str">Richtet großen Schaden an. Anwender wird besiegt.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Inflicts severe damage but makes the user faint.</en>
+			<de type="str">Richtet großen Schaden an. Anwender wird besiegt.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Inflicts severe damage but makes the user faint.</en>
+			<de type="str">Richtet großen Schaden an. Anwender wird besiegt.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user explodes to inflict terrible damage even while fainting itself.</en>
+			<de type="str">Anwender explodiert, richtet großen Schaden an und wird besiegt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user explodes to inflict terrible damage even while fainting itself.</en>
+			<de type="str">Anwender explodiert, richtet großen Schaden an und wird besiegt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt alle Pokémon im Kampf. Der Angreifer wird dabei allerdings kampfunfähig.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt alle Pokémon im Kampf. Der Angreifer wird dabei allerdings kampfunfähig.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt alle Pokémon im Kampf. Der Angreifer wird dabei allerdings kampfunfähig.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt alle Pokémon im Kampf. Der Angreifer wird dabei allerdings kampfunfähig.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user explodes to inflict damage on all Pokémon in battle. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt alle Pokémon im Kampf. Der Angreifer wird dabei allerdings kampfunfähig.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user explodes to inflict damage on those around it. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user explodes to inflict damage on those around it. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user explodes to inflict damage on those around it. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user explodes to inflict damage on those around it. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird selbst kampfunfähig.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird selbst kampfunfähig.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird selbst kampfunfähig.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks everything around it by causing a tremendous explosion. The user faints upon using this move.</en>
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird selbst kampfunfähig.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender explodiert, richtet bei allen Pokémon in seiner Umgebung großen Schaden an und wird besiegt.* (Attacken-Beschreibung)Diese besondere Attacke verletzt Pokémon in der Nähe des Anwenders, der dabei jedoch kampfunfähig wird.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

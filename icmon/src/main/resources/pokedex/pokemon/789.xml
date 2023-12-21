@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<en>Cosmog</en>
+		<jp>コスモッグ Cosmog</jp>
+		<fr>Cosmog</fr>
+		<es>Cosmog</es>
+		<de>Cosmog</de>
+		<it>Cosmog</it>
+	</names>
+	<national_id>789</national_id>
+	<alola_id>289</alola_id>
+	<types>
+		<item>Psychic</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Unaware</name>
+		</item>
+	</abilities>
+	<catch_rate>45</catch_rate>
+	<egg_groups>
+		<item>Undiscovered</item>
+	</egg_groups>
+	<hatch_time>
+		<item>30840</item>
+		<item>31096</item>
+	</hatch_time>
+	<height_us>0'08&quot;</height_us>
+	<height_eu>0.2 m</height_eu>
+	<weight_us>0.2 lbs.</weight_us>
+	<weight_eu>0.1 kg</weight_eu>
+	<base_exp_yield>40</base_exp_yield>
+	<leveling_rate>Slow</leveling_rate>
+	<color>Blue</color>
+	<base_friendship>0</base_friendship>
+	<ev_yield>
+		<hp>1</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>0</speed>
+	</ev_yield>
+	<base_stats>
+		<hp>43</hp>
+		<atk>29</atk>
+		<def>31</def>
+		<sp_atk>29</sp_atk>
+		<sp_def>31</sp_def>
+		<speed>37</speed>
+	</base_stats>
+	<gender_ratios/>
+	<evolutions>
+		<item>
+			<to>Cosmoem</to>
+			<level>53</level>
+		</item>
+	</evolutions>
+	<categories>
+		<en>Nebula Pokémon</en>
+		<de>Nebula</de>
+	</categories>
+	<kanto_id/>
+	<johto_id/>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations/>
+	<pokedex_entries>
+		<Sun>
+			<en>Its body is gaseous and frail. It slowly grows as it collects dust from the atmosphere.</en>
+			<de>Sein Körper besteht aus flüchtigem Gas. Es wächst durch das Sammeln von Staub aus der Luft.</de>
+		</Sun>
+		<Moon>
+			<en>In ages past, it was called the child of the stars. It's said to be a Pokémon from another world, but no specific details are known.</en>
+			<de>Vor langer Zeit nannte man es „Kind der Sterne“. Es soll aus einer anderen Welt stammen, doch niemand weiß Genaueres darüber.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>Even though its helpless, gaseous body can be blown away by the slightest breeze, it doesn’t seem to care.</en>
+			<de>Da sein Körper aus Gas besteht, kann es schon von einem leichten Luftzug weggeweht werden. Aber das scheint ihm nichts auszumachen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>Whether or not it’s a Pokémon from this world is a mystery. When it’s in a jam, it warps away to a safe place to hide.</en>
+			<de>Es ist unklar, ob es aus dieser Welt stammt oder nicht. Wenn es in Gefahr ist, teleportiert es sich an einen sicheren Ort und versteckt sich.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>0</item>
+			<item>0</item>
+		</speed>
+		<power>
+			<item>0</item>
+			<item>0</item>
+		</power>
+		<stamina>
+			<item>0</item>
+			<item>0</item>
+		</stamina>
+		<skill>
+			<item>0</item>
+			<item>0</item>
+		</skill>
+		<jump>
+			<item>0</item>
+			<item>0</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>387</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Splash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>23</level>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Splash</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Teleport</move>
+					<level>23</level>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

@@ -21,6 +21,8 @@ public abstract class ICMonArea extends Area {
 
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
+        assert window != null;
+        assert fileSystem != null;
         if (super.begin(window, fileSystem)) {
             setBehavior(new ICMonBehavior(window, getTitle()));
             createArea();

@@ -40,8 +40,8 @@ public final class ICMonFightArenaGraphics implements Graphics {
         background.setRelativeTransform(Transform.I.translated(0, scaleFactor / 3));
         // HR : Add the pokemon's fight sprite
         this.opponent = new GraphicsEntity(new Vector(scaleFactor * 2 / 3 - 1.5f, scaleFactor * 2 / 3 - 1f),
-                new ImageGraphics(getSprite("fight/" + opponent.name()), 5, 5, new RegionOfInterest(0, 0, 64, 64), true));
-        this.player = new GraphicsEntity(new Vector(0f, scaleFactor / 3), new ImageGraphics(getSprite("fight/" + player.name()), 5, 5, new RegionOfInterest(128, 0, 64, 64), true));
+                new ImageGraphics(getSprite("pokemons/" + opponent.pokedexId()), 5, 5, new RegionOfInterest(0, 0, 80, 80), true));
+        this.player = new GraphicsEntity(new Vector(0f, scaleFactor / 3), new ImageGraphics(getSprite("pokemons/back/" + player.pokedexId()), 5, 5, new RegionOfInterest(0, 0, 80, 80), true));
         // HR : Prepare the info's graphics
         this.opponentInfo = new ICMonFightInfoGraphics(new Vector(.75f, scaleFactor - 2.5f), opponent, false);
         this.playerInfo = new ICMonFightInfoGraphics(new Vector(scaleFactor - 6.5f, scaleFactor / 3 + .5f), player, true);

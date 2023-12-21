@@ -1,0 +1,4815 @@
+<?xml version="1.0" ?>
+<all>
+	<names>
+		<fr>Miaouss</fr>
+		<de>Mauzi</de>
+		<it>Meowth</it>
+		<en>Meowth</en>
+	</names>
+	<national_id>52</national_id>
+	<types>
+		<item>Normal</item>
+	</types>
+	<abilities>
+		<item>
+			<name>Pickup</name>
+		</item>
+		<item>
+			<name>Unnerve</name>
+			<hidden>true</hidden>
+		</item>
+	</abilities>
+	<gender_ratios>
+		<male>50.0</male>
+		<female>50.0</female>
+	</gender_ratios>
+	<catch_rate>255</catch_rate>
+	<egg_groups>
+		<item>Field</item>
+	</egg_groups>
+	<hatch_time>
+		<item>5355</item>
+		<item>5609</item>
+	</hatch_time>
+	<height_us>1'04&quot;</height_us>
+	<height_eu>0.4 m</height_eu>
+	<weight_us>9.3 lbs.</weight_us>
+	<weight_eu>4.2 kg</weight_eu>
+	<base_exp_yield>58</base_exp_yield>
+	<leveling_rate>Medium Fast</leveling_rate>
+	<ev_yield>
+		<hp>0</hp>
+		<atk>0</atk>
+		<def>0</def>
+		<sp_atk>0</sp_atk>
+		<sp_def>0</sp_def>
+		<speed>1</speed>
+	</ev_yield>
+	<color>Yellow</color>
+	<base_friendship>70</base_friendship>
+	<base_stats>
+		<hp>40</hp>
+		<atk>45</atk>
+		<def>35</def>
+		<sp_atk>40</sp_atk>
+		<sp_def>40</sp_def>
+		<speed>90</speed>
+	</base_stats>
+	<evolutions>
+		<item>
+			<to>Persian</to>
+			<level>28</level>
+		</item>
+	</evolutions>
+	<alola_id>45</alola_id>
+	<categories>
+		<en>Scratch Cat Pokémon</en>
+		<de>Katze</de>
+	</categories>
+	<kanto_id>52</kanto_id>
+	<johto_id>138</johto_id>
+	<hoenn_id/>
+	<sinnoh_id/>
+	<unova_id/>
+	<kalos_id/>
+	<mega_evolutions/>
+	<evolution_from/>
+	<variations>
+		<item>
+			<condition>Alola</condition>
+			<image_suffix>alola</image_suffix>
+			<names>
+				<en>Alolan Meowth</en>
+				<de>Alola-Mauzi</de>
+			</names>
+			<types>
+				<item>Dark</item>
+			</types>
+			<abilities>
+				<item>
+					<name>Pickup</name>
+				</item>
+				<item>
+					<name>Technician</name>
+				</item>
+				<item>
+					<name>Rattled</name>
+					<hidden>true</hidden>
+				</item>
+			</abilities>
+			<base_stats>
+				<hp>40</hp>
+				<atk>35</atk>
+				<def>35</def>
+				<sp_atk>50</sp_atk>
+				<sp_def>40</sp_def>
+				<speed>90</speed>
+			</base_stats>
+		</item>
+	</variations>
+	<pokedex_entries>
+		<Red>
+			<en>Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.</en>
+			<de>Dieses Pokémon bewundert runde Objekte. Es sucht nachts auf den Straßen nach verlorenen Münzen.</de>
+		</Red>
+		<Blue>
+			<en>Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.</en>
+			<de>Dieses Pokémon bewundert runde Objekte. Es sucht nachts auf den Straßen nach verlorenen Münzen.</de>
+		</Blue>
+		<Yellow>
+			<en>Appears to be more active at night. It loves round and shiny things. It can't stop from picking them up.</en>
+			<de>Dieses Pokémon ist nachtaktiv. Es liebt glitzernde Gegenstände und stiehlt diese bei jeder Gelegenheit.</de>
+		</Yellow>
+		<Gold>
+			<en>It is fascinated by round objects. It can't stop playing with them until it tires and falls asleep.</en>
+			<de>Es ist von runden Objekten fasziniert. Es spielt solange damit, bis es müde wird und einschläft.</de>
+		</Gold>
+		<Silver>
+			<en>It loves anything that shines. It especially adores coins that it picks up and secretly hoards.</en>
+			<de>Es liebt alles Glänzende. Es hat eine Vorliebe für Münzen, die es aufliest und unbemerkt hortet.</de>
+		</Silver>
+		<Crystal>
+			<en>It loves things that sparkle. When it sees a shiny object, the gold coin on its head shines too.</en>
+			<de>Schimmernde Dinge faszinieren es. Findet es etwas Schimmerndes, leuchtet die Münze an seinem Körper.</de>
+		</Crystal>
+		<Ruby>
+			<en>Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.</en>
+			<de>Mauzi zieht seine scharfen Krallen ein, um umherschleichen zu können, ohne verräterische Spuren zu hinterlassen. Dieses Pokémon hat eine Vorliebe für Münzen, die im Licht glitzern.</de>
+		</Ruby>
+		<Sapphire>
+			<en>Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.</en>
+			<de>Mauzi zieht seine scharfen Krallen ein, um umherschleichen zu können, ohne verräterische Spuren zu hinterlassen. Dieses Pokémon hat eine Vorliebe für Münzen, die das Licht reflektieren.</de>
+		</Sapphire>
+		<Emerald>
+			<en>Meowth withdraw their sharp claws into their paws to silently sneak about. For some reason, this Pokémon loves shiny coins that glitter with light.</en>
+			<de>MAUZI zieht seine scharfen Krallen ein, um umherschleichen zu können, ohne Spuren zu hinterlassen. Dieses POKÉMON hat eine Vorliebe für Münzen, die im Licht glitzern.</de>
+		</Emerald>
+		<FireRed>
+			<en>All it does is sleep during the daytime. At night, it patrols its territory with its eyes aglow.</en>
+			<de>Es schläft den ganzen Tag. Nachts patrouilliert es sein Gebiet mit glühenden Augen.</de>
+		</FireRed>
+		<LeafGreen>
+			<en>Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.</en>
+			<de>Dieses Pokémon bewundert runde Objekte. Es sucht nachts auf den Straßen nach verlorenen Münzen.</de>
+		</LeafGreen>
+		<Diamond>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</Diamond>
+		<Pearl>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</Pearl>
+		<Platinum>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</Platinum>
+		<HeartGold>
+			<en>It is fascinated by round objects. It can't stop playing with them until it tires and falls asleep.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</HeartGold>
+		<SoulSilver>
+			<en>It loves anything that shines. It especially adores coins that it picks up and secretly hoards.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</SoulSilver>
+		<Black>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</Black>
+		<White>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</White>
+		<Black_2>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</Black_2>
+		<White_2>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</White_2>
+		<X>
+			<en>It is nocturnal in nature. If it spots something shiny, its eyes glitter brightly.</en>
+			<de>Ein nachtaktives Pokémon. Sieht es etwas Schimmerndes, fangen seine Augen an zu glänzen.</de>
+		</X>
+		<Y>
+			<en>Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.</en>
+			<de>Dieses Pokémon bewundert runde Objekte. Es sucht nachts auf den Straßen nach verlorenen Münzen.</de>
+		</Y>
+		<Omega_Ruby>
+			<en>Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.</en>
+			<de>Mauzi zieht seine scharfen Krallen ein, um umherschleichen zu können, ohne verräterische Spuren zu hinterlassen. Dieses Pokémon hat eine Vorliebe für Münzen, dies das Licht reflektieren.</de>
+		</Omega_Ruby>
+		<Alpha_Sapphire>
+			<en>Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.</en>
+			<de>Mauzi zieht seine scharfen Krallen ein, um umherschleichen zu können, ohne verräterische Spuren zu hinterlassen. Dieses Pokémon hat eine Vorliebe für Münzen, dies das Licht reflektieren.</de>
+		</Alpha_Sapphire>
+		<Sun>
+			<en>It lies around all day, becoming active near dusk. At night, it wanders the city in search of loose change.</en>
+			<de>Tagsüber ist es faul und schläft ständig. Erst nach Sonnenuntergang wird es aktiv und durchstöbert die Stadt nach Münzen.</de>
+		</Sun>
+		<Moon>
+			<en>It loves shiny things. It often fights with Murkrow over prey they're both trying to catch.</en>
+			<de>Es liebt glänzende Objekte. Mauzi und Kramurx nehmen sich oft gegenseitig die Beute weg, was regelmäßig zu heftigem Streit führt.</de>
+		</Moon>
+		<Ultra_Sun>
+			<en>When visiting a junkyard, you may catch sight of it having an intense fight with Murkrow over shiny objects.</en>
+			<de>Alola-Form: Ein launenhaftes und selbstsüchtiges Pokémon. Manche Trainer geben ihm nur zu gerne die Aufmerksamkeit, nach der es sich sehnt.
+Standard-Form: Auf Müllhalden wird man oft Zeuge davon, wie es sich einen heftigen Streit mit Kramurx um glänzende Gegenstände liefert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon>
+			<en>It loves coins, so if you give it one, you can make friends with Meowth easily. But it’s fickle, so you can’t count on that friendship lasting.</en>
+			<de>Alola-Form: Es wurde von einer einst prosperierenden Dynastie aus einer anderen Region nach Alola gebracht. Es ist hochmütig und egoistisch.
+Standard-Form: Es hat eine Vorliebe für Münzen. Gibt man ihm eine, gewinnt man leicht sein Zutrauen, doch das währt dank des launischen Wesens nicht lange.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+	<pokeathlon_stats>
+		<speed>
+			<item>4</item>
+			<item>4</item>
+		</speed>
+		<power>
+			<item>1</item>
+			<item>2</item>
+		</power>
+		<stamina>
+			<item>1</item>
+			<item>1</item>
+		</stamina>
+		<skill>
+			<item>4</item>
+			<item>4</item>
+		</skill>
+		<jump>
+			<item>3</item>
+			<item>4</item>
+		</jump>
+	</pokeathlon_stats>
+	<ultra_alola_id>23</ultra_alola_id>
+	<move_learnsets>
+		<item>
+			<games>
+				<item>Red</item>
+				<item>Blue</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Yellow</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>12</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>24</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>44</level>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Body Slam</move>
+					<tm>TM8</tm>
+				</item>
+				<item>
+					<move>Take Down</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Double-Edge</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Bubble Beam</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Water Gun</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Rage</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Mimic</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Bide</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Skull Bash</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Gold</item>
+				<item>Silver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Crystal</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Headbutt</move>
+					<tm>TM2</tm>
+				</item>
+				<item>
+					<move>Curse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Zap Cannon</move>
+					<tm>TM7</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM9</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Snore</move>
+					<tm>TM13</tm>
+				</item>
+				<item>
+					<move>Icy Wind</move>
+					<tm>TM16</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM20</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Mud-Slap</move>
+					<tm>TM31</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM35</tm>
+				</item>
+				<item>
+					<move>Swift</move>
+					<tm>TM39</tm>
+				</item>
+				<item>
+					<move>Defense Curl</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Detect</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Nightmare</move>
+					<tm>TM50</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ruby</item>
+				<item>Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>FireRed</item>
+				<item>LeafGreen</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>10</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>18</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>31</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>36</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>40</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>43</level>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<level>45</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Emerald</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>11</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>20</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>28</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>35</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>HM5</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Diamond</item>
+				<item>Pearl</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Platinum</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>HeartGold</item>
+				<item>SoulSilver</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Water Pulse</move>
+					<tm>TM3</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<tm>TM23</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Shock Wave</move>
+					<tm>TM34</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM43</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Endure</move>
+					<tm>TM58</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<tm>TM78</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM79</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM82</tm>
+				</item>
+				<item>
+					<move>Natural Gift</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black</item>
+				<item>White</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Black 2</item>
+				<item>White 2</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>54</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM83</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>X</item>
+				<item>Y</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Omega Ruby</item>
+				<item>Alpha Sapphire</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>50</level>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+				</item>
+				<item>
+					<move>Cut</move>
+					<tm>HM1</tm>
+				</item>
+				<item>
+					<move>Hone Claws</move>
+					<tm>TM1</tm>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+				</item>
+				<item>
+					<move>Dig</move>
+					<tm>TM28</tm>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+				</item>
+				<item>
+					<move>Retaliate</move>
+					<tm>TM67</tm>
+				</item>
+				<item>
+					<move>Flash</move>
+					<tm>TM70</tm>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+				</item>
+				<item>
+					<move>Secret Power</move>
+					<tm>TM94</tm>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Sun</item>
+				<item>Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>50</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>50</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<level>55</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Covet</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flatter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Parting Shot</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+		<item>
+			<games>
+				<item>Ultra Sun</item>
+				<item>Ultra Moon</item>
+			</games>
+			<learnset>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>50</level>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Growl</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Scratch</move>
+					<level>1</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Bite</move>
+					<level>6</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fake Out</move>
+					<level>9</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Fury Swipes</move>
+					<level>14</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Screech</move>
+					<level>17</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint Attack</move>
+					<level>22</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<level>25</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Pay Day</move>
+					<level>30</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Slash</move>
+					<level>33</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Nasty Plot</move>
+					<level>38</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assurance</move>
+					<level>41</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Captivate</move>
+					<level>46</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Night Slash</move>
+					<level>49</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Feint</move>
+					<level>50</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<level>55</level>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Iron Tail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Last Resort</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Odor Sleuth</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Tail Whip</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Amnesia</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Assist</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Charm</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Covet</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flail</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Flatter</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Foul Play</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hypnosis</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Parting Shot</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Punishment</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Snatch</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Spite</move>
+					<egg_move>true</egg_move>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Work Up</move>
+					<tm>TM1</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Toxic</move>
+					<tm>TM6</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Hidden Power</move>
+					<tm>TM10</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sunny Day</move>
+					<tm>TM11</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Taunt</move>
+					<tm>TM12</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Protect</move>
+					<tm>TM17</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rain Dance</move>
+					<tm>TM18</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Frustration</move>
+					<tm>TM21</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunderbolt</move>
+					<tm>TM24</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thunder</move>
+					<tm>TM25</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Return</move>
+					<tm>TM27</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Ball</move>
+					<tm>TM30</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Double Team</move>
+					<tm>TM32</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Aerial Ace</move>
+					<tm>TM40</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Torment</move>
+					<tm>TM41</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Facade</move>
+					<tm>TM42</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Rest</move>
+					<tm>TM44</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Attract</move>
+					<tm>TM45</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Thief</move>
+					<tm>TM46</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Round</move>
+					<tm>TM48</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Echoed Voice</move>
+					<tm>TM49</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Quash</move>
+					<tm>TM60</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Embargo</move>
+					<tm>TM63</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Shadow Claw</move>
+					<tm>TM65</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Payback</move>
+					<tm>TM66</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Psych Up</move>
+					<tm>TM77</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dream Eater</move>
+					<tm>TM85</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Swagger</move>
+					<tm>TM87</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Sleep Talk</move>
+					<tm>TM88</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>U-turn</move>
+					<tm>TM89</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Substitute</move>
+					<tm>TM90</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Dark Pulse</move>
+					<tm>TM97</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+				<item>
+					<move>Confide</move>
+					<tm>TM100</tm>
+					<variations>
+						<item>Alolan Meowth</item>
+					</variations>
+				</item>
+			</learnset>
+		</item>
+	</move_learnsets>
+</all>

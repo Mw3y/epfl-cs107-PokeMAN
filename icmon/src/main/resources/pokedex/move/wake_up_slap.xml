@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">358</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">70</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Réveil Forcé</fr>
+		<de type="str">Weckruf</de>
+		<gr type="str">Σφαλιάρα Αφύπνισης</gr>
+		<it type="str">Svegliopacca</it>
+		<en type="str">Wake-Up Slap</en>
+	</names>
+	<type type="str">Fighting</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">4</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Clever</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">3</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Gegner an, weckt ihn aber auch auf.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Gegner an, weckt ihn aber auch auf.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Gegner an, weckt ihn aber auch auf.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Gegner an, weckt ihn aber auch auf.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">This attack inflicts high damage on a sleeping foe. It also wakes the foe up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Gegner an, weckt ihn aber auch auf.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. It also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. It also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. It also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. It also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">This attack inflicts big damage on a sleeping target. This also wakes the target up, however.</en>
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Richtet großen Schaden bei einem schlafenden Ziel an, weckt es aber auch auf.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

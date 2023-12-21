@@ -17,6 +17,8 @@ public class CollectItemEvent extends ICMonEvent {
     private final ICMonItem item;
 
     public CollectItemEvent(ICMonPlayer player, ICMonItem itemToCollect) {
+        assert player != null;
+        assert itemToCollect != null;
         this.player = player;
         this.item = itemToCollect;
 
@@ -33,11 +35,13 @@ public class CollectItemEvent extends ICMonEvent {
 
     @Override
     public void interactWith(ICShopAssistant assistant, boolean isCellInteraction) {
+        assert assistant != null;
         System.out.println("interaction.with.icshopAssistant.from.collectItemEvent");
         player.openDialog("collect_item_event_interaction_with_icshopassistant");
     }
     @Override
     public void interactWith(ICBall ball, boolean isCellInteraction) {
+        assert ball != null;
         System.out.println("interaction.with.icball.from.collectItemEvent");
     }
 

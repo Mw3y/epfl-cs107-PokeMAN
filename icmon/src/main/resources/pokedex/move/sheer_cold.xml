@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">329</index_number>
+	<pp type="int">5</pp>
+	<max_pp type="int">8</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Glaciation</fr>
+		<de type="str">Eiseskälte</de>
+		<gr type="str">Δριμύ Ψύχος</gr>
+		<it type="str">Purogelo</it>
+		<pl type="str">Polarny Chłód</pl>
+		<en type="str">Sheer Cold</en>
+	</names>
+	<type type="str">Ice</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Ruby type="dict">
+			<en type="str">A chilling attack that causes fainting if it hits.</en>
+			<de type="str">Eis-Attacke. Besiegt den Gegner, wenn sie trifft.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A chilling attack that causes fainting if it hits.</en>
+			<de type="str">Eis-Attacke. Besiegt den Gegner, wenn sie trifft.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A chilling attack that causes fainting if it hits.</en>
+			<de type="str">Eis-Attacke. Besiegt den Gegner, wenn sie trifft.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The foe is attacked with ultimate cold that causes fainting if it hits.</en>
+			<de type="str">Angriff mit Kälte, die den Gegner bei Erfolg besiegt.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The foe is attacked with ultimate cold that causes fainting if it hits.</en>
+			<de type="str">Angriff mit Kälte, die den Gegner bei Erfolg besiegt.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die den Gegner bei Erfolg besiegt.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die den Gegner bei Erfolg besiegt.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die den Gegner bei Erfolg besiegt.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die den Gegner bei Erfolg besiegt.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The foe is attacked with a blast of absolute-zero cold. The foe instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die den Gegner bei Erfolg besiegt.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target instantly faints if it hits.</en>
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.</en>
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.</en>
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The target is attacked with a blast of absolute-zero cold. The target faints instantly if this attack hits.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.</en>
+			<de type="str">Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.</en>
+			<de type="str">Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.</en>
+			<de type="str">Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The target faints instantly. It’s less likely to hit the target if it’s used by Pokémon other than Ice types.</en>
+			<de type="str">Diese Attacke führt beim Ziel sofort zum K.O. Wird sie von einem Pokémon eingesetzt, das nicht dem Typ Eis angehört, trifft sie seltener.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Angriff mit Kälte, die das Ziel bei Erfolg besiegt.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

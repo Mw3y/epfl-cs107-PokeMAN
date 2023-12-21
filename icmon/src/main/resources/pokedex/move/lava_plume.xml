@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">436</index_number>
+	<pp type="int">15</pp>
+	<max_pp type="int">24</max_pp>
+	<power type="int">80</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">special</category>
+	<priority type="int">0</priority>
+	<target type="str">all_adjacent</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Ébullilave</fr>
+		<de type="str">Flammensturm</de>
+		<gr type="str">Νέφος Λάβας</gr>
+		<it type="str">Lavasbuffo</it>
+		<pl type="str">Pióropusz Lawy</pl>
+		<en type="str">Lava Plume</en>
+	</names>
+	<type type="str">Fire</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">0</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Tough</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">2</jam>
+			<condition type="str">Tough</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Diamond type="dict">
+			<en type="str">An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.</en>
+			<de type="str">Ein Flammeninferno fegt über im Kampf befindliche PKMN. Kann Verbrennungen erzeugen (außer bei Anw.).</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.</en>
+			<de type="str">Ein Flammeninferno fegt über im Kampf befindliche PKMN. Kann Verbrennungen erzeugen (außer bei Anw.).</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.</en>
+			<de type="str">Ein Flammeninferno fegt über im Kampf befindliche PKMN. Kann Verbrennungen erzeugen (außer bei Anw.).</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.</en>
+			<de type="str">Ein Flammeninferno, das über im Kampf befindliche PKMN (außer Anw.) hinwegfegt. Verbrennt eventuell.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">An inferno of scarlet flames washes over all Pokémon in battle. It may also inflict burns.</en>
+			<de type="str">Ein Flammeninferno, das über im Kampf befindliche PKMN (außer Anw.) hinwegfegt. Verbrennt eventuell.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.</en>
+			<de type="str">Ein Flammeninferno, das über den Bereich um den Anwender hinwegfegt. Verbrennt eventuell.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.</en>
+			<de type="str">Ein Flammeninferno, das über den Bereich um den Anwender hinwegfegt. Verbrennt eventuell.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.</en>
+			<de type="str">Ein Flammeninferno, das über den Bereich um den Anwender hinwegfegt. Verbrennt eventuell.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">An inferno of scarlet flames torches everything around the user. It may leave targets with a burn.</en>
+			<de type="str">Ein Flammeninferno, das über den Bereich um den Anwender hinwegfegt. Verbrennt eventuell.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.</en>
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.</en>
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user torches everything around it with an inferno of scarlet flames. This may also leave those hit with a burn.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.</en>
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.</en>
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.</en>
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user torches everything around it in an inferno of scarlet flames. This may also leave those it hits with a burn.</en>
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Greift alles in seiner Umgebung mit tiefroten Flammen an. Ziel kann Verbrennungen erleiden.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">burn</condition>
+				<probability type="int">30</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">107</index_number>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">user</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<dk type="str">Minimere</dk>
+		<fr type="str">Lilliput</fr>
+		<de type="str">Komprimator</de>
+		<gr type="str">Σμίκρυνση</gr>
+		<it type="str">Minimizzato</it>
+		<en type="str">Minimize</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">evasion</stat>
+			<change_by type="int">1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Heightens evasiveness.</en>
+			<de type="str">Fluchtwert nimmt zu.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Heightens evasiveness.</en>
+			<de type="str">Fluchtwert nimmt zu.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Heightens evasiveness.</en>
+			<de type="str">Fluchtwert nimmt zu.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">Minimizes the user’s size to raise evasiveness.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">Minimizes the user’s size to raise evasiveness.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">Minimizes the user’s size to raise evasiveness.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">The user compresses all the cells in its body to raise its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">The user compresses all the cells in its body to raise its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user compresses its body to make itself look smaller. The user’s evasion stat is boosted.</en>
+			<de type="str">Anwender schrumpft, um Fluchtwert zu erhöhen.</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user compresses its body to make itself look smaller, which sharply raises its evasiveness.</en>
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Anwender schrumpft, um seinen Fluchtwert stark zu erhöhen.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

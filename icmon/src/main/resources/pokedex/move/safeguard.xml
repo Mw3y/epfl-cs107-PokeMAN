@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">219</index_number>
+	<pp type="int">25</pp>
+	<max_pp type="int">40</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<category type="str">status</category>
+	<priority type="int">0</priority>
+	<target type="str">all_users</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">true</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Rune Protect</fr>
+		<de type="str">Bodyguard</de>
+		<gr type="str">Περιφρούρηση</gr>
+		<it type="str">Salvaguardia</it>
+		<pl type="str">Ochrona (Diamond &amp; Pearl - the same as Protect) Obrona (Series: XY)</pl>
+		<en type="str">Safeguard</en>
+	</names>
+	<type type="str">Normal</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contests</contest>
+			<appeal type="int">1</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Super Contests</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">0</jam>
+			<condition type="str">Beautiful</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<Gold type="dict">
+			<en type="str">Prevents all status problems.</en>
+			<de type="str">Verhindert Statusprobleme.</de>
+		</Gold>
+		<Silver type="dict">
+			<en type="str">Prevents all status problems.</en>
+			<de type="str">Verhindert Statusprobleme.</de>
+		</Silver>
+		<Crystal type="dict">
+			<en type="str">Prevents all status problems.</en>
+			<de type="str">Verhindert Statusprobleme.</de>
+		</Crystal>
+		<Ruby type="dict">
+			<en type="str">A mystical force prevents all status problems.</en>
+			<de type="str">Mystische Kraft, die alle Statusprobleme verhindert.* (Attacken-Beschreibung)Mystische Macht verhindert Statusveränderungen.* (TM-Beschreibung)</de>
+		</Ruby>
+		<Sapphire type="dict">
+			<en type="str">A mystical force prevents all status problems.</en>
+			<de type="str">Mystische Kraft, die alle Statusprobleme verhindert.* (Attacken-Beschreibung)Mystische Macht verhindert Statusveränderungen.* (TM-Beschreibung)</de>
+		</Sapphire>
+		<Emerald type="dict">
+			<en type="str">A mystical force prevents all status problems.</en>
+			<de type="str">Mystische Kraft, die alle Statusprobleme verhindert.* (Attacken-Beschreibung)Mystische Macht, verhindert Statusveränderungen.* (TM-Beschreibung)</de>
+		</Emerald>
+		<FireRed type="dict">
+			<en type="str">It protects the user’s party from all status problems for five turns.</en>
+			<de type="str">Team d. Anwenders ist 5 Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</FireRed>
+		<LeafGreen type="dict">
+			<en type="str">It protects the user’s party from all status problems for five turns.</en>
+			<de type="str">Team d. Anwenders ist 5 Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</LeafGreen>
+		<Diamond type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Diamond>
+		<Pearl type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Pearl>
+		<Platinum type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Platinum>
+		<HeartGold type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</HeartGold>
+		<SoulSilver type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</SoulSilver>
+		<Black type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Black>
+		<White type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</White>
+		<Black_2 type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Black_2>
+		<White_2 type="dict">
+			<en type="str">The user creates a protective field that prevents status problems for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</White_2>
+		<X type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user creates a protective field that prevents status conditions for five turns.</en>
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Team des Anwenders ist fünf Runden vor Statusproblemen geschützt.* (Attacken-Beschreibung)Ein Schild schützt das Team 5 Runden lang vor Statusproblemen jeglicher Art.* (TM-Beschreibung)</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+</all>

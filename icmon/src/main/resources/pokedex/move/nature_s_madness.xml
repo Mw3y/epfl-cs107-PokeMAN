@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Nature's Madness</en>
+		<fr type="str">Ire de la Nature</fr>
+		<de type="str">Naturzorn</de>
+		<it type="str">Ira della Natura</it>
+		<es type="str">Furia Natural</es>
+	</names>
+	<index_number type="int">717</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<type type="str">Fairy</type>
+	<category type="str">special</category>
+	<pp type="int">10</pp>
+	<max_pp type="int">16</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">90</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user hits the target with the force of nature. It halves the target’s HP.</en>
+			<de type="str">Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user hits the target with the force of nature. It halves the target’s HP.</en>
+			<de type="str">Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user hits the target with the force of nature. It halves the target’s HP.</en>
+			<de type="str">Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user hits the target with the force of nature. It halves the target’s HP.</en>
+			<de type="str">Das Ziel wird vom Zorn der Natur getroffen und verliert dadurch die Hälfte seiner KP.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>

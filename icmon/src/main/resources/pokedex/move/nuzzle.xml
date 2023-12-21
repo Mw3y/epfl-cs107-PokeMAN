@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<all>
+	<index_number type="int">609</index_number>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">20</power>
+	<accuracy type="int">100</accuracy>
+	<category type="str">physical</category>
+	<priority type="int">0</priority>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<makes_contact type="bool">true</makes_contact>
+	<affected_by_protect type="bool">true</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">false</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">true</affected_by_kings_rock>
+	<names type="dict">
+		<fr type="str">Frotte-Frimousse</fr>
+		<de type="str">Wangenrubbler</de>
+		<it type="str">Elettrococcola</it>
+		<pl type="str">Mizianie</pl>
+		<en type="str">Nuzzle</en>
+	</names>
+	<type type="str">Electric</type>
+	<contests type="list">
+		<item type="dict">
+			<contest type="str">Contest Spectaculars</contest>
+			<appeal type="int">2</appeal>
+			<jam type="int">1</jam>
+			<condition type="str">Cute</condition>
+		</item>
+	</contests>
+	<pokedex_entries type="dict">
+		<X type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+		</X>
+		<Y type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+		</Y>
+		<O.Ruby type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Unbekannt</de>
+		</O.Ruby>
+		<A.Sapphire type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Unbekannt</de>
+		</A.Sapphire>
+		<Sun type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user attacks by nuzzling its electrified cheeks against the target. This also leaves the target with paralysis.</en>
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+		</Ultra_Moon>
+		<Omega_Ruby type="dict">
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+			<en type="str">Unknown</en>
+		</Omega_Ruby>
+		<Alpha_Sapphire type="dict">
+			<de type="str">Der Anwender lädt seine Wangen elektrisch auf und greift an, indem er sich damit am Ziel reibt. Das Ziel wird paralysiert.</de>
+			<en type="str">Unknown</en>
+		</Alpha_Sapphire>
+	</pokedex_entries>
+	<in_battle_properties type="dict">
+		<status_conditions type="list">
+			<item type="dict">
+				<condition type="str">paralysis</condition>
+				<probability type="int">100</probability>
+			</item>
+		</status_conditions>
+	</in_battle_properties>
+</all>

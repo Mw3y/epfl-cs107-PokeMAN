@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<all>
+	<names type="dict">
+		<en type="str">Tearful Look</en>
+		<fr type="str">Larme à l'Œil</fr>
+		<de type="str">Tränendrüse</de>
+		<it type="str">Occhionilucidi</it>
+		<es type="str">Ojos Llorosos</es>
+	</names>
+	<index_number type="int">715</index_number>
+	<makes_contact type="bool">false</makes_contact>
+	<affected_by_protect type="bool">false</affected_by_protect>
+	<affected_by_magic_coat type="bool">false</affected_by_magic_coat>
+	<affected_by_snatch type="bool">false</affected_by_snatch>
+	<affected_by_mirror_move type="bool">true</affected_by_mirror_move>
+	<affected_by_kings_rock type="bool">false</affected_by_kings_rock>
+	<type type="str">Normal</type>
+	<category type="str">status</category>
+	<pp type="int">20</pp>
+	<max_pp type="int">32</max_pp>
+	<power type="int">0</power>
+	<accuracy type="int">0</accuracy>
+	<target type="str">target_adjacent_single</target>
+	<critical_hit type="int">0</critical_hit>
+	<priority type="int">0</priority>
+	<contests type="list"/>
+	<stat_modifiers type="list">
+		<item type="dict">
+			<stat type="str">atk</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+		<item type="dict">
+			<stat type="str">sp_atk</stat>
+			<change_by type="int">-1</change_by>
+		</item>
+	</stat_modifiers>
+	<pokedex_entries type="dict">
+		<Sun type="dict">
+			<en type="str">The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.</en>
+			<de type="str">Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.</de>
+		</Sun>
+		<Moon type="dict">
+			<en type="str">The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.</en>
+			<de type="str">Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.</de>
+		</Moon>
+		<Ultra_Sun type="dict">
+			<en type="str">The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.</en>
+			<de type="str">Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.</de>
+		</Ultra_Sun>
+		<Ultra_Moon type="dict">
+			<en type="str">The user gets teary eyed to make the target lose its combative spirit. This lowers the target’s Attack and Sp. Atk stats.</en>
+			<de type="str">Dem Anwender stehen Tränen in den Augen, wodurch das Ziel seinen Kampfeswillen verliert. Angriff und Spezial-Angriff des Zieles sinken.</de>
+		</Ultra_Moon>
+	</pokedex_entries>
+</all>
