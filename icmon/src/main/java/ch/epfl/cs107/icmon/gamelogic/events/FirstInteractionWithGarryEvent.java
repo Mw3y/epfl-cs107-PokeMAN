@@ -11,17 +11,15 @@ import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFight;
 import ch.epfl.cs107.play.engine.PauseMenu;
 
 public class FirstInteractionWithGarryEvent extends ICMonEvent {
-
     private final Garry garry;
 
     public FirstInteractionWithGarryEvent(Garry garry) {
-        assert garry != null;
         this.garry = garry;
 
         onStart(new LogAction("event.firstInteractionWithGarry.start"));
         onComplete(new LogAction("event.firstInteractionWithGarry.complete"));
         // Allow fighting garry only during the event
-        onStart(new SetTrainerFightsAcceptance(true, garry));
+        onStart(new SetTrainerFightsAcceptance(false, garry));
         onComplete(new SetTrainerFightsAcceptance(false, garry));
     }
 

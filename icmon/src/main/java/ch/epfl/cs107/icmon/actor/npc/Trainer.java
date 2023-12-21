@@ -17,6 +17,7 @@ import java.util.List;
 public abstract class Trainer extends NPCActor implements ICMonFightableActor {
 
     private final List<Pokemon> pokemons = new ArrayList<>();
+    private boolean communicate = false;
     private boolean acceptsFights = false;
 
     private final String name;
