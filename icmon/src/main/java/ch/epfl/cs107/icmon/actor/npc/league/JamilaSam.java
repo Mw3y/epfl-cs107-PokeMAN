@@ -20,7 +20,7 @@ public class JamilaSam extends Trainer {
      * @param position    (Coordinate): Initial position of the entity. Not null.
      */
     public JamilaSam(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super("Jamila Sam", area, orientation, position, "actors/jamila_sam", null, false);
+        super("jamila_sam", area, orientation, position, "actors/jamila_sam", null, false);
         givePokemon(new PokemonDataLoader().load(493).toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 
