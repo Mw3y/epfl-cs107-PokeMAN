@@ -109,7 +109,7 @@ public class ICMonFight extends PauseMenu {
         // Check if the opponent can attack
         if (!attacks.isEmpty()) {
             // Use a random attack
-            ICMonFightAction attack = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size()));
+            ICMonFightAction attack = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size() - 1));
             // The attack didn't finish
             if (!attack.doAction(playerPokemon, opponentPokemon)) {
                 state = FightState.ENDING;

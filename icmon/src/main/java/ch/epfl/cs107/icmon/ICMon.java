@@ -10,6 +10,7 @@ import ch.epfl.cs107.icmon.gamelogic.actions.ResumeEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.*;
+import ch.epfl.cs107.icmon.gamelogic.menu.ICMonPauseMenu;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
@@ -49,6 +50,10 @@ public class ICMon extends AreaGame {
             createAreas();
             initArea(House.TITLE);
             events();
+
+            // Show the main menu
+            gameState.pause(new ICMonPauseMenu(gameState));
+
             return true;
         }
         return false;
