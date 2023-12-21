@@ -30,6 +30,11 @@ public class Attack implements ICMonFightAction {
     }
 
     @Override
+    public String sfx() {
+        return "cut";
+    }
+
+    @Override
     public String name() {
         return name;
     }

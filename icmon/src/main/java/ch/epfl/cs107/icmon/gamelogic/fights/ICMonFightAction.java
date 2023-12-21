@@ -17,6 +17,12 @@ public interface ICMonFightAction {
     PokemonMoveType type();
 
     /**
+     * Gets the name of the sfx to play.
+     * @return the name of the sfx to play.
+     */
+    String sfx();
+
+    /**
      * Gets the name of the fight action.
      * @return the name of the action.
      */
