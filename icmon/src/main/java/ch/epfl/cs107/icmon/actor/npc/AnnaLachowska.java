@@ -14,9 +14,8 @@ public class AnnaLachowska extends Trainer{
      * @param area        (Area): Owner area. Not null.
      * @param orientation (Orientation): Initial orientation of the entity. Not null.
      * @param position    (Coordinate): Initial position of the entity. Not null.
-     * @param spriteName  (String): Initial sprite of the trainer.
      */
-    public AnnaLachowska(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
+    public AnnaLachowska(Area area, Orientation orientation, DiscreteCoordinates position) {
         super(area, orientation, position, "actors/anna_lachowska");
     }
 
