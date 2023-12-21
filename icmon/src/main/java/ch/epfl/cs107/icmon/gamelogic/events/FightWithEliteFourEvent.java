@@ -45,7 +45,7 @@ public class FightWithEliteFourEvent extends ICMonEvent {
         for (Trainer trainer : trainers) {
             if (!trainer.hasHealthyPokemon() && !hasWonAgainst.contains(trainer.name())) {
                 // Open dialog after the win of the player
-                trainer.openDialogWith(player, "welcome_to_icmon");
+                trainer.openDialogWith(player, "end_fight_"+trainer.name());
                 hasWonAgainst.add(trainer.name());
             }
         }
@@ -53,7 +53,7 @@ public class FightWithEliteFourEvent extends ICMonEvent {
         if (currentTrainer != null) {
             if (!currentTrainer.hadADialogWithPlayer())
                 // Open dialog before the fight with the player
-                currentTrainer.openDialogWith(player, "welcome_to_icmon");
+                currentTrainer.openDialogWith(player, "start_fight_"+ currentTrainer.name());
             else if (!player.isDialogInProgress()) {
                 currentTrainer.setFightsAcceptance(true);
                 if (!hasWonAgainst.contains(currentTrainer))

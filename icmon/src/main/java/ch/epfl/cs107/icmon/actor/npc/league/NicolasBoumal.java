@@ -20,7 +20,7 @@ public class NicolasBoumal extends Trainer {
      * @param position    (Coordinate): Initial position of the entity. Not null.
      */
     public NicolasBoumal(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super("Nicolas Boumal", area, orientation, position, "actors/nicolas_boumal", null, false);
+        super("nicolas_boumal", area, orientation, position, "actors/nicolas_boumal", null, false);
         givePokemon(new PokemonDataLoader().load(115).toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 

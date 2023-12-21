@@ -290,8 +290,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         public void interactWith(Trainer trainer, boolean isCellInteraction) {
             assert trainer != null;
             if (hasHealthyPokemon()) {
-                if (trainer.acceptsFights())
-                    trainer.fight(gameState, pokemons.get(0));
+                if (trainer.acceptsFights()) trainer.fight(gameState, pokemons.get(0));
             }
             else openDialog("fight_impossible");
             gameState.acceptInteraction(trainer, isCellInteraction);

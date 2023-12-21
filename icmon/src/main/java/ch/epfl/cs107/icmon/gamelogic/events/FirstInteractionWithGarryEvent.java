@@ -18,6 +18,7 @@ public class FirstInteractionWithGarryEvent extends ICMonEvent {
     }
 
     public void update(float deltaTime) {
+
         // Check if Garry has been beaten
         if (!garry.hasHealthyPokemon()) {
             complete();

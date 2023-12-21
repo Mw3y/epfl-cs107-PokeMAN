@@ -31,7 +31,7 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
 
         if (!jamilaSam.hadADialogWithPlayer()) {
             // Open dialog before the fight with the player
-            jamilaSam.openDialogWith(player, "welcome_to_icmon");
+            jamilaSam.openDialogWith(player, "start_fight_jamila_sam");
             jamilaSam.setFightsAcceptance(true);
         } else if (hasInteractionBeenRegistered && !player.isDialogInProgress()) {
             player.interactWith(jamilaSam, false);
@@ -41,7 +41,7 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
         if (!jamilaSam.hasHealthyPokemon()) {
             jamilaSam.setFightsAcceptance(false);
             // Open dialog after the fight with the player
-            jamilaSam.openDialogWith(player, "welcome_to_icmon");
+            jamilaSam.openDialogWith(player, "end_fight_jamila_sam");
             complete();
         }
     }

@@ -20,7 +20,7 @@ public class FredericBlanc extends Trainer {
      * @param position    (Coordinate): Initial position of the entity. Not null.
      */
     public FredericBlanc(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super("Frédéric Blanc", area, orientation, position, "actors/fred_blanc", null, false);
+        super("frederic_blanc", area, orientation, position, "actors/fred_blanc", null, false);
         givePokemon(new PokemonDataLoader().load(376).toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 
