@@ -101,20 +101,9 @@ public class ICMon extends AreaGame {
         ICMonEvent introduction = new IntroductionEvent(player);
         ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(player);
 
+        // TODO: Register in area class
         Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
         getCurrentArea().registerActor(garry);
-
-//        AnnaLachowska annaLachowska = new AnnaLachowska(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 25));
-//        NicolasBoumal nicolasBoumal = new NicolasBoumal(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 15));
-//        TanjaKaser tanjaKaser = new TanjaKaser(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(5, 15));
-//        FredericBlanc fredericBlanc = new FredericBlanc(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(34, 16));
-//        JamilaSam jamilaSam = new JamilaSam(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(31, 36));
-//        getCurrentArea().registerActor(annaLachowska);
-//        getCurrentArea().registerActor(nicolasBoumal);
-//        getCurrentArea().registerActor(tanjaKaser);
-//        getCurrentArea().registerActor(fredericBlanc);
-//        getCurrentArea().registerActor(jamilaSam);
-
         ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(garry);
 
         ICBall ball = new ICBall(areas.get(Town.TITLE), new DiscreteCoordinates(6, 6), "items/icball");
