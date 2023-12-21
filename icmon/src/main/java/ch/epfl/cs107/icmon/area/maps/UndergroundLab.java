@@ -28,7 +28,7 @@ public class UndergroundLab extends ICMonArea {
         registerActor(new Foreground(this));
         registerActor(new Door(Town.TITLE, new DiscreteCoordinates(21,6), this, new DiscreteCoordinates(24, 11)));
         registerActor(new AnnaLachowska(this, Orientation.DOWN, new DiscreteCoordinates(5, 25)));
-        registerActor(new NicolasBoumal(this, Orientation.DOWN, new DiscreteCoordinates(5, 15)));
+        registerActor(new NicolasBoumal(this, Orientation.DOWN, new DiscreteCoordinates(25, 24)));
         registerActor(new TanjaKaser(this, Orientation.DOWN, new DiscreteCoordinates(5, 15)));
         registerActor(new FredericBlanc(this, Orientation.DOWN, new DiscreteCoordinates(34, 16)));
         registerActor(new JamilaSam(this, Orientation.DOWN, new DiscreteCoordinates(31, 36)));
