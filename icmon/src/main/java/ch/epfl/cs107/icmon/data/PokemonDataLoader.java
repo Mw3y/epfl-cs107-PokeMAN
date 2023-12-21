@@ -109,7 +109,7 @@ public class PokemonDataLoader {
      * @return a new Pokémon that was just created.
      */
     public static Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
-        return load(pokedexId, area, orientation, coordinates);
+        return load(pokedexId, null, area, orientation, coordinates);
     }
 
     /**
