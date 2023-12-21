@@ -1,5 +1,6 @@
 package ch.epfl.cs107.icmon.area.maps;
 
+import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.play.engine.actor.Background;
 import ch.epfl.cs107.play.engine.actor.Foreground;
@@ -18,6 +19,7 @@ public class UndergroundLab extends ICMonArea {
     protected void createArea() {
         registerActor(new Background(this));
         registerActor(new Foreground(this));
+        registerActor(new Door(Town.TITLE, new DiscreteCoordinates(21,6), this, new DiscreteCoordinates(24, 11)));
     }
 
     @Override

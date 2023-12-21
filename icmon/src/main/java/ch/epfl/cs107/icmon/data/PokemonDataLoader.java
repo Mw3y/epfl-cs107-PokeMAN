@@ -88,9 +88,7 @@ public class PokemonDataLoader {
         List<ICMonFightAction> actions = new ArrayList<>();
         List<PokemonMove> moves = parsePokemonMoves(document);
 
-        // Only add 4 moves for the Pokémon
-        for (int i = 0; i < 4; i++) {
-            PokemonMove move = moves.get(i);
+        for (PokemonMove move : moves) {
             actions.add(new Attack(move.name(), move.power()));
         }
         // Each Pokémon has a run-away attack but only the player can use it.
@@ -191,12 +189,15 @@ public class PokemonDataLoader {
                 String fileName = name.replaceAll(" ", "_")
                         .replaceAll("-", "_").toLowerCase();
 
-                Document move = openDataFile("move/" + fileName);
-                if (move != null) {
-                    int power = parseMovePower(move);
-                    if (!alreadyLoadedMoves.contains(fileName) && power > 0) {
-                        moves.add(new PokemonMove(name, power));
-                        alreadyLoadedMoves.add(fileName);
+                // Only add 4 moves for the Pokémon
+                if (!alreadyLoadedMoves.contains(fileName) && alreadyLoadedMoves.size() <= 4) {
+                    Document move = openDataFile("move/" + fileName);
+                    if (move != null) {
+                        int power = parseMovePower(move);
+                        if (power > 0) {
+                            moves.add(new PokemonMove(name, power));
+                            alreadyLoadedMoves.add(fileName);
+                        }
                     }
                 }
             }

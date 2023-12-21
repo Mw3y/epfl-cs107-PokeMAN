@@ -24,6 +24,7 @@ public final class Town extends ICMonArea {
         registerActor(new Door(Arena.TITLE, new DiscreteCoordinates(4, 2), this, new DiscreteCoordinates(20, 16)));
         registerActor(new Door(House.TITLE, new DiscreteCoordinates(3, 2), this, new DiscreteCoordinates(7,27)));
         registerActor(new Door(Shop.TITLE, new DiscreteCoordinates(3,2), this, new DiscreteCoordinates(25, 20)));
+        registerActor(new Door(UndergroundLab.TITLE, new DiscreteCoordinates(24,12), this, new DiscreteCoordinates(21, 7)));
     }
 
     @Override
