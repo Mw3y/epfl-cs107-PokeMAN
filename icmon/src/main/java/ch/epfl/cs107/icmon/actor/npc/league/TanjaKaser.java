@@ -1,6 +1,7 @@
-package ch.epfl.cs107.icmon.actor.npc;
+package ch.epfl.cs107.icmon.actor.npc.league;
 
 import ch.epfl.cs107.icmon.ICMon;
+import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.maps.Pokeball;
 import ch.epfl.cs107.icmon.data.PokemonDataLoader;
@@ -10,7 +11,7 @@ import ch.epfl.cs107.play.areagame.handler.AreaInteractionVisitor;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 
-public class TanjaKaser extends Trainer{
+public class TanjaKaser extends Trainer {
     /**
      * Represents a Pokémon trainer that the player can challenge.
      *
@@ -19,7 +20,7 @@ public class TanjaKaser extends Trainer{
      * @param position    (Coordinate): Initial position of the entity. Not null.
      */
     public TanjaKaser(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, "actors/tanja_kaser");
+        super(area, orientation, position, "actors/tanja_kaser", null);
         givePokemon(PokemonDataLoader.load(282, new Pokeball(), Orientation.DOWN, position));
     }
 
