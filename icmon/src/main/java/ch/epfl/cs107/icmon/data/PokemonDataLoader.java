@@ -3,6 +3,7 @@ package ch.epfl.cs107.icmon.data;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.actor.pokemon.actions.Attack;
 import ch.epfl.cs107.icmon.actor.pokemon.actions.RunAway;
+import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.gamelogic.fights.ICMonFightAction;
 import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
@@ -28,8 +29,21 @@ public class PokemonDataLoader {
 
     public static final int POKEDEX_SIZE = 493;
 
+    private Document pokemonData;
+    private int pokedexId;
+    private String nameInPokedex;
+    private String customName;
+    private BasePokemonStats stats;
+    private List<PokemonType> types;
+    private List<ICMonFightAction> actions;
+    private List<PokemonMove> moves;
+
+    public PokemonDataLoader() {
+    }
+
     /**
      * Opens a data file of the Pokédex.
+     *
      * @param path - The path of the file, relative to the Pokédex folder
      * @return the document content.
      */
@@ -62,63 +76,53 @@ public class PokemonDataLoader {
 
     /**
      * Loads a random Pokémon from the Pokédex.
-     * @param area - The area the Pokémon will spawn in
-     * @param orientation - The orientation of the Pokémon
-     * @param coordinates - Where the Pokémon will spawn in the area
-     * @return a new Pokémon that was just created.
+     * @return the data loader instance.
      */
-    public static Pokemon loadRandom(Area area, Orientation orientation, DiscreteCoordinates coordinates) {
-        return load(RandomGenerator.getInstance().nextInt(1, POKEDEX_SIZE + 1), area, orientation, coordinates);
+    public PokemonDataLoader loadRandom() {
+        return load(RandomGenerator.getInstance().nextInt(1, POKEDEX_SIZE + 1));
     }
 
     /**
      * Loads a random Pokémon from the Pokédex based on its national id with a custom name.
-     * @param pokedexId - The national id of the Pokémon
-     * @param customName - A custom name for the Pokémon
-     * @param area - The area the Pokémon will spawn in
-     * @param orientation - The orientation of the Pokémon
-     * @param coordinates - Where the Pokémon will spawn in the area
-     * @return a new Pokémon that was just created.
+     *
+     * @param pokedexId   - The national id of the Pokémon
+     * @return the data loader instance.
      */
-    public static Pokemon load(int pokedexId, String customName, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
-        Document document = openDataFile("pokemon/" + pokedexId);
+    public PokemonDataLoader load(int pokedexId) {
+        this.pokemonData = openDataFile("pokemon/" + pokedexId);
         // Pokémon data
-        BasePokemonStats stats = parsePokemonBaseStats(document);
-        String realName = parsePokemonName(document).toLowerCase();
-        String name = customName != null ? customName : realName;
-        List<PokemonType> types = parsePokemonTypes(document);
-        List<ICMonFightAction> actions = new ArrayList<>();
-        List<PokemonMove> moves = parsePokemonMoves(document);
-
+        this.pokedexId = pokedexId;
+        this.stats = parsePokemonBaseStats();
+        this.nameInPokedex = parsePokemonName().toLowerCase();
+        this.types = parsePokemonTypes();
+        this.actions = new ArrayList<>();
+        this.moves = parsePokemonMoves();
+        // Convert moves into attacks
         for (PokemonMove move : moves) {
             actions.add(new Attack(move.name(), move.power()));
         }
         // Each Pokémon has a run-away attack but only the player can use it.
         actions.add(new RunAway());
 
-        // Create the new Pokémon
-        return new Pokemon(area, orientation, coordinates, name, pokedexId, types, stats.hp(), stats.attack(), stats.defense(), actions);
+        return this;
     }
 
-    /**
-     * Loads a random Pokémon from the Pokédex based on its national id.
-     * @param pokedexId - The national id of the Pokémon
-     * @param area - The area the Pokémon will spawn in
-     * @param orientation - The orientation of the Pokémon
-     * @param coordinates - Where the Pokémon will spawn in the area
-     * @return a new Pokémon that was just created.
-     */
-    public static Pokemon load(int pokedexId, Area area, Orientation orientation, DiscreteCoordinates coordinates) {
-        return load(pokedexId, null, area, orientation, coordinates);
+    public void setCustomName(String customName) {
+        this.customName = customName;
+    }
+
+    public Pokemon toPokemon(Area area, Orientation orientation, DiscreteCoordinates coordinates) {
+        String definitiveName = customName == null ? nameInPokedex : customName;
+        return new Pokemon(area, orientation, coordinates, definitiveName, pokedexId, types, stats.attack, stats.defense, stats.hp(), actions);
     }
 
     /**
      * Extracts the base stats of the Pokémon from the Pokédex file.
-     * @param document - The Pokémon data file
+     *
      * @return the base stats of the Pokémon.
      */
-    private static BasePokemonStats parsePokemonBaseStats(Document document) {
-        NodeList list = document.getElementsByTagName("base_stats");
+    private BasePokemonStats parsePokemonBaseStats() {
+        NodeList list = pokemonData.getElementsByTagName("base_stats");
         Element element = (Element) list.item(0);
 
         String hpText = element.getElementsByTagName("hp").item(0).getTextContent();
@@ -130,22 +134,22 @@ public class PokemonDataLoader {
 
     /**
      * Extracts the name of the Pokémon from the Pokédex file.
-     * @param document - The Pokémon data file
+     *
      * @return the Pokémon name.
      */
-    private static String parsePokemonName(Document document) {
-        NodeList list = document.getElementsByTagName("names");
+    private String parsePokemonName() {
+        NodeList list = pokemonData.getElementsByTagName("names");
         Element element = (Element) list.item(0);
         return element.getElementsByTagName("en").item(0).getTextContent();
     }
 
     /**
      * Extracts the types of the Pokémon from the Pokédex.
-     * @param document - The Pokémon data file
+     *
      * @return a list of Pokémon types with their effectiveness against other types.
      */
-    private static List<PokemonType> parsePokemonTypes(Document document) {
-        Element typesTag = (Element) document.getElementsByTagName("types").item(0);
+    private List<PokemonType> parsePokemonTypes() {
+        Element typesTag = (Element) pokemonData.getElementsByTagName("types").item(0);
         NodeList list = typesTag.getElementsByTagName("item");
         List<PokemonType> types = new ArrayList<>();
 
@@ -164,10 +168,10 @@ public class PokemonDataLoader {
 
     /**
      * Extracts the effectiveness of a type against another from the Pokédex.
-     * @param document - The type file from the Pokédex
+     *
      * @return the effectiveness against all Pokémon types for this type.
      */
-    private static Map<String, Float> parseEffectivenessAgainstOtherTypes(Document document) {
+    private Map<String, Float> parseEffectivenessAgainstOtherTypes(Document document) {
         NodeList effectivenessTags = document.getElementsByTagName("effectivness").item(0).getChildNodes();
         Map<String, Float> effectivenessMap = new HashMap<>();
 
@@ -186,11 +190,11 @@ public class PokemonDataLoader {
 
     /**
      * Extracts the possible moves for this Pokémon from the Pokédex.
-     * @param document - The Pokémon data file
+     *
      * @return a list of moves for this Pokémon.
      */
-    private static List<PokemonMove> parsePokemonMoves(Document document) {
-        NodeList list = document.getElementsByTagName("move");
+    private List<PokemonMove> parsePokemonMoves() {
+        NodeList list = pokemonData.getElementsByTagName("move");
         Set<String> alreadyLoadedMoves = new HashSet<>();
         List<PokemonMove> moves = new ArrayList<>();
 
@@ -221,10 +225,11 @@ public class PokemonDataLoader {
 
     /**
      * Extracts the power of a move from the Pokédex.
+     *
      * @param document - The Pokémon file for the move
      * @return the power of the move.
      */
-    private static int parseMovePower(Document document) {
+    private int parseMovePower(Document document) {
         NodeList list = document.getElementsByTagName("power");
         Element element = (Element) list.item(0);
         return Integer.parseInt(element.getTextContent());
@@ -232,8 +237,9 @@ public class PokemonDataLoader {
 
     /**
      * Represents the base stats of a Pokémon.
-     * @param hp - The base hp
-     * @param attack - The base attack
+     *
+     * @param hp      - The base hp
+     * @param attack  - The base attack
      * @param defense - The base defense
      */
     private record BasePokemonStats(int hp, int attack, int defense) {

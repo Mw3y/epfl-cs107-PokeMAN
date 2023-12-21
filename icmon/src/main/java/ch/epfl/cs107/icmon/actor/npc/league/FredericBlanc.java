@@ -21,7 +21,7 @@ public class FredericBlanc extends Trainer {
      */
     public FredericBlanc(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("Frédéric Blanc", area, orientation, position, "actors/fred_blanc", null, false);
-        givePokemon(PokemonDataLoader.load(376, getOwnerArea(), Orientation.DOWN, position));
+        givePokemon(new PokemonDataLoader().load(376).toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 
     @Override

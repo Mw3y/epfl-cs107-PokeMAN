@@ -21,7 +21,7 @@ public class TanjaKaser extends Trainer {
      */
     public TanjaKaser(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("Tanja Kaser", area, orientation, position, "actors/tanja_kaser", null, false);
-        givePokemon(PokemonDataLoader.load(282, getOwnerArea(), Orientation.DOWN, position));
+        givePokemon(new PokemonDataLoader().load(282).toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 
     @Override

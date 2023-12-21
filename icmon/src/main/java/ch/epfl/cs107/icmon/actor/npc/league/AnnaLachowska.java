@@ -21,7 +21,7 @@ public class AnnaLachowska extends Trainer {
      */
     public AnnaLachowska(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("Anna Lachowska", area, orientation, position, "actors/anna_lachowska", null, false);
-        givePokemon(PokemonDataLoader.load(407, getOwnerArea(), Orientation.DOWN, position));
+        givePokemon(new PokemonDataLoader().load(407).toPokemon(getOwnerArea(), Orientation.DOWN, position));
 
     }
 

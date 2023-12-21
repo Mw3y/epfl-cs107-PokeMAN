@@ -27,7 +27,7 @@ public class TallGrass {
      * @param area - The area in which the Pokémon should spawn
      */
     public static void hiJackPlayer(ICMonPlayer player, Area area){
-        Pokemon wildPokemon = PokemonDataLoader.loadRandom(area, Orientation.DOWN, new DiscreteCoordinates(0, 0));
+        Pokemon wildPokemon = new PokemonDataLoader().loadRandom().toPokemon(area, Orientation.DOWN, new DiscreteCoordinates(0, 0));
         player.interactWith(wildPokemon, true);
     }
 }

@@ -57,15 +57,17 @@ public class Attack implements ICMonFightAction {
         float damages = (float) (2 * ((atkProps.attack() / defProps.defense())) * power / 50 + 2)* atkProps.getAttackTypeCoeff(defProps) * random;
 
         // Artificially boost player to compensate level difference with legendary Pokémon
-        if(boost)
-            damages *= 2;
+        // if(boost)
+            // damages *= 2;
 
-        System.out.println(random);
-        System.out.println(atkProps.attack());
-        System.out.println(power);
-        System.out.println(atkProps.getAttackTypeCoeff(defProps));
-        System.out.println(damages);
-        System.out.println("-----------");
+        System.out.println("-------------------------");
+        System.out.println(atkProps.name().toUpperCase() + "'s turn:");
+        System.out.println("Random: " + random);
+        System.out.println("Attack: " + atkProps.attack());
+        System.out.println("Type coeff: " + atkProps.getAttackTypeCoeff(defProps));
+        System.out.println("Power: " + power);
+        System.out.println("Damages done: " + damages);
+        System.out.println("-------------------------");
 
         target.dealDamages(damages);
         return true;

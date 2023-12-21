@@ -24,9 +24,9 @@ public class Arena extends ICMonArea {
         registerActor(new Door(Town.TITLE, new DiscreteCoordinates(20, 15), this,
                 new DiscreteCoordinates(4, 1), new DiscreteCoordinates(5, 1)));
 
-        registerActor(PokemonDataLoader.load(1, this, Orientation.DOWN, new DiscreteCoordinates(6, 6)));
-        registerActor(PokemonDataLoader.load(381, this, Orientation.DOWN, new DiscreteCoordinates(4, 6)));
-        registerActor(PokemonDataLoader.load(31, this, Orientation.DOWN, new DiscreteCoordinates(2, 6)));
+        registerActor(new PokemonDataLoader().load(1).toPokemon(this, Orientation.DOWN, new DiscreteCoordinates(6, 6)));
+        registerActor(new PokemonDataLoader().load(381).toPokemon(this, Orientation.DOWN, new DiscreteCoordinates(4, 6)));
+        registerActor(new PokemonDataLoader().load(31).toPokemon(this, Orientation.DOWN, new DiscreteCoordinates(2, 6)));
     }
 
     @Override
