@@ -76,6 +76,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      */
     public boolean givePokemon(Pokemon pokemon) {
         assert pokemon != null;
+        gameState.stopAllSounds();
         gameState.playSound("capture_pokemon", AudioPreset.SFX);
         return pokemons.add(pokemon);
     }

@@ -18,17 +18,18 @@ public class ICMonFight extends PauseMenu {
     private final ICMon.ICMonGameState gameState;
     private final Pokemon playerPokemon;
     private final Pokemon opponentPokemon;
-    private ICMonFightAction nextPlayerAction;
-    private FightState state;
-
-    private ICMonFightActionSelectionGraphics playerActionsMenu;
     private final ICMonFightArenaGraphics arena;
+    private ICMonFightAction nextPlayerAction;
+    private ICMonFightAction nextOpponentAction;
 
+    private FightState state;
+    private ICMonFightActionSelectionGraphics playerActionsMenu;
     private boolean isPlayingVictorySound;
 
     /**
      * Simulates a Pokémon fight.
-     * @param playerPokemon - The Pokémon of the player
+     *
+     * @param playerPokemon   - The Pokémon of the player
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
      */
     public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon) {
@@ -54,6 +55,7 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Executes the intro phase of the fight.
+     *
      * @param keyboard - The keyboard that the user uses
      */
     private void intro(Keyboard keyboard) {
@@ -65,6 +67,7 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Allows the player to select a fight action.
+     *
      * @param keyboard - The keyboard that the user uses
      */
     private void selectPlayerAction(Keyboard keyboard, float deltaTime) {
@@ -90,7 +93,14 @@ public class ICMonFight extends PauseMenu {
     /**
      * Executes the fight action that the player has selected in the previous phase.
      */
-    private void executePlayerAction() {
+    private void executePlayerAction(Keyboard keyboard) {
+        // Display attack infos
+        if (!keyboard.get(Keyboard.SPACE).isPressed() && !keyboard.get(Keyboard.ENTER).isPressed()) {
+            drawText(playerPokemon.properties().name() + " uses " + nextPlayerAction.name() + "!");
+            return;
+        }
+        else gameState.playSound("button", AudioPreset.SFX);
+
         gameState.playSound(nextPlayerAction.sfx(), AudioPreset.SFX);
         boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon, true);
         // The player has won
@@ -112,18 +122,31 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Makes the opponent of the player attack if possible.
+     *
+     * @param keyboard - The keyboard that the user uses
      */
-    private void executeOpponentAction() {
+    private void executeOpponentAction(Keyboard keyboard) {
         // Check if the Pokémon can attack
         List<ICMonFightAction> attacks = opponentPokemon.properties().actions().stream()
                 .filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).toList();
 
         // Check if the opponent can attack
         if (!attacks.isEmpty()) {
-            // Use a random attack
-            ICMonFightAction attack = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size() - 1));
+            // Only select a random attack if necessary
+            if (nextOpponentAction == null)
+                // Use a random attack
+                nextOpponentAction = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size() - 1));
+
+            // Display attack infos
+            if (!keyboard.get(Keyboard.SPACE).isPressed() && !keyboard.get(Keyboard.ENTER).isPressed()) {
+                drawText(opponentPokemon.properties().name() + " uses " + nextOpponentAction.name() + "!");
+                return;
+            }
+            else gameState.playSound("button", AudioPreset.SFX);
+
+            gameState.playSound(nextOpponentAction.sfx(), AudioPreset.SFX);
             // The attack didn't finish
-            if (!attack.doAction(playerPokemon, opponentPokemon)) {
+            if (!nextOpponentAction.doAction(playerPokemon, opponentPokemon)) {
                 state = FightState.ENDING;
                 drawText("The opponent decided not to continue the fight!");
                 return;
@@ -134,20 +157,29 @@ public class ICMonFight extends PauseMenu {
                 drawText("The opponent has won the fight!");
                 return;
             }
+            // Reset next action
+            nextOpponentAction = null;
         }
         state = FightState.SELECT_ACTION;
     }
 
     /**
      * Executes the ending phase of the fight.
+     *
      * @param keyboard - The keyboard that the user uses
      */
     private void ending(Keyboard keyboard) {
         assert keyboard != null;
         if (!isPlayingVictorySound) {
+            isPlayingVictorySound = true;
+            try {
+                // Wait for the other sound effects to finish
+                Thread.sleep((long) 1e3);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
             gameState.stopAllSounds();
             gameState.playSound("victory_against_wild_pokemon", AudioPreset.SFX);
-            isPlayingVictorySound = true;
         }
         if (keyboard.get(Keyboard.SPACE).isPressed())
             end();
@@ -160,8 +192,8 @@ public class ICMonFight extends PauseMenu {
         switch (state) {
             case INTRO -> intro(keyboard);
             case SELECT_ACTION -> selectPlayerAction(keyboard, deltaTime);
-            case EXEC_ACTION -> executePlayerAction();
-            case OPPONENT_ACTION -> executeOpponentAction();
+            case EXEC_ACTION -> executePlayerAction(keyboard);
+            case OPPONENT_ACTION -> executeOpponentAction(keyboard);
             case ENDING -> ending(keyboard);
         }
         // Update the pause menu
@@ -170,6 +202,7 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Utility method to display text on the bottom of the fight screen.
+     *
      * @param message - The message to display
      */
     private void drawText(String message) {
@@ -185,6 +218,7 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Whether there's an ongoing fight or not.
+     *
      * @return true if the fight isn't finished.
      */
     public boolean isRunning() {
