@@ -17,7 +17,7 @@ public class NicolasBoumal extends Trainer{
      * @param spriteName  (String): Initial sprite of the trainer.
      */
     public NicolasBoumal(Area area, Orientation orientation, DiscreteCoordinates position, String spriteName) {
-        super(area, orientation, position, "nicolas_boumal" );
+        super(area, orientation, position, "actors/nicolas_boumal" );
     }
 
     @Override

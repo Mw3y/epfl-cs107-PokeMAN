@@ -22,7 +22,7 @@ import java.util.List;
  *
  * @author Hamza REMMAL (hamza.remmal@epfl.ch)
  */
-public class Pokemon extends ICMonActor implements ICMonFightableActor {
+public final class Pokemon extends ICMonActor implements ICMonFightableActor {
 
     private final String name;
     // TODO: Readme justify usage of float
