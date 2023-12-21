@@ -29,6 +29,7 @@ public class ICMonPauseMenu extends PauseMenu {
         Keyboard keyboard = getKeyboard();
         if (keyboard.get(Keyboard.ENTER).isPressed() || keyboard.get(Keyboard.SPACE).isPressed()) {
             gameState.stopAllSounds();
+            gameState.playSound("button", AudioPreset.SFX);
             gameState.resume();
         }
         super.update(deltaTime);

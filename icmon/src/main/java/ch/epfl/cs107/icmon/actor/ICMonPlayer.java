@@ -10,6 +10,7 @@ import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.area.cells.behaviors.TallGrass;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.icmon.gamelogic.messages.PassDoorMessage;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
@@ -75,6 +76,7 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      */
     public boolean givePokemon(Pokemon pokemon) {
         assert pokemon != null;
+        gameState.playSound("capture_pokemon", AudioPreset.SFX);
         return pokemons.add(pokemon);
     }
 
@@ -108,8 +110,10 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         // Handle the dialog state
         if (isDialogInProgress()) {
-            if (keyboard.get(Keyboard.SPACE).isPressed())
+            if (keyboard.get(Keyboard.SPACE).isPressed() || keyboard.get(Keyboard.ENTER).isPressed()) {
+                gameState.playSound("button", AudioPreset.SFX);
                 dialog.update(deltaTime);
+            }
             if (dialog.isCompleted())
                 closeDialog();
             return;

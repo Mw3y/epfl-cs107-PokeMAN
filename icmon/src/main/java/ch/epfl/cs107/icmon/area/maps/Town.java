@@ -17,6 +17,11 @@ public final class Town extends ICMonArea {
     }
 
     @Override
+    public String getAmbiantSound() {
+        return "driftveil_city";
+    }
+
+    @Override
     protected void createArea() {
         registerActor(new Background(this));
         registerActor(new Foreground(this));

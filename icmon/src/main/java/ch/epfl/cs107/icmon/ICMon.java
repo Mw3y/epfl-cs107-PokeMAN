@@ -207,6 +207,10 @@ public class ICMon extends AreaGame {
         public void changeArea(String areaTitle, DiscreteCoordinates spawnPosition) {
             player.leaveArea();
             ICMonArea currentArea = (ICMonArea) setCurrentArea(areaTitle, false);
+            if (currentArea.getAmbiantSound() != null) {
+                stopAllSounds();
+                playSound(currentArea.getAmbiantSound(), AudioPreset.BG_MUSIC);
+            }
             player.enterArea(currentArea, spawnPosition);
         }
 

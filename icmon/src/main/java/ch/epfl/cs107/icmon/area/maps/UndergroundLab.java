@@ -18,6 +18,11 @@ public class UndergroundLab extends ICMonArea {
     }
 
     @Override
+    public String getAmbiantSound() {
+        return "cold_storage";
+    }
+
+    @Override
     protected void createArea() {
         registerActor(new Background(this));
         registerActor(new Foreground(this));

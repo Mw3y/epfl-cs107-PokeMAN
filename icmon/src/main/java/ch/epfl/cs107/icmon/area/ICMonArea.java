@@ -19,6 +19,15 @@ public abstract class ICMonArea extends Area {
      */
     public abstract DiscreteCoordinates getPlayerSpawnPosition();
 
+    /**
+     * Gets the name of the ambiant sound for this area.
+     * @return the name of the sound file to be played.
+     */
+    // TODO: Document
+    public String getAmbiantSound() {
+        return null;
+    }
+
     @Override
     public boolean begin(Window window, FileSystem fileSystem) {
         assert window != null;
