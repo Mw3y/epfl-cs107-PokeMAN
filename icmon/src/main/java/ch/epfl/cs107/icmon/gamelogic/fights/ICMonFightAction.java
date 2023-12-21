@@ -10,6 +10,13 @@ import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 public interface ICMonFightAction {
 
     /**
+     * Gets the power of the fight action.
+     * @return the power of the action.
+     */
+    // TODO: Document
+    int power();
+
+    /**
      * Gets the type of the fight action.
      * @return the type of the action.
      */

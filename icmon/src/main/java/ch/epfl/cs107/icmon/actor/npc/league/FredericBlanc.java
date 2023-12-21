@@ -21,7 +21,11 @@ public class FredericBlanc extends Trainer {
      */
     public FredericBlanc(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("frederic_blanc", area, orientation, position, "actors/fred_blanc", null, false);
-        givePokemon(new PokemonDataLoader().load(376).toPokemon(getOwnerArea(), Orientation.DOWN, position));
+        givePokemon(new PokemonDataLoader().load(376)
+                .putCustomActionName("Angular Momentum theorem")
+                .putCustomActionName("Non-negligible friction")
+                .putCustomActionName("Coriolis force")
+                .toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 
     @Override

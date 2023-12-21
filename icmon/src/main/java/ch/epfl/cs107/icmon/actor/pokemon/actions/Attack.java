@@ -25,6 +25,11 @@ public class Attack implements ICMonFightAction {
     }
 
     @Override
+    public int power() {
+        return power;
+    }
+
+    @Override
     public PokemonMoveType type() {
         return PokemonMoveType.PHYSICAL;
     }

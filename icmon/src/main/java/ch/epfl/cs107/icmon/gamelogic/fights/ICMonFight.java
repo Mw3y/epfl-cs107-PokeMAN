@@ -3,11 +3,15 @@ package ch.epfl.cs107.icmon.gamelogic.fights;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
+import ch.epfl.cs107.icmon.area.maps.Pokeball;
 import ch.epfl.cs107.icmon.audio.AudioPreset;
+import ch.epfl.cs107.icmon.data.PokemonDataLoader;
 import ch.epfl.cs107.icmon.graphics.ICMonFightActionSelectionGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightArenaGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightTextGraphics;
 import ch.epfl.cs107.play.engine.PauseMenu;
+import ch.epfl.cs107.play.math.DiscreteCoordinates;
+import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.math.random.RandomGenerator;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
@@ -22,7 +26,7 @@ public class ICMonFight extends PauseMenu {
     private final Pokemon playerPokemon;
     private final Pokemon opponentPokemon;
     private final Trainer trainer;
-    private final ICMonFightArenaGraphics arena;
+    private ICMonFightArenaGraphics arena;
     private ICMonFightAction nextPlayerAction;
     private ICMonFightAction nextOpponentAction;
 
@@ -69,6 +73,13 @@ public class ICMonFight extends PauseMenu {
 
         gameState.stopAllSounds();
         gameState.playSound("battle_wild_pokemon", AudioPreset.FIGHT_MUSIC);
+    }
+
+    /**
+     * @return whether the action is the encapsulation flaw attack.
+     */
+    public boolean isEncapsulationFlawAttack(ICMonFightAction action) {
+        return trainer != null && trainer.name().equals("jamila_sam") && action.name().equals("Encapsulation Flaw");
     }
 
     @Override
@@ -169,8 +180,18 @@ public class ICMonFight extends PauseMenu {
             if (!keyboard.get(Keyboard.SPACE).isPressed()) {
                 String name = trainer == null ? opponentPokemon.properties().name() : trainer.name();
 
+                // Creates the glitch effect
+                if (isEncapsulationFlawAttack(nextOpponentAction)) {
+                    this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, new PokemonDataLoader().loadRandom().toPokemon(new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0)).properties(), opponentPokemon.properties());
+                }
+
                 drawAttackAnnouncementText(name, nextOpponentAction);
                 return;
+            }
+
+            // Remove the glitch effect
+            if (isEncapsulationFlawAttack(nextOpponentAction)) {
+                this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
             }
 
             gameState.playSound("button", AudioPreset.SFX);

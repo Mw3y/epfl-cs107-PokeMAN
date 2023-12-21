@@ -13,8 +13,8 @@ public class ICMonPauseMenuGraphics implements Graphics {
      * The graphics of the main menu.
      * @param scaleFactor
      */
-    public ICMonPauseMenuGraphics(float scaleFactor) {
-        background = new ImageGraphics(ResourcePath.getBackground("main_menu"), scaleFactor, scaleFactor);
+    public ICMonPauseMenuGraphics(float scaleFactor, String backgroundName) {
+        background = new ImageGraphics(ResourcePath.getBackground(backgroundName), scaleFactor, scaleFactor);
     }
 
     @Override

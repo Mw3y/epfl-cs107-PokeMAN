@@ -21,7 +21,11 @@ public class JamilaSam extends Trainer {
      */
     public JamilaSam(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("jamila_sam", area, orientation, position, "actors/jamila_sam", null, false);
-        givePokemon(new PokemonDataLoader().load(493).toPokemon(getOwnerArea(), Orientation.DOWN, position));
+        givePokemon(new PokemonDataLoader().load(493)
+                .putCustomActionName("Encapsulation Flaw")
+                .putCustomActionName("NullPointerException")
+                .putCustomActionName("Protected attribute")
+                .toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 
     @Override

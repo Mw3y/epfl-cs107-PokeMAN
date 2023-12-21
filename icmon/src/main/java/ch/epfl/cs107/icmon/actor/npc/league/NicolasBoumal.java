@@ -21,7 +21,11 @@ public class NicolasBoumal extends Trainer {
      */
     public NicolasBoumal(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("nicolas_boumal", area, orientation, position, "actors/nicolas_boumal", null, false);
-        givePokemon(new PokemonDataLoader().load(115).toPokemon(getOwnerArea(), Orientation.DOWN, position));
+        givePokemon(new PokemonDataLoader().load(115)
+                .putCustomActionName("Single Value Decomposition theorem")
+                .putCustomActionName("Row echelon form")
+                .putCustomActionName("Change of basis")
+                .toPokemon(getOwnerArea(), Orientation.DOWN, position));
     }
 
     @Override

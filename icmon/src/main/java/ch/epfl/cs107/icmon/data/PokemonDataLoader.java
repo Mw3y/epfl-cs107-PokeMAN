@@ -107,14 +107,27 @@ public class PokemonDataLoader {
         return this;
     }
 
-    public void setCustomName(String customName) {
-        this.customName = customName;
+
+
+    public PokemonDataLoader putCustomActionName(String newName) {
+        if (!actions.isEmpty()) {
+            ICMonFightAction action = actions.get(0);
+            actions.add(new Attack(newName, action.power()));
+            actions.remove(0);
+        }
+        return this;
     }
 
     public Pokemon toPokemon(Area area, Orientation orientation, DiscreteCoordinates coordinates) {
         String definitiveName = customName == null ? nameInPokedex : customName;
         return new Pokemon(area, orientation, coordinates, definitiveName, pokedexId, types, stats.attack, stats.defense, stats.hp(), actions);
     }
+
+    public PokemonDataLoader multiplyHealthStatBy(float multiplier) {
+        this.stats = new BasePokemonStats((int) (stats.hp() * multiplier), (int) (stats.attack()), (int) (stats.defense()));
+        return this;
+    }
+
 
     /**
      * Extracts the base stats of the Pokémon from the Pokédex file.
@@ -207,8 +220,8 @@ public class PokemonDataLoader {
                 String fileName = name.replaceAll(" ", "_")
                         .replaceAll("-", "_").toLowerCase();
 
-                // Only add 4 moves for the Pokémon
-                if (!alreadyLoadedMoves.contains(fileName) && alreadyLoadedMoves.size() <= 4) {
+                // Only add 3 moves for the Pokémon
+                if (!alreadyLoadedMoves.contains(fileName) && alreadyLoadedMoves.size() <= 3) {
                     Document move = openDataFile("move/" + fileName);
                     if (move != null) {
                         int power = parseMovePower(move);

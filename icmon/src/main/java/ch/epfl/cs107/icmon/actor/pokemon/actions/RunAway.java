@@ -23,6 +23,11 @@ public class RunAway implements ICMonFightAction {
     }
 
     @Override
+    public int power() {
+        return 0;
+    }
+
+    @Override
     public PokemonMoveType type() {
         return PokemonMoveType.SPECIAL;
     }

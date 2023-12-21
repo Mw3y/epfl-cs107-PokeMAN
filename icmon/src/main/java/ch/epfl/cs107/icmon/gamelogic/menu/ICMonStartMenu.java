@@ -21,7 +21,7 @@ public class ICMonStartMenu extends PauseMenu {
         this.gameState = gameState;
         gameState.stopAllSounds();
         gameState.playSound("main_theme", AudioPreset.FIGHT_MUSIC);
-        graphics = new ICMonPauseMenuGraphics(CAMERA_SCALE_FACTOR);
+        graphics = new ICMonPauseMenuGraphics(CAMERA_SCALE_FACTOR, "main_menu");
     }
 
     @Override

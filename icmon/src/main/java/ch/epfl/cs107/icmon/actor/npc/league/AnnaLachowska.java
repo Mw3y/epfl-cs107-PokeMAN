@@ -21,7 +21,12 @@ public class AnnaLachowska extends Trainer {
      */
     public AnnaLachowska(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("anna_lachowska", area, orientation, position, "actors/anna_lachowska", null, false);
-        givePokemon(new PokemonDataLoader().load(407).toPokemon(getOwnerArea(), Orientation.DOWN, position));
+        givePokemon(new PokemonDataLoader().load(407)
+                .multiplyHealthStatBy(2.5f)
+                .putCustomActionName("L'Hôpital's rule")
+                .putCustomActionName("Bolzano Weierstrass theorem")
+                .putCustomActionName("Mean value theorem (TAF)")
+                .toPokemon(getOwnerArea(), Orientation.DOWN, position));
 
     }
 
