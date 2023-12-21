@@ -4,16 +4,15 @@ import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.npc.league.JamilaSam;
 import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
-import ch.epfl.cs107.icmon.gamelogic.actions.SetTrainerFightsAcceptanceAction;
 
 public class FightWithMasterJamilaSamEvent extends ICMonEvent {
 
     private final ICMon.ICMonGameState gameState;
     private final ICMonPlayer player;
 
-    private boolean toggledFights;
-
     private JamilaSam jamilaSam;
+
+    private boolean hasInteractionBeenRegistered;
 
     public FightWithMasterJamilaSamEvent(ICMon.ICMonGameState gameState, ICMonPlayer player) {
         this.gameState = gameState;
@@ -30,18 +29,26 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
         if (jamilaSam == null)
             return;
 
-        if (!toggledFights) {
+        if (!jamilaSam.hadADialogWithPlayer()) {
+            // Open dialog before the fight with the player
+            jamilaSam.openDialogWith(player, "welcome_to_icmon");
             jamilaSam.setFightsAcceptance(true);
-            toggledFights = true;
+        } else if (hasInteractionBeenRegistered && !player.isDialogInProgress()) {
+            player.interactWith(jamilaSam, false);
+            hasInteractionBeenRegistered = false;
         }
 
         if (!jamilaSam.hasHealthyPokemon()) {
-          complete();
+            jamilaSam.setFightsAcceptance(false);
+            // Open dialog after the fight with the player
+            jamilaSam.openDialogWith(player, "welcome_to_icmon");
+            complete();
         }
     }
 
     @Override
     public void interactWith(JamilaSam jamilaSam, boolean isCellInteraction) {
         this.jamilaSam = jamilaSam;
+        hasInteractionBeenRegistered = true;
     }
 }

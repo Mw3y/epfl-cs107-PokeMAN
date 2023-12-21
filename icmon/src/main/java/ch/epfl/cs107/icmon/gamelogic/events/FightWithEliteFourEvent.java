@@ -43,13 +43,17 @@ public class FightWithEliteFourEvent extends ICMonEvent {
     @Override
     public void update(float deltaTime) {
         for (Trainer trainer : trainers) {
-            if (!trainer.hasHealthyPokemon() && !hasWonAgainst.contains(trainer.name()))
+            if (!trainer.hasHealthyPokemon() && !hasWonAgainst.contains(trainer.name())) {
+                // Open dialog after the win of the player
+                trainer.openDialogWith(player, "welcome_to_icmon");
                 hasWonAgainst.add(trainer.name());
+            }
         }
 
         if (currentTrainer != null) {
             if (!currentTrainer.hadADialogWithPlayer())
-                startFightDialog(currentTrainer);
+                // Open dialog before the fight with the player
+                currentTrainer.openDialogWith(player, "welcome_to_icmon");
             else if (!player.isDialogInProgress()) {
                 currentTrainer.setFightsAcceptance(true);
                 if (!hasWonAgainst.contains(currentTrainer))
@@ -58,12 +62,12 @@ public class FightWithEliteFourEvent extends ICMonEvent {
             }
         }
 
-        if (hasWonAgainst.size() == 4)
+        if (hasWonAgainst.size() == 4) {
+            for (Trainer trainer : trainers) {
+                trainer.setFightsAcceptance(false);
+            }
             complete();
-    }
-
-    private void startFightDialog(Trainer trainer) {
-        trainer.openDialogWith(player, "welcome_to_icmon");
+        }
     }
 
     @Override

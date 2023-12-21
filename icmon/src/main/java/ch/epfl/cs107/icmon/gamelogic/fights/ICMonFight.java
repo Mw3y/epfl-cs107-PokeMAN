@@ -12,7 +12,9 @@ import ch.epfl.cs107.play.math.random.RandomGenerator;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
 
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class ICMonFight extends PauseMenu {
 
@@ -28,13 +30,15 @@ public class ICMonFight extends PauseMenu {
     private ICMonFightActionSelectionGraphics playerActionsMenu;
     private boolean isPlayingVictorySound;
 
+    private Queue<String> introMessages = new LinkedList<>();
+
     /**
      * Simulates a Pokémon fight.
      *
      * @param playerPokemon   - The Pokémon of the player
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
      */
-    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon,  Pokemon opponentPokemon) {
+    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon) {
         this(gameState, playerPokemon, opponentPokemon, null);
     }
 
@@ -43,7 +47,7 @@ public class ICMonFight extends PauseMenu {
      *
      * @param playerPokemon   - The Pokémon of the player
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
-     * @param trainer - The trainer that the player challenged
+     * @param trainer         - The trainer that the player challenged
      */
     public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon, Trainer trainer) {
         assert gameState != null;
@@ -56,6 +60,10 @@ public class ICMonFight extends PauseMenu {
         this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
         this.state = FightState.INTRO;
         this.trainer = trainer;
+
+        introMessages.add("Welcome to the fight!");
+        if (trainer != null)
+            introMessages.add(trainer.name().toUpperCase() + " sent out " + opponentPokemon.properties().name().toUpperCase() + ".");
 
         gameState.stopAllSounds();
         gameState.playSound("battle_wild_pokemon", AudioPreset.FIGHT_MUSIC);
@@ -74,9 +82,13 @@ public class ICMonFight extends PauseMenu {
      */
     private void intro(Keyboard keyboard) {
         assert keyboard != null;
-        drawText("Welcome to the fight");
-        if (keyboard.get(Keyboard.SPACE).isPressed())
-            state = FightState.SELECT_ACTION;
+
+        drawText(introMessages.peek());
+        if (keyboard.get(Keyboard.SPACE).isPressed()) {
+            introMessages.poll();
+            if (introMessages.isEmpty())
+                state = FightState.SELECT_ACTION;
+        }
     }
 
     /**
@@ -112,8 +124,7 @@ public class ICMonFight extends PauseMenu {
         if (!keyboard.get(Keyboard.SPACE).isPressed()) {
             drawAttackAnnouncementText(playerPokemon.properties().name(), nextPlayerAction);
             return;
-        }
-        else gameState.playSound("button", AudioPreset.SFX);
+        } else gameState.playSound("button", AudioPreset.SFX);
 
         gameState.playSound(nextPlayerAction.sfx(), AudioPreset.SFX);
         boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon, true);
@@ -159,8 +170,7 @@ public class ICMonFight extends PauseMenu {
 
                 drawAttackAnnouncementText(name, nextOpponentAction);
                 return;
-            }
-            else gameState.playSound("button", AudioPreset.SFX);
+            } else gameState.playSound("button", AudioPreset.SFX);
 
             gameState.playSound(nextOpponentAction.sfx(), AudioPreset.SFX);
             // The attack didn't finish
@@ -220,7 +230,8 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Draws the attack announcement dialog.
-     * @param name - The name of entity attacking
+     *
+     * @param name       - The name of entity attacking
      * @param nextAction - The action to execute for this round
      */
     private void drawAttackAnnouncementText(String name, ICMonFightAction nextAction) {
