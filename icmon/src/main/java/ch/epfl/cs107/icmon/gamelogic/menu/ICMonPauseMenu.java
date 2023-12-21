@@ -24,9 +24,8 @@ public class ICMonPauseMenu extends PauseMenu {
     @Override
     public void update(float deltaTime) {
         Keyboard keyboard = getKeyboard();
-        if (keyboard.get(Keyboard.ENTER).isPressed()) {
+        if (keyboard.get(Keyboard.ENTER).isPressed() || keyboard.get(Keyboard.SPACE).isPressed())
             gameState.resume();
-        }
         super.update(deltaTime);
     }
 
