@@ -15,6 +15,8 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
 
     private boolean hasInteractionBeenRegistered;
 
+    private boolean hasStartedFight;
+
     /**
      * Constructor for FightWithJamilaSam
      * @param gameState (ICMon.ICMonGameState)
@@ -43,7 +45,15 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
         } else if (hasInteractionBeenRegistered && !player.isDialogInProgress()) {
             player.interactWith(jamilaSam, false);
             hasInteractionBeenRegistered = false;
+            hasStartedFight = true;
         }
+
+        // Check if the player has lost
+        if (hasStartedFight && !player.hasHealthyPokemon()) {
+            player.openDialog("fail_fight_jamila_sam");
+            hasStartedFight = false;
+        }
+
         // Check if Jamila Sam has been beaten.
         if (!jamilaSam.hasHealthyPokemon()) {
             jamilaSam.setFightsAcceptance(false);

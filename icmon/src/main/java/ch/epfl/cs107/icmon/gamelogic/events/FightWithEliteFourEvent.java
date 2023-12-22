@@ -22,11 +22,13 @@ public class FightWithEliteFourEvent extends ICMonEvent {
     private List<String> hasWonAgainst = new ArrayList<>();
 
     private Trainer currentTrainer;
+    private String waitingForFightToEndWith;
 
     /**
      * Constructor for FightWithEliteFourEvent;
+     *
      * @param gameState (ICMon.ICMonGameState)
-     * @param player (ICMonPlayer)
+     * @param player    (ICMonPlayer)
      */
 
     public FightWithEliteFourEvent(ICMon.ICMonGameState gameState, ICMonPlayer player) {
@@ -39,6 +41,7 @@ public class FightWithEliteFourEvent extends ICMonEvent {
 
     /**
      * Adds the trainer to the trainers list.
+     *
      * @param trainer (Trainer)
      */
     private boolean registerTrainer(Trainer trainer) {
@@ -54,19 +57,28 @@ public class FightWithEliteFourEvent extends ICMonEvent {
         for (Trainer trainer : trainers) {
             if (!trainer.hasHealthyPokemon() && !hasWonAgainst.contains(trainer.name())) {
                 // Open dialog after the win of the player
-                trainer.openDialogWith(player, "end_fight_"+trainer.name());
+                trainer.openDialogWith(player, "end_fight_" + trainer.name());
                 hasWonAgainst.add(trainer.name());
+                waitingForFightToEndWith = null;
             }
+        }
+
+        if (waitingForFightToEndWith != null && !player.hasHealthyPokemon()) {
+            // The player has been defeated
+            player.openDialog("fail_fight_" + waitingForFightToEndWith);
+            waitingForFightToEndWith = null;
         }
 
         if (currentTrainer != null) {
             if (!currentTrainer.hadADialogWithPlayer())
                 // Open dialog before the fight with the player
-                currentTrainer.openDialogWith(player, "start_fight_"+ currentTrainer.name());
+                currentTrainer.openDialogWith(player, "start_fight_" + currentTrainer.name());
             else if (!player.isDialogInProgress()) {
                 currentTrainer.setFightsAcceptance(true);
-                if (!hasWonAgainst.contains(currentTrainer))
+                if (!hasWonAgainst.contains(currentTrainer)) {
                     player.interactWith(currentTrainer, false);
+                    waitingForFightToEndWith = currentTrainer.name();
+                }
                 currentTrainer = null;
             }
         }
