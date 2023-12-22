@@ -35,7 +35,7 @@ public class PokemonFightEvent extends ICMonEvent {
         onStart(new LogAction("event.pokemonFight.start.with." + opponentPokemon));
         onComplete(new LogAction("event.pokemonFight.complete.with." + opponentPokemon));
         // No need to leave the area since the Pokémon has been registered in an empty pokeball
-        // onComplete(new LeaveAreaAction(pokemon));
+        onComplete(new LeaveAreaAction(opponentPokemon));
         this.opponentPokemon = opponentPokemon;
         this.trainer = trainer;
     }
