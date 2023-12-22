@@ -1,5 +1,6 @@
 package ch.epfl.cs107.icmon.area.maps;
 
+import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.league.*;
 import ch.epfl.cs107.icmon.area.ICMonArea;
@@ -11,6 +12,8 @@ import ch.epfl.cs107.play.math.Orientation;
 public class UndergroundLab extends ICMonArea {
 
     public static final String TITLE = "underground_lab";
+
+    private boolean hasInfoDialogBeenShown;
 
     @Override
     public String getTitle() {
@@ -32,6 +35,13 @@ public class UndergroundLab extends ICMonArea {
         registerActor(new TanjaKaser(this, Orientation.DOWN, new DiscreteCoordinates(5, 15)));
         registerActor(new FredericBlanc(this, Orientation.DOWN, new DiscreteCoordinates(34, 16)));
         registerActor(new JamilaSam(this, Orientation.DOWN, new DiscreteCoordinates(31, 36)));
+    }
+
+    @Override
+    public void onEnter(ICMonPlayer player) {
+        if (!hasInfoDialogBeenShown)
+            player.openDialog("welcome_to_rolex_league");
+        hasInfoDialogBeenShown = true;
     }
 
     @Override

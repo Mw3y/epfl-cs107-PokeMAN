@@ -45,6 +45,10 @@ The class `Pokeball` is a fictive area where new Pokémon are put when initializ
 
 ## 🆕 **New features**
 
+### 🌍 ICMonArea
+- Added `getAmbiantSound` method to provided audio context.
+- Added `onEnter` method to be able to execute some code when the player enters the area.
+
 ### 🎵 Audio
 `package ch.epfl.cs107.icmon.audio`: package containing stuff related to audio<br>
 

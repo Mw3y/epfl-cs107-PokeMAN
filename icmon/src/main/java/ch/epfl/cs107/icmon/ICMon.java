@@ -214,6 +214,7 @@ public class ICMon extends AreaGame {
                 playSound(currentArea.getAmbiantSound(), AudioPreset.BG_MUSIC);
             }
             player.enterArea(currentArea, spawnPosition);
+            currentArea.onEnter(player);
         }
 
         /**
