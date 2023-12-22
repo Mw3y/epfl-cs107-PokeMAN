@@ -12,8 +12,9 @@ public class SetTrainerFightsAcceptanceAction implements Action {
 
     /**
      * Constructor for SetTrainerFightsAcceptanceAction
+     *
      * @param fightsAcceptance (boolean)
-     * @param trainers (Trainer)
+     * @param trainers         (Trainer)
      */
     public SetTrainerFightsAcceptanceAction(boolean fightsAcceptance, Trainer... trainers) {
         assert trainers != null;
@@ -26,8 +27,8 @@ public class SetTrainerFightsAcceptanceAction implements Action {
      */
     @Override
     public void perform() {
-        for (Trainer trainers : trainers) {
-            trainers.setFightsAcceptance(fightsAcceptance);
+        for (Trainer trainer: trainers) {
+            trainer.setFightsAcceptance(fightsAcceptance);
         }
     }
 }

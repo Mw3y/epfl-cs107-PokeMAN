@@ -28,8 +28,6 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
 
         onStart(new LogAction("event.fightWithMasterJamilaSamEvent.start"));
         onComplete(new LogAction("event.fightWithMasterJamilaSamEvent.complete"));
-        // Allow fighting Jamila Sam only during the event.
-        onStart(new SetTrainerFightsAcceptanceAction(true, jamilaSam));
     }
 
     @Override

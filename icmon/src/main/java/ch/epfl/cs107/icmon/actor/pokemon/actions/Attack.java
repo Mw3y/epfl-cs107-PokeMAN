@@ -63,7 +63,7 @@ public class Attack implements ICMonFightAction {
 
         // Artificially boost player to compensate level difference with legendary Pokémon
         if (boost)
-            damages *= 2;
+            damages *= 10;
 
         System.out.println("-------------------------");
         System.out.println(atkProps.name().toUpperCase() + "'s turn:");
