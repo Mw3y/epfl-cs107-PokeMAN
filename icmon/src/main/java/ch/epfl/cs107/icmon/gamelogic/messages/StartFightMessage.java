@@ -14,6 +14,11 @@ public class StartFightMessage implements GamePlayMessage {
     private final Pokemon opponentPokemon;
     private final Pokemon playerPokemon;
 
+    /**
+     * Starts a fight with a Pokémon.
+     * @param opponentPokemon - The opponent Pokémon
+     * @param playerPokemon - The Pokémon of the player
+     */
     public StartFightMessage(Pokemon opponentPokemon, Pokemon playerPokemon) {
         assert opponentPokemon != null;
         assert playerPokemon != null;
@@ -21,6 +26,12 @@ public class StartFightMessage implements GamePlayMessage {
         this.playerPokemon = playerPokemon;
     }
 
+    /**
+     * Starts a fight with a trainer.
+     * @param trainer - The trainer to fight
+     * @param trainerPokemon - The opponent Pokémon
+     * @param playerPokemon - The Pokémon of the player
+     */
     public StartFightMessage(Trainer trainer, Pokemon trainerPokemon, Pokemon playerPokemon) {
         assert trainer != null;
         assert trainerPokemon != null;

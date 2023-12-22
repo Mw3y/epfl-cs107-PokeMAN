@@ -9,6 +9,10 @@ public class PassDoorMessage implements GamePlayMessage {
 
     private final Door door;
 
+    /**
+     * Allows to change area by using a Door.
+     * @param door - The door that the player uses.
+     */
     public PassDoorMessage(Door door) {
         assert door != null;
         this.door = door;
@@ -21,6 +25,5 @@ public class PassDoorMessage implements GamePlayMessage {
         assert eventManager != null;
         System.out.println("message.player.passDoor");
         gameState.changeArea(door.getDestinationAreaTitle(), door.getDestinationAreaSpawnPosition());
-        if(door.getDestinationAreaTitle().equals(UndergroundLab.TITLE)) player.openDialog("welcome_to_rolex_league");
     }
 }

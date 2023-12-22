@@ -13,7 +13,7 @@ import ch.epfl.cs107.play.math.Orientation;
 
 public class NicolasBoumal extends Trainer {
     /**
-     * Represents a Pokémon trainer that the player can challenge.
+     * Represents Nicolas Boumal, a league trainer that the player can challenge.
      *
      * @param area        (Area): Owner area. Not null.
      * @param orientation (Orientation): Initial orientation of the entity. Not null.

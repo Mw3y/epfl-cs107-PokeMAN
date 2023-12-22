@@ -26,14 +26,24 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
      */
     public ICMonEvent() {}
 
+    /**
+     * @return the pause menu for this event if any.
+     */
     public PauseMenu getPauseMenu() {
         return null;
     }
 
+    /**
+     * @return whether this event has a pause menu or not.
+     */
     public boolean hasPauseMenu() {
         return false;
     }
-    //
+
+    /**
+     * Executes all actions in the provided actions list.
+     * @param actions - The actions to perform
+     */
     private void performActions(List<Action> actions) {
         assert actions != null;
         assert !actions.isEmpty();
@@ -43,6 +53,9 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         }
     }
 
+    /**
+     * Starts the event.
+     */
     final public void start() {
         if (!isStarted) {
             performActions(startActions);
@@ -50,6 +63,9 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         }
     }
 
+    /**
+     * Completes the event.
+     */
     final public void complete() {
         if (isStarted && !isCompleted) {
             performActions(completeActions);
@@ -57,6 +73,9 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         }
     }
 
+    /**
+     * Suspends the event.
+     */
     final public void suspend() {
         if (isStarted && !isCompleted && !isSuspended) {
             performActions(suspendActions);
@@ -64,6 +83,9 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         }
     }
 
+    /**
+     * Resumes the event.
+     */
     final public void resume() {
         if (!isCompleted && isSuspended && isStarted) {
             performActions(resumeActions);
@@ -71,33 +93,58 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
         }
     }
 
+    /**
+     * Registers an action to perform at the start of the event.
+     * @param action - The action to perform
+     */
     final public void onStart(Action action) {
         assert action != null;
         startActions.add(action);}
 
+    /**
+     * Registers an action to perform when the event has been completed.
+     * @param action - The action to perform
+     */
     final public void onComplete(Action action) {
         assert action != null;
         completeActions.add(action);
     }
 
+    /**
+     * Registers an action to perform when the event has been suspended.
+     * @param action - The action to perform
+     */
     final public void onSuspension(Action action) {
         assert action != null;
         suspendActions.add(action);
     }
 
+    /**
+     * Registers an action to perform when the event has been resumed.
+     * @param action - The action to perform
+     */
     final public void onResume(Action action) {
         assert action != null;
         resumeActions.add(action);
     }
 
+    /**
+     * @return whether the event has been started or not.
+     */
     final public boolean isStarted() {
         return isStarted;
     }
 
+    /**
+     * @return whether the event has been completed or not.
+     */
     final public boolean isCompleted() {
         return isCompleted;
     }
 
+    /**
+     * @return whether the event is suspended or not.
+     */
     final public boolean isSuspended() {
         return isSuspended;
     }

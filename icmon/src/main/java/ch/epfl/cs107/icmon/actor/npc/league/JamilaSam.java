@@ -13,7 +13,7 @@ import ch.epfl.cs107.play.math.Orientation;
 
 public class JamilaSam extends Trainer {
     /**
-     * Represents a Pokémon trainer that the player can challenge.
+     * Represents Jamila Sam, the league master that the player can challenge.
      *
      * @param area        (Area): Owner area. Not null.
      * @param orientation (Orientation): Initial orientation of the entity. Not null.
