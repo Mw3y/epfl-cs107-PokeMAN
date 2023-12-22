@@ -46,7 +46,7 @@ public final class Submit {
     // Les fichiers dont le nom se termine par l'un de ces suffixes sont inclus dans le rendu.
     private static final Set<String> SUFFIXES_TO_SUBMIT = Set.of(
             ".java", ".png", ".ttf",
-            ".wav", ".xml", ".txt", ".md", ".pdf", ".json"
+            ".wav", ".xml", ".txt", ".md", ".pdf"
     );
 
     // ============================================================================================
