@@ -5,8 +5,9 @@ The game resources folder was too big to be submitted on Moodle, so here's the d
 https://drive.switch.ch/index.php/s/I74WjFK9RpZn65V/ (All files have of course been compressed beforehand)
 
 # Game Description "PokéMaN: Majorez les tous !"
-The player spawns in the area of his house (Home) and must interact with a series of characters scattered on the map 
-to collect Pokémon to fight his rival Garry and to defeat the Pokémon League.
+You are a student in Computer Sciences at EPFL and you have to challenge the league and beat the master to pass the semester and avoid the MàN.
+
+
 
 # The player can access the following areas :
 
@@ -24,9 +25,9 @@ to collect Pokémon to fight his rival Garry and to defeat the Pokémon League.
 - SPACE : Skip dialogues and messages during Pokémon battles.
 - ENTER : Confirm an action during a Pokémon battle.
 - R : Reset the game.
-
 # Game Solution :
-To win the game you need to beat the master of the league. But first : 
+You spawn in your house, and you have to explore the map, speak to the different characters 
+and end by fighting the master of the Rolex League. In order to do that you must :
 
 ## Talk to Professor Oak
 He is located in the laboratory and will give you your first Pokémon : a Latios. He will also introduce you 
