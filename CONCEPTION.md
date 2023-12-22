@@ -43,6 +43,9 @@ Attacks are now dynamically created through the `PokemonDataLoader`.
 
 The class `Pokeball` is a fictive area where new Pokémon are put when initialized. This allows to be free of the constraint of giving an area to the Pokémon to initialize it.
 
+### PokéCenter and Arena
+These two places have been inverted to have more coherence with a real Pokémon game.
+
 ## 🆕 **New features**
 
 ### 🌍 ICMonArea
