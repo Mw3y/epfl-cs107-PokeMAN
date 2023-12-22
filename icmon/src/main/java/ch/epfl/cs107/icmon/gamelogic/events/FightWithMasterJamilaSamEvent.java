@@ -3,6 +3,7 @@ package ch.epfl.cs107.icmon.gamelogic.events;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.npc.league.JamilaSam;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SetTrainerFightsAcceptanceAction;
 
@@ -57,6 +58,8 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
             jamilaSam.setFightsAcceptance(false);
             // Open dialog after the fight with the player
             jamilaSam.openDialogWith(player, "end_fight_jamila_sam");
+            gameState.stopAllSounds();
+            gameState.playSound("ending_theme_pokemon_ruby", AudioPreset.BG_MUSIC);
             complete();
         }
     }

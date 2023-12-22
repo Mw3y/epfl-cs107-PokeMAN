@@ -7,8 +7,6 @@ https://drive.switch.ch/index.php/s/I74WjFK9RpZn65V/ (All files have of course b
 # Game Description "PokéMaN: Majorez les tous !"
 You are a student in Computer Sciences at EPFL and you have to challenge the league and beat the master to pass the semester and avoid the MàN.
 
-
-
 # The player can access the following areas :
 
     - Town : The main area of the village
@@ -92,3 +90,5 @@ to start a battle ; you need to interact with the L button. This choice was made
 game's functionality. 
 Additionally, since the display of Pokémon was initially reversed in the prototype, we took the liberty of modifying
 it so that the player's Pokémon is displayed on its side.
+
+Made by Maxence ESPAGNET and Balthazar BAILLAT - December 2023 

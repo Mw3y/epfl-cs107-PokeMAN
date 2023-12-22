@@ -22,7 +22,7 @@ public class Garry extends Trainer  {
      */
     public Garry(Area area, Orientation orientation, DiscreteCoordinates position) {
         super("Garry", area, orientation, position, "actors/garry");
-        givePokemon(new PokemonDataLoader().load(31).toPokemon(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(2, 6)));
+        givePokemon(new PokemonDataLoader().load(31).toPokemon(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(60, 60)));
     }
 
     @Override

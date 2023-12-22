@@ -26,6 +26,12 @@ import ch.epfl.cs107.play.window.Window;
 
 import java.util.*;
 
+/**
+ * The ICMon game inspired by the Pokémon series.
+ *
+ * @author Maxence ESPAGNET
+ * @author Balthazar BAILLAT
+ */
 public class ICMon extends AreaGame {
 
     public final static float CAMERA_SCALE_FACTOR = 12.5f;
