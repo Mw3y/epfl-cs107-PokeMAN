@@ -21,7 +21,7 @@ public class Lab extends ICMonArea {
         registerActor(new Background(this));
         registerActor(new Foreground(this));
         registerActor(new ProfOak(this, Orientation.DOWN, new DiscreteCoordinates(11, 7)));
-        registerActor(new Door(Town.TITLE, new DiscreteCoordinates(15, 23), this,
+        registerActor(new Door(Town.TITLE, new DiscreteCoordinates(20, 16), this,
                 new DiscreteCoordinates(6, 1), new DiscreteCoordinates(7, 1)));
         registerActor(new Nurse(this, Orientation.DOWN, new DiscreteCoordinates(7, 7)));
     }
