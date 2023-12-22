@@ -4,6 +4,7 @@ import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.npc.league.JamilaSam;
 import ch.epfl.cs107.icmon.gamelogic.actions.LogAction;
+import ch.epfl.cs107.icmon.gamelogic.actions.SetTrainerFightsAcceptanceAction;
 
 public class FightWithMasterJamilaSamEvent extends ICMonEvent {
 
@@ -14,13 +15,19 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
 
     private boolean hasInteractionBeenRegistered;
 
+    /**
+     * Constructor for FightWithJamilaSam
+     * @param gameState (ICMon.ICMonGameState)
+     * @param player (ICMonPlayer)
+     */
     public FightWithMasterJamilaSamEvent(ICMon.ICMonGameState gameState, ICMonPlayer player) {
         this.gameState = gameState;
         this.player = player;
 
         onStart(new LogAction("event.fightWithMasterJamilaSamEvent.start"));
         onComplete(new LogAction("event.fightWithMasterJamilaSamEvent.complete"));
-        // onStart(new SetTrainerFightsAcceptanceAction(true, jamilaSam));
+        // Allow fighting Jamila Sam only during the event.
+        onStart(new SetTrainerFightsAcceptanceAction(true, jamilaSam));
     }
 
     @Override
@@ -37,7 +44,7 @@ public class FightWithMasterJamilaSamEvent extends ICMonEvent {
             player.interactWith(jamilaSam, false);
             hasInteractionBeenRegistered = false;
         }
-
+        // Check if Jamila Sam has been beaten.
         if (!jamilaSam.hasHealthyPokemon()) {
             jamilaSam.setFightsAcceptance(false);
             // Open dialog after the fight with the player

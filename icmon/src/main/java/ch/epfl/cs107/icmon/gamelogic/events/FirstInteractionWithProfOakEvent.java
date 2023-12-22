@@ -16,6 +16,10 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
     private boolean hasDialogStarted = false;
     private final ICMonPlayer player;
 
+    /**
+     * Constructor for FirstInteractionWithProfOakEvent
+     * @param player (ICMonPlayer)
+     */
     public FirstInteractionWithProfOakEvent(ICMonPlayer player) {
         assert player != null;
         this.player = player;

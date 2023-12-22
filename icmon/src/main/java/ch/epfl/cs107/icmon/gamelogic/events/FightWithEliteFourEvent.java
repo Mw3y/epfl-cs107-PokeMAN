@@ -38,9 +38,8 @@ public class FightWithEliteFourEvent extends ICMonEvent {
     }
 
     /**
-     * Fills the trainers list with trainer.
-     * @param trainer
-     * @return
+     * Adds the trainer to the trainers list.
+     * @param trainer (Trainer)
      */
     private boolean registerTrainer(Trainer trainer) {
         currentTrainer = trainer;
@@ -71,7 +70,8 @@ public class FightWithEliteFourEvent extends ICMonEvent {
                 currentTrainer = null;
             }
         }
-
+        // Check if the player has won against all the Elite 4.
+        // Then set there fight acceptance to false.
         if (hasWonAgainst.size() == 4) {
             for (Trainer trainer : trainers) {
                 trainer.setFightsAcceptance(false);

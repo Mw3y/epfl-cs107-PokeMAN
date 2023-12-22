@@ -21,9 +21,11 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
     private boolean isCompleted = false;
     private boolean isSuspended = false;
 
+    /**
+     * Default constructor for an ICMonEvent.
+     */
     public ICMonEvent() {}
 
-    // TODO: Better approach
     public PauseMenu getPauseMenu() {
         return null;
     }
@@ -31,9 +33,11 @@ public abstract class ICMonEvent implements Updatable, ICMonInteractionVisitor {
     public boolean hasPauseMenu() {
         return false;
     }
-
+    //
     private void performActions(List<Action> actions) {
         assert actions != null;
+        assert !actions.isEmpty();
+        // Iterate on actions and call the perform() method of all of them.
         for (Action action : actions) {
             action.perform();
         }

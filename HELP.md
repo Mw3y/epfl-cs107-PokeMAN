@@ -63,13 +63,24 @@ When walking in the tall grass you have a chance to be attacked by a random Pok�
 
 ## Music 
 Background and fight music and sound effects have been added :
-- Music at the beginning of the game is from Pokémon Ruby Omega and Sapphire Alpha.
-- Music in the town is from Pokémon Black and White.
-- All other sound effects are common to every game.
-- --> fair use for scholarship purpose
+- Music at the beginning of the game is the main theme of Pokémon Ruby Omega and Sapphire Alpha.
+- Music in the town is the music of Driftveil city in Pokémon Black and White.
+- Music in the Rolex is the cold storage music from Pokémon Black and White.
+- Fight music.
+- Sound effects when : Pokémon attacks, dialogs are passed, actions are selected in fights, a fight is finished, 
+the player obtains a new Pokémon 
+- (All fair use for scholarship purpose)
 
 ## Sprites
-We changed the sprites of the Prof.Oak and Garry and added the following
+New sprites :
+- Different sprites for Prof. Oak and Garry.
+- Sprinting sprite sheet for the player.
+- A nurse sprite in the Lab.
+- Sprites for our professors (the league members).
+- 493 new Pokémon sprites.
+- New maps sprites for the Rolex inside
+- Different sprites for the hp bar, the dialogs and the display of Pokémon infos during fights.
+
 
 
 # WARNING #

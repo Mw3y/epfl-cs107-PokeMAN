@@ -17,23 +17,26 @@ import ch.epfl.cs107.play.engine.PauseMenu;
 public class PokemonFightEvent extends ICMonEvent {
 
     private final ICMonFight fight;
-    private final Pokemon opponentPokement;
+    private final Pokemon opponentPokemon;
     private final Trainer trainer;
 
-    public PokemonFightEvent(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon pokemon) {
-        this(gameState, playerPokemon, pokemon, null);
-    }
-
-    public PokemonFightEvent(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokement, Trainer trainer) {
+    /**
+     * Constructor for PokemonFightEvent
+     * @param gameState (ICMon.ICMonGameState)
+     * @param playerPokemon (Pokemon)
+     * @param opponentPokemon (Pokemon)
+     * @param trainer (Trainer)
+     */
+    public PokemonFightEvent(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon, Trainer trainer) {
         assert playerPokemon != null;
-        assert opponentPokement != null;
-        this.fight = new ICMonFight(gameState, playerPokemon, opponentPokement, trainer);
+        assert opponentPokemon != null;
+        this.fight = new ICMonFight(gameState, playerPokemon, opponentPokemon, trainer);
 
-        onStart(new LogAction("event.pokemonFight.start.with." + opponentPokement));
-        onComplete(new LogAction("event.pokemonFight.complete.with." + opponentPokement));
+        onStart(new LogAction("event.pokemonFight.start.with." + opponentPokemon));
+        onComplete(new LogAction("event.pokemonFight.complete.with." + opponentPokemon));
         // No need to leave the area since the Pokémon has been registered in an empty pokeball
         // onComplete(new LeaveAreaAction(pokemon));
-        this.opponentPokement = opponentPokement;
+        this.opponentPokemon = opponentPokemon;
         this.trainer = trainer;
     }
 
@@ -41,6 +44,7 @@ public class PokemonFightEvent extends ICMonEvent {
     public void update(float deltaTime) {
         if (!fight.isRunning()) {
             complete();
+            // If it has to, make the trainer disappear after he lost the fight.
             if (trainer != null && !trainer.hasHealthyPokemon() && trainer.disappearsOnDefeat())
                 trainer.leaveArea();
         }

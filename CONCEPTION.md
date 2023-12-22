@@ -18,7 +18,7 @@ The previously abstract Pokémon class has undergone significant changes:
 - Additional methods in `PokemonProperties` provide more information on the Pokémon's state.
 
 #### 🔄 Dynamic Pokémon loader
-Implemented the `PokemonDataLoader` class to dynamically load Pokémon on the fly by reading the Pokédex, a collection of XML files. Consequently, the classes for Bulbasaur, Nidoqueen, and Latios have been deleted in favor of dynamically loaded Pokémon.
+Implemented the `PokemonDataLoader` class to dynamically load Pokémon on the fly by reading the Pokédex, a collection of XML files describing 493 available Pokémon. Consequently, the classes for Bulbasaur, Nidoqueen, and Latios have been deleted in favor of dynamically loaded Pokémon.
 
 The `PokemonDataLoader` uses data structures such as `PokemonMove` and `PokemonType` to represent loaded data.
 

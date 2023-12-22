@@ -7,6 +7,10 @@ import ch.epfl.cs107.icmon.gamelogic.actions.SetTrainerFightsAcceptanceAction;
 public class FirstInteractionWithGarryEvent extends ICMonEvent {
     private final Garry garry;
 
+    /**
+     * Constructor for FirstInteractionWithGarryEvent
+     * @param garry (Garry)
+     */
     public FirstInteractionWithGarryEvent(Garry garry) {
         assert garry != null;
         this.garry = garry;
