@@ -1,5 +1,9 @@
 MP2-2023
 ========
+# Resources folder:
+The game resources folder was too big to be submitted on Moodle, so here's the drive link:
+https://drive.switch.ch/index.php/s/I74WjFK9RpZn65V/ (All files have of course been compressed beforehand)
+
 # Game Description "PokéMaN: Majorez les tous !"
 The player spawns in the area of his house (Home) and must interact with a series of characters scattered on the map 
 to collect Pokémon to fight his rival Garry and to defeat the Pokémon League.
@@ -80,8 +84,6 @@ New sprites :
 - 493 new Pokémon sprites.
 - New maps sprites for the Rolex inside
 - Different sprites for the hp bar, the dialogs and the display of Pokémon infos during fights.
-
-
 
 # WARNING #
 Point modified compared to the instructions : it is not enough for the player to have a contact interaction with a Pokémon
