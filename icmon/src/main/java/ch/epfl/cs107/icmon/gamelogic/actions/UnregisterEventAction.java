@@ -7,6 +7,11 @@ public class UnregisterEventAction implements Action {
     private final ICMon.ICMonEventManager eventManager;
     private final ICMonEvent event;
 
+    /**
+     * Constructor for UnregisterEventActon
+     * @param eventManager
+     * @param eventToRegister
+     */
     public UnregisterEventAction(ICMon.ICMonEventManager eventManager, ICMonEvent eventToRegister) {
         assert eventManager != null;
         assert eventToRegister != null;
@@ -14,6 +19,9 @@ public class UnregisterEventAction implements Action {
         this.event = eventToRegister;
     }
 
+    /**
+     * Unregisters a given event.
+     */
     @Override
     public void perform() {
         eventManager.unregisterEvent(event);

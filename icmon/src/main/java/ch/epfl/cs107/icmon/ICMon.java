@@ -5,25 +5,33 @@ import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.npc.Garry;
 import ch.epfl.cs107.icmon.area.ICMonArea;
 import ch.epfl.cs107.icmon.area.maps.*;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.gamelogic.actions.RegisterInAreaAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.ResumeEventAction;
-import ch.epfl.cs107.icmon.gamelogic.actions.StartEventAction;
 import ch.epfl.cs107.icmon.gamelogic.actions.SuspendEventAction;
 import ch.epfl.cs107.icmon.gamelogic.events.*;
+import ch.epfl.cs107.icmon.gamelogic.menu.ICMonStartMenu;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.play.areagame.AreaGame;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
-import ch.epfl.cs107.play.areagame.area.Area;
 import ch.epfl.cs107.play.engine.PauseMenu;
 import ch.epfl.cs107.play.engine.Updatable;
 import ch.epfl.cs107.play.io.FileSystem;
+import ch.epfl.cs107.play.io.ResourcePath;
 import ch.epfl.cs107.play.math.DiscreteCoordinates;
 import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.window.Keyboard;
+import ch.epfl.cs107.play.window.Sound;
 import ch.epfl.cs107.play.window.Window;
 
 import java.util.*;
 
+/**
+ * The ICMon game inspired by the Pokémon series.
+ *
+ * @author Maxence ESPAGNET
+ * @author Balthazar BAILLAT
+ */
 public class ICMon extends AreaGame {
 
     public final static float CAMERA_SCALE_FACTOR = 12.5f;
@@ -49,6 +57,10 @@ public class ICMon extends AreaGame {
             createAreas();
             initArea(House.TITLE);
             events();
+
+            // Show the main menu
+            gameState.pause(new ICMonStartMenu(gameState));
+
             return true;
         }
         return false;
@@ -92,6 +104,7 @@ public class ICMon extends AreaGame {
         ICMonEvent introduction = new IntroductionEvent(player);
         ICMonEvent firstInteractionWithProfOak = new FirstInteractionWithProfOakEvent(player);
 
+        // TODO: Register in area class
         Garry garry = new Garry(getCurrentArea(), Orientation.DOWN, new DiscreteCoordinates(1, 4));
         getCurrentArea().registerActor(garry);
         ICMonEvent firstInteractionWithGarry = new FirstInteractionWithGarryEvent(garry);
@@ -100,9 +113,12 @@ public class ICMon extends AreaGame {
         ICMonEvent collectBall = new CollectItemEvent(player, ball);
         collectBall.onStart(new RegisterInAreaAction(areas.get(Town.TITLE), ball));
 
+        ICMonEvent fightWithEliteFour = new FightWithEliteFourEvent(gameState, player);
+        ICMonEvent fightWithMasterJamilaSam = new FightWithMasterJamilaSamEvent(gameState, player);
+
         ICMonEvent endOfTheGame = new EndOfTheGameEvent(player);
 
-        ICMonChainedEvent mainScenario = new ICMonChainedEvent(eventManager, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, endOfTheGame);
+        ICMonChainedEvent mainScenario = new ICMonChainedEvent(eventManager, introduction, firstInteractionWithProfOak, collectBall, firstInteractionWithGarry, fightWithEliteFour, fightWithMasterJamilaSam,  endOfTheGame);
         eventManager.registerEvent(mainScenario);
         mainScenario.start();
     }
@@ -164,6 +180,7 @@ public class ICMon extends AreaGame {
      */
     public class ICMonGameState implements Updatable {
 
+        // TODO: Document conception
         private final Queue<GamePlayMessage> messagesQueue = new LinkedList<>();
 
         private ICMonGameState() {
@@ -198,7 +215,12 @@ public class ICMon extends AreaGame {
         public void changeArea(String areaTitle, DiscreteCoordinates spawnPosition) {
             player.leaveArea();
             ICMonArea currentArea = (ICMonArea) setCurrentArea(areaTitle, false);
+            if (currentArea.getAmbiantSound() != null) {
+                stopAllSounds();
+                playSound(currentArea.getAmbiantSound(), AudioPreset.BG_MUSIC);
+            }
             player.enterArea(currentArea, spawnPosition);
+            currentArea.onEnter(player);
         }
 
         /**
@@ -218,6 +240,23 @@ public class ICMon extends AreaGame {
         public void resume() {
             if (isPaused())
                 requestResume();
+        }
+
+        /**
+         * Plays a sound in the game.
+         * @param name - The name of the sound file
+         * @param preset - The configuration of the sound player
+         */
+        public void playSound(String name, AudioPreset preset) {
+            Sound sound = getWindow().getSound(ResourcePath.getSound(name));
+            getWindow().playSound(sound, preset.hasRandomFirstStart(), preset.getVolume(), preset.fadesIn(), preset.loops(), preset.stopsOthersOnStart());
+        }
+
+        /**
+         * Stops all currently playing sounds.
+         */
+        public void stopAllSounds() {
+            getWindow().playSound(null, false, 0f, false, false, true);
         }
 
         @Override

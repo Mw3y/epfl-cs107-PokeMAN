@@ -18,12 +18,28 @@ public class RunAway implements ICMonFightAction {
     }
 
     @Override
+    public String sfx() {
+        return "run_away";
+    }
+
+    @Override
+    public int power() {
+        return 0;
+    }
+
+    @Override
     public PokemonMoveType type() {
         return PokemonMoveType.SPECIAL;
     }
 
     @Override
     public boolean doAction(Pokemon target, Pokemon pokemon) {
+        return doAction(target, pokemon, false);
+
+    }
+
+    @Override
+    public boolean doAction(Pokemon target, Pokemon pokemon, boolean boost) {
         assert target != null;
         assert pokemon != null;
         return false;

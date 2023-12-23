@@ -4,6 +4,7 @@ import ch.epfl.cs107.icmon.actor.ICMonPlayer;
 import ch.epfl.cs107.icmon.actor.misc.Door;
 import ch.epfl.cs107.icmon.actor.npc.*;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
+import ch.epfl.cs107.icmon.actor.npc.league.*;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.play.areagame.actor.Interactable;
@@ -37,4 +38,14 @@ public interface ICMonInteractionVisitor extends AreaInteractionVisitor {
     default void interactWith(Trainer trainer, boolean isCellInteraction) {}
 
     default void interactWith(Nurse nurse, boolean isCellInteraction) {}
+
+    default void interactWith(AnnaLachowska annaLachowska, boolean isCellInteraction) {}
+
+    default void interactWith(NicolasBoumal nicolasBoumal, boolean isCellInteraction) {}
+
+    default void interactWith(TanjaKaser tanjaKaser, boolean isCellInteraction) {}
+
+    default void interactWith(FredericBlanc fredericBlanc, boolean isCellInteraction) {}
+
+    default void interactWith(JamilaSam jamilaSam, boolean isCellInteraction) {}
 }

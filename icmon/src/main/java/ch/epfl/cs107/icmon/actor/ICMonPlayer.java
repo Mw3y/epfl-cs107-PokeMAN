@@ -3,13 +3,12 @@ package ch.epfl.cs107.icmon.actor;
 import ch.epfl.cs107.icmon.ICMon;
 import ch.epfl.cs107.icmon.actor.items.ICBall;
 import ch.epfl.cs107.icmon.actor.misc.Door;
-import ch.epfl.cs107.icmon.actor.npc.ICShopAssistant;
-import ch.epfl.cs107.icmon.actor.npc.Nurse;
-import ch.epfl.cs107.icmon.actor.npc.ProfOak;
-import ch.epfl.cs107.icmon.actor.npc.Trainer;
+import ch.epfl.cs107.icmon.actor.npc.*;
+import ch.epfl.cs107.icmon.actor.npc.league.*;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 import ch.epfl.cs107.icmon.area.ICMonBehavior;
 import ch.epfl.cs107.icmon.area.cells.behaviors.TallGrass;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
 import ch.epfl.cs107.icmon.gamelogic.messages.GamePlayMessage;
 import ch.epfl.cs107.icmon.gamelogic.messages.PassDoorMessage;
 import ch.epfl.cs107.icmon.handler.ICMonInteractionVisitor;
@@ -75,6 +74,8 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
      */
     public boolean givePokemon(Pokemon pokemon) {
         assert pokemon != null;
+        gameState.stopAllSounds();
+        gameState.playSound("capture_pokemon", AudioPreset.SFX);
         return pokemons.add(pokemon);
     }
 
@@ -108,8 +109,10 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
 
         // Handle the dialog state
         if (isDialogInProgress()) {
-            if (keyboard.get(Keyboard.SPACE).isPressed())
+            if (keyboard.get(Keyboard.SPACE).isPressed() || keyboard.get(Keyboard.ENTER).isPressed()) {
+                gameState.playSound("button", AudioPreset.SFX);
                 dialog.update(deltaTime);
+            }
             if (dialog.isCompleted())
                 closeDialog();
             return;
@@ -286,11 +289,36 @@ public final class ICMonPlayer extends ICMonActor implements Interactor {
         @Override
         public void interactWith(Trainer trainer, boolean isCellInteraction) {
             assert trainer != null;
-            if (hasHealthyPokemon() && trainer.acceptsFights()) {
-                trainer.fight(gameState, pokemons.get(0));
+            if (hasHealthyPokemon()) {
+                if (trainer.acceptsFights()) trainer.fight(gameState, pokemons.get(0));
             }
             else openDialog("fight_impossible");
             gameState.acceptInteraction(trainer, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(AnnaLachowska annaLachowska, boolean isCellInteraction) {
+            interactWith((Trainer) annaLachowska, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(NicolasBoumal nicolasBoumal, boolean isCellInteraction) {
+            interactWith((Trainer) nicolasBoumal, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(FredericBlanc fredericBlanc, boolean isCellInteraction) {
+            interactWith((Trainer) fredericBlanc, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(JamilaSam jamilaSam, boolean isCellInteraction) {
+            interactWith((Trainer) jamilaSam, isCellInteraction);
+        }
+
+        @Override
+        public void interactWith(TanjaKaser tanjaKaser, boolean isCellInteraction) {
+            interactWith((Trainer) tanjaKaser, isCellInteraction);
         }
 
         @Override

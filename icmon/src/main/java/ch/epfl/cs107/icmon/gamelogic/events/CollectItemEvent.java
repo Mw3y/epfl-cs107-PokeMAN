@@ -16,6 +16,11 @@ public class CollectItemEvent extends ICMonEvent {
     private final ICMonPlayer player;
     private final ICMonItem item;
 
+    /**
+     * Constructor for CollectItemEvent
+     * @param player (ICMonPlayer)
+     * @param itemToCollect (ICMonItem)
+     */
     public CollectItemEvent(ICMonPlayer player, ICMonItem itemToCollect) {
         assert player != null;
         assert itemToCollect != null;

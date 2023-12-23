@@ -10,11 +10,24 @@ import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
 public interface ICMonFightAction {
 
     /**
+     * Gets the power of the fight action.
+     * @return the power of the action.
+     */
+    // TODO: Document
+    int power();
+
+    /**
      * Gets the type of the fight action.
      * @return the type of the action.
      */
     // TODO: Document
     PokemonMoveType type();
+
+    /**
+     * Gets the name of the sfx to play.
+     * @return the name of the sfx to play.
+     */
+    String sfx();
 
     /**
      * Gets the name of the fight action.
@@ -29,4 +42,6 @@ public interface ICMonFightAction {
      */
     // TODO: Pass other pokemon
     boolean doAction(Pokemon target, Pokemon pokemon);
+
+    boolean doAction(Pokemon target, Pokemon pokemon, boolean boost);
 }

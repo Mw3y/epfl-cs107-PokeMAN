@@ -16,12 +16,16 @@ public class FirstInteractionWithProfOakEvent extends ICMonEvent {
     private boolean hasDialogStarted = false;
     private final ICMonPlayer player;
 
+    /**
+     * Constructor for FirstInteractionWithProfOakEvent
+     * @param player (ICMonPlayer)
+     */
     public FirstInteractionWithProfOakEvent(ICMonPlayer player) {
         assert player != null;
         this.player = player;
         onStart(new LogAction("event.firstInteractionWithProfOak.start"));
         onComplete(new LogAction("event.firstInteractionWithProfOak.complete"));
-        Pokemon latios = PokemonDataLoader.load(381, new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0));
+        Pokemon latios = new PokemonDataLoader().load(25).toPokemon(new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0));
         onComplete(new GivePokemonToPlayerAction(latios, player));
     }
 

@@ -10,6 +10,10 @@ public class SuspendWithEventMessage implements GamePlayMessage {
 
     private final ICMonEvent event;
 
+    /**
+     * Allows to suspend the game state.
+     * @param event - The event that requested the game pause
+     */
     public SuspendWithEventMessage(ICMonEvent event) {
         assert event != null;
         this.event = event;
@@ -20,7 +24,9 @@ public class SuspendWithEventMessage implements GamePlayMessage {
         assert player != null;
         assert gameState != null;
         assert eventManager != null;
+
         System.out.println("message.game.suspendWithEvent");
+        // If the event has pause menu, display the menu
         if (event.hasPauseMenu()) {
             event.onStart(new PauseGameAction(gameState, event.getPauseMenu()));
             event.onComplete(new ResumeGameAction(gameState));

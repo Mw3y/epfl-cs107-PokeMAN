@@ -22,19 +22,19 @@ import java.util.List;
  *
  * @author Hamza REMMAL (hamza.remmal@epfl.ch)
  */
-public class Pokemon extends ICMonActor implements ICMonFightableActor {
+public final class Pokemon extends ICMonActor implements ICMonFightableActor {
 
+    private int pokedexId;
     private final String name;
-    // TODO: Readme justify usage of float
     private final float hpMax;
+    private float hp;
     private final int attack;
     private final int defense;
-    private final RPGSprite sprite;
+
     private final List<ICMonFightAction> actionsList;
-    private int pokedexId;
     private List<PokemonType> types;
-    // TODO: Readme justify usage of float
-    private float hp;
+
+    private final RPGSprite sprite;
 
     /**
      * Represents a Pokémon.
@@ -212,7 +212,7 @@ public class Pokemon extends ICMonActor implements ICMonFightableActor {
             float attackCoeff = types.get(0).effectiveness().get(targetProps.types().get(0).name());
             if (types.size() > 1 && targetProps.types().size() > 1)
                 attackCoeff *= types.get(1).effectiveness().get(targetProps.types().get(1).name());
-            return attackCoeff;
+            return attackCoeff + 1;
         }
 
     }

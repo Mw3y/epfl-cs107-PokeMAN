@@ -21,17 +21,17 @@ public class Garry extends Trainer  {
      * @param position    (Coordinate): Initial position of the entity. Not null
      */
     public Garry(Area area, Orientation orientation, DiscreteCoordinates position) {
-        super(area, orientation, position, "actors/garry");
-        givePokemon(PokemonDataLoader.load(31, new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(2, 6)));
+        super("Garry", area, orientation, position, "actors/garry");
+        givePokemon(new PokemonDataLoader().load(31).toPokemon(getOwnerArea(), Orientation.DOWN, new DiscreteCoordinates(60, 60)));
     }
 
     @Override
     public void acceptInteraction(AreaInteractionVisitor v, boolean isCellInteraction) {
         ((ICMonInteractionVisitor) v).interactWith(this, isCellInteraction);
     }
-
     @Override
     public void fight(ICMon.ICMonGameState game, Pokemon playerPokemon) {
         game.send(new StartFightMessage(this, getPokemons().get(0), playerPokemon));
     }
+
 }

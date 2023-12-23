@@ -1,38 +1,85 @@
 package ch.epfl.cs107.icmon.gamelogic.fights;
 
+import ch.epfl.cs107.icmon.ICMon;
+import ch.epfl.cs107.icmon.actor.npc.Trainer;
 import ch.epfl.cs107.icmon.actor.pokemon.Pokemon;
+import ch.epfl.cs107.icmon.area.maps.Pokeball;
+import ch.epfl.cs107.icmon.audio.AudioPreset;
+import ch.epfl.cs107.icmon.data.PokemonDataLoader;
 import ch.epfl.cs107.icmon.graphics.ICMonFightActionSelectionGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightArenaGraphics;
 import ch.epfl.cs107.icmon.graphics.ICMonFightTextGraphics;
 import ch.epfl.cs107.play.engine.PauseMenu;
+import ch.epfl.cs107.play.math.DiscreteCoordinates;
+import ch.epfl.cs107.play.math.Orientation;
 import ch.epfl.cs107.play.math.random.RandomGenerator;
 import ch.epfl.cs107.play.window.Canvas;
 import ch.epfl.cs107.play.window.Keyboard;
 
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class ICMonFight extends PauseMenu {
 
+    private final ICMon.ICMonGameState gameState;
     private final Pokemon playerPokemon;
     private final Pokemon opponentPokemon;
+    private final Trainer trainer;
+    private ICMonFightArenaGraphics arena;
     private ICMonFightAction nextPlayerAction;
-    private FightState state;
+    private ICMonFightAction nextOpponentAction;
 
+    private FightState state;
     private ICMonFightActionSelectionGraphics playerActionsMenu;
-    private final ICMonFightArenaGraphics arena;
+    private boolean isPlayingVictorySound;
+
+    private Queue<String> introMessages = new LinkedList<>();
 
     /**
      * Simulates a Pokémon fight.
-     * @param playerPokemon - The Pokémon of the player
+     *
+     * @param playerPokemon   - The Pokémon of the player
      * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
      */
-    public ICMonFight(Pokemon playerPokemon, Pokemon opponentPokemon) {
+    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon) {
+        this(gameState, playerPokemon, opponentPokemon, null);
+    }
+
+    /**
+     * Simulates a Pokémon fight.
+     *
+     * @param playerPokemon   - The Pokémon of the player
+     * @param opponentPokemon - A wild Pokémon or a trainer's Pokémon
+     * @param trainer         - The trainer that the player challenged
+     */
+    public ICMonFight(ICMon.ICMonGameState gameState, Pokemon playerPokemon, Pokemon opponentPokemon, Trainer trainer) {
+        assert gameState != null;
         assert playerPokemon != null;
         assert opponentPokemon != null;
+
+        this.gameState = gameState;
         this.playerPokemon = playerPokemon;
         this.opponentPokemon = opponentPokemon;
         this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
         this.state = FightState.INTRO;
+        this.trainer = trainer;
+
+        if (trainer != null) {
+            introMessages.add(trainer.name().toUpperCase() + " wants to fight!");
+            introMessages.add(trainer.name().toUpperCase() + " sent out " + opponentPokemon.properties().name().toUpperCase() + ".");
+        } else
+            introMessages.add("A wild " + opponentPokemon.properties().name().toUpperCase() + " has appeared.");
+
+        gameState.stopAllSounds();
+        gameState.playSound("battle_wild_pokemon", AudioPreset.FIGHT_MUSIC);
+    }
+
+    /**
+     * @return whether the action is the encapsulation flaw attack.
+     */
+    public boolean isEncapsulationFlawAttack(ICMonFightAction action) {
+        return trainer != null && trainer.name().equals("jamila_sam") && action.name().equals("Encapsulation Flaw");
     }
 
     @Override
@@ -43,17 +90,22 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Executes the intro phase of the fight.
+     *
      * @param keyboard - The keyboard that the user uses
      */
     private void intro(Keyboard keyboard) {
         assert keyboard != null;
-        drawText("Welcome to the fight");
-        if (keyboard.get(Keyboard.SPACE).isPressed())
-            state = FightState.SELECT_ACTION;
+
+        drawText(introMessages.peek());
+        if (keyboard.get(Keyboard.SPACE).isPressed()) {
+            introMessages.poll();
+            if (introMessages.isEmpty()) state = FightState.SELECT_ACTION;
+        }
     }
 
     /**
      * Allows the player to select a fight action.
+     *
      * @param keyboard - The keyboard that the user uses
      */
     private void selectPlayerAction(Keyboard keyboard, float deltaTime) {
@@ -69,6 +121,12 @@ public class ICMonFight extends PauseMenu {
         // Fetch the player choice from the menu
         ICMonFightAction attack = playerActionsMenu.choice();
         if (attack != null) {
+            gameState.playSound("button", AudioPreset.SFX);
+            if (trainer != null && attack.name().equals("Run away")) {
+                // Cannot run away during fight with trainer
+                return;
+            }
+            // Store action for next fight state
             nextPlayerAction = attack;
             // Reset the menu for next turn
             playerActionsMenu = null;
@@ -79,8 +137,16 @@ public class ICMonFight extends PauseMenu {
     /**
      * Executes the fight action that the player has selected in the previous phase.
      */
-    private void executePlayerAction() {
-        boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon);
+    private void executePlayerAction(Keyboard keyboard) {
+        // Display attack infos
+        if (!keyboard.get(Keyboard.SPACE).isPressed()) {
+            drawAttackAnnouncementText(playerPokemon.properties().name(), nextPlayerAction);
+            return;
+        }
+
+        gameState.playSound("button", AudioPreset.SFX);
+        gameState.playSound(nextPlayerAction.sfx(), AudioPreset.SFX);
+        boolean hasSucceeded = nextPlayerAction.doAction(opponentPokemon, playerPokemon, true);
         // The player has won
         if (opponentPokemon.properties().isKO()) {
             state = FightState.ENDING;
@@ -100,18 +166,42 @@ public class ICMonFight extends PauseMenu {
 
     /**
      * Makes the opponent of the player attack if possible.
+     *
+     * @param keyboard - The keyboard that the user uses
      */
-    private void executeOpponentAction() {
+    private void executeOpponentAction(Keyboard keyboard) {
         // Check if the Pokémon can attack
-        List<ICMonFightAction> attacks = opponentPokemon.properties().actions().stream()
-                .filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).toList();
+        List<ICMonFightAction> attacks = opponentPokemon.properties().actions().stream().filter(action -> action.type().equals(PokemonMoveType.PHYSICAL)).toList();
 
         // Check if the opponent can attack
         if (!attacks.isEmpty()) {
-            // Use a random attack
-            ICMonFightAction attack = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size()));
+            // Only select a random attack if necessary
+            if (nextOpponentAction == null)
+                // Use a random attack
+                nextOpponentAction = attacks.get(RandomGenerator.getInstance().nextInt(opponentPokemon.properties().actions().size() - 1));
+
+            // Display attack infos
+            if (!keyboard.get(Keyboard.SPACE).isPressed()) {
+                String name = trainer == null ? opponentPokemon.properties().name() : trainer.name();
+
+                // Creates the glitch effect
+                if (isEncapsulationFlawAttack(nextOpponentAction)) {
+                    this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, new PokemonDataLoader().loadRandom().toPokemon(new Pokeball(), Orientation.DOWN, new DiscreteCoordinates(0, 0)).properties(), opponentPokemon.properties());
+                }
+
+                drawAttackAnnouncementText(name, nextOpponentAction);
+                return;
+            }
+
+            // Remove the glitch effect
+            if (isEncapsulationFlawAttack(nextOpponentAction)) {
+                this.arena = new ICMonFightArenaGraphics(CAMERA_SCALE_FACTOR, playerPokemon.properties(), opponentPokemon.properties());
+            }
+
+            gameState.playSound("button", AudioPreset.SFX);
+            gameState.playSound(nextOpponentAction.sfx(), AudioPreset.SFX);
             // The attack didn't finish
-            if (!attack.doAction(playerPokemon, opponentPokemon)) {
+            if (!nextOpponentAction.doAction(playerPokemon, opponentPokemon)) {
                 state = FightState.ENDING;
                 drawText("The opponent decided not to continue the fight!");
                 return;
@@ -122,18 +212,31 @@ public class ICMonFight extends PauseMenu {
                 drawText("The opponent has won the fight!");
                 return;
             }
+            // Reset next action
+            nextOpponentAction = null;
         }
         state = FightState.SELECT_ACTION;
     }
 
     /**
      * Executes the ending phase of the fight.
+     *
      * @param keyboard - The keyboard that the user uses
      */
     private void ending(Keyboard keyboard) {
         assert keyboard != null;
-        if (keyboard.get(Keyboard.SPACE).isPressed())
-            end();
+        if (!isPlayingVictorySound) {
+            isPlayingVictorySound = true;
+            try {
+                // Wait for the other sound effects to finish
+                Thread.sleep((long) 5e2);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            gameState.stopAllSounds();
+            gameState.playSound("victory_against_wild_pokemon", AudioPreset.SFX);
+        }
+        if (keyboard.get(Keyboard.SPACE).isPressed()) end();
     }
 
     @Override
@@ -143,8 +246,8 @@ public class ICMonFight extends PauseMenu {
         switch (state) {
             case INTRO -> intro(keyboard);
             case SELECT_ACTION -> selectPlayerAction(keyboard, deltaTime);
-            case EXEC_ACTION -> executePlayerAction();
-            case OPPONENT_ACTION -> executeOpponentAction();
+            case EXEC_ACTION -> executePlayerAction(keyboard);
+            case OPPONENT_ACTION -> executeOpponentAction(keyboard);
             case ENDING -> ending(keyboard);
         }
         // Update the pause menu
@@ -152,7 +255,18 @@ public class ICMonFight extends PauseMenu {
     }
 
     /**
+     * Draws the attack announcement dialog.
+     *
+     * @param name       - The name of entity attacking
+     * @param nextAction - The action to execute for this round
+     */
+    private void drawAttackAnnouncementText(String name, ICMonFightAction nextAction) {
+        drawText(name.toUpperCase() + " uses " + nextAction.name() + "!");
+    }
+
+    /**
      * Utility method to display text on the bottom of the fight screen.
+     *
      * @param message - The message to display
      */
     private void drawText(String message) {
@@ -163,10 +277,12 @@ public class ICMonFight extends PauseMenu {
     @Override
     public void end() {
         state = FightState.FINISHED;
+        gameState.stopAllSounds();
     }
 
     /**
      * Whether there's an ongoing fight or not.
+     *
      * @return true if the fight isn't finished.
      */
     public boolean isRunning() {
@@ -177,11 +293,6 @@ public class ICMonFight extends PauseMenu {
      * Represents the state of the fight at a given time.
      */
     public enum FightState {
-        INTRO,
-        SELECT_ACTION,
-        EXEC_ACTION,
-        OPPONENT_ACTION,
-        ENDING,
-        FINISHED
+        INTRO, SELECT_ACTION, EXEC_ACTION, OPPONENT_ACTION, ENDING, FINISHED
     }
 }
