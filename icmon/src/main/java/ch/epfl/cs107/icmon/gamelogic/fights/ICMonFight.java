@@ -121,11 +121,11 @@ public class ICMonFight extends PauseMenu {
         // Fetch the player choice from the menu
         ICMonFightAction attack = playerActionsMenu.choice();
         if (attack != null) {
-            gameState.playSound("button", AudioPreset.SFX);
             if (trainer != null && attack.name().equals("Run away")) {
                 // Cannot run away during fight with trainer
                 return;
             }
+            gameState.playSound("button", AudioPreset.SFX);
             // Store action for next fight state
             nextPlayerAction = attack;
             // Reset the menu for next turn
