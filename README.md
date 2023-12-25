@@ -1,14 +1,17 @@
-MP2-2023
-========
+<img src=".\icmon\title_illustration.png"/>
+
 # 🎮 Game Description "PokéMaN: Majorez les tous !"
 You are a student in Computer Sciences at EPFL and you have to challenge the league and beat the master to pass the semester and avoid the MàN (Mise à niveau).
 
 ## 🌍 The player can access the following areas:
-    - **Town:** The main area of the village 🏡
-    - **Lab:** Professor Oak's laboratory located north of the town 🧪
-    - **Arena:** The Pokémon arena where the player can battle Pokémon by interacting with them. It is located in the center of the town ⚔️
-    - **Shop:** The store where the Pokémon assistant is located to the east of the village 🏬
-    - **Rolex League:** The unmissable building on the bottom of the map 🏰
+- **Town:** The main area of the village 🏡
+- **Lab:** Professor Oak's laboratory located north of the town 🧪
+- **Arena:** The Pokémon arena where the player can battle Pokémon by interacting with them. It is located in the center of the town ⚔️
+- **Shop:** The store where the Pokémon assistant is located to the east of the village 🏬
+- **Rolex League:** The unmissable building on the bottom of the map 🏰
+
+<img src=".\icmon\src\main\resources\images\backgrounds\town.png"/><br>
+_Fig.1: The town area_
 
 ## 🕹️ *Controls*
 - **Arrow keys:** Movement and selection of actions in combat.
@@ -33,6 +36,8 @@ Garry is in your house; you need to interact with him to start the battle.
 ## 🏰 Enter the Rolex League
 In the Rolex are located four members of the Elite 4 which are represented by our teachers. You need to defeat them all to be able to challenge the master of the league: Mrs. Jamila Sam herself. They are dispatched around the spawn point (you can go through the green and blue walls).
 
+<img src=".\icmon\rolex_illustration.png"/><br>
+
 ## 🎮 End of the game
 The league master stands on the north-east corner of the map. Once you have beaten her, you can go to the next semester and avoid MàN.
 
@@ -40,17 +45,23 @@ The league master stands on the north-east corner of the map. Once you have beat
 
 ## ⚔️ Pokémon Battle
 When you are in battle, you have two action choices:
-    - **Run away:** "RUN AWAY."
-    - **Attack:** You can choose between the attacks of your Pokémon. Note that the power of the attacks, the Attack and Defense stats and the type of each Pokémon are considered in the damages calculation.
+- **Run away:** "RUN AWAY."
+- **Attack:** You can choose between the attacks of your Pokémon. Note that the power of the attacks, the Attack and Defense stats and the type of each Pokémon are considered in the damage calculation.
 
 ## 💉 Heal your Pokémon
 You can interact with the Pokémon assistant in the laboratory to have your Pokémon healed.
 
+<img src=".\icmon\nurse_illustration.png"/>
+
 ## ⚔️ Fight Pokémon in the arena
 Interact with a Pokémon to initiate a battle against it.
 
+<img src=".\icmon\arena_illustration.png"/>
+
 ## ⚔️ Fight Pokémon in tall grass
 When walking in the tall grass you have a chance to be attacked by a random Pokémon from a list of 493.
+
+<img src=".\icmon\fight_illustration.png"/>
 
 ## 🎵 Music
 Background and fight music and sound effects have been added :
