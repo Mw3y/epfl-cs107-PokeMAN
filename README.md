@@ -37,6 +37,7 @@ Garry is in your house; you need to interact with him to start the battle.
 In the Rolex are located four members of the Elite 4 which are represented by our teachers. You need to defeat them all to be able to challenge the master of the league: Mrs. Jamila Sam herself. They are dispatched around the spawn point (you can go through the green and blue walls).
 
 <img src=".\icmon\rolex_illustration.png"/><br>
+_Fig.2: The insides of the Rolex Learning Center_
 
 ## 🎮 End of the game
 The league master stands on the north-east corner of the map. Once you have beaten her, you can go to the next semester and avoid MàN.
@@ -51,17 +52,20 @@ When you are in battle, you have two action choices:
 ## 💉 Heal your Pokémon
 You can interact with the Pokémon assistant in the laboratory to have your Pokémon healed.
 
-<img src=".\icmon\nurse_illustration.png"/>
+<img src=".\icmon\nurse_illustration.png"/><br>
+_Fig.3: The nurse of the PokéCenter_
 
 ## ⚔️ Fight Pokémon in the arena
 Interact with a Pokémon to initiate a battle against it.
 
-<img src=".\icmon\arena_illustration.png"/>
+<img src=".\icmon\arena_illustration.png"/><br>
+_Fig.4: The insides of the Pokémon arena_
 
 ## ⚔️ Fight Pokémon in tall grass
 When walking in the tall grass you have a chance to be attacked by a random Pokémon from a list of 493.
 
-<img src=".\icmon\fight_illustration.png"/>
+<img src=".\icmon\fight_illustration.png"/><br>
+_Fig.5: A fight with a wild Pokémon_
 
 ## 🎵 Music
 Background and fight music and sound effects have been added :
