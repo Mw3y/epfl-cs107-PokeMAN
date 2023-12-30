@@ -19,6 +19,7 @@ import java.awt.event.WindowEvent;
 import java.awt.geom.AffineTransform;
 import java.awt.geom.Path2D;
 import java.awt.image.BufferStrategy;
+import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -461,7 +462,7 @@ public final class SwingWindow extends Node implements Window {
 		if (sound == null) {
 			InputStream input = null;
 			try {
-				input = fileSystem.read(name);
+                input = new BufferedInputStream(fileSystem.read(name));
 				sound = new SwingSound(input);
 			} catch (IOException | UnsupportedAudioFileException e) {
 				// Empty on purpose, will return null as an error
