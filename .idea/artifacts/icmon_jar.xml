@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="icmon:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/icmon_jar</output-path>
+    <root id="archive" name="icmon_jar.jar">
+      <element id="module-output" name="icmon" />
+      <element id="module-output" name="game-engine" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

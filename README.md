@@ -1,6 +1,6 @@
 <img src=".\icmon\title_illustration.png"/>
 
-# 🎮 Game Description "PokéMaN: Majorez les tous !"
+# 🎮 PokéMaN: Majorez les tous !
 You are a student in Computer Sciences at EPFL and you have to challenge the league and beat the master to pass the semester and avoid the MàN (Mise à niveau).
 
 ## 🌍 The player can access the following areas:
@@ -94,5 +94,8 @@ game's functionality.
 Additionally, since the display of Pokémon was initially reversed in the prototype, we took the liberty of modifying
 it so that the player's Pokémon is displayed on its side.
 
+# 📝 Credits
 Made by **Maxence ESPAGNET** and **Balthazar BAILLAT** in December 2023.<br>
+Huge thanks to [Jalyna](https://github.com/Jalyna) for providing the Pokédex data at https://github.com/jalyna/oakdex-pokedex.
+
 This game is based on the game-engine provided by **EPFL**.
