@@ -98,4 +98,7 @@ it so that the player's Pokémon is displayed on its side.
 Made by **Maxence ESPAGNET** and **Balthazar BAILLAT** in December 2023.<br>
 Huge thanks to [Jalyna](https://github.com/Jalyna) for providing the Pokédex data at https://github.com/jalyna/oakdex-pokedex.
 
-This game is based on the game-engine provided by **EPFL**.
+This game is based on the game-engine provided by **EPFL**.<br>
+
+# 📚 Disclaimer
+_Pokémon and Pokémon GO are copyright of The Pokémon Company, Niantic, Inc., and Nintendo. All trademarked images and names are property of their respective owners, and any such material is used on this project for educational purposes only. We have no affiliation with The Pokémon Company, Niantic, Inc., or Nintendo._
