@@ -37,7 +37,7 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Create staging directory and copy jars
-      run: mkdir staging && cp target/*jar-with-dependencies.jar staging
+      run: mkdir staging && cp icmon/target/*jar-with-dependencies.jar staging
 
     - name: Package application
       uses: actions/upload-artifact@v1
